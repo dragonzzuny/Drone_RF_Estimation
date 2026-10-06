@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-06T22:26:25.526935+09:00",
+  "checked_at": "2026-10-06T23:59:32.337265+09:00",
   "controller_status": "FULL_N_MAGNITUDE_RUNNING",
   "process_identities_verified": true,
   "frozen_dependencies_verified": true,
@@ -13,23 +13,23 @@
   },
   "N_magnitude": {
     "stage": "TRAIN",
-    "time": 1791293167.333334,
+    "time": 1791298759.2553558,
     "pid": 854177,
     "arm": "supervised",
-    "epoch": 25,
-    "updates": 1835,
-    "examples": 1120,
+    "epoch": 43,
+    "updates": 3180,
+    "examples": 960,
     "loss_by_kind": {
-      "supervised": 1.2457907314811434,
+      "supervised": 1.1732085787458346,
       "mixit": null
     },
-    "elapsed_seconds": 136.38420161599788
+    "elapsed_seconds": 117.41486435999832
   },
   "N_magnitude_target_epochs": 50,
-  "diverse_drone_training": "NOT_STARTED",
-  "variable_count_training": "NOT_STARTED",
+  "diverse_drone_training": "QUEUED_NOT_STARTED",
+  "variable_count_training": "QUEUED_NOT_STARTED",
   "cpu_power_activity": "COMPLETE_AUDITED",
-  "gpu": "98 %, 3138 MiB, 8188 MiB",
+  "gpu": "100 %, 4914 MiB, 8188 MiB",
   "cpu_temporal_structure": {
     "status": "COMPLETE",
     "training_clips": 249,
@@ -49,5 +49,21 @@
     "separator_trained": false,
     "count_model_trained": false
   },
-  "new_temporal_model_gpu_queue": "NOT_REGISTERED"
+  "new_temporal_model_gpu_queue": "REGISTERED_AFTER_MAGNITUDE_AND_WINDOW_AUDIT",
+  "context_feature_worker": {
+    "status": "WAITING_TRAINING_PROGRESS",
+    "next_epoch": 3,
+    "prepared_through": 2,
+    "time": 1791298771.9014914,
+    "pid": 994669,
+    "gpu_used": false
+  },
+  "context_queue_adoption": {
+    "same_worker_verified": true,
+    "worker_signalled": false,
+    "worker_restarted": false,
+    "native_rf_comparison": "DEFERRED_UNTIL_AFTER_CONTEXT_COMPARISON",
+    "queue_freeze_sha256": "5151741cf6014b2610f0b2eb4a278a43726f020cf54859fab376058b5fc1b5bd",
+    "training_freeze_sha256": "9b3e9e5ee022ba7d406da99f3046a913a4167f077879288e8c32d66ddb05ec27"
+  }
 }

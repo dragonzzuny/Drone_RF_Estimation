@@ -8,6 +8,17 @@ import numpy as np
 from .temporal import power_features
 
 
+def component_gains(powers, levels_db, phases):
+    """Shared long-context gains for both feature preparation and short crops."""
+    powers, levels, phases = (np.asarray(v, dtype=np.float64) for v in (powers, levels_db, phases))
+    if powers.ndim != 1 or not len(powers) or levels.shape != powers.shape or phases.shape != powers.shape:
+        raise ValueError('Matching one-dimensional mixing parameters required')
+    if not np.isfinite(np.r_[powers, levels, phases]).all() or np.any(powers <= 0):
+        raise ValueError('Finite positive powers and finite levels/phases required')
+    weights = 10. ** ((levels - levels.max()) / 10.)
+    return np.sqrt(weights / weights.sum() / powers) * np.exp(1j * phases)
+
+
 def mixture_context_features(mixture, fft_size=1024, bands=64, pool_frames=8):
     """[65,256] features for 2**21 samples with the default geometry.
 
@@ -50,11 +61,7 @@ def contextual_mixture(recordings, powers, levels_db, phases, crop_start,
         raise ValueError('Crop coordinates must be integer sample counts')
     if crop_start < 0 or window_samples < 1 or crop_start + window_samples > shape[0]:
         raise ValueError('Crop outside long mixture')
-    powers, levels, phases = (np.asarray(v, dtype=np.float64) for v in (powers, levels_db, phases))
-    if not np.isfinite(np.r_[powers, levels, phases]).all() or np.any(powers <= 0):
-        raise ValueError('Finite positive powers and finite levels/phases required')
-    weights = 10. ** ((levels - levels.max()) / 10.)
-    gains = np.sqrt(weights / weights.sum() / powers) * np.exp(1j * phases)
+    gains = component_gains(powers, levels_db, phases)
     long_mix = np.zeros(shape, dtype=np.complex64)
     references = np.zeros((3, window_samples), dtype=np.complex64)
     region = slice(crop_start, crop_start + window_samples)

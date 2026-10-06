@@ -117,9 +117,10 @@ class ContextualSeparator(ComplexSeparator):
             raise ValueError('Expected mixture-only long context [B,features,tokens]')
         if not torch.isfinite(context_features).all():
             raise ValueError('Nonfinite context features')
-        # A centered STFT's final frame must be inside the supplied long view.
+        # When length is hop-divisible, center=True includes a final frame
+        # centered exactly on the right sample boundary (reflect padded).
         end = crop_start + (z.shape[-1] - 1) * self.fine_hop
-        if torch.any(end >= context_features.shape[-1] * self.context_step):
+        if torch.any(end > context_features.shape[-1] * self.context_step):
             raise ValueError('Fine window lies outside its long context')
         if self.context_mode == 'mean':
             context_features = context_features.mean(-1, keepdim=True).expand_as(context_features)

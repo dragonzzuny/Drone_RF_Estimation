@@ -1,0 +1,115 @@
+{
+  "status": "PINNED_SYNTHETIC_COMPONENT_EXPERIMENT",
+  "time": 1791297033.4969778,
+  "seed": 0,
+  "manifest_sha256": "dba2aa3f1c9a1a16c60bb0b040e537ef41a22d1a6ba4202ecf11a9af3d702236",
+  "epochs": 50,
+  "examples_per_epoch": 2400,
+  "effective_batch": 32,
+  "updates_per_epoch": 75,
+  "updates_per_arm": 3750,
+  "validation_examples": 630,
+  "window_samples": 63872,
+  "context_samples": 2097152,
+  "fs_hz": 100000000,
+  "nfft": 512,
+  "hop": 128,
+  "stft_center": true,
+  "stft_window": "sqrt_periodic_hann",
+  "arms": [
+    "ordered",
+    "mean"
+  ],
+  "context_kind": "tcn",
+  "optimizer": "AdamW",
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "gradient_clip_norm": 1.0,
+  "construction_count_loss_weight": 0.1,
+  "precision": "float32",
+  "microbatch": 1,
+  "checkpoints": [
+    5,
+    10,
+    25,
+    50
+  ],
+  "validation_every_epochs": 1,
+  "selection": "minimum equally-count-weighted active component validation NMSE; include epoch0",
+  "count_target": "number_of_synthetically_added_recorded_components_NOT_physical_aircraft",
+  "physical_count_eligible": false,
+  "same_category_multiple_aircraft": false,
+  "split_claim": "original-pack-disjoint development; validation bandwidth differs; not independent dates",
+  "transmitter_claim": "aircraft-labeled recording folders; no proof of airframe-only emission",
+  "controller_classes_excluded": true,
+  "heldout_models_read": false,
+  "mini3_pairing": "unique XML in directory; pack1 XML / pack2 IQ discrepancy retained",
+  "power_normalization": "per long component, then crop; candidate, not established improvement",
+  "files": {
+    "TRAIN.npy": "81adb5e2078b2371ee53c823327d2cd20ae953bfdc6909dba358b7c51ce1cb75",
+    "VALIDATION.npy": "301dff9805628650ba9cef073a169b36f961ac08bcb0031569b35893eb018858"
+  },
+  "feature_sources": {
+    "context_data.py": "97886c6accb9e228b85b6fda7efb76cea8e4b4a75e5420c39b115dcf65281268",
+    "temporal.py": "47c237184e31050706abefd0bc91bce80c1492866f5c26e0e9333fe1712da253"
+  },
+  "authorizes": "bounded development comparison under explicitly limited source/count/split claims",
+  "gpu_training_started": false,
+  "current_status": "GPU_QUEUED_CPU_FIRST_TWO_EPOCHS_READY",
+  "cpu_tests_passed": 43,
+  "queue_adoption": {
+    "same_worker_verified": true,
+    "worker_signalled": false,
+    "worker_restarted": false,
+    "native_rf_comparison": "DEFERRED_UNTIL_AFTER_CONTEXT_COMPARISON",
+    "queue_freeze_sha256": "5151741cf6014b2610f0b2eb4a278a43726f020cf54859fab376058b5fc1b5bd",
+    "training_freeze_sha256": "9b3e9e5ee022ba7d406da99f3046a913a4167f077879288e8c32d66ddb05ec27"
+  },
+  "feature_receipts": {
+    "validation_pack_001.json": {
+      "status": "FEATURES_READY",
+      "role": "validation_pack",
+      "epoch": 1,
+      "rows_sha256": "37a6f16bc81f2da8d6616bc6a6450ac642e78b10cea76a299a53c457d641210a",
+      "feature_sha256": "dfc6c61b1d85d2d73247cc8e89a3b385005c51bc13c934c731efa30abfc1f296",
+      "count": 630,
+      "checked_source_clips": 144,
+      "max_mixture_replay_error": 0.0,
+      "elapsed_seconds": 98.57775020599365,
+      "feature_sources": {
+        "context_data.py": "97886c6accb9e228b85b6fda7efb76cea8e4b4a75e5420c39b115dcf65281268",
+        "temporal.py": "47c237184e31050706abefd0bc91bce80c1492866f5c26e0e9333fe1712da253"
+      }
+    },
+    "train_pack_001.json": {
+      "status": "FEATURES_READY",
+      "role": "train_pack",
+      "epoch": 1,
+      "rows_sha256": "0d62f11e5a86e94f79f05dc55a422ce168d7d4bb4d93088745831b4f15898a10",
+      "feature_sha256": "87bce07768c180effbc54262b7258da7d00310edc8495836d8d4e80fe8ed4f44",
+      "count": 2400,
+      "checked_source_clips": 249,
+      "max_mixture_replay_error": 0.0,
+      "elapsed_seconds": 388.6718294620514,
+      "feature_sources": {
+        "context_data.py": "97886c6accb9e228b85b6fda7efb76cea8e4b4a75e5420c39b115dcf65281268",
+        "temporal.py": "47c237184e31050706abefd0bc91bce80c1492866f5c26e0e9333fe1712da253"
+      }
+    },
+    "train_pack_002.json": {
+      "status": "FEATURES_READY",
+      "role": "train_pack",
+      "epoch": 2,
+      "rows_sha256": "3d39f17698c233bae13e9c70e55a065d306c168a40adecff7cb4f727192f752e",
+      "feature_sha256": "386ca71be700bee9399a0955fbfdd84fce4fa7c6cf3bd66aa39faf46a19b08ca",
+      "count": 2400,
+      "checked_source_clips": 249,
+      "max_mixture_replay_error": 0.0,
+      "elapsed_seconds": 384.102507352829,
+      "feature_sources": {
+        "context_data.py": "97886c6accb9e228b85b6fda7efb76cea8e4b4a75e5420c39b115dcf65281268",
+        "temporal.py": "47c237184e31050706abefd0bc91bce80c1492866f5c26e0e9333fe1712da253"
+      }
+    }
+  }
+}

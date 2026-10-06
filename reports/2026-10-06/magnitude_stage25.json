@@ -1,0 +1,158 @@
+{
+  "status": "MATCHED_MAGNITUDE_STAGE_WAVEFORMS_AUDITED",
+  "time": 1791298387.6585088,
+  "epoch_budget": 25,
+  "updates_per_arm": 1875,
+  "selected_epochs": [
+    22,
+    22
+  ],
+  "parent_checkpoint_sha256": "882ba885b9e8c8b25a7a77d505180e7dabbbde8faf6e26df7889b138875ed50b",
+  "baseline": {
+    "overall_nmse": 0.42919882448545,
+    "reported_pit_nmse": 0.42919882448545,
+    "both_sources_positive_si_gain": 9,
+    "weak": {
+      "air": {
+        "cases": 4,
+        "nmse": 0.7621640664875109,
+        "si_sdr_db": -3.924920307623909,
+        "all_si_sdr_finite": true
+      },
+      "mavic3": {
+        "cases": 4,
+        "nmse": 0.832216348174582,
+        "si_sdr_db": -3.724885475833364,
+        "all_si_sdr_finite": true
+      }
+    }
+  },
+  "magnitude": {
+    "overall_nmse": 0.38915329678332944,
+    "reported_pit_nmse": 0.38915329678332944,
+    "both_sources_positive_si_gain": 12,
+    "weak": {
+      "air": {
+        "cases": 4,
+        "nmse": 0.6696178383622454,
+        "si_sdr_db": -2.567211117793089,
+        "all_si_sdr_finite": true
+      },
+      "mavic3": {
+        "cases": 4,
+        "nmse": 0.7967855333751439,
+        "si_sdr_db": -3.635852069422687,
+        "all_si_sdr_finite": true
+      }
+    }
+  },
+  "relative_nmse_change_percent": -9.330297619088213,
+  "cases": [
+    {
+      "case_id": "D1_air2_mavic3_+0_0",
+      "baseline_nmse": 0.4436795490782945,
+      "magnitude_nmse": 0.3330999324565288
+    },
+    {
+      "case_id": "D1_air2_mavic3_+0_1",
+      "baseline_nmse": 0.3267263310812744,
+      "magnitude_nmse": 0.3236834654434206
+    },
+    {
+      "case_id": "D1_air2_mavic3_+10_0",
+      "baseline_nmse": 0.37605835924007774,
+      "magnitude_nmse": 0.379704921582048
+    },
+    {
+      "case_id": "D1_air2_mavic3_+10_1",
+      "baseline_nmse": 0.39876453647316623,
+      "magnitude_nmse": 0.39662168834107253
+    },
+    {
+      "case_id": "D1_air2_mavic3_-10_0",
+      "baseline_nmse": 0.5156267978727497,
+      "magnitude_nmse": 0.40992078572531815
+    },
+    {
+      "case_id": "D1_air2_mavic3_-10_1",
+      "baseline_nmse": 0.29260656313775,
+      "magnitude_nmse": 0.3260138499412726
+    },
+    {
+      "case_id": "D1_air2s_mavic3_+0_0",
+      "baseline_nmse": 0.4972614276203242,
+      "magnitude_nmse": 0.39100491769901113
+    },
+    {
+      "case_id": "D1_air2s_mavic3_+0_1",
+      "baseline_nmse": 0.37508167377632706,
+      "magnitude_nmse": 0.3959638279671423
+    },
+    {
+      "case_id": "D1_air2s_mavic3_+10_0",
+      "baseline_nmse": 0.4779513421114726,
+      "magnitude_nmse": 0.45229624744304725
+    },
+    {
+      "case_id": "D1_air2s_mavic3_+10_1",
+      "baseline_nmse": 0.5781017281729114,
+      "magnitude_nmse": 0.5243053160744334
+    },
+    {
+      "case_id": "D1_air2s_mavic3_-10_0",
+      "baseline_nmse": 0.565165868951307,
+      "magnitude_nmse": 0.4027206576857835
+    },
+    {
+      "case_id": "D1_air2s_mavic3_-10_1",
+      "baseline_nmse": 0.30336171630974496,
+      "magnitude_nmse": 0.33450395104087527
+    }
+  ],
+  "saved_outputs_replayed": 24,
+  "max_nmse_replay_error": 6.128431095930864e-14,
+  "max_si_sdr_replay_error": 1.5987211554602254e-13,
+  "output_sha256": {
+    "0/D1_air2_mavic3_+0_0": "828ace4f440b58bbbd95400f34913c64da97a5677428b3e8d5ee03507a12cf02",
+    "0/D1_air2_mavic3_+0_1": "e02cfa73daae23de4771583c627c87c4c464b8e9a8795601d6d49bf768ffee48",
+    "0/D1_air2_mavic3_+10_0": "cc6bdd1cd661b8b78cb7af2826e89d70c94738e728f5e0e18aacd551dabd3b11",
+    "0/D1_air2_mavic3_+10_1": "399f67708aac2c2bd26f2d295c1e2b1e4abc814aff218c3a1d8c9ab3669c98b3",
+    "0/D1_air2_mavic3_-10_0": "4cf98bc83a04d353f66afcded1fd83af08828dd41b0ba2027ed9c25ac839c33a",
+    "0/D1_air2_mavic3_-10_1": "a7b0b0fc6435cf3342f0c02814e897694fd359e9165cb008beb4efd128be3838",
+    "0/D1_air2s_mavic3_+0_0": "cd5af0395611a0a13df3a8f83833c54ad7fd739cb110ef62b5df9d6e5c9c2d79",
+    "0/D1_air2s_mavic3_+0_1": "327f22696239d49554f618a818024a63be1158ca1aae005e3d527e7359ae289a",
+    "0/D1_air2s_mavic3_+10_0": "e5a0aa31fbd7c12c43abebabbaf2bb982355744f1e5078a52dafeb93b5aa7f5a",
+    "0/D1_air2s_mavic3_+10_1": "75efdbd6ea2f9e38bb80642a296b7a8a0ff2afdfebeebe875e29aa398e3fd5b6",
+    "0/D1_air2s_mavic3_-10_0": "ff19dde869931444a32fa095b62b585e5d0ad16706ae8995012a49ad2d4e4411",
+    "0/D1_air2s_mavic3_-10_1": "bac86708d711a00ca54f2d42642e7c5001bb4b7a3da162e62352d7a5304e358c",
+    "1/D1_air2_mavic3_+0_0": "11a100b23eeef700146de66fe0afcb14f39913d0f102ce7617f44f609df40507",
+    "1/D1_air2_mavic3_+0_1": "2c9d3703943baba2394983e3459165dbd42833b8ae9f37a96da95dfc1cfa3115",
+    "1/D1_air2_mavic3_+10_0": "03054d3f9301146c1555382f6ab22395a6a70f9cedde3ca90dead1ffbaaf32e3",
+    "1/D1_air2_mavic3_+10_1": "b92b690afb95e70b787ed1590b96da612fe24b424f6e18fb08c1a21779487bd6",
+    "1/D1_air2_mavic3_-10_0": "ae3ad0ac79284335700d156af7eda0d63dc8b3168f009c7cc75269b739b8d3ca",
+    "1/D1_air2_mavic3_-10_1": "d2126e8d2d65948416e6cc110fbdae75fc39d85b88e5fcb3aa956eeecedce486",
+    "1/D1_air2s_mavic3_+0_0": "229d104dbc7e9836fad901cfd57cc661a5243d3aa2ee3410e44cc718deea3063",
+    "1/D1_air2s_mavic3_+0_1": "7554801cc54f8915077927aa950b8967afd04c5a8667efe71e2d2f11999983b3",
+    "1/D1_air2s_mavic3_+10_0": "dc1e87c844aca2982c35d8eeb5665e330393c4fcdc865ebe507aa0d6d364abab",
+    "1/D1_air2s_mavic3_+10_1": "fb251e02cdea11e81b1ff2f7ce501ee0a578898f838e3cd9e92ec3a3c926407a",
+    "1/D1_air2s_mavic3_-10_0": "c79491d0f043508d6cc1a885a458a03192ac3ebcb63073b446a580b465b5c971",
+    "1/D1_air2s_mavic3_-10_1": "3d3304361762cfc7ee8579d621a44d5e3da720df9c5feff3ffde008b4425ae72"
+  },
+  "reference_cache_sha256": {
+    "0_110000000.npy": "0434c1ef1070bd65315d5210c1fbe58852a93b422e0a009423fc987a4b45ef27",
+    "0_125000000.npy": "a095d6de0767d0ca84b60dc07f0b4e507765fa0e957e06f3244d9ad782afefd6",
+    "3_110000000.npy": "1206e0f0fd6f26294c6e554c056d53ba0f9821c9166a3db8d1079c2ba401e994",
+    "3_125000000.npy": "a3fcf66f816bd01d6f23fdd5480adfcd4c566abdb5f75dcc7c264541f098eabc",
+    "2_110000000.npy": "92de328091246e44bc7d6d8964d6379829566234ad097aa0fadecb5de7dca70b",
+    "2_125000000.npy": "e11bf41ae1684b365cadf51c4844cdda9ebf78e0e7cf7b0ff7e32af5141dd574"
+  },
+  "verifier_sha256": "434009c84d021b481a50a00624382f8fe0b437e0fa85298f587243b8e7868ac6",
+  "script_sha256": "ee307a19127b150d299e74432fd786ccc57cec30a5f503d13efb96c5dc3fdaed",
+  "elapsed_seconds": 14.98531460762024,
+  "gpu_used": false,
+  "independent_confirmation": false,
+  "dataset": "DRFF-R2 D1 repeatedly used development evaluation; 12 synthetic mixtures",
+  "final_50_epoch_conclusion": false,
+  "amplitude_metric_audit_included": false,
+  "single_source_control_audit_included": false
+}

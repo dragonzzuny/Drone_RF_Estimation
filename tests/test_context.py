@@ -129,6 +129,10 @@ class ContextChecks(unittest.TestCase):
             model.context_projection.weight.zero_()
             unconditioned = model(z, context, torch.tensor([100000]))['estimates']
             torch.testing.assert_close(unconditioned, plain(z), atol=0, rtol=0)
+            # A crop ending exactly at the long-record boundary is legal;
+            # center=True reflects its final STFT frame at that boundary.
+            boundary = model(z, context, torch.tensor([2097152 - 4096]))['estimates']
+            torch.testing.assert_close(boundary, plain(z), atol=0, rtol=0)
         with self.assertRaisesRegex(ValueError, 'outside'):
             model(z, context, torch.tensor([2097100]))
 
