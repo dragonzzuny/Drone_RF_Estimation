@@ -1,0 +1,1198 @@
+{
+  "schema": "drone_rf.within_dataset_selection.v3",
+  "time": 1791304301.0503066,
+  "seed": 0,
+  "status": "WITHIN_DATASET_SAME_BAND_SELECTION_FROZEN",
+  "supersedes": "v1 pooled candidates and v2 metadata carrying an obsolete global resampling rate",
+  "reason": "User requires one dataset per experiment to reduce receiver-confounded separation",
+  "parent_selection_sha256": "3e4e8bc553433bf6669889ce032fa3e7199009f5505a78d61367b8e757718ae1",
+  "parent_seal": {
+    "time": 1791303399.6083317,
+    "files": {
+      "DRONEDETECT_ROLES.json": "c1597b369f578ffb33544a6daefdfca4a22688bf136d8a48fcc95ffca8e87a83",
+      "RFUAV_EXISTING_ROLES.json": "ec6af132a503889ff4a5dfc58f88c9746cd4b1f7d3e6613f1d93622b11ff9092",
+      "SELECTION.json": "3e4e8bc553433bf6669889ce032fa3e7199009f5505a78d61367b8e757718ae1"
+    },
+    "source_sha256": "4fd75ecdf700187906fbc9210ab41cc4b4f3a2bb4a208b1153e2aceaac71f888"
+  },
+  "primary_dataset": "RFUAV",
+  "cross_dataset_synthesis": false,
+  "pooled_training": false,
+  "preserve_native_sample_rate": true,
+  "no_cross_band_primary_mixtures": true,
+  "original_rf_center_offsets_preserved": false,
+  "placement": "center-aligned synthetic mixtures within the original dataset and RF band",
+  "same_band_does_not_prove_overlap": true,
+  "experiments": [
+    {
+      "dataset": "RFUAV",
+      "priority": "primary",
+      "joint_training": false,
+      "shared_weights_across_datasets": false,
+      "new_gpu_training_started": false,
+      "native_sample_rate_hz": 100000000,
+      "source_roles_inherited_without_changes": true,
+      "required_before_execution": [
+        "frozen native-IQ loader",
+        "same-budget GPU preflight"
+      ],
+      "primary_count_is_recorded_components_not_physical_aircraft": true,
+      "training_classes": [
+        {
+          "sources": [
+            "RFUAV:DJI AVATA2"
+          ],
+          "count": 1,
+          "rf_band": "5.8GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "RFUAV:DJI FPV COMBO"
+          ],
+          "count": 1,
+          "rf_band": "5.8GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "RFUAV:DJI MAVIC3 PRO"
+          ],
+          "count": 1,
+          "rf_band": "5.8GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "RFUAV:DJI MINI3"
+          ],
+          "count": 1,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "RFUAV:DJI MINI4 PRO"
+          ],
+          "count": 1,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "RFUAV:DJI AVATA2",
+            "RFUAV:DJI FPV COMBO"
+          ],
+          "count": 2,
+          "rf_band": "5.8GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "RFUAV:DJI AVATA2",
+            "RFUAV:DJI MAVIC3 PRO"
+          ],
+          "count": 2,
+          "rf_band": "5.8GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "RFUAV:DJI FPV COMBO",
+            "RFUAV:DJI MAVIC3 PRO"
+          ],
+          "count": 2,
+          "rf_band": "5.8GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "RFUAV:DJI MINI3",
+            "RFUAV:DJI MINI4 PRO"
+          ],
+          "count": 2,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "RFUAV:DJI AVATA2",
+            "RFUAV:DJI FPV COMBO",
+            "RFUAV:DJI MAVIC3 PRO"
+          ],
+          "count": 3,
+          "rf_band": "5.8GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        }
+      ],
+      "withheld_combination_classes": [],
+      "unknown_type_classes": [
+        {
+          "sources": [
+            "RFUAV:DAUTEL EVO NANO"
+          ],
+          "count": 1,
+          "rf_band": "5.8GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "RFUAV:DAUTEL EVO NANO",
+            "RFUAV:DJI AVATA2"
+          ],
+          "count": 2,
+          "rf_band": "5.8GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "RFUAV:DAUTEL EVO NANO",
+            "RFUAV:DJI FPV COMBO"
+          ],
+          "count": 2,
+          "rf_band": "5.8GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "RFUAV:DAUTEL EVO NANO",
+            "RFUAV:DJI MAVIC3 PRO"
+          ],
+          "count": 2,
+          "rf_band": "5.8GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "RFUAV:DAUTEL EVO NANO",
+            "RFUAV:DJI AVATA2",
+            "RFUAV:DJI FPV COMBO"
+          ],
+          "count": 3,
+          "rf_band": "5.8GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "RFUAV:DAUTEL EVO NANO",
+            "RFUAV:DJI AVATA2",
+            "RFUAV:DJI MAVIC3 PRO"
+          ],
+          "count": 3,
+          "rf_band": "5.8GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "RFUAV:DAUTEL EVO NANO",
+            "RFUAV:DJI FPV COMBO",
+            "RFUAV:DJI MAVIC3 PRO"
+          ],
+          "count": 3,
+          "rf_band": "5.8GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        }
+      ],
+      "class_counts": {
+        "training_classes": {
+          "1": 5,
+          "2": 4,
+          "3": 1
+        },
+        "withheld_combination_classes": {},
+        "unknown_type_classes": {
+          "1": 1,
+          "2": 3,
+          "3": 3
+        }
+      }
+    },
+    {
+      "dataset": "DroneDetect_V2",
+      "priority": "independent_supplementary_candidate",
+      "joint_training": false,
+      "shared_weights_across_datasets": false,
+      "new_gpu_training_started": false,
+      "native_sample_rate_hz": 60000000,
+      "source_roles_inherited_without_changes": true,
+      "required_before_execution": [
+        "frozen native-IQ loader",
+        "same-budget GPU preflight",
+        "DC/variable-component audit",
+        "physical-time context geometry at native rate",
+        "transmitter provenance review"
+      ],
+      "primary_count_is_recorded_components_not_physical_aircraft": true,
+      "training_classes": [
+        {
+          "sources": [
+            "DroneDetect:AIR"
+          ],
+          "count": 1,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:INS"
+          ],
+          "count": 1,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:MIN"
+          ],
+          "count": 1,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:MP1"
+          ],
+          "count": 1,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:MP2"
+          ],
+          "count": 1,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:PHA"
+          ],
+          "count": 1,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:AIR",
+            "DroneDetect:INS"
+          ],
+          "count": 2,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:AIR",
+            "DroneDetect:MIN"
+          ],
+          "count": 2,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:AIR",
+            "DroneDetect:MP1"
+          ],
+          "count": 2,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:AIR",
+            "DroneDetect:MP2"
+          ],
+          "count": 2,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:AIR",
+            "DroneDetect:PHA"
+          ],
+          "count": 2,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:INS",
+            "DroneDetect:MIN"
+          ],
+          "count": 2,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:INS",
+            "DroneDetect:MP1"
+          ],
+          "count": 2,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:INS",
+            "DroneDetect:MP2"
+          ],
+          "count": 2,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:INS",
+            "DroneDetect:PHA"
+          ],
+          "count": 2,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:MIN",
+            "DroneDetect:MP1"
+          ],
+          "count": 2,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:MIN",
+            "DroneDetect:MP2"
+          ],
+          "count": 2,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:MIN",
+            "DroneDetect:PHA"
+          ],
+          "count": 2,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:MP1",
+            "DroneDetect:PHA"
+          ],
+          "count": 2,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:MP2",
+            "DroneDetect:PHA"
+          ],
+          "count": 2,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:AIR",
+            "DroneDetect:INS",
+            "DroneDetect:MIN"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:AIR",
+            "DroneDetect:INS",
+            "DroneDetect:MP1"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:AIR",
+            "DroneDetect:INS",
+            "DroneDetect:MP2"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:AIR",
+            "DroneDetect:INS",
+            "DroneDetect:PHA"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:AIR",
+            "DroneDetect:MIN",
+            "DroneDetect:MP1"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:AIR",
+            "DroneDetect:MIN",
+            "DroneDetect:MP2"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:AIR",
+            "DroneDetect:MIN",
+            "DroneDetect:PHA"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:AIR",
+            "DroneDetect:MP1",
+            "DroneDetect:PHA"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:AIR",
+            "DroneDetect:MP2",
+            "DroneDetect:PHA"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:INS",
+            "DroneDetect:MIN",
+            "DroneDetect:MP1"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:INS",
+            "DroneDetect:MIN",
+            "DroneDetect:MP2"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:INS",
+            "DroneDetect:MIN",
+            "DroneDetect:PHA"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:INS",
+            "DroneDetect:MP1",
+            "DroneDetect:PHA"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:INS",
+            "DroneDetect:MP2",
+            "DroneDetect:PHA"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:MIN",
+            "DroneDetect:MP1",
+            "DroneDetect:PHA"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:MIN",
+            "DroneDetect:MP2",
+            "DroneDetect:PHA"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        }
+      ],
+      "withheld_combination_classes": [
+        {
+          "sources": [
+            "DroneDetect:MP1",
+            "DroneDetect:MP2"
+          ],
+          "count": 2,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:AIR",
+            "DroneDetect:MP1",
+            "DroneDetect:MP2"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:INS",
+            "DroneDetect:MP1",
+            "DroneDetect:MP2"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:MIN",
+            "DroneDetect:MP1",
+            "DroneDetect:MP2"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        },
+        {
+          "sources": [
+            "DroneDetect:MP1",
+            "DroneDetect:MP2",
+            "DroneDetect:PHA"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "placement": "center_aligned_same_ism_band_synthetic",
+          "actual_simultaneous_capture": false
+        }
+      ],
+      "unknown_type_classes": [
+        {
+          "sources": [
+            "DroneDetect:DIS"
+          ],
+          "count": 1,
+          "rf_band": "2.4GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "DroneDetect:DIS",
+            "DroneDetect:AIR"
+          ],
+          "count": 2,
+          "rf_band": "2.4GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "DroneDetect:DIS",
+            "DroneDetect:INS"
+          ],
+          "count": 2,
+          "rf_band": "2.4GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "DroneDetect:DIS",
+            "DroneDetect:MIN"
+          ],
+          "count": 2,
+          "rf_band": "2.4GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "DroneDetect:DIS",
+            "DroneDetect:MP1"
+          ],
+          "count": 2,
+          "rf_band": "2.4GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "DroneDetect:DIS",
+            "DroneDetect:MP2"
+          ],
+          "count": 2,
+          "rf_band": "2.4GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "DroneDetect:DIS",
+            "DroneDetect:PHA"
+          ],
+          "count": 2,
+          "rf_band": "2.4GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "DroneDetect:DIS",
+            "DroneDetect:AIR",
+            "DroneDetect:INS"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "DroneDetect:DIS",
+            "DroneDetect:AIR",
+            "DroneDetect:MIN"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "DroneDetect:DIS",
+            "DroneDetect:AIR",
+            "DroneDetect:MP1"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "DroneDetect:DIS",
+            "DroneDetect:AIR",
+            "DroneDetect:MP2"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "DroneDetect:DIS",
+            "DroneDetect:AIR",
+            "DroneDetect:PHA"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "DroneDetect:DIS",
+            "DroneDetect:INS",
+            "DroneDetect:MIN"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "DroneDetect:DIS",
+            "DroneDetect:INS",
+            "DroneDetect:MP1"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "DroneDetect:DIS",
+            "DroneDetect:INS",
+            "DroneDetect:MP2"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "DroneDetect:DIS",
+            "DroneDetect:INS",
+            "DroneDetect:PHA"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "DroneDetect:DIS",
+            "DroneDetect:MIN",
+            "DroneDetect:MP1"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "DroneDetect:DIS",
+            "DroneDetect:MIN",
+            "DroneDetect:MP2"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "DroneDetect:DIS",
+            "DroneDetect:MIN",
+            "DroneDetect:PHA"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "DroneDetect:DIS",
+            "DroneDetect:MP1",
+            "DroneDetect:MP2"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "withheld_pair_also_present": true,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "DroneDetect:DIS",
+            "DroneDetect:MP1",
+            "DroneDetect:PHA"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        },
+        {
+          "sources": [
+            "DroneDetect:DIS",
+            "DroneDetect:MP2",
+            "DroneDetect:PHA"
+          ],
+          "count": 3,
+          "rf_band": "2.4GHz",
+          "withheld_pair_also_present": false,
+          "placement": "center_aligned_same_ism_band_synthetic"
+        }
+      ],
+      "class_counts": {
+        "training_classes": {
+          "1": 6,
+          "2": 14,
+          "3": 16
+        },
+        "withheld_combination_classes": {
+          "2": 1,
+          "3": 4
+        },
+        "unknown_type_classes": {
+          "1": 1,
+          "2": 6,
+          "3": 15
+        }
+      }
+    }
+  ],
+  "removed_cross_dataset_classes": {
+    "training_classes": 46,
+    "withheld_combination_classes": 2,
+    "unknown_type_classes": 15
+  },
+  "rf_receiver_metadata": [
+    {
+      "pack_id": "DAUTEL EVO NANO/DAUTEL EVO NANO/pack1.xml",
+      "xml_sha256": "42d0da5f93224bc24b4683b811d36f54b76ac41b8cf9c3737237396bb84449cb",
+      "role": "heldout_model_not_for_selection",
+      "device_type": "USRPX310",
+      "fs_hz": 100000000.0,
+      "center_hz": 5770000000.0,
+      "if_bandwidth_hz": 100000000.0,
+      "scale_factor": "90",
+      "reference_snr_level": "34",
+      "receiver_serial_verified": false
+    },
+    {
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1.xml",
+      "xml_sha256": "6f0d274ee25e05c7eb9bd044ab2c304bf802e4566583e6135f91e87127ae6bb8",
+      "role": "train_pack",
+      "device_type": "USRPX310",
+      "fs_hz": 100000000.0,
+      "center_hz": 5760000000.0,
+      "if_bandwidth_hz": 100000000.0,
+      "scale_factor": "90",
+      "reference_snr_level": "9",
+      "receiver_serial_verified": false
+    },
+    {
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=20/pack2.xml",
+      "xml_sha256": "32272f23452d6b29cd07ef9601a4d8755db5e000303d660983677553c181c0b4",
+      "role": "validation_pack",
+      "device_type": "USRPX310",
+      "fs_hz": 100000000.0,
+      "center_hz": 5765000000.0,
+      "if_bandwidth_hz": 100000000.0,
+      "scale_factor": "85",
+      "reference_snr_level": "2",
+      "receiver_serial_verified": false
+    },
+    {
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+      "xml_sha256": "e3d4a998d879680e0e7f788ff0a7e395a9b1638b4a92be73de1de36ecfe12908",
+      "role": "train_pack",
+      "device_type": "USRPX310",
+      "fs_hz": 100000000.0,
+      "center_hz": 5760000000.0,
+      "if_bandwidth_hz": 100000000.0,
+      "scale_factor": "85",
+      "reference_snr_level": "23",
+      "receiver_serial_verified": false
+    },
+    {
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+      "xml_sha256": "c0a662f31384296fbff8726cdaddd2f7c9ce05966b9524e9036f6a6933205421",
+      "role": "train_pack",
+      "device_type": "USRPX310",
+      "fs_hz": 100000000.0,
+      "center_hz": 5760000000.0,
+      "if_bandwidth_hz": 100000000.0,
+      "scale_factor": "85",
+      "reference_snr_level": "1",
+      "receiver_serial_verified": false
+    },
+    {
+      "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+      "xml_sha256": "82c68283291c907adf4801f3567a17f05cda75ed069ab47addb1f71e0491cab3",
+      "role": "train_pack",
+      "device_type": "USRPX310",
+      "fs_hz": 100000000.0,
+      "center_hz": 5760000000.0,
+      "if_bandwidth_hz": 100000000.0,
+      "scale_factor": "90",
+      "reference_snr_level": "32",
+      "receiver_serial_verified": false
+    },
+    {
+      "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=20/pack3.xml",
+      "xml_sha256": "390d972a8666d5fa5450b1c284fed6592d96893d926c470c82605011c0dd2a03",
+      "role": "validation_pack",
+      "device_type": "USRPX310",
+      "fs_hz": 100000000.0,
+      "center_hz": 5760000000.0,
+      "if_bandwidth_hz": 100000000.0,
+      "scale_factor": "90",
+      "reference_snr_level": "20",
+      "receiver_serial_verified": false
+    },
+    {
+      "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+      "xml_sha256": "19f861ded9ec4c01569c1fcfc60ea2e75ae4afd0c5b683bef0034ca34410f5cf",
+      "role": "train_pack",
+      "device_type": "USRPX310",
+      "fs_hz": 100000000.0,
+      "center_hz": 5760000000.0,
+      "if_bandwidth_hz": 100000000.0,
+      "scale_factor": "90",
+      "reference_snr_level": "30",
+      "receiver_serial_verified": false
+    },
+    {
+      "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+      "xml_sha256": "fef7ddd1c0a78b6239564524d3eb274f4bd9e4a1747cf9d1a009d4b0e0d8c89f",
+      "role": "train_pack",
+      "device_type": "USRPX310",
+      "fs_hz": 100000000.0,
+      "center_hz": 5800000000.0,
+      "if_bandwidth_hz": 100000000.0,
+      "scale_factor": "90",
+      "reference_snr_level": "22",
+      "receiver_serial_verified": false
+    },
+    {
+      "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=20/pack2.xml",
+      "xml_sha256": "d203624091348476c42f1faa40a6b36f4c3a6e181172048e8b1a7d28374cc671",
+      "role": "validation_pack",
+      "device_type": "USRPX310",
+      "fs_hz": 100000000.0,
+      "center_hz": 5800000000.0,
+      "if_bandwidth_hz": 100000000.0,
+      "scale_factor": "90",
+      "reference_snr_level": "6",
+      "receiver_serial_verified": false
+    },
+    {
+      "pack_id": "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml",
+      "xml_sha256": "9729dfe6357306676c68d67034bbde8f54d097d92c2e2f67bcad6f802ffa3552",
+      "role": "train_pack",
+      "device_type": "USRPX310",
+      "fs_hz": 100000000.0,
+      "center_hz": 2470000000.0,
+      "if_bandwidth_hz": 100000000.0,
+      "scale_factor": "60",
+      "reference_snr_level": "21",
+      "receiver_serial_verified": false
+    },
+    {
+      "pack_id": "DJI MINI3/DJI MINI3/VTSBW=20/pack2.xml",
+      "xml_sha256": "a3195adbebb5423c90a6814c81169b621d8986cd6044e4caf46bb169cc7f581c",
+      "role": "validation_pack",
+      "device_type": "USRPX310",
+      "fs_hz": 100000000.0,
+      "center_hz": 2470000000.0,
+      "if_bandwidth_hz": 100000000.0,
+      "scale_factor": "60",
+      "reference_snr_level": "36",
+      "receiver_serial_verified": false
+    },
+    {
+      "pack_id": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml",
+      "xml_sha256": "82c32341a2199b4facdb9361cca4faaf1f9d5197a1ecf6e640c5d24d1754e365",
+      "role": "train_pack",
+      "device_type": "USRPX310",
+      "fs_hz": 100000000.0,
+      "center_hz": 2450000000.0,
+      "if_bandwidth_hz": 100000000.0,
+      "scale_factor": "60",
+      "reference_snr_level": "29",
+      "receiver_serial_verified": false
+    },
+    {
+      "pack_id": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=20/pack2.xml",
+      "xml_sha256": "730867ecd8b9c5cf29420c09d643ccf1e466ac8476cca858c257de125c4f052f",
+      "role": "validation_pack",
+      "device_type": "USRPX310",
+      "fs_hz": 100000000.0,
+      "center_hz": 2450000000.0,
+      "if_bandwidth_hz": 100000000.0,
+      "scale_factor": "60",
+      "reference_snr_level": "31",
+      "receiver_serial_verified": false
+    }
+  ],
+  "receiver_interpretation": "RFUAV XML DeviceType is a receiver model, not hardware identity. ScaleFactor and ReferenceSNRLevel vary. One dataset does not remove all acquisition confounds.",
+  "waveform_interpretation": "Recorded UAS-link contributions; no airframe-only transmitter verification",
+  "mixing": {
+    "max_components": 3,
+    "complex_addition": true,
+    "image_overlay": false,
+    "source_phase": "independent uniform [0,2pi)",
+    "time_offsets": "independent within parent recording role",
+    "two_source_db": [
+      -10,
+      0,
+      10
+    ],
+    "three_source_db": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        -10,
+        0,
+        0
+      ],
+      [
+        0,
+        -10,
+        0
+      ],
+      [
+        0,
+        0,
+        -10
+      ],
+      [
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        10
+      ]
+    ],
+    "power_reference": "whole 20.97152ms context, then crop; report measured local power too",
+    "no_cross_ism_band_mixtures_in_primary": true,
+    "native_band_replay": "separate check preserving relative RF offsets and common observed bandwidth; references are identically filtered",
+    "same_model_mixtures": "separate cross-record diagnostic, not a claim of multiple physical aircraft",
+    "cross_dataset_mixtures": false,
+    "sample_rate_policy": "native rate within each independent dataset",
+    "sample_rates_hz": {
+      "RFUAV": 100000000,
+      "DroneDetect_V2": 60000000
+    },
+    "resampling_required": false
+  },
+  "next_primary_comparison": {
+    "arms": [
+      "ordered TCN",
+      "mean-context control"
+    ],
+    "dataset": "RFUAV",
+    "same_native_band": true,
+    "same_initial_weights": true,
+    "seed": 0,
+    "epochs_max": 50,
+    "examples_per_epoch": 2400,
+    "effective_batch": 32,
+    "updates_per_epoch": 75,
+    "checkpoints": [
+      5,
+      10,
+      25,
+      50
+    ],
+    "validation": "same fixed within-band validation for both arms",
+    "band_counts": {
+      "2.4GHz": [
+        1,
+        2
+      ],
+      "5.8GHz": [
+        1,
+        2,
+        3
+      ]
+    },
+    "current_cross_band_trial": "retain as prior synthetic exploratory control; do not relabel"
+  },
+  "lora_status": "No verified local IQ; generic public LoRa remains outside drone primary experiment",
+  "crossfire_status": "No verified local or public capture admitted",
+  "validation_or_heldout_iq_read_this_selection": false
+}

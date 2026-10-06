@@ -1,0 +1,101 @@
+{
+  "status": "NAMED_SIGNAL_METADATA_SEARCH",
+  "time": 1791303196.275061,
+  "scans": [
+    {
+      "root": "/home/pyj/datasets",
+      "files": 37754,
+      "returncode": 0,
+      "exclusions": [
+        ".git",
+        "site-packages",
+        "node_modules",
+        "source_snapshot",
+        "rf_detection_references"
+      ],
+      "symlink_directories_followed": false
+    },
+    {
+      "root": "/media/pyj/Elements/uav_rf_research_20260914",
+      "files": 8427,
+      "returncode": 0,
+      "exclusions": [
+        ".git",
+        "site-packages",
+        "node_modules",
+        "source_snapshot",
+        "rf_detection_references"
+      ],
+      "symlink_directories_followed": false
+    },
+    {
+      "catalogue": "/media/pyj/Elements/uav_analysis/acquisition_pc_archive_20260915_v1/SOURCE_PLAN.json",
+      "files": 9824,
+      "sha256": "c2f6f36f9fcc25c7130b4511588e2ebb895db35d748ce82697e85cf462fc42e4"
+    },
+    {
+      "catalogue": "/media/pyj/Elements/uav_analysis/acquisition_pc_supplement_20260915_v1/SOURCE_PLAN.json",
+      "files": 111471,
+      "sha256": "867662e87835d5ff297d476be9410146bcc2072ca146cb247b781c165ea97bf3"
+    }
+  ],
+  "archives": [
+    {
+      "archive": "CARDRF.zip",
+      "members": 19280,
+      "central_index_sha256": "68816fef19fdaa35230967d8cbee35d86a1de97967d9f6acf6ef6e4452944210",
+      "extensions": {
+        "": 76,
+        ".DS_Store": 4,
+        ".mat": 19200
+      }
+    },
+    {
+      "archive": "DroneDetect_V2.zip",
+      "members": 390,
+      "central_index_sha256": "55ad53ea40f58d2096a9304ff803c8de30c9379623b9ce167622295f4dc89193",
+      "extensions": {
+        ".dat": 390
+      }
+    },
+    {
+      "archive": "DroneRFB_DroneRFz.zip",
+      "members": 3736,
+      "central_index_sha256": "39a65c2a8956f955f7ce08fdc8c118bdb69c9662890423f4b811c8f157827755",
+      "extensions": {
+        ".npy": 3734,
+        ".png": 2
+      }
+    },
+    {
+      "archive": "DroneRFb-Spectra.zip",
+      "members": 14485,
+      "central_index_sha256": "70704e17a0f98e845e7410f6948f5772389c282a0f81d1e68f5bc75721945d28",
+      "extensions": {
+        ".npy": 14484,
+        ".txt": 1
+      }
+    }
+  ],
+  "name_matches": [],
+  "raw_extension_name_matches": [],
+  "sigmf": {
+    "files": 123,
+    "center_frequency_counts": {
+      "2440000000.0": 63,
+      "2460000000.0": 4,
+      "5800000000.0": 24,
+      "5200000000.0": 20,
+      "5770000000.0": 12
+    },
+    "sample_rate_counts": {
+      "122880000.0": 82,
+      "30720000.0": 41
+    },
+    "keyword_metadata_paths": []
+  },
+  "errors": [],
+  "iq_payloads_read": false,
+  "protected_confirmation_payloads_read": false,
+  "interpretation": "No name match is not proof of RF absence. Unlabelled captures and module variants remain unverified; repository prose calling TX16S ELRS is not a capture annotation."
+}

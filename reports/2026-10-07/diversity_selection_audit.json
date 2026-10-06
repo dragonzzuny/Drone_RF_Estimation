@@ -1,0 +1,1449 @@
+{
+  "status": "SOURCE_ROLES_AND_SAME_BAND_CLASSES_VERIFIED",
+  "time": 1791303912.9495652,
+  "script_sha256": "37e7f1d19c5c44b0a0c55e6061aef410390e8065e8f80dc8f14c8c61362e2225",
+  "selection_sha256": "3e4e8bc553433bf6669889ce032fa3e7199009f5505a78d61367b8e757718ae1",
+  "probe_sha256": "d2d25dc69dbfc9d853961de194e4178e28a8b12866313f03e396b65200e63039",
+  "selection_seal": {
+    "time": 1791303399.6083317,
+    "files": {
+      "DRONEDETECT_ROLES.json": "c1597b369f578ffb33544a6daefdfca4a22688bf136d8a48fcc95ffca8e87a83",
+      "RFUAV_EXISTING_ROLES.json": "ec6af132a503889ff4a5dfc58f88c9746cd4b1f7d3e6613f1d93622b11ff9092",
+      "SELECTION.json": "3e4e8bc553433bf6669889ce032fa3e7199009f5505a78d61367b8e757718ae1"
+    },
+    "source_sha256": "4fd75ecdf700187906fbc9210ab41cc4b4f3a2bb4a208b1153e2aceaac71f888"
+  },
+  "rf_roles": {
+    "heldout_model_not_for_selection": 13,
+    "train_pack": 83,
+    "validation_pack": 48
+  },
+  "dronedetect_roles": {
+    "reserved_interference_recording_check": 265,
+    "heldout_type_interference": 30,
+    "train_candidate": 51,
+    "validation_candidate": 17,
+    "known_type_confirmation": 17,
+    "heldout_type_clean": 10
+  },
+  "centers_hz": {
+    "RFUAV:DAUTEL EVO NANO": [
+      5770000000.0
+    ],
+    "RFUAV:DJI AVATA2": [
+      5760000000.0,
+      5765000000.0
+    ],
+    "RFUAV:DJI FPV COMBO": [
+      5760000000.0
+    ],
+    "RFUAV:DJI MAVIC3 PRO": [
+      5800000000.0
+    ],
+    "RFUAV:DJI MINI3": [
+      2470000000.0
+    ],
+    "RFUAV:DJI MINI4 PRO": [
+      2450000000.0
+    ],
+    "DroneDetect:AIR": [
+      2437500000
+    ],
+    "DroneDetect:DIS": [
+      2437500000
+    ],
+    "DroneDetect:INS": [
+      2437500000
+    ],
+    "DroneDetect:MIN": [
+      2437500000
+    ],
+    "DroneDetect:MP1": [
+      2437500000
+    ],
+    "DroneDetect:MP2": [
+      2437500000
+    ],
+    "DroneDetect:PHA": [
+      2437500000
+    ]
+  },
+  "source_bands": {
+    "RFUAV:DAUTEL EVO NANO": "5.8GHz",
+    "RFUAV:DJI AVATA2": "5.8GHz",
+    "RFUAV:DJI FPV COMBO": "5.8GHz",
+    "RFUAV:DJI MAVIC3 PRO": "5.8GHz",
+    "RFUAV:DJI MINI3": "2.4GHz",
+    "RFUAV:DJI MINI4 PRO": "2.4GHz",
+    "DroneDetect:AIR": "2.4GHz",
+    "DroneDetect:DIS": "2.4GHz",
+    "DroneDetect:INS": "2.4GHz",
+    "DroneDetect:MIN": "2.4GHz",
+    "DroneDetect:MP1": "2.4GHz",
+    "DroneDetect:MP2": "2.4GHz",
+    "DroneDetect:PHA": "2.4GHz"
+  },
+  "class_counts": {
+    "training_classes": {
+      "1": 11,
+      "2": 30,
+      "3": 51
+    },
+    "withheld_combination_classes": {
+      "2": 1,
+      "3": 6
+    },
+    "unknown_type_classes": {
+      "1": 2,
+      "2": 11,
+      "3": 31
+    }
+  },
+  "mixture_classes": {
+    "training_classes": [
+      [
+        "DroneDetect:AIR"
+      ],
+      [
+        "DroneDetect:INS"
+      ],
+      [
+        "DroneDetect:MIN"
+      ],
+      [
+        "DroneDetect:MP1"
+      ],
+      [
+        "DroneDetect:MP2"
+      ],
+      [
+        "DroneDetect:PHA"
+      ],
+      [
+        "RFUAV:DJI AVATA2"
+      ],
+      [
+        "RFUAV:DJI FPV COMBO"
+      ],
+      [
+        "RFUAV:DJI MAVIC3 PRO"
+      ],
+      [
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:INS"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:MIN"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:MP1"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:MP2"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:PHA"
+      ],
+      [
+        "DroneDetect:AIR",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:AIR",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:INS",
+        "DroneDetect:MIN"
+      ],
+      [
+        "DroneDetect:INS",
+        "DroneDetect:MP1"
+      ],
+      [
+        "DroneDetect:INS",
+        "DroneDetect:MP2"
+      ],
+      [
+        "DroneDetect:INS",
+        "DroneDetect:PHA"
+      ],
+      [
+        "DroneDetect:INS",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:INS",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:MIN",
+        "DroneDetect:MP1"
+      ],
+      [
+        "DroneDetect:MIN",
+        "DroneDetect:MP2"
+      ],
+      [
+        "DroneDetect:MIN",
+        "DroneDetect:PHA"
+      ],
+      [
+        "DroneDetect:MIN",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:MIN",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:MP1",
+        "DroneDetect:PHA"
+      ],
+      [
+        "DroneDetect:MP1",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:MP1",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:MP2",
+        "DroneDetect:PHA"
+      ],
+      [
+        "DroneDetect:MP2",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:MP2",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:PHA",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:PHA",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "RFUAV:DJI AVATA2",
+        "RFUAV:DJI FPV COMBO"
+      ],
+      [
+        "RFUAV:DJI AVATA2",
+        "RFUAV:DJI MAVIC3 PRO"
+      ],
+      [
+        "RFUAV:DJI FPV COMBO",
+        "RFUAV:DJI MAVIC3 PRO"
+      ],
+      [
+        "RFUAV:DJI MINI3",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:INS",
+        "DroneDetect:MIN"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:INS",
+        "DroneDetect:MP1"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:INS",
+        "DroneDetect:MP2"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:INS",
+        "DroneDetect:PHA"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:INS",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:INS",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:MIN",
+        "DroneDetect:MP1"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:MIN",
+        "DroneDetect:MP2"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:MIN",
+        "DroneDetect:PHA"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:MIN",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:MIN",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:MP1",
+        "DroneDetect:PHA"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:MP1",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:MP1",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:MP2",
+        "DroneDetect:PHA"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:MP2",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:MP2",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:PHA",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:PHA",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:AIR",
+        "RFUAV:DJI MINI3",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:INS",
+        "DroneDetect:MIN",
+        "DroneDetect:MP1"
+      ],
+      [
+        "DroneDetect:INS",
+        "DroneDetect:MIN",
+        "DroneDetect:MP2"
+      ],
+      [
+        "DroneDetect:INS",
+        "DroneDetect:MIN",
+        "DroneDetect:PHA"
+      ],
+      [
+        "DroneDetect:INS",
+        "DroneDetect:MIN",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:INS",
+        "DroneDetect:MIN",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:INS",
+        "DroneDetect:MP1",
+        "DroneDetect:PHA"
+      ],
+      [
+        "DroneDetect:INS",
+        "DroneDetect:MP1",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:INS",
+        "DroneDetect:MP1",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:INS",
+        "DroneDetect:MP2",
+        "DroneDetect:PHA"
+      ],
+      [
+        "DroneDetect:INS",
+        "DroneDetect:MP2",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:INS",
+        "DroneDetect:MP2",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:INS",
+        "DroneDetect:PHA",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:INS",
+        "DroneDetect:PHA",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:INS",
+        "RFUAV:DJI MINI3",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:MIN",
+        "DroneDetect:MP1",
+        "DroneDetect:PHA"
+      ],
+      [
+        "DroneDetect:MIN",
+        "DroneDetect:MP1",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:MIN",
+        "DroneDetect:MP1",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:MIN",
+        "DroneDetect:MP2",
+        "DroneDetect:PHA"
+      ],
+      [
+        "DroneDetect:MIN",
+        "DroneDetect:MP2",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:MIN",
+        "DroneDetect:MP2",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:MIN",
+        "DroneDetect:PHA",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:MIN",
+        "DroneDetect:PHA",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:MIN",
+        "RFUAV:DJI MINI3",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:MP1",
+        "DroneDetect:PHA",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:MP1",
+        "DroneDetect:PHA",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:MP1",
+        "RFUAV:DJI MINI3",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:MP2",
+        "DroneDetect:PHA",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:MP2",
+        "DroneDetect:PHA",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:MP2",
+        "RFUAV:DJI MINI3",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:PHA",
+        "RFUAV:DJI MINI3",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "RFUAV:DJI AVATA2",
+        "RFUAV:DJI FPV COMBO",
+        "RFUAV:DJI MAVIC3 PRO"
+      ]
+    ],
+    "withheld_combination_classes": [
+      [
+        "DroneDetect:MP1",
+        "DroneDetect:MP2"
+      ],
+      [
+        "DroneDetect:AIR",
+        "DroneDetect:MP1",
+        "DroneDetect:MP2"
+      ],
+      [
+        "DroneDetect:INS",
+        "DroneDetect:MP1",
+        "DroneDetect:MP2"
+      ],
+      [
+        "DroneDetect:MIN",
+        "DroneDetect:MP1",
+        "DroneDetect:MP2"
+      ],
+      [
+        "DroneDetect:MP1",
+        "DroneDetect:MP2",
+        "DroneDetect:PHA"
+      ],
+      [
+        "DroneDetect:MP1",
+        "DroneDetect:MP2",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:MP1",
+        "DroneDetect:MP2",
+        "RFUAV:DJI MINI4 PRO"
+      ]
+    ],
+    "unknown_type_classes": [
+      [
+        "RFUAV:DAUTEL EVO NANO"
+      ],
+      [
+        "RFUAV:DAUTEL EVO NANO",
+        "RFUAV:DJI AVATA2"
+      ],
+      [
+        "RFUAV:DAUTEL EVO NANO",
+        "RFUAV:DJI FPV COMBO"
+      ],
+      [
+        "RFUAV:DAUTEL EVO NANO",
+        "RFUAV:DJI MAVIC3 PRO"
+      ],
+      [
+        "RFUAV:DAUTEL EVO NANO",
+        "RFUAV:DJI AVATA2",
+        "RFUAV:DJI FPV COMBO"
+      ],
+      [
+        "RFUAV:DAUTEL EVO NANO",
+        "RFUAV:DJI AVATA2",
+        "RFUAV:DJI MAVIC3 PRO"
+      ],
+      [
+        "RFUAV:DAUTEL EVO NANO",
+        "RFUAV:DJI FPV COMBO",
+        "RFUAV:DJI MAVIC3 PRO"
+      ],
+      [
+        "DroneDetect:DIS"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:AIR"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:INS"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:MIN"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:MP1"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:MP2"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:PHA"
+      ],
+      [
+        "DroneDetect:DIS",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:DIS",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:AIR",
+        "DroneDetect:INS"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:AIR",
+        "DroneDetect:MIN"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:AIR",
+        "DroneDetect:MP1"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:AIR",
+        "DroneDetect:MP2"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:AIR",
+        "DroneDetect:PHA"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:AIR",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:AIR",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:INS",
+        "DroneDetect:MIN"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:INS",
+        "DroneDetect:MP1"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:INS",
+        "DroneDetect:MP2"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:INS",
+        "DroneDetect:PHA"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:INS",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:INS",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:MIN",
+        "DroneDetect:MP1"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:MIN",
+        "DroneDetect:MP2"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:MIN",
+        "DroneDetect:PHA"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:MIN",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:MIN",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:MP1",
+        "DroneDetect:MP2"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:MP1",
+        "DroneDetect:PHA"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:MP1",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:MP1",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:MP2",
+        "DroneDetect:PHA"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:MP2",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:MP2",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:PHA",
+        "RFUAV:DJI MINI3"
+      ],
+      [
+        "DroneDetect:DIS",
+        "DroneDetect:PHA",
+        "RFUAV:DJI MINI4 PRO"
+      ],
+      [
+        "DroneDetect:DIS",
+        "RFUAV:DJI MINI3",
+        "RFUAV:DJI MINI4 PRO"
+      ]
+    ]
+  },
+  "cross_band_classes": 0,
+  "checked_train_prefixes": 51,
+  "iq_quality": [
+    {
+      "member": "DroneDetect_V2/CLEAN/AIR_FY/AIR_0010_00.dat",
+      "cache_sha256": "aef60e76d171699d7dc1346164c15f513f96a7153cb449d7ad23949104219224",
+      "complex_mean": [
+        0.047347583820081494,
+        0.0833019887820923
+      ],
+      "total_power": 0.06018542558697991,
+      "fluctuation_power": 0.05100441055832842,
+      "dc_power_fraction": 0.15254548653781774,
+      "rail_proxy_fraction": 0.015786133587180708,
+      "prefix_resampling_power_delta_db": 0.011959338692661154
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/AIR_FY/AIR_0010_01.dat",
+      "cache_sha256": "cd64227c45fb926aa1da5da95dd253b57a9ab973b34b16ba620ead8418d534e6",
+      "complex_mean": [
+        0.010561514477892255,
+        0.01764031138350583
+      ],
+      "total_power": 0.008967501734101628,
+      "fluctuation_power": 0.008544775560327856,
+      "dc_power_fraction": 0.04713979281054715,
+      "rail_proxy_fraction": 5.2356020942408376e-05,
+      "prefix_resampling_power_delta_db": 0.009000928313915722
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/AIR_FY/AIR_0010_02.dat",
+      "cache_sha256": "5f9364ba34930ee250a699c3bc4329f0910bf2b768ead9f30c80bcf054ba22b8",
+      "complex_mean": [
+        0.011071805277547572,
+        0.01938292353781312
+      ],
+      "total_power": 0.002161450750284965,
+      "fluctuation_power": 0.0016631681533083266,
+      "dc_power_fraction": 0.23053155243576415,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": -0.010509138763287499
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/AIR_HO/AIR_0001_00.dat",
+      "cache_sha256": "e710b4ad77ca15022d37e07c68e88fad0269457c8d1f36fd3abdba0968b4238b",
+      "complex_mean": [
+        0.010290320720184582,
+        0.0169019197775992
+      ],
+      "total_power": 0.007395665136414489,
+      "fluctuation_power": 0.007004099543721827,
+      "dc_power_fraction": 0.052945284226659166,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.0058802088786673885
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/AIR_HO/AIR_0001_01.dat",
+      "cache_sha256": "aaadf3573c7efc3934a7de818835d087cff4f82574954345a16c4222c1c59e69",
+      "complex_mean": [
+        0.003954615027425921,
+        0.007393017735349425
+      ],
+      "total_power": 0.00114412724137353,
+      "fluctuation_power": 0.001073831550123197,
+      "dc_power_fraction": 0.06144044884897918,
+      "rail_proxy_fraction": 4.838965571949865e-05,
+      "prefix_resampling_power_delta_db": -0.031237513453861658
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/AIR_HO/AIR_0001_02.dat",
+      "cache_sha256": "eccebcb589d26005786eea2f13393c0b22e5e86aff13ebd744dd747675ccee5b",
+      "complex_mean": [
+        0.052069435689156715,
+        0.09157641060327372
+      ],
+      "total_power": 0.011558994584554024,
+      "fluctuation_power": 0.00046152947258741665,
+      "dc_power_fraction": 0.9600718324408469,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.00018494384460860516
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/AIR_ON/AIR_0000_00.dat",
+      "cache_sha256": "eee4dc00a28dabd1dd5e6d18dd007d5e684e4ea529ed23cfe758a561d0dd6e65",
+      "complex_mean": [
+        0.010077889062755595,
+        0.01658974801283638
+      ],
+      "total_power": 0.000519101249555776,
+      "fluctuation_power": 0.00014231766246515826,
+      "dc_power_fraction": 0.7258383358026055,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": -0.08325024223312188
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/AIR_ON/AIR_0000_01.dat",
+      "cache_sha256": "4ccf892e88c97185b8b9db1ac1d43450403170f0a7bd12cf108cd1a16e9538d2",
+      "complex_mean": [
+        0.052748416717427186,
+        0.09249619495989493
+      ],
+      "total_power": 0.023210464434757626,
+      "fluctuation_power": 0.011872522886503391,
+      "dc_power_fraction": 0.48848404477747975,
+      "rail_proxy_fraction": 0.004076630176106616,
+      "prefix_resampling_power_delta_db": -0.0005635340690465769
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/AIR_ON/AIR_0000_02.dat",
+      "cache_sha256": "17c832d5533a1d57732409c7517f129c366b37190907eb46609e57b296327092",
+      "complex_mean": [
+        0.0017092587789087233,
+        0.003229763662282218
+      ],
+      "total_power": 0.0004154170019197595,
+      "fluctuation_power": 0.0004020640630322842,
+      "dc_power_fraction": 0.03214345784059745,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": -0.1123237961447273
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/INS_FY/INS_0010_00.dat",
+      "cache_sha256": "a947d7830ed397400907ff5117c6663cf6f9290b1edf8163780f25445736fcda",
+      "complex_mean": [
+        0.005894589190560684,
+        0.0075858393030540094
+      ],
+      "total_power": 9.413706385773828e-05,
+      "fluctuation_power": 1.8459242005045427e-06,
+      "dc_power_fraction": 0.9803911007539594,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": -0.0008163115560891508
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/INS_FY/INS_0010_01.dat",
+      "cache_sha256": "75528325f73844191e7ce6a257715c206f6f491d1b1e86ce151be229ad809f78",
+      "complex_mean": [
+        0.005943288376754938,
+        0.007635336047558416
+      ],
+      "total_power": 0.00010001341430916986,
+      "fluctuation_power": 6.3923810207545405e-06,
+      "dc_power_fraction": 0.9360847635798745,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": -0.0005873590925376292
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/INS_FY/INS_0010_02.dat",
+      "cache_sha256": "ac8bf94c417cd8861edfd9d4b3ffc22cc86d4f289c90f914223fd94171645572",
+      "complex_mean": [
+        0.005768722186957978,
+        0.007508818538679216
+      ],
+      "total_power": 9.143180801532805e-05,
+      "fluctuation_power": 1.7712964982141033e-06,
+      "dc_power_fraction": 0.9806271303536161,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": -0.004219900438311334
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/INS_HO/INS_0001_00.dat",
+      "cache_sha256": "e8c5e565d9687e0f4f22005f64bafdccca32e74770a51a14826655de61c5e698",
+      "complex_mean": [
+        0.005873284582465745,
+        0.007609504816898505
+      ],
+      "total_power": 0.00047391492809107657,
+      "fluctuation_power": 0.0003815148927460445,
+      "dc_power_fraction": 0.1949717763000578,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.00895672140188635
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/INS_HO/INS_0001_01.dat",
+      "cache_sha256": "b843321138c332e1f1897ff5a33e1168b98b99ef09eda256ba0e01b489e3b810",
+      "complex_mean": [
+        0.005700304290142677,
+        0.0075562753489462064
+      ],
+      "total_power": 9.05141926706057e-05,
+      "fluctuation_power": 9.23426521294631e-07,
+      "dc_power_fraction": 0.9897979919607188,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": -0.0010812174883492141
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/INS_HO/INS_0001_02.dat",
+      "cache_sha256": "eb057c759e51ccd0621c00af349326f59d15650e76fafb7acc96cd928caac8a8",
+      "complex_mean": [
+        0.005832563778803583,
+        0.007587219284850802
+      ],
+      "total_power": 0.00017326969641332944,
+      "fluctuation_power": 8.168499970310595e-05,
+      "dc_power_fraction": 0.5285673063785546,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.004830481692335092
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/INS_ON/INS_0000_00.dat",
+      "cache_sha256": "81cf67712068ae15e2ac1cacd19cb1119ad6df6ae18d2815d0b850e8cb07bbc6",
+      "complex_mean": [
+        0.006236294705135548,
+        0.007744751604230229
+      ],
+      "total_power": 0.00023088886839006578,
+      "fluctuation_power": 0.00013201631932953739,
+      "dc_power_fraction": 0.42822570767462115,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": -0.003146820828278337
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/INS_ON/INS_0000_01.dat",
+      "cache_sha256": "a2d64d788a3ae84dec6e2ebbf8e46fd66a3f0956b06b816e29acf25d46bbb1a4",
+      "complex_mean": [
+        0.006069791396520193,
+        0.007703071695069684
+      ],
+      "total_power": 0.00019653706950860348,
+      "fluctuation_power": 0.00010035738837194908,
+      "dc_power_fraction": 0.48937170670718677,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.004346166321269989
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/INS_ON/INS_0000_02.dat",
+      "cache_sha256": "76141db32e05470dc897340c07139eb32895df0960c1cd91bf9ba03fa5db7b58",
+      "complex_mean": [
+        0.005980530768156189,
+        0.007538858521551712
+      ],
+      "total_power": 0.00020624126429523432,
+      "fluctuation_power": 0.00011364012821839874,
+      "dc_power_fraction": 0.44899422234086594,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.006077059751379602
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MIN_FY/MIN_0010_00.dat",
+      "cache_sha256": "ff8585f7120589fcddeae9fdbb9129a008c3f8b0abd4910dc70d1cf767e1b5f2",
+      "complex_mean": [
+        0.001003435439870058,
+        0.007050530067307408
+      ],
+      "total_power": 0.00021967891453839126,
+      "fluctuation_power": 0.00016896205762639824,
+      "dc_power_fraction": 0.23086811503308707,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.008718130278692837
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MIN_FY/MIN_0010_01.dat",
+      "cache_sha256": "8348ee27bbe2ec33ac8229d9f35ec462658df6901dc66138045dba148834ae6f",
+      "complex_mean": [
+        0.0008940563879624116,
+        0.006978015470974416
+      ],
+      "total_power": 0.00027863888668889955,
+      "fluctuation_power": 0.00022914684995088512,
+      "dc_power_fraction": 0.1776207094642629,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.009426014075093091
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MIN_FY/MIN_0010_02.dat",
+      "cache_sha256": "3280f16a3112a59de8601fb76038fbb29545d65fb0641dcba86cca174e620c53",
+      "complex_mean": [
+        0.0009175334346352103,
+        0.007128433837236115
+      ],
+      "total_power": 0.00019422224262901518,
+      "fluctuation_power": 0.00014256580605348894,
+      "dc_power_fraction": 0.26596560659736324,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.008215691422294278
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MIN_HO/MIN_0001_00.dat",
+      "cache_sha256": "89e5ed07e524ee2fd2845049fc8ddfbf548f1cf742126ef9256419f8eb5694fa",
+      "complex_mean": [
+        0.005971480344610937,
+        0.0076023971663967925
+      ],
+      "total_power": 0.0001804955265409229,
+      "fluctuation_power": 8.704050635921008e-05,
+      "dc_power_fraction": 0.5177691767364889,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.005048154701238795
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MIN_HO/MIN_0001_01.dat",
+      "cache_sha256": "6cb333890e1a9a558a51057d44b4c1a4c04a5209ad13e3225e847f384aff0039",
+      "complex_mean": [
+        0.0060647647070341225,
+        0.007645080863322614
+      ],
+      "total_power": 0.0001558867585996169,
+      "fluctuation_power": 6.065812624118834e-05,
+      "dc_power_fraction": 0.6108833951895536,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": -0.005211810005967629
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MIN_HO/MIN_0001_02.dat",
+      "cache_sha256": "df05a6037cbe2512756ce797a8f36cb5262c6eb098eb89008fa24cbe926864ed",
+      "complex_mean": [
+        0.005879868092724668,
+        0.007632585652026378
+      ],
+      "total_power": 0.0001807408966578265,
+      "fluctuation_power": 8.791168413446594e-05,
+      "dc_power_fraction": 0.5136038065535448,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.005125002052023238
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MIN_ON/MIN_0000_00.dat",
+      "cache_sha256": "1d19c7e4ec214c25cc82b303031bb911360950ae5393a3007059107168f899e0",
+      "complex_mean": [
+        0.005915855697763907,
+        0.007776626265067671
+      ],
+      "total_power": 0.00013393500119181378,
+      "fluctuation_power": 3.846173648850769e-05,
+      "dc_power_fraction": 0.712832820799209,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.0026650950322811653
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MIN_ON/MIN_0000_01.dat",
+      "cache_sha256": "86ee7fb254ded42ce2b139a963fcc4a3c8b9d66a2bf4ca3f4f91021e0c092de5",
+      "complex_mean": [
+        0.005987530406490192,
+        0.007726580272471263
+      ],
+      "total_power": 0.00018329332990617154,
+      "fluctuation_power": 8.774276683058479e-05,
+      "dc_power_fraction": 0.5212986371326187,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": -0.00398137775235496
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MIN_ON/MIN_0000_02.dat",
+      "cache_sha256": "a1224a9e1ba87a061585952cbc19bf0513fc91f9bbf805a0f885ebf037def947",
+      "complex_mean": [
+        0.005957681749584547,
+        0.007711355200727549
+      ],
+      "total_power": 0.0001749377511679065,
+      "fluctuation_power": 7.997878030678589e-05,
+      "dc_power_fraction": 0.5428157743378001,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.004877425160491746
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MP1_FY/MA1_0010_00.dat",
+      "cache_sha256": "f03a56c921e6de7b8e8483496271c5c768a3c7f7b4b33a16fa5935888c9132b9",
+      "complex_mean": [
+        0.005920831034852419,
+        0.0076797146495633135
+      ],
+      "total_power": 0.00034545852211654996,
+      "fluctuation_power": 0.00025142426487456096,
+      "dc_power_fraction": 0.27220129544311517,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.008588307669744947
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MP1_FY/MA1_0010_01.dat",
+      "cache_sha256": "a8724a65da09003eea0613e9ded87300382a2f2761e618aeadd7e44b703e918a",
+      "complex_mean": [
+        0.005954903423387463,
+        0.007582860193988449
+      ],
+      "total_power": 0.0004734872780046171,
+      "fluctuation_power": 0.00038052663450117063,
+      "dc_power_fraction": 0.1963318716718293,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.007490265024766661
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MP1_FY/MA1_0010_02.dat",
+      "cache_sha256": "424148651fd496ecf8f897ebf2fb3d2a8d3834f46f1ca80bdfa711fc7350bc35",
+      "complex_mean": [
+        0.0060577820640943724,
+        0.007625556968691494
+      ],
+      "total_power": 0.0004359326576286189,
+      "fluctuation_power": 0.0003410868150097959,
+      "dc_power_fraction": 0.21756994104264665,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.011107938657904156
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MP1_HO/MA1_0001_00.dat",
+      "cache_sha256": "350b21490c5511556cb10bee8b47c057975205775627286657165b1fc8e58656",
+      "complex_mean": [
+        0.005962212869215174,
+        0.007702149894087145
+      ],
+      "total_power": 0.00028550156275395326,
+      "fluctuation_power": 0.00019063046746513183,
+      "dc_power_fraction": 0.3322962381490782,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.009242223174425053
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MP1_HO/MA1_0001_01.dat",
+      "cache_sha256": "fde43c7746f93dac12a2a092953e1e263d070354c2ab48cc75d906b6e10eef29",
+      "complex_mean": [
+        0.005961074529725938,
+        0.007820918837024328
+      ],
+      "total_power": 0.00026448779063245083,
+      "fluctuation_power": 0.0001677866096281815,
+      "dc_power_fraction": 0.3656168051199439,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.01080685949924977
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MP1_HO/MA1_0001_02.dat",
+      "cache_sha256": "e6cf247fce76b152dd97181b2a5eb88a5011b26c43c1bbe2e71470f15d5aa507",
+      "complex_mean": [
+        0.0059935460135745215,
+        0.007751490086416804
+      ],
+      "total_power": 0.00011731845815542118,
+      "fluctuation_power": 2.1310265778768142e-05,
+      "dc_power_fraction": 0.8183553882839414,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.0013852263685194008
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MP1_ON/MA1_0000_00.dat",
+      "cache_sha256": "f72c7206baa3ff5f47ba6ae823eb8a1f5333a23cf013616a8c6b7c39b95dc144",
+      "complex_mean": [
+        0.00622589979399428,
+        0.007835906050343401
+      ],
+      "total_power": 0.0006599537982857461,
+      "fluctuation_power": 0.0005597905464110798,
+      "dc_power_fraction": 0.15177312735352688,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.007416536065153107
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MP1_ON/MA1_0000_01.dat",
+      "cache_sha256": "1e106e49611b7cb4c7aa151fd1d13f89aa4ca178395dfba8f50eed44f0006d2e",
+      "complex_mean": [
+        0.006212322122816914,
+        0.007760183207676118
+      ],
+      "total_power": 0.00040021446357084434,
+      "fluctuation_power": 0.00030140107399650556,
+      "dc_power_fraction": 0.24690109570926916,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.004004003031327099
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MP1_ON/MA1_0000_02.dat",
+      "cache_sha256": "136598abf1a5049cc1c3f96d2c83381aee33c2109ed7edf6017249fdfbdd4fe4",
+      "complex_mean": [
+        0.006298095316774891,
+        0.007893750799307469
+      ],
+      "total_power": 0.0006670926305333857,
+      "fluctuation_power": 0.000565115324232636,
+      "dc_power_fraction": 0.15286828490252,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.0025887240111143782
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MP2_FY/MAV_0010_00.dat",
+      "cache_sha256": "ee4f54aaff732486abf09a14437959803b9254c657997197fd03a456195e29c6",
+      "complex_mean": [
+        0.005805747665288329,
+        0.007614201080883291
+      ],
+      "total_power": 0.00010454282814255678,
+      "fluctuation_power": 1.2860064089431706e-05,
+      "dc_power_fraction": 0.8769876009868858,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.0005185449037979107
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MP2_FY/MAV_0010_01.dat",
+      "cache_sha256": "eb84e905353acd8471a3409e609eabdeaf17649e348baac3c25174fa1180ed82",
+      "complex_mean": [
+        0.005864668407119285,
+        0.007636356317229376
+      ],
+      "total_power": 0.00012354824984097057,
+      "fluctuation_power": 3.083997651181851e-05,
+      "dc_power_fraction": 0.7503811138440629,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.0017426469610509715
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MP2_FY/MAV_0010_02.dat",
+      "cache_sha256": "8d139a3cbe38dfc6a40b8b595b941b16fe31fbab2ad038b143fb1c7f243bdbde",
+      "complex_mean": [
+        0.005860761507548538,
+        0.007572993141634544
+      ],
+      "total_power": 9.630768835957973e-05,
+      "fluctuation_power": 4.608937787973272e-06,
+      "dc_power_fraction": 0.9521436152556679,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": -0.006449389221435073
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MP2_HO/MAV_0001_00.dat",
+      "cache_sha256": "a02038737e45aa1c7b84a16c99561ee4d39a8e80e378ef08777c106942465e66",
+      "complex_mean": [
+        0.005916227956094254,
+        0.007629657058313323
+      ],
+      "total_power": 0.0005471485711721398,
+      "fluctuation_power": 0.00045393515111619804,
+      "dc_power_fraction": 0.17036217394528363,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.010009062045148565
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MP2_HO/MAV_0001_01.dat",
+      "cache_sha256": "44033f7ac1c2dec3a07ca48f82e1e90dc3dbcf16525a78c0965def8929b9b01e",
+      "complex_mean": [
+        0.0059414860724257374,
+        0.007590086205028651
+      ],
+      "total_power": 0.0022080478643698932,
+      "fluctuation_power": 0.0021151371990213003,
+      "dc_power_fraction": 0.042078193524626786,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.007745949033985091
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MP2_HO/MAV_0001_02.dat",
+      "cache_sha256": "e8b2da208c2100d1a1305b0204802cf7ca280e394bb4ce124f4315c7bb7aae76",
+      "complex_mean": [
+        0.006004301568917358,
+        0.007457453723925587
+      ],
+      "total_power": 0.0015402945746215038,
+      "fluctuation_power": 0.001448629321246507,
+      "dc_power_fraction": 0.059511508308415575,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.013412694053495959
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MP2_ON/MAV_0000_00.dat",
+      "cache_sha256": "a75a46b189817860f8b79cf7eef9d1767a4938e7516f9f150b7b5d0c0a6a5b47",
+      "complex_mean": [
+        0.006329285063152321,
+        0.007735583852381504
+      ],
+      "total_power": 0.00033901517947031027,
+      "fluctuation_power": 0.00023911607252244152,
+      "dc_power_fraction": 0.2946744364189077,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.0033712031559588896
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MP2_ON/MAV_0000_01.dat",
+      "cache_sha256": "cfd48c3c3142d1297c63b835d8efad292e5eec260bff7e43821db45cb1bfa38c",
+      "complex_mean": [
+        0.00637551945187191,
+        0.007863120324685974
+      ],
+      "total_power": 0.0002733536287078749,
+      "fluctuation_power": 0.00017087771918618814,
+      "dc_power_fraction": 0.3748840284509258,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.0019290348362963202
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/MP2_ON/MAV_0000_02.dat",
+      "cache_sha256": "12d5a5c9e5c186e482a48a7754467a4ac45367016b063c7a069138a60af19c5a",
+      "complex_mean": [
+        0.006267635803088567,
+        0.007852709478724304
+      ],
+      "total_power": 0.0002009237590081777,
+      "fluctuation_power": 9.997545429077345e-05,
+      "dc_power_fraction": 0.5024209442214126,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.0037874684561510926
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/PHA_HO/PHA_0001_00.dat",
+      "cache_sha256": "508a15c10bfddd4298f67b7b76fb441fe57859bed999b3a549f7847ff260faa9",
+      "complex_mean": [
+        0.04735273835139864,
+        0.08561545886761976
+      ],
+      "total_power": 0.011996031191086257,
+      "fluctuation_power": 0.0024237425645971446,
+      "dc_power_fraction": 0.7979546296613395,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": 0.0014913265281122651
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/PHA_HO/PHA_0001_01.dat",
+      "cache_sha256": "5cb7a3095528914ddae7e16be80bac6c78f77249c5b33e5923f743e00ca8efdb",
+      "complex_mean": [
+        0.014995164350008229,
+        0.026273497308418756
+      ],
+      "total_power": 0.001984970061861759,
+      "fluctuation_power": 0.001069818447162515,
+      "dc_power_fraction": 0.4610405125409796,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": -0.012629099197811989
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/PHA_HO/PHA_0001_02.dat",
+      "cache_sha256": "371c8c9b25d3035385a2c96ece6ec3a20c133a64ab8ed465757c4989dacd6499",
+      "complex_mean": [
+        0.009310279404364671,
+        0.015719033456748015
+      ],
+      "total_power": 0.0005624284484637682,
+      "fluctuation_power": 0.00022865913306206737,
+      "dc_power_fraction": 0.593443159415863,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": -0.06239855370692902
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/PHA_ON/PHA_0000_00.dat",
+      "cache_sha256": "77891579d9c766abc5d6a0a03c3e2f16a6c2e21b4411e39f8734be11524f8e58",
+      "complex_mean": [
+        0.01640369101476511,
+        0.028540332046265632
+      ],
+      "total_power": 0.0028075891435283924,
+      "fluctuation_power": 0.0017239575113094077,
+      "dc_power_fraction": 0.3859651739702719,
+      "rail_proxy_fraction": 0.0,
+      "prefix_resampling_power_delta_db": -0.0070888320798486604
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/PHA_ON/PHA_0000_01.dat",
+      "cache_sha256": "533bb99dc17398c38edafcc6d22505aae1eeffd984626182d4a57e9c32c37981",
+      "complex_mean": [
+        0.009335010473363782,
+        0.01598146972079012
+      ],
+      "total_power": 0.020630273153382617,
+      "fluctuation_power": 0.020287723358408276,
+      "dc_power_fraction": 0.016604229736927996,
+      "rail_proxy_fraction": 6.028875138822783e-05,
+      "prefix_resampling_power_delta_db": -0.03991333824013878
+    },
+    {
+      "member": "DroneDetect_V2/CLEAN/PHA_ON/PHA_0000_02.dat",
+      "cache_sha256": "cf7c7c921bc770b46e1a9ca5161dca1b43f0bfaf25534c4b93e52de46c881e9f",
+      "complex_mean": [
+        0.0012013605736525598,
+        0.0017717609427708799
+      ],
+      "total_power": 0.0006361815559998124,
+      "fluctuation_power": 0.0006315991519335571,
+      "dc_power_fraction": 0.007202981637928082,
+      "rail_proxy_fraction": 7.139457401237505e-05,
+      "prefix_resampling_power_delta_db": -1.4520021406787715
+    }
+  ],
+  "dc_fraction": {
+    "min": 0.007202981637928082,
+    "median": 0.3859651739702719,
+    "max": 0.9897979919607188,
+    "above_10_percent": 43,
+    "above_90_percent": 6
+  },
+  "resampling_outlier_check": {
+    "member": "DroneDetect_V2/CLEAN/PHA_ON/PHA_0000_02.dat",
+    "full_resampling_delta_db": -0.0020344480255854594,
+    "approximately_time_aligned_delta_db": 0.0062479613195509645,
+    "native_aligned_indices": [
+      1155,
+      1259445
+    ],
+    "native_full_power": 0.0008887534264097436,
+    "native_aligned_power": 0.0006352669738217043,
+    "resampled_full_power": 0.0008883371882836695,
+    "resampled_cropped_power": 0.0006361815559998124,
+    "interpretation": "Time-aligned comparison is within one native sample; no filter-fidelity claim."
+  },
+  "validation_or_heldout_payloads_read": false,
+  "new_gpu_training_started": false,
+  "training_admission": "PENDING_DC_BANDWIDTH_AND_FULL_CONTEXT_LOADER_CHECK",
+  "interpretation": "51 TRAIN prefixes only. DC may be receiver offset or a coherent component; do not treat its source as diagnosed. No quality-based recording exclusion or preprocessing adopted. Common sample rate does not equal common bandwidth. Same-band center-aligned synthesis is not native RF offset replay."
+}

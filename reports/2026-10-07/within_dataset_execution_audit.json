@@ -1,0 +1,51 @@
+{
+  "status": "ALL_WITHIN_DATASET_SAME_BAND_SCHEDULE_ROWS_VERIFIED",
+  "time": 1791304744.6832976,
+  "selection_sha256": "531d76f5da6c91a15197df9573a49821c72338748a54df455fe6f32496aad0cc",
+  "preparation_sha256": "839a8d6114f7e6464e71940d92bc28858f5716da05f760161551db3726fe15e0",
+  "training_rows": 120000,
+  "validation_rows": 630,
+  "deterministic_replay_equal": true,
+  "cross_dataset_rows": 0,
+  "cross_band_rows": 0,
+  "train_validation_pack_overlap": 0,
+  "train_packs": 8,
+  "validation_packs": 5,
+  "new_gpu_training_started": false,
+  "heldout_iq_read": false,
+  "tests": "7 mixture-constraint unit tests passed; all 120630 actual schedule rows inspected",
+  "old_gpu_progress": {
+    "stage": "TRAIN",
+    "arm": "ordered",
+    "epoch": 2,
+    "examples": 1920,
+    "epoch_examples": 2400,
+    "updates": 135,
+    "average_losses": [
+      1.7736983041744678,
+      1.708938659890555,
+      0.6475963854172733
+    ],
+    "elapsed_seconds": 540.6053416728973,
+    "time": 1791304727.149252,
+    "pid": 1041305,
+    "gpu_training_active": true
+  },
+  "new_cpu_progress": {
+    "status": "PREPARING_CONTEXT_FEATURES",
+    "time": 1791304743.6600919,
+    "role": "train_pack",
+    "epoch": 1,
+    "example": 1441,
+    "examples": 2400,
+    "elapsed_seconds": 232.6047067642212,
+    "pid": 1069896,
+    "gpu_used": false
+  },
+  "source_sha256": {
+    "scripts/prepare_within_dataset_context.py": "8eaf8c500880adb1ad8d161042f6d45b3260b84d7207da71e350f9956446e86e",
+    "src/drone_rf/within_dataset_schedule.py": "edcddbf19df88bd0ec4ac6558776d6b75dfa983589850aa742bcaf8306ffaf18",
+    "src/drone_rf/mixture_constraints.py": "306709a6de32ed01581bd3facc8c45e91de6770de07b1fb9e2457f3ecc99372c"
+  },
+  "interpretation": "Plans and input validation, not new separation performance; old GPU trial contains cross-band mixtures."
+}

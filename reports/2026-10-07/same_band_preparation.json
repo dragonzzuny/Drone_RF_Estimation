@@ -1,0 +1,139 @@
+{
+  "status": "PINNED_SYNTHETIC_COMPONENT_EXPERIMENT",
+  "time": 1791304311.1580715,
+  "seed": 0,
+  "manifest": "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/cpu_intake_20261006_v1/CACHE_MANIFEST.json",
+  "manifest_sha256": "dba2aa3f1c9a1a16c60bb0b040e537ef41a22d1a6ba4202ecf11a9af3d702236",
+  "base_schedule": "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/mixture_preparation_20261006_v1",
+  "epochs": 50,
+  "examples_per_epoch": 2400,
+  "effective_batch": 32,
+  "updates_per_epoch": 75,
+  "updates_per_arm": 3750,
+  "validation_examples": 630,
+  "window_samples": 63872,
+  "context_samples": 2097152,
+  "fs_hz": 100000000,
+  "nfft": 512,
+  "hop": 128,
+  "stft_center": true,
+  "stft_window": "sqrt_periodic_hann",
+  "arms": [
+    "ordered",
+    "mean"
+  ],
+  "context_kind": "tcn",
+  "optimizer": "AdamW",
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "gradient_clip_norm": 1.0,
+  "construction_count_loss_weight": 0.1,
+  "precision": "float32",
+  "microbatch": 1,
+  "checkpoints": [
+    5,
+    10,
+    25,
+    50
+  ],
+  "validation_every_epochs": 1,
+  "selection": "minimum equally-count-weighted active component validation NMSE; include epoch0",
+  "count_target": "number_of_synthetically_added_recorded_components_NOT_physical_aircraft",
+  "physical_count_eligible": false,
+  "same_category_multiple_aircraft": false,
+  "split_claim": "original-pack-disjoint development; validation bandwidth differs; not independent dates",
+  "transmitter_claim": "aircraft-labeled recording folders; no proof of airframe-only emission",
+  "controller_classes_excluded": true,
+  "heldout_models_read": false,
+  "mini3_pairing": "unique XML in directory; pack1 XML / pack2 IQ discrepancy retained",
+  "power_normalization": "per long component, then crop; candidate, not established improvement",
+  "files": {
+    "TRAIN.npy": "34f55c9e0098dacbefd3ffd35e95469517dfdfb1db14006cb7e4f6af029464b5",
+    "VALIDATION.npy": "cbf1c2ab08b3c90bf92d8c443286fe87ca2b9672bcdf3ccc109b3ddef49793d4"
+  },
+  "feature_sources": {
+    "context_data.py": "97886c6accb9e228b85b6fda7efb76cea8e4b4a75e5420c39b115dcf65281268",
+    "temporal.py": "47c237184e31050706abefd0bc91bce80c1492866f5c26e0e9333fe1712da253"
+  },
+  "authorizes": "bounded development comparison under explicitly limited source/count/split claims",
+  "gpu_training_started": false,
+  "mixture_policy": "within_one_dataset_and_one_native_RF_band",
+  "dataset": "RFUAV",
+  "cross_dataset_synthesis": false,
+  "cross_band_synthesis": false,
+  "native_center_offsets_preserved": false,
+  "placement": "center-aligned synthetic same-band complex mixtures",
+  "sample_rate_conversion": false,
+  "selection_sha256": "531d76f5da6c91a15197df9573a49821c72338748a54df455fe6f32496aad0cc",
+  "source_roles_sha256": "ec6af132a503889ff4a5dfc58f88c9746cd4b1f7d3e6613f1d93622b11ff9092",
+  "previous_preparation_sha256": "bcd5de58204e9b42f551f90452a157919fe69ad636c39ed005d0a6f0b5815c27",
+  "class_counts": {
+    "training_classes": {
+      "1": 5,
+      "2": 4,
+      "3": 1
+    },
+    "withheld_combination_classes": {},
+    "unknown_type_classes": {
+      "1": 1,
+      "2": 3,
+      "3": 3
+    }
+  },
+  "schedule_strata": {
+    "train": [
+      {
+        "rf_band": "2.4GHz",
+        "count": 1,
+        "examples": 16000
+      },
+      {
+        "rf_band": "2.4GHz",
+        "count": 2,
+        "examples": 9999
+      },
+      {
+        "rf_band": "5.8GHz",
+        "count": 1,
+        "examples": 24000
+      },
+      {
+        "rf_band": "5.8GHz",
+        "count": 2,
+        "examples": 30001
+      },
+      {
+        "rf_band": "5.8GHz",
+        "count": 3,
+        "examples": 40000
+      }
+    ],
+    "validation": [
+      {
+        "rf_band": "2.4GHz",
+        "count": 1,
+        "examples": 84
+      },
+      {
+        "rf_band": "2.4GHz",
+        "count": 2,
+        "examples": 51
+      },
+      {
+        "rf_band": "5.8GHz",
+        "count": 1,
+        "examples": 126
+      },
+      {
+        "rf_band": "5.8GHz",
+        "count": 2,
+        "examples": 159
+      },
+      {
+        "rf_band": "5.8GHz",
+        "count": 3,
+        "examples": 210
+      }
+    ]
+  }
+}
