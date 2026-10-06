@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-06T20:24:13.713477+09:00",
+  "checked_at": "2026-10-06T22:08:15.212478+09:00",
   "controller_status": "FULL_N_MAGNITUDE_RUNNING",
   "process_identities_verified": true,
   "frozen_dependencies_verified": true,
@@ -12,22 +12,92 @@
     "adopted_as_improvement": false
   },
   "N_magnitude": {
-    "stage": "TRAIN",
-    "time": 1791285843.9233894,
+    "stage": "EPOCH_COMPLETE",
+    "time": 1791292091.5274274,
     "pid": 854177,
     "arm": "supervised",
-    "epoch": 1,
-    "updates": 75,
-    "examples": 2376,
-    "loss_by_kind": {
-      "supervised": 2.160902275092373,
-      "mixit": null
+    "epoch": 21,
+    "updates": 1575,
+    "training": {
+      "supervised": {
+        "loss": 1.2762463644008946,
+        "nmse": 0.44514004625724973,
+        "coherence_loss": 0.36973220385887007,
+        "examples": 2376
+      },
+      "mixit": {
+        "loss": null,
+        "nmse": null,
+        "coherence_loss": null,
+        "examples": 0
+      }
     },
-    "elapsed_seconds": 289.99204293100047
+    "validation": {
+      "loss": 13.293766315120997,
+      "nmse": 12.877516607125996,
+      "coherence_loss": 0.41624961642905917
+    },
+    "mom_diagnostic": {
+      "loss": 0.9526297075278831,
+      "nmse": 0.4823726812998454,
+      "coherence_loss": 0.4702570275826888,
+      "assignment_counts": [
+        9,
+        3,
+        0,
+        4,
+        14,
+        4,
+        0,
+        15,
+        0,
+        0,
+        0,
+        0,
+        10,
+        3,
+        0,
+        4
+      ],
+      "samples": 66,
+      "clean_source_truth": false,
+      "selection_metric": false,
+      "recipe_sha256": "383d6b85905a22a1f68cde918ca0c2147c6414138e06d1a761268617871420f2"
+    },
+    "best_validation_nmse": 7.86983001382664,
+    "best_epoch": 16,
+    "schedule_sha256": "304d64559039e3c681323a280a028cd37f77b1b9eb286aa38f2e9b900bac085d",
+    "mom_schedule_sha256": "3479f0482e7e5f6a68a400964b7538ac86df3dd273a9455d194a60c743c2dfff",
+    "mixit_assignment_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "seconds": 311.5791853430055
   },
   "N_magnitude_target_epochs": 50,
   "diverse_drone_training": "NOT_STARTED",
   "variable_count_training": "NOT_STARTED",
   "cpu_power_activity": "COMPLETE_AUDITED",
-  "gpu": "99 %, 3135 MiB, 8188 MiB"
+  "gpu": "98 %, 3365 MiB, 8188 MiB",
+  "cpu_temporal_structure": {
+    "status": "COMPLETE",
+    "training_clips": 249,
+    "candidate_clips": 149,
+    "validation_read": false,
+    "separator_trained": false
+  }
 }

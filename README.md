@@ -12,6 +12,7 @@
 - [CPU 원자료 검사 완료와 후속 혼합 구성](reports/2026-10-06/CPU_COMPLETED_KO.md)
 - [실제 혼합 입력 검산과 창별 전력차](reports/2026-10-06/MIXTURE_INPUTS_KO.md)
 - [전력 처리 대조 50 epoch 최종 결과](reports/2026-10-06/POWER_COMPARISON_KO.md)
+- [반복 간격 측정과 시간 문맥 모델 후보](reports/2026-10-06/TEMPORAL_STRUCTURE_KO.md)
 
 ## 준비 코드 실행
 

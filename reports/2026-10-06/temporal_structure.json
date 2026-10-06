@@ -1,0 +1,209 @@
+{
+  "status": "TRAINING_ONLY_TEMPORAL_DIAGNOSTIC_COMPLETE",
+  "time": 1791291743.0950413,
+  "elapsed_seconds": 36.43528604507446,
+  "training_clips": 249,
+  "source_files": 83,
+  "training_packs": 8,
+  "categories": 5,
+  "candidate_clips": 149,
+  "files_with_three_candidates_and_periods_within_5pct": 12,
+  "groups": [
+    {
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1.xml",
+      "category": "DJI AVATA2",
+      "clips": 30,
+      "candidate_clips": 28,
+      "candidate_period_median_ms": 2.4985600000000003,
+      "candidate_period_q10_q90_ms": [
+        2.4985600000000003,
+        4.997120000000001
+      ]
+    },
+    {
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+      "category": "DJI AVATA2",
+      "clips": 39,
+      "candidate_clips": 39,
+      "candidate_period_median_ms": 2.4985600000000003,
+      "candidate_period_q10_q90_ms": [
+        2.4985600000000003,
+        4.997120000000001
+      ]
+    },
+    {
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+      "category": "DJI AVATA2",
+      "clips": 36,
+      "candidate_clips": 30,
+      "candidate_period_median_ms": 2.4985600000000003,
+      "candidate_period_q10_q90_ms": [
+        2.4985600000000003,
+        4.997120000000001
+      ]
+    },
+    {
+      "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+      "category": "DJI FPV COMBO",
+      "clips": 39,
+      "candidate_clips": 16,
+      "candidate_period_median_ms": 4.997120000000001,
+      "candidate_period_q10_q90_ms": [
+        4.997120000000001,
+        5.00736
+      ]
+    },
+    {
+      "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+      "category": "DJI FPV COMBO",
+      "clips": 30,
+      "candidate_clips": 7,
+      "candidate_period_median_ms": 4.997120000000001,
+      "candidate_period_q10_q90_ms": [
+        4.956160000000001,
+        5.023744000000001
+      ]
+    },
+    {
+      "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+      "category": "DJI MAVIC3 PRO",
+      "clips": 27,
+      "candidate_clips": 6,
+      "candidate_period_median_ms": 3.9987200000000005,
+      "candidate_period_q10_q90_ms": [
+        3.9936000000000003,
+        4.00384
+      ]
+    },
+    {
+      "pack_id": "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml",
+      "category": "DJI MINI3",
+      "clips": 27,
+      "candidate_clips": 14,
+      "candidate_period_median_ms": 4.00384,
+      "candidate_period_q10_q90_ms": [
+        3.9966720000000002,
+        4.00384
+      ]
+    },
+    {
+      "pack_id": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml",
+      "category": "DJI MINI4 PRO",
+      "clips": 21,
+      "candidate_clips": 9,
+      "candidate_period_median_ms": 4.997120000000001,
+      "candidate_period_q10_q90_ms": [
+        4.497408000000001,
+        4.997120000000001
+      ]
+    }
+  ],
+  "config": {
+    "fft_size": 1024,
+    "bands": 64,
+    "min_lag": 128,
+    "max_lag": 512,
+    "block_shuffle_frames": 64,
+    "shuffle_repeats": 63,
+    "candidate_min_correlation": 0.2,
+    "candidate_max_shuffle_rank": 0.05,
+    "train_only": true,
+    "seed": 0
+  },
+  "fft_frame_ms": 0.01024,
+  "examined_lag_ms": [
+    1.31072,
+    5.24288
+  ],
+  "nominal_model_input_ms": 0.63872,
+  "diagnostic_context_ms": 20.97152,
+  "source_manifest_sha256": "dba2aa3f1c9a1a16c60bb0b040e537ef41a22d1a6ba4202ecf11a9af3d702236",
+  "script_sha256": "8e420863e46b006c134b34d6bd8099ea0026a2882e5eef84f55c21c4c69b2513",
+  "helper_sha256": "47c237184e31050706abefd0bc91bce80c1492866f5c26e0e9333fe1712da253",
+  "data_helper_sha256": "2c8abdc30d724e3fd61ca4145f158145139a8c9f69f1d66dc4c888ad1653df6e",
+  "files": {
+    "CLIPS.csv": "f05743637e59279cf64ba09b4622d629e8f62bc16a5a65020869888a7f6621c3",
+    "CORRELATIONS.npy": "ff8f542600620b6f92e64a6843b6afe0c1d6966e490c4b351158162bb6cfd300",
+    "CONFIG.json": "4b790270500e498434993bceb27a06008627bf3821e6d0adaac96bd439a146cc"
+  },
+  "validation_read": false,
+  "heldout_read": false,
+  "gpu_used": false,
+  "separator_trained": false,
+  "interpretation": "Exploratory power-envelope recurrence with block-shuffle controls. A candidate is not a decoded hop period, formal significance test, cyclostationary spectrum, airframe-only transmission proof, or demonstrated source separation benefit.",
+  "category_summary": [
+    {
+      "category": "DJI AVATA2",
+      "total_clips": 105,
+      "candidate_clips": 97,
+      "candidate_peak_bins_0p1ms": [
+        [
+          2.5,
+          70
+        ],
+        [
+          5.0,
+          27
+        ]
+      ],
+      "possible_short_lag_harmonics": 0
+    },
+    {
+      "category": "DJI FPV COMBO",
+      "total_clips": 69,
+      "candidate_clips": 23,
+      "candidate_peak_bins_0p1ms": [
+        [
+          5.0,
+          22
+        ],
+        [
+          4.0,
+          1
+        ]
+      ],
+      "possible_short_lag_harmonics": 0
+    },
+    {
+      "category": "DJI MAVIC3 PRO",
+      "total_clips": 27,
+      "candidate_clips": 6,
+      "candidate_peak_bins_0p1ms": [
+        [
+          4.0,
+          6
+        ]
+      ],
+      "possible_short_lag_harmonics": 1
+    },
+    {
+      "category": "DJI MINI3",
+      "total_clips": 27,
+      "candidate_clips": 14,
+      "candidate_peak_bins_0p1ms": [
+        [
+          4.0,
+          14
+        ]
+      ],
+      "possible_short_lag_harmonics": 0
+    },
+    {
+      "category": "DJI MINI4 PRO",
+      "total_clips": 21,
+      "candidate_clips": 9,
+      "candidate_peak_bins_0p1ms": [
+        [
+          5.0,
+          8
+        ],
+        [
+          2.5,
+          1
+        ]
+      ],
+      "possible_short_lag_harmonics": 0
+    }
+  ],
+  "independent_csv_recount": "PASS"
+}
