@@ -1,0 +1,133 @@
+{
+  "status": "REAL_MIXTURE_INPUT_AUDIT_COMPLETE",
+  "time": 1791277381.029603,
+  "elapsed_seconds": 19.786288738250732,
+  "training_epoch_audited": 1,
+  "training_examples": 2400,
+  "validation_examples": 120,
+  "unique_clips_used": 362,
+  "exact_mixture_sum": true,
+  "maximum_local_sir_replay_error_db": 6.794490303718703e-08,
+  "summaries": [
+    {
+      "role": "train_pack",
+      "nominal_sir_db": -10.0,
+      "examples": 800,
+      "undefined_sir_examples": 0,
+      "local_sir_quantiles_db": [
+        -47.281102349498845,
+        -26.11400803685993,
+        -6.797932378805145,
+        16.575728360473136,
+        29.295279647313247
+      ],
+      "local_sir_min_db": -53.637115099000766,
+      "local_sir_max_db": 36.626431542803594,
+      "deviation_over_3db": 680,
+      "stronger_source_reversed": 282,
+      "source_windows_below_1pct_context_power": 345
+    },
+    {
+      "role": "train_pack",
+      "nominal_sir_db": 0.0,
+      "examples": 800,
+      "undefined_sir_examples": 0,
+      "local_sir_quantiles_db": [
+        -33.23932941798471,
+        -17.95805537246175,
+        3.0031596630213544,
+        26.26070796586952,
+        38.32805520691931
+      ],
+      "local_sir_min_db": -42.022503409554986,
+      "local_sir_max_db": 43.81853187205175,
+      "deviation_over_3db": 672,
+      "stronger_source_reversed": null,
+      "source_windows_below_1pct_context_power": 359
+    },
+    {
+      "role": "train_pack",
+      "nominal_sir_db": 10.0,
+      "examples": 800,
+      "undefined_sir_examples": 0,
+      "local_sir_quantiles_db": [
+        -22.369924237573475,
+        -6.167287551966423,
+        12.114474481879197,
+        35.01521059311778,
+        49.401090514243016
+      ],
+      "local_sir_min_db": -28.850813202281124,
+      "local_sir_max_db": 55.30082230096889,
+      "deviation_over_3db": 664,
+      "stronger_source_reversed": 141,
+      "source_windows_below_1pct_context_power": 318
+    },
+    {
+      "role": "validation_pack",
+      "nominal_sir_db": -10.0,
+      "examples": 40,
+      "undefined_sir_examples": 0,
+      "local_sir_quantiles_db": [
+        -26.863867202813214,
+        -16.717504495166228,
+        0.5927840333580159,
+        18.257534651196263,
+        24.18476222058752
+      ],
+      "local_sir_min_db": -27.180880716947065,
+      "local_sir_max_db": 24.84359695693897,
+      "deviation_over_3db": 34,
+      "stronger_source_reversed": 20,
+      "source_windows_below_1pct_context_power": 16
+    },
+    {
+      "role": "validation_pack",
+      "nominal_sir_db": 0.0,
+      "examples": 40,
+      "undefined_sir_examples": 0,
+      "local_sir_quantiles_db": [
+        -16.667398793309854,
+        -9.342366391213494,
+        4.23960199960972,
+        30.694733104138592,
+        35.096450201286835
+      ],
+      "local_sir_min_db": -18.413450193526227,
+      "local_sir_max_db": 35.77791862051253,
+      "deviation_over_3db": 32,
+      "stronger_source_reversed": null,
+      "source_windows_below_1pct_context_power": 14
+    },
+    {
+      "role": "validation_pack",
+      "nominal_sir_db": 10.0,
+      "examples": 40,
+      "undefined_sir_examples": 0,
+      "local_sir_quantiles_db": [
+        -19.1714902641944,
+        4.332748814874039,
+        18.762778407131947,
+        40.185757307433185,
+        48.761665165243535
+      ],
+      "local_sir_min_db": -27.062293706353337,
+      "local_sir_max_db": 49.63685659748862,
+      "deviation_over_3db": 32,
+      "stronger_source_reversed": 2,
+      "source_windows_below_1pct_context_power": 12
+    }
+  ],
+  "original_centers_differ_examples": 2280,
+  "csv_sha256": "cd7193cb8a9346bb2e8bbd538e563265c1b45c8f09cb5cb8b87664e327834162",
+  "worker_sha256": "ee441afb6d726c97b7677bd9be93c09b738ca81a9d2391952ce9bc32baea881e",
+  "loader_sha256": "2c8abdc30d724e3fd61ca4145f158145139a8c9f69f1d66dc4c888ad1653df6e",
+  "manifest_sha256": "dba2aa3f1c9a1a16c60bb0b040e537ef41a22d1a6ba4202ecf11a9af3d702236",
+  "schedule_receipt_sha256": "2e8e6763fd2852eb3901b2b0347e782ba74c67a19fb1760f58411c72ba8c3bce",
+  "gpu_used": false,
+  "model_performance_evaluated": false,
+  "training_admitted": false,
+  "heldout_read": false,
+  "interpretation": "Synthetic frequency-rebased baseband; power includes receiver noise. Numerical nonzero/low-power windows are not annotated transmitter activity or physical aircraft counts.",
+  "independent_csv_recount": "PASS"
+}

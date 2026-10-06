@@ -1,21 +1,30 @@
 {
-  "checked_at": "2026-10-06T17:00:55.641581+09:00",
+  "checked_at": "2026-10-06T18:07:18.673213+09:00",
   "N_power": {
     "stage": "TRAIN",
-    "time": 1791273643.745606,
+    "time": 1791277636.9087186,
     "pid": 572268,
     "arm": "supervised",
-    "epoch": 12,
-    "updates": 855,
-    "examples": 960,
+    "epoch": 25,
+    "updates": 1835,
+    "examples": 1120,
     "loss_by_kind": {
-      "supervised": 87.686448337355,
+      "supervised": 97.60725500892316,
       "mixit": null
     },
-    "elapsed_seconds": 116.94338511499882
+    "elapsed_seconds": 133.95466872499674
   },
+  "N_power_completed_epochs": 24,
+  "median_recent_epoch_seconds": 306.9263028390051,
+  "best_selection_epoch": 18,
+  "best_validation_window_nmse": 78.52870652779485,
   "N_magnitude": "WAITING_POWER_COMPLETION",
   "diverse_drone_training": "NOT_STARTED",
   "variable_count_training": "NOT_STARTED",
-  "controller_status": "FULL_N_POWER_RUNNING"
+  "controller_status": "FULL_N_POWER_RUNNING",
+  "process_identities_verified": true,
+  "frozen_dependencies_verified": true,
+  "gpu": "100 %, 3406 MiB, 8188 MiB",
+  "cpu_mixture_audit": "COMPLETE",
+  "next_waveform_evaluation_epoch": 25
 }
