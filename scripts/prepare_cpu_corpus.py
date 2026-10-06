@@ -54,7 +54,7 @@ def admitted_files(inventory):
             raise ValueError('Controller, heldout, or unexpected source role')
         if row['data_type']!='Complex Float' or row['fs_hz']!=100_000_000 or row['bytes']%8:
             raise ValueError('Unsupported raw IQ declaration')
-        if row['samples_cf32']<4*CLIP_SAMPLES:
+        if row['samples_cf32']<5*CLIP_SAMPLES:
             raise ValueError('Insufficient length for three disjoint long clips')
         rows.append(row)
     if not rows:raise ValueError('Empty aircraft development cohort')

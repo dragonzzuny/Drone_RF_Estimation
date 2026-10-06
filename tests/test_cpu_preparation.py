@@ -46,15 +46,20 @@ class CPUPreparationChecks(unittest.TestCase):
 
     def test_reject_pack_shared_between_roles(self):
         base=dict(aircraft_category=True,category='DJI AVATA2',data_type='Complex Float',
-            fs_hz=100_000_000,bytes=80_000_000,samples_cf32=10_000_000,pack_id='same',relative_path='one')
+            fs_hz=100_000_000,bytes=96_000_000,samples_cf32=12_000_000,pack_id='same',relative_path='one')
         rows=[dict(base,path='one',role='train_pack'),dict(base,path='two',role='validation_pack')]
         with self.assertRaises(ValueError):admitted_files({'files':rows})
 
     def test_controller_and_holdout_excluded(self):
         valid=dict(aircraft_category=True,category='DJI AVATA2',data_type='Complex Float',role='train_pack',
-            fs_hz=100_000_000,bytes=80_000_000,samples_cf32=10_000_000,pack_id='pack',path='one',relative_path='one')
+            fs_hz=100_000_000,bytes=96_000_000,samples_cf32=12_000_000,pack_id='pack',path='one',relative_path='one')
         rows=[valid,dict(aircraft_category=False),dict(aircraft_category=True,role='heldout_model_not_for_selection')]
         self.assertEqual(admitted_files({'files':rows}),[valid])
+
+    def test_short_source_cannot_produce_overlapping_quarter_clips(self):
+        row=dict(aircraft_category=True,category='DJI AVATA2',data_type='Complex Float',role='train_pack',
+            fs_hz=100_000_000,bytes=80_000_000,samples_cf32=10_000_000,pack_id='pack',path='one',relative_path='one')
+        with self.assertRaises(ValueError):admitted_files({'files':[row]})
 
 
 if __name__=='__main__':unittest.main()

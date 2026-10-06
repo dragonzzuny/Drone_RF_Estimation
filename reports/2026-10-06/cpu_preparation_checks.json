@@ -1,13 +1,15 @@
 {
   "status": "PASS_CPU_PREPARATION_CHECKS",
-  "tests_total": 14,
-  "new_cpu_tests": 6,
+  "tests_total": 15,
+  "new_cpu_tests": 7,
   "raw_cohort_training": false,
   "source_files": {
     "src/drone_rf/similarity.py": "a8166bcc7adefec50b30c0374f84964b36943395d64ba3e91400f7b8147c561a",
-    "scripts/prepare_cpu_corpus.py": "1312b2bc08ac3a0daa37d8ba85a00e3b69b6d901aa1affc8b300a2c67289e7b8",
-    "tests/test_cpu_preparation.py": "d1da5d7af4c6fad3e4c1e88e7f5faa3cd202ba930b90ec0939d4d87e0d0798fd"
+    "scripts/prepare_cpu_corpus.py": "3918c87a3124e735a1b99c7ddd7c9674ec697f548e2325c9ea4e2f4e3a30329e",
+    "tests/test_cpu_preparation.py": "e5006558bbe9b220cb1e9f95f84804f426b0123afc600c90c7ab2559c74a43f3"
   },
   "gpu_used": false,
-  "post_test_edits": "Trailing blank line normalization only; running worker uses original immutable snapshot"
+  "post_test_edits": "None",
+  "running_cohort_satisfies_disjoint_clip_bound": true,
+  "worker_snapshot_unchanged": true
 }
