@@ -1,0 +1,13 @@
+{
+  "status": "PASS_CPU_PREPARATION_CHECKS",
+  "tests_total": 14,
+  "new_cpu_tests": 6,
+  "raw_cohort_training": false,
+  "source_files": {
+    "src/drone_rf/similarity.py": "a8166bcc7adefec50b30c0374f84964b36943395d64ba3e91400f7b8147c561a",
+    "scripts/prepare_cpu_corpus.py": "1312b2bc08ac3a0daa37d8ba85a00e3b69b6d901aa1affc8b300a2c67289e7b8",
+    "tests/test_cpu_preparation.py": "d1da5d7af4c6fad3e4c1e88e7f5faa3cd202ba930b90ec0939d4d87e0d0798fd"
+  },
+  "gpu_used": false,
+  "post_test_edits": "Trailing blank line normalization only; running worker uses original immutable snapshot"
+}

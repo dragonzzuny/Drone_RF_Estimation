@@ -8,3 +8,5 @@
 - Report planned, prepared, queued, running, and evaluated states separately. Check the actual process and saved progress before claiming training is active. Never claim perfect separation, general-purpose operation, or publication readiness without evidence.
 - Every published result must identify the dataset/split, comparison budget, waveform metrics, and limitations. Keep failed conditions alongside successful ones. A NMF-free U-Net result is not a Deep NMF improvement.
 - Read `docs/PLAN_KO.md` and `docs/DATA_POLICY_KO.md` before extending this experiment.
+- Run CPU data preparation/analysis alongside GPU training with bounded memory, CPU affinity, and low CPU/I/O priority. Preserve a source snapshot for long-running workers.
+- The user authorized ongoing cleanup: remove obsolete, regenerable artifacts after checking current dependencies; retain a concise result summary and a deletion ledger. Keep active caches/resume state and numerical evidence needed for reported comparisons. Do not indiscriminately remove whole experiment directories.

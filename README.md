@@ -8,6 +8,7 @@
 - [자료와 조종기 제외 기준](docs/DATA_POLICY_KO.md)
 - [확인된 결과와 진행 상태](reports/2026-10-06/STATUS_KO.md)
 - [데이터 조사 요약](reports/2026-10-06/inventory_summary.json)
+- [CPU 병행 처리와 산출물 정리](reports/2026-10-06/CPU_AND_CLEANUP_KO.md)
 
 ## 준비 코드 실행
 
@@ -19,6 +20,16 @@ python -m unittest discover -s tests -v
 python scripts/inventory_rfuav.py --data-root /path/to/uav_rf_research_20260914 --output local/inventory
 python scripts/check_raw_regions.py --inventory local/inventory/INVENTORY.json --output local/raw_qc.json
 ```
+
+전체 해시·긴 구간 캐시·학습/검증 이동 유사도 검사는 GPU 학습과 독립된 CPU 프로세스로 실행할 수 있습니다. 아래 코어 번호와 경로는 해당 기계에 맞춥니다. 출력 폴더는 새 실행 전용으로 지정합니다.
+
+```bash
+ionice -c 2 -n 7 python scripts/prepare_cpu_corpus.py \
+  --inventory local/inventory/INVENTORY.json \
+  --output local/cpu_intake --cache /path/to/ssd/iq_cache --cpus 14,15
+```
+
+이번 실제 실행은 실행 중 코드가 바뀌지 않도록 로컬 스냅샷에서 시작했습니다. 작업별 상태는 `PROGRESS.json`, 파일별 해시는 `SOURCE_RECORDS.jsonl`, 캐시는 `CACHE_MANIFEST.json`, 최종 진단은 `COMPLETE.json`에 남습니다. 완성 전 캐시를 학습에 자동 편입하지 않습니다.
 
 자료 조사는 `extracted/rfuav`의 XML·파일 목록과 `archives`의 ZIP 목차를 읽습니다. 두 번째 명령은 학습·검증 후보 파일의 세 위치를 제한적으로 읽어 수치 이상과 부분 중복을 검사합니다. 미지 기종 보류 파일은 읽지 않습니다. 전체 파일 무결성이나 수집 세션 독립성을 대신하는 검사가 아닙니다.
 
