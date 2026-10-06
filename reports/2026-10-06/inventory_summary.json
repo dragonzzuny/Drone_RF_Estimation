@@ -1,0 +1,688 @@
+{
+  "summary": {
+    "time": 1791273141.957247,
+    "status": "METADATA_INVENTORY_AND_CONTROLLER_EXCLUSION_COMPLETE",
+    "all_categories": 37,
+    "all_iq_files": 358,
+    "all_iq_bytes": 283692265408,
+    "aircraft_categories": 6,
+    "aircraft_iq_files": 144,
+    "aircraft_iq_bytes": 112492265408,
+    "aircraft_packs": 14,
+    "excluded_categories": 31,
+    "aircraft_pack_roles": {
+      "heldout_model_not_for_selection": 1,
+      "train_pack": 8,
+      "validation_pack": 5
+    },
+    "metadata_only": true,
+    "new_rf_arrays_read": false,
+    "transmitter_purity_established": false,
+    "archive_payload_integrity_verified": false,
+    "protected_confirmation_opened": false
+  },
+  "categories": [
+    {
+      "category": "DAUTEL EVO NANO",
+      "aircraft_category": true,
+      "iq_files": 13,
+      "packs": 1,
+      "bytes": 9624588336
+    },
+    {
+      "category": "DEVENTION DEVO",
+      "aircraft_category": false,
+      "iq_files": 6,
+      "packs": 1,
+      "bytes": 4800000000
+    },
+    {
+      "category": "DJI AVATA2",
+      "aircraft_category": true,
+      "iq_files": 44,
+      "packs": 4,
+      "bytes": 33963557856
+    },
+    {
+      "category": "DJI FPV COMBO",
+      "aircraft_category": true,
+      "iq_files": 38,
+      "packs": 3,
+      "bytes": 29852931552
+    },
+    {
+      "category": "DJI MAVIC3 PRO",
+      "aircraft_category": true,
+      "iq_files": 18,
+      "packs": 2,
+      "bytes": 14251187664
+    },
+    {
+      "category": "DJI MINI3",
+      "aircraft_category": true,
+      "iq_files": 17,
+      "packs": 2,
+      "bytes": 13600000000
+    },
+    {
+      "category": "DJI MINI4 PRO",
+      "aircraft_category": true,
+      "iq_files": 14,
+      "packs": 2,
+      "bytes": 11200000000
+    },
+    {
+      "category": "FLYSKY EL 18",
+      "aircraft_category": false,
+      "iq_files": 7,
+      "packs": 1,
+      "bytes": 5600000000
+    },
+    {
+      "category": "FLYSKY FS I6X",
+      "aircraft_category": false,
+      "iq_files": 6,
+      "packs": 1,
+      "bytes": 4800000000
+    },
+    {
+      "category": "FLYSKY NV 14",
+      "aircraft_category": false,
+      "iq_files": 6,
+      "packs": 1,
+      "bytes": 4800000000
+    },
+    {
+      "category": "FRSKY X14",
+      "aircraft_category": false,
+      "iq_files": 7,
+      "packs": 1,
+      "bytes": 5600000000
+    },
+    {
+      "category": "FRSKY X20R",
+      "aircraft_category": false,
+      "iq_files": 7,
+      "packs": 1,
+      "bytes": 5600000000
+    },
+    {
+      "category": "FRSKY X9DP2019",
+      "aircraft_category": false,
+      "iq_files": 6,
+      "packs": 1,
+      "bytes": 4800000000
+    },
+    {
+      "category": "FUTABA T10J",
+      "aircraft_category": false,
+      "iq_files": 7,
+      "packs": 1,
+      "bytes": 5600000000
+    },
+    {
+      "category": "FUTABA T14SG",
+      "aircraft_category": false,
+      "iq_files": 8,
+      "packs": 2,
+      "bytes": 6400000000
+    },
+    {
+      "category": "FUTABA T16IZ",
+      "aircraft_category": false,
+      "iq_files": 7,
+      "packs": 1,
+      "bytes": 5600000000
+    },
+    {
+      "category": "FUTABA T18SZ",
+      "aircraft_category": false,
+      "iq_files": 7,
+      "packs": 1,
+      "bytes": 5600000000
+    },
+    {
+      "category": "Herelink Hx4",
+      "aircraft_category": false,
+      "iq_files": 8,
+      "packs": 2,
+      "bytes": 6400000000
+    },
+    {
+      "category": "JR PROPO XG14",
+      "aircraft_category": false,
+      "iq_files": 7,
+      "packs": 1,
+      "bytes": 5600000000
+    },
+    {
+      "category": "JR PROPO XG7",
+      "aircraft_category": false,
+      "iq_files": 7,
+      "packs": 1,
+      "bytes": 5600000000
+    },
+    {
+      "category": "JUMPER T14",
+      "aircraft_category": false,
+      "iq_files": 7,
+      "packs": 1,
+      "bytes": 5600000000
+    },
+    {
+      "category": "JUMPER TProV2",
+      "aircraft_category": false,
+      "iq_files": 7,
+      "packs": 1,
+      "bytes": 5600000000
+    },
+    {
+      "category": "RadioMaster BOXER",
+      "aircraft_category": false,
+      "iq_files": 7,
+      "packs": 1,
+      "bytes": 5600000000
+    },
+    {
+      "category": "RadioMaster TX16S",
+      "aircraft_category": false,
+      "iq_files": 7,
+      "packs": 1,
+      "bytes": 5600000000
+    },
+    {
+      "category": "Radiolink AT10 II",
+      "aircraft_category": false,
+      "iq_files": 7,
+      "packs": 1,
+      "bytes": 5600000000
+    },
+    {
+      "category": "Radiolink AT9S Pro",
+      "aircraft_category": false,
+      "iq_files": 8,
+      "packs": 1,
+      "bytes": 6400000000
+    },
+    {
+      "category": "SIYI FT24",
+      "aircraft_category": false,
+      "iq_files": 7,
+      "packs": 1,
+      "bytes": 5600000000
+    },
+    {
+      "category": "SIYI MK15",
+      "aircraft_category": false,
+      "iq_files": 8,
+      "packs": 2,
+      "bytes": 6400000000
+    },
+    {
+      "category": "SIYI MK32",
+      "aircraft_category": false,
+      "iq_files": 6,
+      "packs": 3,
+      "bytes": 4800000000
+    },
+    {
+      "category": "SKYDROID H12",
+      "aircraft_category": false,
+      "iq_files": 8,
+      "packs": 1,
+      "bytes": 6400000000
+    },
+    {
+      "category": "SKYDROID T10",
+      "aircraft_category": false,
+      "iq_files": 9,
+      "packs": 1,
+      "bytes": 7200000000
+    },
+    {
+      "category": "WFLY ET10",
+      "aircraft_category": false,
+      "iq_files": 9,
+      "packs": 1,
+      "bytes": 7200000000
+    },
+    {
+      "category": "WFLY ET16S",
+      "aircraft_category": false,
+      "iq_files": 8,
+      "packs": 1,
+      "bytes": 6400000000
+    },
+    {
+      "category": "WFLY WFT09SII",
+      "aircraft_category": false,
+      "iq_files": 8,
+      "packs": 1,
+      "bytes": 6400000000
+    },
+    {
+      "category": "YUNZHUO H12",
+      "aircraft_category": false,
+      "iq_files": 4,
+      "packs": 2,
+      "bytes": 3200000000
+    },
+    {
+      "category": "YUNZHUO H16",
+      "aircraft_category": false,
+      "iq_files": 4,
+      "packs": 2,
+      "bytes": 3200000000
+    },
+    {
+      "category": "YUNZHUO H30",
+      "aircraft_category": false,
+      "iq_files": 4,
+      "packs": 2,
+      "bytes": 3200000000
+    }
+  ],
+  "aircraft_packs": [
+    {
+      "pack_id": "DAUTEL EVO NANO/DAUTEL EVO NANO/pack1.xml",
+      "xml_sha256": "42d0da5f93224bc24b4683b811d36f54b76ac41b8cf9c3737237396bb84449cb",
+      "category": "DAUTEL EVO NANO",
+      "aircraft_category": true,
+      "role": "heldout_model_not_for_selection",
+      "metadata": {
+        "DeviceType": "USRPX310",
+        "Drone": "DAUTEL EVO NANO",
+        "SerialNumber": "00001",
+        "DataType": "Complex Float",
+        "ReferenceSNRLevel": "34",
+        "CenterFrequency": "5770000000.000",
+        "SampleRate": "100000000",
+        "IFBandwidth": "100000000",
+        "ScaleFactor": "90",
+        "IQFileName": "pack1.iq",
+        "SampleCount": "100000000"
+      },
+      "iq_files": 13,
+      "bytes": 9624588336,
+      "physical_airframe_id": null,
+      "independent_session_verified": false,
+      "transmitter_direction_verified": false,
+      "prior_research_exposure": "not_fully_audited",
+      "xml_stem_mismatched_members": []
+    },
+    {
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1.xml",
+      "xml_sha256": "6f0d274ee25e05c7eb9bd044ab2c304bf802e4566583e6135f91e87127ae6bb8",
+      "category": "DJI AVATA2",
+      "aircraft_category": true,
+      "role": "train_pack",
+      "metadata": {
+        "DeviceType": "USRPX310",
+        "Drone": "DJI AVATA2",
+        "SerialNumber": "00003",
+        "DataType": "Complex Float",
+        "ReferenceSNRLevel": "9",
+        "CenterFrequency": "5760000000.000",
+        "SampleRate": "100000000",
+        "IFBandwidth": "100000000",
+        "ScaleFactor": "90",
+        "IQFileName": "pack1.iq",
+        "SampleCount": "100000000"
+      },
+      "iq_files": 10,
+      "bytes": 7414637824,
+      "physical_airframe_id": null,
+      "independent_session_verified": false,
+      "transmitter_direction_verified": false,
+      "prior_research_exposure": "not_fully_audited",
+      "xml_stem_mismatched_members": []
+    },
+    {
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=20/pack2.xml",
+      "xml_sha256": "32272f23452d6b29cd07ef9601a4d8755db5e000303d660983677553c181c0b4",
+      "category": "DJI AVATA2",
+      "aircraft_category": true,
+      "role": "validation_pack",
+      "metadata": {
+        "DeviceType": "USRPX310",
+        "Drone": "DJI AVATA2",
+        "SerialNumber": "00004",
+        "DataType": "Complex Float",
+        "ReferenceSNRLevel": "2",
+        "CenterFrequency": "5765000000.000",
+        "SampleRate": "100000000",
+        "IFBandwidth": "100000000",
+        "ScaleFactor": "85",
+        "IQFileName": "pack2.iq",
+        "SampleCount": "100000000"
+      },
+      "iq_files": 9,
+      "bytes": 7200000000,
+      "physical_airframe_id": null,
+      "independent_session_verified": false,
+      "transmitter_direction_verified": false,
+      "prior_research_exposure": "not_fully_audited",
+      "xml_stem_mismatched_members": []
+    },
+    {
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+      "xml_sha256": "e3d4a998d879680e0e7f788ff0a7e395a9b1638b4a92be73de1de36ecfe12908",
+      "category": "DJI AVATA2",
+      "aircraft_category": true,
+      "role": "train_pack",
+      "metadata": {
+        "DeviceType": "USRPX310",
+        "Drone": "DJI AVATA2",
+        "SerialNumber": "00005",
+        "DataType": "Complex Float",
+        "ReferenceSNRLevel": "23",
+        "CenterFrequency": "5760000000.000",
+        "SampleRate": "100000000",
+        "IFBandwidth": "100000000",
+        "ScaleFactor": "85",
+        "IQFileName": "pack4.iq",
+        "SampleCount": "100000000"
+      },
+      "iq_files": 13,
+      "bytes": 10093527840,
+      "physical_airframe_id": null,
+      "independent_session_verified": false,
+      "transmitter_direction_verified": false,
+      "prior_research_exposure": "not_fully_audited",
+      "xml_stem_mismatched_members": []
+    },
+    {
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+      "xml_sha256": "c0a662f31384296fbff8726cdaddd2f7c9ce05966b9524e9036f6a6933205421",
+      "category": "DJI AVATA2",
+      "aircraft_category": true,
+      "role": "train_pack",
+      "metadata": {
+        "DeviceType": "USRPX310",
+        "Drone": "DJI AVATA2",
+        "SerialNumber": "00006",
+        "DataType": "Complex Float",
+        "ReferenceSNRLevel": "1",
+        "CenterFrequency": "5760000000.000",
+        "SampleRate": "100000000",
+        "IFBandwidth": "100000000",
+        "ScaleFactor": "85",
+        "IQFileName": "pack3.iq",
+        "SampleCount": "100000000"
+      },
+      "iq_files": 12,
+      "bytes": 9255392192,
+      "physical_airframe_id": null,
+      "independent_session_verified": false,
+      "transmitter_direction_verified": false,
+      "prior_research_exposure": "not_fully_audited",
+      "xml_stem_mismatched_members": []
+    },
+    {
+      "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+      "xml_sha256": "82c68283291c907adf4801f3567a17f05cda75ed069ab47addb1f71e0491cab3",
+      "category": "DJI FPV COMBO",
+      "aircraft_category": true,
+      "role": "train_pack",
+      "metadata": {
+        "DeviceType": "USRPX310",
+        "Drone": "DJI FPV COMBO",
+        "SerialNumber": "00007",
+        "DataType": "Complex Float",
+        "ReferenceSNRLevel": "32",
+        "CenterFrequency": "5760000000.000",
+        "SampleRate": "100000000",
+        "IFBandwidth": "100000000",
+        "ScaleFactor": "90",
+        "IQFileName": "pack1.iq",
+        "SampleCount": "100000000"
+      },
+      "iq_files": 13,
+      "bytes": 10400000000,
+      "physical_airframe_id": null,
+      "independent_session_verified": false,
+      "transmitter_direction_verified": false,
+      "prior_research_exposure": "not_fully_audited",
+      "xml_stem_mismatched_members": []
+    },
+    {
+      "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=20/pack3.xml",
+      "xml_sha256": "390d972a8666d5fa5450b1c284fed6592d96893d926c470c82605011c0dd2a03",
+      "category": "DJI FPV COMBO",
+      "aircraft_category": true,
+      "role": "validation_pack",
+      "metadata": {
+        "DeviceType": "USRPX310",
+        "Drone": "DJI FPV COMBO",
+        "SerialNumber": "00008",
+        "DataType": "Complex Float",
+        "ReferenceSNRLevel": "20",
+        "CenterFrequency": "5760000000.000",
+        "SampleRate": "100000000",
+        "IFBandwidth": "100000000",
+        "ScaleFactor": "90",
+        "IQFileName": "pack3.iq",
+        "SampleCount": "100000000"
+      },
+      "iq_files": 15,
+      "bytes": 11452931552,
+      "physical_airframe_id": null,
+      "independent_session_verified": false,
+      "transmitter_direction_verified": false,
+      "prior_research_exposure": "not_fully_audited",
+      "xml_stem_mismatched_members": []
+    },
+    {
+      "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+      "xml_sha256": "19f861ded9ec4c01569c1fcfc60ea2e75ae4afd0c5b683bef0034ca34410f5cf",
+      "category": "DJI FPV COMBO",
+      "aircraft_category": true,
+      "role": "train_pack",
+      "metadata": {
+        "DeviceType": "USRPX310",
+        "Drone": "DJI FPV COMBO",
+        "SerialNumber": "00009",
+        "DataType": "Complex Float",
+        "ReferenceSNRLevel": "30",
+        "CenterFrequency": "5760000000.000",
+        "SampleRate": "100000000",
+        "IFBandwidth": "100000000",
+        "ScaleFactor": "90",
+        "IQFileName": "pack2.iq",
+        "SampleCount": "100000000"
+      },
+      "iq_files": 10,
+      "bytes": 8000000000,
+      "physical_airframe_id": null,
+      "independent_session_verified": false,
+      "transmitter_direction_verified": false,
+      "prior_research_exposure": "not_fully_audited",
+      "xml_stem_mismatched_members": []
+    },
+    {
+      "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+      "xml_sha256": "fef7ddd1c0a78b6239564524d3eb274f4bd9e4a1747cf9d1a009d4b0e0d8c89f",
+      "category": "DJI MAVIC3 PRO",
+      "aircraft_category": true,
+      "role": "train_pack",
+      "metadata": {
+        "DeviceType": "USRPX310",
+        "Drone": "DJI MAVIC 3 PRO",
+        "SerialNumber": "00010",
+        "DataType": "Complex Float",
+        "ReferenceSNRLevel": "22",
+        "CenterFrequency": "5800000000.000",
+        "SampleRate": "100000000",
+        "IFBandwidth": "100000000",
+        "ScaleFactor": "90",
+        "IQFileName": "pack1.iq",
+        "SampleCount": "100000000"
+      },
+      "iq_files": 9,
+      "bytes": 7051187664,
+      "physical_airframe_id": null,
+      "independent_session_verified": false,
+      "transmitter_direction_verified": false,
+      "prior_research_exposure": "not_fully_audited",
+      "xml_stem_mismatched_members": []
+    },
+    {
+      "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=20/pack2.xml",
+      "xml_sha256": "d203624091348476c42f1faa40a6b36f4c3a6e181172048e8b1a7d28374cc671",
+      "category": "DJI MAVIC3 PRO",
+      "aircraft_category": true,
+      "role": "validation_pack",
+      "metadata": {
+        "DeviceType": "USRPX310",
+        "Drone": "DJI MAVIC 3 PRO",
+        "SerialNumber": "00011",
+        "DataType": "Complex Float",
+        "ReferenceSNRLevel": "6",
+        "CenterFrequency": "5800000000.000",
+        "SampleRate": "100000000",
+        "IFBandwidth": "100000000",
+        "ScaleFactor": "90",
+        "IQFileName": "pack2.iq",
+        "SampleCount": "100000000"
+      },
+      "iq_files": 9,
+      "bytes": 7200000000,
+      "physical_airframe_id": null,
+      "independent_session_verified": false,
+      "transmitter_direction_verified": false,
+      "prior_research_exposure": "not_fully_audited",
+      "xml_stem_mismatched_members": []
+    },
+    {
+      "pack_id": "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml",
+      "xml_sha256": "9729dfe6357306676c68d67034bbde8f54d097d92c2e2f67bcad6f802ffa3552",
+      "category": "DJI MINI3",
+      "aircraft_category": true,
+      "role": "train_pack",
+      "metadata": {
+        "DeviceType": "USRPX310",
+        "Drone": "DJI MINI 3",
+        "SerialNumber": "00012",
+        "DataType": "Complex Float",
+        "ReferenceSNRLevel": "21",
+        "CenterFrequency": "2470000000.000",
+        "SampleRate": "100000000",
+        "IFBandwidth": "100000000",
+        "ScaleFactor": "60",
+        "IQFileName": "pack1.iq",
+        "SampleCount": "100000000"
+      },
+      "iq_files": 9,
+      "bytes": 7200000000,
+      "physical_airframe_id": null,
+      "independent_session_verified": false,
+      "transmitter_direction_verified": false,
+      "prior_research_exposure": "not_fully_audited",
+      "xml_stem_mismatched_members": [
+        "pack2_0-1s.iq",
+        "pack2_1-2s.iq",
+        "pack2_2-3s.iq",
+        "pack2_3-4s.iq",
+        "pack2_4-5s.iq",
+        "pack2_5-6s.iq",
+        "pack2_6-7s.iq",
+        "pack2_7-8s.iq",
+        "pack2_9-10s.iq"
+      ]
+    },
+    {
+      "pack_id": "DJI MINI3/DJI MINI3/VTSBW=20/pack2.xml",
+      "xml_sha256": "a3195adbebb5423c90a6814c81169b621d8986cd6044e4caf46bb169cc7f581c",
+      "category": "DJI MINI3",
+      "aircraft_category": true,
+      "role": "validation_pack",
+      "metadata": {
+        "DeviceType": "USRPX310",
+        "Drone": "DJI MINI 3",
+        "SerialNumber": "00013",
+        "DataType": "Complex Float",
+        "ReferenceSNRLevel": "36",
+        "CenterFrequency": "2470000000.000",
+        "SampleRate": "100000000",
+        "IFBandwidth": "100000000",
+        "ScaleFactor": "60",
+        "IQFileName": "pack2.iq",
+        "SampleCount": "100000000"
+      },
+      "iq_files": 8,
+      "bytes": 6400000000,
+      "physical_airframe_id": null,
+      "independent_session_verified": false,
+      "transmitter_direction_verified": false,
+      "prior_research_exposure": "not_fully_audited",
+      "xml_stem_mismatched_members": []
+    },
+    {
+      "pack_id": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml",
+      "xml_sha256": "82c32341a2199b4facdb9361cca4faaf1f9d5197a1ecf6e640c5d24d1754e365",
+      "category": "DJI MINI4 PRO",
+      "aircraft_category": true,
+      "role": "train_pack",
+      "metadata": {
+        "DeviceType": "USRPX310",
+        "Drone": "DJI MINI4 PRO",
+        "SerialNumber": "00014",
+        "DataType": "Complex Float",
+        "ReferenceSNRLevel": "29",
+        "CenterFrequency": "2450000000.000",
+        "SampleRate": "100000000",
+        "IFBandwidth": "100000000",
+        "ScaleFactor": "60",
+        "IQFileName": "pack1.iq",
+        "SampleCount": "100000000"
+      },
+      "iq_files": 7,
+      "bytes": 5600000000,
+      "physical_airframe_id": null,
+      "independent_session_verified": false,
+      "transmitter_direction_verified": false,
+      "prior_research_exposure": "not_fully_audited",
+      "xml_stem_mismatched_members": []
+    },
+    {
+      "pack_id": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=20/pack2.xml",
+      "xml_sha256": "730867ecd8b9c5cf29420c09d643ccf1e466ac8476cca858c257de125c4f052f",
+      "category": "DJI MINI4 PRO",
+      "aircraft_category": true,
+      "role": "validation_pack",
+      "metadata": {
+        "DeviceType": "USRPX310",
+        "Drone": "DJI MINI4 PRO",
+        "SerialNumber": "00015",
+        "DataType": "Complex Float",
+        "ReferenceSNRLevel": "31",
+        "CenterFrequency": "2450000000.000",
+        "SampleRate": "100000000",
+        "IFBandwidth": "100000000",
+        "ScaleFactor": "60",
+        "IQFileName": "pack2.iq",
+        "SampleCount": "100000000"
+      },
+      "iq_files": 7,
+      "bytes": 5600000000,
+      "physical_airframe_id": null,
+      "independent_session_verified": false,
+      "transmitter_direction_verified": false,
+      "prior_research_exposure": "not_fully_audited",
+      "xml_stem_mismatched_members": []
+    }
+  ],
+  "bounded_raw_qc": {
+    "status": "BOUNDED_RAW_QC_COMPLETE",
+    "time": 1791273221.3086128,
+    "files_read": 131,
+    "bytes_read": 51511296,
+    "all_finite": true,
+    "matched_three_region_groups": [],
+    "full_file_identity_verified": false,
+    "heldout_model_payload_read": false,
+    "protected_confirmation_opened": false
+  },
+  "source_inventory_sha256": "fd2a3e31496a5db2f145f586d046bf15287f9cb1b4f48b056186dd040f3b9346",
+  "note": "Metadata eligibility; not proof of airframe-only RF transmission or independent physical devices"
+}

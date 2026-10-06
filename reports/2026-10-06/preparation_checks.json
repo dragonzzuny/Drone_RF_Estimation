@@ -1,0 +1,27 @@
+{
+  "status": "PASS_PREPARATION_COMPONENTS",
+  "time": "2026-10-06T17:04:47.119417+09:00",
+  "unittest_count": 8,
+  "full_model_parameters": {
+    "2": 31391622,
+    "4": 31391882
+  },
+  "portable_inventory_replay_equal": true,
+  "portable_raw_qc_replay_equal": true,
+  "model_forward_test_stft_size": [
+    32,
+    33
+  ],
+  "full_63872_sample_gpu_test": false,
+  "rf_training": false,
+  "diverse_separation_performance_evaluated": false,
+  "hashes": {
+    "src/drone_rf/model.py": "a088508a7774f00df8e12fc63b97c51d68660c9fb8a654ce55759fd3a8047bfb",
+    "src/drone_rf/losses.py": "9018aee4c96b84205b85c244af190ce61b0c10dc9eb355485b049e716232c682",
+    "scripts/inventory_rfuav.py": "07c89089d6f1600236b491911d8fdb698e6ac488693985eca827e59c4b414023",
+    "scripts/check_raw_regions.py": "550bc162d5c36392311005ac00a929e261aeb52e8f47e131be944b78cd8d3fba",
+    "tests/test_separation.py": "5f4afa8fe114a90b4d9a8567be31ef035ef23017aa6fca06f4c44ef1b2880a2d",
+    "tests/test_data_policy.py": "4006e7d4a6e1a6374568613d3bef56286ec307f6d39f7d312407d26a44301ad6"
+  },
+  "post_test_edits": "Trailing blank line normalization only"
+}

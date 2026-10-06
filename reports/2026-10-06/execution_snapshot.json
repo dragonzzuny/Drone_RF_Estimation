@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-10-06T17:00:55.641581+09:00",
+  "N_power": {
+    "stage": "TRAIN",
+    "time": 1791273643.745606,
+    "pid": 572268,
+    "arm": "supervised",
+    "epoch": 12,
+    "updates": 855,
+    "examples": 960,
+    "loss_by_kind": {
+      "supervised": 87.686448337355,
+      "mixit": null
+    },
+    "elapsed_seconds": 116.94338511499882
+  },
+  "N_magnitude": "WAITING_POWER_COMPLETION",
+  "diverse_drone_training": "NOT_STARTED",
+  "variable_count_training": "NOT_STARTED",
+  "controller_status": "FULL_N_POWER_RUNNING"
+}
