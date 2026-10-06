@@ -20,7 +20,7 @@ def pit_waveform_loss(estimates, references, active, mixture, background_referen
     if assignment_mode not in {'pit','fixed'}:
         raise ValueError('Use pit or fixed for the matched supervision ablation')
     b,k,t=references.shape
-    if k not in (2,4) or estimates.shape!=(b,k+1,t) or active.shape!=(b,k) or mixture.shape!=(b,t):
+    if k not in (2,3,4) or estimates.shape!=(b,k+1,t) or active.shape!=(b,k) or mixture.shape!=(b,t):
         raise ValueError('Incompatible source geometry')
     if active.dtype!=torch.bool:
         raise ValueError('active must be an explicit boolean target')
@@ -54,3 +54,20 @@ def pit_waveform_loss(estimates, references, active, mixture, background_referen
     background_nmse=(estimates[:,-1]-background_reference).abs().square().mean(-1)/mix_power
     return dict(loss=source_loss+background_nmse.mean(),source_loss=source_loss,
         background_loss=background_nmse.mean(),assignment=chosen)
+
+
+def source_count_loss(logits, counts, eligible):
+    """1/2/3-source CE on explicitly approved long-context count targets only.
+
+    A nonzero recorded waveform can be receiver noise. Neither nonzero energy
+    nor the number of files authorizes a physical-aircraft-count label. Callers
+    must provide an audited eligibility mask; no implicit default is supplied.
+    """
+    if logits.ndim != 2 or logits.shape[1] != 3 or counts.shape != logits.shape[:1]:
+        raise ValueError('Expected [B,3] count logits and [B] counts')
+    if eligible.shape != counts.shape or eligible.dtype != torch.bool:
+        raise ValueError('Explicit boolean count-target eligibility required')
+    if counts.dtype != torch.long or torch.any((counts < 1) | (counts > 3)):
+        raise ValueError('Count targets must be long integers 1, 2 or 3')
+    values = torch.nn.functional.cross_entropy(logits, counts - 1, reduction='none')
+    return (values * eligible).sum() / eligible.sum().clamp_min(1)

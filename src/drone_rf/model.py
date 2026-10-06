@@ -26,8 +26,8 @@ class ComplexSeparator(nn.Module):
     """
     def __init__(self, max_sources=2):
         super().__init__()
-        if max_sources not in (2, 4):
-            raise ValueError('This experiment supports maximum 2 or 4 sources')
+        if max_sources not in (2, 3, 4):
+            raise ValueError('This experiment supports maximum 2, 3 or 4 sources')
         self.max_sources = max_sources
         widths = (64, 128, 256, 512, 1024)
         self.down = nn.ModuleList(Block(4 if i==0 else widths[i-1], c)
@@ -40,6 +40,10 @@ class ComplexSeparator(nn.Module):
         nn.init.zeros_(self.output.bias)
 
     def forward(self, z):
+        return self._forward(z)
+
+    def _forward(self, z, bottleneck_context=None):
+        """Optional [B,1024,T//16] mixture-derived temporal conditioning."""
         if not z.is_complex() or z.ndim!=3 or min(z.shape[-2:])<16:
             raise ValueError('Expected complex [B,F,T] with F,T >= 16')
         scale = z.abs().square().mean((1,2),keepdim=True).sqrt().clamp_min(1e-8)
@@ -50,6 +54,10 @@ class ComplexSeparator(nn.Module):
         for i, layer in enumerate(self.down):
             if i: x=F.avg_pool2d(x,2)
             x=layer(x); skips.append(x)
+        if bottleneck_context is not None:
+            if bottleneck_context.shape != (x.shape[0], x.shape[1], x.shape[3]):
+                raise ValueError('Temporal context does not align with the bottleneck')
+            x = x + bottleneck_context[:, :, None, :]
         for layer,skip in zip(self.up,reversed(skips[:-1])):
             x=layer(torch.cat([F.interpolate(x,size=skip.shape[-2:],
                      mode='bilinear',align_corners=False),skip],1))

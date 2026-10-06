@@ -1,0 +1,85 @@
+{
+  "status": "THREE_SOURCE_CONTEXT_INPUTS_AUDITED_NOT_TRAINED",
+  "time": 1791292957.7670586,
+  "elapsed_seconds": 23.88899254798889,
+  "cases": 105,
+  "cases_by_count": {
+    "1": 5,
+    "2": 30,
+    "3": 70
+  },
+  "checked_cache_clips": 154,
+  "source_manifest_sha256": "dba2aa3f1c9a1a16c60bb0b040e537ef41a22d1a6ba4202ecf11a9af3d702236",
+  "config": {
+    "seed": 0,
+    "fine_window_samples": 63872,
+    "fine_fft": 512,
+    "fine_hop": 128,
+    "context_samples": 2097152,
+    "context_fft": 1024,
+    "bands": 64,
+    "pool_frames": 8,
+    "source_counts": [
+      1,
+      2,
+      3
+    ],
+    "train_only": true,
+    "max_open": 6
+  },
+  "models": {
+    "plain": {
+      "parameters": 31391752,
+      "untrained": true,
+      "max_waveform_sources": 3,
+      "background_outputs": 1
+    },
+    "tcn": {
+      "parameters": 32142859,
+      "untrained": true,
+      "max_waveform_sources": 3,
+      "background_outputs": 1
+    },
+    "transformer": {
+      "parameters": 31944971,
+      "untrained": true,
+      "max_waveform_sources": 3,
+      "background_outputs": 1
+    },
+    "lstm": {
+      "parameters": 31747083,
+      "untrained": true,
+      "max_waveform_sources": 3,
+      "background_outputs": 1
+    }
+  },
+  "maximum_mixture_sum_error": 0.0,
+  "context_shape": [
+    65,
+    256
+  ],
+  "context_token_us": 81.92,
+  "context_duration_ms": 20.97152,
+  "fine_window_ms": 0.63872,
+  "max_rss_mib": 749.84375,
+  "files": {
+    "CASES.json": "37a6b6dcf88aa4f4ab4ec29190a1090c088b8eff2c944a227b7fd32a0700071a",
+    "CONFIG.json": "6427116ffd6b2d92fc37f269096f8cd0d7f706b68813dd651b271f2d6b934a9b"
+  },
+  "sources": {
+    "audit_context_inputs.py": "1bd4fe67447c618b68f9f35302a715fa484e07c64138b5248c85797d19691745",
+    "context_data.py": "6af9df11a456df49770c587d954c84e5cbe39d3a6538d7a181750d1ab659b949",
+    "context_model.py": "1cbc580830fc161364aec04dbafdc2b7a1354108b09308505be37fb8a2b7302e",
+    "model.py": "c97c64d315637c7799e59147ce37dfce910bdb6ff385c2733153720cfdf47105",
+    "temporal.py": "47c237184e31050706abefd0bc91bce80c1492866f5c26e0e9333fe1712da253",
+    "data.py": "2c8abdc30d724e3fd61ca4145f158145139a8c9f69f1d66dc4c888ad1653df6e"
+  },
+  "validation_read": false,
+  "heldout_read": false,
+  "gpu_used": false,
+  "separator_trained": false,
+  "count_performance_evaluated": false,
+  "waveform_performance_evaluated": false,
+  "physical_aircraft_count_labels_approved": false,
+  "interpretation": "CPU structure/input checks only. Mixtures use different aircraft-category recordings rebased to complex baseband, not actual simultaneous flights. Construction count is not physical-aircraft or local transmission count; no eligible count labels yet."
+}
