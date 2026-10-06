@@ -1,0 +1,945 @@
+{
+  "status": "RFUAV_SCOPE_TRANSMITTER_REVIEW_ALL_FUNCTIONS",
+  "time_utc": "2026-10-06T16:06:13.695593+00:00",
+  "sources": {
+    "paper": {
+      "url": "https://arxiv.org/html/2503.09033v2",
+      "sha256": "2debe9cd22e5226f1034d39561c877197aaf0c65c9df759e87a03162de050f7f"
+    },
+    "public_tree": {
+      "url": "https://huggingface.co/api/datasets/kitofrank/RFUAV/tree/main?recursive=false&limit=1000",
+      "sha256": "b4ccbbb6ed6c988b9bbfa6799fd6d5f286f7bcfc8c9919cded201711ec42fd4c"
+    }
+  },
+  "inventory_sha256": "7e81a50edf373bb3c7f641e29b99fc86732a5fad6784f2bc5830030cf4f11ee8",
+  "local_categories": 37,
+  "paper_categories": 37,
+  "public_rar_categories": 37,
+  "paper_not_local": [
+    "PARROT"
+  ],
+  "local_not_paper": [
+    "JR PROPO XG14"
+  ],
+  "public_not_local": [],
+  "local_not_public": [],
+  "paper_video_categories": 9,
+  "local_categories_with_paper_video_evidence": 8,
+  "metadata_review_counts": {
+    "existing_named_aircraft_cohort": 6,
+    "transmitter_evidence_review_required": 31
+  },
+  "normalization_aliases": {
+    "DJI AVTA2": "DJI AVATA2"
+  },
+  "no_iq_payloads_read": true,
+  "frozen_training_and_splits_changed": false,
+  "interpretation": "Six is a prior admission-list count. All 37 categories require transmitter provenance review. Aircraft-origin signals of any function are in scope; video presence or absence does not determine admission. No new capture has been admitted by this metadata audit.",
+  "categories": [
+    {
+      "category": "DAUTEL EVO NANO",
+      "iq_files": 13,
+      "prior_cohort_admitted": true,
+      "paper_label": "DAUTEL EVO NANO",
+      "paper_video_bandwidth_mhz": 20.0,
+      "metadata_review": "existing_named_aircraft_cohort",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "DAUTEL EVO NANO/DAUTEL EVO NANO/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        5770000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "DEVENTION DEVO",
+      "iq_files": 6,
+      "prior_cohort_admitted": false,
+      "paper_label": "DEVENTION DEVO",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "DEVENTION DEVO/DEVENTION DEVO/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "DJI AVATA2",
+      "iq_files": 44,
+      "prior_cohort_admitted": true,
+      "paper_label": "DJI AVTA2",
+      "paper_video_bandwidth_mhz": 10.0,
+      "metadata_review": "existing_named_aircraft_cohort",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1.xml",
+        "DJI AVATA2/DJI AVATA2/VTSBW=20/pack2.xml",
+        "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+        "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        5760000000.0,
+        5765000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "DJI FPV COMBO",
+      "iq_files": 38,
+      "prior_cohort_admitted": true,
+      "paper_label": "DJI FPV COMBO",
+      "paper_video_bandwidth_mhz": 10.0,
+      "metadata_review": "existing_named_aircraft_cohort",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=20/pack3.xml",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        5760000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "DJI MAVIC3 PRO",
+      "iq_files": 18,
+      "prior_cohort_admitted": true,
+      "paper_label": "DJI MAVIC3 PRO",
+      "paper_video_bandwidth_mhz": 10.0,
+      "metadata_review": "existing_named_aircraft_cohort",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=20/pack2.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        5800000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "DJI MINI3",
+      "iq_files": 17,
+      "prior_cohort_admitted": true,
+      "paper_label": "DJI MINI3",
+      "paper_video_bandwidth_mhz": 10.0,
+      "metadata_review": "existing_named_aircraft_cohort",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml",
+        "DJI MINI3/DJI MINI3/VTSBW=20/pack2.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2470000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "DJI MINI4 PRO",
+      "iq_files": 14,
+      "prior_cohort_admitted": true,
+      "paper_label": "DJI MINI4 PRO",
+      "paper_video_bandwidth_mhz": 10.0,
+      "metadata_review": "existing_named_aircraft_cohort",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml",
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=20/pack2.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2450000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "FLYSKY EL 18",
+      "iq_files": 7,
+      "prior_cohort_admitted": false,
+      "paper_label": "FLYSKY EL 18",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "FLYSKY EL 18/FLYSKY EL 18/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "FLYSKY FS I6X",
+      "iq_files": 6,
+      "prior_cohort_admitted": false,
+      "paper_label": "FLYSKY FS I6X",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "FLYSKY FS I6X/FLYSKY FS I6X/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "FLYSKY NV 14",
+      "iq_files": 6,
+      "prior_cohort_admitted": false,
+      "paper_label": "FLYSKY NV 14",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "FLYSKY NV 14/FLYSKY NV 14/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "FRSKY X14",
+      "iq_files": 7,
+      "prior_cohort_admitted": false,
+      "paper_label": "FRSKY X14",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "FRSKY X14/FRSKY X14/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "FRSKY X20R",
+      "iq_files": 7,
+      "prior_cohort_admitted": false,
+      "paper_label": "FRSKY X20R",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "FRSKY X20R/FRSKY X20R/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "FRSKY X9DP2019",
+      "iq_files": 6,
+      "prior_cohort_admitted": false,
+      "paper_label": "FRSKY X9DP2019",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "FRSKY X9DP2019/FRSKY X9DP2019/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "FUTABA T10J",
+      "iq_files": 7,
+      "prior_cohort_admitted": false,
+      "paper_label": "FUTABA T10J",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "FUTABA T10J/FUTABA T10J/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "FUTABA T14SG",
+      "iq_files": 8,
+      "prior_cohort_admitted": false,
+      "paper_label": "FUTABA T14SG",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "FUTABA T14SG/FUTABA T14SG/pack1.xml",
+        "FUTABA T14SG/FUTABA T14SG/pack2.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "FUTABA T16IZ",
+      "iq_files": 7,
+      "prior_cohort_admitted": false,
+      "paper_label": "FUTABA T16IZ",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "FUTABA T16IZ/FUTABA T16IZ/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "FUTABA T18SZ",
+      "iq_files": 7,
+      "prior_cohort_admitted": false,
+      "paper_label": "FUTABA T18SZ",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "FUTABA T18SZ/FUTABA T18SZ/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "Herelink Hx4",
+      "iq_files": 8,
+      "prior_cohort_admitted": false,
+      "paper_label": "Herelink HX4",
+      "paper_video_bandwidth_mhz": 19.136,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "Herelink Hx4/Herelink Hx4/pack1.xml",
+        "Herelink Hx4/Herelink Hx4/pack2.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "JR PROPO XG14",
+      "iq_files": 7,
+      "prior_cohort_admitted": false,
+      "paper_label": null,
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "JR PROPO XG14/JR PROPO XG14/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "JR PROPO XG7",
+      "iq_files": 7,
+      "prior_cohort_admitted": false,
+      "paper_label": "JR PROPO XG7",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "JR PROPO XG7/JR PROPO XG7/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "JUMPER T14",
+      "iq_files": 7,
+      "prior_cohort_admitted": false,
+      "paper_label": "JUMPER T14",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "JUMPER T14/JUMPER T14/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "JUMPER TProV2",
+      "iq_files": 7,
+      "prior_cohort_admitted": false,
+      "paper_label": "JUMPER TProV2",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "JUMPER TProV2/JUMPER TProV2/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "RadioMaster BOXER",
+      "iq_files": 7,
+      "prior_cohort_admitted": false,
+      "paper_label": "RadioMaster BOXER",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "RadioMaster BOXER/RadioMaster BOXER/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "RadioMaster TX16S",
+      "iq_files": 7,
+      "prior_cohort_admitted": false,
+      "paper_label": "RadioMaster TX16S",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "RadioMaster TX16S/RadioMaster TX16S/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "Radiolink AT10 II",
+      "iq_files": 7,
+      "prior_cohort_admitted": false,
+      "paper_label": "Radiolink AT10 II",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "Radiolink AT10 II/Radiolink AT10 II/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "Radiolink AT9S Pro",
+      "iq_files": 8,
+      "prior_cohort_admitted": false,
+      "paper_label": "Radiolink AT9S Pro",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "Radiolink AT9S Pro/Radiolink AT9S Pro/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "SIYI FT24",
+      "iq_files": 7,
+      "prior_cohort_admitted": false,
+      "paper_label": "SIYI FT24",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "SIYI FT24/SIYI FT24/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "SIYI MK15",
+      "iq_files": 8,
+      "prior_cohort_admitted": false,
+      "paper_label": "SIYI MK15",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "SIYI MK15/SIYI MK15/pack1.xml",
+        "SIYI MK15/SIYI MK15/pack2.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "SIYI MK32",
+      "iq_files": 6,
+      "prior_cohort_admitted": false,
+      "paper_label": "SIYI MK32",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "SIYI MK32/SIYI MK32/pack1.xml",
+        "SIYI MK32/SIYI MK32/pack2.xml",
+        "SIYI MK32/SIYI MK32/pack3.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "SKYDROID H12",
+      "iq_files": 8,
+      "prior_cohort_admitted": false,
+      "paper_label": "SKYDROID H12",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "SKYDROID H12/SKYDROID H12/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2470000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "SKYDROID T10",
+      "iq_files": 9,
+      "prior_cohort_admitted": false,
+      "paper_label": "SKYDROID T10",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "SKYDROID T10/SKYDROID T10/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2470000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "WFLY ET10",
+      "iq_files": 9,
+      "prior_cohort_admitted": false,
+      "paper_label": "WFLY ET10",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "WFLY ET10/WFLY ET10/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "WFLY ET16S",
+      "iq_files": 8,
+      "prior_cohort_admitted": false,
+      "paper_label": "WFLY ET16S",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "WFLY ET16S/WFLY ET16S/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "WFLY WFT09SII",
+      "iq_files": 8,
+      "prior_cohort_admitted": false,
+      "paper_label": "WFLY WFT09SII",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "WFLY WFT09SII/WFLY WFT09SII/pack1.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2410000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "YUNZHUO H12",
+      "iq_files": 4,
+      "prior_cohort_admitted": false,
+      "paper_label": "YunZhuo H12",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "YUNZHUO H12/YUNZHUO H12/pack1.xml",
+        "YUNZHUO H12/YUNZHUO H12/pack2.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "YUNZHUO H16",
+      "iq_files": 4,
+      "prior_cohort_admitted": false,
+      "paper_label": "YunZhuo H16",
+      "paper_video_bandwidth_mhz": 20.0,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "YUNZHUO H16/YUNZHUO H16/pack1.xml",
+        "YUNZHUO H16/YUNZHUO H16/pack2.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    },
+    {
+      "category": "YUNZHUO H30",
+      "iq_files": 4,
+      "prior_cohort_admitted": false,
+      "paper_label": "YunZhuo H30",
+      "paper_video_bandwidth_mhz": null,
+      "metadata_review": "transmitter_evidence_review_required",
+      "transmitter_provenance_review_required": true,
+      "video_required_for_admission": false,
+      "signal_family": "unverified_for_local_recordings",
+      "signal_function": "unverified_for_local_recordings",
+      "pack_ids": [
+        "YUNZHUO H30/YUNZHUO H30/pack1.xml",
+        "YUNZHUO H30/YUNZHUO H30/pack2.xml"
+      ],
+      "local_sample_rates_hz": [
+        100000000
+      ],
+      "local_centers_hz": [
+        2440000000.0
+      ],
+      "capture_direction_verified": false,
+      "local_payload_video_presence_verified": false,
+      "new_training_admission": false
+    }
+  ]
+}

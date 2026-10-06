@@ -56,23 +56,25 @@ def main():
         video = match['video_bandwidth_mhz'] if match else None
         if category['aircraft_category']:
             review = 'existing_named_aircraft_cohort'
-        elif video is not None:
-            review = 'reconsider_video_link_capture_before_admission'
         else:
-            review = 'excluded_pending_transmitter_evidence'
+            review = 'transmitter_evidence_review_required'
         packs = [p for p in inventory['packs'] if p['category'] == name]
         rows.append(dict(category=name, iq_files=category['iq_files'],
             prior_cohort_admitted=category['aircraft_category'],
             paper_label=match['label'] if match else None,
             paper_video_bandwidth_mhz=video,
             metadata_review=review,
+            transmitter_provenance_review_required=True,
+            video_required_for_admission=False,
+            signal_family='unverified_for_local_recordings',
+            signal_function='unverified_for_local_recordings',
             pack_ids=[p['pack_id'] for p in packs],
             local_sample_rates_hz=sorted({int(p['metadata']['SampleRate']) for p in packs}),
             local_centers_hz=sorted({float(p['metadata']['CenterFrequency']) for p in packs}),
             capture_direction_verified=False,
             local_payload_video_presence_verified=False,
             new_training_admission=False))
-    result = dict(status='RFUAV_SCOPE_METADATA_CORRECTION',
+    result = dict(status='RFUAV_SCOPE_TRANSMITTER_REVIEW_ALL_FUNCTIONS',
         time_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),
         sources={name: dict(url=url, sha256=hashlib.sha256(bodies[name]).hexdigest())
                  for name, url in [('paper', PAPER), ('public_tree', TREE)]},
@@ -85,7 +87,7 @@ def main():
         metadata_review_counts=dict(collections.Counter(r['metadata_review'] for r in rows)),
         normalization_aliases={'DJI AVTA2': 'DJI AVATA2'},
         no_iq_payloads_read=True, frozen_training_and_splits_changed=False,
-        interpretation='Six is an admission-list count, not proof that all other captures contain only controller emissions. Video bandwidth in the paper is not a source-direction annotation for local IQ.',
+        interpretation='Six is a prior admission-list count. All 37 categories require transmitter provenance review. Aircraft-origin signals of any function are in scope; video presence or absence does not determine admission. No new capture has been admitted by this metadata audit.',
         categories=rows)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n')
