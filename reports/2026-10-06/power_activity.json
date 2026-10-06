@@ -1,0 +1,143 @@
+{
+  "status": "SAVED_WAVEFORM_ACTIVITY_REPLAY_PASS",
+  "time": 1791285677.7481089,
+  "elapsed_seconds": 6.150700092315674,
+  "epoch_budget": 50,
+  "output_waveforms": 24,
+  "source_segments": 1584,
+  "maximum_global_nmse_replay_error": 3.5837999234900053e-13,
+  "maximum_partition_energy_relative_error": 3.417625596472066e-13,
+  "thresholds": {
+    "Air2": {
+      "q25_db": -9.257256177949301,
+      "q75_db": 1.0178281211489757,
+      "windows": 396
+    },
+    "Air2S": {
+      "q25_db": -4.924455238466602,
+      "q75_db": 1.149785098558961,
+      "windows": 396
+    },
+    "Mavic3": {
+      "q25_db": -1.5250598164887117,
+      "q75_db": 1.179934735766857,
+      "windows": 396
+    }
+  },
+  "thresholds_sha256": "1532e719329b5cea8cb29427faf98e15187b583d7b5774201902c080a895a352",
+  "reference_hashes": {
+    "0_110000000.npy": "0434c1ef1070bd65315d5210c1fbe58852a93b422e0a009423fc987a4b45ef27",
+    "0_125000000.npy": "a095d6de0767d0ca84b60dc07f0b4e507765fa0e957e06f3244d9ad782afefd6",
+    "3_110000000.npy": "1206e0f0fd6f26294c6e554c056d53ba0f9821c9166a3db8d1079c2ba401e994",
+    "3_125000000.npy": "a3fcf66f816bd01d6f23fdd5480adfcd4c566abdb5f75dcc7c264541f098eabc",
+    "2_110000000.npy": "92de328091246e44bc7d6d8964d6379829566234ad097aa0fadecb5de7dca70b",
+    "2_125000000.npy": "e11bf41ae1684b365cadf51c4844cdda9ebf78e0e7cf7b0ff7e32af5141dd574"
+  },
+  "source_code_sha256": "bb1c9cd3291068c33995f633bf21f6efee20f7a47da6e49888b654193284ac16",
+  "comparison_helper_sha256": "ddaedf9bbc6c81bfd0114774624df3660bebb8fbc387b2a3ffe5568342625f7c",
+  "reference_verifier_sha256": "434009c84d021b481a50a00624382f8fe0b437e0fa85298f587243b8e7868ac6",
+  "windows_sha256": "01e539c30ee2c760a51d16572e1e548cce9734f3c95a67e4e44cb18829be0d57",
+  "groups": [
+    {
+      "model": "window_power",
+      "nominal_sir_db": -10,
+      "activity": "low",
+      "windows": 11,
+      "energy_pooled_nmse": 4.526758046098362,
+      "contribution_to_four_case_mean_nmse": 0.01852265889107512
+    },
+    {
+      "model": "window_power",
+      "nominal_sir_db": -10,
+      "activity": "mid",
+      "windows": 87,
+      "energy_pooled_nmse": 0.6740198494479288,
+      "contribution_to_four_case_mean_nmse": 0.4317526465652299
+    },
+    {
+      "model": "window_power",
+      "nominal_sir_db": -10,
+      "activity": "high",
+      "windows": 34,
+      "energy_pooled_nmse": 0.6878447823959231,
+      "contribution_to_four_case_mean_nmse": 0.24442185170217967
+    },
+    {
+      "model": "window_power",
+      "nominal_sir_db": 10,
+      "activity": "low",
+      "windows": 36,
+      "energy_pooled_nmse": 2.6351519453246093,
+      "contribution_to_four_case_mean_nmse": 0.08863396804023618
+    },
+    {
+      "model": "window_power",
+      "nominal_sir_db": 10,
+      "activity": "mid",
+      "windows": 50,
+      "energy_pooled_nmse": 0.7703149485351842,
+      "contribution_to_four_case_mean_nmse": 0.33375562219219956
+    },
+    {
+      "model": "window_power",
+      "nominal_sir_db": 10,
+      "activity": "high",
+      "windows": 46,
+      "energy_pooled_nmse": 0.5000927564989587,
+      "contribution_to_four_case_mean_nmse": 0.26659600713906967
+    },
+    {
+      "model": "record_power",
+      "nominal_sir_db": -10,
+      "activity": "low",
+      "windows": 11,
+      "energy_pooled_nmse": 62.321611143744775,
+      "contribution_to_four_case_mean_nmse": 0.2550085365911972
+    },
+    {
+      "model": "record_power",
+      "nominal_sir_db": -10,
+      "activity": "mid",
+      "windows": 87,
+      "energy_pooled_nmse": 2.371228522753996,
+      "contribution_to_four_case_mean_nmse": 1.5189229088099392
+    },
+    {
+      "model": "record_power",
+      "nominal_sir_db": -10,
+      "activity": "high",
+      "windows": 34,
+      "energy_pooled_nmse": 1.6041180575372045,
+      "contribution_to_four_case_mean_nmse": 0.5700145090969632
+    },
+    {
+      "model": "record_power",
+      "nominal_sir_db": 10,
+      "activity": "low",
+      "windows": 36,
+      "energy_pooled_nmse": 15.508197509990909,
+      "contribution_to_four_case_mean_nmse": 0.5216219447754613
+    },
+    {
+      "model": "record_power",
+      "nominal_sir_db": 10,
+      "activity": "mid",
+      "windows": 50,
+      "energy_pooled_nmse": 1.9112011606987014,
+      "contribution_to_four_case_mean_nmse": 0.8280692640594516
+    },
+    {
+      "model": "record_power",
+      "nominal_sir_db": 10,
+      "activity": "high",
+      "windows": 46,
+      "energy_pooled_nmse": 1.3196058238861017,
+      "contribution_to_four_case_mean_nmse": 0.7034727839480708
+    }
+  ],
+  "independent_confirmation": false,
+  "gpu_used": false,
+  "threshold_fitted_on_evaluation": false,
+  "interpretation": "Relative recorded power groups using pre-existing training quartiles; not ground-truth RF transmitter activity. Energy-pooled subgroup NMSE is descriptive, not a new checkpoint selection metric.",
+  "independent_csv_recount": "PASS"
+}

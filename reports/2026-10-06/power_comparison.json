@@ -1,0 +1,502 @@
+{
+  "status": "FULL_50_EPOCH_COMPARISON_AUDITED",
+  "checked_at": "2026-10-06T20:19:31.006491+09:00",
+  "dataset": "DRFF-R2 D1 repeatedly used development evaluation, 12 synthetic mixtures",
+  "independent_confirmation": false,
+  "seed": 0,
+  "baseline_reused": true,
+  "full_84_output_replay_audit_pass": true,
+  "comparisons": [
+    {
+      "epoch_budget": 5,
+      "updates_per_arm": 375,
+      "selected_epochs": [
+        5,
+        0
+      ],
+      "selected_checkpoint_sha256": [
+        "b83940aecadd318a6218baedcac4bd36cbc9f3ce20d26626a66aaba5403b0c2a",
+        "544def11000bb7e34cfa86258db674cf8b6aa6a1cabb0305560a25728a842fb9"
+      ],
+      "parent_checkpoint_sha256": "882ba885b9e8c8b25a7a77d505180e7dabbbde8faf6e26df7889b138875ed50b",
+      "baseline": {
+        "overall_nmse": 0.9263048083857962,
+        "reported_pit_nmse": 0.9233521371050764,
+        "both_sources_positive_si_gain": 7,
+        "weak": {
+          "air": {
+            "cases": 4,
+            "nmse": 1.5435233538887698,
+            "si_sdr_db": -8.646255901077557,
+            "all_si_sdr_finite": true
+          },
+          "mavic3": {
+            "cases": 4,
+            "nmse": 2.611444662863067,
+            "si_sdr_db": -6.698151398353804,
+            "all_si_sdr_finite": true
+          }
+        }
+      },
+      "record_power": {
+        "overall_nmse": 0.9520042738267435,
+        "reported_pit_nmse": 0.92660886555764,
+        "both_sources_positive_si_gain": 7,
+        "weak": {
+          "air": {
+            "cases": 4,
+            "nmse": 1.691953569121443,
+            "si_sdr_db": -9.086121284672725,
+            "all_si_sdr_finite": true
+          },
+          "mavic3": {
+            "cases": 4,
+            "nmse": 2.5952631784036746,
+            "si_sdr_db": -7.425522155076685,
+            "all_si_sdr_finite": true
+          }
+        }
+      },
+      "relative_nmse_change_pct": 2.7744069995417453,
+      "cases": [
+        {
+          "case_id": "D1_air2_mavic3_+0_0",
+          "baseline_nmse": 0.46768039820682494,
+          "record_power_nmse": 0.4928723122529678
+        },
+        {
+          "case_id": "D1_air2_mavic3_+0_1",
+          "baseline_nmse": 0.37012678463064047,
+          "record_power_nmse": 0.3724639563826836
+        },
+        {
+          "case_id": "D1_air2_mavic3_+10_0",
+          "baseline_nmse": 0.39772521589284726,
+          "record_power_nmse": 0.4390972940355718
+        },
+        {
+          "case_id": "D1_air2_mavic3_+10_1",
+          "baseline_nmse": 0.39617482009797733,
+          "record_power_nmse": 0.40037061790676
+        },
+        {
+          "case_id": "D1_air2_mavic3_-10_0",
+          "baseline_nmse": 0.8996370165602255,
+          "record_power_nmse": 1.0343326623872395
+        },
+        {
+          "case_id": "D1_air2_mavic3_-10_1",
+          "baseline_nmse": 0.7384171228387235,
+          "record_power_nmse": 0.7724277582189356
+        },
+        {
+          "case_id": "D1_air2s_mavic3_+0_0",
+          "baseline_nmse": 0.5932389387735548,
+          "record_power_nmse": 0.5807365297075446
+        },
+        {
+          "case_id": "D1_air2s_mavic3_+0_1",
+          "baseline_nmse": 0.5436819421782284,
+          "record_power_nmse": 0.5461016430360177
+        },
+        {
+          "case_id": "D1_air2s_mavic3_+10_0",
+          "baseline_nmse": 2.490238132292259,
+          "record_power_nmse": 2.44035747207999
+        },
+        {
+          "case_id": "D1_air2s_mavic3_+10_1",
+          "baseline_nmse": 2.461040089992402,
+          "record_power_nmse": 2.4297536084409215
+        },
+        {
+          "case_id": "D1_air2s_mavic3_-10_0",
+          "baseline_nmse": 0.954682609717554,
+          "record_power_nmse": 1.0733784333154688
+        },
+        {
+          "case_id": "D1_air2s_mavic3_-10_1",
+          "baseline_nmse": 0.8030146294483167,
+          "record_power_nmse": 0.8421589981568204
+        }
+      ]
+    },
+    {
+      "epoch_budget": 10,
+      "updates_per_arm": 750,
+      "selected_epochs": [
+        10,
+        0
+      ],
+      "selected_checkpoint_sha256": [
+        "7e040a5551b0ee13443ff1ade7325c417ef91d96be4fbd928ba8e91eaa441e42",
+        "544def11000bb7e34cfa86258db674cf8b6aa6a1cabb0305560a25728a842fb9"
+      ],
+      "parent_checkpoint_sha256": "882ba885b9e8c8b25a7a77d505180e7dabbbde8faf6e26df7889b138875ed50b",
+      "baseline": {
+        "overall_nmse": 0.6155822743303465,
+        "reported_pit_nmse": 0.6155822743303465,
+        "both_sources_positive_si_gain": 10,
+        "weak": {
+          "air": {
+            "cases": 4,
+            "nmse": 1.0855632633562433,
+            "si_sdr_db": -5.938106938048966,
+            "all_si_sdr_finite": true
+          },
+          "mavic3": {
+            "cases": 4,
+            "nmse": 1.5273371098702209,
+            "si_sdr_db": -6.524322439352113,
+            "all_si_sdr_finite": true
+          }
+        }
+      },
+      "record_power": {
+        "overall_nmse": 0.9520042738267435,
+        "reported_pit_nmse": 0.92660886555764,
+        "both_sources_positive_si_gain": 7,
+        "weak": {
+          "air": {
+            "cases": 4,
+            "nmse": 1.691953569121443,
+            "si_sdr_db": -9.086121284672725,
+            "all_si_sdr_finite": true
+          },
+          "mavic3": {
+            "cases": 4,
+            "nmse": 2.5952631784036746,
+            "si_sdr_db": -7.425522155076685,
+            "all_si_sdr_finite": true
+          }
+        }
+      },
+      "relative_nmse_change_pct": 54.65102124039704,
+      "cases": [
+        {
+          "case_id": "D1_air2_mavic3_+0_0",
+          "baseline_nmse": 0.3730138262005014,
+          "record_power_nmse": 0.4928723122529678
+        },
+        {
+          "case_id": "D1_air2_mavic3_+0_1",
+          "baseline_nmse": 0.34100661949876304,
+          "record_power_nmse": 0.3724639563826836
+        },
+        {
+          "case_id": "D1_air2_mavic3_+10_0",
+          "baseline_nmse": 0.42176340354571185,
+          "record_power_nmse": 0.4390972940355718
+        },
+        {
+          "case_id": "D1_air2_mavic3_+10_1",
+          "baseline_nmse": 0.39271336114020566,
+          "record_power_nmse": 0.40037061790676
+        },
+        {
+          "case_id": "D1_air2_mavic3_-10_0",
+          "baseline_nmse": 0.5802899821981167,
+          "record_power_nmse": 1.0343326623872395
+        },
+        {
+          "case_id": "D1_air2_mavic3_-10_1",
+          "baseline_nmse": 0.5831042925284313,
+          "record_power_nmse": 0.7724277582189356
+        },
+        {
+          "case_id": "D1_air2s_mavic3_+0_0",
+          "baseline_nmse": 0.4574347640910897,
+          "record_power_nmse": 0.5807365297075446
+        },
+        {
+          "case_id": "D1_air2s_mavic3_+0_1",
+          "baseline_nmse": 0.4671512610737596,
+          "record_power_nmse": 0.5461016430360177
+        },
+        {
+          "case_id": "D1_air2s_mavic3_+10_0",
+          "baseline_nmse": 1.2504478231472658,
+          "record_power_nmse": 2.44035747207999
+        },
+        {
+          "case_id": "D1_air2s_mavic3_+10_1",
+          "baseline_nmse": 1.2952170538831367,
+          "record_power_nmse": 2.4297536084409215
+        },
+        {
+          "case_id": "D1_air2s_mavic3_-10_0",
+          "baseline_nmse": 0.6204472419575352,
+          "record_power_nmse": 1.0733784333154688
+        },
+        {
+          "case_id": "D1_air2s_mavic3_-10_1",
+          "baseline_nmse": 0.6043976626996413,
+          "record_power_nmse": 0.8421589981568204
+        }
+      ]
+    },
+    {
+      "epoch_budget": 25,
+      "updates_per_arm": 1875,
+      "selected_epochs": [
+        22,
+        18
+      ],
+      "selected_checkpoint_sha256": [
+        "3b3ab2ce272219e18749f9bc018d6968cb8bc6c844230bd35ef046403993e5ac",
+        "bf8efe40dd1f1c6faefc715106cf99014bd574e03421203a4e5dc54644955a8d"
+      ],
+      "parent_checkpoint_sha256": "882ba885b9e8c8b25a7a77d505180e7dabbbde8faf6e26df7889b138875ed50b",
+      "baseline": {
+        "overall_nmse": 0.42919882448545,
+        "reported_pit_nmse": 0.42919882448545,
+        "both_sources_positive_si_gain": 9,
+        "weak": {
+          "air": {
+            "cases": 4,
+            "nmse": 0.7621640664875109,
+            "si_sdr_db": -3.924920307623909,
+            "all_si_sdr_finite": true
+          },
+          "mavic3": {
+            "cases": 4,
+            "nmse": 0.832216348174582,
+            "si_sdr_db": -3.724885475833364,
+            "all_si_sdr_finite": true
+          }
+        }
+      },
+      "record_power": {
+        "overall_nmse": 0.9708575042758465,
+        "reported_pit_nmse": 0.9666892682248988,
+        "both_sources_positive_si_gain": 5,
+        "weak": {
+          "air": {
+            "cases": 4,
+            "nmse": 2.3439459544981682,
+            "si_sdr_db": -9.101125908370006,
+            "all_si_sdr_finite": true
+          },
+          "mavic3": {
+            "cases": 4,
+            "nmse": 2.053163992783124,
+            "si_sdr_db": -9.48106397342362,
+            "all_si_sdr_finite": true
+          }
+        }
+      },
+      "relative_nmse_change_pct": 126.20227477085248,
+      "cases": [
+        {
+          "case_id": "D1_air2_mavic3_+0_0",
+          "baseline_nmse": 0.4436795490782945,
+          "record_power_nmse": 0.53843068652934
+        },
+        {
+          "case_id": "D1_air2_mavic3_+0_1",
+          "baseline_nmse": 0.3267263310812744,
+          "record_power_nmse": 0.41676939839921534
+        },
+        {
+          "case_id": "D1_air2_mavic3_+10_0",
+          "baseline_nmse": 0.37605835924007774,
+          "record_power_nmse": 0.5062237027730716
+        },
+        {
+          "case_id": "D1_air2_mavic3_+10_1",
+          "baseline_nmse": 0.39876453647316623,
+          "record_power_nmse": 0.47260814539754437
+        },
+        {
+          "case_id": "D1_air2_mavic3_-10_0",
+          "baseline_nmse": 0.5156267978727497,
+          "record_power_nmse": 1.2923207766364686
+        },
+        {
+          "case_id": "D1_air2_mavic3_-10_1",
+          "baseline_nmse": 0.29260656313775,
+          "record_power_nmse": 1.2529988035083344
+        },
+        {
+          "case_id": "D1_air2s_mavic3_+0_0",
+          "baseline_nmse": 0.4972614276203242,
+          "record_power_nmse": 0.5175258681047068
+        },
+        {
+          "case_id": "D1_air2s_mavic3_+0_1",
+          "baseline_nmse": 0.37508167377632706,
+          "record_power_nmse": 0.5039222142639017
+        },
+        {
+          "case_id": "D1_air2s_mavic3_+10_0",
+          "baseline_nmse": 0.4779513421114726,
+          "record_power_nmse": 1.7727696743215917
+        },
+        {
+          "case_id": "D1_air2s_mavic3_+10_1",
+          "baseline_nmse": 0.5781017281729114,
+          "record_power_nmse": 1.765359261618011
+        },
+        {
+          "case_id": "D1_air2s_mavic3_-10_0",
+          "baseline_nmse": 0.565165868951307,
+          "record_power_nmse": 1.3405396957600955
+        },
+        {
+          "case_id": "D1_air2s_mavic3_-10_1",
+          "baseline_nmse": 0.30336171630974496,
+          "record_power_nmse": 1.2708218239978777
+        }
+      ]
+    },
+    {
+      "epoch_budget": 50,
+      "updates_per_arm": 3750,
+      "selected_epochs": [
+        26,
+        18
+      ],
+      "selected_checkpoint_sha256": [
+        "c9fe48dd5f75f263d3a80ced0e709487086b4d7027e78af1fa8d292ff8a109e5",
+        "bf8efe40dd1f1c6faefc715106cf99014bd574e03421203a4e5dc54644955a8d"
+      ],
+      "parent_checkpoint_sha256": "882ba885b9e8c8b25a7a77d505180e7dabbbde8faf6e26df7889b138875ed50b",
+      "baseline": {
+        "overall_nmse": 0.3777777716190881,
+        "reported_pit_nmse": 0.3777777716190881,
+        "both_sources_positive_si_gain": 12,
+        "weak": {
+          "air": {
+            "cases": 4,
+            "nmse": 0.6946971571585279,
+            "si_sdr_db": -3.0754972980989903,
+            "all_si_sdr_finite": true
+          },
+          "mavic3": {
+            "cases": 4,
+            "nmse": 0.6889855973715434,
+            "si_sdr_db": -2.704453005462062,
+            "all_si_sdr_finite": true
+          }
+        }
+      },
+      "record_power": {
+        "overall_nmse": 0.9708575042758465,
+        "reported_pit_nmse": 0.9666892682248988,
+        "both_sources_positive_si_gain": 5,
+        "weak": {
+          "air": {
+            "cases": 4,
+            "nmse": 2.3439459544981682,
+            "si_sdr_db": -9.101125908370006,
+            "all_si_sdr_finite": true
+          },
+          "mavic3": {
+            "cases": 4,
+            "nmse": 2.053163992783124,
+            "si_sdr_db": -9.48106397342362,
+            "all_si_sdr_finite": true
+          }
+        }
+      },
+      "relative_nmse_change_pct": 156.9916964978973,
+      "cases": [
+        {
+          "case_id": "D1_air2_mavic3_+0_0",
+          "baseline_nmse": 0.36703807434508157,
+          "record_power_nmse": 0.53843068652934
+        },
+        {
+          "case_id": "D1_air2_mavic3_+0_1",
+          "baseline_nmse": 0.3069749137226673,
+          "record_power_nmse": 0.41676939839921534
+        },
+        {
+          "case_id": "D1_air2_mavic3_+10_0",
+          "baseline_nmse": 0.3463939086707903,
+          "record_power_nmse": 0.5062237027730716
+        },
+        {
+          "case_id": "D1_air2_mavic3_+10_1",
+          "baseline_nmse": 0.36814824847872146,
+          "record_power_nmse": 0.47260814539754437
+        },
+        {
+          "case_id": "D1_air2_mavic3_-10_0",
+          "baseline_nmse": 0.4416033723192727,
+          "record_power_nmse": 1.2923207766364686
+        },
+        {
+          "case_id": "D1_air2_mavic3_-10_1",
+          "baseline_nmse": 0.30892646885247327,
+          "record_power_nmse": 1.2529988035083344
+        },
+        {
+          "case_id": "D1_air2s_mavic3_+0_0",
+          "baseline_nmse": 0.4426010762377896,
+          "record_power_nmse": 0.5175258681047068
+        },
+        {
+          "case_id": "D1_air2s_mavic3_+0_1",
+          "baseline_nmse": 0.37261713514146144,
+          "record_power_nmse": 0.5039222142639017
+        },
+        {
+          "case_id": "D1_air2s_mavic3_+10_0",
+          "baseline_nmse": 0.35190149167916585,
+          "record_power_nmse": 1.7727696743215917
+        },
+        {
+          "case_id": "D1_air2s_mavic3_+10_1",
+          "baseline_nmse": 0.4493246654122829,
+          "record_power_nmse": 1.765359261618011
+        },
+        {
+          "case_id": "D1_air2s_mavic3_-10_0",
+          "baseline_nmse": 0.45423085380642836,
+          "record_power_nmse": 1.3405396957600955
+        },
+        {
+          "case_id": "D1_air2s_mavic3_-10_1",
+          "baseline_nmse": 0.32357305076292264,
+          "record_power_nmse": 1.2708218239978777
+        }
+      ]
+    }
+  ],
+  "source_hashes": {
+    "baseline/evaluation_5/RECORDS.json": "a8cb5e3994e9da8a4a68b5c31d43f9e3e71f49b245c1eb9bc489c8989163b999",
+    "baseline/evaluation_5/COMPLETE.json": "146d34b42199118f13937be4325f816bea260d2980acd8399f6225e80ac20ac5",
+    "baseline/evaluation_5/SOURCE_RECEIPTS.json": "8e58be89360bf00d7a44eaddceb1f42aa05e4cf3c42c13b79076da13385c3f8c",
+    "baseline/STAGE_5.json": "f2c48cc071c52a0e9c1ec95931e6dd8015d9d7830b85d1f79a25e9dec9cd2afd",
+    "trial/evaluation_5/RECORDS.json": "6c09448cade202313e61f99cfc4df9009912f9dcd72c7715e4e0f1bce5779b9c",
+    "trial/evaluation_5/COMPLETE.json": "333f0606c6ab8c61f0a2c610b9acc4b09b12ecf0adfdb8ebe83fa4778acc78b1",
+    "trial/evaluation_5/SOURCE_RECEIPTS.json": "8e58be89360bf00d7a44eaddceb1f42aa05e4cf3c42c13b79076da13385c3f8c",
+    "trial/STAGE_5.json": "85a6f707369accd7d7b9447b096fdbe3ed472e246fc93cfc36a074f49266ed54",
+    "baseline/evaluation_10/RECORDS.json": "22fe740839dc9abd155af05ae1876164380baf521db3b5af7029894aa1809228",
+    "baseline/evaluation_10/COMPLETE.json": "299f7c275838d3581b591bc951269c25f6a9a6ea62cdd6d462c5805f0585cfef",
+    "baseline/evaluation_10/SOURCE_RECEIPTS.json": "8e58be89360bf00d7a44eaddceb1f42aa05e4cf3c42c13b79076da13385c3f8c",
+    "baseline/STAGE_10.json": "e4ba169f28b011d596e224f74cd65a98f1e52d91a0579f21b8a3a353464128ac",
+    "trial/evaluation_10/RECORDS.json": "f7b7b6b5b40d9ad6a55d6c6a45580469747bad0555c2739ee088fb0b3d09104e",
+    "trial/evaluation_10/COMPLETE.json": "044f48420f3acf65584daa6c91ed0ce4bb615025d14f84cf738d296fd8b28604",
+    "trial/evaluation_10/SOURCE_RECEIPTS.json": "8e58be89360bf00d7a44eaddceb1f42aa05e4cf3c42c13b79076da13385c3f8c",
+    "trial/STAGE_10.json": "99621f03c65f7207e00ba3b7154f7c0f5677885772c76b9361208b26bdd9679d",
+    "baseline/evaluation_25/RECORDS.json": "dd53d15101de932045348e65edde13e3e5b16002c161c0a784e88e010a3eb18d",
+    "baseline/evaluation_25/COMPLETE.json": "510373dd3cb63a07dfbfb5da9bd6e88964526cac928d7c9b22e89df1d4dee9f4",
+    "baseline/evaluation_25/SOURCE_RECEIPTS.json": "8e58be89360bf00d7a44eaddceb1f42aa05e4cf3c42c13b79076da13385c3f8c",
+    "baseline/STAGE_25.json": "f802ad75098e6ba1fc69ec06033fd1a968d19f5fd1d2ea8529a0ad90d4779d5c",
+    "trial/evaluation_25/RECORDS.json": "dc3afe6a204309c9385c285bb0618fac4b23c2631fd6ec5445d047d09f63256f",
+    "trial/evaluation_25/COMPLETE.json": "83ab52fc91c9d656b89cb4dde268b9f935f9e38281c7fdf74b996d03286a369b",
+    "trial/evaluation_25/SOURCE_RECEIPTS.json": "8e58be89360bf00d7a44eaddceb1f42aa05e4cf3c42c13b79076da13385c3f8c",
+    "trial/STAGE_25.json": "4719d02b808e237f119d8d0367fb839716897acda84f45c4fc695bba2a9891af",
+    "baseline/evaluation_50/RECORDS.json": "5f269bebedeacdbcf5e0e871af939005e1badf1976ab55c89150c77fcd00b512",
+    "baseline/evaluation_50/COMPLETE.json": "a6ea471f9ea24c5ddc6a85f57a74e8510540b3dbfd147331c6f38027c8a76779",
+    "baseline/evaluation_50/SOURCE_RECEIPTS.json": "8e58be89360bf00d7a44eaddceb1f42aa05e4cf3c42c13b79076da13385c3f8c",
+    "baseline/STAGE_50.json": "7db8a1c10dca10ba5f72dd917ebc9a11b723488f087cda68cdcb489f3d4f089f",
+    "trial/evaluation_50/RECORDS.json": "3d39fb9486cae4988c058de03d62ca18980e7f640d4f31d734f86671b656be37",
+    "trial/evaluation_50/COMPLETE.json": "e191e2908e23f094604360687756335faa398f601bbd2dac2f7fb1356a6d02d1",
+    "trial/evaluation_50/SOURCE_RECEIPTS.json": "8e58be89360bf00d7a44eaddceb1f42aa05e4cf3c42c13b79076da13385c3f8c",
+    "trial/STAGE_50.json": "c58e8b83eb5121b8b559272ad20b77fb94d799ebe4c749ac234ad4c4503d39bf",
+    "trial/RESULT_AUDIT.json": "cd8f408e350ef7747543b2c34524c18ecc41d99a949143ad34eb6a828cc303ef"
+  }
+}
