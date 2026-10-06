@@ -1,0 +1,113 @@
+{
+  "as_of": "2026-10-07T08:24:41.434714+09:00",
+  "old_gpu_progress": {
+    "stage": "TRAIN",
+    "arm": "ordered",
+    "epoch": 20,
+    "examples": 960,
+    "epoch_examples": 2400,
+    "updates": 1455,
+    "average_losses": [
+      0.7083441809982105,
+      0.6964318293219549,
+      0.11912352928978483
+    ],
+    "elapsed_seconds": 264.9309787750244,
+    "time": 1791329050.1826062,
+    "pid": 1041305,
+    "gpu_training_active": true
+  },
+  "old_complete_epochs": {
+    "ordered": 19,
+    "mean": 20
+  },
+  "old_trial_contains_cross_band": true,
+  "matched_report_epoch": 19,
+  "old_trial_validation": {
+    "ordered": {
+      "current_epoch": 19,
+      "macro_nmse": 0.5615748539814379,
+      "by_count": [
+        {
+          "count": 1,
+          "nmse": 0.017430158035785227,
+          "si_sdr": 22.22830770727903,
+          "si_sdr_improvement": null
+        },
+        {
+          "count": 2,
+          "nmse": 0.5811179296209243,
+          "si_sdr": 1.224609676873256,
+          "si_sdr_improvement": 1.1080259968681865
+        },
+        {
+          "count": 3,
+          "nmse": 1.086176474287604,
+          "si_sdr": -6.515079269395572,
+          "si_sdr_improvement": 2.362486696804639
+        }
+      ],
+      "best_through_19": {
+        "epoch": 13,
+        "nmse": 0.5393139033085063
+      },
+      "count_accuracy": 0.5793650793650794,
+      "per_case_summary_replay": true,
+      "validation_sha256": "f915c2c48ac447e75393663469bfad5c7581689a6d8475e6a47eec128a5e1b5b"
+    },
+    "mean": {
+      "current_epoch": 19,
+      "macro_nmse": 0.7536103318307182,
+      "by_count": [
+        {
+          "count": 1,
+          "nmse": 0.026353997433117733,
+          "si_sdr": 21.801356239372865,
+          "si_sdr_improvement": null
+        },
+        {
+          "count": 2,
+          "nmse": 0.6305830565338938,
+          "si_sdr": 0.7223381569793641,
+          "si_sdr_improvement": 0.6057544769742949
+        },
+        {
+          "count": 3,
+          "nmse": 1.6038939415251434,
+          "si_sdr": -6.80181292983116,
+          "si_sdr_improvement": 2.0757530363690497
+        }
+      ],
+      "best_through_19": {
+        "epoch": 11,
+        "nmse": 0.5320758266620866
+      },
+      "count_accuracy": 0.526984126984127,
+      "per_case_summary_replay": true,
+      "validation_sha256": "96efe529b0060c995acffe1f67ed87fb35facd3ae67729feaa6d31dff7d01a13"
+    }
+  },
+  "new_input_feature_checks": [
+    {
+      "name": "validation_pack_001",
+      "examples": 630,
+      "sha256": "ab2c51a1ce6e4b20b1eb2025bc318237a094e40d11eaed5400dc366a0394300a",
+      "finite": true
+    },
+    {
+      "name": "train_pack_001",
+      "examples": 2400,
+      "sha256": "b863c1496743a1476e50e095e77cb5b46131ab7120ba4729c8d9db37d9aaf79d",
+      "finite": true
+    },
+    {
+      "name": "train_pack_002",
+      "examples": 2400,
+      "sha256": "b48b48c337f8c7feba05a31a70de0b88fb897b4c5fcd948ebd61e6389bc3419f",
+      "finite": true
+    }
+  ],
+  "new_gpu_training_started": false,
+  "new_trial_automatically_queued": false,
+  "heldout_iq_read": false
+}
