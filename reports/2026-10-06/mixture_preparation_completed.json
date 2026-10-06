@@ -1,0 +1,38 @@
+{
+  "status": "CPU_CACHE_REPLAY_AND_MIXTURE_SCHEDULE_COMPLETE",
+  "time": 1791276615.225039,
+  "source_manifest_sha256": "dba2aa3f1c9a1a16c60bb0b040e537ef41a22d1a6ba4202ecf11a9af3d702236",
+  "cache_clips_verified": 393,
+  "max_relative_power_replay_error": 1.1282793026386359e-13,
+  "training_examples": 120000,
+  "epochs": 50,
+  "examples_per_epoch": 2400,
+  "effective_batch": 32,
+  "updates_per_arm": 3750,
+  "validation_cases": 120,
+  "sir_conditions_db": [
+    -10,
+    0,
+    10
+  ],
+  "window_samples": 63872,
+  "full_context_samples": 2097152,
+  "seed": 0,
+  "power_normalization": "per long component; preserve local fluctuations",
+  "reference_order": "canonical aircraft category; identical schedule for fixed-order and PIT arms",
+  "frequency_interpretation": "synthetic frequency-rebased complex baseband; not actual joint RF capture",
+  "files": {
+    "TRAIN_SCHEDULE.npy": "5f1e9ad069a53acaf76d65994621b18c8002a2fdd2ec87f24ca416366deb4ef5",
+    "VALIDATION_SCHEDULE.npy": "f5eabc638be15c0e1ffc9448c830e7bfb864b6fe5ef50cced2790020ba177e2f",
+    "CLIP_INDEX.json": "d6665987adc78386290ecebb07d33a551da77bb0369730183a55834e791ed797"
+  },
+  "worker_source_sha256": "834813f3e6a7860e977b2fbf223770d27c7ec8f74fa75ba76b4f293560a7a6ce",
+  "elapsed_seconds": 23.974207401275635,
+  "training_admitted": false,
+  "gpu_training_started": false,
+  "model_performance_evaluated": false,
+  "heldout_read": false,
+  "schedule_cells_independently_verified": true,
+  "all_training_clips_used": true,
+  "tests_total": 17
+}

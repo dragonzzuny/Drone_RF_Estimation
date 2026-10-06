@@ -9,6 +9,7 @@
 - [확인된 결과와 진행 상태](reports/2026-10-06/STATUS_KO.md)
 - [데이터 조사 요약](reports/2026-10-06/inventory_summary.json)
 - [CPU 병행 처리와 산출물 정리](reports/2026-10-06/CPU_AND_CLEANUP_KO.md)
+- [CPU 원자료 검사 완료와 후속 혼합 구성](reports/2026-10-06/CPU_COMPLETED_KO.md)
 
 ## 준비 코드 실행
 

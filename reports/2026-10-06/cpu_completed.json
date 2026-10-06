@@ -1,0 +1,36 @@
+{
+  "status": "CPU_PREPARATION_COMPLETE_REVIEW_REQUIRED",
+  "time": 1791276130.5112946,
+  "files_hashed": 131,
+  "bytes_hashed": 102867677072,
+  "cache_clips": 393,
+  "cached_samples": 824180736,
+  "role_counts": {
+    "train_pack": 249,
+    "validation_pack": 144
+  },
+  "exact_duplicate_groups": 0,
+  "exact_cross_role_duplicate_groups": 0,
+  "shifted_pairs": 35856,
+  "max_coarse_rho_squared": 0.06264572878873446,
+  "flagged_pairs": 0,
+  "high_full_window_pairs": 0,
+  "elapsed_seconds": 1413.9963314533234,
+  "max_rss_kib": 157124,
+  "gpu_used": false,
+  "heldout_payload_read": false,
+  "training_admitted": false,
+  "model_performance_evaluated": false,
+  "independent_metadata_aggregate_audit": "PASS",
+  "recorded_file_hashes_unique": true,
+  "recording_group_roles_disjoint": true,
+  "published_evidence_hashes": {
+    "COMPLETE.json": "1a0c6052d4a37344267d0f3b463353d72062844eb3c17a0ea42e3c18ead8da23",
+    "CACHE_MANIFEST.json": "dba2aa3f1c9a1a16c60bb0b040e537ef41a22d1a6ba4202ecf11a9af3d702236",
+    "SOURCE_RECORDS.jsonl": "e6e32bb61725961e1499efa6f1c8da66bb65efea4845b6655614f6776dc89c6b",
+    "SHIFTED_PAIRS.csv": "ae9cf0d88e19842711bb627ee96b6321f308223644782df99dfa3dd501501a06",
+    "SIMILARITY_FLAGS.json": "bd0d969b21f9390db64bce1b463d0730de123f811f3d2dcbf54e5e307a5859fb"
+  },
+  "full_cache_content_replay": "PASS",
+  "replay_result": "mixture_preparation_completed.json"
+}
