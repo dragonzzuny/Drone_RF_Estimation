@@ -1,0 +1,226 @@
+{
+  "as_of": "2026-10-07T10:32:25.659621+09:00",
+  "status": "SAME_BAND_GPU_EPOCH1_OPTIMIZER_TRAINING_VERIFIED",
+  "old_parked": {
+    "status": "OLD_STAGE_PRESERVED_FOR_RESUME",
+    "time": 1791336399.5981314,
+    "worker": {
+      "pid": 1041305,
+      "start_ticks": "5982087",
+      "state": "R",
+      "argv": [
+        "/home/pyj/문서/GitHub/uav_analysis/rf_detection/deep_nmf_drone_20260929/.venv_temporal_v65/bin/python",
+        "-u",
+        "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/context_experiment_20261006_v1/training_snapshot/train_context_experiment.py",
+        "--preparation",
+        "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/context_experiment_20261006_v1/preparation",
+        "--run",
+        "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/context_experiment_20261006_v1/run"
+      ],
+      "exe": "/home/pyj/anaconda3/bin/python3.10"
+    },
+    "completed": {
+      "ordered": 25,
+      "mean": 25
+    },
+    "checkpoints": {
+      "ordered": {
+        "epoch": 25,
+        "original": "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/context_experiment_20261006_v1/run/ordered/LAST.pt",
+        "sha256": "3f3d496192c7f01678fcf9c14d15f6ee82dd6031117245f54382c3115b7fb7fa",
+        "selected_25_sha256": "5f0aa1cd4b5456d929cecbb159dc2d26ea4e8140324717ee7aaae39ce57e5b41",
+        "backup": "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/within_dataset_context_20261007_v1/queue/old_resume_checkpoints/ordered_LAST.pt"
+      },
+      "mean": {
+        "epoch": 25,
+        "original": "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/context_experiment_20261006_v1/run/mean/LAST.pt",
+        "sha256": "6043bcb36d24f1fbb0d011d5bc5826477db42a825e54d43e0a2f9ac559af48ae",
+        "selected_25_sha256": "71085b285e865c3828c201fc346567295af63d0570b0ff1d012110f05010d9fd",
+        "backup": "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/within_dataset_context_20261007_v1/queue/old_resume_checkpoints/mean_LAST.pt"
+      }
+    },
+    "original_training_budget_unchanged": true,
+    "remaining_epochs_not_cancelled": true,
+    "discarded_uncommitted_work": "Any next-epoch work after the saved boundary is replayed on resume"
+  },
+  "new_gpu_preflight": {
+    "status": "PASS_FULL_CONTEXT_GPU_TRAINING",
+    "time": 1791336573.437785,
+    "arms": [
+      {
+        "arm": "ordered",
+        "input_samples": 63872,
+        "parameters": 32142859,
+        "component_counts": [
+          1,
+          2,
+          3
+        ],
+        "discarded_optimizer_updates": 1,
+        "initial_parameters_sha256": "61f11629b5cdb53d1fc334fe4d54a663d5fb8bcd93709d1432dec5ff9aa16381",
+        "losses": [
+          0.38062986731529236,
+          1.072411060333252,
+          10.546891212463379
+        ],
+        "peak_allocated_bytes": 2196766208,
+        "elapsed_seconds": 1.731602668762207
+      },
+      {
+        "arm": "mean",
+        "input_samples": 63872,
+        "parameters": 32142859,
+        "component_counts": [
+          1,
+          2,
+          3
+        ],
+        "discarded_optimizer_updates": 1,
+        "initial_parameters_sha256": "61f11629b5cdb53d1fc334fe4d54a663d5fb8bcd93709d1432dec5ff9aa16381",
+        "losses": [
+          0.38020244240760803,
+          1.0732567310333252,
+          10.545134544372559
+        ],
+        "peak_allocated_bytes": 2196766720,
+        "elapsed_seconds": 0.8305439949035645
+      }
+    ],
+    "freeze_sha256": "2be9c661d33a75ec84ed966d4d26bd330c2a192533b9adfac310484d768af407",
+    "updates_discarded": true,
+    "torch_version": "2.8.0+cu128",
+    "device_name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "precision": "float32",
+    "microbatch": 1,
+    "training_effective_batch": 32,
+    "exact_bitwise_gpu_determinism_claimed": false
+  },
+  "new_fixed_mixture_diagnostic": {
+    "status": "FULL_MODEL_FIXED_MIXTURE_DIAGNOSTIC",
+    "time": 1791336618.934583,
+    "freeze_sha256": "2be9c661d33a75ec84ed966d4d26bd330c2a192533b9adfac310484d768af407",
+    "training_example_indices": [
+      0,
+      4,
+      2
+    ],
+    "component_counts": [
+      1,
+      2,
+      3
+    ],
+    "updates": 48,
+    "before": [
+      {
+        "wave_loss": 0.2915728688240051,
+        "construction_count_loss": 0.8905700445175171
+      },
+      {
+        "wave_loss": 0.9261782169342041,
+        "construction_count_loss": 1.4623287916183472
+      },
+      {
+        "wave_loss": 10.440412521362305,
+        "construction_count_loss": 1.0647857189178467
+      }
+    ],
+    "after": [
+      {
+        "wave_loss": 0.27894750237464905,
+        "construction_count_loss": 0.048876628279685974
+      },
+      {
+        "wave_loss": 0.9033761024475098,
+        "construction_count_loss": 0.093014195561409
+      },
+      {
+        "wave_loss": 2.9188029766082764,
+        "construction_count_loss": 0.06703159213066101
+      }
+    ],
+    "wave_loss_decreased": true,
+    "elapsed_seconds": 39.847750663757324,
+    "generalization_evaluated": false,
+    "physical_aircraft_count_evaluated": false,
+    "weights_discarded": true,
+    "main_comparison_starts_from_original_seed": true
+  },
+  "new_queue_state": {
+    "status": "SAME_BAND_TRAINING_RUNNING",
+    "time": 1791336736.1728647,
+    "controller": {
+      "pid": 1353207,
+      "start_ticks": "9446261",
+      "state": "R",
+      "argv": [
+        "/home/pyj/문서/GitHub/uav_analysis/rf_detection/deep_nmf_drone_20260929/.venv_temporal_v65/bin/python",
+        "-u",
+        "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/within_dataset_context_20261007_v1/queue/resource_revision_001/resume_same_band_resource.py",
+        "--experiment",
+        "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/within_dataset_context_20261007_v1",
+        "--revision",
+        "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/within_dataset_context_20261007_v1/queue/resource_revision_001"
+      ],
+      "exe": "/home/pyj/anaconda3/bin/python3.10"
+    },
+    "execution_amendment": "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/within_dataset_context_20261007_v1/queue/AMENDMENT_KO.md",
+    "child": {
+      "pid": 1353768,
+      "start_ticks": "9448560",
+      "state": "R",
+      "argv": [
+        "/home/pyj/문서/GitHub/uav_analysis/rf_detection/deep_nmf_drone_20260929/.venv_temporal_v65/bin/python",
+        "-u",
+        "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/within_dataset_context_20261007_v1/training_snapshot/train_context_experiment.py",
+        "--preparation",
+        "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/within_dataset_context_20261007_v1/preparation",
+        "--run",
+        "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/within_dataset_context_20261007_v1/run"
+      ],
+      "exe": "/home/pyj/anaconda3/bin/python3.10"
+    },
+    "argv": [
+      "/home/pyj/문서/GitHub/uav_analysis/rf_detection/deep_nmf_drone_20260929/.venv_temporal_v65/bin/python",
+      "-u",
+      "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/within_dataset_context_20261007_v1/training_snapshot/train_context_experiment.py",
+      "--preparation",
+      "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/within_dataset_context_20261007_v1/preparation",
+      "--run",
+      "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/within_dataset_context_20261007_v1/run"
+    ]
+  },
+  "new_training_progress": {
+    "stage": "TRAIN",
+    "arm": "ordered",
+    "epoch": 1,
+    "examples": 160,
+    "epoch_examples": 2400,
+    "updates": 5,
+    "average_losses": [
+      7.0856083538383245,
+      6.973096264153719,
+      1.125120622292161
+    ],
+    "elapsed_seconds": 46.11638569831848,
+    "time": 1791336709.3038728,
+    "pid": 1353768,
+    "gpu_training_active": true
+  },
+  "research_goal_complete": false,
+  "new_generalization_result_available": false,
+  "note": "GPU preflight and fixed-example fitting are implementation checks. Refer to progress.stage/epoch for actual optimizer training.",
+  "resource_revision": {
+    "display_process_untouched": true,
+    "maximum_display_mib": 256,
+    "request_sha256": "73722429b508541b96927341ccce3d23c32a359baf956f66966b54e5d3424e6d",
+    "original_frozen_resource_policy_changed": false
+  },
+  "evidence_sha256": {
+    "local/within_dataset_context_20261007_v1/run/FREEZE.json": "2be9c661d33a75ec84ed966d4d26bd330c2a192533b9adfac310484d768af407",
+    "local/within_dataset_context_20261007_v1/queue/FREEZE.json": "512dd70e963b8c2058f69fee7e3128921b5dc1b63f8fbde65c4aa37a84158485",
+    "local/within_dataset_context_20261007_v1/queue/ADOPTION.json": "a451a08a17e22e6aa6b34d1a6c02c1b2e11c0558ce31bd48beff438cac98101a",
+    "local/within_dataset_context_20261007_v1/queue/OLD_PARKED.json": "32638258c250f49102b5801a6721722373dc194129820a43cb0c8a778a7504b7",
+    "local/within_dataset_context_20261007_v1/queue/resource_revision_001/FREEZE.json": "4e6f43c7e4563656dbb5b9474161ad40b3c98113a94725a31099fbbad4103037",
+    "local/within_dataset_context_20261007_v1/queue/resource_revision_001/ADOPTION.json": "f41bda43252dbd59ef08c9ff294c6bfd3b91a18468e22a9405efc8baea7eea11"
+  }
+}

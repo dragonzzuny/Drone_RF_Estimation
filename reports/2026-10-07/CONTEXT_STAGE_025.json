@@ -1,0 +1,160 @@
+{
+  "status": "SAVED_STAGE_STRATIFIED_BY_ORIGINAL_RF_BAND",
+  "time": 1791336590.6496797,
+  "source_sha256": "3162fae224a4f159cd09cd79c9b7855a27cec13371b8a2f5953cc66001562709",
+  "validation_schedule_sha256": "301dff9805628650ba9cef073a169b36f961ac08bcb0031569b35893eb018858",
+  "budget_epochs": 25,
+  "arms": {
+    "ordered": {
+      "selected_epoch": 23,
+      "completed_budget": 25,
+      "updates": 1875,
+      "macro_component_nmse": 0.5260273480493032,
+      "strata": [
+        {
+          "count": 1,
+          "band": "2.4GHz",
+          "cases": 84,
+          "component_nmse": 0.010904407406746,
+          "component_si_sdr": 25.068965796779317,
+          "si_sdr_improvement": null,
+          "count_accuracy": 0.9761904761904762
+        },
+        {
+          "count": 1,
+          "band": "5.8GHz",
+          "cases": 126,
+          "component_nmse": 0.015178286431340544,
+          "component_si_sdr": 22.613236029943923,
+          "si_sdr_improvement": null,
+          "count_accuracy": 0.3333333333333333
+        },
+        {
+          "count": 2,
+          "band": "2.4GHz",
+          "cases": 21,
+          "component_nmse": 0.5630094617382154,
+          "component_si_sdr": 4.081696509363764,
+          "si_sdr_improvement": 4.098966418921938,
+          "count_accuracy": 1.0
+        },
+        {
+          "count": 2,
+          "band": "5.8GHz",
+          "cases": 63,
+          "component_nmse": 0.5347943929131767,
+          "component_si_sdr": 1.4050580703749895,
+          "si_sdr_improvement": 1.4007542785409204,
+          "count_accuracy": 0.09523809523809523
+        },
+        {
+          "count": 2,
+          "band": "cross_band_synthetic",
+          "cases": 126,
+          "component_nmse": 0.587725207032446,
+          "component_si_sdr": 0.44767220072180475,
+          "si_sdr_improvement": 0.2526396450373613,
+          "count_accuracy": 0.2619047619047619
+        },
+        {
+          "count": 3,
+          "band": "5.8GHz",
+          "cases": 21,
+          "component_nmse": 0.7145978075229987,
+          "component_si_sdr": -5.023737833679918,
+          "si_sdr_improvement": 0.18158378312706527,
+          "count_accuracy": 0.9523809523809523
+        },
+        {
+          "count": 3,
+          "band": "cross_band_synthetic",
+          "cases": 189,
+          "component_nmse": 1.0264212670076278,
+          "component_si_sdr": -7.401967762996713,
+          "si_sdr_improvement": 1.88362535313608,
+          "count_accuracy": 0.8042328042328042
+        }
+      ],
+      "selection_sha256": "c454447b4eb7db5b802595f3001f84fb02881f1b9e9ac1a25afb5d44fd170668",
+      "checkpoint_sha256": "5f0aa1cd4b5456d929cecbb159dc2d26ea4e8140324717ee7aaae39ce57e5b41"
+    },
+    "mean": {
+      "selected_epoch": 11,
+      "completed_budget": 25,
+      "updates": 1875,
+      "macro_component_nmse": 0.5320758266620866,
+      "strata": [
+        {
+          "count": 1,
+          "band": "2.4GHz",
+          "cases": 84,
+          "component_nmse": 0.009179218878311817,
+          "component_si_sdr": 26.536167038536774,
+          "si_sdr_improvement": null,
+          "count_accuracy": 1.0
+        },
+        {
+          "count": 1,
+          "band": "5.8GHz",
+          "cases": 126,
+          "component_nmse": 0.012597676481612745,
+          "component_si_sdr": 23.875017096165404,
+          "si_sdr_improvement": null,
+          "count_accuracy": 0.3412698412698413
+        },
+        {
+          "count": 2,
+          "band": "2.4GHz",
+          "cases": 21,
+          "component_nmse": 0.6492563975790437,
+          "component_si_sdr": 3.3772756046333208,
+          "si_sdr_improvement": 3.3945455141914946,
+          "count_accuracy": 0.5238095238095238
+        },
+        {
+          "count": 2,
+          "band": "5.8GHz",
+          "cases": 63,
+          "component_nmse": 0.5379716980759203,
+          "component_si_sdr": 1.7128189432597005,
+          "si_sdr_improvement": 1.7085151514256316,
+          "count_accuracy": 0.3492063492063492
+        },
+        {
+          "count": 2,
+          "band": "cross_band_synthetic",
+          "cases": 126,
+          "component_nmse": 0.6398390045564107,
+          "component_si_sdr": 0.14929837001418958,
+          "si_sdr_improvement": -0.04573418567025364,
+          "count_accuracy": 0.5396825396825397
+        },
+        {
+          "count": 3,
+          "band": "5.8GHz",
+          "cases": 21,
+          "component_nmse": 0.735863858743258,
+          "component_si_sdr": -6.098539622008037,
+          "si_sdr_improvement": -0.8932180052010531,
+          "count_accuracy": 0.6666666666666666
+        },
+        {
+          "count": 3,
+          "band": "cross_band_synthetic",
+          "cases": 189,
+          "component_nmse": 1.0013224986190168,
+          "component_si_sdr": -8.567597290154206,
+          "si_sdr_improvement": 0.7179958259785852,
+          "count_accuracy": 0.4973544973544973
+        }
+      ],
+      "selection_sha256": "8a2767b40fbf4fb00fa4a4149d548ee4a8d16e44d481a0b77cb67886f782e228",
+      "checkpoint_sha256": "71085b285e865c3828c201fc346567295af63d0570b0ff1d012110f05010d9fd"
+    }
+  },
+  "iq_read": false,
+  "heldout_evaluated": false,
+  "independent_test": false,
+  "physical_drone_count_evaluated": false,
+  "interpretation": "Descriptive strata of a prior mixed-band validation. Different strata are not a causal band ablation. One seed; selected checkpoints minimize the original whole-validation NMSE, not each subgroup."
+}
