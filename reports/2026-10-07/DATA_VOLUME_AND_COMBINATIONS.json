@@ -1,0 +1,468 @@
+{
+  "status": "SAME_DATASET_DATA_EXPANSION_PREPARATION_RUNNING",
+  "time": 1791348440.9928904,
+  "dataset": "RFUAV",
+  "source_inventory_sha256": "7e81a50edf373bb3c7f641e29b99fc86732a5fad6784f2bc5830030cf4f11ee8",
+  "parent_manifest_sha256": "dba2aa3f1c9a1a16c60bb0b040e537ef41a22d1a6ba4202ecf11a9af3d702236",
+  "volume": {
+    "train_pack": {
+      "files": 83,
+      "packs": 8,
+      "categories": 5,
+      "raw_seconds": 81.2684319,
+      "current_cached_seconds": 5.221908479999971,
+      "current_coverage_percent": 6.425506630207259,
+      "current_clips": 249,
+      "planned_dense_clips": 3902,
+      "target_unique_coverage_percent": 100.0
+    },
+    "validation_pack": {
+      "files": 48,
+      "packs": 5,
+      "categories": 5,
+      "raw_seconds": 47.31616444,
+      "current_cached_seconds": 3.019898879999992,
+      "current_coverage_percent": 6.382383094110305,
+      "current_clips": 144
+    }
+  },
+  "distinct_category_combination_counts": {
+    "2": 4,
+    "3": 1
+  },
+  "possible_category_multiset_counts": {
+    "2": 9,
+    "3": 14
+  },
+  "category_multisets": [
+    {
+      "rf_band": "2.4GHz",
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI3"
+      ],
+      "repeated_category": true,
+      "distinct_source_files_required": 2,
+      "enough_distinct_files_by_role": {
+        "train_pack": true,
+        "validation_pack": true
+      },
+      "different_physical_airframes_verified": false,
+      "currently_in_training": false,
+      "repeated_category_status": "candidate_not_implemented_in_frozen_loader"
+    },
+    {
+      "rf_band": "2.4GHz",
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "repeated_category": false,
+      "distinct_source_files_required": 2,
+      "enough_distinct_files_by_role": {
+        "train_pack": true,
+        "validation_pack": true
+      },
+      "different_physical_airframes_verified": false,
+      "currently_in_training": true,
+      "repeated_category_status": "current_distinct_category_pool"
+    },
+    {
+      "rf_band": "2.4GHz",
+      "count": 2,
+      "categories": [
+        "DJI MINI4 PRO",
+        "DJI MINI4 PRO"
+      ],
+      "repeated_category": true,
+      "distinct_source_files_required": 2,
+      "enough_distinct_files_by_role": {
+        "train_pack": true,
+        "validation_pack": true
+      },
+      "different_physical_airframes_verified": false,
+      "currently_in_training": false,
+      "repeated_category_status": "candidate_not_implemented_in_frozen_loader"
+    },
+    {
+      "rf_band": "2.4GHz",
+      "count": 3,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI3",
+        "DJI MINI3"
+      ],
+      "repeated_category": true,
+      "distinct_source_files_required": 3,
+      "enough_distinct_files_by_role": {
+        "train_pack": true,
+        "validation_pack": true
+      },
+      "different_physical_airframes_verified": false,
+      "currently_in_training": false,
+      "repeated_category_status": "candidate_not_implemented_in_frozen_loader"
+    },
+    {
+      "rf_band": "2.4GHz",
+      "count": 3,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "repeated_category": true,
+      "distinct_source_files_required": 3,
+      "enough_distinct_files_by_role": {
+        "train_pack": true,
+        "validation_pack": true
+      },
+      "different_physical_airframes_verified": false,
+      "currently_in_training": false,
+      "repeated_category_status": "candidate_not_implemented_in_frozen_loader"
+    },
+    {
+      "rf_band": "2.4GHz",
+      "count": 3,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO",
+        "DJI MINI4 PRO"
+      ],
+      "repeated_category": true,
+      "distinct_source_files_required": 3,
+      "enough_distinct_files_by_role": {
+        "train_pack": true,
+        "validation_pack": true
+      },
+      "different_physical_airframes_verified": false,
+      "currently_in_training": false,
+      "repeated_category_status": "candidate_not_implemented_in_frozen_loader"
+    },
+    {
+      "rf_band": "2.4GHz",
+      "count": 3,
+      "categories": [
+        "DJI MINI4 PRO",
+        "DJI MINI4 PRO",
+        "DJI MINI4 PRO"
+      ],
+      "repeated_category": true,
+      "distinct_source_files_required": 3,
+      "enough_distinct_files_by_role": {
+        "train_pack": true,
+        "validation_pack": true
+      },
+      "different_physical_airframes_verified": false,
+      "currently_in_training": false,
+      "repeated_category_status": "candidate_not_implemented_in_frozen_loader"
+    },
+    {
+      "rf_band": "5.8GHz",
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI AVATA2"
+      ],
+      "repeated_category": true,
+      "distinct_source_files_required": 2,
+      "enough_distinct_files_by_role": {
+        "train_pack": true,
+        "validation_pack": true
+      },
+      "different_physical_airframes_verified": false,
+      "currently_in_training": false,
+      "repeated_category_status": "candidate_not_implemented_in_frozen_loader"
+    },
+    {
+      "rf_band": "5.8GHz",
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "repeated_category": false,
+      "distinct_source_files_required": 2,
+      "enough_distinct_files_by_role": {
+        "train_pack": true,
+        "validation_pack": true
+      },
+      "different_physical_airframes_verified": false,
+      "currently_in_training": true,
+      "repeated_category_status": "current_distinct_category_pool"
+    },
+    {
+      "rf_band": "5.8GHz",
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "repeated_category": false,
+      "distinct_source_files_required": 2,
+      "enough_distinct_files_by_role": {
+        "train_pack": true,
+        "validation_pack": true
+      },
+      "different_physical_airframes_verified": false,
+      "currently_in_training": true,
+      "repeated_category_status": "current_distinct_category_pool"
+    },
+    {
+      "rf_band": "5.8GHz",
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI FPV COMBO"
+      ],
+      "repeated_category": true,
+      "distinct_source_files_required": 2,
+      "enough_distinct_files_by_role": {
+        "train_pack": true,
+        "validation_pack": true
+      },
+      "different_physical_airframes_verified": false,
+      "currently_in_training": false,
+      "repeated_category_status": "candidate_not_implemented_in_frozen_loader"
+    },
+    {
+      "rf_band": "5.8GHz",
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "repeated_category": false,
+      "distinct_source_files_required": 2,
+      "enough_distinct_files_by_role": {
+        "train_pack": true,
+        "validation_pack": true
+      },
+      "different_physical_airframes_verified": false,
+      "currently_in_training": true,
+      "repeated_category_status": "current_distinct_category_pool"
+    },
+    {
+      "rf_band": "5.8GHz",
+      "count": 2,
+      "categories": [
+        "DJI MAVIC3 PRO",
+        "DJI MAVIC3 PRO"
+      ],
+      "repeated_category": true,
+      "distinct_source_files_required": 2,
+      "enough_distinct_files_by_role": {
+        "train_pack": true,
+        "validation_pack": true
+      },
+      "different_physical_airframes_verified": false,
+      "currently_in_training": false,
+      "repeated_category_status": "candidate_not_implemented_in_frozen_loader"
+    },
+    {
+      "rf_band": "5.8GHz",
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI AVATA2",
+        "DJI AVATA2"
+      ],
+      "repeated_category": true,
+      "distinct_source_files_required": 3,
+      "enough_distinct_files_by_role": {
+        "train_pack": true,
+        "validation_pack": true
+      },
+      "different_physical_airframes_verified": false,
+      "currently_in_training": false,
+      "repeated_category_status": "candidate_not_implemented_in_frozen_loader"
+    },
+    {
+      "rf_band": "5.8GHz",
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "repeated_category": true,
+      "distinct_source_files_required": 3,
+      "enough_distinct_files_by_role": {
+        "train_pack": true,
+        "validation_pack": true
+      },
+      "different_physical_airframes_verified": false,
+      "currently_in_training": false,
+      "repeated_category_status": "candidate_not_implemented_in_frozen_loader"
+    },
+    {
+      "rf_band": "5.8GHz",
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "repeated_category": true,
+      "distinct_source_files_required": 3,
+      "enough_distinct_files_by_role": {
+        "train_pack": true,
+        "validation_pack": true
+      },
+      "different_physical_airframes_verified": false,
+      "currently_in_training": false,
+      "repeated_category_status": "candidate_not_implemented_in_frozen_loader"
+    },
+    {
+      "rf_band": "5.8GHz",
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI FPV COMBO"
+      ],
+      "repeated_category": true,
+      "distinct_source_files_required": 3,
+      "enough_distinct_files_by_role": {
+        "train_pack": true,
+        "validation_pack": true
+      },
+      "different_physical_airframes_verified": false,
+      "currently_in_training": false,
+      "repeated_category_status": "candidate_not_implemented_in_frozen_loader"
+    },
+    {
+      "rf_band": "5.8GHz",
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "repeated_category": false,
+      "distinct_source_files_required": 3,
+      "enough_distinct_files_by_role": {
+        "train_pack": true,
+        "validation_pack": true
+      },
+      "different_physical_airframes_verified": false,
+      "currently_in_training": true,
+      "repeated_category_status": "current_distinct_category_pool"
+    },
+    {
+      "rf_band": "5.8GHz",
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO",
+        "DJI MAVIC3 PRO"
+      ],
+      "repeated_category": true,
+      "distinct_source_files_required": 3,
+      "enough_distinct_files_by_role": {
+        "train_pack": true,
+        "validation_pack": true
+      },
+      "different_physical_airframes_verified": false,
+      "currently_in_training": false,
+      "repeated_category_status": "candidate_not_implemented_in_frozen_loader"
+    },
+    {
+      "rf_band": "5.8GHz",
+      "count": 3,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI FPV COMBO",
+        "DJI FPV COMBO"
+      ],
+      "repeated_category": true,
+      "distinct_source_files_required": 3,
+      "enough_distinct_files_by_role": {
+        "train_pack": true,
+        "validation_pack": true
+      },
+      "different_physical_airframes_verified": false,
+      "currently_in_training": false,
+      "repeated_category_status": "candidate_not_implemented_in_frozen_loader"
+    },
+    {
+      "rf_band": "5.8GHz",
+      "count": 3,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "repeated_category": true,
+      "distinct_source_files_required": 3,
+      "enough_distinct_files_by_role": {
+        "train_pack": true,
+        "validation_pack": true
+      },
+      "different_physical_airframes_verified": false,
+      "currently_in_training": false,
+      "repeated_category_status": "candidate_not_implemented_in_frozen_loader"
+    },
+    {
+      "rf_band": "5.8GHz",
+      "count": 3,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO",
+        "DJI MAVIC3 PRO"
+      ],
+      "repeated_category": true,
+      "distinct_source_files_required": 3,
+      "enough_distinct_files_by_role": {
+        "train_pack": true,
+        "validation_pack": true
+      },
+      "different_physical_airframes_verified": false,
+      "currently_in_training": false,
+      "repeated_category_status": "candidate_not_implemented_in_frozen_loader"
+    },
+    {
+      "rf_band": "5.8GHz",
+      "count": 3,
+      "categories": [
+        "DJI MAVIC3 PRO",
+        "DJI MAVIC3 PRO",
+        "DJI MAVIC3 PRO"
+      ],
+      "repeated_category": true,
+      "distinct_source_files_required": 3,
+      "enough_distinct_files_by_role": {
+        "train_pack": true,
+        "validation_pack": true
+      },
+      "different_physical_airframes_verified": false,
+      "currently_in_training": false,
+      "repeated_category_status": "candidate_not_implemented_in_frozen_loader"
+    }
+  ],
+  "progress_at_report": {
+    "stage": "STREAM_TRAINING_RAW",
+    "time": 1791348439.0020165,
+    "pid": 1593366,
+    "elapsed_seconds": 154.8309290409088,
+    "completed_sources": 14,
+    "total_sources": 83,
+    "cached_training_clips": 649,
+    "expected_training_clips": 3902,
+    "gpu_used": false,
+    "max_rss_kib": 168840,
+    "current_file": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_12-13s.iq",
+    "current_offset_samples": 23068672
+  },
+  "preparation_config_sha256": "8f6ed4ec38f3a82dab7732d46a4684f61d7ba31c0a5d440fb979e951df780fcc",
+  "worker_sha256": "7fd2ee99dff28a34ecf962b0d4b265c22bf5b269775003f35ff917902c55f8f7",
+  "source_snapshot_sha256": "391d389a961038d371b2cf18730fa8623ddf14760ba934071bc43124cbb5dc8c",
+  "native_sample_rate_hz": 100000000,
+  "controller_classes_added": false,
+  "heldout_models_added": false,
+  "old_frozen_experiment_changed": false,
+  "new_gpu_training_started": false,
+  "new_independent_recordings_added": 0,
+  "scope": "Increased time coverage of already assigned training files. Same-type combinations are metadata candidates, not new aircraft types or approved physical-drone mixtures."
+}
