@@ -1,0 +1,815 @@
+{
+  "status": "DESCRIPTIVE_MATCHED_EPOCH_AUDIT",
+  "time": 1791343642.4012048,
+  "experiment": "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/within_dataset_context_20261007_v1",
+  "epoch": 5,
+  "source_sha256": "c8da45e5d18ed95a063ac4fac94762ec25870598514ef695035269352e52b1c9",
+  "freeze_sha256": "2be9c661d33a75ec84ed966d4d26bd330c2a192533b9adfac310484d768af407",
+  "manifest_sha256": "dba2aa3f1c9a1a16c60bb0b040e537ef41a22d1a6ba4202ecf11a9af3d702236",
+  "schedule_sha256": {
+    "TRAIN.npy": "34f55c9e0098dacbefd3ffd35e95469517dfdfb1db14006cb7e4f6af029464b5",
+    "VALIDATION.npy": "cbf1c2ab08b3c90bf92d8c443286fe87ca2b9672bcdf3ccc109b3ddef49793d4"
+  },
+  "arms": {
+    "ordered": {
+      "by_count": {
+        "1": {
+          "cases": 210,
+          "nmse": 0.03192411745886729,
+          "si_sdr_db": 21.790195093922886,
+          "si_sdr_improvement_db": null,
+          "weakest_local_component_nmse": 0.03192411745886729,
+          "all_components_positive_improvement": null,
+          "inactive_slot_energy_over_mixture": 0.010344848389578849,
+          "background_energy_over_mixture": 0.004635402165195403,
+          "construction_count_accuracy": 0.680952380952381
+        },
+        "2": {
+          "cases": 210,
+          "nmse": 0.619561888410407,
+          "si_sdr_db": 2.3206159425514317,
+          "si_sdr_improvement_db": 2.279708588284329,
+          "weakest_local_component_nmse": 1.0524796562497296,
+          "all_components_positive_improvement": 0.5285714285714286,
+          "inactive_slot_energy_over_mixture": 0.004237628256382545,
+          "background_energy_over_mixture": 0.00519684908725892,
+          "construction_count_accuracy": 0.38571428571428573
+        },
+        "3": {
+          "cases": 210,
+          "nmse": 0.7104956215129907,
+          "si_sdr_db": -3.4938082338975223,
+          "si_sdr_improvement_db": 1.7873740047572217,
+          "weakest_local_component_nmse": 0.957202563096429,
+          "all_components_positive_improvement": 0.4380952380952381,
+          "inactive_slot_energy_over_mixture": 0.0,
+          "background_energy_over_mixture": 0.006349122594132876,
+          "construction_count_accuracy": 0.9285714285714286
+        }
+      },
+      "original_selection_macro_nmse": 0.4539938757940883,
+      "separation_only_count_macro_nmse": 0.6650287549616989,
+      "selection_changed": false,
+      "by_combination": [
+        {
+          "count": 1,
+          "band": "2.4GHz",
+          "categories": [
+            "DJI MINI3"
+          ],
+          "cases": 42,
+          "nmse": 0.02761903520891578,
+          "si_sdr_db": 24.606306175690595,
+          "si_sdr_improvement_db": null,
+          "weakest_local_component_nmse": 0.02761903520891578,
+          "all_components_positive_improvement": null,
+          "inactive_slot_energy_over_mixture": 0.009000576714097222,
+          "background_energy_over_mixture": 0.004093959372670476,
+          "construction_count_accuracy": 1.0
+        },
+        {
+          "count": 1,
+          "band": "2.4GHz",
+          "categories": [
+            "DJI MINI4 PRO"
+          ],
+          "cases": 42,
+          "nmse": 0.020818528773848873,
+          "si_sdr_db": 22.260509084970195,
+          "si_sdr_improvement_db": null,
+          "weakest_local_component_nmse": 0.020818528773848873,
+          "all_components_positive_improvement": null,
+          "inactive_slot_energy_over_mixture": 0.0066153331674054594,
+          "background_energy_over_mixture": 0.0031630836123254917,
+          "construction_count_accuracy": 1.0
+        },
+        {
+          "count": 1,
+          "band": "5.8GHz",
+          "categories": [
+            "DJI AVATA2"
+          ],
+          "cases": 42,
+          "nmse": 0.04556285959172118,
+          "si_sdr_db": 22.862982986670517,
+          "si_sdr_improvement_db": null,
+          "weakest_local_component_nmse": 0.04556285959172118,
+          "all_components_positive_improvement": null,
+          "inactive_slot_energy_over_mixture": 0.015112899116426073,
+          "background_energy_over_mixture": 0.006487292062874643,
+          "construction_count_accuracy": 1.0
+        },
+        {
+          "count": 1,
+          "band": "5.8GHz",
+          "categories": [
+            "DJI FPV COMBO"
+          ],
+          "cases": 42,
+          "nmse": 0.027240937814106532,
+          "si_sdr_db": 19.37750016340928,
+          "si_sdr_improvement_db": null,
+          "weakest_local_component_nmse": 0.027240937814106532,
+          "all_components_positive_improvement": null,
+          "inactive_slot_energy_over_mixture": 0.008866071403510058,
+          "background_energy_over_mixture": 0.004007960307744722,
+          "construction_count_accuracy": 0.0
+        },
+        {
+          "count": 1,
+          "band": "5.8GHz",
+          "categories": [
+            "DJI MAVIC3 PRO"
+          ],
+          "cases": 42,
+          "nmse": 0.03837922590574409,
+          "si_sdr_db": 19.84367705887386,
+          "si_sdr_improvement_db": null,
+          "weakest_local_component_nmse": 0.03837922590574409,
+          "all_components_positive_improvement": null,
+          "inactive_slot_energy_over_mixture": 0.012129361546455438,
+          "background_energy_over_mixture": 0.005424715470361679,
+          "construction_count_accuracy": 0.40476190476190477
+        },
+        {
+          "count": 2,
+          "band": "2.4GHz",
+          "categories": [
+            "DJI MINI3",
+            "DJI MINI4 PRO"
+          ],
+          "cases": 51,
+          "nmse": 0.911794866758961,
+          "si_sdr_db": 2.878209398415827,
+          "si_sdr_improvement_db": 2.7625689559400453,
+          "weakest_local_component_nmse": 1.6929638891133862,
+          "all_components_positive_improvement": 0.29411764705882354,
+          "inactive_slot_energy_over_mixture": 0.003126739664227961,
+          "background_energy_over_mixture": 0.002835601580869214,
+          "construction_count_accuracy": 0.49019607843137253
+        },
+        {
+          "count": 2,
+          "band": "5.8GHz",
+          "categories": [
+            "DJI AVATA2",
+            "DJI FPV COMBO"
+          ],
+          "cases": 54,
+          "nmse": 0.5140599400808565,
+          "si_sdr_db": 2.436520683978522,
+          "si_sdr_improvement_db": 2.418789428037477,
+          "weakest_local_component_nmse": 0.8364301199512083,
+          "all_components_positive_improvement": 0.7037037037037037,
+          "inactive_slot_energy_over_mixture": 0.0044243080545087405,
+          "background_energy_over_mixture": 0.006254245966779465,
+          "construction_count_accuracy": 0.3333333333333333
+        },
+        {
+          "count": 2,
+          "band": "5.8GHz",
+          "categories": [
+            "DJI AVATA2",
+            "DJI MAVIC3 PRO"
+          ],
+          "cases": 54,
+          "nmse": 0.521508700034869,
+          "si_sdr_db": 1.3986753416071636,
+          "si_sdr_improvement_db": 1.3761700818138836,
+          "weakest_local_component_nmse": 0.8603730077246781,
+          "all_components_positive_improvement": 0.5,
+          "inactive_slot_energy_over_mixture": 0.005669254042848059,
+          "background_energy_over_mixture": 0.006404073601960809,
+          "construction_count_accuracy": 0.6666666666666666
+        },
+        {
+          "count": 2,
+          "band": "5.8GHz",
+          "categories": [
+            "DJI FPV COMBO",
+            "DJI MAVIC3 PRO"
+          ],
+          "cases": 51,
+          "nmse": 0.5428578783378294,
+          "si_sdr_db": 2.6164722202934607,
+          "si_sdr_improvement_db": 2.6062739853881047,
+          "weakest_local_component_nmse": 0.844160795552209,
+          "all_components_positive_improvement": 0.6078431372549019,
+          "inactive_slot_energy_over_mixture": 0.0036350168177929666,
+          "background_energy_over_mixture": 0.005160262176236639,
+          "construction_count_accuracy": 0.0392156862745098
+        },
+        {
+          "count": 3,
+          "band": "5.8GHz",
+          "categories": [
+            "DJI AVATA2",
+            "DJI FPV COMBO",
+            "DJI MAVIC3 PRO"
+          ],
+          "cases": 210,
+          "nmse": 0.7104956215129907,
+          "si_sdr_db": -3.4938082338975223,
+          "si_sdr_improvement_db": 1.7873740047572217,
+          "weakest_local_component_nmse": 0.957202563096429,
+          "all_components_positive_improvement": 0.4380952380952381,
+          "inactive_slot_energy_over_mixture": 0.0,
+          "background_energy_over_mixture": 0.006349122594132876,
+          "construction_count_accuracy": 0.9285714285714286
+        }
+      ],
+      "epoch": 5,
+      "updates": 375,
+      "validation_sha256": "9c2e40b13aa6da5facc960dff6cc7f875395d9d9969f658996175de8b18dc2a6",
+      "epoch_receipt_sha256": "3d051760b717777f2173a39ce2969db78635703f6a1244ea2aa1f825d3e86e0a"
+    },
+    "mean": {
+      "by_count": {
+        "1": {
+          "cases": 210,
+          "nmse": 0.026294808208811898,
+          "si_sdr_db": 22.0195944255249,
+          "si_sdr_improvement_db": null,
+          "weakest_local_component_nmse": 0.026294808208811898,
+          "all_components_positive_improvement": null,
+          "inactive_slot_energy_over_mixture": 0.00859726817275472,
+          "background_energy_over_mixture": 0.003855542693611335,
+          "construction_count_accuracy": 0.5333333333333333
+        },
+        "2": {
+          "cases": 210,
+          "nmse": 0.6776382505621962,
+          "si_sdr_db": 2.042132943489677,
+          "si_sdr_improvement_db": 2.0012255892225745,
+          "weakest_local_component_nmse": 1.167721396927138,
+          "all_components_positive_improvement": 0.47619047619047616,
+          "inactive_slot_energy_over_mixture": 0.002491282932007274,
+          "background_energy_over_mixture": 0.004055306128638673,
+          "construction_count_accuracy": 0.5761904761904761
+        },
+        "3": {
+          "cases": 210,
+          "nmse": 0.7144983909427695,
+          "si_sdr_db": -4.068817729438582,
+          "si_sdr_improvement_db": 1.2123645092161632,
+          "weakest_local_component_nmse": 0.9610872361168963,
+          "all_components_positive_improvement": 0.4095238095238095,
+          "inactive_slot_energy_over_mixture": 0.0,
+          "background_energy_over_mixture": 0.0050151707321449066,
+          "construction_count_accuracy": 0.8428571428571429
+        }
+      },
+      "original_selection_macro_nmse": 0.47281048323792585,
+      "separation_only_count_macro_nmse": 0.6960683207524828,
+      "selection_changed": false,
+      "by_combination": [
+        {
+          "count": 1,
+          "band": "2.4GHz",
+          "categories": [
+            "DJI MINI3"
+          ],
+          "cases": 42,
+          "nmse": 0.024272520967915375,
+          "si_sdr_db": 24.790595971398698,
+          "si_sdr_improvement_db": null,
+          "weakest_local_component_nmse": 0.024272520967915375,
+          "all_components_positive_improvement": null,
+          "inactive_slot_energy_over_mixture": 0.008249942315002262,
+          "background_energy_over_mixture": 0.003630818952097854,
+          "construction_count_accuracy": 1.0
+        },
+        {
+          "count": 1,
+          "band": "2.4GHz",
+          "categories": [
+            "DJI MINI4 PRO"
+          ],
+          "cases": 42,
+          "nmse": 0.0176146360313285,
+          "si_sdr_db": 22.963247866328445,
+          "si_sdr_improvement_db": null,
+          "weakest_local_component_nmse": 0.0176146360313285,
+          "all_components_positive_improvement": null,
+          "inactive_slot_energy_over_mixture": 0.005568245327605633,
+          "background_energy_over_mixture": 0.0026734847112987814,
+          "construction_count_accuracy": 0.6190476190476191
+        },
+        {
+          "count": 1,
+          "band": "5.8GHz",
+          "categories": [
+            "DJI AVATA2"
+          ],
+          "cases": 42,
+          "nmse": 0.040596450009961926,
+          "si_sdr_db": 22.189195764306536,
+          "si_sdr_improvement_db": null,
+          "weakest_local_component_nmse": 0.040596450009961926,
+          "all_components_positive_improvement": null,
+          "inactive_slot_energy_over_mixture": 0.014035716984828195,
+          "background_energy_over_mixture": 0.005825238030524962,
+          "construction_count_accuracy": 1.0
+        },
+        {
+          "count": 1,
+          "band": "5.8GHz",
+          "categories": [
+            "DJI FPV COMBO"
+          ],
+          "cases": 42,
+          "nmse": 0.019922193238540727,
+          "si_sdr_db": 20.23170201973236,
+          "si_sdr_improvement_db": null,
+          "weakest_local_component_nmse": 0.019922193238540727,
+          "all_components_positive_improvement": null,
+          "inactive_slot_energy_over_mixture": 0.006058493145582859,
+          "background_energy_over_mixture": 0.0029692272937022154,
+          "construction_count_accuracy": 0.0
+        },
+        {
+          "count": 1,
+          "band": "5.8GHz",
+          "categories": [
+            "DJI MAVIC3 PRO"
+          ],
+          "cases": 42,
+          "nmse": 0.029068240796312945,
+          "si_sdr_db": 19.923230505858456,
+          "si_sdr_improvement_db": null,
+          "weakest_local_component_nmse": 0.029068240796312945,
+          "all_components_positive_improvement": null,
+          "inactive_slot_energy_over_mixture": 0.009073943090754653,
+          "background_energy_over_mixture": 0.004178944480432864,
+          "construction_count_accuracy": 0.047619047619047616
+        },
+        {
+          "count": 2,
+          "band": "2.4GHz",
+          "categories": [
+            "DJI MINI3",
+            "DJI MINI4 PRO"
+          ],
+          "cases": 51,
+          "nmse": 1.1348557214717003,
+          "si_sdr_db": 3.439090778255935,
+          "si_sdr_improvement_db": 3.3234503357801533,
+          "weakest_local_component_nmse": 2.1421753423229624,
+          "all_components_positive_improvement": 0.27450980392156865,
+          "inactive_slot_energy_over_mixture": 0.001514788715239283,
+          "background_energy_over_mixture": 0.0020065436219486995,
+          "construction_count_accuracy": 1.0
+        },
+        {
+          "count": 2,
+          "band": "5.8GHz",
+          "categories": [
+            "DJI AVATA2",
+            "DJI FPV COMBO"
+          ],
+          "cases": 54,
+          "nmse": 0.5204805993821966,
+          "si_sdr_db": 2.101450062055609,
+          "si_sdr_improvement_db": 2.083718806114565,
+          "weakest_local_component_nmse": 0.8499185578830633,
+          "all_components_positive_improvement": 0.6481481481481481,
+          "inactive_slot_energy_over_mixture": 0.0023268753814358425,
+          "background_energy_over_mixture": 0.004950638978390688,
+          "construction_count_accuracy": 0.3148148148148148
+        },
+        {
+          "count": 2,
+          "band": "5.8GHz",
+          "categories": [
+            "DJI AVATA2",
+            "DJI MAVIC3 PRO"
+          ],
+          "cases": 54,
+          "nmse": 0.5228104761790751,
+          "si_sdr_db": 0.6533121046565278,
+          "si_sdr_improvement_db": 0.6308068448632478,
+          "weakest_local_component_nmse": 0.8624381375188234,
+          "all_components_positive_improvement": 0.4074074074074074,
+          "inactive_slot_energy_over_mixture": 0.004300954919594991,
+          "background_energy_over_mixture": 0.005369315503881305,
+          "construction_count_accuracy": 0.2222222222222222
+        },
+        {
+          "count": 2,
+          "band": "5.8GHz",
+          "categories": [
+            "DJI FPV COMBO",
+            "DJI MAVIC3 PRO"
+          ],
+          "cases": 51,
+          "nmse": 0.5507582890724666,
+          "si_sdr_db": 2.0528849301828247,
+          "si_sdr_improvement_db": 2.0426866952774687,
+          "weakest_local_component_nmse": 0.8530056734220798,
+          "all_components_positive_improvement": 0.5686274509803921,
+          "inactive_slot_energy_over_mixture": 0.0017257324507580227,
+          "background_energy_over_mixture": 0.003764765102981375,
+          "construction_count_accuracy": 0.803921568627451
+        },
+        {
+          "count": 3,
+          "band": "5.8GHz",
+          "categories": [
+            "DJI AVATA2",
+            "DJI FPV COMBO",
+            "DJI MAVIC3 PRO"
+          ],
+          "cases": 210,
+          "nmse": 0.7144983909427695,
+          "si_sdr_db": -4.068817729438582,
+          "si_sdr_improvement_db": 1.2123645092161632,
+          "weakest_local_component_nmse": 0.9610872361168963,
+          "all_components_positive_improvement": 0.4095238095238095,
+          "inactive_slot_energy_over_mixture": 0.0,
+          "background_energy_over_mixture": 0.0050151707321449066,
+          "construction_count_accuracy": 0.8428571428571429
+        }
+      ],
+      "epoch": 5,
+      "updates": 375,
+      "validation_sha256": "0d2cbfcd390b93576b20a7193acd92973850d1321b3333e4159a8f9f3b295659",
+      "epoch_receipt_sha256": "f0b1bad13c08e4e250ab6fe3ee241a7944979e617456ee805d7dca339781ea31"
+    }
+  },
+  "count_band_metadata_baseline": {
+    "prediction_by_band": {
+      "5.8GHz": 3,
+      "2.4GHz": 1
+    },
+    "training_counts_by_band": {
+      "2.4GHz": {
+        "1": 1600,
+        "2": 999
+      },
+      "5.8GHz": {
+        "1": 2400,
+        "2": 3001,
+        "3": 4000
+      }
+    },
+    "validation_accuracy": 0.4666666666666667,
+    "validation_confusion": [
+      [
+        84,
+        0,
+        126
+      ],
+      [
+        51,
+        0,
+        159
+      ],
+      [
+        0,
+        0,
+        210
+      ]
+    ],
+    "interpretation": "Metadata diagnostic fitted on training counts; not RF source separation. Receiver band is known to this baseline but is not directly supplied to the neural head."
+  },
+  "validation_power_diagnostics": [
+    {
+      "count": 1,
+      "cases": 210,
+      "local_relative_long_db": {
+        "min": -37.169473270156715,
+        "p05": -36.24396076227598,
+        "p25": -13.875920390612588,
+        "median": -1.7004740306769741,
+        "p75": 1.189891514007525,
+        "p95": 4.912661443828277,
+        "max": 9.595015835113516
+      },
+      "any_component_below_own_long_mean_by_20db_fraction": 0.18571428571428572,
+      "any_sir_difference_over_3db_fraction": null,
+      "local_sir_db": null
+    },
+    {
+      "count": 2,
+      "cases": 210,
+      "local_relative_long_db": {
+        "min": -36.939619495929904,
+        "p05": -31.609118884992547,
+        "p25": -8.2029487146457,
+        "median": -1.2600341151178527,
+        "p75": 1.1936235293338044,
+        "p95": 6.165766139006575,
+        "max": 14.74941736434472
+      },
+      "any_component_below_own_long_mean_by_20db_fraction": 0.17142857142857143,
+      "any_sir_difference_over_3db_fraction": 0.7,
+      "local_sir_db": {
+        "min": -51.38734889131979,
+        "p05": -26.282555027582738,
+        "p25": -10.015540030984173,
+        "median": -1.457167719820518e-16,
+        "p75": 10.015540030984173,
+        "p95": 26.282555027582735,
+        "max": 51.38734889131979
+      }
+    },
+    {
+      "count": 3,
+      "cases": 210,
+      "local_relative_long_db": {
+        "min": -20.410218733187,
+        "p05": -12.494696956078487,
+        "p25": -3.8371838899868487,
+        "median": -0.7297964324570418,
+        "p75": 1.1438605981784997,
+        "p95": 2.9876683959899064,
+        "max": 13.035918337155971
+      },
+      "any_component_below_own_long_mean_by_20db_fraction": 0.009523809523809525,
+      "any_sir_difference_over_3db_fraction": 0.8095238095238095,
+      "local_sir_db": {
+        "min": -29.92301779977868,
+        "p05": -20.97253475511368,
+        "p25": -11.932001632768678,
+        "median": -5.783994787223146,
+        "p75": 1.392281617117215,
+        "p95": 9.57442349099069,
+        "max": 24.09736453289504
+      }
+    }
+  ],
+  "pair_nominal_unequal_power_cases": 140,
+  "pair_local_strength_reversal_fraction": 0.1357142857142857,
+  "by_local_sir": [
+    {
+      "count": 2,
+      "local_sir_bin_db": "below_-20",
+      "components": 40,
+      "arms": {
+        "ordered": {
+          "nmse": 1.9661678305857073,
+          "si_sdr_db": -16.4443922237616
+        },
+        "mean": {
+          "nmse": 2.535974031298237,
+          "si_sdr_db": -17.06290545273867
+        }
+      }
+    },
+    {
+      "count": 2,
+      "local_sir_bin_db": "-20_to_-10",
+      "components": 65,
+      "arms": {
+        "ordered": {
+          "nmse": 0.8917633006427006,
+          "si_sdr_db": -6.66227402584642
+        },
+        "mean": {
+          "nmse": 0.8803286550345923,
+          "si_sdr_db": -7.302407744290219
+        }
+      }
+    },
+    {
+      "count": 2,
+      "local_sir_bin_db": "-10_to_0",
+      "components": 105,
+      "arms": {
+        "ordered": {
+          "nmse": 0.8038990480689469,
+          "si_sdr_db": -2.4940557284856535
+        },
+        "mean": {
+          "nmse": 0.8243920907192477,
+          "si_sdr_db": -3.627598513548801
+        }
+      }
+    },
+    {
+      "count": 2,
+      "local_sir_bin_db": "0_to_10",
+      "components": 105,
+      "arms": {
+        "ordered": {
+          "nmse": 0.3296277842357998,
+          "si_sdr_db": 5.547981724800641
+        },
+        "mean": {
+          "nmse": 0.33781010103667863,
+          "si_sdr_db": 5.3273845651984475
+        }
+      }
+    },
+    {
+      "count": 2,
+      "local_sir_bin_db": "10_to_20",
+      "components": 65,
+      "arms": {
+        "ordered": {
+          "nmse": 0.05756573806216502,
+          "si_sdr_db": 13.789303771684606
+        },
+        "mean": {
+          "nmse": 0.05072196646447437,
+          "si_sdr_db": 14.103497174544428
+        }
+      }
+    },
+    {
+      "count": 2,
+      "local_sir_bin_db": "20_and_above",
+      "components": 40,
+      "arms": {
+        "ordered": {
+          "nmse": 0.021064375028200952,
+          "si_sdr_db": 21.21288054323774
+        },
+        "mean": {
+          "nmse": 0.015489586309533182,
+          "si_sdr_db": 22.991592649636875
+        }
+      }
+    },
+    {
+      "count": 3,
+      "local_sir_bin_db": "below_-20",
+      "components": 39,
+      "arms": {
+        "ordered": {
+          "nmse": 1.049959660498749,
+          "si_sdr_db": -18.63945896200683
+        },
+        "mean": {
+          "nmse": 1.0254778482130054,
+          "si_sdr_db": -20.866232200506122
+        }
+      }
+    },
+    {
+      "count": 3,
+      "local_sir_bin_db": "-20_to_-10",
+      "components": 174,
+      "arms": {
+        "ordered": {
+          "nmse": 0.9402467704789498,
+          "si_sdr_db": -10.584683934319266
+        },
+        "mean": {
+          "nmse": 0.9383777475441609,
+          "si_sdr_db": -11.390508947898196
+        }
+      }
+    },
+    {
+      "count": 3,
+      "local_sir_bin_db": "-10_to_0",
+      "components": 230,
+      "arms": {
+        "ordered": {
+          "nmse": 0.8402057259327528,
+          "si_sdr_db": -3.853712036041687
+        },
+        "mean": {
+          "nmse": 0.8554771267853822,
+          "si_sdr_db": -4.440361921147139
+        }
+      }
+    },
+    {
+      "count": 3,
+      "local_sir_bin_db": "0_to_10",
+      "components": 164,
+      "arms": {
+        "ordered": {
+          "nmse": 0.2963135753207097,
+          "si_sdr_db": 5.641901620713777
+        },
+        "mean": {
+          "nmse": 0.29882918757263793,
+          "si_sdr_db": 5.6031502415725045
+        }
+      }
+    },
+    {
+      "count": 3,
+      "local_sir_bin_db": "10_to_20",
+      "components": 22,
+      "arms": {
+        "ordered": {
+          "nmse": 0.0551615198020323,
+          "si_sdr_db": 13.810624012196952
+        },
+        "mean": {
+          "nmse": 0.04960114429627433,
+          "si_sdr_db": 14.038624768276918
+        }
+      }
+    },
+    {
+      "count": 3,
+      "local_sir_bin_db": "20_and_above",
+      "components": 1,
+      "arms": {
+        "ordered": {
+          "nmse": 0.0045799776214060384,
+          "si_sdr_db": 24.82289095857518
+        },
+        "mean": {
+          "nmse": 0.003671043884962698,
+          "si_sdr_db": 25.89330055157772
+        }
+      }
+    }
+  ],
+  "separated_components_by_category": [
+    {
+      "category": "DJI AVATA2",
+      "components": 318,
+      "validation_packs": 1,
+      "arms": {
+        "ordered": {
+          "nmse": 0.5965886093266025,
+          "si_sdr_db": 1.7800605155877838
+        },
+        "mean": {
+          "nmse": 0.5993058262526377,
+          "si_sdr_db": 1.8291912740240808
+        }
+      }
+    },
+    {
+      "category": "DJI FPV COMBO",
+      "components": 315,
+      "validation_packs": 1,
+      "arms": {
+        "ordered": {
+          "nmse": 0.605793398591225,
+          "si_sdr_db": -0.9544645379215453
+        },
+        "mean": {
+          "nmse": 0.617738180910753,
+          "si_sdr_db": -2.1226287705999347
+        }
+      }
+    },
+    {
+      "category": "DJI MAVIC3 PRO",
+      "components": 315,
+      "validation_packs": 1,
+      "arms": {
+        "ordered": {
+          "nmse": 0.7437620950922081,
+          "si_sdr_db": -5.668002427409144
+        },
+        "mean": {
+          "nmse": 0.7422856768404054,
+          "si_sdr_db": -6.252385254169604
+        }
+      }
+    },
+    {
+      "category": "DJI MINI3",
+      "components": 51,
+      "validation_packs": 1,
+      "arms": {
+        "ordered": {
+          "nmse": 1.1305809491276109,
+          "si_sdr_db": 1.2855684051646523
+        },
+        "mean": {
+          "nmse": 1.549388460387803,
+          "si_sdr_db": 1.4648244261455994
+        }
+      }
+    },
+    {
+      "category": "DJI MINI4 PRO",
+      "components": 51,
+      "validation_packs": 1,
+      "arms": {
+        "ordered": {
+          "nmse": 0.6930087843903109,
+          "si_sdr_db": 4.470850391667003
+        },
+        "mean": {
+          "nmse": 0.7203229825555977,
+          "si_sdr_db": 5.413357130366273
+        }
+      }
+    }
+  ],
+  "evidence_units": {
+    "training_packs": 8,
+    "validation_packs": 5,
+    "validation_mixtures": 630,
+    "note": "Mixtures/crops share source packs and are not independent repetitions."
+  },
+  "iq_read": false,
+  "model_forward_run": false,
+  "checkpoint_selection_changed": false,
+  "heldout_evaluated": false,
+  "independent_test": false,
+  "inferential_test_performed": false,
+  "interpretation": "Same-epoch diagnostics, not selected-best or final results. Local power ratios include recorded noise and do not identify RF activity or SNR. Two/three-count macro NMSE is supplemental; the frozen 1/2/3 macro selection is unchanged."
+}
