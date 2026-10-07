@@ -1,0 +1,256 @@
+{
+  "status": "VERIFIED_INTERMEDIATE_PROGRESS",
+  "time_kst": "2026-10-07T14:33:46.095915+09:00",
+  "dataset": "RFUAV",
+  "policy": "one_dataset_same_native_band",
+  "seed": 0,
+  "budget_per_arm": {
+    "completed_epochs": 10,
+    "updates": 750
+  },
+  "validation_mixtures": 630,
+  "validation_original_packs": 5,
+  "independent_test": false,
+  "physical_drone_count_evaluated": false,
+  "selected": {
+    "ordered": {
+      "epoch": 9,
+      "by_count": [
+        {
+          "count": 1,
+          "cases": 210,
+          "mean_component_nmse": 0.03803060859518636,
+          "mean_component_si_sdr": 19.54185130953504,
+          "nonfinite_component_si_count": 0,
+          "mean_si_sdr_improvement": null,
+          "all_components_positive_improvement": null,
+          "weakest_component_nmse": 0.03803060859518636,
+          "count_accuracy": 0.6952380952380952
+        },
+        {
+          "count": 2,
+          "cases": 210,
+          "mean_component_nmse": 0.5534530030432071,
+          "mean_component_si_sdr": 2.1377399479419052,
+          "nonfinite_component_si_count": 0,
+          "mean_si_sdr_improvement": 2.0968325936748027,
+          "all_components_positive_improvement": 0.48095238095238096,
+          "weakest_component_nmse": 0.9339051620488807,
+          "count_accuracy": 0.3952380952380952
+        },
+        {
+          "count": 3,
+          "cases": 210,
+          "mean_component_nmse": 0.6911922340971619,
+          "mean_component_si_sdr": -4.004425378292731,
+          "nonfinite_component_si_count": 0,
+          "mean_si_sdr_improvement": 1.2767568603620139,
+          "all_components_positive_improvement": 0.3380952380952381,
+          "weakest_component_nmse": 0.9714773311877271,
+          "count_accuracy": 0.8380952380952381
+        }
+      ],
+      "macro_component_nmse": 0.4275586152451851,
+      "construction_count_accuracy": 0.6428571428571429,
+      "separation_only_count_macro_nmse": 0.6223226185701844,
+      "validation_minimum_and_nmse_replay_verified": true,
+      "saved_example_hashes_verified": true
+    },
+    "mean": {
+      "epoch": 10,
+      "by_count": [
+        {
+          "count": 1,
+          "cases": 210,
+          "mean_component_nmse": 0.024101688800915753,
+          "mean_component_si_sdr": 21.325591613448715,
+          "nonfinite_component_si_count": 0,
+          "mean_si_sdr_improvement": null,
+          "all_components_positive_improvement": null,
+          "weakest_component_nmse": 0.024101688800915753,
+          "count_accuracy": 0.5333333333333333
+        },
+        {
+          "count": 2,
+          "cases": 210,
+          "mean_component_nmse": 0.5410757721589244,
+          "mean_component_si_sdr": 2.818165198359181,
+          "nonfinite_component_si_count": 0,
+          "mean_si_sdr_improvement": 2.7772578440920785,
+          "all_components_positive_improvement": 0.5952380952380952,
+          "weakest_component_nmse": 0.9071672869207857,
+          "count_accuracy": 0.6476190476190476
+        },
+        {
+          "count": 3,
+          "cases": 210,
+          "mean_component_nmse": 0.6806549702964396,
+          "mean_component_si_sdr": -3.9767617543452123,
+          "nonfinite_component_si_count": 0,
+          "mean_si_sdr_improvement": 1.3044204843095324,
+          "all_components_positive_improvement": 0.3238095238095238,
+          "weakest_component_nmse": 0.9458585238791026,
+          "count_accuracy": 0.7047619047619048
+        }
+      ],
+      "macro_component_nmse": 0.4152774770854266,
+      "construction_count_accuracy": 0.6285714285714286,
+      "separation_only_count_macro_nmse": 0.610865371227682,
+      "validation_minimum_and_nmse_replay_verified": true,
+      "saved_example_hashes_verified": true
+    }
+  },
+  "same_epoch": {
+    "ordered": {
+      "by_count": {
+        "1": {
+          "cases": 210,
+          "nmse": 0.031303835197611755,
+          "si_sdr_db": 20.90275952338121,
+          "si_sdr_improvement_db": null,
+          "weakest_local_component_nmse": 0.031303835197611755,
+          "all_components_positive_improvement": null,
+          "inactive_slot_energy_over_mixture": 0.01635012026001173,
+          "background_energy_over_mixture": 0.0019962674622731567,
+          "construction_count_accuracy": 0.7
+        },
+        "2": {
+          "cases": 210,
+          "nmse": 0.5696205629337747,
+          "si_sdr_db": 2.1935449812051298,
+          "si_sdr_improvement_db": 2.1526376269380267,
+          "weakest_local_component_nmse": 0.9524229599535442,
+          "all_components_positive_improvement": 0.40476190476190477,
+          "inactive_slot_energy_over_mixture": 0.013997099977850267,
+          "background_energy_over_mixture": 0.0034372770877312067,
+          "construction_count_accuracy": 0.3380952380952381
+        },
+        "3": {
+          "cases": 210,
+          "nmse": 0.711873912962286,
+          "si_sdr_db": -3.670430318921375,
+          "si_sdr_improvement_db": 1.6107519197333697,
+          "weakest_local_component_nmse": 0.9674234487314584,
+          "all_components_positive_improvement": 0.36666666666666664,
+          "inactive_slot_energy_over_mixture": 0.0,
+          "background_energy_over_mixture": 0.00485546188425897,
+          "construction_count_accuracy": 0.9714285714285714
+        }
+      },
+      "original_selection_macro_nmse": 0.43759943703122417,
+      "separation_only_count_macro_nmse": 0.6407472379480303,
+      "selection_changed": false,
+      "epoch": 10,
+      "updates": 750,
+      "validation_sha256": "c34babf0e54c4f4325b46715a0227561d3c1b1bf9a4c812c48b3148e2fb8ecb5",
+      "epoch_receipt_sha256": "239e63814735c6c30a1eb1c2926d5b50136f91d142c3f3680aa2b89fc8d4380e"
+    },
+    "mean": {
+      "by_count": {
+        "1": {
+          "cases": 210,
+          "nmse": 0.024101688800915753,
+          "si_sdr_db": 21.325591613448715,
+          "si_sdr_improvement_db": null,
+          "weakest_local_component_nmse": 0.024101688800915753,
+          "all_components_positive_improvement": null,
+          "inactive_slot_energy_over_mixture": 0.011417747143664909,
+          "background_energy_over_mixture": 0.001794239461079588,
+          "construction_count_accuracy": 0.5333333333333333
+        },
+        "2": {
+          "cases": 210,
+          "nmse": 0.5410757721589244,
+          "si_sdr_db": 2.818165198359181,
+          "si_sdr_improvement_db": 2.7772578440920785,
+          "weakest_local_component_nmse": 0.9071672869207857,
+          "all_components_positive_improvement": 0.5952380952380952,
+          "inactive_slot_energy_over_mixture": 0.0023654324514557476,
+          "background_energy_over_mixture": 0.0022193881111755914,
+          "construction_count_accuracy": 0.6476190476190476
+        },
+        "3": {
+          "cases": 210,
+          "nmse": 0.6806549702964396,
+          "si_sdr_db": -3.9767617543452123,
+          "si_sdr_improvement_db": 1.3044204843095324,
+          "weakest_local_component_nmse": 0.9458585238791026,
+          "all_components_positive_improvement": 0.3238095238095238,
+          "inactive_slot_energy_over_mixture": 0.0,
+          "background_energy_over_mixture": 0.0029798831983178647,
+          "construction_count_accuracy": 0.7047619047619048
+        }
+      },
+      "original_selection_macro_nmse": 0.4152774770854266,
+      "separation_only_count_macro_nmse": 0.610865371227682,
+      "selection_changed": false,
+      "epoch": 10,
+      "updates": 750,
+      "validation_sha256": "e16c98435aa2d5e32dfe0c1ddf065275bf4b1087511fbaf62833d87633fed984",
+      "epoch_receipt_sha256": "46d97e70fa6b442a5456848d499f489c9473a062c4565b04793a6e4b971de95e"
+    }
+  },
+  "source_sha256": {
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/within_dataset_context_20261007_v1/evidence_audit_v1/reports/EPOCH_010.json": "1358f927a8c89d09a1443a636f2e288cfc8c985b6bf766383d1378a4be8f5c10",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/within_dataset_context_20261007_v1/run/ordered/SELECTED_010.json": "3dab15fbb3d5899f2df93cb5dfb59087c2b142e45f92b22cc6e5d2db9319931f",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/within_dataset_context_20261007_v1/run/mean/SELECTED_010.json": "d75f783814c3fa74ebc1feb84e86f5e1e6e3422334abb1195ab6cd8246a62dd1",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/dense_training_corpus_20261007_v1/audit/COMPLETE.json": "71f3fa6dd416bf7715aa4e5a2a7916e7bc5270a207c13060b92adbb1a0a1077a"
+  },
+  "progress_snapshot": {
+    "stage": "TRAIN",
+    "arm": "ordered",
+    "epoch": 11,
+    "examples": 1920,
+    "epoch_examples": 2400,
+    "updates": 810,
+    "average_losses": [
+      0.6192883325834676,
+      0.6014531634377515,
+      0.17835169088709033
+    ],
+    "elapsed_seconds": 517.1777582168579,
+    "time": 1791351197.6300077,
+    "pid": 1353768,
+    "gpu_training_active": true
+  },
+  "dense_preparation": {
+    "status": "DENSE_TRAIN_CORPUS_READY_FOR_REVIEW",
+    "time": 1791350275.7600539,
+    "elapsed_seconds": 1991.588966846466,
+    "training_clips": 3902,
+    "validation_clips": 144,
+    "original_training_files": 83,
+    "original_training_packs": 8,
+    "unique_training_seconds": 81.2684319,
+    "unique_training_sample_coverage": 1.0,
+    "new_independent_recordings": 0,
+    "max_coarse_rho_squared": 0.5108010203267517,
+    "similarity_pairs": 561888,
+    "similarity_flags": 0,
+    "exact_cross_role_clip_copies": 0,
+    "zero_power_contexts": [],
+    "zero_power_note": "Retained as recorded; not valid for per-source power normalization.",
+    "heldout_iq_read": false,
+    "validation_raw_iq_read": false,
+    "validation_cache_iq_read": true,
+    "gpu_used": false,
+    "live_training_modified": false,
+    "training_admitted": false,
+    "files": {
+      "CONFIG.json": "8f6ed4ec38f3a82dab7732d46a4684f61d7ba31c0a5d440fb979e951df780fcc",
+      "CACHE_MANIFEST.json": "8900eb833daa866099c002f658ccad8397bd85e5974ecc26a8e6467016acb6f2",
+      "SIMILARITY.json": "1cade18c66eea9e5041596fdc4ec7524816f3f91cb23ca5d1c0d4f3eb789a582",
+      "SOURCE_RECORDS.jsonl": "3dc6374253c90a0f27fc9de293744f9565ddb37b9e4a2c8980f56ff7884ffc69"
+    },
+    "max_rss_kib": 169860
+  },
+  "dense_preparation_receipt_hashes_verified": true,
+  "selected_control_lower_nmse_percent": 1.841046267742282,
+  "limits": [
+    "One seed; development validation, not independent test.",
+    "Current 5 named aircraft categories; transmitter direction not fully verified.",
+    "No new aircraft categories or independent recordings added by dense preparation.",
+    "Limited similarity check does not prove session independence.",
+    "Current frozen training not modified; dense corpus not yet admitted to GPU training."
+  ]
+}
