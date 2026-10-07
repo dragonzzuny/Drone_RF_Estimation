@@ -1,0 +1,147 @@
+{
+  "status": "VERIFIED_STAGE_25_PROGRESS",
+  "time_kst": "2026-10-07T20:44:59.609030+09:00",
+  "dataset": "RFUAV",
+  "mixture_policy": "within_one_dataset_and_one_native_RF_band",
+  "seed": 0,
+  "completed_epochs": {
+    "ordered": 27,
+    "mean": 26
+  },
+  "updates_per_arm_at_stage": 1875,
+  "arms": {
+    "ordered": {
+      "selected_epoch": 18,
+      "selected_by_count": [
+        {
+          "count": 1,
+          "cases": 210,
+          "mean_component_nmse": 0.03241296560883781,
+          "mean_component_si_sdr": 21.917035899307297,
+          "nonfinite_component_si_count": 0,
+          "mean_si_sdr_improvement": null,
+          "all_components_positive_improvement": null,
+          "weakest_component_nmse": 0.03241296560883781,
+          "count_accuracy": 0.6571428571428571
+        },
+        {
+          "count": 2,
+          "cases": 210,
+          "mean_component_nmse": 0.5262498206054204,
+          "mean_component_si_sdr": 2.481509201439422,
+          "nonfinite_component_si_count": 0,
+          "mean_si_sdr_improvement": 2.4406018471723194,
+          "all_components_positive_improvement": 0.5047619047619047,
+          "weakest_component_nmse": 0.876807073684541,
+          "count_accuracy": 0.41904761904761906
+        },
+        {
+          "count": 3,
+          "cases": 210,
+          "mean_component_nmse": 0.6972974328452565,
+          "mean_component_si_sdr": -4.678487950392606,
+          "nonfinite_component_si_count": 0,
+          "mean_si_sdr_improvement": 0.6026942882621386,
+          "all_components_positive_improvement": 0.2761904761904762,
+          "weakest_component_nmse": 0.9560757111638046,
+          "count_accuracy": 0.9523809523809523
+        }
+      ],
+      "selected_macro_nmse": 0.4186534063531715,
+      "selected_separation_only_nmse": 0.6117736267253384,
+      "selected_count_accuracy": 0.6761904761904762,
+      "checkpoint_sha256_verified": true,
+      "checkpoint_sha256": "140d263764c994a421831e103fca91eb4c6d0bc4eea2de761cc2d4332ccc33af",
+      "saved_prediction_hashes_and_nmse_replay_verified": true,
+      "same_epoch_25_separation_only_nmse": 0.6509477000147318
+    },
+    "mean": {
+      "selected_epoch": 22,
+      "selected_by_count": [
+        {
+          "count": 1,
+          "cases": 210,
+          "mean_component_nmse": 0.031261339306249025,
+          "mean_component_si_sdr": 20.225351818580634,
+          "nonfinite_component_si_count": 0,
+          "mean_si_sdr_improvement": null,
+          "all_components_positive_improvement": null,
+          "weakest_component_nmse": 0.031261339306249025,
+          "count_accuracy": 0.5952380952380952
+        },
+        {
+          "count": 2,
+          "cases": 210,
+          "mean_component_nmse": 0.5021229058032125,
+          "mean_component_si_sdr": 3.08441580593192,
+          "nonfinite_component_si_count": 0,
+          "mean_si_sdr_improvement": 3.043508451664817,
+          "all_components_positive_improvement": 0.5476190476190477,
+          "weakest_component_nmse": 0.8420751992955675,
+          "count_accuracy": 0.5047619047619047
+        },
+        {
+          "count": 3,
+          "cases": 210,
+          "mean_component_nmse": 0.6591298832199732,
+          "mean_component_si_sdr": -2.6919826333148626,
+          "nonfinite_component_si_count": 0,
+          "mean_si_sdr_improvement": 2.589199605339882,
+          "all_components_positive_improvement": 0.5428571428571428,
+          "weakest_component_nmse": 0.9569071035117959,
+          "count_accuracy": 0.5285714285714286
+        }
+      ],
+      "selected_macro_nmse": 0.3975047094431449,
+      "selected_separation_only_nmse": 0.5806263945115928,
+      "selected_count_accuracy": 0.5428571428571428,
+      "checkpoint_sha256_verified": true,
+      "checkpoint_sha256": "3cd9b3b7e069569b5c1d4de8b49f7ecea1ead47539a79e0abd3b51e23e31b115",
+      "saved_prediction_hashes_and_nmse_replay_verified": true,
+      "same_epoch_25_separation_only_nmse": 0.6266374604349212
+    }
+  },
+  "source_sha256": {
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/within_dataset_context_20261007_v1/evidence_audit_v1/reports/EPOCH_025.json": "72f61193d030b7e64dbcb7bc52fc4362189393cc216b0aef115ea602b166f047",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/within_dataset_context_20261007_v1/run/ordered/SELECTED_025.json": "1c52837bfd3af815a3b101f41020c6089dc2e07d351efef294222546595bad68",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/within_dataset_context_20261007_v1/run/ordered/STAGE_025.json": "e550dec4dda5521a6c1550f0e18b2a8b69442af51da2092f03f789fe62a57b64",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/within_dataset_context_20261007_v1/run/mean/SELECTED_025.json": "613354b6e8f1f9d8cbb3b8ba87d75f40e281522a5475fb529eba536df8d513bf",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/within_dataset_context_20261007_v1/run/mean/STAGE_025.json": "f07dd949784143032ebfbc562d6d0826df044642e3f1ee923cf4401ce7cefdc2"
+  },
+  "independent_test": false,
+  "heldout_evaluated": false,
+  "physical_drone_count_evaluated": false,
+  "control_lower_nmse_percent": 5.09130025438796,
+  "dense_preparation": {
+    "status": "DENSE_TRAIN_CORPUS_READY_FOR_REVIEW",
+    "time": 1791350275.7600539,
+    "elapsed_seconds": 1991.588966846466,
+    "training_clips": 3902,
+    "validation_clips": 144,
+    "original_training_files": 83,
+    "original_training_packs": 8,
+    "unique_training_seconds": 81.2684319,
+    "unique_training_sample_coverage": 1.0,
+    "new_independent_recordings": 0,
+    "max_coarse_rho_squared": 0.5108010203267517,
+    "similarity_pairs": 561888,
+    "similarity_flags": 0,
+    "exact_cross_role_clip_copies": 0,
+    "zero_power_contexts": [],
+    "zero_power_note": "Retained as recorded; not valid for per-source power normalization.",
+    "heldout_iq_read": false,
+    "validation_raw_iq_read": false,
+    "validation_cache_iq_read": true,
+    "gpu_used": false,
+    "live_training_modified": false,
+    "training_admitted": false,
+    "files": {
+      "CONFIG.json": "8f6ed4ec38f3a82dab7732d46a4684f61d7ba31c0a5d440fb979e951df780fcc",
+      "CACHE_MANIFEST.json": "8900eb833daa866099c002f658ccad8397bd85e5974ecc26a8e6467016acb6f2",
+      "SIMILARITY.json": "1cade18c66eea9e5041596fdc4ec7524816f3f91cb23ca5d1c0d4f3eb789a582",
+      "SOURCE_RECORDS.jsonl": "3dc6374253c90a0f27fc9de293744f9565ddb37b9e4a2c8980f56ff7884ffc69"
+    },
+    "max_rss_kib": 169860
+  },
+  "note": "Frozen training continues. Stage 25 validation selections remain the best through common epoch 26. No new categories or dense-data training started."
+}
