@@ -7,6 +7,7 @@
 학습 혼합96개의 기울기 진단에서 공통 문맥 인코더의 개수 분류와 복원 목적이 반대 방향인 단서를 확인했습니다. 이에 **개수 head는 학습하되, 개수 손실의 공통 인코더 기울기만 차단**하는 동일 부모·자료·5 epoch 대조를 GPU에서 시작했습니다. 실행 상태는 등록 시점의 기록이며, 실제 진행은 해당 worker의 상태·epoch 결과로 확인합니다.
 
 - [원 주파수 배치 실험 전체 결과](reports/2026-10-09/NATIVE_RF_FINAL.md)
+- [현재 구조 적합성·WaveNet·최신 RF U-Net 검토](reports/2026-10-09/ARCHITECTURE_REVIEW_KO.md)
 - [학습 곡선 PDF](reports/2026-10-09/NATIVE_RF_EPOCHS.pdf)
 - [위상 평균과 학습/새 혼합 적합도 진단](reports/2026-10-09/NATIVE_RF_INFERENCE_DIAGNOSIS.md)
 - [개수 손실 기울기 진단과 후속 대조](reports/2026-10-09/NATIVE_RF_GRADIENT_DIAGNOSIS.md)

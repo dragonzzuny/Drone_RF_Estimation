@@ -1,0 +1,753 @@
+{
+  "status": "COMPLETE",
+  "source_sha256": "c0eb1882df2d72f9c02b04c14f2e6edb4833cee48be5ac92feb2eb7d2476568d",
+  "manifest_sha256": "d21bcdcaad1649da0dcb991fa38407f0671e786b2ecce29b9307cee543c7f6de",
+  "selection": "first 4 TRAIN clips per category sorted by clip_id; fixed before signal analysis",
+  "source_count": 20,
+  "recording_group_count": 8,
+  "sample_rate_hz": 100000000,
+  "heldout_read": false,
+  "validation_iq_read": false,
+  "interpretation": "descriptive correlations, not confirmed protocol/hopping labels or evidence of a sufficient receptive field",
+  "qualifications": [
+    "native common-band filtering contributes short-lag correlation",
+    "20.8896ms contains few repeats of millisecond patterns",
+    "near-zero mean complex autocorrelation does not exclude cyclic/higher-order structure",
+    "clips from a recording group are not independent acquisitions"
+  ],
+  "rows": [
+    {
+      "clip_id": "005ee0c83d8ddd7b43f6886e",
+      "category": "DJI AVATA2",
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+      "samples": 2088960,
+      "cache_sha256": "0ad3ec0f966d21d42f4dba66a59f47fe4e911c8713da0aa0f2683e0930a56351",
+      "source_sha256": "650dc92cc478396f2e04f4002888758f1f07aba16fe5e642634bfdb14616457d",
+      "first_abs_complex_corr_below_0p1_samples": 2,
+      "complex_abs_correlation": {
+        "1": 0.6413115360040941,
+        "8": 0.04954585519364877,
+        "32": 0.01014868522883566,
+        "128": 0.004507279567631809,
+        "512": 0.0019857046552613873,
+        "2048": 0.005327940366159117,
+        "6139": 0.003404405058519131,
+        "16384": 0.0025880709399569565,
+        "30592": 0.0008807504734068296,
+        "63872": 0.0014554336146538822,
+        "250000": 0.042632841653898884,
+        "400000": 0.0019685980446915215,
+        "500000": 0.184700620881212
+      },
+      "envelope_stride_samples": 2048,
+      "envelope_peak_candidates": [
+        {
+          "lag_samples": 749568,
+          "lag_ms": 7.49568,
+          "correlation": 0.8579719924926725
+        },
+        {
+          "lag_samples": 999424,
+          "lag_ms": 9.99424,
+          "correlation": 0.8378621698305377
+        },
+        {
+          "lag_samples": 249856,
+          "lag_ms": 2.49856,
+          "correlation": 0.7957943260390778
+        }
+      ]
+    },
+    {
+      "clip_id": "007431cbc62b3b2952b7badb",
+      "category": "DJI AVATA2",
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+      "samples": 2088960,
+      "cache_sha256": "b05c311f7a161231c0247f500e069dbe9630d4757ff8c4f36c374208629f60ca",
+      "source_sha256": "00b55d75b30572661753e8afaee39c08cb92bd143ae7079425ab56e293e85057",
+      "first_abs_complex_corr_below_0p1_samples": 19,
+      "complex_abs_correlation": {
+        "1": 0.6006990158760466,
+        "8": 0.32101077018145086,
+        "32": 0.08649928263787593,
+        "128": 0.022734959364764423,
+        "512": 0.011329280052825257,
+        "2048": 0.008443944586463813,
+        "6139": 0.004541155296963225,
+        "16384": 0.0016881089708165428,
+        "30592": 0.0036737528593318246,
+        "63872": 0.0003288322075205679,
+        "250000": 0.000749711932743278,
+        "400000": 0.00012073539135017907,
+        "500000": 0.004967561550963419
+      },
+      "envelope_stride_samples": 2048,
+      "envelope_peak_candidates": [
+        {
+          "lag_samples": 749568,
+          "lag_ms": 7.49568,
+          "correlation": 0.4861289729200213
+        },
+        {
+          "lag_samples": 499712,
+          "lag_ms": 4.99712,
+          "correlation": 0.3325879701013151
+        },
+        {
+          "lag_samples": 249856,
+          "lag_ms": 2.49856,
+          "correlation": 0.23363758948410585
+        }
+      ]
+    },
+    {
+      "clip_id": "0088e60dd13e306e38cf2d0c",
+      "category": "DJI AVATA2",
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1.xml",
+      "samples": 2088960,
+      "cache_sha256": "11b6d45229b5e11b958b85ebd0a35d2dc977e20780eede85fde73eb4d8e9be45",
+      "source_sha256": "c706f8e804853875d32b97922fcd36006e57840dfeffaa3f3e6c5cf082dc7021",
+      "first_abs_complex_corr_below_0p1_samples": 11,
+      "complex_abs_correlation": {
+        "1": 0.6347023713102737,
+        "8": 0.1642267772548338,
+        "32": 0.019761915152434802,
+        "128": 0.012297047631392534,
+        "512": 0.0030330819460155827,
+        "2048": 0.004297555926822728,
+        "6139": 0.0020861571912706546,
+        "16384": 0.0018697962415787175,
+        "30592": 0.000825529512254495,
+        "63872": 0.001307006494484831,
+        "250000": 0.010045013578439732,
+        "400000": 0.0015600651667214283,
+        "500000": 0.01317988601102253
+      },
+      "envelope_stride_samples": 2048,
+      "envelope_peak_candidates": [
+        {
+          "lag_samples": 249856,
+          "lag_ms": 2.49856,
+          "correlation": 0.6449485597275245
+        },
+        {
+          "lag_samples": 999424,
+          "lag_ms": 9.99424,
+          "correlation": 0.48960637494902354
+        },
+        {
+          "lag_samples": 499712,
+          "lag_ms": 4.99712,
+          "correlation": 0.3499058696318374
+        }
+      ]
+    },
+    {
+      "clip_id": "008d9f917890b8a8a340bfcc",
+      "category": "DJI AVATA2",
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1.xml",
+      "samples": 2088960,
+      "cache_sha256": "87eb922146b076b9a9f14bfbd205bb047479dfabc11a03231edff60f98527d4b",
+      "source_sha256": "1cc1bd3ab5712e329d581da1af7b7b27d4c0dd967781923b371eb91b1d205d9e",
+      "first_abs_complex_corr_below_0p1_samples": 8,
+      "complex_abs_correlation": {
+        "1": 0.7232848126297576,
+        "8": 0.0925524979720072,
+        "32": 0.01123530028956748,
+        "128": 0.004016213967932896,
+        "512": 0.0041143179258090225,
+        "2048": 0.0027682077113769933,
+        "6139": 0.0006087264594649902,
+        "16384": 0.007633717932561434,
+        "30592": 0.0011621157457727441,
+        "63872": 0.0007543761120999953,
+        "250000": 0.04781625384886308,
+        "400000": 0.00021739585802668752,
+        "500000": 0.04454474777493673
+      },
+      "envelope_stride_samples": 2048,
+      "envelope_peak_candidates": [
+        {
+          "lag_samples": 749568,
+          "lag_ms": 7.49568,
+          "correlation": 0.684581099351919
+        },
+        {
+          "lag_samples": 499712,
+          "lag_ms": 4.99712,
+          "correlation": 0.5630325372380235
+        },
+        {
+          "lag_samples": 249856,
+          "lag_ms": 2.49856,
+          "correlation": 0.2598452569387103
+        }
+      ]
+    },
+    {
+      "clip_id": "003a4e6dda220ad5513ab142",
+      "category": "DJI FPV COMBO",
+      "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+      "samples": 2088960,
+      "cache_sha256": "e5512180c63763bca52df889a36921dfa7e5dc315854e65cc25136ee63465cca",
+      "source_sha256": "df5c838088de9af54c8ea4f98049303071e2d3640da77201cba51f5f8faf07ba",
+      "first_abs_complex_corr_below_0p1_samples": 28,
+      "complex_abs_correlation": {
+        "1": 0.9852647401453017,
+        "8": 0.3763034567912456,
+        "32": 0.021687589588634676,
+        "128": 0.020713640436607506,
+        "512": 0.002431254938624488,
+        "2048": 0.0016933231930101546,
+        "6139": 0.0022137060784461877,
+        "16384": 0.0025680412140403727,
+        "30592": 0.0027823563535394145,
+        "63872": 0.00479579042197832,
+        "250000": 0.04515786025866013,
+        "400000": 0.04301978689276881,
+        "500000": 0.04150299163716169
+      },
+      "envelope_stride_samples": 2048,
+      "envelope_peak_candidates": [
+        {
+          "lag_samples": 999424,
+          "lag_ms": 9.99424,
+          "correlation": 0.4531673379710716
+        },
+        {
+          "lag_samples": 600064,
+          "lag_ms": 6.00064,
+          "correlation": 0.2438709235209997
+        }
+      ]
+    },
+    {
+      "clip_id": "004ae55e7574cc31cf53ba89",
+      "category": "DJI FPV COMBO",
+      "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+      "samples": 2088960,
+      "cache_sha256": "5223986dd0ccbb4adb26daf1ac6ed60a9125a475c573091f2b212d95751a1265",
+      "source_sha256": "2cbce3f6a539f926feea03c3e591a4b502bd967b9e3773b3b1030c2505409af5",
+      "first_abs_complex_corr_below_0p1_samples": 8,
+      "complex_abs_correlation": {
+        "1": 0.8522886210212619,
+        "8": 0.09273926883636657,
+        "32": 0.09801075058548442,
+        "128": 0.020258986363124974,
+        "512": 0.0019469242238958674,
+        "2048": 0.0026816165810376294,
+        "6139": 0.002993849066765401,
+        "16384": 0.004956742811839559,
+        "30592": 0.0036568277935007986,
+        "63872": 0.0004582428898597713,
+        "250000": 0.044055440094814054,
+        "400000": 0.02773466881365441,
+        "500000": 0.027676823619184474
+      },
+      "envelope_stride_samples": 2048,
+      "envelope_peak_candidates": [
+        {
+          "lag_samples": 505856,
+          "lag_ms": 5.05856,
+          "correlation": 0.38398814762893674
+        },
+        {
+          "lag_samples": 999424,
+          "lag_ms": 9.99424,
+          "correlation": 0.26856947970193046
+        }
+      ]
+    },
+    {
+      "clip_id": "0052d64303c3e513b3af4d9b",
+      "category": "DJI FPV COMBO",
+      "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+      "samples": 2088960,
+      "cache_sha256": "29cc861deb4f4eb3861a3994e1503c25a8c3c236f13de3d60ba578f737dc87de",
+      "source_sha256": "fa7439cff483e14a4c73af554f4f57acf01bedf6cee8e7feaaaa6e20d9c9c3dc",
+      "first_abs_complex_corr_below_0p1_samples": 22,
+      "complex_abs_correlation": {
+        "1": 0.9854146487168404,
+        "8": 0.3686077861251907,
+        "32": 0.05507962918973506,
+        "128": 0.026164143697387062,
+        "512": 0.005801401033545598,
+        "2048": 0.0018343016825446642,
+        "6139": 0.0018330403207294436,
+        "16384": 0.003638327851598627,
+        "30592": 0.002470116841666593,
+        "63872": 0.003161330848438967,
+        "250000": 0.02361902043785526,
+        "400000": 0.01564385749168143,
+        "500000": 0.004680318739421092
+      },
+      "envelope_stride_samples": 2048,
+      "envelope_peak_candidates": [
+        {
+          "lag_samples": 499712,
+          "lag_ms": 4.99712,
+          "correlation": 0.664591962215337
+        }
+      ]
+    },
+    {
+      "clip_id": "00a87ccd1578bbec9c120657",
+      "category": "DJI FPV COMBO",
+      "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+      "samples": 2088960,
+      "cache_sha256": "eaf1da908b51d8a2250f227fa4728d3a7012bd215bbb4ed00c22a4387351f5ba",
+      "source_sha256": "2cbce3f6a539f926feea03c3e591a4b502bd967b9e3773b3b1030c2505409af5",
+      "first_abs_complex_corr_below_0p1_samples": 17,
+      "complex_abs_correlation": {
+        "1": 0.8951473258594105,
+        "8": 0.24280675450193712,
+        "32": 0.07253168017418543,
+        "128": 0.02299284295433766,
+        "512": 0.0020153333507510547,
+        "2048": 0.0019748189544369172,
+        "6139": 0.0016415122660352406,
+        "16384": 0.004584889983217441,
+        "30592": 0.0016098639045832414,
+        "63872": 0.0019494528356408716,
+        "250000": 0.042821616365657615,
+        "400000": 0.017886974721107753,
+        "500000": 0.04199791693924443
+      },
+      "envelope_stride_samples": 2048,
+      "envelope_peak_candidates": []
+    },
+    {
+      "clip_id": "009de78e051b3d045546e4de",
+      "category": "DJI MAVIC3 PRO",
+      "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+      "samples": 2088960,
+      "cache_sha256": "0b826fef3622da9445a25e8a6da942690c598643d76219352e702df2a8a5b50b",
+      "source_sha256": "adb786f81aaa677938d83c51737b80b2f43e194a40ffefa9633eb4ae4ec14cfe",
+      "first_abs_complex_corr_below_0p1_samples": 7,
+      "complex_abs_correlation": {
+        "1": 0.785397162176802,
+        "8": 0.4777537999071889,
+        "32": 0.14369757677419817,
+        "128": 0.03794756791015059,
+        "512": 0.009630750364242737,
+        "2048": 0.007004270707607778,
+        "6139": 0.013097190164461451,
+        "16384": 0.010973073091760186,
+        "30592": 0.0023470703667321543,
+        "63872": 0.0018322075531697014,
+        "250000": 0.009536503165881912,
+        "400000": 0.010500539579706947,
+        "500000": 0.018628618658021127
+      },
+      "envelope_stride_samples": 2048,
+      "envelope_peak_candidates": [
+        {
+          "lag_samples": 399360,
+          "lag_ms": 3.9936,
+          "correlation": 0.764110556044646
+        }
+      ]
+    },
+    {
+      "clip_id": "00f5f6a6e4413a5dc9a146e6",
+      "category": "DJI MAVIC3 PRO",
+      "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+      "samples": 2088960,
+      "cache_sha256": "5bc55f2f45afbf75445a504ab206cbd5276f5ee2b31ca5c652ad8f1333493a5a",
+      "source_sha256": "ae7174fc85d5c654bed3f975e2e17147ae56828d32965615d87194d9df0ab507",
+      "first_abs_complex_corr_below_0p1_samples": 43,
+      "complex_abs_correlation": {
+        "1": 0.9391549108491797,
+        "8": 0.8608867329247861,
+        "32": 0.36557575590080066,
+        "128": 0.04916516597830706,
+        "512": 0.02896503303440039,
+        "2048": 0.02019272884600211,
+        "6139": 0.02237186991960294,
+        "16384": 0.019658048908963346,
+        "30592": 0.02525964561677729,
+        "63872": 0.00030870288313742484,
+        "250000": 0.0009455807277231505,
+        "400000": 0.0038018725454758294,
+        "500000": 0.004460783078086257
+      },
+      "envelope_stride_samples": 2048,
+      "envelope_peak_candidates": []
+    },
+    {
+      "clip_id": "011de9540bede12e679ecb28",
+      "category": "DJI MAVIC3 PRO",
+      "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+      "samples": 2088960,
+      "cache_sha256": "2b5a907a9d6fe9a023885fe44434cfd5b895ff2198a56b712eab3d4bebfd75b8",
+      "source_sha256": "ae7174fc85d5c654bed3f975e2e17147ae56828d32965615d87194d9df0ab507",
+      "first_abs_complex_corr_below_0p1_samples": 44,
+      "complex_abs_correlation": {
+        "1": 0.9884492372508771,
+        "8": 0.8587369433812075,
+        "32": 0.3664102782360846,
+        "128": 0.05657978948274935,
+        "512": 0.015041582153116125,
+        "2048": 0.014392943885977852,
+        "6139": 0.02186091236331742,
+        "16384": 0.02706709597420027,
+        "30592": 0.001762319543091864,
+        "63872": 0.00023053176021998063,
+        "250000": 0.001148857547480886,
+        "400000": 0.022663905246150393,
+        "500000": 0.026586455918022077
+      },
+      "envelope_stride_samples": 2048,
+      "envelope_peak_candidates": []
+    },
+    {
+      "clip_id": "0154180c2bb7d708dab52712",
+      "category": "DJI MAVIC3 PRO",
+      "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+      "samples": 2088960,
+      "cache_sha256": "e2a85950c70a1d91c8db3b605a61c41dd4ba9b61482ba5e4359e4c5c16c1c685",
+      "source_sha256": "60a450a476dfae99a9d4ac083aba47f69ba65bc31f1295fcc4359e463882bc88",
+      "first_abs_complex_corr_below_0p1_samples": 43,
+      "complex_abs_correlation": {
+        "1": 0.9100038374329978,
+        "8": 0.8646940628464276,
+        "32": 0.3745440626247074,
+        "128": 0.04976590416430895,
+        "512": 0.021735860060263307,
+        "2048": 0.007758690743351708,
+        "6139": 0.014577585961041478,
+        "16384": 0.011823721175694095,
+        "30592": 0.00399485428379032,
+        "63872": 0.00013033708827198882,
+        "250000": 0.000729653011760135,
+        "400000": 0.00024125439319301189,
+        "500000": 0.0009410979876562384
+      },
+      "envelope_stride_samples": 2048,
+      "envelope_peak_candidates": [
+        {
+          "lag_samples": 600064,
+          "lag_ms": 6.00064,
+          "correlation": 0.5751850132924007
+        }
+      ]
+    },
+    {
+      "clip_id": "0011f367a4983db14a1dbe1f",
+      "category": "DJI MINI3",
+      "pack_id": "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml",
+      "samples": 2088960,
+      "cache_sha256": "982e906a63a18390e6209bf8f76dd4fc8f978ce68ec5a849e1b84ba9b1374a35",
+      "source_sha256": "3e17e581c7e18c1b43dc8da0b331d977373d84d057d50e7b8e9d491db50ef07c",
+      "first_abs_complex_corr_below_0p1_samples": 11,
+      "complex_abs_correlation": {
+        "1": 0.9867722338153795,
+        "8": 0.36760936023557533,
+        "32": 0.04392883541471554,
+        "128": 0.02771946554380313,
+        "512": 0.0020910077504702864,
+        "2048": 0.005577672926507589,
+        "6139": 0.006992391544127497,
+        "16384": 0.0015353299122085867,
+        "30592": 0.0011604210915641118,
+        "63872": 0.0024204040022817075,
+        "250000": 0.000946180688396425,
+        "400000": 0.021040274691195633,
+        "500000": 0.025772219140021688
+      },
+      "envelope_stride_samples": 2048,
+      "envelope_peak_candidates": [
+        {
+          "lag_samples": 999424,
+          "lag_ms": 9.99424,
+          "correlation": 0.993838496467829
+        },
+        {
+          "lag_samples": 399360,
+          "lag_ms": 3.9936,
+          "correlation": 0.5211527468323055
+        }
+      ]
+    },
+    {
+      "clip_id": "002dd75d9ba55537d67e8090",
+      "category": "DJI MINI3",
+      "pack_id": "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml",
+      "samples": 2088960,
+      "cache_sha256": "501025436e34310c98eb87e8aa17b157a9a6496bd546f5636c0ee00c20293505",
+      "source_sha256": "4f99b210a782355c0d3d10c30383e5102a113c39e519691d10bae1683a42c043",
+      "first_abs_complex_corr_below_0p1_samples": 11,
+      "complex_abs_correlation": {
+        "1": 0.9870159239607356,
+        "8": 0.36764904131550363,
+        "32": 0.03263400807015923,
+        "128": 0.028347860112606513,
+        "512": 0.0012804296278550976,
+        "2048": 0.0013606192108546315,
+        "6139": 0.005036905668694048,
+        "16384": 0.007815399579198369,
+        "30592": 0.006181309773947969,
+        "63872": 0.0035858730851475087,
+        "250000": 0.001000170111148542,
+        "400000": 0.04959063946039401,
+        "500000": 0.02348950751796261
+      },
+      "envelope_stride_samples": 2048,
+      "envelope_peak_candidates": [
+        {
+          "lag_samples": 999424,
+          "lag_ms": 9.99424,
+          "correlation": 0.9937735033534092
+        },
+        {
+          "lag_samples": 600064,
+          "lag_ms": 6.00064,
+          "correlation": 0.5747153413253243
+        }
+      ]
+    },
+    {
+      "clip_id": "00460a7f01b659add0546044",
+      "category": "DJI MINI3",
+      "pack_id": "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml",
+      "samples": 2088960,
+      "cache_sha256": "51788fea3bde65d65ab10633a775446d1ddc17ae6854a930e316a042279f5f38",
+      "source_sha256": "febff9e04e3ba720b8aed873e47744826dfd16a09748a562740990fc2626f79f",
+      "first_abs_complex_corr_below_0p1_samples": 11,
+      "complex_abs_correlation": {
+        "1": 0.9305968567984687,
+        "8": 0.35117252318991243,
+        "32": 0.03481343158589544,
+        "128": 0.02713554546672607,
+        "512": 0.0015200598763707954,
+        "2048": 0.0015017876592417056,
+        "6139": 0.006932482091229975,
+        "16384": 0.00513122399710364,
+        "30592": 0.0038378088839264306,
+        "63872": 0.002012544241266908,
+        "250000": 0.0004722227365464407,
+        "400000": 0.047563773462936436,
+        "500000": 0.02743119600077999
+      },
+      "envelope_stride_samples": 2048,
+      "envelope_peak_candidates": [
+        {
+          "lag_samples": 999424,
+          "lag_ms": 9.99424,
+          "correlation": 0.9567492354773014
+        },
+        {
+          "lag_samples": 399360,
+          "lag_ms": 3.9936,
+          "correlation": 0.4420082981369944
+        }
+      ]
+    },
+    {
+      "clip_id": "009b93dd13d9b7cb039268b2",
+      "category": "DJI MINI3",
+      "pack_id": "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml",
+      "samples": 2088960,
+      "cache_sha256": "a99c06dc1e41bc3aef884e054356c87f47a6cc5a98e45fdf32be4e9798dca45f",
+      "source_sha256": "4f99b210a782355c0d3d10c30383e5102a113c39e519691d10bae1683a42c043",
+      "first_abs_complex_corr_below_0p1_samples": 11,
+      "complex_abs_correlation": {
+        "1": 0.9809616162017597,
+        "8": 0.34800952539177205,
+        "32": 0.029572605954891022,
+        "128": 0.026732322670954912,
+        "512": 0.0014225543814701252,
+        "2048": 0.001313841258637293,
+        "6139": 0.005979210454624756,
+        "16384": 0.0028456112048576097,
+        "30592": 0.005663368647936606,
+        "63872": 0.002395526445678829,
+        "250000": 0.0003698049629668336,
+        "400000": 0.0426176290858893,
+        "500000": 0.022254161933364613
+      },
+      "envelope_stride_samples": 2048,
+      "envelope_peak_candidates": [
+        {
+          "lag_samples": 999424,
+          "lag_ms": 9.99424,
+          "correlation": 0.9949055483016988
+        },
+        {
+          "lag_samples": 600064,
+          "lag_ms": 6.00064,
+          "correlation": 0.5732878045693439
+        }
+      ]
+    },
+    {
+      "clip_id": "0099ba0e47ffc58d72c3e6e9",
+      "category": "DJI MINI4 PRO",
+      "pack_id": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml",
+      "samples": 2088960,
+      "cache_sha256": "d0bb715981f876883601480fa73237334b5ca892f7bf3a2a0368404b30a5cb10",
+      "source_sha256": "99f5fd1c3627c1dccad49a4c5bf80ef5e279d483a2a4c999d59e435003a4cb74",
+      "first_abs_complex_corr_below_0p1_samples": 11,
+      "complex_abs_correlation": {
+        "1": 0.9496805596774298,
+        "8": 0.3682502372984845,
+        "32": 0.03617628912274877,
+        "128": 0.026187103661715182,
+        "512": 0.004172814949345,
+        "2048": 0.000884534357143067,
+        "6139": 0.0051536730259015605,
+        "16384": 0.004217208619056851,
+        "30592": 0.0032028182330813264,
+        "63872": 0.0001244197170218678,
+        "250000": 0.14092684002322037,
+        "400000": 8.78759858573667e-05,
+        "500000": 0.14861597242136212
+      },
+      "envelope_stride_samples": 2048,
+      "envelope_peak_candidates": [
+        {
+          "lag_samples": 999424,
+          "lag_ms": 9.99424,
+          "correlation": 0.8966013812689697
+        },
+        {
+          "lag_samples": 499712,
+          "lag_ms": 4.99712,
+          "correlation": 0.5549211414256731
+        },
+        {
+          "lag_samples": 253952,
+          "lag_ms": 2.53952,
+          "correlation": 0.4994034652329507
+        }
+      ]
+    },
+    {
+      "clip_id": "01dd76190826133d15db099b",
+      "category": "DJI MINI4 PRO",
+      "pack_id": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml",
+      "samples": 2088960,
+      "cache_sha256": "4387186c7e668b51552cc698f44c66702d15d9400cb12fda5038561b82602d45",
+      "source_sha256": "03252edf96652aec2f25c72cf774a79bf04a2ebd3be557dad495b38dbd87e202",
+      "first_abs_complex_corr_below_0p1_samples": 10,
+      "complex_abs_correlation": {
+        "1": 0.9577739501513306,
+        "8": 0.2775441225606248,
+        "32": 0.047344014671899054,
+        "128": 0.03329016722879691,
+        "512": 0.004029672516321638,
+        "2048": 0.0043093530136002365,
+        "6139": 0.00031105067156457034,
+        "16384": 0.0014790219184877404,
+        "30592": 0.002518057032460551,
+        "63872": 0.0011096549476868759,
+        "250000": 0.03255623916501508,
+        "400000": 2.5275519637648616e-05,
+        "500000": 0.059975144272751024
+      },
+      "envelope_stride_samples": 2048,
+      "envelope_peak_candidates": [
+        {
+          "lag_samples": 999424,
+          "lag_ms": 9.99424,
+          "correlation": 0.895639105363091
+        },
+        {
+          "lag_samples": 499712,
+          "lag_ms": 4.99712,
+          "correlation": 0.4472836132760173
+        },
+        {
+          "lag_samples": 749568,
+          "lag_ms": 7.49568,
+          "correlation": 0.35808595815512007
+        }
+      ]
+    },
+    {
+      "clip_id": "029a497b44bc359b6de26eb0",
+      "category": "DJI MINI4 PRO",
+      "pack_id": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml",
+      "samples": 2088960,
+      "cache_sha256": "741ed0f47a6e79764fb69c629a3a45dc4bbc33f6b694351f48b39c6ed48e9a14",
+      "source_sha256": "99f5fd1c3627c1dccad49a4c5bf80ef5e279d483a2a4c999d59e435003a4cb74",
+      "first_abs_complex_corr_below_0p1_samples": 11,
+      "complex_abs_correlation": {
+        "1": 0.9422464668464382,
+        "8": 0.3834515397618851,
+        "32": 0.027792021810933386,
+        "128": 0.02448944439308792,
+        "512": 0.0061080392841384125,
+        "2048": 0.0048449844406064915,
+        "6139": 0.0034808228071473877,
+        "16384": 0.0003855378320785398,
+        "30592": 0.003749605824148899,
+        "63872": 7.43402639474803e-05,
+        "250000": 0.02876841540096861,
+        "400000": 2.0318539448285644e-05,
+        "500000": 0.0789451425549411
+      },
+      "envelope_stride_samples": 2048,
+      "envelope_peak_candidates": [
+        {
+          "lag_samples": 999424,
+          "lag_ms": 9.99424,
+          "correlation": 0.8938791977876991
+        },
+        {
+          "lag_samples": 499712,
+          "lag_ms": 4.99712,
+          "correlation": 0.5056427674956139
+        },
+        {
+          "lag_samples": 245760,
+          "lag_ms": 2.4576,
+          "correlation": 0.41101834836998563
+        }
+      ]
+    },
+    {
+      "clip_id": "051e4d10112fbe9e90af02b9",
+      "category": "DJI MINI4 PRO",
+      "pack_id": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml",
+      "samples": 2088960,
+      "cache_sha256": "01d84640fdba63ab20cbf0954779239e81eb57054162e0762c0f0c7efcd096d2",
+      "source_sha256": "b48d1c25664494a7b9ecd31a7fc1ae04f8895e897623c1a051cfed2605f97fe2",
+      "first_abs_complex_corr_below_0p1_samples": 9,
+      "complex_abs_correlation": {
+        "1": 0.8778194147712945,
+        "8": 0.2540645360489359,
+        "32": 0.03972041944586297,
+        "128": 0.025734732026602168,
+        "512": 0.003614976383987235,
+        "2048": 0.004524050637815293,
+        "6139": 0.0023108452673144338,
+        "16384": 0.005910346345847036,
+        "30592": 0.004746994873729849,
+        "63872": 0.0004010654488764178,
+        "250000": 0.05007253611271349,
+        "400000": 0.000189184921688353,
+        "500000": 0.1366096189034296
+      },
+      "envelope_stride_samples": 2048,
+      "envelope_peak_candidates": [
+        {
+          "lag_samples": 999424,
+          "lag_ms": 9.99424,
+          "correlation": 0.9183436393255565
+        },
+        {
+          "lag_samples": 499712,
+          "lag_ms": 4.99712,
+          "correlation": 0.2545278708831318
+        },
+        {
+          "lag_samples": 755712,
+          "lag_ms": 7.55712,
+          "correlation": 0.21046832653088107
+        }
+      ]
+    }
+  ],
+  "time": 1791503100.2100034
+}

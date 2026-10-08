@@ -1,0 +1,104 @@
+{
+  "scope": "synthetic CPU structure audit, not trained quality evaluation",
+  "heldout_read": false,
+  "sample_rate_hz": 100000000,
+  "stft": {
+    "n_fft": 512,
+    "hop": 128,
+    "complex_input": true,
+    "complex_output": true,
+    "shape": [
+      2,
+      512,
+      500
+    ],
+    "window_microseconds": 5.12,
+    "hop_microseconds": 1.28,
+    "roundtrip_nmse": 1.0881298642619226e-14,
+    "fftshift": false
+  },
+  "current_model_parameters": 32142859,
+  "context": {
+    "tokens": 255,
+    "duration_ms": 20.8896,
+    "token_step_ms": 0.08192,
+    "averaging_before_encoder": true,
+    "shuffled_input_max_difference": 7.0,
+    "mean_context_encoded_max_difference": 0.0,
+    "ordered_control_encoded_rms_difference": 0.7369502782821655,
+    "interpretation": "mean branch cannot distinguish input time permutations; ordered control is sensitive, not proof of better separation",
+    "frequency_conditioning": "128-channel context projected to 1024 channels and broadcast over bottleneck frequency cells"
+  },
+  "output": {
+    "complex_slots": 4,
+    "source_slots": 3,
+    "background_slots": 1,
+    "mixture_sum_relative_error": 1.7332670028240033e-15,
+    "phase_rotation_difference_relative_energy": 0.0010239275870844722,
+    "phase_note": "fresh weights, fixed-slot diagnostic only; not a trained phase-invariance performance estimate"
+  },
+  "prepared_wavenet_parameters": 4601867,
+  "prepared_wavenet_native_compatibility": {
+    "passed": false,
+    "error": "Invalid long context or crop",
+    "reason": "prepared historical adapter requires 256 context tokens; native run has 255"
+  },
+  "wavenet_convolutional_path": {
+    "layers": 30,
+    "residual_channels": 128,
+    "dilations": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256,
+      512,
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256,
+      512,
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256,
+      512
+    ],
+    "samples": 6139,
+    "milliseconds": 0.06139,
+    "input_crop_ms": 0.63872,
+    "note": "global RMS/mean power context add global summary dependence, not ordered phase-preserving context"
+  },
+  "unet_convolutional_path": {
+    "input_stft_frames": 500,
+    "max_dependency_frames": 236,
+    "central_dependency_frames": [
+      130,
+      365
+    ],
+    "max_input_sample_span": 30592,
+    "max_span_ms": 0.30592,
+    "note": "pre-iSTFT STFT-bin convolutional paths only; excludes global RMS, GroupNorm spatial statistics, context, and iSTFT overlap"
+  },
+  "source_sha256": {
+    "experiments/architecture_audit_20261009/audit.py": "b606c670de27d98e0e4b9823053ecc55df44586d08c8218f878315071e9cf936",
+    "experiments/rfuav_dense_gated_20261008/models.py": "b48e5852e194d4c7fca3e636bb79f918da478a4880fc83397c8afd2e538a136c",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/model.py": "c97c64d315637c7799e59147ce37dfce910bdb6ff385c2733153720cfdf47105",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_model.py": "a6bb37a4a5fb8c5c7f0472b76a92d80f178183d91118367b74fe557873d64794",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/waveform.py": "7f27d74ffef9ac5f52c34559d66ddd512f76abe83a4ba825887fc94bd1c3159d"
+  }
+}
