@@ -46,10 +46,14 @@ def main(phase_run,allocation_run):
         receipts=sorted(allocation_run.glob('*/EPOCH_*.json'))
         signature=tuple((str(p),p.stat().st_mtime_ns) for p in receipts)
         ready=all((allocation_run/a/'VALIDATION_000.json').exists() for a in ('waveform_only','waveform_allocation'))
-        if ready and signature and (signature!=last_allocation or (allocation_run/'COMPLETE.json').exists()):
+        allocation_complete=(allocation_run/'COMPLETE.json').exists()
+        if ready and signature and (signature!=last_allocation or allocation_complete and 'allocation_final' not in seen):
             result,md=allocation(allocation_run,(allocation_run/'COMPLETE.json').exists())
             save(allocation_run/'monitor/AUDITED_PROGRESS',result,md);last_allocation=signature
-        if (allocation_run/'COMPLETE.json').exists():
+            if allocation_complete:
+                seen.add('allocation_final')
+                print('ALLOCATION_COMPLETED_AND_AUDITED',flush=True)
+        if allocation_complete and (phase_run/'COMPLETE.json').exists():
             print('ALL_FOLLOWUP_STUDIES_COMPLETED_AND_AUDITED',flush=True)
             return
         time.sleep(15)
