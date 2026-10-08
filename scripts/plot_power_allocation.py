@@ -31,7 +31,7 @@ def main(source,output,complete):
         if output.with_suffix(suffix).exists():
             raise FileExistsError(output.with_suffix(suffix))
     with output.with_suffix('.csv').open('w') as stream:
-        writer=csv.DictWriter(stream,fieldnames=list(rows[0]));writer.writeheader();writer.writerows(rows)
+        writer=csv.DictWriter(stream,fieldnames=list(rows[0]),lineterminator='\n');writer.writeheader();writer.writerows(rows)
     font=Path.home()/'.fonts/pretendard/Pretendard-Regular.ttf'
     if not font.is_file():
         raise FileNotFoundError(f'Install the local TrueType Korean font before plotting: {font}')
