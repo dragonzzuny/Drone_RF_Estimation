@@ -48,6 +48,11 @@ def run(preparation, output):
         corr = autocorrelation(iq)
         magnitude = np.abs(corr)
         crossing = np.flatnonzero(magnitude < .1)
+        # Exploratory delayed-I/Q repeats: possible cyclic-prefix evidence,
+        # never a decoded protocol label. Ignore immediate filter correlation.
+        delayed, _ = find_peaks(magnitude[:65537], height=.05, prominence=.02, distance=64)
+        delayed = [int(lag) for lag in delayed if lag>=64]
+        delayed = sorted(delayed,key=lambda lag:magnitude[lag],reverse=True)[:5]
         stride = 2048
         envelope = np.abs(np.asarray(iq[:len(iq)//stride*stride])).reshape(-1,stride)**2
         envelope = envelope.mean(-1,dtype=np.float64)
@@ -63,6 +68,8 @@ def run(preparation, output):
                    samples=len(iq),cache_sha256=meta['cache_sha256'],source_sha256=meta['source_sha256'],
                    first_abs_complex_corr_below_0p1_samples=int(crossing[0]) if len(crossing) else None,
                    complex_abs_correlation={str(l):float(magnitude[l]) for l in lags},
+                   delayed_complex_peak_candidates=[dict(lag_samples=lag,lag_microseconds=lag/100,
+                       abs_correlation=float(magnitude[lag])) for lag in delayed],
                    envelope_stride_samples=stride,envelope_peak_candidates=peaks)
         records.append(row)
         print(f'{len(records)}/{len(indices)} {meta["category"]}',flush=True)
@@ -71,6 +78,7 @@ def run(preparation, output):
         source_count=len(records),recording_group_count=len({r['pack_id'] for r in records}),
         sample_rate_hz=100_000_000,heldout_read=False,validation_iq_read=False,
         interpretation='descriptive correlations, not confirmed protocol/hopping labels or evidence of a sufficient receptive field',
+        delayed_peak_rule='exploratory addition: lags64..65536, abs height>=.05, prominence>=.02, distance>=64, strongest5; no model tuned from these values',
         qualifications=['native common-band filtering contributes short-lag correlation',
             '20.8896ms contains few repeats of millisecond patterns',
             'near-zero mean complex autocorrelation does not exclude cyclic/higher-order structure',

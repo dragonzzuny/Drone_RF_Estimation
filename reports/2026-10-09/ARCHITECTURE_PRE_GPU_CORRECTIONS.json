@@ -1,0 +1,34 @@
+{
+  "registrations": [
+    {
+      "run": "local/architecture_fit_cycle14_20261009_v1",
+      "cancellation": {
+        "status": "CANCELLED_BEFORE_GPU",
+        "pid": 3703653,
+        "time": 1791503717.6448576,
+        "model_updates": 0,
+        "reason": "Review of symmetric receptive-field radius: cycle14 total span65539 has radius32769; cycle15 radius65534 can connect each output to the full63872-sample input. Superseded before any GPU computation."
+      },
+      "protocol_sha256": "5bb94b96b520412f74300b7f5c84e443b2886b48f73de25da43558569725c0e1"
+    },
+    {
+      "run": "local/architecture_fit_cycle15_20261009_v1",
+      "cancellation": {
+        "status": "CANCELLED_BEFORE_GPU",
+        "pid": 3704740,
+        "model_updates": 0,
+        "time": 1791503753.9340234,
+        "reason": "Correct descriptive millisecond metadata from literal to samples/sample_rate; architecture and data unchanged. Re-register v2."
+      },
+      "protocol_sha256": "092cb94a13dda4141a0eea2deee491ddee4ca37f3e6eb2202c54dfcc4b03ef73"
+    }
+  ],
+  "removed_superseded_source": {
+    "path": "experiments/architecture_audit_20261009/cycle14.py",
+    "sha256": "b2573ce2fdaee1090f4ecb751036f4c4078acea258b16b3b83f60c25366894d3",
+    "bytes": 4088,
+    "retained_snapshot": "local/architecture_fit_cycle14_20261009_v1/source_snapshot/experiments/architecture_audit_20261009/cycle14.py"
+  },
+  "valid_run": "local/architecture_fit_cycle15_20261009_v2",
+  "all_prior_gpu_updates": 0
+}

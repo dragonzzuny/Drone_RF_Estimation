@@ -43,6 +43,10 @@ flowchart LR
 
 추가로 학습 자료에서 기종마다 clip_id 순 첫4개, 총20개 구간·8개 기록 묶음을 고정해 native 복소 자기상관과 전력 포락선 자기상관을 측정했다. 17구간에서0.4ms 이상·상관0.2 이상·prominence0.1 이상의 포락선 피크 후보가 나왔다. AVATA2의 약2.50ms 및 배수, 일부 다른 기록의 약4/5/6/10ms 후보가 보인다. 복소 자기상관의 첫0.1 하향 교차는2–44표본이었다. **짧은 파형 상관과 긴 전력 반복은 서로 다른 단서**다. 첫 교차를 충분한 모델 수용영역으로 쓰거나, 긴 피크를 FHSS 주기로 확정하지 않는다. 필터 영향·짧은 관측 시간·동일 기록 구간의 상관이 남아 있다. [학습 자료 시간 구조 수치](NATIVE_TRAIN_TIME_STRUCTURE.json).
 
+지연 복소 상관 피크의 후속 탐색에서는 FPV/Mini3의 약50000표본(0.5ms), Mavic3 Pro의 약42813표본(0.428ms) 후보도 관찰했다. 이 사실은 첫 하향 교차만으로 수용영역을 정하면 안 됨을 보여준다. **30층·128채널 WaveNet의 dilation cycle10→15** 대조를 같은4혼합·같은32업데이트로 추가 등록했다. 초기 모든 파라미터 tensor는 동일하며 파라미터 수·손실·입력·자료가 같다. 이론적 합성곱 범위는131069표본, 양쪽 반경65534표본으로 현재63872표본 창 전체에 접근할 수 있다. 실제 관측 길이는 여전히0.63872ms이고20ms 복소 파형 문맥을 확보한 것은 아니다. [실행기](../../experiments/architecture_audit_20261009/cycle15.py), 실행 위치 `local/architecture_fit_cycle15_20261009_v2`.
+
+처음 고려한cycle14는 전체 폭65539지만 반경32769라서 개별 출력과50000표본 지연 관측의 직접 연결을 보장하지 않았다. GPU 실행 전 취소하고cycle15로 바꿨으며,cycle15의 첫 등록도 시간 단위 설명값을 바로잡아 다시 등록했다. 두 이전 등록은 학습0회이며 취소 사유·원 소스 snapshot을 로컬에 보존했다. 실험 성능을 보고 바꾼 선택은 아니다.
+
 ## 3. 직접 관련된 선행 구조
 
 | 근거 | 본문에서 확인한 방법 | 우리 연구에서의 판단 |
@@ -52,6 +56,7 @@ flowchart LR
 | Damara 외, Transformer U-Net, ICASSPW 2024 | 원시 파형 1D encoder–decoder의 병목에 self-attention. 깊이24·차원1024 attention, 4×A100 학습 | RF에서 U-Net+attention의 직접 사례. 매우 큰 원 구조이며 우리 8GB GPU·자료 규모와 예산을 함께 검토해야 함. 기존 U-Net에 작은 attention만 붙여 원 논문 재현이라고 부르지 않음. [원문](https://rfchallenge.mit.edu/wp-content/uploads/2024/02/OneInAMillion_ICASSP_Paper_SP_Challenge_HHI.pdf) |
 | Gao 외, IQUMamba-1D, JKSUCIS 38:63, **2026-01-13** | I/Q 1D U-Net, 선택적 상태 공간 처리, token 방식 선택, skip 처리. PSK/QAM/APSK 및 공개 변조 자료에서 실험 | 최신 U-Net 후보 중 과제와 직접 관련됨. 실제 드론 OTA 분리 결과는 아니며 논문도 3개 이상 성능 저하를 밝힘. 샘플 수가 길어도 100MS/s에서의 물리적 시간은 다시 계산해야 함. [원문](https://doi.org/10.1007/s44443-025-00440-5) |
 | Rodrigez 외, Learning to Separate RF Signals Under Uncertainty, ICC2026 채택 표기 | 종류별5단 U-Net 여러 개와 하나의8단 U-Net을 총 파라미터 수에 맞춰 비교 | 2026년 연구에서도 RF용 U-Net이 유효한 기반이다. 알려진 SOI+여러 후보 중 한 간섭의 종류 불확실성이며, 세 신호를 모두 출력하거나 개수를 추정한 실험은 아니다. 우리의 다중 출력·개수 보조손실 효과를 직접 증명하지 않음. [본문 §IV·표I](https://arxiv.org/html/2602.04650v1), [채택 표기](https://arxiv.org/abs/2602.04650) |
+| Naseri 외, RF time–frequency U-Net, ICASSPW2024 | 복소STFT 2D U-Net을 사용하되 알려진 OFDM의64표본FFT·80표본hop·CP제거/복원에 맞춤 | 2D STFT U-Net도 RF 복원에 타당한 선행 사례다. 핵심은 알려진 심볼 구조와 표현을 맞췄다는 점이다. 우리 DJI 기록의FFT/CP/동기를 확인하지 않고64/80을 그대로 사용하면 안 된다. [원문 §2](https://rfchallenge.mit.edu/wp-content/uploads/2024/02/UNET_ICASSP2024-1.pdf) |
 
 IQUMamba의 [공개 코드](https://github.com/wzdsqaa/IQUMamba1D/tree/8b7f1822a64ae7958aba6dfb58e51e2f3c425331)를 실제로 읽었다. 검토한 구현은 실수 `Conv1d`와 표준 `mamba_ssm.Mamba`를 사용한다. 복소 구조 제약이나 정확한 위상 회전 등변성이 구현됐다고 자동으로 가정하지 않는다. `32768` 설정의 stride는 `[1,2,4,8]`로 누적64배이고 일반4단 설정은 `[1,2,2,2]`다. 길이에 따라 실제 구조가 바뀐다. 기본 출력4실수채널은 두 복소 신호이며, 우리 세 신호+배경에는 출력8채널·PIT·원기록 분할 어댑터가 필요하다. 공식 고정 순서 SI-SNR과 우리 복소 gain 투영 SI-SDR도 같은 지표로 간주하지 않는다.
 
