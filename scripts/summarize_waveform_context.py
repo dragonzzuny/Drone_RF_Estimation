@@ -89,12 +89,14 @@ def audit_validation(data):
     return diagnostics
 
 
-def summarize(run):
+def summarize(run, arm_names=ARMS):
     protocol = read(run / 'PROTOCOL.json')
+    if list(arm_names) != protocol['arms']:
+        raise ValueError('Requested arm names disagree with frozen protocol')
     digest = hashlib.sha256((run / 'PROTOCOL.json').read_bytes()).hexdigest()
     arms = {}
     metadata = None
-    for arm in ARMS:
+    for arm in arm_names:
         records = []
         for path in sorted((run / arm).glob('EPOCH_*.json')):
             receipt = read(path)
@@ -126,9 +128,9 @@ def summarize(run):
         initial = read(run / arm / 'VALIDATION_000.json')
         audit_validation(initial)
         arms[arm] = dict(initial={k: v for k, v in initial.items() if k != 'rows'}, epochs=records)
-    common = min(len(arms[a]['epochs']) for a in ARMS)
+    common = min(len(arms[a]['epochs']) for a in arm_names)
     selected = {}
-    for arm in ARMS:
+    for arm in arm_names:
         candidates = [arms[arm]['initial']] + [r['metrics'] for r in arms[arm]['epochs'][:common]]
         best = min(candidates, key=lambda m: m['selection_nmse'])
         selected[arm] = best
@@ -137,8 +139,8 @@ def summarize(run):
             if saved['epoch'] != best['epoch']:
                 raise ValueError('Checkpoint selection rule disagrees with receipts')
             near(saved['metric'], best['selection_nmse'])
-    short = {g['count']: g for g in selected['short_context']['by_count']}
-    long = {g['count']: g for g in selected['long_context']['by_count']}
+    short = {g['count']: g for g in selected[arm_names[0]]['by_count']}
+    long = {g['count']: g for g in selected[arm_names[1]]['by_count']}
     accepted = all(long[k]['mean_nmse'] < short[k]['mean_nmse'] and
                    long[k]['mean_si_sdr'] > short[k]['mean_si_sdr'] for k in (2, 3))
     return dict(updated_at=datetime.datetime.now().astimezone().isoformat(timespec='seconds'),
@@ -178,7 +180,7 @@ def audit_completion(run, result):
         if file_digest(Path(name)) != digest:
             raise ValueError(f'Frozen data schedule changed: {name}')
     checkpoints = {}
-    for arm in ARMS:
+    for arm in protocol['arms']:
         folder = run / arm
         hashes = {name: file_digest(folder / name) for name in ('BEST.pt', 'LAST.pt', 'SELECTED_005.pt')}
         if hashes['BEST.pt'] != hashes['SELECTED_005.pt']:
