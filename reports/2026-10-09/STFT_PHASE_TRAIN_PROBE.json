@@ -1,0 +1,358 @@
+{
+  "status": "TRAIN_ONLY_CPU_COMPLETE",
+  "model": "existing full STFT U-Net",
+  "checkpoint": "/home/pyj/\ubb38\uc11c/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_gpu_run/unet_mean/SELECTED_005.pt",
+  "checkpoint_sha256": "86470af0de460d6b71072e08fb19ec77bfb9d3545a41e7da728fad084870a356",
+  "selected_epoch": 1,
+  "rows": [
+    {
+      "index": 4,
+      "count": 2,
+      "modes": {
+        "full": {
+          "nmse": [
+            0.2544707310779164,
+            0.4058697518626051
+          ],
+          "si_sdr": [
+            5.3710066134595476,
+            4.815745333317659
+          ],
+          "output_change_relative_energy": 0.0,
+          "sum_relative_error": 1.1610657637443758e-14
+        },
+        "phase_90": {
+          "nmse": [
+            0.25425265199800984,
+            0.4062042001101915
+          ],
+          "si_sdr": [
+            5.377037555332364,
+            4.808694128258797
+          ],
+          "output_change_relative_energy": 0.0020886205602437258,
+          "sum_relative_error": 1.171153423695897e-14,
+          "prediction_only_order": [
+            0,
+            1,
+            2
+          ]
+        },
+        "phase_180": {
+          "nmse": [
+            0.2543876693570022,
+            0.40572505497830996
+          ],
+          "si_sdr": [
+            5.377590366762027,
+            4.8262267556865694
+          ],
+          "output_change_relative_energy": 0.0012748424196615815,
+          "sum_relative_error": 1.158621446281526e-14,
+          "prediction_only_order": [
+            0,
+            1,
+            2
+          ]
+        },
+        "phase_270": {
+          "nmse": [
+            0.25433286986729037,
+            0.4060832781109786
+          ],
+          "si_sdr": [
+            5.375843977616089,
+            4.811778506602252
+          ],
+          "output_change_relative_energy": 0.0020716337021440268,
+          "sum_relative_error": 1.1691763577313482e-14,
+          "prediction_only_order": [
+            0,
+            1,
+            2
+          ]
+        },
+        "four_phase_average": {
+          "nmse": [
+            0.2538429560852074,
+            0.4056804323977641
+          ],
+          "si_sdr": [
+            5.38433706764849,
+            4.838074949352148
+          ],
+          "output_change_relative_energy": 0.0006813996587879956,
+          "sum_relative_error": 1.0092495842605776e-14
+        }
+      }
+    },
+    {
+      "index": 5,
+      "count": 2,
+      "modes": {
+        "full": {
+          "nmse": [
+            0.12407379072453342,
+            0.3585150240206942
+          ],
+          "si_sdr": [
+            8.77053920122289,
+            9.657428010412318
+          ],
+          "output_change_relative_energy": 0.0,
+          "sum_relative_error": 1.2094100163751878e-14
+        },
+        "phase_90": {
+          "nmse": [
+            0.1281639781417324,
+            0.36732265423778354
+          ],
+          "si_sdr": [
+            8.633887106796637,
+            9.370858726017675
+          ],
+          "output_change_relative_energy": 0.0017215473344549537,
+          "sum_relative_error": 1.2062984741474892e-14,
+          "prediction_only_order": [
+            0,
+            1,
+            2
+          ]
+        },
+        "phase_180": {
+          "nmse": [
+            0.12788994289867817,
+            0.3673082570057301
+          ],
+          "si_sdr": [
+            8.639277760801326,
+            9.269380565293332
+          ],
+          "output_change_relative_energy": 0.0015694514149799943,
+          "sum_relative_error": 1.2207647356711308e-14,
+          "prediction_only_order": [
+            0,
+            1,
+            2
+          ]
+        },
+        "phase_270": {
+          "nmse": [
+            0.12442980274581195,
+            0.3597642667730742
+          ],
+          "si_sdr": [
+            8.763433574871787,
+            9.62898174414892
+          ],
+          "output_change_relative_energy": 0.001606687786988914,
+          "sum_relative_error": 1.2249622921800958e-14,
+          "prediction_only_order": [
+            0,
+            1,
+            2
+          ]
+        },
+        "four_phase_average": {
+          "nmse": [
+            0.1257249859476975,
+            0.3628424148407229
+          ],
+          "si_sdr": [
+            8.715703134914634,
+            9.565788229379553
+          ],
+          "output_change_relative_energy": 0.0006118034943938255,
+          "sum_relative_error": 1.0392917603425001e-14
+        }
+      }
+    },
+    {
+      "index": 2,
+      "count": 3,
+      "modes": {
+        "full": {
+          "nmse": [
+            0.9559327308740929,
+            0.3634508863434341,
+            0.7323028403876278
+          ],
+          "si_sdr": [
+            1.6474589322650783,
+            2.949077515282705,
+            -2.1613314917893907
+          ],
+          "output_change_relative_energy": 0.0,
+          "sum_relative_error": 1.0945836828122155e-14
+        },
+        "phase_90": {
+          "nmse": [
+            0.9558359120483836,
+            0.3640760062518225,
+            0.7328946822928702
+          ],
+          "si_sdr": [
+            1.6280480874186234,
+            2.9310369408966723,
+            -2.160797635537169
+          ],
+          "output_change_relative_energy": 0.00205060001462698,
+          "sum_relative_error": 1.0922714020791522e-14,
+          "prediction_only_order": [
+            0,
+            1,
+            2
+          ]
+        },
+        "phase_180": {
+          "nmse": [
+            0.9557966936221404,
+            0.363551390965035,
+            0.7322117466987439
+          ],
+          "si_sdr": [
+            1.6444182312415832,
+            2.946347798913182,
+            -2.1619069623583536
+          ],
+          "output_change_relative_energy": 0.0010784401092678308,
+          "sum_relative_error": 1.093237378138708e-14,
+          "prediction_only_order": [
+            0,
+            1,
+            2
+          ]
+        },
+        "phase_270": {
+          "nmse": [
+            0.9559107956602304,
+            0.3638205334921241,
+            0.7313606397482919
+          ],
+          "si_sdr": [
+            1.6557053413653244,
+            2.9392396033530255,
+            -2.1453238258765728
+          ],
+          "output_change_relative_energy": 0.00204011844471097,
+          "sum_relative_error": 1.0945644968389446e-14,
+          "prediction_only_order": [
+            0,
+            1,
+            2
+          ]
+        },
+        "four_phase_average": {
+          "nmse": [
+            0.955823477305077,
+            0.36330616373888674,
+            0.7311464172451987
+          ],
+          "si_sdr": [
+            2.255473548241516,
+            2.947050801320646,
+            -2.149252050572869
+          ],
+          "output_change_relative_energy": 0.0006493646069429815,
+          "sum_relative_error": 9.578656715997997e-15
+        }
+      }
+    },
+    {
+      "index": 11,
+      "count": 3,
+      "modes": {
+        "full": {
+          "nmse": [
+            0.9456730685132192,
+            0.7160069187568422,
+            0.0815544627104117
+          ],
+          "si_sdr": [
+            -2.9183608928890696,
+            -2.6816949819537013,
+            10.519067824508305
+          ],
+          "output_change_relative_energy": 0.0,
+          "sum_relative_error": 1.172618403374642e-14
+        },
+        "phase_90": {
+          "nmse": [
+            0.9453439590699072,
+            0.7162735047936072,
+            0.08143916763326813
+          ],
+          "si_sdr": [
+            -2.8597442533612605,
+            -2.6861269625591886,
+            10.52705548169888
+          ],
+          "output_change_relative_energy": 0.0013064024969935417,
+          "sum_relative_error": 1.182545071800274e-14,
+          "prediction_only_order": [
+            0,
+            1,
+            2
+          ]
+        },
+        "phase_180": {
+          "nmse": [
+            0.9453531979962639,
+            0.7162461786742483,
+            0.08146170661368196
+          ],
+          "si_sdr": [
+            -2.8571987061134303,
+            -2.6837646761606755,
+            10.526419956833895
+          ],
+          "output_change_relative_energy": 0.0007645332952961326,
+          "sum_relative_error": 1.1767299006117206e-14,
+          "prediction_only_order": [
+            0,
+            1,
+            2
+          ]
+        },
+        "phase_270": {
+          "nmse": [
+            0.9454374560433825,
+            0.7166029599354021,
+            0.08144715537685167
+          ],
+          "si_sdr": [
+            -2.8641024325071895,
+            -2.6902968134919547,
+            10.526111922130582
+          ],
+          "output_change_relative_energy": 0.0012944291811436415,
+          "sum_relative_error": 1.1617017922933383e-14,
+          "prediction_only_order": [
+            0,
+            1,
+            2
+          ]
+        },
+        "four_phase_average": {
+          "nmse": [
+            0.9453329913395785,
+            0.7153678823852183,
+            0.08121292628513878
+          ],
+          "si_sdr": [
+            -2.535529687373794,
+            -2.677162986699887,
+            10.539867000431833
+          ],
+          "output_change_relative_energy": 0.000422915443778038,
+          "sum_relative_error": 1.011510146766128e-14
+        }
+      }
+    }
+  ],
+  "model_updates": 0,
+  "heldout_or_validation_iq_read": false,
+  "inference_labels_used": false,
+  "interpretation": "train-only candidate diagnostic; not generalization evidence",
+  "seconds": 108.05571174621582
+}
