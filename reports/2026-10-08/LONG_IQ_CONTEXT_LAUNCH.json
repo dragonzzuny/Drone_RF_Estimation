@@ -1,0 +1,427 @@
+{
+  "recorded_at": "2026-10-08T21:46:25.921444+09:00",
+  "protocol": {
+    "status": "FROZEN_SHORT_VS_LONG_WAVEFORM_DEVELOPMENT_COMPARISON",
+    "seed": 0,
+    "arms": [
+      "short_context",
+      "long_context"
+    ],
+    "epochs": 5,
+    "examples_per_epoch": 2400,
+    "examples_per_arm": 12000,
+    "effective_batch": 8,
+    "microbatch": 1,
+    "updates_per_epoch": 300,
+    "updates_per_arm": 1500,
+    "optimizer": "AdamW; fresh both arms",
+    "learning_rate": "cosine 1e-4 to 1e-5 over 1500 updates",
+    "weight_decay": 0.0001,
+    "gradient_clip_norm": 1.0,
+    "count_loss_weight": 0.1,
+    "precision": "float32",
+    "initialization": "seed0; all tensors identical in both arms; no pretrained checkpoint",
+    "preparation_used_for": "data and feature schedule only; old initialization/optimizer fields ignored",
+    "selection": "minimum validation mean NMSE across counts 2 and 3, include epoch0; report count1 separately",
+    "acceptance": "both counts 2/3 NMSE lower AND complex SI-SDR higher; one-seed development only",
+    "dataset": "RFUAV",
+    "same_dataset": true,
+    "same_native_band": true,
+    "native_center_offsets_preserved": false,
+    "scored_window_samples": 63872,
+    "long_iq_samples": 1048576,
+    "power_context_samples": 2097152,
+    "fs_hz": 100000000,
+    "heldout_iq_access": false,
+    "controller_classes_excluded": true,
+    "full_capacity": true,
+    "source_sha256": {
+      "experiments/rfuav_waveform_20261008/audit_inputs.py": "99334670f290dc417f586dd1560b75521864f123e71bc262d5d90151ba3ad95b",
+      "experiments/rfuav_waveform_20261008/evaluation.py": "158dcf81f1290704dee97c0ffe5bcb2232d61c4455f18173a7a2ed94b6097155",
+      "experiments/rfuav_waveform_20261008/long_data.py": "de445c1cc442872d4a7245ef2c2fdffdb8448f347ddc10caf66f7c75fb3b8278",
+      "experiments/rfuav_waveform_20261008/run_comparison.py": "a7a9c8553d5628d4b7c95bafb24c0c0df3e321e28b0e0aaab6067e253f9c6a4a",
+      "experiments/rfuav_waveform_20261008/test_waveform.py": "639f3b28e5d63702cf2321670ddb45106f8ccdf7822cb631e04a3ab52afb2158",
+      "experiments/rfuav_waveform_20261008/waveform_models.py": "f31c196a41490e747725ddc1dfa9ede6973fb607a77c1bdd0aca16a2e16c2934",
+      "experiments/rfuav_dense_gated_20261008/cpu_check.py": "e9189ca0f2d1b20a4f36c8d266a3d59ffce1f83f4f80f3eb1083fc7f5641b4a2",
+      "experiments/rfuav_dense_gated_20261008/dense_data.py": "a5604c104332731f7dfa220de74bdd2af2c7efdb5b57af860eae3348e2aa4f3d",
+      "experiments/rfuav_dense_gated_20261008/models.py": "b48e5852e194d4c7fca3e636bb79f918da478a4880fc83397c8afd2e538a136c",
+      "experiments/rfuav_dense_gated_20261008/prepare_dense_gated.py": "eab1ef23cd3af6c58832e8416aa0108c2090b8610e1919612cee2a8e21fd150b",
+      "experiments/rfuav_dense_gated_20261008/study.py": "2e2cb2401c546405959d0de3d4ebccf08f55b0e977ea6825d001c7e663df0edd",
+      "experiments/rfuav_dense_gated_20261008/test_models.py": "f652b3d012f60fc86aa099beba28147ed75bc9fc3b3f0b4170c3d4d8f1999110",
+      "experiments/rfuav_dense_gated_20261008/verify_dense.py": "9fafe10f20057b434ab102b1e12cd298a6c9b2d4293234670590fbe5425ae276",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/__init__.py": "9452c5c2cea105ebfc875e0128e2b99b459806ff14c2cd59236c3273575016f4",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_data.py": "97886c6accb9e228b85b6fda7efb76cea8e4b4a75e5420c39b115dcf65281268",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_model.py": "a6bb37a4a5fb8c5c7f0472b76a92d80f178183d91118367b74fe557873d64794",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_training_data.py": "4222e700c5e77761c7fb05269bd86420896fa2fbcdcbe707a97c08e3f63eaee7",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/data.py": "2c8abdc30d724e3fd61ca4145f158145139a8c9f69f1d66dc4c888ad1653df6e",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/losses.py": "a51e179ea16d094cf122ec6491d79b26c66e3ed84294e396112156fb3ac8a4d6",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/mixture_constraints.py": "306709a6de32ed01581bd3facc8c45e91de6770de07b1fb9e2457f3ecc99372c",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/model.py": "c97c64d315637c7799e59147ce37dfce910bdb6ff385c2733153720cfdf47105",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/similarity.py": "a8166bcc7adefec50b30c0374f84964b36943395d64ba3e91400f7b8147c561a",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/temporal.py": "47c237184e31050706abefd0bc91bce80c1492866f5c26e0e9333fe1712da253",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/waveform.py": "7f27d74ffef9ac5f52c34559d66ddd512f76abe83a4ba825887fc94bd1c3159d",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/within_dataset_schedule.py": "edcddbf19df88bd0ec4ac6558776d6b75dfa983589850aa742bcaf8306ffaf18"
+    },
+    "data_sha256": {
+      "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_preparation/PREPARATION.json": "48ff00c8f9f7db4f0e95e68441cd7e882a45e1814bdaa3201ef3d6b545594976",
+      "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_preparation/TRAIN.npy": "ef9e1e78d99c65f2aafb30491da6f371e9476ba6f75a7bc2bc3571b668e6b3f0",
+      "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_preparation/VALIDATION.npy": "18af759fde10a5c9218c202715762b34604d8210ef38f563485cd005215a1646",
+      "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_preparation/CACHE_MANIFEST.json": "8900eb833daa866099c002f658ccad8397bd85e5974ecc26a8e6467016acb6f2"
+    },
+    "context": "same mean long-mixture power features; native complex I/Q context differs (0.63872 vs 10.48576ms)",
+    "packing": "lossless 16-sample polyphase sample-to-channel rearrangement; no native-rate decimation",
+    "main_contrast": "identical waveform network; outside-target I/Q masked in short control; GroupNorm response also changes",
+    "milestones": [
+      1,
+      5
+    ],
+    "validation_cases": 630
+  },
+  "source_and_snapshot_hashes_verified": true,
+  "run_state": {
+    "status": "TRAINING_RUNNING",
+    "pid": 3286411,
+    "time": 1791463054.729928,
+    "protocol_sha256": "783d450c0a51edebc54f647ee6a16751836a7b7f476104f891c1879a7df937d3"
+  },
+  "progress": {
+    "stage": "TRAIN",
+    "arm": "short_context",
+    "epoch": 1,
+    "updates": 140,
+    "total_updates": 1500,
+    "examples": 1120,
+    "epoch_examples": 2400,
+    "learning_rate": 9.810401422571184e-05,
+    "average_loss": 9.385782235514904,
+    "seconds": 120.30243730545044,
+    "time": 1791463583.8643358,
+    "pid": 3286411
+  },
+  "preflight": {
+    "short_context": {
+      "status": "PASS",
+      "protocol_sha256": "783d450c0a51edebc54f647ee6a16751836a7b7f476104f891c1879a7df937d3",
+      "parameters": 32355203,
+      "scored_samples": 63872,
+      "input_samples": 1048576,
+      "counts": [
+        1,
+        2,
+        3
+      ],
+      "losses": [
+        0.3994700312614441,
+        0.9727684855461121,
+        1.6363041400909424
+      ],
+      "discarded_updates": 1,
+      "peak_allocated_bytes": 888714240,
+      "seconds": 1.3864924907684326,
+      "outside_phase_perturbation_relative_output_energy": 0.0,
+      "sum_relative_error": 1.9451317540306956e-15,
+      "reference_count_input_independence": true
+    },
+    "long_context": {
+      "status": "PASS",
+      "protocol_sha256": "783d450c0a51edebc54f647ee6a16751836a7b7f476104f891c1879a7df937d3",
+      "parameters": 32355203,
+      "scored_samples": 63872,
+      "input_samples": 1048576,
+      "counts": [
+        1,
+        2,
+        3
+      ],
+      "losses": [
+        0.3957536816596985,
+        0.968392550945282,
+        1.6312360763549805
+      ],
+      "discarded_updates": 1,
+      "peak_allocated_bytes": 880325632,
+      "seconds": 0.3852417469024658,
+      "outside_phase_perturbation_relative_output_energy": 9.2434027010313e-07,
+      "sum_relative_error": 1.974001177971964e-15,
+      "reference_count_input_independence": true
+    }
+  },
+  "cpu_input_audit": {
+    "status": "LONG_INPUT_CPU_AUDIT_COMPLETE",
+    "seconds": 1.585667371749878,
+    "rows": [
+      {
+        "index": 0,
+        "count": 1,
+        "long_start": 1048576,
+        "target_offset": 831620,
+        "left_context_ms": 8.3162,
+        "right_context_ms": 1.53084,
+        "mixture_sha256": "1d6b01e71978aff382854a57590b09321a5e4e49455a8c0ec9b39bf03f1d39b3",
+        "long_mixture_sha256": "967a85ff40cef40bf4b8b13544d4ba82015b64869f921d36d151ec18cdddc016"
+      },
+      {
+        "index": 464,
+        "count": 1,
+        "long_start": 1048576,
+        "target_offset": 796828,
+        "left_context_ms": 7.96828,
+        "right_context_ms": 1.87876,
+        "mixture_sha256": "2fd532fe58c86d1e85027a28fad28f66cf0f2feea9ab5496d9098fe7fdc20e68",
+        "long_mixture_sha256": "871522b64c1a16828d1c5badf2eccc6cc222e8a7dafad24e35304b96f1b3451d"
+      },
+      {
+        "index": 998,
+        "count": 1,
+        "long_start": 1048576,
+        "target_offset": 622699,
+        "left_context_ms": 6.22699,
+        "right_context_ms": 3.62005,
+        "mixture_sha256": "c8755b463fed3e2f1f8e0d3f186bf89b61a2a6637ae0dc25c84fa0f182083b7b",
+        "long_mixture_sha256": "86f9c948c5330fbeaa294a17b9e27ea2ad787de7bb0dabfb84b684d07c399d68"
+      },
+      {
+        "index": 1453,
+        "count": 1,
+        "long_start": 1048576,
+        "target_offset": 957062,
+        "left_context_ms": 9.57062,
+        "right_context_ms": 0.27642,
+        "mixture_sha256": "75b5855b54f97f834dd72328ebf4e299b527225afe7ff74648dc29602789aa85",
+        "long_mixture_sha256": "cd709482e44aefd0f052a2733be33ab4a5fb2f0b0fa78d4b014e967e26b576a9"
+      },
+      {
+        "index": 1954,
+        "count": 1,
+        "long_start": 1048576,
+        "target_offset": 946521,
+        "left_context_ms": 9.46521,
+        "right_context_ms": 0.38183,
+        "mixture_sha256": "b2cfddf47643d8694e1faeaae741bbd049a959112aa0947020a190efa69b21b2",
+        "long_mixture_sha256": "6ea889e10ce6e69c0b208f124616b2efdba0787610375afe82b5d0ffe3d53ab1"
+      },
+      {
+        "index": 2395,
+        "count": 1,
+        "long_start": 650940,
+        "target_offset": 492352,
+        "left_context_ms": 4.92352,
+        "right_context_ms": 4.92352,
+        "mixture_sha256": "5410864af74c8bf4cabc6c3759af98de07533aae0a84fc5a58f6254573968416",
+        "long_mixture_sha256": "2e1b78503cb1fa3129a1e11a4f1a8b6cbbabb9ad2ad974965912eddbae7eb447"
+      },
+      {
+        "index": 4,
+        "count": 2,
+        "long_start": 470027,
+        "target_offset": 492352,
+        "left_context_ms": 4.92352,
+        "right_context_ms": 4.92352,
+        "mixture_sha256": "cafd7b34d4297f11e7efb183eddd5be0e385f44d66f408c8b05b030cf75864e1",
+        "long_mixture_sha256": "d597ad4cf86ed2a1ed70b8c2d5d200f4b4b86f9b261f147f1b647eb34f7e91bb"
+      },
+      {
+        "index": 463,
+        "count": 2,
+        "long_start": 0,
+        "target_offset": 272648,
+        "left_context_ms": 2.72648,
+        "right_context_ms": 7.12056,
+        "mixture_sha256": "040da13f1543e42761c32d1b001e8509428c3285b59af702f3eb5de04baa9a28",
+        "long_mixture_sha256": "32a81fc41742dde485c297afee9ed48155d6423d835afcb65ffb1f7f0294b573"
+      },
+      {
+        "index": 971,
+        "count": 2,
+        "long_start": 0,
+        "target_offset": 96512,
+        "left_context_ms": 0.96512,
+        "right_context_ms": 8.88192,
+        "mixture_sha256": "e7884adbe35150245e3ef99f5e519cf5e2accfab4e074d880404742b7c2963c1",
+        "long_mixture_sha256": "0b0e3b9d08c11f75b54f0216748cd7b424178226de99faa308b4a2e19932ecb1"
+      },
+      {
+        "index": 1414,
+        "count": 2,
+        "long_start": 0,
+        "target_offset": 419222,
+        "left_context_ms": 4.19222,
+        "right_context_ms": 5.65482,
+        "mixture_sha256": "8edb29539d2d955ebda756698d112c402647b6b96f0b5a51eef6fc75bdf77262",
+        "long_mixture_sha256": "36b6174b8175f802c828d7624be8ae6a4088c9effa688961cab53a1f0a69351c"
+      },
+      {
+        "index": 1885,
+        "count": 2,
+        "long_start": 542216,
+        "target_offset": 492352,
+        "left_context_ms": 4.92352,
+        "right_context_ms": 4.92352,
+        "mixture_sha256": "3b0a95fe19f34515fe51d4ab3a3ee54e8feb5390c865ff17984a1f84ad392f94",
+        "long_mixture_sha256": "87056a6f8101e371c9cd7c252019066ee1a1116232258a9cb293d934cfaca92e"
+      },
+      {
+        "index": 2397,
+        "count": 2,
+        "long_start": 1048576,
+        "target_offset": 966954,
+        "left_context_ms": 9.66954,
+        "right_context_ms": 0.1775,
+        "mixture_sha256": "564c61430e7c637425e772b7b45cc5c71398ce5d61266469a7b15723dc820b16",
+        "long_mixture_sha256": "8a720ea718c6d6dc7a5e8e891b63fef407c2edfaa9ef07b47c240861f78559ec"
+      },
+      {
+        "index": 2,
+        "count": 3,
+        "long_start": 0,
+        "target_offset": 244216,
+        "left_context_ms": 2.44216,
+        "right_context_ms": 7.40488,
+        "mixture_sha256": "5454d0aa14e2fd6a5133e2a4f461a8c57ebb8dfa5e91dab5d8cae504c2c473c5",
+        "long_mixture_sha256": "1b7f20263e544842feefdedc02ddaec543cd059273f9cb0d40610ebe69971d19"
+      },
+      {
+        "index": 505,
+        "count": 3,
+        "long_start": 1048576,
+        "target_offset": 601134,
+        "left_context_ms": 6.01134,
+        "right_context_ms": 3.8357,
+        "mixture_sha256": "d73147284464a37703b2d45cf734f96ac6dfc0596c9b836993336011554f37e8",
+        "long_mixture_sha256": "5b8fe56babf8564d387a9dcc1c9efa2243774733b9a2f5270dce9b1dd1618193"
+      },
+      {
+        "index": 916,
+        "count": 3,
+        "long_start": 220076,
+        "target_offset": 492352,
+        "left_context_ms": 4.92352,
+        "right_context_ms": 4.92352,
+        "mixture_sha256": "270c962f3bd39239e2a60df4256b7f466a6476768a2f2e87fea9acd08bf505a3",
+        "long_mixture_sha256": "776778fffaa2a6e5ad0b3dca8c1340812022c0413d5ccfb8471091e67e22aaff"
+      },
+      {
+        "index": 1439,
+        "count": 3,
+        "long_start": 679664,
+        "target_offset": 492352,
+        "left_context_ms": 4.92352,
+        "right_context_ms": 4.92352,
+        "mixture_sha256": "4b0c4ab8d3414fa1472795f067d71d69228892eeff401f63ce32dd1e8e207cca",
+        "long_mixture_sha256": "2a9671790045ce2ab285874b6f70ccd3dcbec41e5d4f05cedcd748eca9e40103"
+      },
+      {
+        "index": 1933,
+        "count": 3,
+        "long_start": 1048576,
+        "target_offset": 979094,
+        "left_context_ms": 9.79094,
+        "right_context_ms": 0.0561,
+        "mixture_sha256": "b3b8720e064369ab0f3ebf42422ad0e4d48246d540bb476b006875fdf3c72b37",
+        "long_mixture_sha256": "beb6efac341f57f552863bfcb3b9f7ee96903ec99337f9ea1f0a63ed8771f526"
+      },
+      {
+        "index": 2399,
+        "count": 3,
+        "long_start": 1048576,
+        "target_offset": 736996,
+        "left_context_ms": 7.36996,
+        "right_context_ms": 2.47708,
+        "mixture_sha256": "74d300e1e6080f2c08d92cd6aca052407e17c968676b10f97ee3c17db4252770",
+        "long_mixture_sha256": "12167f4268e02e17721131532a47313939d0c6ae8eb23704c5cac59b3f9683cf"
+      }
+    ],
+    "training_iq_cases": 18,
+    "validation_iq_read": false,
+    "heldout_iq_read": false,
+    "pack_metadata": {
+      "train_pack": [
+        "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1.xml",
+        "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+        "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+        "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml",
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml"
+      ],
+      "validation_pack": [
+        "DJI AVATA2/DJI AVATA2/VTSBW=20/pack2.xml",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=20/pack3.xml",
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=20/pack2.xml",
+        "DJI MINI3/DJI MINI3/VTSBW=20/pack2.xml",
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=20/pack2.xml"
+      ]
+    },
+    "position_summary": {
+      "TRAIN.npy": {
+        "cases": 12000,
+        "left_ms_min": 0.00079,
+        "right_ms_min": 0.0013,
+        "symmetric_context_cases": 6129
+      },
+      "VALIDATION.npy": {
+        "cases": 630,
+        "left_ms_min": 0.00297,
+        "right_ms_min": 0.00826,
+        "symmetric_context_cases": 309
+      }
+    },
+    "source_sha256": "99334670f290dc417f586dd1560b75521864f123e71bc262d5d90151ba3ad95b",
+    "manifest_sha256": "8900eb833daa866099c002f658ccad8397bd85e5974ecc26a8e6467016acb6f2",
+    "scope": "18 TRAIN mixtures plus all-schedule coordinate checks; not a waveform-generalization result"
+  },
+  "completed_first_epoch": {
+    "long_context": {
+      "epoch": 1,
+      "updates": 300,
+      "best": {
+        "epoch": 1,
+        "metric": 15.640598907325748
+      },
+      "train_seconds": 306.4925377368927,
+      "peak_allocated_bytes": 1139174400,
+      "average_loss": 10.655930033884943,
+      "protocol_sha256": "783d450c0a51edebc54f647ee6a16751836a7b7f476104f891c1879a7df937d3",
+      "metrics": {
+        "epoch": 1,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.4787545074568516,
+            "mean_si_sdr": 18.10330705654348,
+            "mean_si_sdr_gain": null,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.4787545074568516,
+            "construction_count_accuracy": 0.638095238095238
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 29.599773530368214,
+            "mean_si_sdr": -1.4832773340242154,
+            "mean_si_sdr_gain": -1.5241846882913181,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 58.7203079434598,
+            "construction_count_accuracy": 0.009523809523809525
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 1.6814242842832805,
+            "mean_si_sdr": -5.057667390692489,
+            "mean_si_sdr_gain": 0.2235148479622552,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 3.4055455952760947,
+            "construction_count_accuracy": 0.7904761904761904
+          }
+        ],
+        "selection_nmse": 15.640598907325748,
+        "independent_test": false,
+        "physical_aircraft_count": false,
+        "whole_record_tracking": false
+      }
+    }
+  }
+}
