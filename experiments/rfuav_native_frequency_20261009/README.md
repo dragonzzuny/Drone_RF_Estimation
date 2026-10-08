@@ -20,6 +20,8 @@ These bands lie within the intersection of the admitted receivers' theoretical
 digital Nyquist intervals, with transition/edge margins. Actual analog receiver
 passband response has not been calibrated. Receiver center metadata is not an
 estimate of the source carrier. No cross-band or cross-dataset mixture is used.
+The I+jQ convention and per-recording XML acquisition settings follow
+[RFUAV section4.2](https://arxiv.org/html/2503.09033v2), rechecked2026-10-09.
 
 For original receiver center `fc` and common center `f0`, first apply a
 513-tap, beta8.6 Kaiser FIR centered at `f0-fc` in the original baseband. Then
@@ -82,6 +84,16 @@ The comparator tests whether a full learned model outperforms simple spectral
 partitioning under the revised geometry. It is not a reference-assisted ideal
 mask, and component PSD additivity is a statistical approximation rather than
 an exact complex-power identity.
+
+Before observing this baseline's validation result, a second CPU comparison was
+registered in `FRAME_PROTOCOL.json`: keep exactly the same TRAIN templates, but
+fit nonnegative coefficients independently in each observed mixture STFT frame.
+With at most3templates, enumerate all active sets and choose the feasible
+least-squares minimum. Independent tests match SciPy NNLS and verify zero/single
+active cases. The1e-8coefficient floor and mixture phase are unchanged. Carry over
+the constant-mask baseline's **predicted** count only for count scoring; it never
+controls waveform outputs. This tests local power adaptation, not hopping-period
+learning or a new deep architecture. Both baseline results remain reported.
 
 ## Implementation and checks
 

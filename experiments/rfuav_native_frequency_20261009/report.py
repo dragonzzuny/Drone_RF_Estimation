@@ -33,7 +33,8 @@ def summarize(path):
 def report(root,output):
     result=dict(report_time=time.time(),root=str(root),heldout_access=False,independent_test=False)
     for name in ('PREP_PROGRESS','PREP_COMPLETE','GPU_STATE','GPU_PROGRESS','GPU_PREFLIGHT','GPU_COMPLETE',
-                 'SPECTRAL_PROGRESS','SPECTRAL_COMPLETE','PREP_FAILURE','GPU_FAILURE','SPECTRAL_FAILURE'):
+                 'SPECTRAL_PROGRESS','SPECTRAL_COMPLETE','FRAME_PROGRESS','FRAME_COMPLETE',
+                 'PREP_FAILURE','GPU_FAILURE','SPECTRAL_FAILURE','FRAME_FAILURE'):
         path=root/f'{name}.json'
         if path.exists():result[name]=json.loads(path.read_text())
     diagnostic=json.loads((root/'diagnostic/RESULT.json').read_text())
@@ -46,16 +47,21 @@ def report(root,output):
         result['epochs'].append(dict(epoch=epoch,**summarize(path)))
     spectral=root/'spectral/VALIDATION.json'
     if spectral.exists():result['spectral']=summarize(spectral)
+    frame=root/'spectral/FRAME_VALIDATION.json'
+    if frame.exists():result['frame_spectral']=summarize(frame)
+    def better(a,b):
+        return all(x['mean_nmse']<y['mean_nmse'] and x['mean_si_sdr'] is not None
+            and y['mean_si_sdr'] is not None and x['mean_si_sdr']>y['mean_si_sdr']
+            for x,y in zip(a['by_count'][1:],b['by_count'][1:]))
+    if 'frame_spectral' in result and 'spectral' in result:
+        result['frame_joint_improvement_over_constant']=better(result['frame_spectral'],result['spectral'])
     if result['epochs']:
         selected=min(result['epochs'],key=lambda x:x['selection_nmse'])
         result['selected_epoch']=selected['epoch']
         initial=result['epochs'][0]
-        def better(a,b):
-            return all(x['mean_nmse']<y['mean_nmse'] and x['mean_si_sdr'] is not None
-                and y['mean_si_sdr'] is not None and x['mean_si_sdr']>y['mean_si_sdr']
-                for x,y in zip(a['by_count'][1:],b['by_count'][1:]))
         result['joint_improvement_over_native_parent']=better(selected,initial)
         if 'spectral' in result:result['joint_improvement_over_spectral']=better(selected,result['spectral'])
+        if 'frame_spectral' in result:result['joint_improvement_over_frame_spectral']=better(selected,result['frame_spectral'])
     manifest=root/'preparation/NATIVE_MANIFEST.json'
     if manifest.exists():
         clips=json.loads(manifest.read_text())['clips'];by_group=defaultdict(list)
@@ -68,7 +74,7 @@ def report(root,output):
         f"보고 생성 UTC epoch: {result['report_time']:.3f}. 단계 표시는 저장된 상태이며 실행 여부는 PID를 별도 확인해야 한다.",
         f"학습 자료 사전 검사: {diagnostic['cases']}혼합 / {diagnostic['unique_contexts']}구간, {diagnostic['status']}.",'',
         '| 항목 | 저장 상태 |','|---|---|']
-    for name in ('PREP_PROGRESS','PREP_COMPLETE','GPU_STATE','GPU_COMPLETE','SPECTRAL_PROGRESS','SPECTRAL_COMPLETE'):
+    for name in ('PREP_PROGRESS','PREP_COMPLETE','GPU_STATE','GPU_COMPLETE','SPECTRAL_PROGRESS','SPECTRAL_COMPLETE','FRAME_PROGRESS','FRAME_COMPLETE'):
         if name in result:
             v=result[name];lines.append(f"| {name} | {v.get('status',v.get('stage',''))} |")
     lines+=['','| 조건 | epoch | 1성분 NMSE | 2성분 NMSE | 3성분 NMSE | 2성분 복소 SI-SDR dB | 3성분 복소 SI-SDR dB |',
@@ -78,10 +84,14 @@ def report(root,output):
         return f'| {name} | {e} | '+' | '.join('미정의' if v is None else f'{v:.6f}' for v in values)+' |'
     for e in result['epochs']:lines.append(row('동일 U-Net',e['epoch'],e['by_count']))
     if 'spectral' in result:lines.append(row('TRAIN 스펙트럼 기준선','—',result['spectral']['by_count']))
+    if 'frame_spectral' in result:lines.append(row('같은 스펙트럼·프레임별 분배','—',result['frame_spectral']['by_count']))
+    if 'frame_joint_improvement_over_constant' in result:
+        lines+=['',f"같은 스펙트럼에서 프레임별 분배의 두 지표 동시 개선: {result['frame_joint_improvement_over_constant']}."]
     if result['epochs']:
         lines+=['',f"평균 NMSE 사전 규칙 선택 epoch: {result['selected_epoch']}.",
             f"동일 관측의 초기 모델 대비 2/3성분 두 지표 동시 개선: {result['joint_improvement_over_native_parent']}."]
         if 'joint_improvement_over_spectral' in result:lines.append(f"스펙트럼 기준선 대비 두 지표 동시 개선: {result['joint_improvement_over_spectral']}.")
+        if 'joint_improvement_over_frame_spectral' in result:lines.append(f"프레임별 스펙트럼 기준선 대비 두 지표 동시 개선: {result['joint_improvement_over_frame_spectral']}.")
         chosen=next(e for e in result['epochs'] if e['epoch']==result['selected_epoch'])
         lines+=['','| 선택 모델 조건 | 약신호 NMSE | 구성 성분 수 정확도 |','|---|---:|---:|']
         for g in chosen['by_count']:lines.append(f"| {g['count']}성분 | {g['weakest_nmse']:.6f} | {g['construction_count_accuracy']:.3%} |")
