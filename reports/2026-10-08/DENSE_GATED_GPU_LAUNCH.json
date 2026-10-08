@@ -1,0 +1,75 @@
+{
+  "recorded_at": "2026-10-08T13:54:09.803643+09:00",
+  "status": "GPU_TRAINING_VERIFIED",
+  "active_run": "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_gpu_run",
+  "worker_pid": 2768554,
+  "supervisor_pid": 2768470,
+  "progress": {
+    "stage": "TRAIN",
+    "arm": "unet_mean",
+    "epoch": 1,
+    "updates": 15,
+    "examples": 480,
+    "time": 1791435233.1075075,
+    "pid": 2768554
+  },
+  "gpu_preflight": {
+    "unet_mean": {
+      "status": "PASS",
+      "freeze_sha256": "b769fdfefa81098a47b213752939b799f3cabee5974cc88b804c5faed5726eb5",
+      "parameters": 32142859,
+      "length": 63872,
+      "source_counts": [
+        1,
+        2,
+        3
+      ],
+      "losses": [
+        0.047489844262599945,
+        0.4288666844367981,
+        1.2115836143493652
+      ],
+      "peak_allocated_bytes": 2194653696,
+      "seconds": 1.9739165306091309,
+      "discarded_updates": 1,
+      "precision": "float32"
+    },
+    "unet_gated": {
+      "status": "PASS",
+      "freeze_sha256": "b769fdfefa81098a47b213752939b799f3cabee5974cc88b804c5faed5726eb5",
+      "parameters": 34769675,
+      "length": 63872,
+      "source_counts": [
+        1,
+        2,
+        3
+      ],
+      "losses": [
+        0.047489844262599945,
+        0.4288666844367981,
+        1.2115836143493652
+      ],
+      "peak_allocated_bytes": 2237000192,
+      "seconds": 0.9242839813232422,
+      "discarded_updates": 1,
+      "precision": "float32"
+    }
+  },
+  "initial_validation": {
+    "selection_nmse": 0.39750470944314503,
+    "two_three_nmse": 0.580626394511593
+  },
+  "old_completed_epochs_preserved": {
+    "ordered": 46,
+    "mean": 46
+  },
+  "source_freeze_sha256": "b769fdfefa81098a47b213752939b799f3cabee5974cc88b804c5faed5726eb5",
+  "performance_improvement_established": false,
+  "epochs_planned_per_arm": 5,
+  "updates_planned_per_arm": 375,
+  "source_contexts": 3902,
+  "train_mixtures_per_arm": 12000,
+  "seed": 0,
+  "native_center_offsets_preserved": false,
+  "independent_test": false
+}

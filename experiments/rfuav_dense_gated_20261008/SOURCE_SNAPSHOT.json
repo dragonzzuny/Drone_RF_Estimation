@@ -1,0 +1,53 @@
+{
+  "role": "read-only snapshot of project implementation; no data/checkpoints copied",
+  "files": {
+    "vendor/drone_rf/__init__.py": {
+      "source": "/home/pyj/문서/GitHub/Drone_RF_Estimation/src/drone_rf/__init__.py",
+      "sha256": "9452c5c2cea105ebfc875e0128e2b99b459806ff14c2cd59236c3273575016f4"
+    },
+    "vendor/drone_rf/context_data.py": {
+      "source": "/home/pyj/문서/GitHub/Drone_RF_Estimation/src/drone_rf/context_data.py",
+      "sha256": "97886c6accb9e228b85b6fda7efb76cea8e4b4a75e5420c39b115dcf65281268"
+    },
+    "vendor/drone_rf/context_model.py": {
+      "source": "/home/pyj/문서/GitHub/Drone_RF_Estimation/src/drone_rf/context_model.py",
+      "sha256": "a6bb37a4a5fb8c5c7f0472b76a92d80f178183d91118367b74fe557873d64794"
+    },
+    "vendor/drone_rf/context_training_data.py": {
+      "source": "/home/pyj/문서/GitHub/Drone_RF_Estimation/src/drone_rf/context_training_data.py",
+      "sha256": "4222e700c5e77761c7fb05269bd86420896fa2fbcdcbe707a97c08e3f63eaee7"
+    },
+    "vendor/drone_rf/data.py": {
+      "source": "/home/pyj/문서/GitHub/Drone_RF_Estimation/src/drone_rf/data.py",
+      "sha256": "2c8abdc30d724e3fd61ca4145f158145139a8c9f69f1d66dc4c888ad1653df6e"
+    },
+    "vendor/drone_rf/losses.py": {
+      "source": "/home/pyj/문서/GitHub/Drone_RF_Estimation/src/drone_rf/losses.py",
+      "sha256": "a51e179ea16d094cf122ec6491d79b26c66e3ed84294e396112156fb3ac8a4d6"
+    },
+    "vendor/drone_rf/mixture_constraints.py": {
+      "source": "/home/pyj/문서/GitHub/Drone_RF_Estimation/src/drone_rf/mixture_constraints.py",
+      "sha256": "306709a6de32ed01581bd3facc8c45e91de6770de07b1fb9e2457f3ecc99372c"
+    },
+    "vendor/drone_rf/model.py": {
+      "source": "/home/pyj/문서/GitHub/Drone_RF_Estimation/src/drone_rf/model.py",
+      "sha256": "c97c64d315637c7799e59147ce37dfce910bdb6ff385c2733153720cfdf47105"
+    },
+    "vendor/drone_rf/similarity.py": {
+      "source": "/home/pyj/문서/GitHub/Drone_RF_Estimation/src/drone_rf/similarity.py",
+      "sha256": "a8166bcc7adefec50b30c0374f84964b36943395d64ba3e91400f7b8147c561a"
+    },
+    "vendor/drone_rf/temporal.py": {
+      "source": "/home/pyj/문서/GitHub/Drone_RF_Estimation/src/drone_rf/temporal.py",
+      "sha256": "47c237184e31050706abefd0bc91bce80c1492866f5c26e0e9333fe1712da253"
+    },
+    "vendor/drone_rf/waveform.py": {
+      "source": "/home/pyj/문서/GitHub/Drone_RF_Estimation/src/drone_rf/waveform.py",
+      "sha256": "7f27d74ffef9ac5f52c34559d66ddd512f76abe83a4ba825887fc94bd1c3159d"
+    },
+    "vendor/drone_rf/within_dataset_schedule.py": {
+      "source": "/home/pyj/문서/GitHub/Drone_RF_Estimation/src/drone_rf/within_dataset_schedule.py",
+      "sha256": "edcddbf19df88bd0ec4ac6558776d6b75dfa983589850aa742bcaf8306ffaf18"
+    }
+  }
+}

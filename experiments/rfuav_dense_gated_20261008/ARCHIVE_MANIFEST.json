@@ -1,0 +1,32 @@
+{
+  "recorded_at": "2026-10-08T13:52:50.033415+09:00",
+  "active_source": "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008",
+  "frozen_training_code_unchanged": true,
+  "files": {
+    "cpu_check.py": "e9189ca0f2d1b20a4f36c8d266a3d59ffce1f83f4f80f3eb1083fc7f5641b4a2",
+    "test_models.py": "f652b3d012f60fc86aa099beba28147ed75bc9fc3b3f0b4170c3d4d8f1999110",
+    "study.py": "2e2cb2401c546405959d0de3d4ebccf08f55b0e977ea6825d001c7e663df0edd",
+    "models.py": "b48e5852e194d4c7fca3e636bb79f918da478a4880fc83397c8afd2e538a136c",
+    "dense_data.py": "a5604c104332731f7dfa220de74bdd2af2c7efdb5b57af860eae3348e2aa4f3d",
+    "verify_dense.py": "9fafe10f20057b434ab102b1e12cd298a6c9b2d4293234670590fbe5425ae276",
+    "prepare_dense_gated.py": "eab1ef23cd3af6c58832e8416aa0108c2090b8610e1919612cee2a8e21fd150b",
+    "vendor/drone_rf/context_training_data.py": "4222e700c5e77761c7fb05269bd86420896fa2fbcdcbe707a97c08e3f63eaee7",
+    "vendor/drone_rf/temporal.py": "47c237184e31050706abefd0bc91bce80c1492866f5c26e0e9333fe1712da253",
+    "vendor/drone_rf/similarity.py": "a8166bcc7adefec50b30c0374f84964b36943395d64ba3e91400f7b8147c561a",
+    "vendor/drone_rf/context_data.py": "97886c6accb9e228b85b6fda7efb76cea8e4b4a75e5420c39b115dcf65281268",
+    "vendor/drone_rf/within_dataset_schedule.py": "edcddbf19df88bd0ec4ac6558776d6b75dfa983589850aa742bcaf8306ffaf18",
+    "vendor/drone_rf/losses.py": "a51e179ea16d094cf122ec6491d79b26c66e3ed84294e396112156fb3ac8a4d6",
+    "vendor/drone_rf/waveform.py": "7f27d74ffef9ac5f52c34559d66ddd512f76abe83a4ba825887fc94bd1c3159d",
+    "vendor/drone_rf/context_model.py": "a6bb37a4a5fb8c5c7f0472b76a92d80f178183d91118367b74fe557873d64794",
+    "vendor/drone_rf/data.py": "2c8abdc30d724e3fd61ca4145f158145139a8c9f69f1d66dc4c888ad1653df6e",
+    "vendor/drone_rf/__init__.py": "9452c5c2cea105ebfc875e0128e2b99b459806ff14c2cd59236c3273575016f4",
+    "vendor/drone_rf/model.py": "c97c64d315637c7799e59147ce37dfce910bdb6ff385c2733153720cfdf47105",
+    "vendor/drone_rf/mixture_constraints.py": "306709a6de32ed01581bd3facc8c45e91de6770de07b1fb9e2457f3ecc99372c",
+    "launch/resume_dense.py": "08f0949b88cf06b19a4353b41c6c94971b120315d7dfb4615e6270518d1fbd1d",
+    "launch/host_switch.py": "812777edda76b0e5a4089888b475bf3c9fc5522708dc006d7d1a86011159604e",
+    "launch/test_host_switch.py": "c91d9c3069fd335915d56e000e0d3ffb4b4c988d2b361bc17a5bd195473ed081",
+    "launch/start_dense.sh": "e5704b0ae1f6ddc102d66b3031cbb627b60577ca6cde6187f4e486f3c4eac670",
+    "SOURCE_SNAPSHOT.json": "b35b8596d4a8852447edbcdb3f14cec42a974e2c2095aa4225a21766b7601579",
+    "DENSE_GATED_CURRENT_KO.md": "5959ad24542b1d3c3a4aba06d567edcc589b76ea15a050d5990b11099f7ebeb4"
+  }
+}
