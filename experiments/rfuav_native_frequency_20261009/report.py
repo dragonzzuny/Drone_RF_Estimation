@@ -19,6 +19,7 @@ def summarize(path):
             numbers=[v for r in items for v in r[key]]
             return float(np.mean(numbers)) if all(v is not None for v in numbers) else None
         group=dict(count=count,cases=210,mean_nmse=average('nmse'),mean_si_sdr=average('si_sdr'),
+            nonfinite_si_sdr=sum(v is None for r in items for v in r['si_sdr']),
             weakest_nmse=float(np.mean([r['nmse'][r['weakest_index']] for r in items])),
             construction_count_accuracy=float(np.mean([r['predicted_count']==count for r in items])))
         saved=next(g for g in value['by_count'] if g['count']==count)
@@ -26,7 +27,28 @@ def summarize(path):
             if key in saved and group[key] is not None and not np.isclose(group[key],saved[key],rtol=1e-9,atol=1e-10):
                 raise ValueError('Saved aggregate mismatch')
         groups.append(group)
-    return dict(path=str(path),sha256=sha256(path),by_count=groups,
+    strata=[]
+    for count in (2,3):
+        subset=[r for r in rows if r['count']==count]
+        grouped=defaultdict(list)
+        for r in subset:
+            gap=10*np.log10(max(r['reference_power'])/min(r['reference_power']))
+            band='0–10dB' if gap<=10 else '10–20dB' if gap<=20 else '>20dB'
+            grouped[('local_power_gap',band)].append(r)
+            grouped[('category_tuple',' + '.join(r['categories']))].append(r)
+        if sum(len(v) for (kind,_),v in grouped.items() if kind=='local_power_gap')!=210:
+            raise ValueError('Power-gap strata do not cover all cases')
+        for (kind,label),items in sorted(grouped.items()):
+            values=[v for r in items for v in r['si_sdr']]
+            strata.append(dict(count=count,kind=kind,label=label,cases=len(items),
+                mean_nmse=float(np.mean([v for r in items for v in r['nmse']])),
+                median_example_nmse=float(np.median([np.mean(r['nmse']) for r in items])),
+                mean_si_sdr=float(np.mean(values)) if all(v is not None for v in values) else None,
+                nonfinite_si_sdr=sum(v is None for v in values),
+                weakest_nmse=float(np.mean([r['nmse'][r['weakest_index']] for r in items])),
+                all_sources_nmse_below_point1=float(np.mean([max(r['nmse'])<.1 for r in items])),
+                all_sources_si_gain_positive=float(np.mean([all(v is not None and v>0 for v in r['si_sdr_gain']) for r in items]))))
+    return dict(path=str(path),sha256=sha256(path),by_count=groups,condition_strata=strata,
                 selection_nmse=float(np.mean([g['mean_nmse'] for g in groups if g['count']>1])))
 
 
@@ -50,8 +72,9 @@ def report(root,output):
     frame=root/'spectral/FRAME_VALIDATION.json'
     if frame.exists():result['frame_spectral']=summarize(frame)
     def better(a,b):
-        return all(x['mean_nmse']<y['mean_nmse'] and x['mean_si_sdr'] is not None
-            and y['mean_si_sdr'] is not None and x['mean_si_sdr']>y['mean_si_sdr']
+        if any(g['mean_si_sdr'] is None for method in (a,b) for g in method['by_count'][1:]):
+            return None
+        return all(x['mean_nmse']<y['mean_nmse'] and x['mean_si_sdr']>y['mean_si_sdr']
             for x,y in zip(a['by_count'][1:],b['by_count'][1:]))
     if 'frame_spectral' in result and 'spectral' in result:
         result['frame_joint_improvement_over_constant']=better(result['frame_spectral'],result['spectral'])
@@ -85,17 +108,32 @@ def report(root,output):
     for e in result['epochs']:lines.append(row('동일 U-Net',e['epoch'],e['by_count']))
     if 'spectral' in result:lines.append(row('TRAIN 스펙트럼 기준선','—',result['spectral']['by_count']))
     if 'frame_spectral' in result:lines.append(row('같은 스펙트럼·프레임별 분배','—',result['frame_spectral']['by_count']))
+    criterion_label=lambda v:'판정 불가: 비교값에 미정의 SI-SDR 포함' if v is None else str(v)
     if 'frame_joint_improvement_over_constant' in result:
-        lines+=['',f"같은 스펙트럼에서 프레임별 분배의 두 지표 동시 개선: {result['frame_joint_improvement_over_constant']}."]
+        lines+=['',f"같은 스펙트럼에서 프레임별 분배의 두 지표 동시 개선: {criterion_label(result['frame_joint_improvement_over_constant'])}."]
     if result['epochs']:
         lines+=['',f"평균 NMSE 사전 규칙 선택 epoch: {result['selected_epoch']}.",
             f"동일 관측의 초기 모델 대비 2/3성분 두 지표 동시 개선: {result['joint_improvement_over_native_parent']}."]
-        if 'joint_improvement_over_spectral' in result:lines.append(f"스펙트럼 기준선 대비 두 지표 동시 개선: {result['joint_improvement_over_spectral']}.")
-        if 'joint_improvement_over_frame_spectral' in result:lines.append(f"프레임별 스펙트럼 기준선 대비 두 지표 동시 개선: {result['joint_improvement_over_frame_spectral']}.")
+        if 'joint_improvement_over_spectral' in result:lines.append(f"스펙트럼 기준선 대비 두 지표 동시 개선: {criterion_label(result['joint_improvement_over_spectral'])}.")
+        if 'joint_improvement_over_frame_spectral' in result:lines.append(f"프레임별 스펙트럼 기준선 대비 두 지표 동시 개선: {criterion_label(result['joint_improvement_over_frame_spectral'])}.")
+        if any(result[k]['by_count'][1]['nonfinite_si_sdr'] for k in ('spectral','frame_spectral') if k in result):
+            lines+=['','두 스펙트럼 기준선에는 출력이 0인 슬롯에 정답이 배정되어 SI-SDR이 미정의인 성분이 있다. '
+                '이를 0점 또는 유한 사례만의 평균으로 바꾸지 않았다. NMSE는 모든 사례를 포함한다.']
         chosen=next(e for e in result['epochs'] if e['epoch']==result['selected_epoch'])
         lines+=['','| 선택 모델 조건 | 약신호 NMSE | 구성 성분 수 정확도 |','|---|---:|---:|']
         for g in chosen['by_count']:lines.append(f"| {g['count']}성분 | {g['weakest_nmse']:.6f} | {g['construction_count_accuracy']:.3%} |")
+        lines+=['','| 선택 모델: 실제 국소 전력차 | 혼합 수 | 평균 NMSE | 약신호 NMSE |',
+            '|---|---:|---:|---:|']
+        for g in chosen['condition_strata']:
+            if g['kind']=='local_power_gap':lines.append(f"| {g['count']}성분 · {g['label']} | {g['cases']} | {g['mean_nmse']:.6f} | {g['weakest_nmse']:.6f} |")
+        lines+=['','| 선택 모델: 기종명 조합 | 혼합 수 | 평균 NMSE | 약신호 NMSE | 모든 성분 NMSE < 0.1 비율 |',
+            '|---|---:|---:|---:|---:|']
+        for g in chosen['condition_strata']:
+            if g['kind']=='category_tuple':lines.append(f"| {g['label']} | {g['cases']} | {g['mean_nmse']:.6f} | {g['weakest_nmse']:.6f} | {g['all_sources_nmse_below_point1']:.2%} |")
+        lines+=['','NMSE < 0.1은 잔차 크기를 설명하기 위해 추가한 기술적 집계이며, 사전 선택 기준이나 논문 게재 판정 기준이 아니다. '
+            'NMSE는 상대 오차 에너지로 정확도 백분율이 아니다. 두 지표의 방향상 개선은 통계적 유의성이나 범용성을 뜻하지 않는다.']
     lines+=['','필터·주파수 이동 수치 검사 통과는 분리 성능 개선을 뜻하지 않는다. 한 seed, 반복 개발 검증, 기록 묶음과 VTSBW 변화가 얽힌 분할이다.',
+        '별도의 [CPU 개수·정답 보조 진단](NATIVE_RF_CPU_DIAGNOSTICS.md)은 실제 파형 분리 성능 표와 구분한다.',
         '방법·범위: [실행 규약](../../experiments/rfuav_native_frequency_20261009/README.md). 모든 완료 epoch와 조건을 보존하며 유리한 사례로 대체하지 않는다.','']
     output.parent.mkdir(parents=True,exist_ok=True);write_json(output.with_suffix('.json'),result)
     output.with_suffix('.md').write_text('\n'.join(lines))

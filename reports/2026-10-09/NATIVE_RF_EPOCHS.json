@@ -1,0 +1,30 @@
+{
+  "source_report": "reports/2026-10-09/NATIVE_RF_FINAL.json",
+  "source_sha256": "a6e2b050e31efa274b9255a0b91d3b5a6f26f8df27fec3b88fe02f2cd058b304",
+  "renderer_sha256": "73e597746c7cf84ef2fc6d543434d430c538d2dbd0d4ffd1ebab75db09396417",
+  "font": "/home/pyj/.fonts/pretendard/Pretendard-Regular.ttf",
+  "dpi": 300,
+  "panels_counts": [
+    2,
+    3
+  ],
+  "csv_counts": [
+    1,
+    2,
+    3
+  ],
+  "epochs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "independent_test": false,
+  "uncertainty_bands": false,
+  "means_smoothed": false,
+  "shared_y_axis_per_metric": true,
+  "undefined_scores": "blank CSV and annotated absent line, never replaced by zero or finite-only mean",
+  "limitations": "Repeated development means; one seed; same records; observation band limited by common digital coverage"
+}

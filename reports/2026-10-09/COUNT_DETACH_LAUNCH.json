@@ -1,0 +1,143 @@
+{
+  "status": "TRAINING_CONFIRMED",
+  "time": 1791501022.7164905,
+  "run": "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/native_count_detached_20261009_v1",
+  "protocol": {
+    "status": "REGISTERED_MATCHED_COUNT_GRADIENT_DETACH",
+    "source_sha256": {
+      "experiments/rfuav_native_frequency_20261009/run_native.py": "5efc429c9d4eddcce3a975bbf7eee0e0476321fc1dc20c5caa854998f070c178",
+      "experiments/rfuav_native_frequency_20261009/native.py": "e14f81aed3c1110f6cdb02d0717a462572b6d2ff6205aff9bbd1d95a5922f587",
+      "experiments/rfuav_native_frequency_20261009/native_data.py": "b3ac38f06bd86ea09ed93e94369dacf53310aeb2aa803b7eb637de08e25d99cc",
+      "experiments/rfuav_dense_gated_20261008/cpu_check.py": "e9189ca0f2d1b20a4f36c8d266a3d59ffce1f83f4f80f3eb1083fc7f5641b4a2",
+      "experiments/rfuav_dense_gated_20261008/test_models.py": "f652b3d012f60fc86aa099beba28147ed75bc9fc3b3f0b4170c3d4d8f1999110",
+      "experiments/rfuav_dense_gated_20261008/study.py": "2e2cb2401c546405959d0de3d4ebccf08f55b0e977ea6825d001c7e663df0edd",
+      "experiments/rfuav_dense_gated_20261008/models.py": "b48e5852e194d4c7fca3e636bb79f918da478a4880fc83397c8afd2e538a136c",
+      "experiments/rfuav_dense_gated_20261008/dense_data.py": "a5604c104332731f7dfa220de74bdd2af2c7efdb5b57af860eae3348e2aa4f3d",
+      "experiments/rfuav_dense_gated_20261008/verify_dense.py": "9fafe10f20057b434ab102b1e12cd298a6c9b2d4293234670590fbe5425ae276",
+      "experiments/rfuav_dense_gated_20261008/prepare_dense_gated.py": "eab1ef23cd3af6c58832e8416aa0108c2090b8610e1919612cee2a8e21fd150b",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_training_data.py": "4222e700c5e77761c7fb05269bd86420896fa2fbcdcbe707a97c08e3f63eaee7",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/temporal.py": "47c237184e31050706abefd0bc91bce80c1492866f5c26e0e9333fe1712da253",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/similarity.py": "a8166bcc7adefec50b30c0374f84964b36943395d64ba3e91400f7b8147c561a",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_data.py": "97886c6accb9e228b85b6fda7efb76cea8e4b4a75e5420c39b115dcf65281268",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/within_dataset_schedule.py": "edcddbf19df88bd0ec4ac6558776d6b75dfa983589850aa742bcaf8306ffaf18",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/losses.py": "a51e179ea16d094cf122ec6491d79b26c66e3ed84294e396112156fb3ac8a4d6",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/waveform.py": "7f27d74ffef9ac5f52c34559d66ddd512f76abe83a4ba825887fc94bd1c3159d",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_model.py": "a6bb37a4a5fb8c5c7f0472b76a92d80f178183d91118367b74fe557873d64794",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/data.py": "2c8abdc30d724e3fd61ca4145f158145139a8c9f69f1d66dc4c888ad1653df6e",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/__init__.py": "9452c5c2cea105ebfc875e0128e2b99b459806ff14c2cd59236c3273575016f4",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/model.py": "c97c64d315637c7799e59147ce37dfce910bdb6ff385c2733153720cfdf47105",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/mixture_constraints.py": "306709a6de32ed01581bd3facc8c45e91de6770de07b1fb9e2457f3ecc99372c",
+      "experiments/rfuav_native_frequency_20261009/detach_count.py": "fd241ccd7fd43e4599ce93cd4405c48cde6c585e8573fabdd84cda698de804c4",
+      "experiments/rfuav_native_frequency_20261009/report.py": "6b304b8858b619eac6bf56abbdd798915a8d7b00e920f0e708789a797b255ed2"
+    },
+    "prep_protocol_sha256": "6359cea486c264f94a9e5b0ab85576fae2c7ccbd0b8024a201657505a3d7aece",
+    "parent": "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_gpu_run/unet_mean/SELECTED_005.pt",
+    "parent_sha256": "86470af0de460d6b71072e08fb19ec77bfb9d3545a41e7da728fad084870a356",
+    "seed": 0,
+    "parameters": 32142859,
+    "epochs": 5,
+    "examples_per_epoch": 2400,
+    "effective_batch": 32,
+    "microbatch": 2,
+    "updates_per_epoch": 75,
+    "total_updates": 375,
+    "optimizer": "fresh AdamW lr1e-5 wd1e-4 clip1",
+    "precision": "float32 TF32 disabled",
+    "main_loss": "whole-window PIT NMSE + coherence + inactive/background; 0.1 count CE",
+    "auxiliary_loss": false,
+    "diagnostic": "TRAIN indices4,5,2,11; 32updates; discard and reload parent",
+    "selection": "min mean NMSE counts2/3 including e0",
+    "validation_cases": 630,
+    "inference_inputs": "mixture IQ, its own long power context, crop coordinate only",
+    "comparison": "same original parent, TRAIN/validation mixtures, fresh optimizer, seed0 and 5epochs/375updates; reuse completed native control",
+    "acceptance": "both counts2/3 lower NMSE and higher complex SI-SDR than matched selected control; report weak and count separately",
+    "heldout_access": false,
+    "physical_aircraft_count": false,
+    "geometry": {
+      "2.4GHz": {
+        "center_hz": 2460000000,
+        "pass_half_hz": 37000000,
+        "stop_half_hz": 39000000,
+        "admitted_centers": [
+          2450000000,
+          2470000000
+        ]
+      },
+      "5.8GHz": {
+        "center_hz": 5780000000,
+        "pass_half_hz": 27000000,
+        "stop_half_hz": 29000000,
+        "admitted_centers": [
+          5760000000,
+          5765000000,
+          5800000000
+        ]
+      }
+    },
+    "matched_control_run": "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/native_frequency_20261009_v1",
+    "control_protocol_sha256": "0fea35bc2dc9a78e57dcf0a5fa303155ec2a2d8bb96e099c73a6992b443cf231",
+    "control_completion_sha256": "025517ed96d8bda0fac58525bdc37f54370f678b66736e9df3769913b775a8c3",
+    "gradient_trigger_sha256": "e7803da3941a27b6199c7bc4685a5e6b37b70f2eddcee47f5d029cb795a7cb1c",
+    "change": "detach shared encoded input to count_head; train count_head normally; waveform encoder receives waveform gradient only",
+    "forward_change": false,
+    "model_capacity_changed": false,
+    "adaptive_development_test": true
+  },
+  "protocol_sha256": "e53386109eb7740504bcc1c137e2c8ef010c2bf14a33277f7e9117d45f51cbcf",
+  "control_initial_sha256": "36514b510b08afbc628d1e507b654af71b6246019db94f1dcb2a0e08977850c5",
+  "candidate_initial_sha256": "36514b510b08afbc628d1e507b654af71b6246019db94f1dcb2a0e08977850c5",
+  "all630_initial_outputs_reproduced": true,
+  "detach_preflight": {
+    "status": "PASS",
+    "protocol_sha256": "e53386109eb7740504bcc1c137e2c8ef010c2bf14a33277f7e9117d45f51cbcf",
+    "forward_bitwise_equal": true,
+    "count_encoder_gradient_none": true,
+    "count_head_gradient_nonzero": true,
+    "waveform_encoder_gradient_finite_nonzero": true,
+    "model_updates": 0,
+    "train_index": 2,
+    "heldout_read": false
+  },
+  "fit_preflight": {
+    "status": "PASS",
+    "protocol_sha256": "e53386109eb7740504bcc1c137e2c8ef010c2bf14a33277f7e9117d45f51cbcf",
+    "before_nmse": 0.40158680367381827,
+    "curve": [
+      {
+        "step": 1,
+        "nmse": 0.39930997547968894
+      },
+      {
+        "step": 16,
+        "nmse": 0.3785835958878375
+      },
+      {
+        "step": 32,
+        "nmse": 0.365514530025958
+      }
+    ],
+    "microbatch_relative_error": 0.0,
+    "peak_allocated_bytes": 4384984576,
+    "seconds": 29.820886611938477,
+    "discarded_updates": 32,
+    "training_indices": [
+      4,
+      5,
+      2,
+      11
+    ],
+    "heldout_read": false
+  },
+  "progress_at_report": {
+    "stage": "TRAIN",
+    "epoch": 1,
+    "updates": 15,
+    "examples": 480,
+    "total": 2400,
+    "seconds": 124.56598663330078,
+    "time": 1791501010.0264463,
+    "pid": 3673306
+  },
+  "heldout_read": false,
+  "performance_improvement_established": false
+}

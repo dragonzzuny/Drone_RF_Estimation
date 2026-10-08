@@ -98,6 +98,83 @@
       "sha256": "9d8be8cb78d56d4de62b6385cc80b202e75af4a50f31dac5a48dc76ef9b24410",
       "replacement": "reports/2026-10-09/POWER_ALLOCATION_EPOCHS",
       "reason": "regenerable interim figure or export with CFF font warning; replace with audited final TrueType export; numerical epoch receipts and checkpoints retained"
+    },
+    {
+      "path": "local/native_frequency_20261009_v1/FIGURE_PREVIEW.pdf",
+      "bytes": 27988,
+      "sha256": "131336135235978d9770d6d998c48de18079b899ae36970bdc6bbf578c80de1b",
+      "replacement": "reports/2026-10-09/NATIVE_RF_EPOCHS.pdf",
+      "reason": "Regenerable intermediate export superseded by audited final native-frequency results. All epoch numerical evidence, checkpoints and failure records retained."
+    },
+    {
+      "path": "local/native_frequency_20261009_v1/FIGURE_PREVIEW.png",
+      "bytes": 296094,
+      "sha256": "850f6875a9cb9ad61511261e20a429526ba85e9705a194d71162fd825e5738d0",
+      "replacement": "reports/2026-10-09/NATIVE_RF_EPOCHS.png",
+      "reason": "Regenerable intermediate export superseded by audited final native-frequency results. All epoch numerical evidence, checkpoints and failure records retained."
+    },
+    {
+      "path": "local/native_frequency_20261009_v1/FIGURE_PREVIEW.csv",
+      "bytes": 1160,
+      "sha256": "1f07243fd06a03971e9126279cd8977d08c20a707475a2c3b6f767bc638b9a72",
+      "replacement": "reports/2026-10-09/NATIVE_RF_EPOCHS.csv",
+      "reason": "Regenerable intermediate export superseded by audited final native-frequency results. All epoch numerical evidence, checkpoints and failure records retained."
+    },
+    {
+      "path": "local/native_frequency_20261009_v1/FIGURE_PREVIEW.json",
+      "bytes": 755,
+      "sha256": "ebf882f3f4d7af4687eb765c8416affaa9cde93716225ae649bd388967bc636d",
+      "replacement": "reports/2026-10-09/NATIVE_RF_EPOCHS.json",
+      "reason": "Regenerable intermediate export superseded by audited final native-frequency results. All epoch numerical evidence, checkpoints and failure records retained."
+    },
+    {
+      "path": "local/native_frequency_20261009_v1/FIGURE_PREVIEW_V2.pdf",
+      "bytes": 28215,
+      "sha256": "4eb9f93bff7c4bb95c4d5d27897720e74d7f8edb7b6128fd4c3c5e343dc8a70d",
+      "replacement": "reports/2026-10-09/NATIVE_RF_EPOCHS.pdf",
+      "reason": "Regenerable intermediate export superseded by audited final native-frequency results. All epoch numerical evidence, checkpoints and failure records retained."
+    },
+    {
+      "path": "local/native_frequency_20261009_v1/FIGURE_PREVIEW_V2.png",
+      "bytes": 277604,
+      "sha256": "b4d7db674f8f43cc97295e85b0e67d7b5046f9ba3650fc933b3087424f41c0ce",
+      "replacement": "reports/2026-10-09/NATIVE_RF_EPOCHS.png",
+      "reason": "Regenerable intermediate export superseded by audited final native-frequency results. All epoch numerical evidence, checkpoints and failure records retained."
+    },
+    {
+      "path": "local/native_frequency_20261009_v1/FIGURE_PREVIEW_V2.csv",
+      "bytes": 1438,
+      "sha256": "32b7a119b1d50ee55caa2bce9dd4c5655c2754bdda0ab31918da31b6115de695",
+      "replacement": "reports/2026-10-09/NATIVE_RF_EPOCHS.csv",
+      "reason": "Regenerable intermediate export superseded by audited final native-frequency results. All epoch numerical evidence, checkpoints and failure records retained."
+    },
+    {
+      "path": "local/native_frequency_20261009_v1/FIGURE_PREVIEW_V2.json",
+      "bytes": 794,
+      "sha256": "955163b7b4ce5abfd2d6fb28d1b3ae725c224b655243dcce42a8f4bd95721231",
+      "replacement": "reports/2026-10-09/NATIVE_RF_EPOCHS.json",
+      "reason": "Regenerable intermediate export superseded by audited final native-frequency results. All epoch numerical evidence, checkpoints and failure records retained."
+    },
+    {
+      "path": "reports/2026-10-09/NATIVE_RF_INTERIM_E001.json",
+      "bytes": 9645,
+      "sha256": "4b2be78771ebffe6b634ef6d89f5b48decfdb8dba74ad24ffc7d981848d0692e",
+      "replacement": "reports/2026-10-09/NATIVE_RF_FINAL.json",
+      "reason": "Regenerable intermediate export superseded by audited final native-frequency results. All epoch numerical evidence, checkpoints and failure records retained."
+    },
+    {
+      "path": "reports/2026-10-09/NATIVE_RF_INTERIM_E001.md",
+      "bytes": 2302,
+      "sha256": "0717b65276dd304bef11ec92b809a37896fff6f2295c87903913c49ff627a2ed",
+      "replacement": "reports/2026-10-09/NATIVE_RF_FINAL.md",
+      "reason": "Regenerable intermediate export superseded by audited final native-frequency results. All epoch numerical evidence, checkpoints and failure records retained."
+    },
+    {
+      "path": "reports/2026-10-09/NATIVE_RF_PROGRESS.json",
+      "bytes": 49462,
+      "sha256": "a354780bb7822c888ecfd74e968141bf6d33266af74b043651d467d0a2c36d1b",
+      "replacement": "reports/2026-10-09/NATIVE_RF_FINAL.json",
+      "reason": "Regenerable intermediate export superseded by audited final native-frequency results. All epoch numerical evidence, checkpoints and failure records retained."
     }
   ],
   "raw_iq_or_checkpoint_deleted": false

@@ -1,0 +1,18 @@
+{
+  "time": 1791500345.5595572,
+  "attempts": [
+    {
+      "stage": "phase",
+      "archived_to": "local/native_frequency_20261009_v1/phase_attempt1",
+      "failure_sha256": "0d31ed6c00dc0326aa0d9d677db929e36d6e7f5a5b59cb20a0c6019c01abfb7c",
+      "reason": "Native STFT batch has no long_mixture; original raw-IQ evaluator batch adapter failed before any case result. Added explicit native batch adapter; no model/data/budget change."
+    },
+    {
+      "stage": "fit_gap",
+      "archived_to": "local/native_frequency_20261009_v1/fit_gap_attempt1",
+      "failure_sha256": "2ccc54fd619c3f4dec3c7651b3aae659f200c24da5320754c4bfcff5af559a58",
+      "reason": "Native STFT batch has no long_mixture; original raw-IQ evaluator batch adapter failed before any case result. Added explicit native batch adapter; no model/data/budget change."
+    }
+  ],
+  "training_unchanged": true
+}

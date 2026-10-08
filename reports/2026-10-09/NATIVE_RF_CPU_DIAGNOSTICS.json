@@ -1,0 +1,166 @@
+{
+  "status": "PASS",
+  "auditor_sha256": "217a3d12006955b5be29f3a11c3a372f7cbf437cdb1efc31f7791114bbb1d208",
+  "protocols": {
+    "COUNT": {
+      "sha256": "cc53482d84f53b4d2d5aabc44d337ed0b04fec4d565491dfb14c9f1223cb3f6b",
+      "source_files": 22
+    },
+    "REFERENCE": {
+      "sha256": "8450c9ba453f6903c4a64c0c13757c9eab0e595f2c4cd9f99db9d1c028d6b14e",
+      "source_files": 23
+    }
+  },
+  "parent_validation_sha256": "36514b510b08afbc628d1e507b654af71b6246019db94f1dcb2a0e08977850c5",
+  "count_result_sha256": "b0288a60748ae5ffa7709c0ea51c5472b77be8f5cde3cb34136129440d100664",
+  "reference_result_sha256": "bf73e47e352c2f81f5e55978e78c85d75dd7aef9c7b5f6cec21edf459cba3a48",
+  "count": {
+    "band_only_majority": {
+      "accuracy": 0.4666666666666667,
+      "confusion_matrix": [
+        [
+          84,
+          0,
+          126
+        ],
+        [
+          51,
+          0,
+          159
+        ],
+        [
+          0,
+          0,
+          210
+        ]
+      ],
+      "labels": [
+        1,
+        2,
+        3
+      ],
+      "accuracy_by_count": {
+        "1": 0.4,
+        "2": 0.0,
+        "3": 1.0
+      }
+    },
+    "mean65": {
+      "accuracy": 0.33174603174603173,
+      "confusion_matrix": [
+        [
+          205,
+          5,
+          0
+        ],
+        [
+          206,
+          4,
+          0
+        ],
+        [
+          210,
+          0,
+          0
+        ]
+      ],
+      "labels": [
+        1,
+        2,
+        3
+      ],
+      "accuracy_by_count": {
+        "1": 0.9761904761904762,
+        "2": 0.01904761904761905,
+        "3": 0.0
+      },
+      "training_accuracy": 0.8516666666666667,
+      "iterations": [
+        330
+      ],
+      "saved_classifier_sha256": "10e82faae53a2730d4a00b127444b62de38629823dfc781d7793f807c50394f7"
+    },
+    "mean_std130": {
+      "accuracy": 0.326984126984127,
+      "confusion_matrix": [
+        [
+          185,
+          25,
+          0
+        ],
+        [
+          189,
+          21,
+          0
+        ],
+        [
+          200,
+          10,
+          0
+        ]
+      ],
+      "labels": [
+        1,
+        2,
+        3
+      ],
+      "accuracy_by_count": {
+        "1": 0.8809523809523809,
+        "2": 0.1,
+        "3": 0.0
+      },
+      "training_accuracy": 0.921,
+      "iterations": [
+        316
+      ],
+      "saved_classifier_sha256": "31a422cdb694ea7388c580d5403120ffdd0cfb88783a014dc2db89249983ec44"
+    }
+  },
+  "reference_assisted_only": [
+    {
+      "count": 2,
+      "cases": 210,
+      "modes": {
+        "reference_frequency_mean_power": {
+          "mean_nmse": 0.2761483683779414,
+          "mean_si_sdr": 9.137737007243466,
+          "weakest_nmse": 0.48158233228129854
+        },
+        "reference_time_frequency_power": {
+          "mean_nmse": 0.17699145199811397,
+          "mean_si_sdr": 12.581531531803401,
+          "weakest_nmse": 0.3127341881273712
+        }
+      }
+    },
+    {
+      "count": 3,
+      "cases": 210,
+      "modes": {
+        "reference_frequency_mean_power": {
+          "mean_nmse": 0.4558735367266976,
+          "mean_si_sdr": 0.9450907514606054,
+          "weakest_nmse": 0.7510830199450652
+        },
+        "reference_time_frequency_power": {
+          "mean_nmse": 0.3025663206222151,
+          "mean_si_sdr": 5.210501423570712,
+          "weakest_nmse": 0.531543090671188
+        }
+      }
+    }
+  ],
+  "max_sum_error": 1.3787554234976403e-14,
+  "max_roundtrip_nmse": 1.2317454548837294e-14,
+  "environment_versions": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.6.1",
+    "pandas": "2.3.3"
+  },
+  "count_import_warning_sha256": "3e4d4bafba12feec9c21b88991a1b7f636f6d7ecbf51d7ce8e73da5c855a2e8b",
+  "training_accuracy_audit": "Logged training-fit accuracy; this audit recomputes validation aggregates from all predictions, not classifier fitting",
+  "independent_test": false,
+  "raw_iq_reopened": false,
+  "physical_aircraft_count": false
+}

@@ -1,18 +1,11 @@
-# 원 수신 주파수 배치 보존: 진행 및 복원 결과
+# 원 주파수 배치 실험의 최신 상태
 
-수신 중심주파수 차이를 보존하고 공통 RF 관측 대역으로 제한한 별도 실험이다. 기존 중심 정렬 수치와 동일 조건의 모델 개선으로 비교하지 않는다.
-목표 정답은 공통 대역 안의 원기록 기여 파형이며 수신 잡음도 포함한다. 보류 기종은 열지 않았고 실제 드론 대수·독립 시험 성능으로 해석하지 않는다.
+본 학습5 epoch·375업데이트와 후속 위상 평균·혼합 적합도 진단을 완료했다. 선택 모델은 e2다.
 
-보고 생성 UTC epoch: 1791495553.098. 단계 표시는 저장된 상태이며 실행 여부는 PID를 별도 확인해야 한다.
-학습 자료 사전 검사: 48혼합 / 100구간, PASS.
+- [전체 결과와 조건별 수치](NATIVE_RF_FINAL.md)
+- [학습 곡선 PDF](NATIVE_RF_EPOCHS.pdf)
+- [위상 평균·혼합 적합도 진단](NATIVE_RF_INFERENCE_DIAGNOSIS.md)
+- [CPU 개수·정답 보조 진단](NATIVE_RF_CPU_DIAGNOSTICS.md)
+- [기울기 진단과 다음 직접 대조](NATIVE_RF_GRADIENT_DIAGNOSIS.md)
 
-| 항목 | 저장 상태 |
-|---|---|
-| PREP_PROGRESS | NATIVE_CONTEXTS |
-| GPU_STATE | WAITING_FOR_CPU_DATA |
-
-| 조건 | epoch | 1성분 NMSE | 2성분 NMSE | 3성분 NMSE | 2성분 복소 SI-SDR dB | 3성분 복소 SI-SDR dB |
-|---|---:|---:|---:|---:|---:|---:|
-
-필터·주파수 이동 수치 검사 통과는 분리 성능 개선을 뜻하지 않는다. 한 seed, 반복 개발 검증, 기록 묶음과 VTSBW 변화가 얽힌 분할이다.
-방법·범위: [실행 규약](../../experiments/rfuav_native_frequency_20261009/README.md). 모든 완료 epoch와 조건을 보존하며 유리한 사례로 대체하지 않는다.
+개수 손실의 공통 인코더 기울기를 차단하는 동일 예산 후속 GPU 학습을 시작했다. 구체적인 실행 상태는 worker의 상태·epoch 결과를 확인한다. 중복 보고서·그림 미리보기의 삭제 이력은 [정리 기록](CLEANUP_LEDGER.json)에 보존했다.

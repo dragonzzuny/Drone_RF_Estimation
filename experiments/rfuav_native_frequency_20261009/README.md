@@ -95,6 +95,76 @@ the constant-mask baseline's **predicted** count only for count scoring; it neve
 controls waveform outputs. This tests local power adaptation, not hopping-period
 learning or a new deep architecture. Both baseline results remain reported.
 
+## Additional development diagnoses
+
+After seeing the early count-head failure, `count_probe.py` registered two
+mixture-only CPU classifiers: mean65 and mean+population-standard-deviation130
+of the long-context sequence. StandardScaler and C=1 multinomial logistic
+regression fit all12,000TRAIN mixtures and evaluate the same630development
+mixtures without a hyperparameter search. A TRAIN-derived receiver-band majority
+is also reported. These probes do not retain time order, replace the waveform
+network, or establish physical-aircraft counting. They are adaptively chosen
+diagnoses, not prospective independent tests.
+
+`reference_diagnostic.py` separately examines all420development count2/3
+mixtures with **reference-derived** frequency-mean and time-frequency power masks.
+It requires unavailable reference I/Q and true count, retains mixture phase, and
+is neither deployable separation nor an optimal performance bound. This result
+does not establish that its side information can be inferred from a mixture.
+`audit_auxiliary.py` reaggregates count predictions and all reference-diagnostic
+rows, and verifies input/source identities without reopening raw recordings.
+
+During the fifth native training epoch, `phase_native.py` registers a fixed
+four-phase inference check on the eventual `SELECTED_005.pt`. Its weights and
+epoch are selected by the original one-pass NMSE rule; there is no phase-based
+reselection. Angles are0/90/180/270degrees; invert phase, align three source slots
+using predictions alone, and take an equal complex mean with background fixed.
+This reuses the previously tested inference implementation, with four forward
+passes and zero training updates. All630native development mixtures are scored;
+the one-pass outputs must reproduce the prior scores. Same-model NMSE and
+complex SI-SDR must both improve at counts2/3, with weak-source metrics inspected
+separately. It is an adaptive development comparison, not exact set equivariance
+or new-type generalization. Its state and results reside in the run's `phase/`.
+
+`fit_gap.py` follows this with the same selected one-pass model and no updates.
+It fixes210examples from TRAIN epoch1 and210from epoch5 before inference,
+matching the validation category-tuple proportions exactly (70cases per count).
+The chosen model may not have seen later-epoch native mixtures: exact mixture
+records are compared against every native epoch up to the selected checkpoint,
+and exposure is reported, not assumed. Original TRAIN recordings are shared.
+Saved630development-validation results provide a third comparison. This adaptive
+diagnosis separates fit on seen mixtures, other mixtures of known recordings,
+and changed recording/BW conditions; it cannot by itself prove absence of
+memorization. Native source identities and CPU feature receipts are sealed.
+
+`gradient_probe.py` fixes96TRAIN cases (32per count) from the registered epoch1
+fit-gap subset and computes the waveform-loss and0.1count-CE gradients on the
+603,136shared context-encoder parameters. No model update is made. Per-case and
+mean-vector geometry are retained. The prospective follow-up trigger was a
+negative overall cosine and a weighted count-gradient norm at least as large as
+the waveform gradient. This diagnosis is local to a development-selected model,
+not a causal estimate of validation degradation.
+
+The trigger was met. `detach_count.py` runs a matched five-epoch ablation in a
+separate run folder using the same pre-native parent, seed, prepared mixtures,
+fresh optimizer and375updates as the completed native control. A forward pre-hook
+detaches only the encoded input to `count_head`: the count head still learns;
+the encoder learns from waveform loss. Full capacity and numerical forward values
+are unchanged. GPU preflight requires bitwise identical predictions, no count
+gradient on the encoder, a nonzero count-head gradient, and retained waveform
+encoder gradients. Four-case fitting is then discarded and the common parent
+reloaded. Every epoch is reaggregated against the control at the same prefix
+budget; select by the existing mean count2/3 NMSE rule includinge0. No four-phase
+inference is included in this training comparison. The run automatically writes
+`COMPARISON_001` through`005` and completion/failure receipts.
+
+The first phase-inference attempt failed before any scored case because the
+reused raw-IQ batch adapter requested a nonexistent`long_mixture` field. That
+attempt and its dependent cancelled fit-gap attempt are archived locally as
+`phase_attempt1`/`fit_gap_attempt1`. The corrected native six-field batch adapter
+passed all630one-pass reproduction checks. Model weights, inputs and budgets
+were unchanged; failure records were retained.
+
 ## Implementation and checks
 
 `native.py` implements filtering/translation; `native_data.py` is a separate
