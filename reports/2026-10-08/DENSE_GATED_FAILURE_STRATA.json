@@ -1,0 +1,566 @@
+{
+  "exploratory": true,
+  "grouping": "source-power max/min gap on existing validation windows; not activity labels",
+  "groups": {
+    "count2/all": {
+      "cases": 210,
+      "models": {
+        "initial": {
+          "nmse": 0.5021229058032126,
+          "weak_nmse": 0.8420751992955675,
+          "si_sdr": 3.0844158059319198,
+          "weak_si_sdr": -5.599799666237455,
+          "weak_nmse_ge1_fraction": 0.09523809523809523
+        },
+        "base_best": {
+          "nmse": 0.4943152457783993,
+          "weak_nmse": 0.8249205700523488,
+          "si_sdr": 2.8697999900724867,
+          "weak_si_sdr": -5.745432183601554,
+          "weak_nmse_ge1_fraction": 0.10476190476190476
+        },
+        "gate_best": {
+          "nmse": 0.494238631000208,
+          "weak_nmse": 0.8247874559127344,
+          "si_sdr": 2.8678565344562768,
+          "weak_si_sdr": -5.744323110065411,
+          "weak_nmse_ge1_fraction": 0.10476190476190476
+        },
+        "base_last": {
+          "nmse": 0.5083035914556653,
+          "weak_nmse": 0.8470321881754401,
+          "si_sdr": 2.5385251806508364,
+          "weak_si_sdr": -5.990631215813297,
+          "weak_nmse_ge1_fraction": 0.08571428571428572
+        },
+        "gate_last": {
+          "nmse": 0.5084320724023791,
+          "weak_nmse": 0.8472354232821128,
+          "si_sdr": 2.5342219566524955,
+          "weak_si_sdr": -5.984063057357896,
+          "weak_nmse_ge1_fraction": 0.08095238095238096
+        }
+      }
+    },
+    "count2/>30dB": {
+      "cases": 13,
+      "models": {
+        "initial": {
+          "nmse": 1.1472143104201926,
+          "weak_nmse": 2.291161375358361,
+          "si_sdr": 5.6234594448513615,
+          "weak_si_sdr": -17.027809720316906,
+          "weak_nmse_ge1_fraction": 0.6153846153846154
+        },
+        "base_best": {
+          "nmse": 0.9562499729058939,
+          "weak_nmse": 1.9073744797554053,
+          "si_sdr": 4.307447265201503,
+          "weak_si_sdr": -17.54825258350505,
+          "weak_nmse_ge1_fraction": 0.6923076923076923
+        },
+        "gate_best": {
+          "nmse": 0.9558550577262037,
+          "weak_nmse": 1.9065398370738578,
+          "si_sdr": 4.288001794507274,
+          "weak_si_sdr": -17.543206187440614,
+          "weak_nmse_ge1_fraction": 0.6923076923076923
+        },
+        "base_last": {
+          "nmse": 1.0626713171344766,
+          "weak_nmse": 2.1010072076499977,
+          "si_sdr": 2.0068050245312685,
+          "weak_si_sdr": -18.99700572199856,
+          "weak_nmse_ge1_fraction": 0.6923076923076923
+        },
+        "gate_last": {
+          "nmse": 1.064319742607429,
+          "weak_nmse": 2.103352109069381,
+          "si_sdr": 1.9383495488134508,
+          "weak_si_sdr": -18.975010093098806,
+          "weak_nmse_ge1_fraction": 0.6923076923076923
+        }
+      }
+    },
+    "combo/DJI MINI3 + DJI MINI4 PRO": {
+      "cases": 51,
+      "models": {
+        "initial": {
+          "nmse": 0.6392934040416373,
+          "weak_nmse": 1.1588646050716829,
+          "si_sdr": 5.031762594701134,
+          "weak_si_sdr": -8.532872157099256,
+          "weak_nmse_ge1_fraction": 0.21568627450980393
+        },
+        "base_best": {
+          "nmse": 0.5902988782518968,
+          "weak_nmse": 1.0588971250286825,
+          "si_sdr": 4.643794711606993,
+          "weak_si_sdr": -8.395974631762037,
+          "weak_nmse_ge1_fraction": 0.27450980392156865
+        },
+        "gate_best": {
+          "nmse": 0.5900576733150508,
+          "weak_nmse": 1.0584468391850446,
+          "si_sdr": 4.635681809501584,
+          "weak_si_sdr": -8.396552812574122,
+          "weak_nmse_ge1_fraction": 0.27450980392156865
+        },
+        "base_last": {
+          "nmse": 0.6233266386250276,
+          "weak_nmse": 1.1236869909427283,
+          "si_sdr": 3.4318715779570383,
+          "weak_si_sdr": -9.429818032864342,
+          "weak_nmse_ge1_fraction": 0.21568627450980393
+        },
+        "gate_last": {
+          "nmse": 0.624193611742736,
+          "weak_nmse": 1.1250768656940937,
+          "si_sdr": 3.3992905147606662,
+          "weak_si_sdr": -9.430016456764184,
+          "weak_nmse_ge1_fraction": 0.21568627450980393
+        }
+      }
+    },
+    "count2/10-20dB": {
+      "cases": 65,
+      "models": {
+        "initial": {
+          "nmse": 0.44127529686014183,
+          "weak_nmse": 0.8222669350292005,
+          "si_sdr": 3.518344001957569,
+          "weak_si_sdr": -6.168908505762068,
+          "weak_nmse_ge1_fraction": 0.015384615384615385
+        },
+        "base_best": {
+          "nmse": 0.45074690652540267,
+          "weak_nmse": 0.8376198232353999,
+          "si_sdr": 3.2467134771268507,
+          "weak_si_sdr": -6.651039924029209,
+          "weak_nmse_ge1_fraction": 0.03076923076923077
+        },
+        "gate_best": {
+          "nmse": 0.45089556133434744,
+          "weak_nmse": 0.8378529056303698,
+          "si_sdr": 3.244145389114994,
+          "weak_si_sdr": -6.6518019648793665,
+          "weak_nmse_ge1_fraction": 0.03076923076923077
+        },
+        "base_last": {
+          "nmse": 0.4433096648488524,
+          "weak_nmse": 0.8261891392130822,
+          "si_sdr": 3.278594193355102,
+          "weak_si_sdr": -6.781221950530786,
+          "weak_nmse_ge1_fraction": 0.015384615384615385
+        },
+        "gate_last": {
+          "nmse": 0.44336734448462056,
+          "weak_nmse": 0.8261774081297456,
+          "si_sdr": 3.280999108294709,
+          "weak_si_sdr": -6.7700461079096765,
+          "weak_nmse_ge1_fraction": 0
+        }
+      }
+    },
+    "combo/DJI FPV COMBO + DJI MAVIC3 PRO": {
+      "cases": 51,
+      "models": {
+        "initial": {
+          "nmse": 0.4398746353894859,
+          "weak_nmse": 0.6879506272656679,
+          "si_sdr": 2.502589976161834,
+          "weak_si_sdr": -4.081692106894296,
+          "weak_nmse_ge1_fraction": 0.058823529411764705
+        },
+        "base_best": {
+          "nmse": 0.4380134792283796,
+          "weak_nmse": 0.6885028991341472,
+          "si_sdr": 2.6995443194091853,
+          "weak_si_sdr": -3.7003196124370312,
+          "weak_nmse_ge1_fraction": 0.0196078431372549
+        },
+        "gate_best": {
+          "nmse": 0.4380606851127952,
+          "weak_nmse": 0.6885803561326616,
+          "si_sdr": 2.6977783080988615,
+          "weak_si_sdr": -3.701410581583325,
+          "weak_nmse_ge1_fraction": 0.0196078431372549
+        },
+        "base_last": {
+          "nmse": 0.44710797993469414,
+          "weak_nmse": 0.6988265992755279,
+          "si_sdr": 2.3933778998702238,
+          "weak_si_sdr": -4.302260794100342,
+          "weak_nmse_ge1_fraction": 0
+        },
+        "gate_last": {
+          "nmse": 0.4469172787081444,
+          "weak_nmse": 0.6984457202533727,
+          "si_sdr": 2.4025306267104773,
+          "weak_si_sdr": -4.287800364145501,
+          "weak_nmse_ge1_fraction": 0
+        }
+      }
+    },
+    "count2/<=10dB": {
+      "cases": 105,
+      "models": {
+        "initial": {
+          "nmse": 0.4790712406946014,
+          "weak_nmse": 0.6757010563398271,
+          "si_sdr": 2.01115540879167,
+          "weak_si_sdr": -2.2144074684392354,
+          "weak_nmse_ge1_fraction": 0.02857142857142857
+        },
+        "base_best": {
+          "nmse": 0.48111665236910206,
+          "weak_nmse": 0.6795896106720825,
+          "si_sdr": 2.0955976903514406,
+          "weak_si_sdr": -1.9015735790569608,
+          "weak_nmse_ge1_fraction": 0.02857142857142857
+        },
+        "gate_best": {
+          "nmse": 0.48092607071313315,
+          "weak_nmse": 0.6793111561570534,
+          "si_sdr": 2.0976572450750286,
+          "weak_si_sdr": -1.8991955745559304,
+          "weak_nmse_ge1_fraction": 0.02857142857142857
+        },
+        "base_last": {
+          "nmse": 0.4963519315756126,
+          "weak_nmse": 0.6999283587447739,
+          "si_sdr": 1.827636897268339,
+          "weak_si_sdr": -2.0378860762213056,
+          "weak_nmse_ge1_fraction": 0.01904761904761905
+        },
+        "gate_last": {
+          "nmse": 0.4961149246282314,
+          "weak_nmse": 0.6996179271474223,
+          "si_sdr": 1.8349765885737475,
+          "weak_si_sdr": -2.0277668715784753,
+          "weak_nmse_ge1_fraction": 0.01904761904761905
+        }
+      }
+    },
+    "combo/DJI AVATA2 + DJI FPV COMBO": {
+      "cases": 54,
+      "models": {
+        "initial": {
+          "nmse": 0.4253462778387421,
+          "weak_nmse": 0.7040053593319393,
+          "si_sdr": 3.3813917756760294,
+          "weak_si_sdr": -2.5736814294493264,
+          "weak_nmse_ge1_fraction": 0.037037037037037035
+        },
+        "base_best": {
+          "nmse": 0.4373788933490294,
+          "weak_nmse": 0.7209839566174151,
+          "si_sdr": 3.091515633119871,
+          "weak_si_sdr": -3.006569083452868,
+          "weak_nmse_ge1_fraction": 0.037037037037037035
+        },
+        "gate_best": {
+          "nmse": 0.4373315677802336,
+          "weak_nmse": 0.7209288418965262,
+          "si_sdr": 3.0915364921378163,
+          "weak_si_sdr": -3.004622773299094,
+          "weak_nmse_ge1_fraction": 0.037037037037037035
+        },
+        "base_last": {
+          "nmse": 0.4454534304674595,
+          "weak_nmse": 0.7242592783446528,
+          "si_sdr": 3.16249521269748,
+          "weak_si_sdr": -2.8006931121936307,
+          "weak_nmse_ge1_fraction": 0.05555555555555555
+        },
+        "gate_last": {
+          "nmse": 0.44505520940308324,
+          "weak_nmse": 0.7236748951322959,
+          "si_sdr": 3.1684898058804256,
+          "weak_si_sdr": -2.792948780368659,
+          "weak_nmse_ge1_fraction": 0.037037037037037035
+        }
+      }
+    },
+    "count3/all": {
+      "cases": 210,
+      "models": {
+        "initial": {
+          "nmse": 0.6591298832199733,
+          "weak_nmse": 0.956907103511796,
+          "si_sdr": -2.691982633314862,
+          "weak_si_sdr": -11.500684080205225,
+          "weak_nmse_ge1_fraction": 0.18571428571428572
+        },
+        "base_best": {
+          "nmse": 0.6604684955843766,
+          "weak_nmse": 0.9573506173258383,
+          "si_sdr": -2.6699001603911303,
+          "weak_si_sdr": -11.402048656327393,
+          "weak_nmse_ge1_fraction": 0.12380952380952381
+        },
+        "gate_best": {
+          "nmse": 0.6605767683908292,
+          "weak_nmse": 0.9573783966322014,
+          "si_sdr": -2.6685844949806428,
+          "weak_si_sdr": -11.399011105034036,
+          "weak_nmse_ge1_fraction": 0.12380952380952381
+        },
+        "base_last": {
+          "nmse": 0.66577028012802,
+          "weak_nmse": 0.9448765183638919,
+          "si_sdr": -2.892678417222387,
+          "weak_si_sdr": -11.442427669471607,
+          "weak_nmse_ge1_fraction": 0.1
+        },
+        "gate_last": {
+          "nmse": 0.6657155064839303,
+          "weak_nmse": 0.9449832364796932,
+          "si_sdr": -2.8881542215359093,
+          "weak_si_sdr": -11.438137915854261,
+          "weak_nmse_ge1_fraction": 0.1
+        }
+      }
+    },
+    "count3/10-20dB": {
+      "cases": 108,
+      "models": {
+        "initial": {
+          "nmse": 0.6421617954545518,
+          "weak_nmse": 0.9580766713537574,
+          "si_sdr": -2.5064699101260124,
+          "weak_si_sdr": -11.270361113678943,
+          "weak_nmse_ge1_fraction": 0.12962962962962962
+        },
+        "base_best": {
+          "nmse": 0.650431792872157,
+          "weak_nmse": 0.9650574956441306,
+          "si_sdr": -2.6014027560280555,
+          "weak_si_sdr": -11.294363665252131,
+          "weak_nmse_ge1_fraction": 0.05555555555555555
+        },
+        "gate_best": {
+          "nmse": 0.6504621865564445,
+          "weak_nmse": 0.9651156831137314,
+          "si_sdr": -2.6003026172150867,
+          "weak_si_sdr": -11.29340292314106,
+          "weak_nmse_ge1_fraction": 0.05555555555555555
+        },
+        "base_last": {
+          "nmse": 0.6490627533580615,
+          "weak_nmse": 0.9543386538053436,
+          "si_sdr": -2.698890011300388,
+          "weak_si_sdr": -11.526107363870674,
+          "weak_nmse_ge1_fraction": 0.037037037037037035
+        },
+        "gate_last": {
+          "nmse": 0.6490213417744202,
+          "weak_nmse": 0.9545932437693843,
+          "si_sdr": -2.694805965693561,
+          "weak_si_sdr": -11.52190561821093,
+          "weak_nmse_ge1_fraction": 0.037037037037037035
+        }
+      }
+    },
+    "combo/DJI AVATA2 + DJI FPV COMBO + DJI MAVIC3 PRO": {
+      "cases": 210,
+      "models": {
+        "initial": {
+          "nmse": 0.6591298832199733,
+          "weak_nmse": 0.956907103511796,
+          "si_sdr": -2.691982633314862,
+          "weak_si_sdr": -11.500684080205225,
+          "weak_nmse_ge1_fraction": 0.18571428571428572
+        },
+        "base_best": {
+          "nmse": 0.6604684955843766,
+          "weak_nmse": 0.9573506173258383,
+          "si_sdr": -2.6699001603911303,
+          "weak_si_sdr": -11.402048656327393,
+          "weak_nmse_ge1_fraction": 0.12380952380952381
+        },
+        "gate_best": {
+          "nmse": 0.6605767683908292,
+          "weak_nmse": 0.9573783966322014,
+          "si_sdr": -2.6685844949806428,
+          "weak_si_sdr": -11.399011105034036,
+          "weak_nmse_ge1_fraction": 0.12380952380952381
+        },
+        "base_last": {
+          "nmse": 0.66577028012802,
+          "weak_nmse": 0.9448765183638919,
+          "si_sdr": -2.892678417222387,
+          "weak_si_sdr": -11.442427669471607,
+          "weak_nmse_ge1_fraction": 0.1
+        },
+        "gate_last": {
+          "nmse": 0.6657155064839303,
+          "weak_nmse": 0.9449832364796932,
+          "si_sdr": -2.8881542215359093,
+          "weak_si_sdr": -11.438137915854261,
+          "weak_nmse_ge1_fraction": 0.1
+        }
+      }
+    },
+    "combo/DJI AVATA2 + DJI MAVIC3 PRO": {
+      "cases": 54,
+      "models": {
+        "initial": {
+          "nmse": 0.5081396519332461,
+          "weak_nmse": 0.826517140721103,
+          "si_sdr": 1.4977811526886333,
+          "weak_si_sdr": -7.289562134369091,
+          "weak_nmse_ge1_fraction": 0.07407407407407407
+        },
+        "base_best": {
+          "nmse": 0.5137742803911513,
+          "weak_nmse": 0.8367182374323796,
+          "si_sdr": 1.1334419100911868,
+          "weak_si_sdr": -7.912500399920722,
+          "weak_nmse_ge1_fraction": 0.09259259259259259
+        },
+        "gate_best": {
+          "nmse": 0.5137068809276095,
+          "weak_nmse": 0.836607802186274,
+          "si_sdr": 1.13519325301395,
+          "weak_si_sdr": -7.908557226917693,
+          "weak_nmse_ge1_fraction": 0.09259259259259259
+        },
+        "base_last": {
+          "nmse": 0.5203167298870571,
+          "weak_nmse": 0.848491951575928,
+          "si_sdr": 1.2079226496633593,
+          "weak_si_sdr": -7.527020501613655,
+          "weak_nmse_ge1_fraction": 0.07407407407407407
+        },
+        "gate_last": {
+          "nmse": 0.5205758978470041,
+          "weak_nmse": 0.8489137531255355,
+          "si_sdr": 1.2073200586009771,
+          "weak_si_sdr": -7.5226916673862325,
+          "weak_nmse_ge1_fraction": 0.07407407407407407
+        }
+      }
+    },
+    "count3/20-30dB": {
+      "cases": 31,
+      "models": {
+        "initial": {
+          "nmse": 0.6869756501129899,
+          "weak_nmse": 1.045659119403923,
+          "si_sdr": -3.7036767247317344,
+          "weak_si_sdr": -19.72254145873981,
+          "weak_nmse_ge1_fraction": 0.6774193548387096
+        },
+        "base_best": {
+          "nmse": 0.6725101654798591,
+          "weak_nmse": 1.0128007725854091,
+          "si_sdr": -4.093546727032026,
+          "weak_si_sdr": -20.28550273179317,
+          "weak_nmse_ge1_fraction": 0.5483870967741935
+        },
+        "gate_best": {
+          "nmse": 0.6732830411522404,
+          "weak_nmse": 1.0128540925630223,
+          "si_sdr": -4.093297975474555,
+          "weak_si_sdr": -20.28203677756563,
+          "weak_nmse_ge1_fraction": 0.5483870967741935
+        },
+        "base_last": {
+          "nmse": 0.6585895130964868,
+          "weak_nmse": 1.003233871262045,
+          "si_sdr": -4.187407028914395,
+          "weak_si_sdr": -20.3130866250077,
+          "weak_nmse_ge1_fraction": 0.5483870967741935
+        },
+        "gate_last": {
+          "nmse": 0.6587305032805045,
+          "weak_nmse": 1.0032522782189848,
+          "si_sdr": -4.184009710689951,
+          "weak_si_sdr": -20.311714110051955,
+          "weak_nmse_ge1_fraction": 0.5483870967741935
+        }
+      }
+    },
+    "count2/20-30dB": {
+      "cases": 27,
+      "models": {
+        "initial": {
+          "nmse": 0.4276536894211028,
+          "weak_nmse": 0.8390641585122447,
+          "si_sdr": 4.991061793046969,
+          "weak_si_sdr": -11.892761721670064,
+          "weak_nmse_ge1_fraction": 0.2962962962962963
+        },
+        "base_best": {
+          "nmse": 0.4281168349177904,
+          "weak_nmse": 0.8383427349371598,
+          "si_sdr": 4.281001850646522,
+          "weak_si_sdr": -12.830764966958565,
+          "weak_nmse_ge1_fraction": 0.2962962962962963
+        },
+        "gate_best": {
+          "nmse": 0.42809436474042445,
+          "weak_nmse": 0.838231022120349,
+          "si_sdr": 4.273421773402629,
+          "weak_si_sdr": -12.831981838202845,
+          "weak_nmse_ge1_fraction": 0.2962962962962963
+        },
+        "base_last": {
+          "nmse": 0.44433133527136215,
+          "weak_nmse": 0.8655145963089207,
+          "si_sdr": 3.777456512463406,
+          "weak_si_sdr": -13.196815412854551,
+          "weak_nmse_ge1_fraction": 0.2222222222222222
+        },
+        "gate_last": {
+          "nmse": 0.44531978048660753,
+          "weak_nmse": 0.8672017626825527,
+          "si_sdr": 3.7426141823351715,
+          "weak_si_sdr": -13.222577492777955,
+          "weak_nmse_ge1_fraction": 0.2222222222222222
+        }
+      }
+    },
+    "count3/<=10dB": {
+      "cases": 71,
+      "models": {
+        "initial": {
+          "nmse": 0.6727824846985934,
+          "weak_nmse": 0.9163771623908413,
+          "si_sdr": -2.5324454117722253,
+          "weak_si_sdr": -8.26120945556109,
+          "weak_nmse_ge1_fraction": 0.056338028169014086
+        },
+        "base_best": {
+          "nmse": 0.6704779621500069,
+          "weak_nmse": 0.9214168473058062,
+          "si_sdr": -2.1525012322973893,
+          "weak_si_sdr": -7.687159961914563,
+          "weak_nmse_ge1_fraction": 0.04225352112676056
+        },
+        "gate_best": {
+          "nmse": 0.6704145202571645,
+          "weak_nmse": 0.9213872203806422,
+          "si_sdr": -2.1503918879858364,
+          "weak_si_sdr": -7.681150369765896,
+          "weak_nmse_ge1_fraction": 0.04225352112676056
+        },
+        "base_last": {
+          "nmse": 0.6943198106791898,
+          "weak_nmse": 0.9050034399481238,
+          "si_sdr": -2.6221511056325784,
+          "weak_si_sdr": -7.442035632616422,
+          "weak_nmse_ge1_fraction": 0
+        },
+        "gate_last": {
+          "nmse": 0.6941592372998923,
+          "weak_nmse": 0.9049237846317401,
+          "si_sdr": -2.616465368961238,
+          "weak_si_sdr": -7.436338283816957,
+          "weak_nmse_ge1_fraction": 0
+        }
+      }
+    }
+  }
+}

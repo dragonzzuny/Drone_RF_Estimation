@@ -1,0 +1,140 @@
+{
+  "status": "FIXED_TRAINING_FIT_DIAGNOSTIC",
+  "seed": 0,
+  "max_updates": 300,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0,
+  "effective_batch": 4,
+  "microbatch": 1,
+  "full_model": true,
+  "architecture": "unet_mean",
+  "initialization": "preserved same-band e22",
+  "initialization_sha256": "3cd9b3b7e069569b5c1d4de8b49f7ecea1ead47539a79e0abd3b51e23e31b115",
+  "source_sha256": {
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/rfuav_dense_gated_20261008/analysis/fixed_mix_fit.py": "bef7088cb6380cfa959b08f8334a1c6e81a9e4f4661c05dd82093f1b22f1474b",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/rfuav_dense_gated_20261008/cpu_check.py": "e9189ca0f2d1b20a4f36c8d266a3d59ffce1f83f4f80f3eb1083fc7f5641b4a2",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/rfuav_dense_gated_20261008/dense_data.py": "a5604c104332731f7dfa220de74bdd2af2c7efdb5b57af860eae3348e2aa4f3d",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/rfuav_dense_gated_20261008/models.py": "b48e5852e194d4c7fca3e636bb79f918da478a4880fc83397c8afd2e538a136c",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/rfuav_dense_gated_20261008/prepare_dense_gated.py": "eab1ef23cd3af6c58832e8416aa0108c2090b8610e1919612cee2a8e21fd150b",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/rfuav_dense_gated_20261008/study.py": "2e2cb2401c546405959d0de3d4ebccf08f55b0e977ea6825d001c7e663df0edd",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/rfuav_dense_gated_20261008/test_models.py": "f652b3d012f60fc86aa099beba28147ed75bc9fc3b3f0b4170c3d4d8f1999110",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/rfuav_dense_gated_20261008/vendor/drone_rf/__init__.py": "9452c5c2cea105ebfc875e0128e2b99b459806ff14c2cd59236c3273575016f4",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_data.py": "97886c6accb9e228b85b6fda7efb76cea8e4b4a75e5420c39b115dcf65281268",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_model.py": "a6bb37a4a5fb8c5c7f0472b76a92d80f178183d91118367b74fe557873d64794",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_training_data.py": "4222e700c5e77761c7fb05269bd86420896fa2fbcdcbe707a97c08e3f63eaee7",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/rfuav_dense_gated_20261008/vendor/drone_rf/data.py": "2c8abdc30d724e3fd61ca4145f158145139a8c9f69f1d66dc4c888ad1653df6e",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/rfuav_dense_gated_20261008/vendor/drone_rf/losses.py": "a51e179ea16d094cf122ec6491d79b26c66e3ed84294e396112156fb3ac8a4d6",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/rfuav_dense_gated_20261008/vendor/drone_rf/mixture_constraints.py": "306709a6de32ed01581bd3facc8c45e91de6770de07b1fb9e2457f3ecc99372c",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/rfuav_dense_gated_20261008/vendor/drone_rf/model.py": "c97c64d315637c7799e59147ce37dfce910bdb6ff385c2733153720cfdf47105",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/rfuav_dense_gated_20261008/vendor/drone_rf/similarity.py": "a8166bcc7adefec50b30c0374f84964b36943395d64ba3e91400f7b8147c561a",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/rfuav_dense_gated_20261008/vendor/drone_rf/temporal.py": "47c237184e31050706abefd0bc91bce80c1492866f5c26e0e9333fe1712da253",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/rfuav_dense_gated_20261008/vendor/drone_rf/waveform.py": "7f27d74ffef9ac5f52c34559d66ddd512f76abe83a4ba825887fc94bd1c3159d",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/rfuav_dense_gated_20261008/vendor/drone_rf/within_dataset_schedule.py": "edcddbf19df88bd0ec4ac6558776d6b75dfa983589850aa742bcaf8306ffaf18",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/rfuav_dense_gated_20261008/verify_dense.py": "9fafe10f20057b434ab102b1e12cd298a6c9b2d4293234670590fbe5425ae276"
+  },
+  "preparation_sha256": "48ff00c8f9f7db4f0e95e68441cd7e882a45e1814bdaa3201ef3d6b545594976",
+  "examples": [
+    {
+      "schedule_index": 4,
+      "count": 2,
+      "power_gap_db": 1.1811241308901956,
+      "clip_ids": [
+        "793e7d2b4c548e9cb9b392cc",
+        "9dceaf39ec622f458a00a966"
+      ],
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "cache_sha256": [
+        "21e91a76865ae3db2b2559ffcbfbfd919cb9261d2f463e002c9744eac4fb53b0",
+        "7d146519063be5ab41c229a5bc16a52ac7dfdab1731bbfd105c33b4a47006702"
+      ],
+      "crop_start": 962379,
+      "reference_power": [
+        0.23921061598600252,
+        0.1822502095400434
+      ]
+    },
+    {
+      "schedule_index": 5,
+      "count": 2,
+      "power_gap_db": 3.5765018605624905,
+      "clip_ids": [
+        "acebeaba2b103632b734d87d",
+        "57def6b1cab0fb32462561f0"
+      ],
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "cache_sha256": [
+        "fdb2cbd03034f622009e4229a99db955d179a804d0adec29f3246bd66c7a9744",
+        "fc741026b376152012d9c90b5e1a4eb771d7ff27abbc6222eeb0ac34bbaf4c37"
+      ],
+      "crop_start": 412087,
+      "reference_power": [
+        2.992941944174761,
+        1.3135545303191787
+      ]
+    },
+    {
+      "schedule_index": 2,
+      "count": 3,
+      "power_gap_db": 6.953985239226629,
+      "clip_ids": [
+        "44b38ad8c095cd17695b8fd0",
+        "9b07c85fde90c20c09144e57",
+        "7000ea12e58f6a180edffbcf"
+      ],
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "cache_sha256": [
+        "9fc6f47ea2b774709378cb5ea7dad7bbda1437af0a35864c39e03033e626bb89",
+        "93be883ec7299c27beb68f8864551253475f090393a2e2e361ed5c91bc1bfa1f",
+        "0b839b8686332566525dd4f8ebdf93580775031cab4f8f4278d36b75b61437b6"
+      ],
+      "crop_start": 244216,
+      "reference_power": [
+        0.2676833405530121,
+        0.32937702790764034,
+        0.06641937467784077
+      ]
+    },
+    {
+      "schedule_index": 33,
+      "count": 3,
+      "power_gap_db": 5.16077931216527,
+      "clip_ids": [
+        "2d3f8a22b9bae6b42594171c",
+        "16252ccb455c648ace43ca87",
+        "2f10ee5e0fda3972c37a9538"
+      ],
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "cache_sha256": [
+        "3fec8be029b09f775dd4e17dd94532987d5c25c2c518c9be44d9f39f96769c4e",
+        "64b045d84f21bcba3ad08d77475ceaada4bf6c2c722c4c52e7ca6564d5b62a3f",
+        "b5798b65d629322a908851627ee81c530213e893afa853b3841b795743728ed6"
+      ],
+      "crop_start": 1548056,
+      "reference_power": [
+        0.06527535506377641,
+        0.019891673017630753,
+        0.05911694169233068
+      ]
+    }
+  ],
+  "selection": "first two per source count with local power gap <=10dB",
+  "fit_target": "all ten active components NMSE<0.05 and complex SI-SDR>10dB",
+  "failure_interpretation": "not fit under this budget; does not prove model incapacity",
+  "no_validation_or_heldout_iq": true,
+  "generalization_claim": false,
+  "original_checkpoints_untouched": true
+}
