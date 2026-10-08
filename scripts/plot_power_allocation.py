@@ -4,7 +4,6 @@ import csv
 import hashlib
 import json
 from pathlib import Path
-import subprocess
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -33,8 +32,14 @@ def main(source,output,complete):
             raise FileExistsError(output.with_suffix(suffix))
     with output.with_suffix('.csv').open('w') as stream:
         writer=csv.DictWriter(stream,fieldnames=list(rows[0]));writer.writeheader();writer.writerows(rows)
-    font=Path(subprocess.check_output(['fc-match','-f','%{file}','Noto Sans CJK KR'],text=True).strip())
+    font=Path.home()/'.fonts/pretendard/Pretendard-Regular.ttf'
+    if not font.is_file():
+        raise FileNotFoundError(f'Install the local TrueType Korean font before plotting: {font}')
     family=font_manager.FontProperties(fname=font).get_name()
+    # Use TrueType outlines with PDF Type42; avoid CFF-in-TTC embedding warnings.
+    font_manager.fontManager.ttflist=[f for f in font_manager.fontManager.ttflist if f.name!=family]
+    for path in (font,font.with_name('Pretendard-Bold.ttf')):
+        font_manager.fontManager.addfont(str(path))
     styles=dict(waveform_only=dict(color='#0072B2',marker='o',linestyle='-',label='기존 파형 손실'),
         waveform_allocation=dict(color='#D55E00',marker='s',linestyle='--',label='파형 + 전력 배분 손실'))
     shown=[r for r in rows if r['paired_budget'] and r['count']>1]
@@ -66,10 +71,13 @@ def main(source,output,complete):
         plt.close(fig)
     provenance=dict(source=str(source.resolve()),source_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),
         source_all_rows_audited=True,common_epochs=common,all_completed_aggregates_in_csv=True,
-        plot_exclusion='not-yet-paired later epochs omitted only from paired trajectory; retained in CSV',
+        displayed_source_counts=[2,3],all_source_counts_in_csv=[1,2,3],
+        displayed_epochs=list(range(common+1)),
+        unpaired_epochs_omitted_from_plot=any(not row['paired_budget'] for row in rows),
         transformation='unchanged linear-scale means; no smoothing; same limits within metric columns',
         uncertainty='not estimated: single seed, repeated dependent development mixtures',
-        axis_limits=limits,font_path=str(font),matplotlib_version=matplotlib.__version__,
+        axis_limits=limits,font_path=str(font),font_sha256=hashlib.sha256(font.read_bytes()).hexdigest(),
+        matplotlib_version=matplotlib.__version__,
         size_inches=[9,6.8],png_dpi=300,publisher_requirements='unspecified; provisional research report figure',
         procedure_reference='Kassis, T., Agarwal, V., He, Y., Patel, D., & Brueckner, A. M. (2026). Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents. https://doi.org/10.48550/arXiv.2609.00065; v2 checked 2026-10-09')
     output.with_suffix('.json').write_text(json.dumps(provenance,ensure_ascii=False,indent=2)+'\n')

@@ -1,0 +1,59 @@
+{
+  "source": "/home/pyj/문서/GitHub/Drone_RF_Estimation/reports/2026-10-09/POWER_ALLOCATION_FINAL.json",
+  "source_sha256": "4b36e06c5cb28ade445f8e79858db6b0f35a1aa3f18919bbecac36e0798162de",
+  "source_all_rows_audited": true,
+  "common_epochs": 5,
+  "all_completed_aggregates_in_csv": true,
+  "displayed_source_counts": [
+    2,
+    3
+  ],
+  "all_source_counts_in_csv": [
+    1,
+    2,
+    3
+  ],
+  "displayed_epochs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "unpaired_epochs_omitted_from_plot": false,
+  "transformation": "unchanged linear-scale means; no smoothing; same limits within metric columns",
+  "uncertainty": "not estimated: single seed, repeated dependent development mixtures",
+  "axis_limits": [
+    [
+      [
+        0.4817598545826497,
+        0.6821597959166792
+      ],
+      [
+        -3.6343924007713677,
+        3.1795234372555274
+      ]
+    ],
+    [
+      [
+        0.4817598545826497,
+        0.6821597959166792
+      ],
+      [
+        -3.6343924007713677,
+        3.1795234372555274
+      ]
+    ]
+  ],
+  "font_path": "/home/pyj/.fonts/pretendard/Pretendard-Regular.ttf",
+  "font_sha256": "6d0af5258997aec7354a6e340fc2325ba321c410ca48b3af858c8c3d6e92a324",
+  "matplotlib_version": "3.10.8",
+  "size_inches": [
+    9,
+    6.8
+  ],
+  "png_dpi": 300,
+  "publisher_requirements": "unspecified; provisional research report figure",
+  "procedure_reference": "Kassis, T., Agarwal, V., He, Y., Patel, D., & Brueckner, A. M. (2026). Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents. https://doi.org/10.48550/arXiv.2609.00065; v2 checked 2026-10-09"
+}

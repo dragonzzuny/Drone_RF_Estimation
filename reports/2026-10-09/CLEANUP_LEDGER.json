@@ -14,6 +14,90 @@
       "sha256": "843b2dc1aea7bfdaa654717e542ee9ccb9e0ec6c3c92dba2c26ea762327bb2ea",
       "replacement": "reports/2026-10-09/PHASE_AVERAGE_FINAL.md",
       "reason": "uncommitted generated interim report superseded by fully audited final report; all numerical worker evidence retained locally"
+    },
+    {
+      "path": "reports/2026-10-09/POWER_ALLOCATION_EPOCHS.pdf",
+      "bytes": 29242,
+      "sha256": "b064ebc51cda9c4652666582e59988f5d671d3eba1f690643b7e5d0d26356f70",
+      "replacement": "reports/2026-10-09/POWER_ALLOCATION_EPOCHS",
+      "reason": "regenerable interim figure or export with CFF font warning; replace with audited final TrueType export; numerical epoch receipts and checkpoints retained"
+    },
+    {
+      "path": "reports/2026-10-09/POWER_ALLOCATION_EPOCHS.png",
+      "bytes": 259090,
+      "sha256": "f9d0e35d266fcf83190c08c2bbb53aa940507f06aa4fb6347a4f357c2e6a2c2c",
+      "replacement": "reports/2026-10-09/POWER_ALLOCATION_EPOCHS",
+      "reason": "regenerable interim figure or export with CFF font warning; replace with audited final TrueType export; numerical epoch receipts and checkpoints retained"
+    },
+    {
+      "path": "reports/2026-10-09/POWER_ALLOCATION_EPOCHS.csv",
+      "bytes": 3284,
+      "sha256": "1934c91cc10b160f1bbf50d70a587c9e0e4698453043f6b4e06cdf55ffaff892",
+      "replacement": "reports/2026-10-09/POWER_ALLOCATION_EPOCHS",
+      "reason": "regenerable interim figure or export with CFF font warning; replace with audited final TrueType export; numerical epoch receipts and checkpoints retained"
+    },
+    {
+      "path": "reports/2026-10-09/POWER_ALLOCATION_EPOCHS.json",
+      "bytes": 1531,
+      "sha256": "2db0b5df2871e5627090846bcf44ec4279d9e1abd30a257cfc8fee8b66f3cd10",
+      "replacement": "reports/2026-10-09/POWER_ALLOCATION_EPOCHS",
+      "reason": "regenerable interim figure or export with CFF font warning; replace with audited final TrueType export; numerical epoch receipts and checkpoints retained"
+    },
+    {
+      "path": "reports/2026-10-09/POWER_ALLOCATION_EPOCHS.md",
+      "bytes": 1085,
+      "sha256": "4846375118cacee0032657bbbf5c3c55cc6b104a955535e74c742f51f84e6ed5",
+      "replacement": "reports/2026-10-09/POWER_ALLOCATION_EPOCHS",
+      "reason": "regenerable interim figure or export with CFF font warning; replace with audited final TrueType export; numerical epoch receipts and checkpoints retained"
+    },
+    {
+      "path": "local/power_allocation_20261009_v1/figure_preview.pdf",
+      "bytes": 28286,
+      "sha256": "913a960dab9b7b301b7e50c61d54f781eeea92cddc6bf3b7f9957c675bae3937",
+      "replacement": "reports/2026-10-09/POWER_ALLOCATION_EPOCHS",
+      "reason": "regenerable interim figure or export with CFF font warning; replace with audited final TrueType export; numerical epoch receipts and checkpoints retained"
+    },
+    {
+      "path": "local/power_allocation_20261009_v1/figure_preview.json",
+      "bytes": 1419,
+      "sha256": "b0e7108a05633f1709067f804453b60d5ba16ded286a5042c73458fcf8819ba4",
+      "replacement": "reports/2026-10-09/POWER_ALLOCATION_EPOCHS",
+      "reason": "regenerable interim figure or export with CFF font warning; replace with audited final TrueType export; numerical epoch receipts and checkpoints retained"
+    },
+    {
+      "path": "local/power_allocation_20261009_v1/figure_preview.csv",
+      "bytes": 1945,
+      "sha256": "285e5cc21a15b9b6b30765428bbfa9981aa47ab0329aa9341a64fed25d68af7a",
+      "replacement": "reports/2026-10-09/POWER_ALLOCATION_EPOCHS",
+      "reason": "regenerable interim figure or export with CFF font warning; replace with audited final TrueType export; numerical epoch receipts and checkpoints retained"
+    },
+    {
+      "path": "local/power_allocation_20261009_v1/figure_preview.md",
+      "bytes": 1085,
+      "sha256": "e5aaeb8bb49914f7b60cb4d9b40cf75520d9fa878c0b979fa0ecf8515bad129e",
+      "replacement": "reports/2026-10-09/POWER_ALLOCATION_EPOCHS",
+      "reason": "regenerable interim figure or export with CFF font warning; replace with audited final TrueType export; numerical epoch receipts and checkpoints retained"
+    },
+    {
+      "path": "local/power_allocation_20261009_v1/figure_preview.png",
+      "bytes": 246009,
+      "sha256": "7bee646e3e15692da6dbb10e18b6b7fa68a9346a0d0f1e2142f01ba0577853d5",
+      "replacement": "reports/2026-10-09/POWER_ALLOCATION_EPOCHS",
+      "reason": "regenerable interim figure or export with CFF font warning; replace with audited final TrueType export; numerical epoch receipts and checkpoints retained"
+    },
+    {
+      "path": "local/power_allocation_20261009_v1/FIGURE_INPUT.json",
+      "bytes": 46017,
+      "sha256": "21859969949547b2beb3f23f8c38e1b37e6de9ee0cf51977dd4c217c85480544",
+      "replacement": "reports/2026-10-09/POWER_ALLOCATION_EPOCHS",
+      "reason": "regenerable interim figure or export with CFF font warning; replace with audited final TrueType export; numerical epoch receipts and checkpoints retained"
+    },
+    {
+      "path": "local/power_allocation_20261009_v1/FIGURE_INPUT.md",
+      "bytes": 2765,
+      "sha256": "9d8be8cb78d56d4de62b6385cc80b202e75af4a50f31dac5a48dc76ef9b24410",
+      "replacement": "reports/2026-10-09/POWER_ALLOCATION_EPOCHS",
+      "reason": "regenerable interim figure or export with CFF font warning; replace with audited final TrueType export; numerical epoch receipts and checkpoints retained"
     }
   ],
   "raw_iq_or_checkpoint_deleted": false

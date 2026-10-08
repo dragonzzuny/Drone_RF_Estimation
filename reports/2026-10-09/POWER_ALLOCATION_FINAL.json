@@ -1,0 +1,2127 @@
+{
+  "updated_at": "2026-10-09T02:59:33+09:00",
+  "status": "COMPLETED",
+  "common_completed_epoch": 5,
+  "updates_per_arm": 375,
+  "protocol_sha256": "b022995becfb5f0cab88d4cd400025150763575d789e2fbe0d91581159be47cd",
+  "protocol": {
+    "status": "FROZEN_MATCHED_POWER_ALLOCATION",
+    "source_sha256": {
+      "experiments/rfuav_power_allocation_20261009/allocation.py": "8173f75fd6b2afbe6d724bc4531930785c9362d657aed6c25abb4ce02137b6e6",
+      "experiments/rfuav_power_allocation_20261009/run_allocation.py": "1a7ec61cb51f670dc184cea86619f6ee4e1840b79246a840cba549ed69d83fe0",
+      "experiments/rfuav_power_allocation_20261009/test_allocation.py": "643bcff32d124425143512b948cb9db234602a5dd92efe33b6dd8ad2e88a1bc4",
+      "experiments/rfuav_dense_gated_20261008/cpu_check.py": "e9189ca0f2d1b20a4f36c8d266a3d59ffce1f83f4f80f3eb1083fc7f5641b4a2",
+      "experiments/rfuav_dense_gated_20261008/test_models.py": "f652b3d012f60fc86aa099beba28147ed75bc9fc3b3f0b4170c3d4d8f1999110",
+      "experiments/rfuav_dense_gated_20261008/study.py": "2e2cb2401c546405959d0de3d4ebccf08f55b0e977ea6825d001c7e663df0edd",
+      "experiments/rfuav_dense_gated_20261008/models.py": "b48e5852e194d4c7fca3e636bb79f918da478a4880fc83397c8afd2e538a136c",
+      "experiments/rfuav_dense_gated_20261008/dense_data.py": "a5604c104332731f7dfa220de74bdd2af2c7efdb5b57af860eae3348e2aa4f3d",
+      "experiments/rfuav_dense_gated_20261008/verify_dense.py": "9fafe10f20057b434ab102b1e12cd298a6c9b2d4293234670590fbe5425ae276",
+      "experiments/rfuav_dense_gated_20261008/prepare_dense_gated.py": "eab1ef23cd3af6c58832e8416aa0108c2090b8610e1919612cee2a8e21fd150b",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_training_data.py": "4222e700c5e77761c7fb05269bd86420896fa2fbcdcbe707a97c08e3f63eaee7",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/temporal.py": "47c237184e31050706abefd0bc91bce80c1492866f5c26e0e9333fe1712da253",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/similarity.py": "a8166bcc7adefec50b30c0374f84964b36943395d64ba3e91400f7b8147c561a",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_data.py": "97886c6accb9e228b85b6fda7efb76cea8e4b4a75e5420c39b115dcf65281268",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/within_dataset_schedule.py": "edcddbf19df88bd0ec4ac6558776d6b75dfa983589850aa742bcaf8306ffaf18",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/losses.py": "a51e179ea16d094cf122ec6491d79b26c66e3ed84294e396112156fb3ac8a4d6",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/waveform.py": "7f27d74ffef9ac5f52c34559d66ddd512f76abe83a4ba825887fc94bd1c3159d",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_model.py": "a6bb37a4a5fb8c5c7f0472b76a92d80f178183d91118367b74fe557873d64794",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/data.py": "2c8abdc30d724e3fd61ca4145f158145139a8c9f69f1d66dc4c888ad1653df6e",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/__init__.py": "9452c5c2cea105ebfc875e0128e2b99b459806ff14c2cd59236c3273575016f4",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/model.py": "c97c64d315637c7799e59147ce37dfce910bdb6ff385c2733153720cfdf47105",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/mixture_constraints.py": "306709a6de32ed01581bd3facc8c45e91de6770de07b1fb9e2457f3ecc99372c"
+    },
+    "data_sha256": {
+      "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_preparation/PREPARATION.json": "48ff00c8f9f7db4f0e95e68441cd7e882a45e1814bdaa3201ef3d6b545594976",
+      "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_preparation/TRAIN.npy": "ef9e1e78d99c65f2aafb30491da6f371e9476ba6f75a7bc2bc3571b668e6b3f0",
+      "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_preparation/VALIDATION.npy": "18af759fde10a5c9218c202715762b34604d8210ef38f563485cd005215a1646",
+      "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_preparation/CACHE_MANIFEST.json": "8900eb833daa866099c002f658ccad8397bd85e5974ecc26a8e6467016acb6f2",
+      "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_gpu_run/unet_mean/SELECTED_005.pt": "86470af0de460d6b71072e08fb19ec77bfb9d3545a41e7da728fad084870a356"
+    },
+    "arms": [
+      "waveform_only",
+      "waveform_allocation"
+    ],
+    "weights": {
+      "waveform_only": 0.0,
+      "waveform_allocation": 0.1
+    },
+    "seed": 0,
+    "parameters": 32142859,
+    "epochs": 5,
+    "examples_per_epoch": 2400,
+    "effective_batch": 32,
+    "microbatch": 2,
+    "updates_per_epoch": 75,
+    "total_updates_per_arm": 375,
+    "optimizer": "fresh AdamW",
+    "lr": 1e-05,
+    "weight_decay": 0.0001,
+    "gradient_clip": 1.0,
+    "precision": "float32 TF32 disabled",
+    "parent": "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_gpu_run/unet_mean/SELECTED_005.pt",
+    "parent_sha256": "86470af0de460d6b71072e08fb19ec77bfb9d3545a41e7da728fad084870a356",
+    "parent_selected_additional_epoch": 1,
+    "source_prediction": "unchanged full STFT U-Net; three unordered outputs and background",
+    "main_loss": "existing whole-window PIT NMSE + coherence + background; 0.1 count CE",
+    "auxiliary": "reference-energy-weighted KL of relative STFT source powers, existing waveform PIT assignment, background target zero",
+    "eps": "relative 1e-8 smoothing of predicted power only; no phase/gain fitting",
+    "selection": "minimum mean NMSE over counts2/3 including epoch0",
+    "acceptance": "NMSE down AND complex SI-SDR up separately for counts2/3",
+    "diagnostic": "same four TRAIN mixtures, each arm32 updates; discard weights, not generalized performance",
+    "train_indices": [
+      4,
+      5,
+      2,
+      11
+    ],
+    "cpu_gpu_parallel": true,
+    "validation_cases": 630,
+    "heldout_access": false,
+    "physical_aircraft_count": false,
+    "native_center_offsets_preserved": false,
+    "data_scope": "same frozen RFUAV records, same native band per center-aligned synthetic mixture"
+  },
+  "arms": {
+    "waveform_only": {
+      "initial": {
+        "epoch": 0,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.03098302914841512,
+            "mean_si_sdr": 20.703362538623775,
+            "mean_si_sdr_gain": null,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 1,
+            "weakest_nmse": 0.03098302914841512,
+            "all_sources_gain_positive": null,
+            "construction_count_accuracy": 0.5857142857142857
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.4943152457783993,
+            "mean_si_sdr": 2.8697999900724867,
+            "mean_si_sdr_gain": 2.8288926358053836,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 0,
+            "weakest_nmse": 0.8249205700523486,
+            "all_sources_gain_positive": 0.5047619047619047,
+            "construction_count_accuracy": 0.5523809523809524
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.6604684955843766,
+            "mean_si_sdr": -2.6699001603911303,
+            "mean_si_sdr_gain": 2.6112820782636144,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 0,
+            "weakest_nmse": 0.9573506173258381,
+            "all_sources_gain_positive": 0.5380952380952381,
+            "construction_count_accuracy": 0.5904761904761905
+          }
+        ],
+        "selection_nmse": 0.577391870681388,
+        "two_three_nmse": 0.577391870681388,
+        "independent_test": false,
+        "physical_aircraft_count": false,
+        "whole_record_tracking": false,
+        "legacy_all_count_nmse": 0.39525559017039696
+      },
+      "epochs": [
+        {
+          "epoch": 1,
+          "updates": 75,
+          "best": {
+            "epoch": 1,
+            "metric": 0.5748430954988539
+          },
+          "train_seconds": 578.0874974727631,
+          "peak_allocated_bytes": 4374932480,
+          "average_loss": 0.5628988543104303,
+          "primary_loss": 0.5628988543104303,
+          "allocation_loss": 0.3505588310654275,
+          "protocol_sha256": "b022995becfb5f0cab88d4cd400025150763575d789e2fbe0d91581159be47cd",
+          "metrics": {
+            "epoch": 1,
+            "by_count": [
+              {
+                "count": 1,
+                "cases": 210,
+                "mean_nmse": 0.028234568423486237,
+                "mean_si_sdr": 21.05615250317141,
+                "mean_si_sdr_gain": null,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 1,
+                "weakest_nmse": 0.028234568423486237,
+                "all_sources_gain_positive": null,
+                "construction_count_accuracy": 0.5857142857142857
+              },
+              {
+                "count": 2,
+                "cases": 210,
+                "mean_nmse": 0.49086894282510557,
+                "mean_si_sdr": 2.7921579341897114,
+                "mean_si_sdr_gain": 2.751250579922609,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 0,
+                "weakest_nmse": 0.8188948275058695,
+                "all_sources_gain_positive": 0.5142857142857142,
+                "construction_count_accuracy": 0.5523809523809524
+              },
+              {
+                "count": 3,
+                "cases": 210,
+                "mean_nmse": 0.6588172481726023,
+                "mean_si_sdr": -2.963377285630462,
+                "mean_si_sdr_gain": 2.317804953024283,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 0,
+                "weakest_nmse": 0.9543320330708313,
+                "all_sources_gain_positive": 0.48095238095238096,
+                "construction_count_accuracy": 0.5714285714285714
+              }
+            ],
+            "selection_nmse": 0.5748430954988539,
+            "two_three_nmse": 0.5748430954988539,
+            "independent_test": false,
+            "physical_aircraft_count": false,
+            "whole_record_tracking": false,
+            "legacy_all_count_nmse": 0.3926402531403981
+          },
+          "diagnostics": [
+            {
+              "count": 1,
+              "cases": 210,
+              "case_mean_nmse_median": 0.010611197520334077,
+              "case_mean_nmse_p90": 0.07858586833770083,
+              "case_mean_nmse_max": 0.21949849634262938,
+              "predicted_count_histogram": [
+                123,
+                42,
+                45
+              ],
+              "mean_background_nmse": 0.0009362002416551378,
+              "local_power_gap": []
+            },
+            {
+              "count": 2,
+              "cases": 210,
+              "case_mean_nmse_median": 0.49171774313143324,
+              "case_mean_nmse_p90": 0.646782085937148,
+              "case_mean_nmse_max": 3.7214164943651418,
+              "predicted_count_histogram": [
+                45,
+                116,
+                49
+              ],
+              "mean_background_nmse": 0.0017174317570861181,
+              "local_power_gap": [
+                {
+                  "lower_db": 0,
+                  "upper_db": 10,
+                  "cases": 105,
+                  "mean_nmse": 0.4818943103281461,
+                  "mean_si_sdr": 2.0019316850515656
+                },
+                {
+                  "lower_db": 10,
+                  "upper_db": 20,
+                  "cases": 65,
+                  "mean_nmse": 0.4391154532734932,
+                  "mean_si_sdr": 3.347087484989116
+                },
+                {
+                  "lower_db": 20,
+                  "upper_db": null,
+                  "cases": 40,
+                  "mean_nmse": 0.5985267736509946,
+                  "mean_si_sdr": 3.9647413181283104
+                }
+              ]
+            },
+            {
+              "count": 3,
+              "cases": 210,
+              "case_mean_nmse_median": 0.6498068602370388,
+              "case_mean_nmse_p90": 0.8061384754782529,
+              "case_mean_nmse_max": 1.261046790329746,
+              "predicted_count_histogram": [
+                6,
+                84,
+                120
+              ],
+              "mean_background_nmse": 0.002508272665438436,
+              "local_power_gap": [
+                {
+                  "lower_db": 0,
+                  "upper_db": 10,
+                  "cases": 71,
+                  "mean_nmse": 0.682440775195795,
+                  "mean_si_sdr": -2.7149928014928655
+                },
+                {
+                  "lower_db": 10,
+                  "upper_db": 20,
+                  "cases": 108,
+                  "mean_nmse": 0.649952608066598,
+                  "mean_si_sdr": -2.7621211446730998
+                },
+                {
+                  "lower_db": 20,
+                  "upper_db": null,
+                  "cases": 31,
+                  "mean_nmse": 0.6355950131016922,
+                  "mean_si_sdr": -4.23340830489383
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "epoch": 2,
+          "updates": 150,
+          "best": {
+            "epoch": 1,
+            "metric": 0.5748430954988539
+          },
+          "train_seconds": 539.7968707084656,
+          "peak_allocated_bytes": 4374932480,
+          "average_loss": 0.5578861496900208,
+          "primary_loss": 0.5578861496900208,
+          "allocation_loss": 0.36261752550533854,
+          "protocol_sha256": "b022995becfb5f0cab88d4cd400025150763575d789e2fbe0d91581159be47cd",
+          "metrics": {
+            "epoch": 2,
+            "by_count": [
+              {
+                "count": 1,
+                "cases": 210,
+                "mean_nmse": 0.025512268216607067,
+                "mean_si_sdr": 21.79123380695231,
+                "mean_si_sdr_gain": null,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 1,
+                "weakest_nmse": 0.025512268216607067,
+                "all_sources_gain_positive": null,
+                "construction_count_accuracy": 0.5857142857142857
+              },
+              {
+                "count": 2,
+                "cases": 210,
+                "mean_nmse": 0.5072372149055747,
+                "mean_si_sdr": 2.622411768858933,
+                "mean_si_sdr_gain": 2.58150441459183,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 0,
+                "weakest_nmse": 0.8458361159445763,
+                "all_sources_gain_positive": 0.5095238095238095,
+                "construction_count_accuracy": 0.4666666666666667
+              },
+              {
+                "count": 3,
+                "cases": 210,
+                "mean_nmse": 0.6730507076742233,
+                "mean_si_sdr": -3.324668953588327,
+                "mean_si_sdr_gain": 1.956513285066418,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 0,
+                "weakest_nmse": 0.9518896161829127,
+                "all_sources_gain_positive": 0.4142857142857143,
+                "construction_count_accuracy": 0.5476190476190477
+              }
+            ],
+            "selection_nmse": 0.590143961289899,
+            "two_three_nmse": 0.590143961289899,
+            "independent_test": false,
+            "physical_aircraft_count": false,
+            "whole_record_tracking": false,
+            "legacy_all_count_nmse": 0.401933396932135
+          },
+          "diagnostics": [
+            {
+              "count": 1,
+              "cases": 210,
+              "case_mean_nmse_median": 0.008427030787196806,
+              "case_mean_nmse_p90": 0.06543069833464264,
+              "case_mean_nmse_max": 0.22720963756207757,
+              "predicted_count_histogram": [
+                123,
+                42,
+                45
+              ],
+              "mean_background_nmse": 0.0008315886461475684,
+              "local_power_gap": []
+            },
+            {
+              "count": 2,
+              "cases": 210,
+              "case_mean_nmse_median": 0.49362351526496007,
+              "case_mean_nmse_p90": 0.6837147287097276,
+              "case_mean_nmse_max": 4.034877626124899,
+              "predicted_count_histogram": [
+                63,
+                98,
+                49
+              ],
+              "mean_background_nmse": 0.0015020004523214317,
+              "local_power_gap": [
+                {
+                  "lower_db": 0,
+                  "upper_db": 10,
+                  "cases": 105,
+                  "mean_nmse": 0.5010491086581176,
+                  "mean_si_sdr": 1.8400634632586286
+                },
+                {
+                  "lower_db": 10,
+                  "upper_db": 20,
+                  "cases": 65,
+                  "mean_nmse": 0.4438906669422541,
+                  "mean_si_sdr": 3.168958494635812
+                },
+                {
+                  "lower_db": 20,
+                  "upper_db": null,
+                  "cases": 40,
+                  "mean_nmse": 0.6264191342455454,
+                  "mean_si_sdr": 3.787937641672303
+                }
+              ]
+            },
+            {
+              "count": 3,
+              "cases": 210,
+              "case_mean_nmse_median": 0.6618755548838906,
+              "case_mean_nmse_p90": 0.8142438136851133,
+              "case_mean_nmse_max": 2.241555818136387,
+              "predicted_count_histogram": [
+                8,
+                87,
+                115
+              ],
+              "mean_background_nmse": 0.0021941635766196304,
+              "local_power_gap": [
+                {
+                  "lower_db": 0,
+                  "upper_db": 10,
+                  "cases": 71,
+                  "mean_nmse": 0.6979019506505256,
+                  "mean_si_sdr": -3.1655470135582817
+                },
+                {
+                  "lower_db": 10,
+                  "upper_db": 20,
+                  "cases": 108,
+                  "mean_nmse": 0.6558823284782019,
+                  "mean_si_sdr": -3.0428506084260056
+                },
+                {
+                  "lower_db": 20,
+                  "upper_db": null,
+                  "cases": 31,
+                  "mean_nmse": 0.6759457625727016,
+                  "mean_si_sdr": -4.670928276803288
+                }
+              ]
+            }
+          ],
+          "change_from_previous_epoch": {
+            "average_loss": -0.0050127046204094805,
+            "by_count": [
+              {
+                "count": 1,
+                "nmse_percent": -9.641727707850112,
+                "si_sdr_db": 0.7350813037808983
+              },
+              {
+                "count": 2,
+                "nmse_percent": 3.334550356000232,
+                "si_sdr_db": -0.16974616533077835
+              },
+              {
+                "count": 3,
+                "nmse_percent": 2.160456415053047,
+                "si_sdr_db": -0.36129166795786505
+              }
+            ]
+          }
+        },
+        {
+          "epoch": 3,
+          "updates": 225,
+          "best": {
+            "epoch": 1,
+            "metric": 0.5748430954988539
+          },
+          "train_seconds": 596.175600528717,
+          "peak_allocated_bytes": 4374932480,
+          "average_loss": 0.5413031372069478,
+          "primary_loss": 0.5413031372069478,
+          "allocation_loss": 0.3638579046972639,
+          "protocol_sha256": "b022995becfb5f0cab88d4cd400025150763575d789e2fbe0d91581159be47cd",
+          "metrics": {
+            "epoch": 3,
+            "by_count": [
+              {
+                "count": 1,
+                "cases": 210,
+                "mean_nmse": 0.028125728874038174,
+                "mean_si_sdr": 21.1686901761599,
+                "mean_si_sdr_gain": null,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 1,
+                "weakest_nmse": 0.028125728874038174,
+                "all_sources_gain_positive": null,
+                "construction_count_accuracy": 0.5857142857142857
+              },
+              {
+                "count": 2,
+                "cases": 210,
+                "mean_nmse": 0.509130224595073,
+                "mean_si_sdr": 2.603702673245719,
+                "mean_si_sdr_gain": 2.562795318978617,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 0,
+                "weakest_nmse": 0.8492945080798107,
+                "all_sources_gain_positive": 0.5047619047619047,
+                "construction_count_accuracy": 0.5190476190476191
+              },
+              {
+                "count": 3,
+                "cases": 210,
+                "mean_nmse": 0.667500514734262,
+                "mean_si_sdr": -2.925581008465848,
+                "mean_si_sdr_gain": 2.355601230188897,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 0,
+                "weakest_nmse": 0.9518883933842504,
+                "all_sources_gain_positive": 0.48095238095238096,
+                "construction_count_accuracy": 0.5571428571428572
+              }
+            ],
+            "selection_nmse": 0.5883153696646675,
+            "two_three_nmse": 0.5883153696646675,
+            "independent_test": false,
+            "physical_aircraft_count": false,
+            "whole_record_tracking": false,
+            "legacy_all_count_nmse": 0.4015854894011244
+          },
+          "diagnostics": [
+            {
+              "count": 1,
+              "cases": 210,
+              "case_mean_nmse_median": 0.00951955096432432,
+              "case_mean_nmse_p90": 0.07172745631131613,
+              "case_mean_nmse_max": 0.2357243593387845,
+              "predicted_count_histogram": [
+                123,
+                42,
+                45
+              ],
+              "mean_background_nmse": 0.0008418071850610687,
+              "local_power_gap": []
+            },
+            {
+              "count": 2,
+              "cases": 210,
+              "case_mean_nmse_median": 0.4933716509543278,
+              "case_mean_nmse_p90": 0.6723023266319064,
+              "case_mean_nmse_max": 4.3856235001987285,
+              "predicted_count_histogram": [
+                53,
+                109,
+                48
+              ],
+              "mean_background_nmse": 0.0015992641723020229,
+              "local_power_gap": [
+                {
+                  "lower_db": 0,
+                  "upper_db": 10,
+                  "cases": 105,
+                  "mean_nmse": 0.4935649245742428,
+                  "mean_si_sdr": 1.9084784938155892
+                },
+                {
+                  "lower_db": 10,
+                  "upper_db": 20,
+                  "cases": 65,
+                  "mean_nmse": 0.4528740485379351,
+                  "mean_si_sdr": 3.2736235106076323
+                },
+                {
+                  "lower_db": 20,
+                  "upper_db": null,
+                  "cases": 40,
+                  "mean_nmse": 0.6414054232426012,
+                  "mean_si_sdr": 3.3400447835367024
+                }
+              ]
+            },
+            {
+              "count": 3,
+              "cases": 210,
+              "case_mean_nmse_median": 0.6555458640111953,
+              "case_mean_nmse_p90": 0.8013340951811364,
+              "case_mean_nmse_max": 2.2410941247596705,
+              "predicted_count_histogram": [
+                7,
+                86,
+                117
+              ],
+              "mean_background_nmse": 0.002378589301664229,
+              "local_power_gap": [
+                {
+                  "lower_db": 0,
+                  "upper_db": 10,
+                  "cases": 71,
+                  "mean_nmse": 0.6851033954537189,
+                  "mean_si_sdr": -2.6349527816832388
+                },
+                {
+                  "lower_db": 10,
+                  "upper_db": 20,
+                  "cases": 108,
+                  "mean_nmse": 0.6529826732047193,
+                  "mean_si_sdr": -2.7292340050531374
+                },
+                {
+                  "lower_db": 20,
+                  "upper_db": null,
+                  "cases": 31,
+                  "mean_nmse": 0.6777625261571381,
+                  "mean_si_sdr": -4.275261023631587
+                }
+              ]
+            }
+          ],
+          "change_from_previous_epoch": {
+            "average_loss": -0.016583012483073034,
+            "by_count": [
+              {
+                "count": 1,
+                "nmse_percent": 10.243936898287576,
+                "si_sdr_db": -0.6225436307924106
+              },
+              {
+                "count": 2,
+                "nmse_percent": 0.37320007954277923,
+                "si_sdr_db": -0.0187090956132141
+              },
+              {
+                "count": 3,
+                "nmse_percent": -0.824632212205878,
+                "si_sdr_db": 0.39908794512247914
+              }
+            ]
+          }
+        },
+        {
+          "epoch": 4,
+          "updates": 300,
+          "best": {
+            "epoch": 1,
+            "metric": 0.5748430954988539
+          },
+          "train_seconds": 550.9131557941437,
+          "peak_allocated_bytes": 4374932480,
+          "average_loss": 0.5461059578390268,
+          "primary_loss": 0.5461059578390268,
+          "allocation_loss": 0.34961441505455393,
+          "protocol_sha256": "b022995becfb5f0cab88d4cd400025150763575d789e2fbe0d91581159be47cd",
+          "metrics": {
+            "epoch": 4,
+            "by_count": [
+              {
+                "count": 1,
+                "cases": 210,
+                "mean_nmse": 0.026447000295070053,
+                "mean_si_sdr": 21.637655624072753,
+                "mean_si_sdr_gain": null,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 1,
+                "weakest_nmse": 0.026447000295070053,
+                "all_sources_gain_positive": null,
+                "construction_count_accuracy": 0.5857142857142857
+              },
+              {
+                "count": 2,
+                "cases": 210,
+                "mean_nmse": 0.5155068521568951,
+                "mean_si_sdr": 2.4633311811337784,
+                "mean_si_sdr_gain": 2.4224238268666753,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 0,
+                "weakest_nmse": 0.8591024154499511,
+                "all_sources_gain_positive": 0.4857142857142857,
+                "construction_count_accuracy": 0.5047619047619047
+              },
+              {
+                "count": 3,
+                "cases": 210,
+                "mean_nmse": 0.6646688139304547,
+                "mean_si_sdr": -3.0226965448605716,
+                "mean_si_sdr_gain": 2.2584856937941726,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 0,
+                "weakest_nmse": 0.9449065026584277,
+                "all_sources_gain_positive": 0.4666666666666667,
+                "construction_count_accuracy": 0.6238095238095238
+              }
+            ],
+            "selection_nmse": 0.590087833043675,
+            "two_three_nmse": 0.590087833043675,
+            "independent_test": false,
+            "physical_aircraft_count": false,
+            "whole_record_tracking": false,
+            "legacy_all_count_nmse": 0.4022075554608066
+          },
+          "diagnostics": [
+            {
+              "count": 1,
+              "cases": 210,
+              "case_mean_nmse_median": 0.008746925655661307,
+              "case_mean_nmse_p90": 0.06683078510852039,
+              "case_mean_nmse_max": 0.24089306791134532,
+              "predicted_count_histogram": [
+                123,
+                42,
+                45
+              ],
+              "mean_background_nmse": 0.0007906675569325475,
+              "local_power_gap": []
+            },
+            {
+              "count": 2,
+              "cases": 210,
+              "case_mean_nmse_median": 0.49694536722631133,
+              "case_mean_nmse_p90": 0.667843936064561,
+              "case_mean_nmse_max": 4.503778846043855,
+              "predicted_count_histogram": [
+                50,
+                106,
+                54
+              ],
+              "mean_background_nmse": 0.0014972455788754778,
+              "local_power_gap": [
+                {
+                  "lower_db": 0,
+                  "upper_db": 10,
+                  "cases": 105,
+                  "mean_nmse": 0.5022682522369663,
+                  "mean_si_sdr": 1.7277975504260283
+                },
+                {
+                  "lower_db": 10,
+                  "upper_db": 20,
+                  "cases": 65,
+                  "mean_nmse": 0.44433281506665295,
+                  "mean_si_sdr": 3.2130820831350566
+                },
+                {
+                  "lower_db": 20,
+                  "upper_db": null,
+                  "cases": 40,
+                  "mean_nmse": 0.6659159872183517,
+                  "mean_si_sdr": 3.1757617459895426
+                }
+              ]
+            },
+            {
+              "count": 3,
+              "cases": 210,
+              "case_mean_nmse_median": 0.6552169916094829,
+              "case_mean_nmse_p90": 0.8183862167942897,
+              "case_mean_nmse_max": 1.271346208379049,
+              "predicted_count_histogram": [
+                5,
+                74,
+                131
+              ],
+              "mean_background_nmse": 0.0021474870797193357,
+              "local_power_gap": [
+                {
+                  "lower_db": 0,
+                  "upper_db": 10,
+                  "cases": 71,
+                  "mean_nmse": 0.6974778690986967,
+                  "mean_si_sdr": -2.8304853288440084
+                },
+                {
+                  "lower_db": 10,
+                  "upper_db": 20,
+                  "cases": 108,
+                  "mean_nmse": 0.6514457863458409,
+                  "mean_si_sdr": -2.7606382928820463
+                },
+                {
+                  "lower_db": 20,
+                  "upper_db": null,
+                  "cases": 31,
+                  "mean_nmse": 0.6355928159366844,
+                  "mean_si_sdr": -4.375899369081759
+                }
+              ]
+            }
+          ],
+          "change_from_previous_epoch": {
+            "average_loss": 0.004802820632079041,
+            "by_count": [
+              {
+                "count": 1,
+                "nmse_percent": -5.968658044334962,
+                "si_sdr_db": 0.4689654479128542
+              },
+              {
+                "count": 2,
+                "nmse_percent": 1.2524551192955924,
+                "si_sdr_db": -0.14037149211194055
+              },
+              {
+                "count": 3,
+                "nmse_percent": -0.424224512386262,
+                "si_sdr_db": -0.09711553639472381
+              }
+            ]
+          }
+        },
+        {
+          "epoch": 5,
+          "updates": 375,
+          "best": {
+            "epoch": 1,
+            "metric": 0.5748430954988539
+          },
+          "train_seconds": 579.3148226737976,
+          "peak_allocated_bytes": 4374932480,
+          "average_loss": 0.5527330079243984,
+          "primary_loss": 0.5527330079243984,
+          "allocation_loss": 0.34315226871500876,
+          "protocol_sha256": "b022995becfb5f0cab88d4cd400025150763575d789e2fbe0d91581159be47cd",
+          "metrics": {
+            "epoch": 5,
+            "by_count": [
+              {
+                "count": 1,
+                "cases": 210,
+                "mean_nmse": 0.02716857395887797,
+                "mean_si_sdr": 21.19353586606348,
+                "mean_si_sdr_gain": null,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 1,
+                "weakest_nmse": 0.02716857395887797,
+                "all_sources_gain_positive": null,
+                "construction_count_accuracy": 0.5904761904761905
+              },
+              {
+                "count": 2,
+                "cases": 210,
+                "mean_nmse": 0.5129747539792644,
+                "mean_si_sdr": 2.458066790301535,
+                "mean_si_sdr_gain": 2.4171594360344324,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 0,
+                "weakest_nmse": 0.8538163510687722,
+                "all_sources_gain_positive": 0.49523809523809526,
+                "construction_count_accuracy": 0.47619047619047616
+              },
+              {
+                "count": 3,
+                "cases": 210,
+                "mean_nmse": 0.6702849981916287,
+                "mean_si_sdr": -2.960205739285148,
+                "mean_si_sdr_gain": 2.320976499369596,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 0,
+                "weakest_nmse": 0.9470356013952173,
+                "all_sources_gain_positive": 0.4714285714285714,
+                "construction_count_accuracy": 0.5857142857142857
+              }
+            ],
+            "selection_nmse": 0.5916298760854466,
+            "two_three_nmse": 0.5916298760854466,
+            "independent_test": false,
+            "physical_aircraft_count": false,
+            "whole_record_tracking": false,
+            "legacy_all_count_nmse": 0.4034761087099237
+          },
+          "diagnostics": [
+            {
+              "count": 1,
+              "cases": 210,
+              "case_mean_nmse_median": 0.01005118444834737,
+              "case_mean_nmse_p90": 0.06739660774923407,
+              "case_mean_nmse_max": 0.23727486460292788,
+              "predicted_count_histogram": [
+                124,
+                42,
+                44
+              ],
+              "mean_background_nmse": 0.0007924550949504832,
+              "local_power_gap": []
+            },
+            {
+              "count": 2,
+              "cases": 210,
+              "case_mean_nmse_median": 0.49872117018033724,
+              "case_mean_nmse_p90": 0.6628251403137676,
+              "case_mean_nmse_max": 3.998297519721738,
+              "predicted_count_histogram": [
+                61,
+                100,
+                49
+              ],
+              "mean_background_nmse": 0.001491419553057757,
+              "local_power_gap": [
+                {
+                  "lower_db": 0,
+                  "upper_db": 10,
+                  "cases": 105,
+                  "mean_nmse": 0.5004938966771616,
+                  "mean_si_sdr": 1.7979396858881698
+                },
+                {
+                  "lower_db": 10,
+                  "upper_db": 20,
+                  "cases": 65,
+                  "mean_nmse": 0.4522120402685422,
+                  "mean_si_sdr": 3.108997531282088
+                },
+                {
+                  "lower_db": 20,
+                  "upper_db": null,
+                  "cases": 40,
+                  "mean_nmse": 0.644476414177207,
+                  "mean_si_sdr": 3.133137985293221
+                }
+              ]
+            },
+            {
+              "count": 3,
+              "cases": 210,
+              "case_mean_nmse_median": 0.652549884692418,
+              "case_mean_nmse_p90": 0.8165451713613503,
+              "case_mean_nmse_max": 1.862697065399224,
+              "predicted_count_histogram": [
+                7,
+                80,
+                123
+              ],
+              "mean_background_nmse": 0.0021264050437949425,
+              "local_power_gap": [
+                {
+                  "lower_db": 0,
+                  "upper_db": 10,
+                  "cases": 71,
+                  "mean_nmse": 0.6966991290234344,
+                  "mean_si_sdr": -2.63583416578817
+                },
+                {
+                  "lower_db": 10,
+                  "upper_db": 20,
+                  "cases": 108,
+                  "mean_nmse": 0.6531925346266034,
+                  "mean_si_sdr": -2.7647484555908863
+                },
+                {
+                  "lower_db": 20,
+                  "upper_db": null,
+                  "cases": 31,
+                  "mean_nmse": 0.6693360554808073,
+                  "mean_si_sdr": -4.384069234680821
+                }
+              ]
+            }
+          ],
+          "change_from_previous_epoch": {
+            "average_loss": 0.006627050085371566,
+            "by_count": [
+              {
+                "count": 1,
+                "nmse_percent": 2.7283762081041107,
+                "si_sdr_db": -0.44411975800927195
+              },
+              {
+                "count": 2,
+                "nmse_percent": -0.4911861340031298,
+                "si_sdr_db": -0.005264390832243393
+              },
+              {
+                "count": 3,
+                "nmse_percent": 0.8449597970398459,
+                "si_sdr_db": 0.062490805575423636
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "waveform_allocation": {
+      "initial": {
+        "epoch": 0,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.03098302914841512,
+            "mean_si_sdr": 20.703362538623775,
+            "mean_si_sdr_gain": null,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 1,
+            "weakest_nmse": 0.03098302914841512,
+            "all_sources_gain_positive": null,
+            "construction_count_accuracy": 0.5857142857142857
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.4943152457783993,
+            "mean_si_sdr": 2.8697999900724867,
+            "mean_si_sdr_gain": 2.8288926358053836,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 0,
+            "weakest_nmse": 0.8249205700523486,
+            "all_sources_gain_positive": 0.5047619047619047,
+            "construction_count_accuracy": 0.5523809523809524
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.6604684955843766,
+            "mean_si_sdr": -2.6699001603911303,
+            "mean_si_sdr_gain": 2.6112820782636144,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 0,
+            "weakest_nmse": 0.9573506173258381,
+            "all_sources_gain_positive": 0.5380952380952381,
+            "construction_count_accuracy": 0.5904761904761905
+          }
+        ],
+        "selection_nmse": 0.577391870681388,
+        "two_three_nmse": 0.577391870681388,
+        "independent_test": false,
+        "physical_aircraft_count": false,
+        "whole_record_tracking": false,
+        "legacy_all_count_nmse": 0.39525559017039696
+      },
+      "epochs": [
+        {
+          "epoch": 1,
+          "updates": 75,
+          "best": {
+            "epoch": 1,
+            "metric": 0.5744819535092778
+          },
+          "train_seconds": 536.6073379516602,
+          "peak_allocated_bytes": 4374932480,
+          "average_loss": 0.5985911015971215,
+          "primary_loss": 0.5652600289116769,
+          "allocation_loss": 0.33331072148983365,
+          "protocol_sha256": "b022995becfb5f0cab88d4cd400025150763575d789e2fbe0d91581159be47cd",
+          "metrics": {
+            "epoch": 1,
+            "by_count": [
+              {
+                "count": 1,
+                "cases": 210,
+                "mean_nmse": 0.032289316065691506,
+                "mean_si_sdr": 20.542617428691877,
+                "mean_si_sdr_gain": null,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 1,
+                "weakest_nmse": 0.032289316065691506,
+                "all_sources_gain_positive": null,
+                "construction_count_accuracy": 0.5857142857142857
+              },
+              {
+                "count": 2,
+                "cases": 210,
+                "mean_nmse": 0.49222601693692414,
+                "mean_si_sdr": 2.8343113527926107,
+                "mean_si_sdr_gain": 2.7934039985255077,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 0,
+                "weakest_nmse": 0.8224398003842244,
+                "all_sources_gain_positive": 0.5142857142857142,
+                "construction_count_accuracy": 0.5476190476190477
+              },
+              {
+                "count": 3,
+                "cases": 210,
+                "mean_nmse": 0.6567378900816313,
+                "mean_si_sdr": -2.7108788581104184,
+                "mean_si_sdr_gain": 2.5703033805443263,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 0,
+                "weakest_nmse": 0.9584980625226348,
+                "all_sources_gain_positive": 0.5428571428571428,
+                "construction_count_accuracy": 0.6
+              }
+            ],
+            "selection_nmse": 0.5744819535092778,
+            "two_three_nmse": 0.5744819535092778,
+            "independent_test": false,
+            "physical_aircraft_count": false,
+            "whole_record_tracking": false,
+            "legacy_all_count_nmse": 0.39375107436141565
+          },
+          "diagnostics": [
+            {
+              "count": 1,
+              "cases": 210,
+              "case_mean_nmse_median": 0.014321970171808416,
+              "case_mean_nmse_p90": 0.08493469516118098,
+              "case_mean_nmse_max": 0.23085104661334224,
+              "predicted_count_histogram": [
+                123,
+                42,
+                45
+              ],
+              "mean_background_nmse": 0.001014942888676368,
+              "local_power_gap": []
+            },
+            {
+              "count": 2,
+              "cases": 210,
+              "case_mean_nmse_median": 0.4852732875048494,
+              "case_mean_nmse_p90": 0.6326818244831628,
+              "case_mean_nmse_max": 3.8430396367772937,
+              "predicted_count_histogram": [
+                45,
+                115,
+                50
+              ],
+              "mean_background_nmse": 0.0019304564862850336,
+              "local_power_gap": [
+                {
+                  "lower_db": 0,
+                  "upper_db": 10,
+                  "cases": 105,
+                  "mean_nmse": 0.4751524424941866,
+                  "mean_si_sdr": 2.070254448126385
+                },
+                {
+                  "lower_db": 10,
+                  "upper_db": 20,
+                  "cases": 65,
+                  "mean_nmse": 0.45105271181422313,
+                  "mean_si_sdr": 3.333665264064868
+                },
+                {
+                  "lower_db": 20,
+                  "upper_db": null,
+                  "cases": 40,
+                  "mean_nmse": 0.6039507706734997,
+                  "mean_si_sdr": 4.028510621724032
+                }
+              ]
+            },
+            {
+              "count": 3,
+              "cases": 210,
+              "case_mean_nmse_median": 0.6391328005546189,
+              "case_mean_nmse_p90": 0.7973163182300339,
+              "case_mean_nmse_max": 1.4445222402390945,
+              "predicted_count_histogram": [
+                6,
+                78,
+                126
+              ],
+              "mean_background_nmse": 0.0029419197143085523,
+              "local_power_gap": [
+                {
+                  "lower_db": 0,
+                  "upper_db": 10,
+                  "cases": 71,
+                  "mean_nmse": 0.6684260539921597,
+                  "mean_si_sdr": -2.2649813410964774
+                },
+                {
+                  "lower_db": 10,
+                  "upper_db": 20,
+                  "cases": 108,
+                  "mean_nmse": 0.6510390184869513,
+                  "mean_si_sdr": -2.591075906926972
+                },
+                {
+                  "lower_db": 20,
+                  "upper_db": null,
+                  "cases": 31,
+                  "mean_nmse": 0.6498223576486608,
+                  "mean_si_sdr": -4.1495060334588665
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "epoch": 2,
+          "updates": 150,
+          "best": {
+            "epoch": 1,
+            "metric": 0.5744819535092778
+          },
+          "train_seconds": 575.2939598560333,
+          "peak_allocated_bytes": 4374932480,
+          "average_loss": 0.5935909020906547,
+          "primary_loss": 0.560281767672374,
+          "allocation_loss": 0.333091343947793,
+          "protocol_sha256": "b022995becfb5f0cab88d4cd400025150763575d789e2fbe0d91581159be47cd",
+          "metrics": {
+            "epoch": 2,
+            "by_count": [
+              {
+                "count": 1,
+                "cases": 210,
+                "mean_nmse": 0.028533857176519597,
+                "mean_si_sdr": 21.29216462990594,
+                "mean_si_sdr_gain": null,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 1,
+                "weakest_nmse": 0.028533857176519597,
+                "all_sources_gain_positive": null,
+                "construction_count_accuracy": 0.5857142857142857
+              },
+              {
+                "count": 2,
+                "cases": 210,
+                "mean_nmse": 0.5100964243738999,
+                "mean_si_sdr": 2.4763091634513823,
+                "mean_si_sdr_gain": 2.4354018091842797,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 0,
+                "weakest_nmse": 0.8523114889699784,
+                "all_sources_gain_positive": 0.5190476190476191,
+                "construction_count_accuracy": 0.4666666666666667
+              },
+              {
+                "count": 3,
+                "cases": 210,
+                "mean_nmse": 0.6695983951827966,
+                "mean_si_sdr": -3.101007521964527,
+                "mean_si_sdr_gain": 2.180174716690218,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 0,
+                "weakest_nmse": 0.9567670910185506,
+                "all_sources_gain_positive": 0.4523809523809524,
+                "construction_count_accuracy": 0.5619047619047619
+              }
+            ],
+            "selection_nmse": 0.5898474097783483,
+            "two_three_nmse": 0.5898474097783483,
+            "independent_test": false,
+            "physical_aircraft_count": false,
+            "whole_record_tracking": false,
+            "legacy_all_count_nmse": 0.4027428922444054
+          },
+          "diagnostics": [
+            {
+              "count": 1,
+              "cases": 210,
+              "case_mean_nmse_median": 0.010347428868614202,
+              "case_mean_nmse_p90": 0.07802641191042381,
+              "case_mean_nmse_max": 0.23931756767104784,
+              "predicted_count_histogram": [
+                123,
+                42,
+                45
+              ],
+              "mean_background_nmse": 0.0008588999081563574,
+              "local_power_gap": []
+            },
+            {
+              "count": 2,
+              "cases": 210,
+              "case_mean_nmse_median": 0.4980185035287831,
+              "case_mean_nmse_p90": 0.6689776934818518,
+              "case_mean_nmse_max": 4.283104720622668,
+              "predicted_count_histogram": [
+                62,
+                98,
+                50
+              ],
+              "mean_background_nmse": 0.0016484569642857363,
+              "local_power_gap": [
+                {
+                  "lower_db": 0,
+                  "upper_db": 10,
+                  "cases": 105,
+                  "mean_nmse": 0.4930377915846656,
+                  "mean_si_sdr": 1.8554635502288284
+                },
+                {
+                  "lower_db": 10,
+                  "upper_db": 20,
+                  "cases": 65,
+                  "mean_nmse": 0.45549193225577445,
+                  "mean_si_sdr": 2.950250805300611
+                },
+                {
+                  "lower_db": 20,
+                  "upper_db": null,
+                  "cases": 40,
+                  "mean_nmse": 0.6436076351375938,
+                  "mean_si_sdr": 3.335873730155589
+                }
+              ]
+            },
+            {
+              "count": 3,
+              "cases": 210,
+              "case_mean_nmse_median": 0.6544403789828392,
+              "case_mean_nmse_p90": 0.8104073926068599,
+              "case_mean_nmse_max": 1.9660370735600943,
+              "predicted_count_histogram": [
+                8,
+                84,
+                118
+              ],
+              "mean_background_nmse": 0.0024625283998935574,
+              "local_power_gap": [
+                {
+                  "lower_db": 0,
+                  "upper_db": 10,
+                  "cases": 71,
+                  "mean_nmse": 0.6847315220612623,
+                  "mean_si_sdr": -2.771234865033312
+                },
+                {
+                  "lower_db": 10,
+                  "upper_db": 20,
+                  "cases": 108,
+                  "mean_nmse": 0.6585720902452411,
+                  "mean_si_sdr": -2.8929926183599117
+                },
+                {
+                  "lower_db": 20,
+                  "upper_db": null,
+                  "cases": 31,
+                  "mean_nmse": 0.6733528766306978,
+                  "mean_si_sdr": -4.580990368139193
+                }
+              ]
+            }
+          ],
+          "change_from_previous_epoch": {
+            "average_loss": -0.005000199506466796,
+            "by_count": [
+              {
+                "count": 1,
+                "nmse_percent": -11.630654800899332,
+                "si_sdr_db": 0.7495472012140638
+              },
+              {
+                "count": 2,
+                "nmse_percent": 3.6305288266113234,
+                "si_sdr_db": -0.3580021893412284
+              },
+              {
+                "count": 3,
+                "nmse_percent": 1.9582401587285858,
+                "si_sdr_db": -0.3901286638541084
+              }
+            ]
+          }
+        },
+        {
+          "epoch": 3,
+          "updates": 225,
+          "best": {
+            "epoch": 1,
+            "metric": 0.5744819535092778
+          },
+          "train_seconds": 526.6106939315796,
+          "peak_allocated_bytes": 4374932480,
+          "average_loss": 0.5751320718202139,
+          "primary_loss": 0.542185948369297,
+          "allocation_loss": 0.3294612344051226,
+          "protocol_sha256": "b022995becfb5f0cab88d4cd400025150763575d789e2fbe0d91581159be47cd",
+          "metrics": {
+            "epoch": 3,
+            "by_count": [
+              {
+                "count": 1,
+                "cases": 210,
+                "mean_nmse": 0.032788688649914244,
+                "mean_si_sdr": 20.559548856257805,
+                "mean_si_sdr_gain": null,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 1,
+                "weakest_nmse": 0.032788688649914244,
+                "all_sources_gain_positive": null,
+                "construction_count_accuracy": 0.5857142857142857
+              },
+              {
+                "count": 2,
+                "cases": 210,
+                "mean_nmse": 0.5196721066712574,
+                "mean_si_sdr": 2.493036406878629,
+                "mean_si_sdr_gain": 2.4521290526115265,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 0,
+                "weakest_nmse": 0.8712617704938488,
+                "all_sources_gain_positive": 0.47619047619047616,
+                "construction_count_accuracy": 0.5142857142857142
+              },
+              {
+                "count": 3,
+                "cases": 210,
+                "mean_nmse": 0.6703526375657541,
+                "mean_si_sdr": -2.7553362295197736,
+                "mean_si_sdr_gain": 2.525846009134971,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 0,
+                "weakest_nmse": 0.9535021583082002,
+                "all_sources_gain_positive": 0.5190476190476191,
+                "construction_count_accuracy": 0.5952380952380952
+              }
+            ],
+            "selection_nmse": 0.5950123721185058,
+            "two_three_nmse": 0.5950123721185058,
+            "independent_test": false,
+            "physical_aircraft_count": false,
+            "whole_record_tracking": false,
+            "legacy_all_count_nmse": 0.4076044776289753
+          },
+          "diagnostics": [
+            {
+              "count": 1,
+              "cases": 210,
+              "case_mean_nmse_median": 0.011761667531039369,
+              "case_mean_nmse_p90": 0.09724155878823987,
+              "case_mean_nmse_max": 0.24293026738263046,
+              "predicted_count_histogram": [
+                123,
+                42,
+                45
+              ],
+              "mean_background_nmse": 0.0009095636870851669,
+              "local_power_gap": []
+            },
+            {
+              "count": 2,
+              "cases": 210,
+              "case_mean_nmse_median": 0.5007484446947826,
+              "case_mean_nmse_p90": 0.6184221799610771,
+              "case_mean_nmse_max": 5.039314895997026,
+              "predicted_count_histogram": [
+                52,
+                108,
+                50
+              ],
+              "mean_background_nmse": 0.0017918079909083914,
+              "local_power_gap": [
+                {
+                  "lower_db": 0,
+                  "upper_db": 10,
+                  "cases": 105,
+                  "mean_nmse": 0.48526614711354055,
+                  "mean_si_sdr": 2.0487090358478715
+                },
+                {
+                  "lower_db": 10,
+                  "upper_db": 20,
+                  "cases": 65,
+                  "mean_nmse": 0.4614919425428315,
+                  "mean_si_sdr": 3.1303995372500193
+                },
+                {
+                  "lower_db": 20,
+                  "upper_db": null,
+                  "cases": 40,
+                  "mean_nmse": 0.7045305172189567,
+                  "mean_si_sdr": 2.6236806689808603
+                }
+              ]
+            },
+            {
+              "count": 3,
+              "cases": 210,
+              "case_mean_nmse_median": 0.655108309554817,
+              "case_mean_nmse_p90": 0.8075953318789034,
+              "case_mean_nmse_max": 1.185355939583136,
+              "predicted_count_histogram": [
+                5,
+                80,
+                125
+              ],
+              "mean_background_nmse": 0.0026649199628368753,
+              "local_power_gap": [
+                {
+                  "lower_db": 0,
+                  "upper_db": 10,
+                  "cases": 71,
+                  "mean_nmse": 0.6794584050008474,
+                  "mean_si_sdr": -2.2361557098238722
+                },
+                {
+                  "lower_db": 10,
+                  "upper_db": 20,
+                  "cases": 108,
+                  "mean_nmse": 0.6670974809446896,
+                  "mean_si_sdr": -2.6834363296392056
+                },
+                {
+                  "lower_db": 20,
+                  "upper_db": null,
+                  "cases": 31,
+                  "mean_nmse": 0.660838038442637,
+                  "mean_si_sdr": -4.194917070987849
+                }
+              ]
+            }
+          ],
+          "change_from_previous_epoch": {
+            "average_loss": -0.018458830270440818,
+            "by_count": [
+              {
+                "count": 1,
+                "nmse_percent": 14.911518786516996,
+                "si_sdr_db": -0.7326157736481349
+              },
+              {
+                "count": 2,
+                "nmse_percent": 1.8772298412228272,
+                "si_sdr_db": 0.01672724342724674
+              },
+              {
+                "count": 3,
+                "nmse_percent": 0.11264100816006373,
+                "si_sdr_db": 0.34567129244475314
+              }
+            ]
+          }
+        },
+        {
+          "epoch": 4,
+          "updates": 300,
+          "best": {
+            "epoch": 1,
+            "metric": 0.5744819535092778
+          },
+          "train_seconds": 602.622428894043,
+          "peak_allocated_bytes": 4374932480,
+          "average_loss": 0.5850742986150727,
+          "primary_loss": 0.5533423856051134,
+          "allocation_loss": 0.31731913472045564,
+          "protocol_sha256": "b022995becfb5f0cab88d4cd400025150763575d789e2fbe0d91581159be47cd",
+          "metrics": {
+            "epoch": 4,
+            "by_count": [
+              {
+                "count": 1,
+                "cases": 210,
+                "mean_nmse": 0.030569821856722756,
+                "mean_si_sdr": 20.948589425691093,
+                "mean_si_sdr_gain": null,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 1,
+                "weakest_nmse": 0.030569821856722756,
+                "all_sources_gain_positive": null,
+                "construction_count_accuracy": 0.5857142857142857
+              },
+              {
+                "count": 2,
+                "cases": 210,
+                "mean_nmse": 0.5262933339744421,
+                "mean_si_sdr": 2.557968868516441,
+                "mean_si_sdr_gain": 2.517061514249338,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 0,
+                "weakest_nmse": 0.882438168702365,
+                "all_sources_gain_positive": 0.47619047619047616,
+                "construction_count_accuracy": 0.5190476190476191
+              },
+              {
+                "count": 3,
+                "cases": 210,
+                "mean_nmse": 0.6659879060900912,
+                "mean_si_sdr": -2.733950345146753,
+                "mean_si_sdr_gain": 2.547231893507991,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 0,
+                "weakest_nmse": 0.9563488633050878,
+                "all_sources_gain_positive": 0.5333333333333333,
+                "construction_count_accuracy": 0.5904761904761905
+              }
+            ],
+            "selection_nmse": 0.5961406200322666,
+            "two_three_nmse": 0.5961406200322666,
+            "independent_test": false,
+            "physical_aircraft_count": false,
+            "whole_record_tracking": false,
+            "legacy_all_count_nmse": 0.40761702064041866
+          },
+          "diagnostics": [
+            {
+              "count": 1,
+              "cases": 210,
+              "case_mean_nmse_median": 0.010140130534321043,
+              "case_mean_nmse_p90": 0.07512527121390541,
+              "case_mean_nmse_max": 0.24785782053107605,
+              "predicted_count_histogram": [
+                123,
+                42,
+                45
+              ],
+              "mean_background_nmse": 0.0008134695304195159,
+              "local_power_gap": []
+            },
+            {
+              "count": 2,
+              "cases": 210,
+              "case_mean_nmse_median": 0.4994029355331463,
+              "case_mean_nmse_p90": 0.6461237413774883,
+              "case_mean_nmse_max": 5.081476092764076,
+              "predicted_count_histogram": [
+                50,
+                109,
+                51
+              ],
+              "mean_background_nmse": 0.0016401471956028096,
+              "local_power_gap": [
+                {
+                  "lower_db": 0,
+                  "upper_db": 10,
+                  "cases": 105,
+                  "mean_nmse": 0.4910825950517245,
+                  "mean_si_sdr": 2.0014356614140523
+                },
+                {
+                  "lower_db": 10,
+                  "upper_db": 20,
+                  "cases": 65,
+                  "mean_nmse": 0.4598806629795948,
+                  "mean_si_sdr": 3.262431472760857
+                },
+                {
+                  "lower_db": 20,
+                  "upper_db": null,
+                  "cases": 40,
+                  "mean_nmse": 0.7266421140132028,
+                  "mean_si_sdr": 2.8741168052630335
+                }
+              ]
+            },
+            {
+              "count": 3,
+              "cases": 210,
+              "case_mean_nmse_median": 0.6518272339564657,
+              "case_mean_nmse_p90": 0.8050016038700039,
+              "case_mean_nmse_max": 1.1693510908175075,
+              "predicted_count_histogram": [
+                6,
+                80,
+                124
+              ],
+              "mean_background_nmse": 0.002489650809815531,
+              "local_power_gap": [
+                {
+                  "lower_db": 0,
+                  "upper_db": 10,
+                  "cases": 71,
+                  "mean_nmse": 0.6757789666253693,
+                  "mean_si_sdr": -2.1797303077093435
+                },
+                {
+                  "lower_db": 10,
+                  "upper_db": 20,
+                  "cases": 108,
+                  "mean_nmse": 0.6632547634829749,
+                  "mean_si_sdr": -2.6803752483535224
+                },
+                {
+                  "lower_db": 20,
+                  "upper_db": null,
+                  "cases": 31,
+                  "mean_nmse": 0.6530851352373113,
+                  "mean_si_sdr": -4.189941735847558
+                }
+              ]
+            }
+          ],
+          "change_from_previous_epoch": {
+            "average_loss": 0.009942226794858788,
+            "by_count": [
+              {
+                "count": 1,
+                "nmse_percent": -6.767171498934865,
+                "si_sdr_db": 0.3890405694332877
+              },
+              {
+                "count": 2,
+                "nmse_percent": 1.2741163549448098,
+                "si_sdr_db": 0.06493246163781174
+              },
+              {
+                "count": 3,
+                "nmse_percent": -0.651109763886748,
+                "si_sdr_db": 0.02138588437302058
+              }
+            ]
+          }
+        },
+        {
+          "epoch": 5,
+          "updates": 375,
+          "best": {
+            "epoch": 1,
+            "metric": 0.5744819535092778
+          },
+          "train_seconds": 549.4368755817413,
+          "peak_allocated_bytes": 4374932480,
+          "average_loss": 0.5902867685224434,
+          "primary_loss": 0.559073296317753,
+          "allocation_loss": 0.3121347188676009,
+          "protocol_sha256": "b022995becfb5f0cab88d4cd400025150763575d789e2fbe0d91581159be47cd",
+          "metrics": {
+            "epoch": 5,
+            "by_count": [
+              {
+                "count": 1,
+                "cases": 210,
+                "mean_nmse": 0.03075969160122442,
+                "mean_si_sdr": 20.67429911247354,
+                "mean_si_sdr_gain": null,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 1,
+                "weakest_nmse": 0.03075969160122442,
+                "all_sources_gain_positive": null,
+                "construction_count_accuracy": 0.6
+              },
+              {
+                "count": 2,
+                "cases": 210,
+                "mean_nmse": 0.5133996217985214,
+                "mean_si_sdr": 2.5920341644122864,
+                "mean_si_sdr_gain": 2.5511268101451843,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 0,
+                "weakest_nmse": 0.8599887515633324,
+                "all_sources_gain_positive": 0.4857142857142857,
+                "construction_count_accuracy": 0.5142857142857142
+              },
+              {
+                "count": 3,
+                "cases": 210,
+                "mean_nmse": 0.6660477604970015,
+                "mean_si_sdr": -2.7079563356619603,
+                "mean_si_sdr_gain": 2.573225902992784,
+                "nonfinite_si_sdr": 0,
+                "nonfinite_si_sdr_gain": 0,
+                "weakest_nmse": 0.9518212668218142,
+                "all_sources_gain_positive": 0.5238095238095238,
+                "construction_count_accuracy": 0.5571428571428572
+              }
+            ],
+            "selection_nmse": 0.5897236911477615,
+            "two_three_nmse": 0.5897236911477615,
+            "independent_test": false,
+            "physical_aircraft_count": false,
+            "whole_record_tracking": false,
+            "legacy_all_count_nmse": 0.4034023579655825
+          },
+          "diagnostics": [
+            {
+              "count": 1,
+              "cases": 210,
+              "case_mean_nmse_median": 0.011483193965170602,
+              "case_mean_nmse_p90": 0.07528570271838797,
+              "case_mean_nmse_max": 0.24833238891745918,
+              "predicted_count_histogram": [
+                126,
+                42,
+                42
+              ],
+              "mean_background_nmse": 0.000839096452042338,
+              "local_power_gap": []
+            },
+            {
+              "count": 2,
+              "cases": 210,
+              "case_mean_nmse_median": 0.4971645672960041,
+              "case_mean_nmse_p90": 0.6274099746242587,
+              "case_mean_nmse_max": 4.699492319392048,
+              "predicted_count_histogram": [
+                54,
+                108,
+                48
+              ],
+              "mean_background_nmse": 0.0016403157239647111,
+              "local_power_gap": [
+                {
+                  "lower_db": 0,
+                  "upper_db": 10,
+                  "cases": 105,
+                  "mean_nmse": 0.4836606228981187,
+                  "mean_si_sdr": 2.040274773867676
+                },
+                {
+                  "lower_db": 10,
+                  "upper_db": 20,
+                  "cases": 65,
+                  "mean_nmse": 0.4596814317271798,
+                  "mean_si_sdr": 3.328350137127168
+                },
+                {
+                  "lower_db": 20,
+                  "upper_db": null,
+                  "cases": 40,
+                  "mean_nmse": 0.6787565527780086,
+                  "mean_si_sdr": 2.843889108930209
+                }
+              ]
+            },
+            {
+              "count": 3,
+              "cases": 210,
+              "case_mean_nmse_median": 0.6483228129279697,
+              "case_mean_nmse_p90": 0.7947345095458175,
+              "case_mean_nmse_max": 1.8840721303541168,
+              "predicted_count_histogram": [
+                7,
+                86,
+                117
+              ],
+              "mean_background_nmse": 0.0024278580485298227,
+              "local_power_gap": [
+                {
+                  "lower_db": 0,
+                  "upper_db": 10,
+                  "cases": 71,
+                  "mean_nmse": 0.6752278795546047,
+                  "mean_si_sdr": -2.2062099238060005
+                },
+                {
+                  "lower_db": 10,
+                  "upper_db": 20,
+                  "cases": 108,
+                  "mean_nmse": 0.657894058840896,
+                  "mean_si_sdr": -2.6301750124330803
+                },
+                {
+                  "lower_db": 20,
+                  "upper_db": null,
+                  "cases": 31,
+                  "mean_nmse": 0.6734287710056972,
+                  "mean_si_sdr": -4.128097566322999
+                }
+              ]
+            }
+          ],
+          "change_from_previous_epoch": {
+            "average_loss": 0.005212469907370787,
+            "by_count": [
+              {
+                "count": 1,
+                "nmse_percent": 0.6211019004021656,
+                "si_sdr_db": -0.27429031321755204
+              },
+              {
+                "count": 2,
+                "nmse_percent": -2.449909839927189,
+                "si_sdr_db": 0.034065295895845615
+              },
+              {
+                "count": 3,
+                "nmse_percent": 0.008987311385544317,
+                "si_sdr_db": 0.0259940094847928
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "selected_at_common_budget": {
+    "waveform_only": {
+      "epoch": 1,
+      "by_count": [
+        {
+          "count": 1,
+          "cases": 210,
+          "mean_nmse": 0.028234568423486237,
+          "mean_si_sdr": 21.05615250317141,
+          "mean_si_sdr_gain": null,
+          "nonfinite_si_sdr": 0,
+          "nonfinite_si_sdr_gain": 1,
+          "weakest_nmse": 0.028234568423486237,
+          "all_sources_gain_positive": null,
+          "construction_count_accuracy": 0.5857142857142857
+        },
+        {
+          "count": 2,
+          "cases": 210,
+          "mean_nmse": 0.49086894282510557,
+          "mean_si_sdr": 2.7921579341897114,
+          "mean_si_sdr_gain": 2.751250579922609,
+          "nonfinite_si_sdr": 0,
+          "nonfinite_si_sdr_gain": 0,
+          "weakest_nmse": 0.8188948275058695,
+          "all_sources_gain_positive": 0.5142857142857142,
+          "construction_count_accuracy": 0.5523809523809524
+        },
+        {
+          "count": 3,
+          "cases": 210,
+          "mean_nmse": 0.6588172481726023,
+          "mean_si_sdr": -2.963377285630462,
+          "mean_si_sdr_gain": 2.317804953024283,
+          "nonfinite_si_sdr": 0,
+          "nonfinite_si_sdr_gain": 0,
+          "weakest_nmse": 0.9543320330708313,
+          "all_sources_gain_positive": 0.48095238095238096,
+          "construction_count_accuracy": 0.5714285714285714
+        }
+      ],
+      "selection_nmse": 0.5748430954988539,
+      "two_three_nmse": 0.5748430954988539,
+      "independent_test": false,
+      "physical_aircraft_count": false,
+      "whole_record_tracking": false,
+      "legacy_all_count_nmse": 0.3926402531403981
+    },
+    "waveform_allocation": {
+      "epoch": 1,
+      "by_count": [
+        {
+          "count": 1,
+          "cases": 210,
+          "mean_nmse": 0.032289316065691506,
+          "mean_si_sdr": 20.542617428691877,
+          "mean_si_sdr_gain": null,
+          "nonfinite_si_sdr": 0,
+          "nonfinite_si_sdr_gain": 1,
+          "weakest_nmse": 0.032289316065691506,
+          "all_sources_gain_positive": null,
+          "construction_count_accuracy": 0.5857142857142857
+        },
+        {
+          "count": 2,
+          "cases": 210,
+          "mean_nmse": 0.49222601693692414,
+          "mean_si_sdr": 2.8343113527926107,
+          "mean_si_sdr_gain": 2.7934039985255077,
+          "nonfinite_si_sdr": 0,
+          "nonfinite_si_sdr_gain": 0,
+          "weakest_nmse": 0.8224398003842244,
+          "all_sources_gain_positive": 0.5142857142857142,
+          "construction_count_accuracy": 0.5476190476190477
+        },
+        {
+          "count": 3,
+          "cases": 210,
+          "mean_nmse": 0.6567378900816313,
+          "mean_si_sdr": -2.7108788581104184,
+          "mean_si_sdr_gain": 2.5703033805443263,
+          "nonfinite_si_sdr": 0,
+          "nonfinite_si_sdr_gain": 0,
+          "weakest_nmse": 0.9584980625226348,
+          "all_sources_gain_positive": 0.5428571428571428,
+          "construction_count_accuracy": 0.6
+        }
+      ],
+      "selection_nmse": 0.5744819535092778,
+      "two_three_nmse": 0.5744819535092778,
+      "independent_test": false,
+      "physical_aircraft_count": false,
+      "whole_record_tracking": false,
+      "legacy_all_count_nmse": 0.39375107436141565
+    }
+  },
+  "all_rows_reaggregated": true,
+  "same_validation_metadata_verified": true,
+  "raw_means_primary": true,
+  "local_power_gap_analysis": "posthoc descriptive; no exclusions or reselection",
+  "independent_test": false,
+  "physical_aircraft_count": false,
+  "heldout_iq_access": false,
+  "allocation_meets_prespecified_acceptance": false,
+  "completion_audit": {
+    "status": "PASS",
+    "frozen_live_and_snapshot_sources": 22,
+    "data_schedule_hashes": 5,
+    "checkpoints": {
+      "waveform_only": {
+        "sha256": {
+          "BEST.pt": "94e19059c388cbf928f0ac1e69ee5b2eec5e4ba2feddc00643bb5e72a857a50c",
+          "LAST.pt": "a101066711f1759c66af2cb90830e4089f88217c7c325371622211a51a8c31fb",
+          "SELECTED_005.pt": "94e19059c388cbf928f0ac1e69ee5b2eec5e4ba2feddc00643bb5e72a857a50c"
+        },
+        "selected_epoch": 1,
+        "updates": 375,
+        "state_elements": 32142859,
+        "finite": true
+      },
+      "waveform_allocation": {
+        "sha256": {
+          "BEST.pt": "e5647fcf1161af99551ec38efe48dbf02361e4c47ee8e1d2a8934e9ff81fc789",
+          "LAST.pt": "eec2f705cee41ac925bf618642b14044dd17a0ebcefd93b3208f5ef276652546",
+          "SELECTED_005.pt": "e5647fcf1161af99551ec38efe48dbf02361e4c47ee8e1d2a8934e9ff81fc789"
+        },
+        "selected_epoch": 1,
+        "updates": 375,
+        "state_elements": 32142859,
+        "finite": true
+      }
+    },
+    "loaded_on_cpu": true,
+    "raw_iq_read": false
+  },
+  "selected_diagnostics": [
+    {
+      "count": 1,
+      "arms": {
+        "waveform_only": {
+          "cases": 210,
+          "weakest_nmse": 0.028234568423486237,
+          "weakest_si_sdr": 21.05615250317141
+        },
+        "waveform_allocation": {
+          "cases": 210,
+          "weakest_nmse": 0.032289316065691506,
+          "weakest_si_sdr": 20.542617428691877
+        }
+      },
+      "local_power_gap": [],
+      "candidate_case_mean_nmse_improved": 0,
+      "candidate_both_case_metrics_improved": 0
+    },
+    {
+      "count": 2,
+      "arms": {
+        "waveform_only": {
+          "cases": 210,
+          "weakest_nmse": 0.8188948275058694,
+          "weakest_si_sdr": -5.844537696687453
+        },
+        "waveform_allocation": {
+          "cases": 210,
+          "weakest_nmse": 0.8224398003842245,
+          "weakest_si_sdr": -5.692964213714228
+        }
+      },
+      "local_power_gap": [
+        {
+          "lower_db": 0,
+          "upper_db": 10,
+          "arms": {
+            "waveform_only": {
+              "cases": 105,
+              "mean_nmse": 0.4818943103281461,
+              "mean_si_sdr": 2.0019316850515656
+            },
+            "waveform_allocation": {
+              "cases": 105,
+              "mean_nmse": 0.4751524424941866,
+              "mean_si_sdr": 2.070254448126385
+            }
+          }
+        },
+        {
+          "lower_db": 10,
+          "upper_db": 20,
+          "arms": {
+            "waveform_only": {
+              "cases": 65,
+              "mean_nmse": 0.4391154532734932,
+              "mean_si_sdr": 3.347087484989116
+            },
+            "waveform_allocation": {
+              "cases": 65,
+              "mean_nmse": 0.45105271181422313,
+              "mean_si_sdr": 3.333665264064868
+            }
+          }
+        },
+        {
+          "lower_db": 20,
+          "upper_db": null,
+          "arms": {
+            "waveform_only": {
+              "cases": 40,
+              "mean_nmse": 0.5985267736509946,
+              "mean_si_sdr": 3.9647413181283104
+            },
+            "waveform_allocation": {
+              "cases": 40,
+              "mean_nmse": 0.6039507706734997,
+              "mean_si_sdr": 4.028510621724032
+            }
+          }
+        }
+      ],
+      "candidate_case_mean_nmse_improved": 110,
+      "candidate_both_case_metrics_improved": 86
+    },
+    {
+      "count": 3,
+      "arms": {
+        "waveform_only": {
+          "cases": 210,
+          "weakest_nmse": 0.9543320330708313,
+          "weakest_si_sdr": -11.98964370200878
+        },
+        "waveform_allocation": {
+          "cases": 210,
+          "weakest_nmse": 0.9584980625226348,
+          "weakest_si_sdr": -11.457803322379752
+        }
+      },
+      "local_power_gap": [
+        {
+          "lower_db": 0,
+          "upper_db": 10,
+          "arms": {
+            "waveform_only": {
+              "cases": 71,
+              "mean_nmse": 0.682440775195795,
+              "mean_si_sdr": -2.7149928014928655
+            },
+            "waveform_allocation": {
+              "cases": 71,
+              "mean_nmse": 0.6684260539921597,
+              "mean_si_sdr": -2.2649813410964774
+            }
+          }
+        },
+        {
+          "lower_db": 10,
+          "upper_db": 20,
+          "arms": {
+            "waveform_only": {
+              "cases": 108,
+              "mean_nmse": 0.649952608066598,
+              "mean_si_sdr": -2.7621211446730998
+            },
+            "waveform_allocation": {
+              "cases": 108,
+              "mean_nmse": 0.6510390184869513,
+              "mean_si_sdr": -2.591075906926972
+            }
+          }
+        },
+        {
+          "lower_db": 20,
+          "upper_db": null,
+          "arms": {
+            "waveform_only": {
+              "cases": 31,
+              "mean_nmse": 0.6355950131016922,
+              "mean_si_sdr": -4.23340830489383
+            },
+            "waveform_allocation": {
+              "cases": 31,
+              "mean_nmse": 0.6498223576486608,
+              "mean_si_sdr": -4.1495060334588665
+            }
+          }
+        }
+      ],
+      "candidate_case_mean_nmse_improved": 121,
+      "candidate_both_case_metrics_improved": 106
+    }
+  ]
+}
