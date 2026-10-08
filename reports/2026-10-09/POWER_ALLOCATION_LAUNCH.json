@@ -1,0 +1,276 @@
+{
+  "recorded_at": "2026-10-09T01:17:57.041211+09:00",
+  "protocol_sha256": "b022995becfb5f0cab88d4cd400025150763575d789e2fbe0d91581159be47cd",
+  "protocol": {
+    "status": "FROZEN_MATCHED_POWER_ALLOCATION",
+    "source_sha256": {
+      "experiments/rfuav_power_allocation_20261009/allocation.py": "8173f75fd6b2afbe6d724bc4531930785c9362d657aed6c25abb4ce02137b6e6",
+      "experiments/rfuav_power_allocation_20261009/run_allocation.py": "1a7ec61cb51f670dc184cea86619f6ee4e1840b79246a840cba549ed69d83fe0",
+      "experiments/rfuav_power_allocation_20261009/test_allocation.py": "643bcff32d124425143512b948cb9db234602a5dd92efe33b6dd8ad2e88a1bc4",
+      "experiments/rfuav_dense_gated_20261008/cpu_check.py": "e9189ca0f2d1b20a4f36c8d266a3d59ffce1f83f4f80f3eb1083fc7f5641b4a2",
+      "experiments/rfuav_dense_gated_20261008/test_models.py": "f652b3d012f60fc86aa099beba28147ed75bc9fc3b3f0b4170c3d4d8f1999110",
+      "experiments/rfuav_dense_gated_20261008/study.py": "2e2cb2401c546405959d0de3d4ebccf08f55b0e977ea6825d001c7e663df0edd",
+      "experiments/rfuav_dense_gated_20261008/models.py": "b48e5852e194d4c7fca3e636bb79f918da478a4880fc83397c8afd2e538a136c",
+      "experiments/rfuav_dense_gated_20261008/dense_data.py": "a5604c104332731f7dfa220de74bdd2af2c7efdb5b57af860eae3348e2aa4f3d",
+      "experiments/rfuav_dense_gated_20261008/verify_dense.py": "9fafe10f20057b434ab102b1e12cd298a6c9b2d4293234670590fbe5425ae276",
+      "experiments/rfuav_dense_gated_20261008/prepare_dense_gated.py": "eab1ef23cd3af6c58832e8416aa0108c2090b8610e1919612cee2a8e21fd150b",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_training_data.py": "4222e700c5e77761c7fb05269bd86420896fa2fbcdcbe707a97c08e3f63eaee7",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/temporal.py": "47c237184e31050706abefd0bc91bce80c1492866f5c26e0e9333fe1712da253",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/similarity.py": "a8166bcc7adefec50b30c0374f84964b36943395d64ba3e91400f7b8147c561a",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_data.py": "97886c6accb9e228b85b6fda7efb76cea8e4b4a75e5420c39b115dcf65281268",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/within_dataset_schedule.py": "edcddbf19df88bd0ec4ac6558776d6b75dfa983589850aa742bcaf8306ffaf18",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/losses.py": "a51e179ea16d094cf122ec6491d79b26c66e3ed84294e396112156fb3ac8a4d6",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/waveform.py": "7f27d74ffef9ac5f52c34559d66ddd512f76abe83a4ba825887fc94bd1c3159d",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_model.py": "a6bb37a4a5fb8c5c7f0472b76a92d80f178183d91118367b74fe557873d64794",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/data.py": "2c8abdc30d724e3fd61ca4145f158145139a8c9f69f1d66dc4c888ad1653df6e",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/__init__.py": "9452c5c2cea105ebfc875e0128e2b99b459806ff14c2cd59236c3273575016f4",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/model.py": "c97c64d315637c7799e59147ce37dfce910bdb6ff385c2733153720cfdf47105",
+      "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/mixture_constraints.py": "306709a6de32ed01581bd3facc8c45e91de6770de07b1fb9e2457f3ecc99372c"
+    },
+    "data_sha256": {
+      "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_preparation/PREPARATION.json": "48ff00c8f9f7db4f0e95e68441cd7e882a45e1814bdaa3201ef3d6b545594976",
+      "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_preparation/TRAIN.npy": "ef9e1e78d99c65f2aafb30491da6f371e9476ba6f75a7bc2bc3571b668e6b3f0",
+      "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_preparation/VALIDATION.npy": "18af759fde10a5c9218c202715762b34604d8210ef38f563485cd005215a1646",
+      "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_preparation/CACHE_MANIFEST.json": "8900eb833daa866099c002f658ccad8397bd85e5974ecc26a8e6467016acb6f2",
+      "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_gpu_run/unet_mean/SELECTED_005.pt": "86470af0de460d6b71072e08fb19ec77bfb9d3545a41e7da728fad084870a356"
+    },
+    "arms": [
+      "waveform_only",
+      "waveform_allocation"
+    ],
+    "weights": {
+      "waveform_only": 0.0,
+      "waveform_allocation": 0.1
+    },
+    "seed": 0,
+    "parameters": 32142859,
+    "epochs": 5,
+    "examples_per_epoch": 2400,
+    "effective_batch": 32,
+    "microbatch": 2,
+    "updates_per_epoch": 75,
+    "total_updates_per_arm": 375,
+    "optimizer": "fresh AdamW",
+    "lr": 1e-05,
+    "weight_decay": 0.0001,
+    "gradient_clip": 1.0,
+    "precision": "float32 TF32 disabled",
+    "parent": "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_gpu_run/unet_mean/SELECTED_005.pt",
+    "parent_sha256": "86470af0de460d6b71072e08fb19ec77bfb9d3545a41e7da728fad084870a356",
+    "parent_selected_additional_epoch": 1,
+    "source_prediction": "unchanged full STFT U-Net; three unordered outputs and background",
+    "main_loss": "existing whole-window PIT NMSE + coherence + background; 0.1 count CE",
+    "auxiliary": "reference-energy-weighted KL of relative STFT source powers, existing waveform PIT assignment, background target zero",
+    "eps": "relative 1e-8 smoothing of predicted power only; no phase/gain fitting",
+    "selection": "minimum mean NMSE over counts2/3 including epoch0",
+    "acceptance": "NMSE down AND complex SI-SDR up separately for counts2/3",
+    "diagnostic": "same four TRAIN mixtures, each arm32 updates; discard weights, not generalized performance",
+    "train_indices": [
+      4,
+      5,
+      2,
+      11
+    ],
+    "cpu_gpu_parallel": true,
+    "validation_cases": 630,
+    "heldout_access": false,
+    "physical_aircraft_count": false,
+    "native_center_offsets_preserved": false,
+    "data_scope": "same frozen RFUAV records, same native band per center-aligned synthetic mixture"
+  },
+  "preflight": {
+    "status": "PASS",
+    "protocol_sha256": "b022995becfb5f0cab88d4cd400025150763575d789e2fbe0d91581159be47cd",
+    "results": {
+      "waveform_only": {
+        "before": {
+          "mean_nmse": 0.4937850538056467,
+          "mean_si_sdr": 3.59689297942077,
+          "primary": 0.7140825092792511,
+          "allocation": 1.1033067405223846,
+          "component_nmse": [
+            0.2544708084938528,
+            0.40586979421553865,
+            0.12407385179547509,
+            0.35851511490017407,
+            0.955932776533428,
+            0.36345087745692295,
+            0.732302849044866,
+            0.9456731260730248,
+            0.7160068832996659,
+            0.08155445624351933
+          ]
+        },
+        "curve": [
+          {
+            "step": 1,
+            "mean_nmse": 0.48717402174119273,
+            "mean_si_sdr": 3.793806680737416,
+            "primary": 0.6978715807199478,
+            "allocation": 1.0928284525871277,
+            "component_nmse": [
+              0.25432012292156003,
+              0.40615853696296855,
+              0.11763624662482733,
+              0.34447058697608135,
+              0.9542940459445407,
+              0.36848398976968505,
+              0.6901702388947889,
+              0.9429821237007737,
+              0.7120296655446561,
+              0.08119466007204623
+            ]
+          },
+          {
+            "step": 16,
+            "mean_nmse": 0.43190145011587006,
+            "mean_si_sdr": 5.5260581372535,
+            "primary": 0.5880193710327148,
+            "allocation": 0.9561929553747177,
+            "component_nmse": [
+              0.23265687931401488,
+              0.3934986196741034,
+              0.07449045502744173,
+              0.2617135136693998,
+              0.9203571426616599,
+              0.5260633874580952,
+              0.2569201852993745,
+              0.9012454624212877,
+              0.6728453168313683,
+              0.07922353880195471
+            ]
+          },
+          {
+            "step": 32,
+            "mean_nmse": 0.4027339042650654,
+            "mean_si_sdr": 6.23138565210304,
+            "primary": 0.5459422320127487,
+            "allocation": 0.8033616542816162,
+            "component_nmse": [
+              0.1973808361293041,
+              0.35937539224193277,
+              0.0590644923954176,
+              0.23479058640099837,
+              0.8751474019726078,
+              0.4959768882779432,
+              0.2139705661679714,
+              0.8690105432127481,
+              0.6430012970668437,
+              0.07962103878488691
+            ]
+          }
+        ],
+        "microbatch_relative_error": 0.0,
+        "peak_allocated_bytes": 4385286656,
+        "seconds": 30.722036123275757
+      },
+      "waveform_allocation": {
+        "before": {
+          "mean_nmse": 0.4937850538056467,
+          "mean_si_sdr": 3.59689297942077,
+          "primary": 0.7140825092792511,
+          "allocation": 1.1033067405223846,
+          "component_nmse": [
+            0.2544708084938528,
+            0.40586979421553865,
+            0.12407385179547509,
+            0.35851511490017407,
+            0.955932776533428,
+            0.36345087745692295,
+            0.732302849044866,
+            0.9456731260730248,
+            0.7160068832996659,
+            0.08155445624351933
+          ]
+        },
+        "curve": [
+          {
+            "step": 1,
+            "mean_nmse": 0.4871041423343049,
+            "mean_si_sdr": 3.7814441405298176,
+            "primary": 0.698515310883522,
+            "allocation": 1.0785959362983704,
+            "component_nmse": [
+              0.2528626451725692,
+              0.40513405864191954,
+              0.11674647540932631,
+              0.3431658866845474,
+              0.9525512218764173,
+              0.36674092062738006,
+              0.6973082766556438,
+              0.9421188635017583,
+              0.713195346318705,
+              0.08121772845478145
+            ]
+          },
+          {
+            "step": 16,
+            "mean_nmse": 0.427770556795455,
+            "mean_si_sdr": 5.391987579222412,
+            "primary": 0.5899404436349869,
+            "allocation": 0.8777384161949158,
+            "component_nmse": [
+              0.22339028237579858,
+              0.3854855540858781,
+              0.07219448266694055,
+              0.2588179235567077,
+              0.9065670732042759,
+              0.4819663905572981,
+              0.2977140629349961,
+              0.8963401229899246,
+              0.6768400124816691,
+              0.07838966310106078
+            ]
+          },
+          {
+            "step": 32,
+            "mean_nmse": 0.3980392888160328,
+            "mean_si_sdr": 6.06033357707408,
+            "primary": 0.5466111972928047,
+            "allocation": 0.7238330096006393,
+            "component_nmse": [
+              0.19240582619265847,
+              0.35652032912446946,
+              0.05935955439233262,
+              0.23814519579468008,
+              0.85511540658417,
+              0.4563276956476833,
+              0.24157692910344833,
+              0.859258564727528,
+              0.6431254879007176,
+              0.0785578986926393
+            ]
+          }
+        ],
+        "microbatch_relative_error": 0.0,
+        "peak_allocated_bytes": 4385286656,
+        "seconds": 30.738232374191284
+      }
+    },
+    "discarded_updates_per_arm": 32,
+    "training_indices": [
+      4,
+      5,
+      2,
+      11
+    ],
+    "validation_or_heldout_access": false
+  },
+  "state_at_capture": {
+    "status": "GPU_TRAINING_RUNNING",
+    "time": 1791476184.061505,
+    "pid": 3420134
+  },
+  "progress_at_capture": {
+    "stage": "TRAIN",
+    "arm": "waveform_only",
+    "epoch": 1,
+    "updates": 5,
+    "examples": 160,
+    "total": 2400,
+    "seconds": 41.433544397354126,
+    "time": 1791476271.9148989,
+    "pid": 3420134
+  },
+  "scope": "launch and discarded train-only diagnostic, not completed validation improvement"
+}

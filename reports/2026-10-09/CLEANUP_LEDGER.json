@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-09",
+  "entries": [
+    {
+      "path": "reports/2026-10-09/PHASE_AVERAGE_INTERIM.json",
+      "bytes": 33862,
+      "sha256": "50661a98f743745df7f93600b2b141f9f5b84a0ff75413a44b03190260aae57d",
+      "replacement": "reports/2026-10-09/PHASE_AVERAGE_FINAL.json",
+      "reason": "uncommitted generated interim report superseded by fully audited final report; all numerical worker evidence retained locally"
+    },
+    {
+      "path": "reports/2026-10-09/PHASE_AVERAGE_INTERIM.md",
+      "bytes": 3655,
+      "sha256": "843b2dc1aea7bfdaa654717e542ee9ccb9e0ec6c3c92dba2c26ea762327bb2ea",
+      "replacement": "reports/2026-10-09/PHASE_AVERAGE_FINAL.md",
+      "reason": "uncommitted generated interim report superseded by fully audited final report; all numerical worker evidence retained locally"
+    }
+  ],
+  "raw_iq_or_checkpoint_deleted": false
+}
