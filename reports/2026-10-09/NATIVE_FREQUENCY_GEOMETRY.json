@@ -1,0 +1,437 @@
+{
+  "status": "METADATA_ONLY_COMPLETE",
+  "metadata_sha256": {
+    "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_preparation/PREPARATION.json": "48ff00c8f9f7db4f0e95e68441cd7e882a45e1814bdaa3201ef3d6b545594976",
+    "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_preparation/CACHE_MANIFEST.json": "8900eb833daa866099c002f658ccad8397bd85e5974ecc26a8e6467016acb6f2",
+    "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_preparation/TRAIN.npy": "ef9e1e78d99c65f2aafb30491da6f371e9476ba6f75a7bc2bc3571b668e6b3f0",
+    "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_preparation/VALIDATION.npy": "18af759fde10a5c9218c202715762b34604d8210ef38f563485cd005215a1646"
+  },
+  "schedules": [
+    {
+      "schedule": "TRAIN.npy",
+      "role": "train_pack",
+      "cases": 12000,
+      "epochs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "geometry": [
+        {
+          "categories": [
+            "DJI AVATA2"
+          ],
+          "count": 1,
+          "cases": 800,
+          "centers_hz": [
+            5760000000.0
+          ],
+          "center_spread_hz": 0.0,
+          "common_nyquist_lower_hz": 5710000000.0,
+          "common_nyquist_upper_hz": 5810000000.0,
+          "common_nyquist_width_hz": 100000000.0,
+          "provisional_common_center_hz": 5760000000.0,
+          "shifts_to_common_center_hz": [
+            0.0
+          ]
+        },
+        {
+          "categories": [
+            "DJI AVATA2",
+            "DJI FPV COMBO"
+          ],
+          "count": 2,
+          "cases": 1002,
+          "centers_hz": [
+            5760000000.0,
+            5760000000.0
+          ],
+          "center_spread_hz": 0.0,
+          "common_nyquist_lower_hz": 5710000000.0,
+          "common_nyquist_upper_hz": 5810000000.0,
+          "common_nyquist_width_hz": 100000000.0,
+          "provisional_common_center_hz": 5760000000.0,
+          "shifts_to_common_center_hz": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "categories": [
+            "DJI AVATA2",
+            "DJI FPV COMBO",
+            "DJI MAVIC3 PRO"
+          ],
+          "count": 3,
+          "cases": 4000,
+          "centers_hz": [
+            5760000000.0,
+            5760000000.0,
+            5800000000.0
+          ],
+          "center_spread_hz": 40000000.0,
+          "common_nyquist_lower_hz": 5750000000.0,
+          "common_nyquist_upper_hz": 5810000000.0,
+          "common_nyquist_width_hz": 60000000.0,
+          "provisional_common_center_hz": 5780000000.0,
+          "shifts_to_common_center_hz": [
+            -20000000.0,
+            -20000000.0,
+            20000000.0
+          ]
+        },
+        {
+          "categories": [
+            "DJI AVATA2",
+            "DJI MAVIC3 PRO"
+          ],
+          "count": 2,
+          "cases": 1000,
+          "centers_hz": [
+            5760000000.0,
+            5800000000.0
+          ],
+          "center_spread_hz": 40000000.0,
+          "common_nyquist_lower_hz": 5750000000.0,
+          "common_nyquist_upper_hz": 5810000000.0,
+          "common_nyquist_width_hz": 60000000.0,
+          "provisional_common_center_hz": 5780000000.0,
+          "shifts_to_common_center_hz": [
+            -20000000.0,
+            20000000.0
+          ]
+        },
+        {
+          "categories": [
+            "DJI FPV COMBO"
+          ],
+          "count": 1,
+          "cases": 800,
+          "centers_hz": [
+            5760000000.0
+          ],
+          "center_spread_hz": 0.0,
+          "common_nyquist_lower_hz": 5710000000.0,
+          "common_nyquist_upper_hz": 5810000000.0,
+          "common_nyquist_width_hz": 100000000.0,
+          "provisional_common_center_hz": 5760000000.0,
+          "shifts_to_common_center_hz": [
+            0.0
+          ]
+        },
+        {
+          "categories": [
+            "DJI FPV COMBO",
+            "DJI MAVIC3 PRO"
+          ],
+          "count": 2,
+          "cases": 999,
+          "centers_hz": [
+            5760000000.0,
+            5800000000.0
+          ],
+          "center_spread_hz": 40000000.0,
+          "common_nyquist_lower_hz": 5750000000.0,
+          "common_nyquist_upper_hz": 5810000000.0,
+          "common_nyquist_width_hz": 60000000.0,
+          "provisional_common_center_hz": 5780000000.0,
+          "shifts_to_common_center_hz": [
+            -20000000.0,
+            20000000.0
+          ]
+        },
+        {
+          "categories": [
+            "DJI MAVIC3 PRO"
+          ],
+          "count": 1,
+          "cases": 800,
+          "centers_hz": [
+            5800000000.0
+          ],
+          "center_spread_hz": 0.0,
+          "common_nyquist_lower_hz": 5750000000.0,
+          "common_nyquist_upper_hz": 5850000000.0,
+          "common_nyquist_width_hz": 100000000.0,
+          "provisional_common_center_hz": 5800000000.0,
+          "shifts_to_common_center_hz": [
+            0.0
+          ]
+        },
+        {
+          "categories": [
+            "DJI MINI3"
+          ],
+          "count": 1,
+          "cases": 800,
+          "centers_hz": [
+            2470000000.0
+          ],
+          "center_spread_hz": 0.0,
+          "common_nyquist_lower_hz": 2420000000.0,
+          "common_nyquist_upper_hz": 2520000000.0,
+          "common_nyquist_width_hz": 100000000.0,
+          "provisional_common_center_hz": 2470000000.0,
+          "shifts_to_common_center_hz": [
+            0.0
+          ]
+        },
+        {
+          "categories": [
+            "DJI MINI3",
+            "DJI MINI4 PRO"
+          ],
+          "count": 2,
+          "cases": 999,
+          "centers_hz": [
+            2470000000.0,
+            2450000000.0
+          ],
+          "center_spread_hz": 20000000.0,
+          "common_nyquist_lower_hz": 2420000000.0,
+          "common_nyquist_upper_hz": 2500000000.0,
+          "common_nyquist_width_hz": 80000000.0,
+          "provisional_common_center_hz": 2460000000.0,
+          "shifts_to_common_center_hz": [
+            10000000.0,
+            -10000000.0
+          ]
+        },
+        {
+          "categories": [
+            "DJI MINI4 PRO"
+          ],
+          "count": 1,
+          "cases": 800,
+          "centers_hz": [
+            2450000000.0
+          ],
+          "center_spread_hz": 0.0,
+          "common_nyquist_lower_hz": 2400000000.0,
+          "common_nyquist_upper_hz": 2500000000.0,
+          "common_nyquist_width_hz": 100000000.0,
+          "provisional_common_center_hz": 2450000000.0,
+          "shifts_to_common_center_hz": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "schedule": "VALIDATION.npy",
+      "role": "validation_pack",
+      "cases": 630,
+      "epochs": [
+        1
+      ],
+      "geometry": [
+        {
+          "categories": [
+            "DJI AVATA2"
+          ],
+          "count": 1,
+          "cases": 42,
+          "centers_hz": [
+            5765000000.0
+          ],
+          "center_spread_hz": 0.0,
+          "common_nyquist_lower_hz": 5715000000.0,
+          "common_nyquist_upper_hz": 5815000000.0,
+          "common_nyquist_width_hz": 100000000.0,
+          "provisional_common_center_hz": 5765000000.0,
+          "shifts_to_common_center_hz": [
+            0.0
+          ]
+        },
+        {
+          "categories": [
+            "DJI AVATA2",
+            "DJI FPV COMBO"
+          ],
+          "count": 2,
+          "cases": 54,
+          "centers_hz": [
+            5765000000.0,
+            5760000000.0
+          ],
+          "center_spread_hz": 5000000.0,
+          "common_nyquist_lower_hz": 5715000000.0,
+          "common_nyquist_upper_hz": 5810000000.0,
+          "common_nyquist_width_hz": 95000000.0,
+          "provisional_common_center_hz": 5762500000.0,
+          "shifts_to_common_center_hz": [
+            2500000.0,
+            -2500000.0
+          ]
+        },
+        {
+          "categories": [
+            "DJI AVATA2",
+            "DJI FPV COMBO",
+            "DJI MAVIC3 PRO"
+          ],
+          "count": 3,
+          "cases": 210,
+          "centers_hz": [
+            5765000000.0,
+            5760000000.0,
+            5800000000.0
+          ],
+          "center_spread_hz": 40000000.0,
+          "common_nyquist_lower_hz": 5750000000.0,
+          "common_nyquist_upper_hz": 5810000000.0,
+          "common_nyquist_width_hz": 60000000.0,
+          "provisional_common_center_hz": 5780000000.0,
+          "shifts_to_common_center_hz": [
+            -15000000.0,
+            -20000000.0,
+            20000000.0
+          ]
+        },
+        {
+          "categories": [
+            "DJI AVATA2",
+            "DJI MAVIC3 PRO"
+          ],
+          "count": 2,
+          "cases": 54,
+          "centers_hz": [
+            5765000000.0,
+            5800000000.0
+          ],
+          "center_spread_hz": 35000000.0,
+          "common_nyquist_lower_hz": 5750000000.0,
+          "common_nyquist_upper_hz": 5815000000.0,
+          "common_nyquist_width_hz": 65000000.0,
+          "provisional_common_center_hz": 5782500000.0,
+          "shifts_to_common_center_hz": [
+            -17500000.0,
+            17500000.0
+          ]
+        },
+        {
+          "categories": [
+            "DJI FPV COMBO"
+          ],
+          "count": 1,
+          "cases": 42,
+          "centers_hz": [
+            5760000000.0
+          ],
+          "center_spread_hz": 0.0,
+          "common_nyquist_lower_hz": 5710000000.0,
+          "common_nyquist_upper_hz": 5810000000.0,
+          "common_nyquist_width_hz": 100000000.0,
+          "provisional_common_center_hz": 5760000000.0,
+          "shifts_to_common_center_hz": [
+            0.0
+          ]
+        },
+        {
+          "categories": [
+            "DJI FPV COMBO",
+            "DJI MAVIC3 PRO"
+          ],
+          "count": 2,
+          "cases": 51,
+          "centers_hz": [
+            5760000000.0,
+            5800000000.0
+          ],
+          "center_spread_hz": 40000000.0,
+          "common_nyquist_lower_hz": 5750000000.0,
+          "common_nyquist_upper_hz": 5810000000.0,
+          "common_nyquist_width_hz": 60000000.0,
+          "provisional_common_center_hz": 5780000000.0,
+          "shifts_to_common_center_hz": [
+            -20000000.0,
+            20000000.0
+          ]
+        },
+        {
+          "categories": [
+            "DJI MAVIC3 PRO"
+          ],
+          "count": 1,
+          "cases": 42,
+          "centers_hz": [
+            5800000000.0
+          ],
+          "center_spread_hz": 0.0,
+          "common_nyquist_lower_hz": 5750000000.0,
+          "common_nyquist_upper_hz": 5850000000.0,
+          "common_nyquist_width_hz": 100000000.0,
+          "provisional_common_center_hz": 5800000000.0,
+          "shifts_to_common_center_hz": [
+            0.0
+          ]
+        },
+        {
+          "categories": [
+            "DJI MINI3"
+          ],
+          "count": 1,
+          "cases": 42,
+          "centers_hz": [
+            2470000000.0
+          ],
+          "center_spread_hz": 0.0,
+          "common_nyquist_lower_hz": 2420000000.0,
+          "common_nyquist_upper_hz": 2520000000.0,
+          "common_nyquist_width_hz": 100000000.0,
+          "provisional_common_center_hz": 2470000000.0,
+          "shifts_to_common_center_hz": [
+            0.0
+          ]
+        },
+        {
+          "categories": [
+            "DJI MINI3",
+            "DJI MINI4 PRO"
+          ],
+          "count": 2,
+          "cases": 51,
+          "centers_hz": [
+            2470000000.0,
+            2450000000.0
+          ],
+          "center_spread_hz": 20000000.0,
+          "common_nyquist_lower_hz": 2420000000.0,
+          "common_nyquist_upper_hz": 2500000000.0,
+          "common_nyquist_width_hz": 80000000.0,
+          "provisional_common_center_hz": 2460000000.0,
+          "shifts_to_common_center_hz": [
+            10000000.0,
+            -10000000.0
+          ]
+        },
+        {
+          "categories": [
+            "DJI MINI4 PRO"
+          ],
+          "count": 1,
+          "cases": 42,
+          "centers_hz": [
+            2450000000.0
+          ],
+          "center_spread_hz": 0.0,
+          "common_nyquist_lower_hz": 2400000000.0,
+          "common_nyquist_upper_hz": 2500000000.0,
+          "common_nyquist_width_hz": 100000000.0,
+          "provisional_common_center_hz": 2450000000.0,
+          "shifts_to_common_center_hz": [
+            0.0
+          ]
+        }
+      ]
+    }
+  ],
+  "raw_iq_read": false,
+  "heldout_read": false,
+  "ongoing_trial_changed": false,
+  "native_offset_replay_implemented": false,
+  "interval_meaning": "theoretical digital Nyquist support; receiver usable passband and occupied signal bandwidth not measured",
+  "current_training_geometry": "same-band center-aligned; native center offsets not preserved"
+}
