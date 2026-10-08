@@ -1,0 +1,28 @@
+{
+  "report_time": 1791495553.0980833,
+  "root": "local/native_frequency_20261009_v1",
+  "heldout_access": false,
+  "independent_test": false,
+  "PREP_PROGRESS": {
+    "stage": "NATIVE_CONTEXTS",
+    "completed": 1375,
+    "total": 4046,
+    "time": 1791495550.4403903,
+    "seconds": 454.03713607788086,
+    "pid": 3607244
+  },
+  "GPU_STATE": {
+    "status": "WAITING_FOR_CPU_DATA",
+    "role": "validation_pack",
+    "epoch": 1,
+    "time": 1791495551.0208483,
+    "pid": 3608527
+  },
+  "train_diagnostic": {
+    "status": "PASS",
+    "cases": 48,
+    "unique_contexts": 100,
+    "sha256": "68cd0f913d5401fe52b8637f40d1f7df82c207a03ac531ca2a6d274cf4b6483e"
+  },
+  "epochs": []
+}
