@@ -1,0 +1,310 @@
+{
+  "diagnostic_only": true,
+  "data_role": "train_pack",
+  "cases": 12,
+  "sample_selection": "first four scheduled mixtures for each count 1,2,3, epoch1; not selected by performance",
+  "heldout_or_validation_iq_read": false,
+  "training_performed": false,
+  "by_checkpoint": {
+    "selected_epoch1": {
+      "rows": [
+        {
+          "index": 0,
+          "count": 1,
+          "output_rms_relative_change_on_gate_removal": 0.0003337996022310108,
+          "bottleneck_shape": [
+            1,
+            1024,
+            32,
+            31
+          ],
+          "gate_residual_to_input_rms": 0.0006740274839103222
+        },
+        {
+          "index": 1,
+          "count": 1,
+          "output_rms_relative_change_on_gate_removal": 7.928340892249253e-06,
+          "bottleneck_shape": [
+            1,
+            1024,
+            32,
+            31
+          ],
+          "gate_residual_to_input_rms": 0.0012398195685818791
+        },
+        {
+          "index": 3,
+          "count": 1,
+          "output_rms_relative_change_on_gate_removal": 6.334131285257172e-06,
+          "bottleneck_shape": [
+            1,
+            1024,
+            32,
+            31
+          ],
+          "gate_residual_to_input_rms": 0.0007175010978244245
+        },
+        {
+          "index": 7,
+          "count": 1,
+          "output_rms_relative_change_on_gate_removal": 1.76377288880758e-05,
+          "bottleneck_shape": [
+            1,
+            1024,
+            32,
+            31
+          ],
+          "gate_residual_to_input_rms": 0.0013546556001529098
+        },
+        {
+          "index": 4,
+          "count": 2,
+          "output_rms_relative_change_on_gate_removal": 5.159043212188408e-05,
+          "bottleneck_shape": [
+            1,
+            1024,
+            32,
+            31
+          ],
+          "gate_residual_to_input_rms": 0.0011764004593715072
+        },
+        {
+          "index": 5,
+          "count": 2,
+          "output_rms_relative_change_on_gate_removal": 0.0002718380419537425,
+          "bottleneck_shape": [
+            1,
+            1024,
+            32,
+            31
+          ],
+          "gate_residual_to_input_rms": 0.0012447169283404946
+        },
+        {
+          "index": 6,
+          "count": 2,
+          "output_rms_relative_change_on_gate_removal": 0.0019078697077929974,
+          "bottleneck_shape": [
+            1,
+            1024,
+            32,
+            31
+          ],
+          "gate_residual_to_input_rms": 0.0013574236072599888
+        },
+        {
+          "index": 8,
+          "count": 2,
+          "output_rms_relative_change_on_gate_removal": 0.000133125766296871,
+          "bottleneck_shape": [
+            1,
+            1024,
+            32,
+            31
+          ],
+          "gate_residual_to_input_rms": 0.0009150405530817807
+        },
+        {
+          "index": 2,
+          "count": 3,
+          "output_rms_relative_change_on_gate_removal": 0.00044772319961339235,
+          "bottleneck_shape": [
+            1,
+            1024,
+            32,
+            31
+          ],
+          "gate_residual_to_input_rms": 0.0012042216258123517
+        },
+        {
+          "index": 11,
+          "count": 3,
+          "output_rms_relative_change_on_gate_removal": 3.486170680844225e-05,
+          "bottleneck_shape": [
+            1,
+            1024,
+            32,
+            31
+          ],
+          "gate_residual_to_input_rms": 0.001584655256010592
+        },
+        {
+          "index": 15,
+          "count": 3,
+          "output_rms_relative_change_on_gate_removal": 2.2582567908102646e-05,
+          "bottleneck_shape": [
+            1,
+            1024,
+            32,
+            31
+          ],
+          "gate_residual_to_input_rms": 0.001528929453343153
+        },
+        {
+          "index": 16,
+          "count": 3,
+          "output_rms_relative_change_on_gate_removal": 7.750000077066943e-05,
+          "bottleneck_shape": [
+            1,
+            1024,
+            32,
+            31
+          ],
+          "gate_residual_to_input_rms": 0.0013330689398571849
+        }
+      ],
+      "mean_gate_residual_to_input_rms": 0.001194205047795549,
+      "mean_output_rms_relative_change_on_gate_removal": 0.00027606593554689124
+    },
+    "last_epoch5": {
+      "rows": [
+        {
+          "index": 0,
+          "count": 1,
+          "output_rms_relative_change_on_gate_removal": 0.004095837939530611,
+          "bottleneck_shape": [
+            1,
+            1024,
+            32,
+            31
+          ],
+          "gate_residual_to_input_rms": 0.0059439921751618385
+        },
+        {
+          "index": 1,
+          "count": 1,
+          "output_rms_relative_change_on_gate_removal": 0.00016593375767115504,
+          "bottleneck_shape": [
+            1,
+            1024,
+            32,
+            31
+          ],
+          "gate_residual_to_input_rms": 0.008082328364253044
+        },
+        {
+          "index": 3,
+          "count": 1,
+          "output_rms_relative_change_on_gate_removal": 0.00023743083875160664,
+          "bottleneck_shape": [
+            1,
+            1024,
+            32,
+            31
+          ],
+          "gate_residual_to_input_rms": 0.006129716522991657
+        },
+        {
+          "index": 7,
+          "count": 1,
+          "output_rms_relative_change_on_gate_removal": 0.0002731217537075281,
+          "bottleneck_shape": [
+            1,
+            1024,
+            32,
+            31
+          ],
+          "gate_residual_to_input_rms": 0.009121350012719631
+        },
+        {
+          "index": 4,
+          "count": 2,
+          "output_rms_relative_change_on_gate_removal": 0.0008082621498033404,
+          "bottleneck_shape": [
+            1,
+            1024,
+            32,
+            31
+          ],
+          "gate_residual_to_input_rms": 0.009907393716275692
+        },
+        {
+          "index": 5,
+          "count": 2,
+          "output_rms_relative_change_on_gate_removal": 0.0004259029228705913,
+          "bottleneck_shape": [
+            1,
+            1024,
+            32,
+            31
+          ],
+          "gate_residual_to_input_rms": 0.010303026996552944
+        },
+        {
+          "index": 6,
+          "count": 2,
+          "output_rms_relative_change_on_gate_removal": 0.010086442343890667,
+          "bottleneck_shape": [
+            1,
+            1024,
+            32,
+            31
+          ],
+          "gate_residual_to_input_rms": 0.01808873377740383
+        },
+        {
+          "index": 8,
+          "count": 2,
+          "output_rms_relative_change_on_gate_removal": 0.002137117786332965,
+          "bottleneck_shape": [
+            1,
+            1024,
+            32,
+            31
+          ],
+          "gate_residual_to_input_rms": 0.008713832125067711
+        },
+        {
+          "index": 2,
+          "count": 3,
+          "output_rms_relative_change_on_gate_removal": 0.01401783712208271,
+          "bottleneck_shape": [
+            1,
+            1024,
+            32,
+            31
+          ],
+          "gate_residual_to_input_rms": 0.014184417203068733
+        },
+        {
+          "index": 11,
+          "count": 3,
+          "output_rms_relative_change_on_gate_removal": 0.0006199882482178509,
+          "bottleneck_shape": [
+            1,
+            1024,
+            32,
+            31
+          ],
+          "gate_residual_to_input_rms": 0.01080834399908781
+        },
+        {
+          "index": 15,
+          "count": 3,
+          "output_rms_relative_change_on_gate_removal": 0.0003821234859060496,
+          "bottleneck_shape": [
+            1,
+            1024,
+            32,
+            31
+          ],
+          "gate_residual_to_input_rms": 0.011209940537810326
+        },
+        {
+          "index": 16,
+          "count": 3,
+          "output_rms_relative_change_on_gate_removal": 0.0010125132976099849,
+          "bottleneck_shape": [
+            1,
+            1024,
+            32,
+            31
+          ],
+          "gate_residual_to_input_rms": 0.008886875584721565
+        }
+      ],
+      "mean_gate_residual_to_input_rms": 0.010114995917926231,
+      "mean_output_rms_relative_change_on_gate_removal": 0.0028552093038645885
+    }
+  }
+}
