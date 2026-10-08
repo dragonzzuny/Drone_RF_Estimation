@@ -2,6 +2,7 @@
 import argparse
 import hashlib
 import json
+import math
 from pathlib import Path
 import statistics
 from summarize_waveform_context import audit_validation,summarize,audit_completion
@@ -77,6 +78,44 @@ def allocation(run,verify):
     result['allocation_meets_prespecified_acceptance']=result.pop('long_context_meets_prespecified_acceptance')
     if verify:
         result['completion_audit']=audit_completion(run,result)
+    # Read the already selected checkpoints' rows. These diagnostics never
+    # change selection, drop cases, or turn development cases into a new test.
+    selected_rows={arm:read(run/arm/f"VALIDATION_{row['epoch']:03d}.json")['rows']
+        for arm,row in result['selected_at_common_budget'].items()}
+    diagnostics=[]
+    for count in (1,2,3):
+        by_arm={arm:[row for row in rows if row['count']==count]
+            for arm,rows in selected_rows.items()}
+        if any(len(rows)!=210 for rows in by_arm.values()):
+            raise ValueError('Selected diagnostic case count changed')
+        arms={arm:dict(cases=len(rows),
+            weakest_nmse=statistics.mean(r['nmse'][r['weakest_index']] for r in rows),
+            weakest_si_sdr=statistics.mean(r['si_sdr'][r['weakest_index']] for r in rows))
+            for arm,rows in by_arm.items()}
+        control,candidate=(by_arm[a] for a in ('waveform_only','waveform_allocation'))
+        for x,y in zip(control,candidate):
+            if any(x[k]!=y[k] for k in ('index','count','reference_power','weakest_index')):
+                raise ValueError('Selected diagnostic input identities differ')
+        gaps=[]
+        if count>1:
+            for lo,hi in ((0,10),(10,20),(20,math.inf)):
+                indices=[i for i,r in enumerate(control)
+                    if (lambda g:(g>=lo if lo==0 else g>lo) and g<=hi)(
+                        10*math.log10(max(r['reference_power'])/min(r['reference_power'])))]
+                groups={arm:dict(cases=len(indices),
+                    mean_nmse=statistics.mean(v for i in indices for v in rows[i]['nmse']) if indices else None,
+                    mean_si_sdr=statistics.mean(v for i in indices for v in rows[i]['si_sdr']) if indices else None)
+                    for arm,rows in by_arm.items()}
+                gaps.append(dict(lower_db=lo,upper_db=None if math.isinf(hi) else hi,arms=groups))
+            if sum(g['arms']['waveform_only']['cases'] for g in gaps)!=210:
+                raise ValueError('Power-gap diagnostics lost cases')
+        diagnostics.append(dict(count=count,arms=arms,local_power_gap=gaps,
+            candidate_case_mean_nmse_improved=sum(statistics.mean(y['nmse'])<statistics.mean(x['nmse'])
+                for x,y in zip(control,candidate)),
+            candidate_both_case_metrics_improved=sum(
+                statistics.mean(y['nmse'])<statistics.mean(x['nmse']) and
+                statistics.mean(y['si_sdr'])>statistics.mean(x['si_sdr']) for x,y in zip(control,candidate))))
+    result['selected_diagnostics']=diagnostics
     lines=['# 지도학습 전력 배분 보조 손실: 동일 예산 대조','',
         f"상태: {result['status']} · 공통 {result['common_completed_epoch']} epoch, 각 {result['updates_per_arm']}업데이트.",
         '동일 STFT U-Net 선택 가중치, 양쪽 32,142,859파라미터. 후보만 원래 파형 손실에 0.1×전력 배분 KL을 추가했다.',
@@ -93,7 +132,25 @@ def allocation(run,verify):
         g={v['count']:v for v in row['by_count']}
         lines.append(f"| {arm} | {row['epoch']} | {g[2]['mean_nmse']:.6f} | {g[3]['mean_nmse']:.6f} | {g[2]['mean_si_sdr']:.3f} | {g[3]['mean_si_sdr']:.3f} |")
     lines+=['',f"두 지표·두 신호 수의 사전 방향 기준: {'충족' if result['allocation_meets_prespecified_acceptance'] else '미충족'}.",
-        '약한 성분과 전력차별 수치, 모든 epoch와 검산은 함께 저장된 JSON에 있다.',
+        '', '선택된 모델에서 실제 국소 전력이 가장 작은 성분의 결과:', '',
+        '| 성분 수 | 기존 손실 약신호 NMSE | 보조 손실 약신호 NMSE | 기존 손실 약신호 SI-SDR | 보조 손실 약신호 SI-SDR |',
+        '|---|---:|---:|---:|---:|']
+    for row in diagnostics:
+        if row['count']==1:
+            continue
+        a,b=(row['arms'][k] for k in ('waveform_only','waveform_allocation'))
+        lines.append(f"| {row['count']} | {a['weakest_nmse']:.6f} | {b['weakest_nmse']:.6f} | {a['weakest_si_sdr']:.3f} | {b['weakest_si_sdr']:.3f} |")
+    lines+=['', '전력차별 사후 진단이며 사례 제외·재선택에 사용하지 않는다. 단위는 dB다.', '',
+        '| 성분 수 | 최대/최소 국소 전력차 | 혼합 수 | 기존 NMSE | 보조 NMSE | 기존 SI-SDR | 보조 SI-SDR |',
+        '|---|---|---:|---:|---:|---:|---:|']
+    for row in diagnostics:
+        for gap in row['local_power_gap']:
+            a,b=(gap['arms'][k] for k in ('waveform_only','waveform_allocation'))
+            if not a['cases']:
+                continue
+            label=f">{gap['lower_db']}" if gap['upper_db'] is None else f"{gap['lower_db']}–{gap['upper_db']}"
+            lines.append(f"| {row['count']} | {label} | {a['cases']} | {a['mean_nmse']:.6f} | {b['mean_nmse']:.6f} | {a['mean_si_sdr']:.3f} | {b['mean_si_sdr']:.3f} |")
+    lines+=['', '모든 epoch와 검산은 함께 저장된 JSON에 있다.',
         '반복 사용한 개발 검증 630혼합이며 독립 시험이 아니다. 좋은 조건만 제외/선택하지 않는다.',
         '중심 정렬 합성은 원 RF 주파수 간격을 보존하지 않으며, 수신 잡음도 정답에 포함한다.',
         '[고정 규약](../../experiments/rfuav_power_allocation_20261009/README.md).','']
