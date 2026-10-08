@@ -1,0 +1,250 @@
+{
+  "recorded_at": "2026-10-08T14:59:59.738669+09:00",
+  "common_completed_epochs": 2,
+  "additional_updates_per_arm": 150,
+  "selection_rule": "minimum macro validation NMSE over counts 1,2,3 including epoch0; no change to training",
+  "initial": {
+    "selection_nmse": 0.39750470944314503,
+    "two_three_nmse": 0.580626394511593,
+    "by_count": [
+      {
+        "count": 1,
+        "cases": 210,
+        "mean_nmse": 0.031261339306249025,
+        "mean_si_sdr": 20.225351818580634,
+        "mean_si_sdr_gain": null,
+        "nonfinite_si_sdr": 0,
+        "nonfinite_si_sdr_gain": 1,
+        "weakest_nmse": 0.031261339306249025,
+        "all_sources_gain_positive": null,
+        "construction_count_accuracy": 0.5952380952380952
+      },
+      {
+        "count": 2,
+        "cases": 210,
+        "mean_nmse": 0.5021229058032126,
+        "mean_si_sdr": 3.08441580593192,
+        "mean_si_sdr_gain": 3.043508451664817,
+        "nonfinite_si_sdr": 0,
+        "nonfinite_si_sdr_gain": 0,
+        "weakest_nmse": 0.8420751992955675,
+        "all_sources_gain_positive": 0.5476190476190477,
+        "construction_count_accuracy": 0.5047619047619047
+      },
+      {
+        "count": 3,
+        "cases": 210,
+        "mean_nmse": 0.6591298832199733,
+        "mean_si_sdr": -2.691982633314862,
+        "mean_si_sdr_gain": 2.5891996053398825,
+        "nonfinite_si_sdr": 0,
+        "nonfinite_si_sdr_gain": 0,
+        "weakest_nmse": 0.9569071035117959,
+        "all_sources_gain_positive": 0.5428571428571428,
+        "construction_count_accuracy": 0.5285714285714286
+      }
+    ]
+  },
+  "arms": {
+    "unet_mean": {
+      "selected_epoch": 1,
+      "selected": {
+        "selection_nmse": 0.39525559017039696,
+        "two_three_nmse": 0.577391870681388,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.03098302914841512,
+            "mean_si_sdr": 20.703362538623775,
+            "mean_si_sdr_gain": null,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 1,
+            "weakest_nmse": 0.03098302914841512,
+            "all_sources_gain_positive": null,
+            "construction_count_accuracy": 0.5857142857142857
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.4943152457783993,
+            "mean_si_sdr": 2.8697999900724867,
+            "mean_si_sdr_gain": 2.8288926358053836,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 0,
+            "weakest_nmse": 0.8249205700523486,
+            "all_sources_gain_positive": 0.5047619047619047,
+            "construction_count_accuracy": 0.5523809523809524
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.6604684955843766,
+            "mean_si_sdr": -2.6699001603911303,
+            "mean_si_sdr_gain": 2.6112820782636144,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 0,
+            "weakest_nmse": 0.9573506173258381,
+            "all_sources_gain_positive": 0.5380952380952381,
+            "construction_count_accuracy": 0.5904761904761905
+          }
+        ]
+      },
+      "latest": {
+        "epoch": 2,
+        "selection_nmse": 0.4041928245007223,
+        "two_three_nmse": 0.5916766211011883,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.02922523129979028,
+            "mean_si_sdr": 21.303790120563328,
+            "mean_si_sdr_gain": null,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 1,
+            "weakest_nmse": 0.02922523129979028,
+            "all_sources_gain_positive": null,
+            "construction_count_accuracy": 0.5952380952380952
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.512279633252937,
+            "mean_si_sdr": 2.5533029110471674,
+            "mean_si_sdr_gain": 2.5123955567800644,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 0,
+            "weakest_nmse": 0.858153761134619,
+            "all_sources_gain_positive": 0.48095238095238096,
+            "construction_count_accuracy": 0.45714285714285713
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.6710736089494396,
+            "mean_si_sdr": -3.17874501805182,
+            "mean_si_sdr_gain": 2.102437220602925,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 0,
+            "weakest_nmse": 0.9607771973646482,
+            "all_sources_gain_positive": 0.44285714285714284,
+            "construction_count_accuracy": 0.5428571428571428
+          }
+        ]
+      }
+    },
+    "unet_gated": {
+      "selected_epoch": 1,
+      "selected": {
+        "selection_nmse": 0.39528143469992827,
+        "two_three_nmse": 0.5774076996955186,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.03102890470874761,
+            "mean_si_sdr": 20.695188526852863,
+            "mean_si_sdr_gain": null,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 1,
+            "weakest_nmse": 0.03102890470874761,
+            "all_sources_gain_positive": null,
+            "construction_count_accuracy": 0.5857142857142857
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.49423863100020793,
+            "mean_si_sdr": 2.8678565344562768,
+            "mean_si_sdr_gain": 2.8269491801891737,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 0,
+            "weakest_nmse": 0.8247874559127343,
+            "all_sources_gain_positive": 0.5047619047619047,
+            "construction_count_accuracy": 0.5523809523809524
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.6605767683908292,
+            "mean_si_sdr": -2.6685844949806423,
+            "mean_si_sdr_gain": 2.612597743674102,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 0,
+            "weakest_nmse": 0.9573783966322014,
+            "all_sources_gain_positive": 0.5380952380952381,
+            "construction_count_accuracy": 0.5904761904761905
+          }
+        ]
+      },
+      "latest": {
+        "epoch": 2,
+        "selection_nmse": 0.40411745247145303,
+        "two_three_nmse": 0.5915622819599919,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.02922779349437519,
+            "mean_si_sdr": 21.306920935332226,
+            "mean_si_sdr_gain": null,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 1,
+            "weakest_nmse": 0.02922779349437519,
+            "all_sources_gain_positive": null,
+            "construction_count_accuracy": 0.5952380952380952
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.5119539198668003,
+            "mean_si_sdr": 2.5304676175978775,
+            "mean_si_sdr_gain": 2.489560263330774,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 0,
+            "weakest_nmse": 0.8574751091768376,
+            "all_sources_gain_positive": 0.48095238095238096,
+            "construction_count_accuracy": 0.45714285714285713
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.6711706440531836,
+            "mean_si_sdr": -3.1784620197768034,
+            "mean_si_sdr_gain": 2.1027202188779412,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 0,
+            "weakest_nmse": 0.9608015544462365,
+            "all_sources_gain_positive": 0.44285714285714284,
+            "construction_count_accuracy": 0.5428571428571428
+          }
+        ]
+      }
+    }
+  },
+  "source_hashes": {
+    "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_gpu_run/unet_mean/VALIDATION_000.json": "c7d53c3073b24cfba4f7c1d311a1472804db7ae310ff3b90091a7a843b603434",
+    "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_gpu_run/unet_mean/VALIDATION_001.json": "2cd9b51396365c6024ad0fc075ac1c8049fc02c0d480549f8b06cb60542626e9",
+    "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_gpu_run/unet_mean/VALIDATION_002.json": "7305e148c1acc70e8a3512a42bb8976d60bc4ffd5d965df5ffe61d6d5ebb80b5",
+    "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_gpu_run/unet_gated/VALIDATION_000.json": "c7d53c3073b24cfba4f7c1d311a1472804db7ae310ff3b90091a7a843b603434",
+    "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_gpu_run/unet_gated/VALIDATION_001.json": "66f543bffb1f58e29c51bb678fc814c80b14e46161a87383cf41cb835a3b7f72",
+    "/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_gpu_run/unet_gated/VALIDATION_002.json": "17f8936a317c628cb565aedb2fccc00ba8b8d699057a7c1be00a1bd1f54d01ec"
+  },
+  "independent_test": false,
+  "seed": 0,
+  "physical_aircraft_count": false,
+  "selected_baseline_nmse_reduction_from_initial_pct": 0.5570748868428343,
+  "selected_gated_nmse_reduction_from_initial_pct": 0.5543486907414685,
+  "selected_gated_nmse_increase_vs_baseline_pct": 0.002741468131861602,
+  "progress": {
+    "stage": "TRAIN",
+    "arm": "unet_gated",
+    "epoch": 3,
+    "updates": 180,
+    "examples": 960,
+    "time": 1791439162.824276,
+    "pid": 2768554
+  },
+  "worker_pid_confirmed_alive": 2768554
+}
