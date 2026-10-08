@@ -12,3 +12,5 @@ GPU에서 다음을 확인했다.
 이 보고 시점에는1 epoch가 진행 중이며 개선 결과는 아직 없다. 매 epoch에 같은 예산 안에서 선택한 기존/후보 가중치를 비교해 `COMPARISON_001`부터`005`까지 자동 저장한다. 이 로컬 저장은 채팅 알림 발송과 구분한다. 원자료·보류 기종 봉인은 유지한다.
 
 [실험을 선택한 기울기 진단](NATIVE_RF_GRADIENT_DIAGNOSIS.md) · [실행 규약](../../experiments/rfuav_native_frequency_20261009/README.md)
+
+학습 종료 후 선택 가중치에 동일 네 위상 평균 추론을 적용하는 평가도 [대기열에 등록](COUNT_DETACH_PHASE_QUEUED.json)했다. 현재는 대기 중이며 추가 학습·위상 점수에 따른 epoch 재선택은 없다. 기존 native 선택 모델과 같은 추론 비용의 결과를 후속 비교할 수 있도록630행을 모두 저장한다.
