@@ -1,0 +1,921 @@
+{
+  "scope": "four already fitted training mixtures; no generalization claim",
+  "no_validation_or_heldout_iq": true,
+  "no_optimizer_or_weight_updates": true,
+  "oracle_warning": "Reference regressions and gain/chunk corrections are diagnostics only.",
+  "decomposition_warning": "Outside-span error includes time-varying distortions/leakage; not a noise-floor estimate.",
+  "audit_source_sha256": "a930d557b1f666047542a1e30b8fb7805070e7b975c2f247416397d96b891b69",
+  "fit_checkpoint_sha256": "aedda1f32d6f4eaf8fd64008d7765db79e9ad497c23d16fb8de46b1847486b85",
+  "rows": [
+    {
+      "checkpoint": "initial_e22",
+      "example": 0,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "components": [
+        {
+          "nmse": 0.28764971211818363,
+          "gain_error_nmse": 0.0013626067469208118,
+          "other_reference_span_nmse": 0.22387443507079277,
+          "outside_reference_span_nmse": 0.06228374147779678,
+          "cross_term_nmse": 0.00012892882267357927,
+          "closure_error": -3.3306690738754696e-16,
+          "coefficients_real": [
+            0.9631086626166186,
+            0.5420707650429915
+          ],
+          "coefficients_imag": [
+            0.0012790515964349264,
+            -0.0018291266858501132
+          ],
+          "target_coefficient_abs": 0.9631095119352514,
+          "target_coefficient_phase_deg": 0.07609132594886732,
+          "oracle_positive_gain": 0.7942322491798138,
+          "oracle_positive_gain_nmse": 0.23639568931257102,
+          "oracle_complex_gain_abs": 0.794237408213758,
+          "oracle_complex_gain_nmse": 0.23638576910759965,
+          "reference_matrix_rank": 2,
+          "reference_condition_number": 1.1458045474846175
+        },
+        {
+          "nmse": 0.4543572277194951,
+          "gain_error_nmse": 0.399268314688223,
+          "other_reference_span_nmse": 0.0012397922107724223,
+          "outside_reference_span_nmse": 0.0536797612291682,
+          "cross_term_nmse": 0.00016935959132995264,
+          "closure_error": 1.609823385706477e-15,
+          "coefficients_real": [
+            0.030678881916723088,
+            0.36812547501100834
+          ],
+          "coefficients_imag": [
+            -0.001838830864054552,
+            0.0017027501757473362
+          ],
+          "target_coefficient_abs": 0.36812941299255286,
+          "target_coefficient_phase_deg": 0.26501752663742256,
+          "oracle_positive_gain": 1.9333422508911682,
+          "oracle_positive_gain_nmse": 0.2885473647201381,
+          "oracle_complex_gain_abs": 1.9333593620151084,
+          "oracle_complex_gain_nmse": 0.2885347711836483,
+          "reference_matrix_rank": 2,
+          "reference_condition_number": 1.1458045474846175
+        }
+      ],
+      "background_relative_power": 0.003133697098349237,
+      "inactive_relative_power": 0.0003515426250765518,
+      "chunk_assignment": [
+        {
+          "chunk_samples": 2048,
+          "chunks": 32,
+          "changed_chunks": 3,
+          "fixed_nmse": 0.3710034699188399,
+          "oracle_chunk_assignment_nmse": 0.3669729709392926,
+          "oracle_relative_reduction": 0.010863777043457385
+        },
+        {
+          "chunk_samples": 8192,
+          "chunks": 8,
+          "changed_chunks": 0,
+          "fixed_nmse": 0.37100346991883987,
+          "oracle_chunk_assignment_nmse": 0.37100346991883987,
+          "oracle_relative_reduction": 0.0
+        },
+        {
+          "chunk_samples": 16384,
+          "chunks": 4,
+          "changed_chunks": 0,
+          "fixed_nmse": 0.37100346991883987,
+          "oracle_chunk_assignment_nmse": 0.37100346991883987,
+          "oracle_relative_reduction": 0.0
+        }
+      ]
+    },
+    {
+      "checkpoint": "initial_e22",
+      "example": 1,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "components": [
+        {
+          "nmse": 0.24145572409391386,
+          "gain_error_nmse": 9.0261643023885e-05,
+          "other_reference_span_nmse": 0.21668653607297111,
+          "outside_reference_span_nmse": 0.02467904691667808,
+          "cross_term_nmse": -1.2053875793307594e-07,
+          "closure_error": -1.27675647831893e-15,
+          "coefficients_real": [
+            0.9905035706252219,
+            0.7026496146995868
+          ],
+          "coefficients_imag": [
+            -0.00028190805901276666,
+            0.0022588003547416857
+          ],
+          "target_coefficient_abs": 0.9905036107422667,
+          "target_coefficient_phase_deg": -0.01630699982821387,
+          "oracle_positive_gain": 0.8102482657417047,
+          "oracle_positive_gain_nmse": 0.19743946950391159,
+          "oracle_complex_gain_abs": 0.8102483157270953,
+          "oracle_complex_gain_nmse": 0.19743937048166244,
+          "reference_matrix_rank": 2,
+          "reference_condition_number": 1.5094721489828273
+        },
+        {
+          "nmse": 0.6179031007320304,
+          "gain_error_nmse": 0.585159961065337,
+          "other_reference_span_nmse": 4.715691217557244e-05,
+          "outside_reference_span_nmse": 0.03269619162875177,
+          "cross_term_nmse": -2.0887423592672639e-07,
+          "closure_error": 1.9984014443252818e-15,
+          "coefficients_real": [
+            0.004548685709556591,
+            0.23504272141208052
+          ],
+          "coefficients_imag": [
+            -7.665302653822877e-05,
+            -0.000568331507826425
+          ],
+          "target_coefficient_abs": 0.23504340852170197,
+          "target_coefficient_phase_deg": -0.13854048789712867,
+          "oracle_positive_gain": 2.671281080163005,
+          "oracle_positive_gain_nmse": 0.37213446248998616,
+          "oracle_complex_gain_abs": 2.6712888625224553,
+          "oracle_complex_gain_nmse": 0.37213080410865507,
+          "reference_matrix_rank": 2,
+          "reference_condition_number": 1.5094721489828273
+        }
+      ],
+      "background_relative_power": 0.0013698056913547673,
+      "inactive_relative_power": 0.0002300302308326739,
+      "chunk_assignment": [
+        {
+          "chunk_samples": 2048,
+          "chunks": 32,
+          "changed_chunks": 11,
+          "fixed_nmse": 0.4296794124129727,
+          "oracle_chunk_assignment_nmse": 0.42807714628836885,
+          "oracle_relative_reduction": 0.0037289804405706063
+        },
+        {
+          "chunk_samples": 8192,
+          "chunks": 8,
+          "changed_chunks": 1,
+          "fixed_nmse": 0.42967941241297275,
+          "oracle_chunk_assignment_nmse": 0.4292151976949706,
+          "oracle_relative_reduction": 0.001080374587637936
+        },
+        {
+          "chunk_samples": 16384,
+          "chunks": 4,
+          "changed_chunks": 0,
+          "fixed_nmse": 0.4296794124129728,
+          "oracle_chunk_assignment_nmse": 0.4296794124129728,
+          "oracle_relative_reduction": 0.0
+        }
+      ]
+    },
+    {
+      "checkpoint": "initial_e22",
+      "example": 2,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "assignment": [
+        0,
+        2,
+        1
+      ],
+      "components": [
+        {
+          "nmse": 0.9416762245921991,
+          "gain_error_nmse": 0.9411142988365855,
+          "other_reference_span_nmse": 0.00022475679583983533,
+          "outside_reference_span_nmse": 0.000343635713457798,
+          "cross_term_nmse": -6.466753684943318e-06,
+          "closure_error": 9.992007221626409e-16,
+          "coefficients_real": [
+            0.029889586544333113,
+            0.004895635599470563,
+            0.027968412972342108
+          ],
+          "coefficients_imag": [
+            -0.0002907601526627426,
+            -0.0009061705886390411,
+            0.0007134630515881554
+          ],
+          "target_coefficient_abs": 0.02989100074031573,
+          "target_coefficient_phase_deg": -0.5573447498558427,
+          "oracle_positive_gain": 20.44563552241607,
+          "oracle_positive_gain_nmse": 0.38882021185476767,
+          "oracle_complex_gain_abs": 20.44665823172121,
+          "oracle_complex_gain_nmse": 0.38875906678654215,
+          "reference_matrix_rank": 3,
+          "reference_condition_number": 2.226968908413493
+        },
+        {
+          "nmse": 0.3445759245725978,
+          "gain_error_nmse": 0.02965333145593024,
+          "other_reference_span_nmse": 0.2800130904692464,
+          "outside_reference_span_nmse": 0.03446984357984064,
+          "cross_term_nmse": 0.0004396590675802489,
+          "closure_error": 2.7755575615628914e-16,
+          "coefficients_real": [
+            0.5656148886493497,
+            0.8278249220707612,
+            0.3133994730358217
+          ],
+          "coefficients_imag": [
+            -0.000533234223644706,
+            0.003012307419712701,
+            -0.002597121842585884
+          ],
+          "target_coefficient_abs": 0.8278304026776576,
+          "target_coefficient_phase_deg": 0.20848821457636466,
+          "oracle_positive_gain": 0.8284593069141956,
+          "oracle_positive_gain_nmse": 0.3152166619895563,
+          "oracle_complex_gain_abs": 0.8284716871335005,
+          "oracle_complex_gain_nmse": 0.3151961954894526,
+          "reference_matrix_rank": 3,
+          "reference_condition_number": 2.226968908413493
+        },
+        {
+          "nmse": 0.8037483122222294,
+          "gain_error_nmse": 0.19165925922678279,
+          "other_reference_span_nmse": 0.5118568756763244,
+          "outside_reference_span_nmse": 0.10112051481160084,
+          "cross_term_nmse": -0.000888337492481831,
+          "closure_error": 3.219646771412954e-15,
+          "coefficients_real": [
+            0.32558760436202594,
+            0.13137668700689967,
+            0.5622146914857697
+          ],
+          "coefficients_imag": [
+            0.001146715200269727,
+            -0.0006820506014885014,
+            0.0018118708242531919
+          ],
+          "target_coefficient_abs": 0.5622176110709474,
+          "target_coefficient_phase_deg": 0.184648664338491,
+          "oracle_positive_gain": 0.6054883971721343,
+          "oracle_positive_gain_nmse": 0.6589717458469947,
+          "oracle_complex_gain_abs": 0.6054908348506457,
+          "oracle_complex_gain_nmse": 0.6589689999019882,
+          "reference_matrix_rank": 3,
+          "reference_condition_number": 2.226968908413493
+        }
+      ],
+      "background_relative_power": 0.0045695489226888425,
+      "inactive_relative_power": 0.0,
+      "chunk_assignment": [
+        {
+          "chunk_samples": 2048,
+          "chunks": 32,
+          "changed_chunks": 21,
+          "fixed_nmse": 0.6966668204623441,
+          "oracle_chunk_assignment_nmse": 0.5239434110825992,
+          "oracle_relative_reduction": 0.2479282840901145
+        },
+        {
+          "chunk_samples": 8192,
+          "chunks": 8,
+          "changed_chunks": 4,
+          "fixed_nmse": 0.6966668204623441,
+          "oracle_chunk_assignment_nmse": 0.5564350307149066,
+          "oracle_relative_reduction": 0.2012896059186117
+        },
+        {
+          "chunk_samples": 16384,
+          "chunks": 4,
+          "changed_chunks": 3,
+          "fixed_nmse": 0.696666820462344,
+          "oracle_chunk_assignment_nmse": 0.5579661994939917,
+          "oracle_relative_reduction": 0.19909175648167565
+        }
+      ]
+    },
+    {
+      "checkpoint": "initial_e22",
+      "example": 3,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "assignment": [
+        2,
+        0,
+        1
+      ],
+      "components": [
+        {
+          "nmse": 0.28390978374365045,
+          "gain_error_nmse": 0.02860256215625276,
+          "other_reference_span_nmse": 0.19015787537063847,
+          "outside_reference_span_nmse": 0.06544505272880907,
+          "cross_term_nmse": -0.00029570651204988125,
+          "closure_error": 5.551115123125783e-17,
+          "coefficients_real": [
+            0.830878330210907,
+            0.4033364720212744,
+            0.3944608299253728
+          ],
+          "coefficients_imag": [
+            0.0006503568264967209,
+            -0.0034292307095294128,
+            -0.0026630917475909816
+          ],
+          "target_coefficient_abs": 0.8308785847391101,
+          "target_coefficient_phase_deg": 0.04484735294081073,
+          "oracle_positive_gain": 0.8779191825361359,
+          "oracle_positive_gain_nmse": 0.2697898172769072,
+          "oracle_complex_gain_abs": 0.8779192218301413,
+          "oracle_complex_gain_nmse": 0.269789751911247,
+          "reference_matrix_rank": 3,
+          "reference_condition_number": 1.811594085137982
+        },
+        {
+          "nmse": 0.9564007005781064,
+          "gain_error_nmse": 0.9483422562820474,
+          "other_reference_span_nmse": 0.0026115621065078806,
+          "outside_reference_span_nmse": 0.005234015952498088,
+          "cross_term_nmse": 0.00021286623705041213,
+          "closure_error": 2.55351295663786e-15,
+          "coefficients_real": [
+            0.012832883503350948,
+            0.026171397332782766,
+            0.026349239947362917
+          ],
+          "coefficients_imag": [
+            -0.0005696756912727505,
+            0.0003300140399320334,
+            0.0005593051342575889
+          ],
+          "target_coefficient_abs": 0.02617347794269881,
+          "target_coefficient_phase_deg": 0.7224455517405539,
+          "oracle_positive_gain": 3.0571510746221526,
+          "oracle_positive_gain_nmse": 0.9203241087830896,
+          "oracle_complex_gain_abs": 3.0575649777891614,
+          "oracle_complex_gain_nmse": 0.9203025329202472,
+          "reference_matrix_rank": 3,
+          "reference_condition_number": 1.811594085137982
+        },
+        {
+          "nmse": 0.3936248615440692,
+          "gain_error_nmse": 0.26515838858783586,
+          "other_reference_span_nmse": 0.09198988568662678,
+          "outside_reference_span_nmse": 0.03624406523498478,
+          "cross_term_nmse": 0.00023252203462032446,
+          "closure_error": 1.4432899320127035e-15,
+          "coefficients_real": [
+            0.11786589392077587,
+            0.4774226041147709,
+            0.4850692699637454
+          ],
+          "coefficients_imag": [
+            -0.0008878231412544593,
+            0.003295449405730899,
+            0.0021752820890791336
+          ],
+          "target_coefficient_abs": 0.4850741474407062,
+          "target_coefficient_phase_deg": 0.2569398953788265,
+          "oracle_positive_gain": 1.334516279235739,
+          "oracle_positive_gain_nmse": 0.35297013041401787,
+          "oracle_complex_gain_abs": 1.334526319080932,
+          "oracle_complex_gain_nmse": 0.35296039489521935,
+          "reference_matrix_rank": 3,
+          "reference_condition_number": 1.811594085137982
+        }
+      ],
+      "background_relative_power": 0.006641460213305317,
+      "inactive_relative_power": 0.0,
+      "chunk_assignment": [
+        {
+          "chunk_samples": 2048,
+          "chunks": 32,
+          "changed_chunks": 19,
+          "fixed_nmse": 0.5446451152886094,
+          "oracle_chunk_assignment_nmse": 0.5127792439290325,
+          "oracle_relative_reduction": 0.05850758680299743
+        },
+        {
+          "chunk_samples": 8192,
+          "chunks": 8,
+          "changed_chunks": 5,
+          "fixed_nmse": 0.5446451152886094,
+          "oracle_chunk_assignment_nmse": 0.516988865937097,
+          "oracle_relative_reduction": 0.05077847680109496
+        },
+        {
+          "chunk_samples": 16384,
+          "chunks": 4,
+          "changed_chunks": 2,
+          "fixed_nmse": 0.5446451152886093,
+          "oracle_chunk_assignment_nmse": 0.5207935305368755,
+          "oracle_relative_reduction": 0.04379289207265677
+        }
+      ]
+    },
+    {
+      "checkpoint": "fit_300",
+      "example": 0,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "components": [
+        {
+          "nmse": 0.02273236611955185,
+          "gain_error_nmse": 1.307065107371302e-05,
+          "other_reference_span_nmse": 0.0015308541330082055,
+          "outside_reference_span_nmse": 0.021190004437356618,
+          "cross_term_nmse": -1.563101886568977e-06,
+          "closure_error": -1.1796119636642288e-16,
+          "coefficients_real": [
+            1.0030315104186518,
+            0.04481586071596584
+          ],
+          "coefficients_imag": [
+            -0.0019699227536425553,
+            0.0009193964553070588
+          ],
+          "target_coefficient_abs": 1.0030334448503586,
+          "target_coefficient_phase_deg": -0.1125269878971453,
+          "oracle_positive_gain": 0.9750888573189757,
+          "oracle_positive_gain_nmse": 0.02209410855059831,
+          "oracle_complex_gain_abs": 0.9750904147889005,
+          "oracle_complex_gain_nmse": 0.0220909846091848,
+          "reference_matrix_rank": 2,
+          "reference_condition_number": 1.1458045474846175
+        },
+        {
+          "nmse": 0.03703003402828914,
+          "gain_error_nmse": 0.006359598980316932,
+          "other_reference_span_nmse": 2.64076993201685e-05,
+          "outside_reference_span_nmse": 0.03064096195462715,
+          "cross_term_nmse": 3.0653940253198775e-06,
+          "closure_error": -4.3021142204224816e-16,
+          "coefficients_real": [
+            0.0044808405935793305,
+            0.9202533224404164
+          ],
+          "coefficients_imag": [
+            -0.0002039914239812724,
+            0.00025767911200424987
+          ],
+          "target_coefficient_abs": 0.9202533585166368,
+          "target_coefficient_phase_deg": 0.016043327245496786,
+          "oracle_positive_gain": 1.0487020282436204,
+          "oracle_positive_gain_nmse": 0.03494870722375826,
+          "oracle_complex_gain_abs": 1.0487020623946726,
+          "oracle_complex_gain_nmse": 0.03494864436983634,
+          "reference_matrix_rank": 2,
+          "reference_condition_number": 1.1458045474846175
+        }
+      ],
+      "background_relative_power": 0.0012066742412135255,
+      "inactive_relative_power": 0.002004597639891545,
+      "chunk_assignment": [
+        {
+          "chunk_samples": 2048,
+          "chunks": 32,
+          "changed_chunks": 0,
+          "fixed_nmse": 0.029881200073920866,
+          "oracle_chunk_assignment_nmse": 0.029881200073920866,
+          "oracle_relative_reduction": 0.0
+        },
+        {
+          "chunk_samples": 8192,
+          "chunks": 8,
+          "changed_chunks": 0,
+          "fixed_nmse": 0.029881200073920876,
+          "oracle_chunk_assignment_nmse": 0.029881200073920876,
+          "oracle_relative_reduction": 0.0
+        },
+        {
+          "chunk_samples": 16384,
+          "chunks": 4,
+          "changed_chunks": 0,
+          "fixed_nmse": 0.029881200073920876,
+          "oracle_chunk_assignment_nmse": 0.029881200073920876,
+          "oracle_relative_reduction": 0.0
+        }
+      ]
+    },
+    {
+      "checkpoint": "fit_300",
+      "example": 1,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "components": [
+        {
+          "nmse": 0.0031064322551691806,
+          "gain_error_nmse": 2.1495422962551956e-05,
+          "other_reference_span_nmse": 5.67362127161523e-06,
+          "outside_reference_span_nmse": 0.0030792620871510704,
+          "cross_term_nmse": 1.1237839582387502e-09,
+          "closure_error": -1.5178830414797062e-17,
+          "coefficients_real": [
+            1.0044505412164513,
+            0.0035922874978523904
+          ],
+          "coefficients_imag": [
+            -0.0012992712739148887,
+            -0.00015116521049179628
+          ],
+          "target_coefficient_abs": 1.0044513815291733,
+          "target_coefficient_phase_deg": -0.07411287650768102,
+          "oracle_positive_gain": 0.9925326639099007,
+          "oracle_positive_gain_nmse": 0.00305000159152973,
+          "oracle_complex_gain_abs": 0.9925334946860627,
+          "oracle_complex_gain_nmse": 0.003048332643654966,
+          "reference_matrix_rank": 2,
+          "reference_condition_number": 1.5094721489828273
+        },
+        {
+          "nmse": 0.005063411765454807,
+          "gain_error_nmse": 8.95776825737053e-05,
+          "other_reference_span_nmse": 0.00013279660014049895,
+          "outside_reference_span_nmse": 0.004841034571165806,
+          "cross_term_nmse": 2.9115748206402056e-09,
+          "closure_error": -2.5153490401663703e-17,
+          "coefficients_real": [
+            -0.007626726914995756,
+            0.990560612761857
+          ],
+          "coefficients_imag": [
+            0.0003396298388982823,
+            0.0006896746639460938
+          ],
+          "target_coefficient_abs": 0.9905608528537193,
+          "target_coefficient_phase_deg": 0.03989199710442354,
+          "oracle_positive_gain": 1.0044375572711866,
+          "oracle_positive_gain_nmse": 0.005043991912609853,
+          "oracle_complex_gain_abs": 1.004437799581158,
+          "oracle_complex_gain_nmse": 0.005043511867256583,
+          "reference_matrix_rank": 2,
+          "reference_condition_number": 1.5094721489828273
+        }
+      ],
+      "background_relative_power": 0.0003094277105297132,
+      "inactive_relative_power": 0.0005321204290800779,
+      "chunk_assignment": [
+        {
+          "chunk_samples": 2048,
+          "chunks": 32,
+          "changed_chunks": 0,
+          "fixed_nmse": 0.004084922010312017,
+          "oracle_chunk_assignment_nmse": 0.004084922010312017,
+          "oracle_relative_reduction": 0.0
+        },
+        {
+          "chunk_samples": 8192,
+          "chunks": 8,
+          "changed_chunks": 0,
+          "fixed_nmse": 0.004084922010312017,
+          "oracle_chunk_assignment_nmse": 0.004084922010312017,
+          "oracle_relative_reduction": 0.0
+        },
+        {
+          "chunk_samples": 16384,
+          "chunks": 4,
+          "changed_chunks": 0,
+          "fixed_nmse": 0.004084922010312018,
+          "oracle_chunk_assignment_nmse": 0.004084922010312018,
+          "oracle_relative_reduction": 0.0
+        }
+      ]
+    },
+    {
+      "checkpoint": "fit_300",
+      "example": 2,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "assignment": [
+        0,
+        2,
+        1
+      ],
+      "components": [
+        {
+          "nmse": 0.1621471388593902,
+          "gain_error_nmse": 0.030672834517998345,
+          "other_reference_span_nmse": 0.023453024739433424,
+          "outside_reference_span_nmse": 0.10789894534471002,
+          "cross_term_nmse": 0.00012233425724838574,
+          "closure_error": 2.7755575615628914e-17,
+          "coefficients_real": [
+            0.824865106154225,
+            0.1361109729861599,
+            0.05131548757149394
+          ],
+          "coefficients_imag": [
+            -0.0007768369376443039,
+            -0.0010780047541111143,
+            0.001275474700290883
+          ],
+          "target_coefficient_abs": 0.8248654719567601,
+          "target_coefficient_phase_deg": -0.05395968917310905,
+          "oracle_positive_gain": 1.0164390661687912,
+          "oracle_positive_gain_nmse": 0.16192792249983312,
+          "oracle_complex_gain_abs": 1.0164401627064203,
+          "oracle_complex_gain_nmse": 0.16192611426932496,
+          "reference_matrix_rank": 3,
+          "reference_condition_number": 2.226968908413493
+        },
+        {
+          "nmse": 0.12028914621151147,
+          "gain_error_nmse": 0.01694760162941931,
+          "other_reference_span_nmse": 0.01864185610007864,
+          "outside_reference_span_nmse": 0.08460809947464325,
+          "cross_term_nmse": 9.158900737062761e-05,
+          "closure_error": -3.469446951953614e-16,
+          "coefficients_real": [
+            0.15142490336695102,
+            0.8698271090837972,
+            0.004898184840188072
+          ],
+          "coefficients_imag": [
+            0.0012387227807237591,
+            0.001618672276197164,
+            -0.0008792648200089542
+          ],
+          "target_coefficient_abs": 0.869828615186356,
+          "target_coefficient_phase_deg": 0.10662231817829654,
+          "oracle_positive_gain": 1.0119063795004652,
+          "oracle_positive_gain_nmse": 0.12016733735821582,
+          "oracle_complex_gain_abs": 1.011909109941028,
+          "oracle_complex_gain_nmse": 0.12016258922324952,
+          "reference_matrix_rank": 3,
+          "reference_condition_number": 2.226968908413493
+        },
+        {
+          "nmse": 0.039734230269426615,
+          "gain_error_nmse": 0.0039002666493747847,
+          "other_reference_span_nmse": 0.0009814994254543246,
+          "outside_reference_span_nmse": 0.034853616954098166,
+          "cross_term_nmse": -1.1527595004052411e-06,
+          "closure_error": -2.498001805406602e-16,
+          "coefficients_real": [
+            0.005624278394436393,
+            -0.013105235470106613,
+            0.9375549122484272
+          ],
+          "coefficients_imag": [
+            -0.00042960152526657416,
+            -0.00012302313140321458,
+            0.0009368378051626859
+          ],
+          "target_coefficient_abs": 0.9375553803089337,
+          "target_coefficient_phase_deg": 0.057251936668414515,
+          "oracle_positive_gain": 1.0248143540433392,
+          "oracle_positive_gain_nmse": 0.0391709018051264,
+          "oracle_complex_gain_abs": 1.024814859085137,
+          "oracle_complex_gain_nmse": 0.03916995478682442,
+          "reference_matrix_rank": 3,
+          "reference_condition_number": 2.226968908413493
+        }
+      ],
+      "background_relative_power": 0.0006355900987690863,
+      "inactive_relative_power": 0.0,
+      "chunk_assignment": [
+        {
+          "chunk_samples": 2048,
+          "chunks": 32,
+          "changed_chunks": 0,
+          "fixed_nmse": 0.10739017178011007,
+          "oracle_chunk_assignment_nmse": 0.10739017178011007,
+          "oracle_relative_reduction": 0.0
+        },
+        {
+          "chunk_samples": 8192,
+          "chunks": 8,
+          "changed_chunks": 0,
+          "fixed_nmse": 0.10739017178011008,
+          "oracle_chunk_assignment_nmse": 0.10739017178011008,
+          "oracle_relative_reduction": 0.0
+        },
+        {
+          "chunk_samples": 16384,
+          "chunks": 4,
+          "changed_chunks": 0,
+          "fixed_nmse": 0.10739017178011007,
+          "oracle_chunk_assignment_nmse": 0.10739017178011007,
+          "oracle_relative_reduction": 0.0
+        }
+      ]
+    },
+    {
+      "checkpoint": "fit_300",
+      "example": 3,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "assignment": [
+        2,
+        0,
+        1
+      ],
+      "components": [
+        {
+          "nmse": 0.09207614229488553,
+          "gain_error_nmse": 0.007499953709979202,
+          "other_reference_span_nmse": 0.006764270152919834,
+          "outside_reference_span_nmse": 0.0778437952935029,
+          "cross_term_nmse": -3.1876861515892396e-05,
+          "closure_error": -4.996003610813204e-16,
+          "coefficients_real": [
+            0.9134042201031389,
+            0.06075619103903858,
+            0.07898255816512678
+          ],
+          "coefficients_imag": [
+            0.0010604782098664063,
+            -0.00035214273077004664,
+            -0.0003202656546795815
+          ],
+          "target_coefficient_abs": 0.9134048357197684,
+          "target_coefficient_phase_deg": 0.0665213681440694,
+          "oracle_positive_gain": 0.9938386633796858,
+          "oracle_positive_gain_nmse": 0.09204124560630908,
+          "oracle_complex_gain_abs": 0.993839272498012,
+          "oracle_complex_gain_nmse": 0.09204013263997657,
+          "reference_matrix_rank": 3,
+          "reference_condition_number": 1.811594085137982
+        },
+        {
+          "nmse": 0.08591075785950957,
+          "gain_error_nmse": 0.005734409285099203,
+          "other_reference_span_nmse": 0.0016510288855985582,
+          "outside_reference_span_nmse": 0.07851617926964044,
+          "cross_term_nmse": 9.140419171726979e-06,
+          "closure_error": -3.608224830031759e-16,
+          "coefficients_real": [
+            0.02070581227198758,
+            0.9242812419438702,
+            0.008986941557970418
+          ],
+          "coefficients_imag": [
+            -0.00039632529446878025,
+            0.001038731696105133,
+            0.00036609004705112635
+          ],
+          "target_coefficient_abs": 0.9242818256207571,
+          "target_coefficient_phase_deg": 0.06439048471072693,
+          "oracle_positive_gain": 0.9891548391861935,
+          "oracle_positive_gain_nmse": 0.08580086126360789,
+          "oracle_complex_gain_abs": 0.9891556116797358,
+          "oracle_complex_gain_nmse": 0.08579943335125537,
+          "reference_matrix_rank": 3,
+          "reference_condition_number": 1.811594085137982
+        },
+        {
+          "nmse": 0.08575771021195054,
+          "gain_error_nmse": 0.009679675977605802,
+          "other_reference_span_nmse": 0.004183693782648033,
+          "outside_reference_span_nmse": 0.07192628436828268,
+          "cross_term_nmse": -3.194391658521298e-05,
+          "closure_error": -7.632783294297951e-16,
+          "coefficients_real": [
+            0.06109056345539443,
+            0.013719128745827591,
+            0.9016147239696553
+          ],
+          "coefficients_imag": [
+            0.0005630653747987555,
+            -0.000202431664735242,
+            -0.00011592255485298741
+          ],
+          "target_coefficient_abs": 0.901614731421862,
+          "target_coefficient_phase_deg": -0.007366642236728826,
+          "oracle_positive_gain": 1.0140166495592182,
+          "oracle_positive_gain_nmse": 0.08558299023852267,
+          "oracle_complex_gain_abs": 1.014016665368356,
+          "oracle_complex_gain_nmse": 0.08558296172588516,
+          "reference_matrix_rank": 3,
+          "reference_condition_number": 1.811594085137982
+        }
+      ],
+      "background_relative_power": 0.0004129768385382609,
+      "inactive_relative_power": 0.0,
+      "chunk_assignment": [
+        {
+          "chunk_samples": 2048,
+          "chunks": 32,
+          "changed_chunks": 0,
+          "fixed_nmse": 0.0879148701221161,
+          "oracle_chunk_assignment_nmse": 0.0879148701221161,
+          "oracle_relative_reduction": 0.0
+        },
+        {
+          "chunk_samples": 8192,
+          "chunks": 8,
+          "changed_chunks": 0,
+          "fixed_nmse": 0.08791487012211609,
+          "oracle_chunk_assignment_nmse": 0.08791487012211609,
+          "oracle_relative_reduction": 0.0
+        },
+        {
+          "chunk_samples": 16384,
+          "chunks": 4,
+          "changed_chunks": 0,
+          "fixed_nmse": 0.08791487012211609,
+          "oracle_chunk_assignment_nmse": 0.08791487012211609,
+          "oracle_relative_reduction": 0.0
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "checkpoint": "initial_e22",
+      "count": 2,
+      "nmse": 0.40034144116590575,
+      "gain_error_nmse": 0.24647028603587617,
+      "other_reference_span_nmse": 0.11046198006667797,
+      "outside_reference_span_nmse": 0.04333468531309871,
+      "cross_term_nmse": 7.448975025241804e-05,
+      "oracle_positive_gain_nmse": 0.2736292465066517,
+      "oracle_complex_gain_nmse": 0.27362267872039137,
+      "max_chunk_oracle_relative_reduction": 0.010863777043457385
+    },
+    {
+      "checkpoint": "initial_e22",
+      "count": 3,
+      "nmse": 0.6206559678754754,
+      "gain_error_nmse": 0.4007550160909057,
+      "other_reference_span_nmse": 0.17947567435086395,
+      "outside_reference_span_nmse": 0.040476188003531866,
+      "cross_term_nmse": -5.0910569827611676e-05,
+      "oracle_positive_gain_nmse": 0.4843487793608889,
+      "oracle_complex_gain_nmse": 0.4843294903174494,
+      "max_chunk_oracle_relative_reduction": 0.2479282840901145
+    },
+    {
+      "checkpoint": "fit_300",
+      "count": 2,
+      "nmse": 0.01698306104211624,
+      "gain_error_nmse": 0.0016209356842317255,
+      "other_reference_span_nmse": 0.0004239330134351221,
+      "outside_reference_span_nmse": 0.014937815762575161,
+      "cross_term_nmse": 3.765818743824449e-07,
+      "oracle_positive_gain_nmse": 0.01628420231962404,
+      "oracle_complex_gain_nmse": 0.01628286837248317,
+      "max_chunk_oracle_relative_reduction": 0.0
+    },
+    {
+      "checkpoint": "fit_300",
+      "count": 3,
+      "nmse": 0.09765252095111232,
+      "gain_error_nmse": 0.012405790294912775,
+      "other_reference_span_nmse": 0.009279228847688802,
+      "outside_reference_span_nmse": 0.07594115345081291,
+      "cross_term_nmse": 2.6348357698204955e-05,
+      "oracle_positive_gain_nmse": 0.0974485431286025,
+      "oracle_complex_gain_nmse": 0.09744686433275268,
+      "max_chunk_oracle_relative_reduction": 0.0
+    }
+  ]
+}

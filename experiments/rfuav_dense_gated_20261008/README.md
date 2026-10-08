@@ -1,6 +1,6 @@
 # RFUAV 확대 자료의 U-Net / 게이트 U-Net 비교
 
-실행 중인 코드의 검토·재현용 스냅샷이다. 활성 작업 위치는 `/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008`이며, 저장소로 복사하면서 학습 소스나 실행 경로를 바꾸지 않았다. 실제 실행에는 별도 자료 manifest·특징 캐시·동일 초기 체크포인트가 필요하다. 이 스냅샷에는 원자료와 가중치가 포함되지 않는다.
+완료된 비교 실험의 검토·재현용 스냅샷이다. 원 실행 위치는 `/home/pyj/문서/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008`이며, 저장소로 복사하면서 학습 소스나 실행 경로를 바꾸지 않았다. 실제 실행에는 별도 자료 manifest·특징 캐시·동일 초기 체크포인트가 필요하다. 이 스냅샷에는 원자료와 가중치가 포함되지 않는다.
 
 - RFUAV 단일 자료, 같은 원 RF 대역 안의 중심 정렬 합성. 원 수신 중심주파수 간격은 보존하지 않는다.
 - 학습 83개 기존 원파일의 문맥 249→3,902개 확대. 새 독립 기록이나 새 기종의 추가가 아니다.
@@ -14,3 +14,5 @@
 `ARCHIVE_MANIFEST.json`은 활성 소스와 복사본을 연결한다. `SOURCE_SNAPSHOT.json`과 `vendor/drone_rf/`는 사용한 기존 연구 모듈 버전을 고정한다. 모델·스케줄·검증 선택 조건은 `DENSE_GATED_CURRENT_KO.md`, 실제 실행 상태와 GPU 검사 결과는 저장소의 `reports/2026-10-08/DENSE_GATED_GPU_LAUNCH_KO.md`를 확인한다.
 
 CPU 검사: 해당 폴더에서 기존 PyTorch 환경으로 `python -m unittest test_models -v`; 전환 검사: `python -m unittest discover -s launch -p test_host_switch.py -v`. `launch/` 도구는 이 연구 PC의 정확한 기존 프로세스와 자료를 전제로 하며 일반 설치 도구가 아니다. 이미 전환한 큐에 최초 전환 명령을 반복 실행하지 않는다.
+
+`analysis/`에는 고정 학습 혼합 적합, 잔차 분해, 기존 개발 검증의 정답 보조 배율 진단, 학습률 대조가 있다. 원 비교 코드를 수정하지 않고 별도 결과를 생성한다. 정답을 이용하는 진단은 실사용 분리기와 구분한다. [완료 결과와 다음 후보](../../reports/2026-10-08/RECOVERY_SOLUTIONS_KO.md)를 확인한다. 수치 검사: 저장소 루트에서 기존 PyTorch 환경으로 `python -m unittest discover -s experiments/rfuav_dense_gated_20261008/analysis -p test_residual_audit.py -v`.
