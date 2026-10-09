@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "checker_sha256": "68245f28e5695e5233191675726dd9a1b997238cf39173804d6a9013cf8f6201",
+  "source_head_sha256": "e62b7628a1648866b203d0e4ebbff8684af587796f65f80e07fcac27d52937ba",
+  "rows": [
+    {
+      "epsilon": 1.0,
+      "input_source_contrast": 0.07946429472742507,
+      "attention_source_contrast": 8.098244382698396e-05,
+      "whole_head_correction_contrast": 0.004136351491867382
+    },
+    {
+      "epsilon": 0.5,
+      "input_source_contrast": 0.039732147363712535,
+      "attention_source_contrast": 1.0362465847136687e-05,
+      "whole_head_correction_contrast": 0.0020669887882353937
+    },
+    {
+      "epsilon": 0.25,
+      "input_source_contrast": 0.019866073681856267,
+      "attention_source_contrast": 1.3002901184150714e-06,
+      "whole_head_correction_contrast": 0.0010330530183126087
+    },
+    {
+      "epsilon": 0.125,
+      "input_source_contrast": 0.009933036840928134,
+      "attention_source_contrast": 1.625599372608323e-07,
+      "whole_head_correction_contrast": 0.0005163984806301869
+    },
+    {
+      "epsilon": 0.0625,
+      "input_source_contrast": 0.004966518420464066,
+      "attention_source_contrast": 2.0312119813884682e-08,
+      "whole_head_correction_contrast": 0.00025816517102237604
+    },
+    {
+      "epsilon": 0.03125,
+      "input_source_contrast": 0.0024832592102320334,
+      "attention_source_contrast": 2.5382188368269763e-09,
+      "whole_head_correction_contrast": 0.00012907382379711616
+    }
+  ],
+  "halving_orders": [
+    {
+      "epsilon": 0.5,
+      "input_order": 1.0,
+      "attention_order": 2.9662418333718916,
+      "whole_head_order": 1.0008282224409493
+    },
+    {
+      "epsilon": 0.25,
+      "input_order": 1.0,
+      "attention_order": 2.994461891030608,
+      "whole_head_order": 1.0006162652654582
+    },
+    {
+      "epsilon": 0.125,
+      "input_order": 1.0,
+      "attention_order": 2.999789895181954,
+      "whole_head_order": 1.000357637045273
+    },
+    {
+      "epsilon": 0.0625,
+      "input_order": 1.0000000000000002,
+      "attention_order": 3.000559035247499,
+      "whole_head_order": 1.000190375628692
+    },
+    {
+      "epsilon": 0.03125,
+      "input_order": 0.9999999999999997,
+      "attention_order": 3.000452446016707,
+      "whole_head_order": 1.0000979288601035
+    }
+  ],
+  "equal_slot_max_correction": 2.7755575615628914e-17,
+  "rf_reads": 0,
+  "checkpoint_reads": 0,
+  "gpu_use": false,
+  "optimizer_updates": 0,
+  "synthetic_nonzero_readout": true,
+  "interpretation": "Near three equal raw slots, centered attention output is cubic in their contrast; the full head retains a linear residual/MLP path. No claim that actual RF slots lie in this regime."
+}

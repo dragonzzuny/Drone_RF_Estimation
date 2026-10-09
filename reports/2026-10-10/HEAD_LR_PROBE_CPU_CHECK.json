@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "worker_sha256": "05b9df7d3a189faa1caf24fe6aabbbef360d770ad86523bc320b1db7f9ccbc85",
+  "groups": {
+    "head_lr_1e5": [
+      {
+        "parameters": 32142859,
+        "lr": 1e-05,
+        "weight_decay": 0.0001
+      },
+      {
+        "parameters": 37888,
+        "lr": 1e-05,
+        "weight_decay": 0.0001
+      }
+    ],
+    "head_lr_1e3": [
+      {
+        "parameters": 32142859,
+        "lr": 1e-05,
+        "weight_decay": 0.0001
+      },
+      {
+        "parameters": 37888,
+        "lr": 0.001,
+        "weight_decay": 0.0001
+      }
+    ]
+  },
+  "unique_exhaustive_parameter_partition": true,
+  "all_32180747_parameters_trainable": true,
+  "recorded_iq_reads": 0,
+  "gpu_use": false,
+  "optimizer_steps": 0
+}
