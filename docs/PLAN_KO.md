@@ -1,5 +1,9 @@
 # 다기종 드론 I/Q 분리 목표와 실행계획
 
+**2026-10-09 10:27 KST 세 구조 모두1epoch 완료:** 동일75업데이트에서 NMSE(2/3)는 기본WaveNet1.766247/0.811852, 긴 수용범위WaveNet2.137570/0.783559, U-Net0.713101/0.757871이다. U-Net은NMSE 양쪽과2성분SI-SDR이 가장 좋고,3성분SI-SDR은 긴WaveNet(-6.286dB)이 가장 좋다. 현재 학습량에서는 지표 간 상충이 있으며 약신호 복원은 부족하다. 세 모델 모두5epoch까지 순환 비교하고 매 완료epoch를 보고한다. [전체 epoch 보고](../reports/2026-10-09/ARCHITECTURE_PROGRESS.md).
+
+CPU 병행 작업으로 STFT 주파수 배열 경계의 [TRAIN자료 점검](../reports/2026-10-09/ARCHITECTURE_FREQUENCY_BOUNDARY.md)을 완료했다. 추가로 표본을 버리지 않는 재배열로20.89ms 복소I/Q를 처리하는 원 규모WaveNet 후보의 전체 입력CPU검사를 통과했다. 같은 원기록·합성·초기 파라미터에서 미세 구간 밖 복소문맥의 유무만 대조한다. 현재 구조 비교가 끝난 뒤 TRAIN4·각32업데이트의 GPU수치/학습 가능성 검사로 이어지도록 등록했으며, 본학습 성능 비교는 아직 등록하지 않았다. [후속 후보·대기 상태](../reports/2026-10-09/PHASE_PACKING_CANDIDATE_KO.md). 아래 항목은 이전 상태 기록이다.
+
 **2026-10-09 09:51 KST 구조 비교 진행:** 기본 WaveNet의 1 epoch/75업데이트가 완료됐다. 검증 NMSE(2/3)=1.766247/0.811852, 복소 SI-SDR=-2.085/-9.334dB이며 아직 복원 성능이 부족하다. 긴 수용범위 WaveNet의 첫 epoch가 실행 중이며 이어 새 초기화 STFT U-Net을 수행한다. 동일 자료·각5epoch/375업데이트의 세 군 순환 비교를 유지한다. [검산한 epoch별 보고](../reports/2026-10-09/ARCHITECTURE_PROGRESS.md). 별도 CPU 감시기가 완료 epoch의630개 결과·요약·선택 규칙·소스 해시와 실제 프로세스를 확인하고 로컬 `local/architecture_native_screen_20261009_v1/observer/LATEST_KO.md`를30초마다 갱신한다. 감시기는 채팅 자동 발송 서비스가 아니며, 대화 중 완료 이벤트를 확인해 직접 보고한다. 아래 항목들은 이전 상태 기록이다.
 
 **구조 학습 진단 완료 및 본 비교 시작:** 같은 TRAIN4혼합/32업데이트의 최종 NMSE는 WaveNet cycle10=0.428180, cycle15=0.396307, 새STFT U-Net=0.350224였다. 모두 원 규모·전체63872표본 입력이며 유한 기울기·NMSE 감소를 확인했다. 이는 학습 사례 적합도이고 검증 우열이 아니다. 소스와 규약을 검산했고, 본 비교 실행기가 GPU를 인계받아 기본 WaveNet의 초기630검증과 시작 체크포인트를 저장했다. [진단 수치·해석](../reports/2026-10-09/ARCHITECTURE_FIT_DIAGNOSTICS.md). 실제 step 진행은 `local/architecture_native_screen_20261009_v1/STATE.json`에서 확인한다.

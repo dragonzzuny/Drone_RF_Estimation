@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "device": "cpu",
+  "trained": false,
+  "gpu_preflight_completed": false,
+  "train_index": 4,
+  "validation_iq_read": false,
+  "heldout_read": false,
+  "native_crop_matches_original": true,
+  "packing_exact": true,
+  "packing_gradient_checked": true,
+  "crop_starts_checked": [
+    0,
+    1,
+    31,
+    32,
+    2025087,
+    2025088
+  ],
+  "crop_max_abs_errors": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "output_head_gradient_checked": true,
+  "initial_parameter_tensors_identical": true,
+  "parameters": 4641795,
+  "long_samples": 2088960,
+  "long_milliseconds": 20.8896,
+  "packed_tokens": 65280,
+  "packing": 32,
+  "input_real_channels": 64,
+  "convolutional_receptive_field_samples": 4194208,
+  "theoretical_receptive_field_ms": 41.94208,
+  "input_limits_actual_information": true,
+  "fine_samples": 63872,
+  "identical_output_for_identical_visible_iq": true,
+  "mixture_sum_relative_error": 1.967495753178814e-15,
+  "full_vs_masked_input_output_difference": 8.083481588982977e-06,
+  "difference_is_not_quality_improvement": true,
+  "full_forwards_cpu_seconds": 33.358240604400635,
+  "forward_inputs": "observed long complex mixture, its own power features, crop coordinates",
+  "source_sha256": {
+    "check_phase_packing.py": "fd081cba34d2ece2270e5fd1d363bd9091db7c82b2ccf2a56a8eed2166c923e7",
+    "phase_packing.py": "db0794982d126453245abf1baf97f441dbed48a7c129dfe1f180e920c6341180"
+  },
+  "preparation_sha256": "9ef20b525774e64379712593da8509e3dda17443675322f32a13decdac603036",
+  "time": 1791508885.0141475
+}
