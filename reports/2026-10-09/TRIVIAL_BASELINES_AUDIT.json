@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "complete_sha256": "25eec757dcc0f116e80aa0db11e3e20db47648111fd3b979f72785ef4df7a83a",
+  "rows_sha256": "7d3412d27b3422405a41f18c50fff565b7f559e035603ad5af6055f9cb049fa5",
+  "cases": 630,
+  "modes": 4,
+  "source_snapshot_verified": true,
+  "copy_error_recovered_from_two_other_gains": true,
+  "maximum_copy_nmse_polynomial_error": 3.6420587079533107e-07,
+  "aggregate_checks": true,
+  "nonfinite_preserved": true,
+  "heldout_read": false,
+  "new_waveform_reads": 0
+}

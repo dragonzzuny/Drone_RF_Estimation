@@ -20,6 +20,7 @@ CPU에서는 이미 학습한 TRAIN48 재평가와 학습 전체 전력 분포·
 
 기존 전이 U-Net의 더 좋은 수치는 학습 이력이 달라 이번 새 초기화 비교와 분리합니다. [현행 계획](docs/PLAN_KO.md)에 실행 순서·약신호 실패·비교 한계를 정리했습니다. 실행 상태는 기록 시점입니다.
 
+- [분리하지 않는 네 단순 기준선의 전체 검증 결과](reports/2026-10-09/TRIVIAL_WAVEFORM_BASELINES.md)
 - [긴 복소 문맥의 같은 혼합·같은 epoch 대응 비교](reports/2026-10-09/PHASE_CONTEXT_PAIRED.md)
 - [완료된 세 구조의 기종·조합·성분별 전력 조건 전체 결과](reports/2026-10-09/ARCHITECTURE_SOURCE_STRATA.md)
 - [단독 정답의 고정 선형 기종 구분 기준: 개발검증 65.8%·Avata 실패 포함](reports/2026-10-09/IDENTIFICATION_REFERENCE_BASELINE.md)

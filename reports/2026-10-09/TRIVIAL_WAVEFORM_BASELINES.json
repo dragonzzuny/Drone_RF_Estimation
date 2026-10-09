@@ -1,0 +1,214 @@
+{
+  "status": "COMPLETE",
+  "summary": [
+    {
+      "mode": "copy_one",
+      "count": 1,
+      "cases": 210,
+      "mean_nmse": 0.0,
+      "mean_si_sdr": null,
+      "nonfinite_si_sdr": 104,
+      "si_status_counts": {
+        "finite": 106,
+        "positive_infinity": 104
+      },
+      "mean_si_gain": null,
+      "weakest_nmse": 0.0
+    },
+    {
+      "mode": "copy_one",
+      "count": 2,
+      "cases": 210,
+      "mean_nmse": 0.6169101000231672,
+      "mean_si_sdr": null,
+      "nonfinite_si_sdr": 210,
+      "si_status_counts": {
+        "finite": 210,
+        "undefined": 210
+      },
+      "mean_si_gain": null,
+      "weakest_nmse": 1.0
+    },
+    {
+      "mode": "copy_one",
+      "count": 3,
+      "cases": 210,
+      "mean_nmse": 0.823134463134418,
+      "mean_si_sdr": null,
+      "nonfinite_si_sdr": 420,
+      "si_status_counts": {
+        "undefined": 420,
+        "finite": 210
+      },
+      "mean_si_gain": null,
+      "weakest_nmse": 1.0
+    },
+    {
+      "mode": "equal_three",
+      "count": 1,
+      "cases": 210,
+      "mean_nmse": 0.4444444316854254,
+      "mean_si_sdr": 152.18911991485632,
+      "nonfinite_si_sdr": 0,
+      "si_status_counts": {
+        "finite": 210
+      },
+      "mean_si_gain": null,
+      "weakest_nmse": 0.4444444316854254
+    },
+    {
+      "mode": "equal_three",
+      "count": 2,
+      "cases": 210,
+      "mean_nmse": 109.23450111361879,
+      "mean_si_sdr": 0.06177467268261199,
+      "nonfinite_si_sdr": 0,
+      "si_status_counts": {
+        "finite": 420
+      },
+      "mean_si_gain": -8.240424141658931e-10,
+      "weakest_nmse": 217.99859052017365
+    },
+    {
+      "mode": "equal_three",
+      "count": 3,
+      "cases": 210,
+      "mean_nmse": 4.459745930749345,
+      "mean_si_sdr": -5.361108259317145,
+      "nonfinite_si_sdr": 0,
+      "si_status_counts": {
+        "finite": 630
+      },
+      "mean_si_gain": 3.8398304851006323e-11,
+      "weakest_nmse": 11.431245570526567
+    },
+    {
+      "mode": "equal_four",
+      "count": 1,
+      "cases": 210,
+      "mean_nmse": 0.5625,
+      "mean_si_sdr": null,
+      "nonfinite_si_sdr": 104,
+      "si_status_counts": {
+        "finite": 106,
+        "positive_infinity": 104
+      },
+      "mean_si_gain": null,
+      "weakest_nmse": 0.5625
+    },
+    {
+      "mode": "equal_four",
+      "count": 2,
+      "cases": 210,
+      "mean_nmse": 61.755907593827295,
+      "mean_si_sdr": 0.0617746735066544,
+      "nonfinite_si_sdr": 0,
+      "si_status_counts": {
+        "finite": 420
+      },
+      "mean_si_gain": 0.0,
+      "weakest_nmse": 122.93471218157248
+    },
+    {
+      "mode": "equal_four",
+      "count": 3,
+      "cases": 210,
+      "mean_nmse": 2.8209737793067617,
+      "mean_si_sdr": -5.361108259355544,
+      "nonfinite_si_sdr": 0,
+      "si_status_counts": {
+        "finite": 630
+      },
+      "mean_si_gain": 0.0,
+      "weakest_nmse": 6.74230623520747
+    },
+    {
+      "mode": "all_background",
+      "count": 1,
+      "cases": 210,
+      "mean_nmse": 1.0,
+      "mean_si_sdr": null,
+      "nonfinite_si_sdr": 210,
+      "si_status_counts": {
+        "undefined": 210
+      },
+      "mean_si_gain": null,
+      "weakest_nmse": 1.0
+    },
+    {
+      "mode": "all_background",
+      "count": 2,
+      "cases": 210,
+      "mean_nmse": 1.0,
+      "mean_si_sdr": null,
+      "nonfinite_si_sdr": 420,
+      "si_status_counts": {
+        "undefined": 420
+      },
+      "mean_si_gain": null,
+      "weakest_nmse": 1.0
+    },
+    {
+      "mode": "all_background",
+      "count": 3,
+      "cases": 210,
+      "mean_nmse": 1.0,
+      "mean_si_sdr": null,
+      "nonfinite_si_sdr": 630,
+      "si_status_counts": {
+        "undefined": 630
+      },
+      "mean_si_gain": null,
+      "weakest_nmse": 1.0
+    }
+  ],
+  "cases_per_mode": 630,
+  "protocol_sha256": "e44da2c4bea991aa3ac0cb0e95542d07ed5a430e7f135707a0c96645127fc86b",
+  "source_sha256": {
+    "experiments/rfuav_native_frequency_20261009/run_native.py": "5efc429c9d4eddcce3a975bbf7eee0e0476321fc1dc20c5caa854998f070c178",
+    "experiments/rfuav_native_frequency_20261009/native.py": "e14f81aed3c1110f6cdb02d0717a462572b6d2ff6205aff9bbd1d95a5922f587",
+    "experiments/rfuav_native_frequency_20261009/native_data.py": "b3ac38f06bd86ea09ed93e94369dacf53310aeb2aa803b7eb637de08e25d99cc",
+    "experiments/rfuav_dense_gated_20261008/cpu_check.py": "e9189ca0f2d1b20a4f36c8d266a3d59ffce1f83f4f80f3eb1083fc7f5641b4a2",
+    "experiments/rfuav_dense_gated_20261008/test_models.py": "f652b3d012f60fc86aa099beba28147ed75bc9fc3b3f0b4170c3d4d8f1999110",
+    "experiments/rfuav_dense_gated_20261008/study.py": "2e2cb2401c546405959d0de3d4ebccf08f55b0e977ea6825d001c7e663df0edd",
+    "experiments/rfuav_dense_gated_20261008/models.py": "b48e5852e194d4c7fca3e636bb79f918da478a4880fc83397c8afd2e538a136c",
+    "experiments/rfuav_dense_gated_20261008/dense_data.py": "a5604c104332731f7dfa220de74bdd2af2c7efdb5b57af860eae3348e2aa4f3d",
+    "experiments/rfuav_dense_gated_20261008/verify_dense.py": "9fafe10f20057b434ab102b1e12cd298a6c9b2d4293234670590fbe5425ae276",
+    "experiments/rfuav_dense_gated_20261008/prepare_dense_gated.py": "eab1ef23cd3af6c58832e8416aa0108c2090b8610e1919612cee2a8e21fd150b",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_training_data.py": "4222e700c5e77761c7fb05269bd86420896fa2fbcdcbe707a97c08e3f63eaee7",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/temporal.py": "47c237184e31050706abefd0bc91bce80c1492866f5c26e0e9333fe1712da253",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/similarity.py": "a8166bcc7adefec50b30c0374f84964b36943395d64ba3e91400f7b8147c561a",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_data.py": "97886c6accb9e228b85b6fda7efb76cea8e4b4a75e5420c39b115dcf65281268",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/within_dataset_schedule.py": "edcddbf19df88bd0ec4ac6558776d6b75dfa983589850aa742bcaf8306ffaf18",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/losses.py": "a51e179ea16d094cf122ec6491d79b26c66e3ed84294e396112156fb3ac8a4d6",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/waveform.py": "7f27d74ffef9ac5f52c34559d66ddd512f76abe83a4ba825887fc94bd1c3159d",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_model.py": "a6bb37a4a5fb8c5c7f0472b76a92d80f178183d91118367b74fe557873d64794",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/data.py": "2c8abdc30d724e3fd61ca4145f158145139a8c9f69f1d66dc4c888ad1653df6e",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/__init__.py": "9452c5c2cea105ebfc875e0128e2b99b459806ff14c2cd59236c3273575016f4",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/model.py": "c97c64d315637c7799e59147ce37dfce910bdb6ff385c2733153720cfdf47105",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/mixture_constraints.py": "306709a6de32ed01581bd3facc8c45e91de6770de07b1fb9e2457f3ecc99372c",
+    "experiments/architecture_audit_20261009/test_adapter.py": "e7348d70f8be9e35cb451ff3d5b414a7f42e3209c8fbd2f73f03f111d1e75781",
+    "experiments/architecture_audit_20261009/fit_diagnostic.py": "edbeabe4177d8850d7fbbe1fa93751a04282f308d25f640fb4e3ebfe755a77e1",
+    "experiments/architecture_audit_20261009/native_wavenet.py": "6ca4ae09603985e161c6ff7f6b56a2abc39456451fb8510f3c4170dcc7eecba5",
+    "experiments/architecture_audit_20261009/audit.py": "b606c670de27d98e0e4b9823053ecc55df44586d08c8218f878315071e9cf936",
+    "experiments/architecture_audit_20261009/train_comparison.py": "a84debcc74960d13300c955e964ff01250328d2a7ed83c7be1bb4fcc345aad2e",
+    "experiments/architecture_audit_20261009/cycle15.py": "d3606f30dbf0488b62b0182d78d78fd83132979a7e97d878527fa0e1959f605a",
+    "experiments/rfuav_native_frequency_20261009/report.py": "6b304b8858b619eac6bf56abbdd798915a8d7b00e920f0e708789a797b255ed2",
+    "experiments/architecture_audit_20261009/trivial_baselines.py": "0b931960899b530cdc6a98ff1a680e75e0ae0aaeecd8e0d43323fe3b0309dd7d"
+  },
+  "preparation_sha256": "9ef20b525774e64379712593da8509e3dda17443675322f32a13decdac603036",
+  "validation_template_sha256": "e4dec2afca418d39c9881bdd0f0ea0d25d384bb578ef647faf66654cbcd5c098",
+  "rows_sha256": "7d3412d27b3422405a41f18c50fff565b7f559e035603ad5af6055f9cb049fa5",
+  "seconds": 189.4275929927826,
+  "heldout_read": false,
+  "independent_test": false,
+  "model_updates": 0,
+  "learned_parameters": 0,
+  "checks": {
+    "reference_powers_match": true,
+    "all_background_nmse_one": true,
+    "zero_output_nonfinite_preserved": true,
+    "scalar_copy_si_invariance": true,
+    "mixture_sum": true
+  }
+}
