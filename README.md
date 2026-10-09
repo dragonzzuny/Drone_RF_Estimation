@@ -9,6 +9,7 @@
 - [원 주파수 배치 실험 전체 결과](reports/2026-10-09/NATIVE_RF_FINAL.md)
 - [현재 구조 적합성·WaveNet·최신 RF U-Net 검토](reports/2026-10-09/ARCHITECTURE_REVIEW_KO.md)
 - [개수 기울기 차단 대조·네 위상 평가 완료](reports/2026-10-09/COUNT_DETACH_FINAL.md)
+- [원 규모 WaveNet·U-Net 학습 진단 결과](reports/2026-10-09/ARCHITECTURE_FIT_DIAGNOSTICS.md)
 - [학습 곡선 PDF](reports/2026-10-09/NATIVE_RF_EPOCHS.pdf)
 - [위상 평균과 학습/새 혼합 적합도 진단](reports/2026-10-09/NATIVE_RF_INFERENCE_DIAGNOSIS.md)
 - [개수 손실 기울기 진단과 후속 대조](reports/2026-10-09/NATIVE_RF_GRADIENT_DIAGNOSIS.md)

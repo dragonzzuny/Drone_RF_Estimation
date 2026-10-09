@@ -1,5 +1,7 @@
 # 다기종 드론 I/Q 분리 목표와 실행계획
 
+**구조 학습 진단 완료 및 본 비교 시작:** 같은 TRAIN4혼합/32업데이트의 최종 NMSE는 WaveNet cycle10=0.428180, cycle15=0.396307, 새STFT U-Net=0.350224였다. 모두 원 규모·전체63872표본 입력이며 유한 기울기·NMSE 감소를 확인했다. 이는 학습 사례 적합도이고 검증 우열이 아니다. 소스와 규약을 검산했고, 본 비교 실행기가 GPU를 인계받아 기본 WaveNet의 초기630검증과 시작 체크포인트를 저장했다. [진단 수치·해석](../reports/2026-10-09/ARCHITECTURE_FIT_DIAGNOSTICS.md). 실제 step 진행은 `local/architecture_native_screen_20261009_v1/STATE.json`에서 확인한다.
+
 **개수 기울기 차단 대조 완료:** 각5epoch/375업데이트, 전체 가중치와 초기+5개epoch 평가630행씩 및 네 위상630행을 검산했다. 차단군 선택e5의1회 NMSE2/3은0.472724/0.679586, 네 위상0.451212/0.678711이다. 같은 추론의 기존 모델 대비3성분은 개선됐지만2성분 NMSE는 악화했다. 두 조건·두 지표 동시 개선 기준 미달이며 전체 우월성으로 채택하지 않는다. [완료 결과](../reports/2026-10-09/COUNT_DETACH_FINAL.md). GPU는 등록된 구조 적합도 진단으로 이동했다.
 
 **동일 시작 상태의 구조 비교 연결:** 원 규모 WaveNet cycle10/cycle15와 STFT U-Net의 전체 입력 적합도 검사를 전제 조건으로, 각 새 초기화·5epoch/375업데이트의 native 비교를 등록했다. 이전부터 학습한 U-Net과 새 WaveNet의 학습 이력 차이를 구조 효과로 오인하지 않기 위한 대조다. 현재 선택된 전이 U-Net은 실용 기준선으로 유지한다. [규약·실행기](../experiments/architecture_audit_20261009/train_comparison.py), 실행 위치 `local/architecture_native_screen_20261009_v1`. 이 문장의 등록 상태와 실제 학습 시작은 구분한다. 두 WaveNet의 초기 tensor·파라미터 수는 같고 팽창률만 다르다. TRAIN 지연 상관 후보를 참고한 가설이며, 수 ms의 긴 순서 특징을 이미 학습했다는 뜻은 아니다.

@@ -1,0 +1,134 @@
+{
+  "status": "AUDITED_TRAIN_ONLY_DIAGNOSTICS_COMPLETE",
+  "train_indices": [
+    4,
+    5,
+    2,
+    11
+  ],
+  "train_counts": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "validation_read": false,
+  "heldout_read": false,
+  "same_initial_wave_parameters": true,
+  "initialization_proof": "local/architecture_fit_cycle15_20261009_v2/CPU_CHECK.json",
+  "rows": [
+    {
+      "label": "WaveNet cycle10",
+      "run": "local/architecture_fit_20261009_v1",
+      "protocol_sha256": "1137d7baee18650d95942d6296f07d4fa7b1c311502f9ebcb5d08669a31aaf2c",
+      "arm": "wavenet_native",
+      "parameters": 4601867,
+      "curve": [
+        {
+          "step": 0,
+          "nmse": 0.9734190150239183
+        },
+        {
+          "step": 1,
+          "nmse": 0.9564937878247388
+        },
+        {
+          "step": 8,
+          "nmse": 0.5676250928042708
+        },
+        {
+          "step": 16,
+          "nmse": 0.6289192216662647
+        },
+        {
+          "step": 32,
+          "nmse": 0.4281795554453125
+        }
+      ],
+      "seconds": 93.25424456596375,
+      "peak_bytes": 1185848832,
+      "finite_gradients": true,
+      "improved": true,
+      "heldout_read": false,
+      "validation_read": false,
+      "full_input_samples": 63872,
+      "production_checkpoint_changed": false
+    },
+    {
+      "label": "WaveNet cycle15",
+      "run": "local/architecture_fit_cycle15_20261009_v2",
+      "protocol_sha256": "dd9b4d11662b3607b0d24d4a4c66b621c3969ade50b847e4403783f8b51a246b",
+      "arm": "wavenet_native",
+      "parameters": 4601867,
+      "curve": [
+        {
+          "step": 0,
+          "nmse": 0.9731620909580233
+        },
+        {
+          "step": 1,
+          "nmse": 0.9571320950791053
+        },
+        {
+          "step": 8,
+          "nmse": 0.5712059808783385
+        },
+        {
+          "step": 16,
+          "nmse": 0.5199104548166062
+        },
+        {
+          "step": 32,
+          "nmse": 0.39630682353328184
+        }
+      ],
+      "seconds": 95.17845058441162,
+      "peak_bytes": 1185848832,
+      "finite_gradients": true,
+      "improved": true,
+      "heldout_read": false,
+      "validation_read": false,
+      "full_input_samples": 63872,
+      "production_checkpoint_changed": false
+    },
+    {
+      "label": "STFT U-Net",
+      "run": "local/architecture_fit_20261009_v1",
+      "protocol_sha256": "1137d7baee18650d95942d6296f07d4fa7b1c311502f9ebcb5d08669a31aaf2c",
+      "arm": "unet_mean_fresh",
+      "parameters": 32142859,
+      "curve": [
+        {
+          "step": 0,
+          "nmse": 0.9747875738010059
+        },
+        {
+          "step": 1,
+          "nmse": 0.9700468922731773
+        },
+        {
+          "step": 8,
+          "nmse": 0.8060284932226518
+        },
+        {
+          "step": 16,
+          "nmse": 0.5762195331717244
+        },
+        {
+          "step": 32,
+          "nmse": 0.35022435323835094
+        }
+      ],
+      "seconds": 37.7528121471405,
+      "peak_bytes": 2462277632,
+      "finite_gradients": true,
+      "improved": true,
+      "heldout_read": false,
+      "validation_read": false,
+      "full_input_samples": 63872,
+      "production_checkpoint_changed": false
+    }
+  ],
+  "interpretation": "four training mixtures with fresh full models, not validation ranking or converged performance",
+  "main_run": "local/architecture_native_screen_20261009_v1"
+}
