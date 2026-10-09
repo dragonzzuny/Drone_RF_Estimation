@@ -1,6 +1,6 @@
 {
   "protocol_sha256": "54b4af1932ee83651aad2f5e251ada981f12133f1230b70f2c86180cb9c7f9a5",
-  "reported_at": "2026-10-09T14:40:28+09:00",
+  "reported_at": "2026-10-09T15:10:58+09:00",
   "common_epoch": 4,
   "rows": [
     {
@@ -224,6 +224,26 @@
       "weakest_nmse": 0.967727827823863
     },
     {
+      "arm": "wavenet_cycle15",
+      "epoch": 5,
+      "updates": 375,
+      "count": 2,
+      "cases": 210,
+      "mean_nmse": 0.8220768926597526,
+      "mean_si_sdr": 1.182421655135254,
+      "weakest_nmse": 1.4478643973143137
+    },
+    {
+      "arm": "wavenet_cycle15",
+      "epoch": 5,
+      "updates": 375,
+      "count": 3,
+      "cases": 210,
+      "mean_nmse": 0.7495023540698542,
+      "mean_si_sdr": -4.065889609102873,
+      "weakest_nmse": 0.9740971041820072
+    },
+    {
       "arm": "unet_mean",
       "epoch": 0,
       "updates": 0,
@@ -337,7 +357,8 @@
     "wavenet_cycle10/4": "85782990f19f7e508f9275f6f3179a739f9961278187799552b539a213e816de",
     "wavenet_cycle15/4": "a38d39025d634278681d7cb93696b5bac90bbea24f7e7bdc3a87292ad8987bbf",
     "unet_mean/4": "e4dec2afca418d39c9881bdd0f0ea0d25d384bb578ef647faf66654cbcd5c098",
-    "wavenet_cycle10/5": "49ada7b11baad512f3633ecb8cdf4ce8eeac8160d28fce7abb8da6f80d414e90"
+    "wavenet_cycle10/5": "49ada7b11baad512f3633ecb8cdf4ce8eeac8160d28fce7abb8da6f80d414e90",
+    "wavenet_cycle15/5": "be27ebdc995bb490a54d37f0278d8a04eea5364fa7ec4354401a503fb4d7a066"
   },
   "smoothing": false,
   "all_completed_epochs_included": true,
