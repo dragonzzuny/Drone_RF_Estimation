@@ -1,0 +1,783 @@
+{
+  "status": "COMPLETE",
+  "protocol_sha256": "98bd1a8f84d880847d1369e378d222f3e884e72bc09629f1530d2ee125f5b196",
+  "source_sha256": {
+    "experiments/rfuav_native_frequency_20261009/run_native.py": "5efc429c9d4eddcce3a975bbf7eee0e0476321fc1dc20c5caa854998f070c178",
+    "experiments/rfuav_native_frequency_20261009/native.py": "e14f81aed3c1110f6cdb02d0717a462572b6d2ff6205aff9bbd1d95a5922f587",
+    "experiments/rfuav_native_frequency_20261009/native_data.py": "b3ac38f06bd86ea09ed93e94369dacf53310aeb2aa803b7eb637de08e25d99cc",
+    "experiments/rfuav_dense_gated_20261008/cpu_check.py": "e9189ca0f2d1b20a4f36c8d266a3d59ffce1f83f4f80f3eb1083fc7f5641b4a2",
+    "experiments/rfuav_dense_gated_20261008/test_models.py": "f652b3d012f60fc86aa099beba28147ed75bc9fc3b3f0b4170c3d4d8f1999110",
+    "experiments/rfuav_dense_gated_20261008/study.py": "2e2cb2401c546405959d0de3d4ebccf08f55b0e977ea6825d001c7e663df0edd",
+    "experiments/rfuav_dense_gated_20261008/models.py": "b48e5852e194d4c7fca3e636bb79f918da478a4880fc83397c8afd2e538a136c",
+    "experiments/rfuav_dense_gated_20261008/dense_data.py": "a5604c104332731f7dfa220de74bdd2af2c7efdb5b57af860eae3348e2aa4f3d",
+    "experiments/rfuav_dense_gated_20261008/verify_dense.py": "9fafe10f20057b434ab102b1e12cd298a6c9b2d4293234670590fbe5425ae276",
+    "experiments/rfuav_dense_gated_20261008/prepare_dense_gated.py": "eab1ef23cd3af6c58832e8416aa0108c2090b8610e1919612cee2a8e21fd150b",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_training_data.py": "4222e700c5e77761c7fb05269bd86420896fa2fbcdcbe707a97c08e3f63eaee7",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/temporal.py": "47c237184e31050706abefd0bc91bce80c1492866f5c26e0e9333fe1712da253",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/similarity.py": "a8166bcc7adefec50b30c0374f84964b36943395d64ba3e91400f7b8147c561a",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_data.py": "97886c6accb9e228b85b6fda7efb76cea8e4b4a75e5420c39b115dcf65281268",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/within_dataset_schedule.py": "edcddbf19df88bd0ec4ac6558776d6b75dfa983589850aa742bcaf8306ffaf18",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/losses.py": "a51e179ea16d094cf122ec6491d79b26c66e3ed84294e396112156fb3ac8a4d6",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/waveform.py": "7f27d74ffef9ac5f52c34559d66ddd512f76abe83a4ba825887fc94bd1c3159d",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_model.py": "a6bb37a4a5fb8c5c7f0472b76a92d80f178183d91118367b74fe557873d64794",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/data.py": "2c8abdc30d724e3fd61ca4145f158145139a8c9f69f1d66dc4c888ad1653df6e",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/__init__.py": "9452c5c2cea105ebfc875e0128e2b99b459806ff14c2cd59236c3273575016f4",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/model.py": "c97c64d315637c7799e59147ce37dfce910bdb6ff385c2733153720cfdf47105",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/mixture_constraints.py": "306709a6de32ed01581bd3facc8c45e91de6770de07b1fb9e2457f3ecc99372c",
+    "experiments/architecture_audit_20261009/test_adapter.py": "e7348d70f8be9e35cb451ff3d5b414a7f42e3209c8fbd2f73f03f111d1e75781",
+    "experiments/architecture_audit_20261009/fit_diagnostic.py": "edbeabe4177d8850d7fbbe1fa93751a04282f308d25f640fb4e3ebfe755a77e1",
+    "experiments/architecture_audit_20261009/native_wavenet.py": "6ca4ae09603985e161c6ff7f6b56a2abc39456451fb8510f3c4170dcc7eecba5",
+    "experiments/architecture_audit_20261009/audit.py": "b606c670de27d98e0e4b9823053ecc55df44586d08c8218f878315071e9cf936",
+    "experiments/architecture_audit_20261009/train_comparison.py": "a84debcc74960d13300c955e964ff01250328d2a7ed83c7be1bb4fcc345aad2e",
+    "experiments/architecture_audit_20261009/cycle15.py": "d3606f30dbf0488b62b0182d78d78fd83132979a7e97d878527fa0e1959f605a",
+    "experiments/rfuav_native_frequency_20261009/report.py": "6b304b8858b619eac6bf56abbdd798915a8d7b00e920f0e708789a797b255ed2",
+    "experiments/architecture_audit_20261009/phase_fit_v2.py": "6fb94e0439052629a5d0941c1029f0d1c6c73bad752aec9655d89a6c014062c8",
+    "experiments/architecture_audit_20261009/phase_packing.py": "db0794982d126453245abf1baf97f441dbed48a7c129dfe1f180e920c6341180",
+    "experiments/architecture_audit_20261009/gpu_start_guard.py": "63750778b288a7617e91e550823b624b5eebe93193e5c6c4434d9a6d9ed1e1ac",
+    "experiments/architecture_audit_20261009/check_phase_packing.py": "fd081cba34d2ece2270e5fd1d363bd9091db7c82b2ccf2a56a8eed2166c923e7",
+    "experiments/architecture_audit_20261009/phase_comparison_v2.py": "90c1e1fd5a59be92cd35a8711edb461777ff07ccc0faf043a22d8e01ac339414",
+    "experiments/architecture_audit_20261009/phase_data.py": "ac941685c3609c6c3333a9f2b17c216c3ef1c40f891fc49714aa3979d4cd4cea",
+    "experiments/architecture_audit_20261009/phase_evaluation.py": "a8135eb8e53956a8e27a1b0f781353dd5d303d0c0bf5c172307093430c894a72",
+    "experiments/architecture_audit_20261009/watch_epochs.py": "c6bdf5c24efae621a028438c6ecde51ded899f7e0ab8cd7a38a61b687c9f1154",
+    "experiments/architecture_audit_20261009/check_phase_pipeline.py": "9b556865cd549bd19c9b1168d7e827d612be2d739d42fc9ecd7ca3716ac3fc88",
+    "experiments/architecture_audit_20261009/output_fit.py": "65308711af48abe88fb2dfc614b45aa4d804a925159fd2280e692cdc4fce1e6c",
+    "experiments/architecture_audit_20261009/output_parameterization.py": "492ef96b3fb515e65d4e7936b0b5a28474b69efefa8cd75244ad3c8a52d8265d",
+    "experiments/architecture_audit_20261009/check_output_parameterization.py": "ffdc2b5492aa45b12ddb87ec4b9cc2758feeee926f7ad451e57fbcbe4182f929",
+    "experiments/architecture_audit_20261009/check_robust_nmse.py": "3f27a3972db52240dd2d31456cceac5be865b01cc9e7689e1c436dab3034a314",
+    "experiments/architecture_audit_20261009/robust_nmse.py": "920051f2bbf225fb96487e7761ac74a4cf7ab6fefea17dd85111f6dee6056a70",
+    "experiments/architecture_audit_20261009/head_gradient_probe.py": "b21f8d067f7da53f0ce45bc46da808b76150f37f81ecac02228e47f4d7fb2fc8",
+    "experiments/architecture_audit_20261009/robust_unet_comparison.py": "de8db06516dd2341c0d6e397301c6c17a767ae17f9139df9c74c03fc23281f26",
+    "experiments/architecture_audit_20261009/low_lr_unet_comparison.py": "dbdc8e0344370b29de8b9737576062ae19902cbc161e200b25ab94dd6d661f0a",
+    "experiments/architecture_audit_20261009/check_low_lr.py": "9052241ee2308f349eeac39052d858a52e0de2047e7df83228732b84df5e6f3e",
+    "experiments/architecture_audit_20261009/continue_low_lr.py": "09bac5d4b6c2bf0cfa9df4bb6073a6c359c0b60b962202831e7b2ec04c5ef1fa",
+    "experiments/architecture_audit_20261009/check_low_lr_continuation.py": "85e4fbc415516c5538ea99cafd970665432dc6534bb946059888671a9f899fd1",
+    "experiments/architecture_audit_20261009/audit_low_lr_continuation.py": "f55dc2e7e52714899abf6769cdc39171c22d4e816b15f2627a6313c0914e924c",
+    "experiments/source_interaction_20261010/check_source_head.py": "42950bab65cfda6d73bef3ad5413c2e1719343c57b51a941e073a1569d29b1c0",
+    "experiments/source_interaction_20261010/source_head.py": "e62b7628a1648866b203d0e4ebbff8684af587796f65f80e07fcac27d52937ba",
+    "experiments/source_interaction_20261010/run_preflight.py": "2be992e89dd01dadebef8d46cf518ee1ef923d7f41dbd7cb7c7adeb15affb29c"
+  },
+  "parent_checkpoint_sha256": "19888f8823fbb6ade6333d40bd849dec3202e522ded016e7265eaced6b52aa49",
+  "initial_gpu_predictions_exactly_equal": true,
+  "results": [
+    {
+      "arm": "retained_unet",
+      "parameters": 32142859,
+      "updates": 32,
+      "history": [
+        {
+          "step": 0,
+          "rows": [
+            {
+              "case": 0,
+              "count": 2,
+              "nmse": [
+                0.18263870729564077,
+                0.23547396845007104
+              ],
+              "si_sdr": [
+                7.012084658838326,
+                18.80950551463156
+              ]
+            },
+            {
+              "case": 1,
+              "count": 2,
+              "nmse": [
+                0.016707678661772737,
+                0.31034116442909065
+              ],
+              "si_sdr": [
+                17.807185188222896,
+                3.8348605560310585
+              ]
+            },
+            {
+              "case": 2,
+              "count": 3,
+              "nmse": [
+                0.6326973620592594,
+                0.40042526192516326,
+                1.0031848113243271
+              ],
+              "si_sdr": [
+                -2.157066497797367,
+                2.7509875169257163,
+                -34.19266437877065
+              ]
+            },
+            {
+              "case": 3,
+              "count": 3,
+              "nmse": [
+                0.5133180484000308,
+                0.979292273649674,
+                0.04462463983282302
+              ],
+              "si_sdr": [
+                0.17359062642643425,
+                -12.064938825891499,
+                13.314915346775656
+              ]
+            }
+          ],
+          "by_count": [
+            {
+              "count": 2,
+              "mean_nmse": 0.1862903797091438,
+              "mean_si_sdr": 11.86590897943096
+            },
+            {
+              "count": 3,
+              "mean_nmse": 0.5955903995318795,
+              "mean_si_sdr": -5.362529368721952
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "rows": [
+            {
+              "case": 0,
+              "count": 2,
+              "nmse": [
+                0.1576700903334891,
+                0.2375408456183492
+              ],
+              "si_sdr": [
+                7.789917391293323,
+                19.91428368611071
+              ]
+            },
+            {
+              "case": 1,
+              "count": 2,
+              "nmse": [
+                0.01926161810220904,
+                0.3446715882349326
+              ],
+              "si_sdr": [
+                17.150437016196996,
+                3.008982670878722
+              ]
+            },
+            {
+              "case": 2,
+              "count": 3,
+              "nmse": [
+                0.48867548941818556,
+                0.322591391311944,
+                0.9837893881361018
+              ],
+              "si_sdr": [
+                1.6743172640562283,
+                4.349834439703181,
+                -15.971556863158911
+              ]
+            },
+            {
+              "case": 3,
+              "count": 3,
+              "nmse": [
+                0.4771893149175299,
+                0.9281380678976163,
+                0.03542559383108998
+              ],
+              "si_sdr": [
+                0.7451812707602999,
+                -6.817334512623482,
+                14.352235088390659
+              ]
+            }
+          ],
+          "by_count": [
+            {
+              "count": 2,
+              "mean_nmse": 0.189786035572245,
+              "mean_si_sdr": 11.965905191119937
+            },
+            {
+              "count": 3,
+              "mean_nmse": 0.5393015409187446,
+              "mean_si_sdr": -0.27788721881200446
+            }
+          ]
+        },
+        {
+          "step": 8,
+          "rows": [
+            {
+              "case": 0,
+              "count": 2,
+              "nmse": [
+                0.06203238667357228,
+                0.24879946587592325
+              ],
+              "si_sdr": [
+                11.796330810198848,
+                20.506683577028948
+              ]
+            },
+            {
+              "case": 1,
+              "count": 2,
+              "nmse": [
+                0.018289089750558308,
+                0.36669011636904114
+              ],
+              "si_sdr": [
+                17.62712967717474,
+                3.1766037654456643
+              ]
+            },
+            {
+              "case": 2,
+              "count": 3,
+              "nmse": [
+                0.4204891785880253,
+                0.23440230292849662,
+                0.9312477157757565
+              ],
+              "si_sdr": [
+                4.267032468312934,
+                5.781006901899698,
+                -10.640391026000586
+              ]
+            },
+            {
+              "case": 3,
+              "count": 3,
+              "nmse": [
+                0.45172964588045744,
+                0.7911451585489072,
+                0.028904164454721205
+              ],
+              "si_sdr": [
+                1.2697218261715846,
+                -2.907072731949769,
+                15.395296970093469
+              ]
+            }
+          ],
+          "by_count": [
+            {
+              "count": 2,
+              "mean_nmse": 0.17395276466727375,
+              "mean_si_sdr": 13.27668695746205
+            },
+            {
+              "count": 3,
+              "mean_nmse": 0.4763196943627273,
+              "mean_si_sdr": 2.194265734754555
+            }
+          ]
+        },
+        {
+          "step": 16,
+          "rows": [
+            {
+              "case": 0,
+              "count": 2,
+              "nmse": [
+                0.05766633271963448,
+                0.21351607328889868
+              ],
+              "si_sdr": [
+                12.191245908926035,
+                20.690384302995625
+              ]
+            },
+            {
+              "case": 1,
+              "count": 2,
+              "nmse": [
+                0.008567725304067792,
+                0.20666500327956383
+              ],
+              "si_sdr": [
+                21.488672057644873,
+                8.300844514217733
+              ]
+            },
+            {
+              "case": 2,
+              "count": 3,
+              "nmse": [
+                0.3547023749578523,
+                0.23034849159445026,
+                0.8872573343689817
+              ],
+              "si_sdr": [
+                4.824456134541356,
+                5.556505520517941,
+                -5.138887784466993
+              ]
+            },
+            {
+              "case": 3,
+              "count": 3,
+              "nmse": [
+                0.400394723874834,
+                0.7790971373241607,
+                0.033531013150297856
+              ],
+              "si_sdr": [
+                1.937706596109858,
+                0.2608404587559364,
+                14.900442437716134
+              ]
+            }
+          ],
+          "by_count": [
+            {
+              "count": 2,
+              "mean_nmse": 0.1216037836480412,
+              "mean_si_sdr": 15.667786695946067
+            },
+            {
+              "count": 3,
+              "mean_nmse": 0.44755517921176274,
+              "mean_si_sdr": 3.723510560529039
+            }
+          ]
+        },
+        {
+          "step": 32,
+          "rows": [
+            {
+              "case": 0,
+              "count": 2,
+              "nmse": [
+                0.031193549619660168,
+                0.13446395698986632
+              ],
+              "si_sdr": [
+                14.939725698439295,
+                19.301350732171507
+              ]
+            },
+            {
+              "case": 1,
+              "count": 2,
+              "nmse": [
+                0.006524874818257408,
+                0.12030926049074235
+              ],
+              "si_sdr": [
+                21.954085207030985,
+                8.833789727927709
+              ]
+            },
+            {
+              "case": 2,
+              "count": 3,
+              "nmse": [
+                0.2496522543267647,
+                0.18276068637288756,
+                0.8171715780000952
+              ],
+              "si_sdr": [
+                5.674396930110031,
+                6.583509059109196,
+                -1.3414316291149584
+              ]
+            },
+            {
+              "case": 3,
+              "count": 3,
+              "nmse": [
+                0.301521174670416,
+                0.6299582989773268,
+                0.027000494243412648
+              ],
+              "si_sdr": [
+                3.7056763962155808,
+                2.208434953309735,
+                15.81133276408776
+              ]
+            }
+          ],
+          "by_count": [
+            {
+              "count": 2,
+              "mean_nmse": 0.07312291047963157,
+              "mean_si_sdr": 16.257237841392374
+            },
+            {
+              "count": 3,
+              "mean_nmse": 0.36801074776515047,
+              "mean_si_sdr": 5.440319745619558
+            }
+          ]
+        }
+      ],
+      "finite_gradients": true,
+      "attention_gradient_after_first_step": null,
+      "both_counts_improved": true,
+      "seconds": 39.961461782455444,
+      "peak_bytes": 2462277632,
+      "weights_discarded": true
+    },
+    {
+      "arm": "source_interaction",
+      "parameters": 32180747,
+      "updates": 32,
+      "history": [
+        {
+          "step": 0,
+          "rows": [
+            {
+              "case": 0,
+              "count": 2,
+              "nmse": [
+                0.18263870729564077,
+                0.23547396845007104
+              ],
+              "si_sdr": [
+                7.012084658838326,
+                18.80950551463156
+              ]
+            },
+            {
+              "case": 1,
+              "count": 2,
+              "nmse": [
+                0.016707678661772737,
+                0.31034116442909065
+              ],
+              "si_sdr": [
+                17.807185188222896,
+                3.8348605560310585
+              ]
+            },
+            {
+              "case": 2,
+              "count": 3,
+              "nmse": [
+                0.6326973620592594,
+                0.40042526192516326,
+                1.0031848113243271
+              ],
+              "si_sdr": [
+                -2.157066497797367,
+                2.7509875169257163,
+                -34.19266437877065
+              ]
+            },
+            {
+              "case": 3,
+              "count": 3,
+              "nmse": [
+                0.5133180484000308,
+                0.979292273649674,
+                0.04462463983282302
+              ],
+              "si_sdr": [
+                0.17359062642643425,
+                -12.064938825891499,
+                13.314915346775656
+              ]
+            }
+          ],
+          "by_count": [
+            {
+              "count": 2,
+              "mean_nmse": 0.1862903797091438,
+              "mean_si_sdr": 11.86590897943096
+            },
+            {
+              "count": 3,
+              "mean_nmse": 0.5955903995318795,
+              "mean_si_sdr": -5.362529368721952
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "rows": [
+            {
+              "case": 0,
+              "count": 2,
+              "nmse": [
+                0.15766060959801562,
+                0.2376213971136775
+              ],
+              "si_sdr": [
+                7.788403286579415,
+                19.91116517601543
+              ]
+            },
+            {
+              "case": 1,
+              "count": 2,
+              "nmse": [
+                0.019270080432560514,
+                0.3447094506057275
+              ],
+              "si_sdr": [
+                17.150585674551497,
+                3.008724231338244
+              ]
+            },
+            {
+              "case": 2,
+              "count": 3,
+              "nmse": [
+                0.48867650394531426,
+                0.3224837047524667,
+                0.9835766110548739
+              ],
+              "si_sdr": [
+                1.6752137711242234,
+                4.349625529037693,
+                -15.896228105059535
+              ]
+            },
+            {
+              "case": 3,
+              "count": 3,
+              "nmse": [
+                0.477199619750094,
+                0.9280023149851407,
+                0.035429823080786474
+              ],
+              "si_sdr": [
+                0.7454614239065817,
+                -6.828328446562316,
+                14.351478321449093
+              ]
+            }
+          ],
+          "by_count": [
+            {
+              "count": 2,
+              "mean_nmse": 0.1898153844374953,
+              "mean_si_sdr": 11.964719592121147
+            },
+            {
+              "count": 3,
+              "mean_nmse": 0.5392280962614461,
+              "mean_si_sdr": -0.26712958435071005
+            }
+          ]
+        },
+        {
+          "step": 8,
+          "rows": [
+            {
+              "case": 0,
+              "count": 2,
+              "nmse": [
+                0.06202851252413495,
+                0.24874641418381085
+              ],
+              "si_sdr": [
+                11.796783294635604,
+                20.486826496479008
+              ]
+            },
+            {
+              "case": 1,
+              "count": 2,
+              "nmse": [
+                0.01829892851210133,
+                0.3666663928477253
+              ],
+              "si_sdr": [
+                17.623935712962442,
+                3.1739980950821267
+              ]
+            },
+            {
+              "case": 2,
+              "count": 3,
+              "nmse": [
+                0.42030434254563404,
+                0.23422512196832407,
+                0.9312774503286081
+              ],
+              "si_sdr": [
+                4.267359261577951,
+                5.781491075750008,
+                -10.643355619364538
+              ]
+            },
+            {
+              "case": 3,
+              "count": 3,
+              "nmse": [
+                0.4517089107972525,
+                0.7911536601575285,
+                0.02891229739634819
+              ],
+              "si_sdr": [
+                1.26782499649152,
+                -2.905678743339639,
+                15.39653118951178
+              ]
+            }
+          ],
+          "by_count": [
+            {
+              "count": 2,
+              "mean_nmse": 0.17393506201694311,
+              "mean_si_sdr": 13.270385899789796
+            },
+            {
+              "count": 3,
+              "mean_nmse": 0.47626363053228254,
+              "mean_si_sdr": 2.194028693437847
+            }
+          ]
+        },
+        {
+          "step": 16,
+          "rows": [
+            {
+              "case": 0,
+              "count": 2,
+              "nmse": [
+                0.05733214269760674,
+                0.21273266077046243
+              ],
+              "si_sdr": [
+                12.217711701098457,
+                20.69771540737576
+              ]
+            },
+            {
+              "case": 1,
+              "count": 2,
+              "nmse": [
+                0.008554336472113584,
+                0.20582667434728483
+              ],
+              "si_sdr": [
+                21.48778280209594,
+                8.302799117809606
+              ]
+            },
+            {
+              "case": 2,
+              "count": 3,
+              "nmse": [
+                0.35393764734571953,
+                0.22986132076574878,
+                0.887130688901695
+              ],
+              "si_sdr": [
+                4.8272014577582185,
+                5.562995425036697,
+                -5.133892787865849
+              ]
+            },
+            {
+              "case": 3,
+              "count": 3,
+              "nmse": [
+                0.399901340087079,
+                0.7791230935949605,
+                0.03347708586215334
+              ],
+              "si_sdr": [
+                1.9418168388052632,
+                0.25582130942973486,
+                14.913678031478895
+              ]
+            }
+          ],
+          "by_count": [
+            {
+              "count": 2,
+              "mean_nmse": 0.1211114535718669,
+              "mean_si_sdr": 15.67650225709494
+            },
+            {
+              "count": 3,
+              "mean_nmse": 0.447238529426226,
+              "mean_si_sdr": 3.7279367124404934
+            }
+          ]
+        },
+        {
+          "step": 32,
+          "rows": [
+            {
+              "case": 0,
+              "count": 2,
+              "nmse": [
+                0.03045830897378994,
+                0.1320369312358324
+              ],
+              "si_sdr": [
+                15.048963639642006,
+                19.303059491018935
+              ]
+            },
+            {
+              "case": 1,
+              "count": 2,
+              "nmse": [
+                0.006575424823415406,
+                0.11951848783111703
+              ],
+              "si_sdr": [
+                21.95834271816002,
+                8.844083151656495
+              ]
+            },
+            {
+              "case": 2,
+              "count": 3,
+              "nmse": [
+                0.24823374114853883,
+                0.18195769845018958,
+                0.8169279770342147
+              ],
+              "si_sdr": [
+                5.678207623418205,
+                6.60621312658849,
+                -1.3364155519911767
+              ]
+            },
+            {
+              "case": 3,
+              "count": 3,
+              "nmse": [
+                0.30095131424765165,
+                0.6290745332367171,
+                0.026807424206467968
+              ],
+              "si_sdr": [
+                3.71031897320454,
+                2.2086829347769132,
+                15.833053465909169
+              ]
+            }
+          ],
+          "by_count": [
+            {
+              "count": 2,
+              "mean_nmse": 0.0721472882160387,
+              "mean_si_sdr": 16.288612250119364
+            },
+            {
+              "count": 3,
+              "mean_nmse": 0.36732544805396333,
+              "mean_si_sdr": 5.45001009531769
+            }
+          ]
+        }
+      ],
+      "finite_gradients": true,
+      "attention_gradient_after_first_step": true,
+      "both_counts_improved": true,
+      "seconds": 77.34621858596802,
+      "peak_bytes": 2550619648,
+      "weights_discarded": true
+    }
+  ],
+  "validation_read": false,
+  "heldout_read": false,
+  "weights_discarded": true,
+  "time": 1791559651.1436799
+}

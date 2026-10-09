@@ -31,8 +31,8 @@ def main(source, reference, output):
                             linewidth=1.8,markersize=4,label=f"{'Original' if arm=='original' else 'log1p'} / lr {label}")
             ax.grid(alpha=.2);ax.set_xticks(range(4));ax.set_xlim(-.08,3.08)
             ax.set_title(f'{count} recorded contributions')
-            ax.set_ylabel('Raw complex I/Q NMSE (lower is better)' if row==0
-                          else 'Complex SI-SDR, dB (higher is better)')
+            ax.set_ylabel('Raw complex I/Q NMSE (lower)' if row==0
+                          else 'Complex SI-SDR, dB (higher)')
             if row==1:ax.set_xlabel('Additional fine-tuning epoch')
     handles,labels=axes[0,0].get_legend_handles_labels()
     fig.legend(handles,labels,loc='lower center',bbox_to_anchor=(.5,.055),ncol=2,frameon=False)

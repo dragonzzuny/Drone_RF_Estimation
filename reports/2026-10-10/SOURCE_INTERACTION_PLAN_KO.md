@@ -1,6 +1,6 @@
 # 성분 사이의 정보를 사용하는 U-Net 출력층: 사전 검사
 
-2026-10-10. 상태: 원 규모 CPU 검사 통과. GPU TRAIN4 사전 검사는 대기열에 등록했으며 현재 낮은 학습률 비교와 최종 검산이 끝난 뒤 실행한다. 새 구조의 본학습·개발검증 결과는 아직 없다.
+2026-10-10. 상태: 원 규모 CPU·GPU TRAIN4 검사와 수치 검산을 완료했다. 00:29 KST부터 별도의 본 비교를 실행한다. 본 비교의 완료 epoch는 아직 없다. [GPU 검사 결과](SOURCE_INTERACTION_PREFLIGHT_AUDIT.md), [본 비교 규약](SOURCE_INTERACTION_MAIN_PLAN_KO.md).
 
 ## 검증할 가설
 
