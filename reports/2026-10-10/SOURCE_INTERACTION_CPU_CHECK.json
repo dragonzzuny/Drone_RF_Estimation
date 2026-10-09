@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "source_sha256": {
+    "experiments/source_interaction_20261010/check_source_head.py": "42950bab65cfda6d73bef3ad5413c2e1719343c57b51a941e073a1569d29b1c0",
+    "experiments/source_interaction_20261010/source_head.py": "e62b7628a1648866b203d0e4ebbff8684af587796f65f80e07fcac27d52937ba",
+    "experiments/architecture_audit_20261009/fit_diagnostic.py": "edbeabe4177d8850d7fbbe1fa93751a04282f308d25f640fb4e3ebfe755a77e1"
+  },
+  "baseline_parameters": 32142859,
+  "parameters": 32180747,
+  "additional_parameters": 37888,
+  "full_complex_input_samples": 63872,
+  "source_feature_width": 64,
+  "exact_parent_prediction_at_initialization": true,
+  "count_logits_unchanged_at_initialization": true,
+  "nonzero_head_all_six_permutations": true,
+  "correction_complex_sum_zero": true,
+  "raw_background_unchanged": true,
+  "chunked_checkpoint_output_and_gradient_equivalence": true,
+  "nonzero_readout_has_nonzero_attention_gradient": true,
+  "finite_full_model_gradients": true,
+  "first_readout_gradient_norm": 0.008106225170195103,
+  "first_upstream_branch_gradient_norm": 0.0,
+  "sum_relative_error": 9.601377649209354e-15,
+  "seconds": 43.613937854766846,
+  "max_rss_kib": 4074644,
+  "recorded_iq_reads": 0,
+  "checkpoint_reads": 0,
+  "optimizer_updates": 0,
+  "device": "cpu",
+  "rf_performance_evaluated": false,
+  "limitation": "Synthetic preflight only. No longer temporal context or complex phase equivariance is added. Not a SepTDA reproduction."
+}
