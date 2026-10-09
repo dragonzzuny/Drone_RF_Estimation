@@ -107,7 +107,10 @@ def snapshot(run):
         history = []
         folder = run / arm
         initial = folder / 'VALIDATION_000.json'
-        if initial.exists():
+        # The shared evaluator first writes a legacy aggregate, then the native
+        # wrapper atomically adds its geometry flag and selection definition.
+        # Only consume the native wrapper's finalized initial validation.
+        if initial.exists() and read(initial).get('native_center_offsets_preserved') is True:
             metrics, identities = validate(initial, identities)
             history.append(metrics)
         for epoch in range(1, plan['epochs_per_arm'] + 1):
@@ -121,6 +124,13 @@ def snapshot(run):
                 raise ValueError('Update budget mismatch')
             validation = folder / f'VALIDATION_{epoch:03d}.json'
             metrics, identities = validate(validation, identities)
+            if len(history) != epoch:
+                raise ValueError('Initial or preceding epoch missing')
+            for group in metrics['by_count']:
+                receipt_group = next(g for g in value['validation']['by_count']
+                                     if g['count'] == group['count'])
+                if any(not close(v, receipt_group[k]) for k, v in group.items()):
+                    raise ValueError('Epoch receipt disagrees with validation')
             history.append(metrics)
             best = min(history, key=lambda x: x['selection_nmse'])
             if value['best']['epoch'] != best['epoch'] or not close(value['best']['metric'], best['selection_nmse']):
