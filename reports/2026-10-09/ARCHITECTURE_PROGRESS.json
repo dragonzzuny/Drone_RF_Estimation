@@ -3,16 +3,16 @@
   "worker_alive": true,
   "state": {
     "status": "TRAINING",
-    "arm": "wavenet_cycle10",
+    "arm": "wavenet_cycle15",
     "epoch": 4,
     "updates": 300,
     "examples": 2400,
     "total": 2400,
-    "seconds": 1728.8717846870422,
+    "seconds": 1710.6880433559418,
     "pid": 3709695,
-    "time": 1791519859.921165
+    "time": 1791521695.3091466
   },
-  "reported_at": "2026-10-09T13:26:47+09:00",
+  "reported_at": "2026-10-09T13:57:25+09:00",
   "protocol_sha256": "54b4af1932ee83651aad2f5e251ada981f12133f1230b70f2c86180cb9c7f9a5",
   "events": [
     {
@@ -444,6 +444,49 @@
         ],
         "selection_nmse": 0.7794747165284224
       }
+    },
+    {
+      "arm": "wavenet_cycle15",
+      "epoch": 4,
+      "updates": 300,
+      "receipt_sha256": "00ab6885fe7dbd6f523ab2645e86695d5c309fc3616bc63659982b09f5c9abc0",
+      "validation_sha256": "a38d39025d634278681d7cb93696b5bac90bbea24f7e7bdc3a87292ad8987bbf",
+      "completed_time": 1791521822.3411143,
+      "train_seconds": 1710.6885302066803,
+      "selected_epoch": 4,
+      "metrics": {
+        "epoch": 4,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.01505494374944464,
+            "mean_si_sdr": 22.55794934248465,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.01505494374944464,
+            "construction_count_accuracy": 0.8
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.9162954351178558,
+            "mean_si_sdr": 0.304202581615124,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 1.6325618940945281,
+            "construction_count_accuracy": 0.01904761904761905
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.7592503124860737,
+            "mean_si_sdr": -4.895037869341121,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.967727827823863,
+            "construction_count_accuracy": 0.8761904761904762
+          }
+        ],
+        "selection_nmse": 0.8377728738019647
+      }
     }
   ],
   "histories": {
@@ -746,6 +789,39 @@
           }
         ],
         "selection_nmse": 0.9058301632400674
+      },
+      {
+        "epoch": 4,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.01505494374944464,
+            "mean_si_sdr": 22.55794934248465,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.01505494374944464,
+            "construction_count_accuracy": 0.8
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.9162954351178558,
+            "mean_si_sdr": 0.304202581615124,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 1.6325618940945281,
+            "construction_count_accuracy": 0.01904761904761905
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.7592503124860737,
+            "mean_si_sdr": -4.895037869341121,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.967727827823863,
+            "construction_count_accuracy": 0.8761904761904762
+          }
+        ],
+        "selection_nmse": 0.8377728738019647
       }
     ],
     "unet_mean": [
