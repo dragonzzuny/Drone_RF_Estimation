@@ -1,5 +1,7 @@
 # 다기종 드론 I/Q 분리 목표와 실행계획
 
+**개수 기울기 차단 대조 완료:** 각5epoch/375업데이트, 전체 가중치와 초기+5개epoch 평가630행씩 및 네 위상630행을 검산했다. 차단군 선택e5의1회 NMSE2/3은0.472724/0.679586, 네 위상0.451212/0.678711이다. 같은 추론의 기존 모델 대비3성분은 개선됐지만2성분 NMSE는 악화했다. 두 조건·두 지표 동시 개선 기준 미달이며 전체 우월성으로 채택하지 않는다. [완료 결과](../reports/2026-10-09/COUNT_DETACH_FINAL.md). GPU는 등록된 구조 적합도 진단으로 이동했다.
+
 **동일 시작 상태의 구조 비교 연결:** 원 규모 WaveNet cycle10/cycle15와 STFT U-Net의 전체 입력 적합도 검사를 전제 조건으로, 각 새 초기화·5epoch/375업데이트의 native 비교를 등록했다. 이전부터 학습한 U-Net과 새 WaveNet의 학습 이력 차이를 구조 효과로 오인하지 않기 위한 대조다. 현재 선택된 전이 U-Net은 실용 기준선으로 유지한다. [규약·실행기](../experiments/architecture_audit_20261009/train_comparison.py), 실행 위치 `local/architecture_native_screen_20261009_v1`. 이 문장의 등록 상태와 실제 학습 시작은 구분한다. 두 WaveNet의 초기 tensor·파라미터 수는 같고 팽창률만 다르다. TRAIN 지연 상관 후보를 참고한 가설이며, 수 ms의 긴 순서 특징을 이미 학습했다는 뜻은 아니다.
 
 **2026-10-09 구조 적합성 재검토:** 현 모델은 복소 STFT U-Net이며 긴20.89ms 특징은 시간 평균 후 처리한다. CPU 검사에서 긴 특징의 시간 순서를 섞어도 인코더 출력이 동일했다. 국소 파형 분리 기준선으로는 타당하지만, 긴 호핑·반복 순서를 학습했다는 주장은 하지 않는다. RF Challenge 원시 I/Q WaveNet·1D U-Net, IQUMamba-1D(2026), ICC2026 통합 U-Net의 본문과 공개 구현을 대조했다. [구조 검토·결정](../reports/2026-10-09/ARCHITECTURE_REVIEW_KO.md), [CPU 검산](../reports/2026-10-09/ARCHITECTURE_CPU_AUDIT.json), [학습 원기록 시간 구조](../reports/2026-10-09/NATIVE_TRAIN_TIME_STRUCTURE.json).
