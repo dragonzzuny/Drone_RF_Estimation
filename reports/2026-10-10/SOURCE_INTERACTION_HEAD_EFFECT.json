@@ -1,0 +1,202 @@
+{
+  "status": "COMPLETE",
+  "protocol_sha256": "e9d173ad9a53de4852ea7effb811d84a7479d5163f2e49c26434ddfc5a8fa83c",
+  "checkpoint_sha256": "b70d6972eced9103fa34829b578ae684903a8761a35c0642316f5e6972945a79",
+  "rows": [
+    {
+      "index": 4,
+      "count": 2,
+      "metrics": {
+        "trained_head_on": {
+          "nmse": [
+            0.17250927285019496,
+            0.22850493681101242
+          ],
+          "si_sdr": [
+            7.254547314594876,
+            19.01000331106774
+          ],
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "sum_relative_error": 1.1347260891672921e-14
+        },
+        "trained_head_off": {
+          "nmse": [
+            0.17250734734684103,
+            0.22854053800390764
+          ],
+          "si_sdr": [
+            7.25393247856693,
+            19.007088727008203
+          ],
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "sum_relative_error": 1.1357529631173702e-14
+        }
+      },
+      "raw_slot_delta_energy_over_mixture": [
+        2.619787255299249e-09,
+        1.8523819832467175e-09,
+        5.026911602015511e-09,
+        5.715887891385315e-17
+      ],
+      "count_logits_identical": true,
+      "note": "Per-reference waveform metrics independently PIT aligned; delta energies retain raw slot identities"
+    },
+    {
+      "index": 5,
+      "count": 2,
+      "metrics": {
+        "trained_head_on": {
+          "nmse": [
+            0.01548025234988541,
+            0.2940067554397331
+          ],
+          "si_sdr": [
+            18.13610320999893,
+            4.3505803517515265
+          ],
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "sum_relative_error": 1.3167198477731396e-14
+        },
+        "trained_head_off": {
+          "nmse": [
+            0.015484128450938347,
+            0.29405027401327927
+          ],
+          "si_sdr": [
+            18.136115770299373,
+            4.349701602888001
+          ],
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "sum_relative_error": 1.2908380982550225e-14
+        }
+      },
+      "raw_slot_delta_energy_over_mixture": [
+        2.918905505554593e-09,
+        2.7392358681122673e-09,
+        1.0785078763065531e-08,
+        5.4054527638269336e-17
+      ],
+      "count_logits_identical": true,
+      "note": "Per-reference waveform metrics independently PIT aligned; delta energies retain raw slot identities"
+    },
+    {
+      "index": 2,
+      "count": 3,
+      "metrics": {
+        "trained_head_on": {
+          "nmse": [
+            0.664231202593477,
+            0.4085249562033696,
+            0.9973874387890919
+          ],
+          "si_sdr": [
+            -2.8300584986936377,
+            2.5847148290663604,
+            -25.680802330276013
+          ],
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "sum_relative_error": 1.1435934166762885e-14
+        },
+        "trained_head_off": {
+          "nmse": [
+            0.6642109162752509,
+            0.40848040971878874,
+            0.9972891515734607
+          ],
+          "si_sdr": [
+            -2.8295461564359954,
+            2.584693053312752,
+            -25.50566006390765
+          ],
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "sum_relative_error": 1.144390036088557e-14
+        }
+      },
+      "raw_slot_delta_energy_over_mixture": [
+        2.5357147272783056e-09,
+        1.4821097765470934e-09,
+        6.183228292552795e-09,
+        5.4212331870861774e-17
+      ],
+      "count_logits_identical": true,
+      "note": "Per-reference waveform metrics independently PIT aligned; delta energies retain raw slot identities"
+    },
+    {
+      "index": 11,
+      "count": 3,
+      "metrics": {
+        "trained_head_on": {
+          "nmse": [
+            0.5133926557002649,
+            0.9736523468155652,
+            0.04409310995892783
+          ],
+          "si_sdr": [
+            0.17231773291749747,
+            -11.152421244954462,
+            13.368839180647122
+          ],
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "sum_relative_error": 1.2370072960400206e-14
+        },
+        "trained_head_off": {
+          "nmse": [
+            0.5133999362293319,
+            0.9735749694364527,
+            0.044094393864220274
+          ],
+          "si_sdr": [
+            0.17227453704027318,
+            -11.14236573832806,
+            13.36852155360013
+          ],
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "sum_relative_error": 1.2323378182922511e-14
+        }
+      },
+      "raw_slot_delta_energy_over_mixture": [
+        2.71689446753537e-09,
+        2.3414227065474336e-09,
+        9.431282037310781e-09,
+        5.578144444927085e-17
+      ],
+      "count_logits_identical": true,
+      "note": "Per-reference waveform metrics independently PIT aligned; delta energies retain raw slot identities"
+    }
+  ],
+  "training_updates": 0,
+  "heldout_read": false,
+  "interpretation": "Direct e1 head contribution on TRAIN4 with identical adapted backbone; not generalization or full-training causal attribution"
+}
