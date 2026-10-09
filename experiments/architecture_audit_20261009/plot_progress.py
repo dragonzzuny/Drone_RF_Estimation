@@ -72,7 +72,7 @@ def render(report, output):
         temp.replace(path)
     plt.close(fig)
     stream=io.StringIO()
-    writer=csv.DictWriter(stream,fieldnames=list(table[0]));writer.writeheader();writer.writerows(table)
+    writer=csv.DictWriter(stream,fieldnames=list(table[0]),lineterminator='\n');writer.writeheader();writer.writerows(table)
     watch.write(output.with_suffix('.csv'),stream.getvalue())
     watch.write(output.with_suffix('.json'),dict(protocol_sha256=report['protocol_sha256'],
         reported_at=report['reported_at'],common_epoch=report['common_epoch'],
