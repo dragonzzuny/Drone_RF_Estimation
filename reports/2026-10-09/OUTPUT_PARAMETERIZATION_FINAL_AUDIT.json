@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "study_protocol_sha256": "391e06e2f5e5b7ddb28f9c79f21f47b1cc8d98adc285fbb75fe6316bd95eb7a4",
+  "complete_sha256": "5b64782d73aacd3e402860e643f68cdc430d3eedf8687897d997f0949bae9a0f",
+  "results": {
+    "mapping": {
+      "initial": [
+        {
+          "count": 2,
+          "mean_nmse": 0.927632591035982,
+          "mean_si_sdr": -0.012266944002356173
+        },
+        {
+          "count": 3,
+          "mean_nmse": 1.0072244779055528,
+          "mean_si_sdr": -4.3523855225358075
+        }
+      ],
+      "final": [
+        {
+          "count": 2,
+          "mean_nmse": 0.024547622836627946,
+          "mean_si_sdr": 19.170170148954046
+        },
+        {
+          "count": 3,
+          "mean_nmse": 0.1446874659134011,
+          "mean_si_sdr": 9.137508475288515
+        }
+      ],
+      "both_counts_improved": true,
+      "both_counts_nmse_le_point1": false
+    },
+    "masking": {
+      "initial": [
+        {
+          "count": 2,
+          "mean_nmse": 0.927632591035982,
+          "mean_si_sdr": -0.012266944002356173
+        },
+        {
+          "count": 3,
+          "mean_nmse": 1.0072244779055528,
+          "mean_si_sdr": -4.3523855225358075
+        }
+      ],
+      "final": [
+        {
+          "count": 2,
+          "mean_nmse": 0.025408190950439113,
+          "mean_si_sdr": 20.638354637241257
+        },
+        {
+          "count": 3,
+          "mean_nmse": 0.165848575892274,
+          "mean_si_sdr": 8.242360834773628
+        }
+      ],
+      "both_counts_improved": true,
+      "both_counts_nmse_le_point1": false
+    }
+  },
+  "limitation": "Recorded fit steps only; optimizer states/weights discarded by registered design",
+  "waveform_reads": 0,
+  "heldout_read": false
+}

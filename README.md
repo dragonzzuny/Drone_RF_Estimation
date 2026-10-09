@@ -2,7 +2,7 @@
 
 혼합 복소 I/Q에서 각 드론 기록의 기여 파형을 복원하고, 학습하지 않은 기록·기종·조합에 대한 일반화를 검증하는 연구입니다. 현재 범위는 1–3성분입니다.
 
-**2026-10-09 21:28 KST:** 새 초기화 기본 WaveNet·긴 수용범위 WaveNet·STFT U-Net의 각 5 epoch/375업데이트 비교와 최종 검산을 완료했습니다. 같은 개발검증 평균 NMSE 규칙으로 선택한 결과는 아래와 같습니다. 이번 예산에서는 U-Net의 네 평균 파형 지표가 가장 좋습니다. 모델별 파라미터와 계산량이 달라 계열 전체의 우열이나 충분한 수렴을 입증하는 비교는 아닙니다.
+**2026-10-09 21:39 KST:** 새 초기화 기본 WaveNet·긴 수용범위 WaveNet·STFT U-Net의 각 5 epoch/375업데이트 비교와 최종 검산을 완료했습니다. 같은 개발검증 평균 NMSE 규칙으로 선택한 결과는 아래와 같습니다. 이번 예산에서는 U-Net의 네 평균 파형 지표가 가장 좋습니다. 모델별 파라미터와 계산량이 달라 계열 전체의 우열이나 충분한 수렴을 입증하는 비교는 아닙니다.
 
 | 전체 5 epoch 후 선택 모델 | 선택 epoch | 2성분 NMSE ↓ | 3성분 NMSE ↓ | 2성분 SI-SDR ↑ dB | 3성분 SI-SDR ↑ dB |
 |---|---:|---:|---:|---:|---:|
@@ -23,9 +23,10 @@ RFUAV 한 데이터셋의 같은 원 RF 대역끼리 합성하고 수신 중심 
 
 이번 예산에서는 긴 문맥군의 NMSE가 두 조건 모두 더 높고, 3성분 SI-SDR도 낮았습니다. 두 군 모두 e4→e5에서 NMSE는 줄고 SI-SDR은 악화했습니다. 긴 문맥 후보를 채택하지 않으며, 현재 U-Net을 교체할 근거도 없습니다. 이 결과를 모든 긴 문맥 구조의 한계로 일반화하지 않습니다. [최종 검산](reports/2026-10-09/PHASE_CONTEXT_FINAL.md), [전체 곡선](reports/2026-10-09/PHASE_CONTEXT_EPOCHS.pdf).
 
-**현재 GPU는 원 규모 U-Net 출력 표현 진단을 수행 중**입니다. 같은 고정 TRAIN4에서 직접 복소 값 예측과 복소 마스크를 각256업데이트로 비교합니다. 이 적합도 진단 뒤에는 동일 U-Net e4 시작점의 기존/log1p 손실 비교가 이어집니다.
+U-Net 출력 표현 TRAIN4 진단도 두 군 각각256업데이트와 완료 검산을 마쳤습니다. 직접 출력의 NMSE2/3는 **0.024548/0.144687**, SI-SDR은 **19.170/9.138dB**였고, 복소 마스크는 **0.025408/0.165849**, **20.638/8.242dB**였습니다. 마스크가 두 지표·두 조건을 모두 개선하지 않아 현재 직접 출력 모델을 유지합니다. 이는 고정 학습4개의 적합도 진단이며 새 기록 성능이 아닙니다. 두 군 모두3성분 NMSE0.1 기준은 충족하지 않았습니다. [전체 단계](reports/2026-10-09/OUTPUT_PARAMETERIZATION_FIT.md), [검산](reports/2026-10-09/OUTPUT_PARAMETERIZATION_FINAL_AUDIT.json).
 
-CPU에서는 이미 학습한 TRAIN48 재평가와 학습 전체 전력 분포·출력층 기울기 진단을 완료했습니다. 한 극단 batch에서 U-Net의 개별 출력층 gradient norm 합 중 최대 사례 비율은 기존 손실 79.16%, 진단용 log1p 변경 29.13%였습니다. 실제 개선 여부를 검증하기 위해 같은 U-Net e4 시작점·같은 추가 예산의 손실 대조를 등록했습니다. **GPU 대기 중·새 업데이트 0회**이며, 앞서 예약한 출력 방식 TRAIN4 진단 뒤에 실행합니다. [관찰과 가설](reports/2026-10-09/CURRENT_RECONSTRUCTION_DIAGNOSIS_KO.md), [손실 대조 규약](reports/2026-10-09/ROBUST_NMSE_PLAN_KO.md).
+**현재 GPU는 같은 U-Net e4에서 시작하는 기존/log1p 손실 비교로 넘어왔습니다.** 기존 손실군의 초기 재평가는 부모의 NMSE2/3=0.522382/0.725482를 재현했습니다. 두 군 모두 새optimizer·같은 TRAIN 일정·각추가3epoch/225업데이트를 사용합니다. 완료된 추가epoch 결과는 아직 없습니다. 출력층 gradient 진단의 쏠림 감소가 실제 복원 향상으로 이어지는지, 기존 raw NMSE와 SI-SDR로 확인합니다. [관찰과 가설](reports/2026-10-09/CURRENT_RECONSTRUCTION_DIAGNOSIS_KO.md), [손실 대조 규약](reports/2026-10-09/ROBUST_NMSE_PLAN_KO.md).
+
 
 기존 전이 U-Net의 더 좋은 수치는 학습 이력이 달라 이번 새 초기화 비교와 분리합니다. [현행 계획](docs/PLAN_KO.md)에 실행 순서·약신호 실패·비교 한계를 정리했습니다. 실행 상태는 기록 시점입니다.
 
@@ -33,11 +34,11 @@ CPU에서는 이미 학습한 TRAIN48 재평가와 학습 전체 전력 분포·
 - [긴 복소 문맥의 같은 혼합·같은 epoch 대응 비교](reports/2026-10-09/PHASE_CONTEXT_PAIRED.md)
 - [완료된 세 구조의 기종·조합·성분별 전력 조건 전체 결과](reports/2026-10-09/ARCHITECTURE_SOURCE_STRATA.md)
 - [단독 정답의 고정 선형 기종 구분 기준: 개발검증 65.8%·Avata 실패 포함](reports/2026-10-09/IDENTIFICATION_REFERENCE_BASELINE.md)
-- [동일 시작 U-Net 손실 대조: 전체 입력 CPU 검사 통과·GPU 대기](reports/2026-10-09/ROBUST_NMSE_PLAN_KO.md)
+- [동일 시작 U-Net 손실 대조: GPU 실행 시작](reports/2026-10-09/ROBUST_NMSE_PLAN_KO.md)
 - [무작위 학습 묶음 4개의 기울기: 감소·증가 조건 모두 보고](reports/2026-10-09/UNET_RANDOM_BATCH_GRADIENTS.md)
 - [U-Net 출력층 기울기 진단](reports/2026-10-09/UNET_HEAD_GRADIENT_E004.md)
 - [학습에서 이미 본 TRAIN48의 문맥 모델 성능](reports/2026-10-09/PHASE_CONTEXT_TRAIN_E001.md)
-- [U-Net 출력 표현 비교: CPU 검사 통과·GPU TRAIN4 진단 진행](reports/2026-10-09/OUTPUT_PARAMETERIZATION_PLAN_KO.md)
+- [U-Net 출력 표현 비교 규약: TRAIN4 진단 완료](reports/2026-10-09/OUTPUT_PARAMETERIZATION_PLAN_KO.md)
 - [전력 가중 보정의 TRAIN 추론 실패 결과](reports/2026-10-09/PROJECTION_WEIGHT_TRAIN.md)
 - [학습 전체의 국소 전력차·손실 분모 검사](reports/2026-10-09/TRAIN_POWER_DISTRIBUTION.md)
 - [긴 복소문맥의 국소 전력차별 오차](reports/2026-10-09/PHASE_CONTEXT_POWER_GAPS.md)
