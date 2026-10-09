@@ -73,6 +73,8 @@ RF Challenge 공개 구현은 태그 `0.2.0`, commit `ab1d51b8846ea5e7969d466cd8
 
 이전 원시 I/Q 1D U-Net 짧은/긴 창 시험은 새 초기화·별도 학습량이었고, 현재 선택 STFT 모델은 사전 학습 이력이 길다. 그 비교만으로 1D U-Net/WaveNet이 부적합하다는 결론을 내릴 수 없다. 게이트 추가 시험에서는 분기 자체의 영향이 작았다는 진단도 있어, 최신 모듈 이름만 바꿔 반복하는 것은 우선하지 않는다.
 
+**실행 연결:** 세 원 규모 모델의 고정 TRAIN 적합도·유한 기울기 검사를 통과하면, WaveNet cycle10 / cycle15 / STFT U-Net을 각각 새 초기화에서 같은5epoch/375업데이트로 학습하는 [비교 실행기](../../experiments/architecture_audit_20261009/train_comparison.py)를 등록했다. 각epoch를 세 군에 번갈아 적용해 공통 예산 결과를 남긴다. native 원자료·합성 목록·검증630개·seed0·실효batch32·AdamW5e-4는 같고, 모델별 hyperparameter 탐색은 하지 않는다. 원 규모·전체 입력을 유지하며, 파라미터 수와 계산량은 다르다. 이는 예산을 제한한 탐색 비교이고 각 계열의 충분히 수렴한 최적 성능 대결은 아니다. 체크포인트는 각 군의2·3성분 평균 NMSE로 고르며 확인용 기종을 열지 않는다. `local/architecture_native_screen_20261009_v1/STATE.json`이 실제 대기/학습 상태다. 사전 진단이 실패하면 본학습을 시작하지 않고 원인을 검토한다.
+
 **현재 판단:** 현 모델은 복소 파형 분리 기준선으로 적합하다. 긴 시간 구조를 이용하는 최종 모델로서는 보완이 필요하다. WaveNet은 빠져 있던 직접 비교군이고, IQUMamba-1D는 확인할 가치가 큰 최신 후보다. 어느 쪽이 더 잘 복원하는지는 같은 자료에서의 파형 오차와 약신호 성능으로 결정한다.
 
 검토 절차에는 `scientific-critical-thinking`을 사용했다. 절차 출처: Kassis 외, *Scientific Agent Skills*, [arXiv:2609.00065](https://arxiv.org/abs/2609.00065). RF 성능의 근거 문헌으로 사용한 것은 아니다.
