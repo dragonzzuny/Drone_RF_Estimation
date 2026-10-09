@@ -1,0 +1,3479 @@
+{
+  "status": "COMPLETE",
+  "protocol_sha256": "af4e624fa9e97bd5a440840987002d45a4266c3775567b739f3065c7eaa4b0a1",
+  "checks": {
+    "status": "PASS",
+    "direct_complex_sum_lags": [
+      1,
+      7,
+      64
+    ],
+    "periodic_tone": true
+  },
+  "rows": [
+    {
+      "clip_id": "fbd8c2ef1a91ebfe11dea8e7",
+      "category": "DJI AVATA2",
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1.xml",
+      "fs_hz": 100000000,
+      "samples": 2088960,
+      "peaks": [
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 35,
+          "lag_microseconds": 0.35,
+          "magnitude": 0.07407502248791005,
+          "quarter_magnitudes": [
+            0.07973077352020487,
+            0.05569321765409624,
+            0.05746722068553021,
+            0.1005843803770672
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 60,
+          "lag_microseconds": 0.6,
+          "magnitude": 0.05434329601944661,
+          "quarter_magnitudes": [
+            0.056730398432010457,
+            0.045348325182700024,
+            0.04851973102091864,
+            0.06718361186949608
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 80,
+          "lag_microseconds": 0.7999999999999999,
+          "magnitude": 0.03767747944907352,
+          "quarter_magnitudes": [
+            0.04159390149387829,
+            0.03035200169811911,
+            0.031762119653320944,
+            0.04549367693069706
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3331,
+          "lag_microseconds": 33.309999999999995,
+          "magnitude": 0.02516192055152332,
+          "quarter_magnitudes": [
+            0.024199943240835582,
+            0.029583157248665757,
+            0.0367738852217558,
+            0.012609892605795784
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 2510,
+          "lag_microseconds": 25.1,
+          "magnitude": 0.015201413356110792,
+          "quarter_magnitudes": [
+            0.021334524281458354,
+            0.010036597086966305,
+            0.015912370492268502,
+            0.012892074381517554
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3300,
+          "lag_microseconds": 33.0,
+          "magnitude": 0.012224998808102235,
+          "quarter_magnitudes": [
+            0.013638781993674187,
+            0.006079941137801299,
+            0.012880701361652099,
+            0.016551957752212514
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 14269,
+          "lag_microseconds": 142.69,
+          "magnitude": 0.03673168067780277,
+          "quarter_magnitudes": [
+            0.035493299070037815,
+            0.042830537863836504,
+            0.039222716023980114,
+            0.032733841295815046
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 12605,
+          "lag_microseconds": 126.05,
+          "magnitude": 0.033189995479073815,
+          "quarter_magnitudes": [
+            0.0405950720603158,
+            0.027526115182447367,
+            0.033782253334255205,
+            0.03186608640397427
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 28541,
+          "lag_microseconds": 285.40999999999997,
+          "magnitude": 0.016802097181327517,
+          "quarter_magnitudes": [
+            0.017837891987612865,
+            0.019391401684565587,
+            0.022539181678489853,
+            0.011089986130480288
+          ]
+        }
+      ]
+    },
+    {
+      "clip_id": "b08546d5d1ad9d1084a92bb1",
+      "category": "DJI AVATA2",
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1.xml",
+      "fs_hz": 100000000,
+      "samples": 2088960,
+      "peaks": [
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 35,
+          "lag_microseconds": 0.35,
+          "magnitude": 0.042196102588772356,
+          "quarter_magnitudes": [
+            0.020623135950953757,
+            0.051437349307456456,
+            0.08980500256858055,
+            0.02299543235288619
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 60,
+          "lag_microseconds": 0.6,
+          "magnitude": 0.041080217697349916,
+          "quarter_magnitudes": [
+            0.022908867115392334,
+            0.04613891823744361,
+            0.05795663887785496,
+            0.03260884239161347
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 84,
+          "lag_microseconds": 0.84,
+          "magnitude": 0.027339440594605427,
+          "quarter_magnitudes": [
+            0.016382390362876597,
+            0.03460365222644894,
+            0.041783901093543366,
+            0.022824547628787585
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3332,
+          "lag_microseconds": 33.32,
+          "magnitude": 0.022672647045431017,
+          "quarter_magnitudes": [
+            0.022434847425239258,
+            0.04018407571139908,
+            0.02607510135059386,
+            0.04072398522205428
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 1884,
+          "lag_microseconds": 18.84,
+          "magnitude": 0.01103956470273712,
+          "quarter_magnitudes": [
+            0.00449588777858015,
+            0.013517860438837282,
+            0.014633599727686691,
+            0.013085553953415489
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3435,
+          "lag_microseconds": 34.35,
+          "magnitude": 0.0095494319048984,
+          "quarter_magnitudes": [
+            0.0035657519777278555,
+            0.009795643662393855,
+            0.01586121029155055,
+            0.012051158481050355
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 12605,
+          "lag_microseconds": 126.05,
+          "magnitude": 0.026536951409847558,
+          "quarter_magnitudes": [
+            0.022181425226768428,
+            0.027980643706039192,
+            0.03304735588801797,
+            0.022546040636454105
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 14269,
+          "lag_microseconds": 142.69,
+          "magnitude": 0.026453440738468934,
+          "quarter_magnitudes": [
+            0.029167094663420573,
+            0.042500810801511024,
+            0.02927753348133995,
+            0.030034581925420505
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 15936,
+          "lag_microseconds": 159.35999999999999,
+          "magnitude": 0.014532401572416281,
+          "quarter_magnitudes": [
+            0.021447637682409815,
+            0.024684495887508894,
+            0.017243690367824548,
+            0.020179160374973616
+          ]
+        }
+      ]
+    },
+    {
+      "clip_id": "1847e71309daf8e6f35310de",
+      "category": "DJI AVATA2",
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1.xml",
+      "fs_hz": 100000000,
+      "samples": 2088960,
+      "peaks": [
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 35,
+          "lag_microseconds": 0.35,
+          "magnitude": 0.06568637377096476,
+          "quarter_magnitudes": [
+            0.04211635891082789,
+            0.06858566936864852,
+            0.08217957120705538,
+            0.06411771012407955
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 60,
+          "lag_microseconds": 0.6,
+          "magnitude": 0.04957402237240634,
+          "quarter_magnitudes": [
+            0.04275625324477394,
+            0.053001043210885564,
+            0.056679523149150014,
+            0.04261011169288312
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 80,
+          "lag_microseconds": 0.7999999999999999,
+          "magnitude": 0.03519841514147638,
+          "quarter_magnitudes": [
+            0.027201263960624594,
+            0.03858318462158859,
+            0.04067620947128091,
+            0.03181585258550299
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3331,
+          "lag_microseconds": 33.309999999999995,
+          "magnitude": 0.02556926778640164,
+          "quarter_magnitudes": [
+            0.026074431757885864,
+            0.02710230752077171,
+            0.04174471666388845,
+            0.01742434431967257
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3300,
+          "lag_microseconds": 33.0,
+          "magnitude": 0.015327978508368936,
+          "quarter_magnitudes": [
+            0.010243428128900296,
+            0.016191925551100946,
+            0.014927642313744747,
+            0.021864505169539306
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 2290,
+          "lag_microseconds": 22.900000000000002,
+          "magnitude": 0.01426362239166582,
+          "quarter_magnitudes": [
+            0.006757438991173505,
+            0.014362147967249505,
+            0.020784784540435527,
+            0.018442791952487325
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 12605,
+          "lag_microseconds": 126.05,
+          "magnitude": 0.028633454767380245,
+          "quarter_magnitudes": [
+            0.03252877756283893,
+            0.0268470849325892,
+            0.02997491274350613,
+            0.026630111850945094
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 14275,
+          "lag_microseconds": 142.75,
+          "magnitude": 0.02795422486207661,
+          "quarter_magnitudes": [
+            0.028006834598757135,
+            0.025251078532062838,
+            0.03429764505669749,
+            0.021510116559327986
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 15936,
+          "lag_microseconds": 159.35999999999999,
+          "magnitude": 0.015543137438409085,
+          "quarter_magnitudes": [
+            0.01784019677533668,
+            0.028455221952163618,
+            0.02106969188151551,
+            0.010965446231018442
+          ]
+        }
+      ]
+    },
+    {
+      "clip_id": "1c1951f544be39c80818e2e2",
+      "category": "DJI AVATA2",
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+      "fs_hz": 100000000,
+      "samples": 2088960,
+      "peaks": [
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 35,
+          "lag_microseconds": 0.35,
+          "magnitude": 0.18059221729407568,
+          "quarter_magnitudes": [
+            0.015339545920192536,
+            0.20267045486834318,
+            0.18271339705088896,
+            0.012676928004744075
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 55,
+          "lag_microseconds": 0.55,
+          "magnitude": 0.10428675129593153,
+          "quarter_magnitudes": [
+            0.011381087367761035,
+            0.11756502437279973,
+            0.10534402584499698,
+            0.005358763031017421
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 80,
+          "lag_microseconds": 0.7999999999999999,
+          "magnitude": 0.08475066955572105,
+          "quarter_magnitudes": [
+            0.008082521588861994,
+            0.09481503745838284,
+            0.0852622838501855,
+            0.00918915960199444
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3333,
+          "lag_microseconds": 33.33,
+          "magnitude": 0.06052997017435925,
+          "quarter_magnitudes": [
+            0.06815736675544942,
+            0.07145971990326935,
+            0.06805718335384787,
+            0.05396785540276904
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 1988,
+          "lag_microseconds": 19.88,
+          "magnitude": 0.03640440306265935,
+          "quarter_magnitudes": [
+            0.0032099811655405624,
+            0.04145313971558335,
+            0.03787467791087111,
+            0.004129762600475182
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 2405,
+          "lag_microseconds": 24.049999999999997,
+          "magnitude": 0.03546937644611487,
+          "quarter_magnitudes": [
+            0.0026368423343515824,
+            0.04461103206823338,
+            0.022877359780922132,
+            0.0033726015768645776
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 14270,
+          "lag_microseconds": 142.7,
+          "magnitude": 0.09304032520629232,
+          "quarter_magnitudes": [
+            0.0647203206901637,
+            0.09598305775836634,
+            0.09810894741111033,
+            0.06618088031730589
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 15940,
+          "lag_microseconds": 159.4,
+          "magnitude": 0.04483743514720896,
+          "quarter_magnitudes": [
+            0.010276526831188737,
+            0.05201387443213666,
+            0.041855623430292935,
+            0.009508668726592333
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 4260,
+          "lag_microseconds": 42.6,
+          "magnitude": 0.04273688447935179,
+          "quarter_magnitudes": [
+            0.0011464975879246881,
+            0.0491075412112649,
+            0.03978864206523898,
+            0.00339269647541336
+          ]
+        }
+      ]
+    },
+    {
+      "clip_id": "c4ab9b89a6910ea2d529bc59",
+      "category": "DJI AVATA2",
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+      "fs_hz": 100000000,
+      "samples": 2088960,
+      "peaks": [
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 56,
+          "lag_microseconds": 0.56,
+          "magnitude": 0.13285279871548264,
+          "quarter_magnitudes": [
+            0.18515652576269176,
+            0.11402666258146607,
+            0.08480800157783533,
+            0.10432596063306807
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 36,
+          "lag_microseconds": 0.36,
+          "magnitude": 0.09970546834573925,
+          "quarter_magnitudes": [
+            0.06764717045686205,
+            0.16988441332218024,
+            0.1263080516024493,
+            0.17695283314408408
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 91,
+          "lag_microseconds": 0.9099999999999999,
+          "magnitude": 0.0651175802139339,
+          "quarter_magnitudes": [
+            0.10524521305708794,
+            0.01844819090835296,
+            0.02037796767860631,
+            0.031376828212695176
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3330,
+          "lag_microseconds": 33.300000000000004,
+          "magnitude": 0.046996078126509966,
+          "quarter_magnitudes": [
+            0.03338731406517379,
+            0.06386089676544185,
+            0.06341115113300871,
+            0.06173329322451839
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 1290,
+          "lag_microseconds": 12.9,
+          "magnitude": 0.03942823993721439,
+          "quarter_magnitudes": [
+            0.04477404926630193,
+            0.0391050453817566,
+            0.031478506810564376,
+            0.03155049222544792
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 1360,
+          "lag_microseconds": 13.6,
+          "magnitude": 0.03829201747409835,
+          "quarter_magnitudes": [
+            0.04527006039919403,
+            0.03170792762288078,
+            0.03228808585445483,
+            0.03268763055972407
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 14270,
+          "lag_microseconds": 142.7,
+          "magnitude": 0.09465565734983962,
+          "quarter_magnitudes": [
+            0.10482655989776965,
+            0.0954107814873601,
+            0.02530682148892316,
+            0.09990204372112273
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 5014,
+          "lag_microseconds": 50.14,
+          "magnitude": 0.0608915543814621,
+          "quarter_magnitudes": [
+            0.08190103776072917,
+            0.03590706240951884,
+            0.043351713388821995,
+            0.05602468049231113
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 28540,
+          "lag_microseconds": 285.4,
+          "magnitude": 0.052241479458768836,
+          "quarter_magnitudes": [
+            0.05861253634799736,
+            0.05690563828291999,
+            0.009637196040578496,
+            0.051175611688895374
+          ]
+        }
+      ]
+    },
+    {
+      "clip_id": "79ab6e3cb204b6561c7b47b3",
+      "category": "DJI AVATA2",
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+      "fs_hz": 100000000,
+      "samples": 2088960,
+      "peaks": [
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 35,
+          "lag_microseconds": 0.35,
+          "magnitude": 0.1995148828363662,
+          "quarter_magnitudes": [
+            0.17530920556005392,
+            0.2035355248050339,
+            0.2090386580115382,
+            0.19007646493711317
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 55,
+          "lag_microseconds": 0.55,
+          "magnitude": 0.11470261836600788,
+          "quarter_magnitudes": [
+            0.10501814004335498,
+            0.11345515441421374,
+            0.1264113039209366,
+            0.10003426589924262
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 80,
+          "lag_microseconds": 0.7999999999999999,
+          "magnitude": 0.09211186494544027,
+          "quarter_magnitudes": [
+            0.0815339164030055,
+            0.09498777567289976,
+            0.09503432897460533,
+            0.08821989795855889
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3330,
+          "lag_microseconds": 33.300000000000004,
+          "magnitude": 0.053999459434470806,
+          "quarter_magnitudes": [
+            0.04644768313984985,
+            0.05321812622625224,
+            0.051656414242631586,
+            0.07091556564879475
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3475,
+          "lag_microseconds": 34.75,
+          "magnitude": 0.036753514830857516,
+          "quarter_magnitudes": [
+            0.04605497407118465,
+            0.038150545404181016,
+            0.03622408469380799,
+            0.029218505465260367
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 2650,
+          "lag_microseconds": 26.5,
+          "magnitude": 0.03657819361003866,
+          "quarter_magnitudes": [
+            0.04386549130192308,
+            0.03867885929195709,
+            0.04066063885630275,
+            0.017276299632844404
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 14270,
+          "lag_microseconds": 142.7,
+          "magnitude": 0.08884023591569097,
+          "quarter_magnitudes": [
+            0.09708748055745628,
+            0.0762832628919214,
+            0.09761149183387027,
+            0.09648804223028058
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 15935,
+          "lag_microseconds": 159.35,
+          "magnitude": 0.0521077767896381,
+          "quarter_magnitudes": [
+            0.042236203877195067,
+            0.061243724713738235,
+            0.054501524571499774,
+            0.03859620620359203
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 12610,
+          "lag_microseconds": 126.10000000000001,
+          "magnitude": 0.05174956246763073,
+          "quarter_magnitudes": [
+            0.06092080926742205,
+            0.051062345675160284,
+            0.06090324066490818,
+            0.025780428665591444
+          ]
+        }
+      ]
+    },
+    {
+      "clip_id": "c6774cb630c5a3a55b538ac0",
+      "category": "DJI AVATA2",
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+      "fs_hz": 100000000,
+      "samples": 2088960,
+      "peaks": [
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 34,
+          "lag_microseconds": 0.33999999999999997,
+          "magnitude": 0.016846187458438182,
+          "quarter_magnitudes": [
+            0.020659312662679268,
+            0.014943840018582953,
+            0.016847355637179845,
+            0.019032121480421584
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 56,
+          "lag_microseconds": 0.56,
+          "magnitude": 0.012658122096666242,
+          "quarter_magnitudes": [
+            0.019151815148026063,
+            0.012199033309751878,
+            0.01004543638316305,
+            0.01207720059363398
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 128,
+          "lag_microseconds": 1.28,
+          "magnitude": 0.006253222063979617,
+          "quarter_magnitudes": [
+            0.008157659787218115,
+            0.011960122700398382,
+            0.002724614933160432,
+            0.003717719140841442
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3333,
+          "lag_microseconds": 33.33,
+          "magnitude": 0.03532723717596859,
+          "quarter_magnitudes": [
+            0.03515279018539423,
+            0.036203891932726114,
+            0.027974094852774647,
+            0.03921169630185073
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3688,
+          "lag_microseconds": 36.88,
+          "magnitude": 0.007200962715890726,
+          "quarter_magnitudes": [
+            0.008587062943075832,
+            0.007810711830374142,
+            0.007241548401224844,
+            0.00605080788351749
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3600,
+          "lag_microseconds": 36.0,
+          "magnitude": 0.006420920007787744,
+          "quarter_magnitudes": [
+            0.005635187150235748,
+            0.006976536546166103,
+            0.004417334340469891,
+            0.009188652619465661
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 14271,
+          "lag_microseconds": 142.71,
+          "magnitude": 0.04227869041030548,
+          "quarter_magnitudes": [
+            0.04874357581702468,
+            0.038179754777212936,
+            0.03134487610665291,
+            0.04123833246728428
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 15937,
+          "lag_microseconds": 159.36999999999998,
+          "magnitude": 0.022912024132064744,
+          "quarter_magnitudes": [
+            0.02472342563410842,
+            0.023718331248537377,
+            0.015390154462790415,
+            0.02406506198356139
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 12604,
+          "lag_microseconds": 126.04,
+          "magnitude": 0.021786533821042404,
+          "quarter_magnitudes": [
+            0.026191774717396348,
+            0.02364717704775146,
+            0.00979101613287601,
+            0.021292991708540935
+          ]
+        }
+      ]
+    },
+    {
+      "clip_id": "e01a3a46b8754daece09c342",
+      "category": "DJI AVATA2",
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+      "fs_hz": 100000000,
+      "samples": 2088960,
+      "peaks": [
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 34,
+          "lag_microseconds": 0.33999999999999997,
+          "magnitude": 0.05058819554270294,
+          "quarter_magnitudes": [
+            0.010265546235217552,
+            0.07523938231426207,
+            0.057203849367079104,
+            0.047666927236184375
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 60,
+          "lag_microseconds": 0.6,
+          "magnitude": 0.03671846293907523,
+          "quarter_magnitudes": [
+            0.007074500013559681,
+            0.05307486580175044,
+            0.029587502005421488,
+            0.051226860400056876
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 80,
+          "lag_microseconds": 0.7999999999999999,
+          "magnitude": 0.021000804972696213,
+          "quarter_magnitudes": [
+            0.004094177635841181,
+            0.03327266749548454,
+            0.031562449544252275,
+            0.01310334456759768
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3334,
+          "lag_microseconds": 33.34,
+          "magnitude": 0.025924872666060795,
+          "quarter_magnitudes": [
+            0.03093612480979806,
+            0.026291906857026776,
+            0.028623773498554522,
+            0.023781826613778385
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3231,
+          "lag_microseconds": 32.31,
+          "magnitude": 0.013148940834096132,
+          "quarter_magnitudes": [
+            0.003686403262935386,
+            0.017993908419261722,
+            0.01710104226221461,
+            0.011498037477919007
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3150,
+          "lag_microseconds": 31.5,
+          "magnitude": 0.011823308180634855,
+          "quarter_magnitudes": [
+            0.001540969159720666,
+            0.018127664682735106,
+            0.012492174234633027,
+            0.011952064840468929
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 14271,
+          "lag_microseconds": 142.71,
+          "magnitude": 0.04607026346094222,
+          "quarter_magnitudes": [
+            0.047356505434730106,
+            0.0517212514453485,
+            0.048741693498933085,
+            0.04155363680566557
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 12604,
+          "lag_microseconds": 126.04,
+          "magnitude": 0.020780956339961736,
+          "quarter_magnitudes": [
+            0.022585711432052128,
+            0.022631427145619033,
+            0.021481530876802945,
+            0.01933254653502762
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 28541,
+          "lag_microseconds": 285.40999999999997,
+          "magnitude": 0.019144351270549417,
+          "quarter_magnitudes": [
+            0.01792372065585388,
+            0.02531539856732013,
+            0.015953655251907478,
+            0.017810653282520607
+          ]
+        }
+      ]
+    },
+    {
+      "clip_id": "3bc885f6dee64a5891321208",
+      "category": "DJI AVATA2",
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+      "fs_hz": 100000000,
+      "samples": 2088960,
+      "peaks": [
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 34,
+          "lag_microseconds": 0.33999999999999997,
+          "magnitude": 0.01645007935247784,
+          "quarter_magnitudes": [
+            0.02466144656084546,
+            0.01632636476819889,
+            0.01743212902610151,
+            0.011087312673224587
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 55,
+          "lag_microseconds": 0.55,
+          "magnitude": 0.010355609184190536,
+          "quarter_magnitudes": [
+            0.015273709161978191,
+            0.008207211986441356,
+            0.011790777931475175,
+            0.006269854777514157
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 160,
+          "lag_microseconds": 1.5999999999999999,
+          "magnitude": 0.005440027395080394,
+          "quarter_magnitudes": [
+            0.00627879172031595,
+            0.004568704421500021,
+            0.004800264545906602,
+            0.007688253623649094
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3333,
+          "lag_microseconds": 33.33,
+          "magnitude": 0.03337001016230747,
+          "quarter_magnitudes": [
+            0.025359684653213536,
+            0.0376148945794964,
+            0.04079776520905224,
+            0.02653386330527661
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 2760,
+          "lag_microseconds": 27.6,
+          "magnitude": 0.007124179269830202,
+          "quarter_magnitudes": [
+            0.008818403264503874,
+            0.005864161216716536,
+            0.007971732038920711,
+            0.006821214022065338
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 800,
+          "lag_microseconds": 8.0,
+          "magnitude": 0.0066745859988451275,
+          "quarter_magnitudes": [
+            0.0076910573606002635,
+            0.006576316555740846,
+            0.005758972453266778,
+            0.008115510082564958
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 14271,
+          "lag_microseconds": 142.71,
+          "magnitude": 0.040401592604772135,
+          "quarter_magnitudes": [
+            0.02955309402996007,
+            0.045359412423413584,
+            0.05009037713305505,
+            0.03352262011397197
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 15937,
+          "lag_microseconds": 159.36999999999998,
+          "magnitude": 0.02221276085801969,
+          "quarter_magnitudes": [
+            0.017369536344386427,
+            0.024715717242006097,
+            0.027224780403563093,
+            0.02003050729072143
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 12604,
+          "lag_microseconds": 126.04,
+          "magnitude": 0.02058832137341064,
+          "quarter_magnitudes": [
+            0.01423500813544059,
+            0.022117815970696158,
+            0.02510900354724119,
+            0.01978200328680766
+          ]
+        }
+      ]
+    },
+    {
+      "clip_id": "dfe162f6d23b93f6765b135a",
+      "category": "DJI FPV COMBO",
+      "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+      "fs_hz": 100000000,
+      "samples": 2088960,
+      "peaks": [
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 39,
+          "lag_microseconds": 0.39,
+          "magnitude": 0.0685284858034554,
+          "quarter_magnitudes": [
+            0.07035875133972636,
+            0.06548359031903336,
+            0.06780328924927982,
+            0.06953810542673904
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 61,
+          "lag_microseconds": 0.61,
+          "magnitude": 0.05007781449749841,
+          "quarter_magnitudes": [
+            0.05010866159916815,
+            0.04955418532415853,
+            0.05061213610391786,
+            0.05002795925439012
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 83,
+          "lag_microseconds": 0.83,
+          "magnitude": 0.03346921486434137,
+          "quarter_magnitudes": [
+            0.030884443182414952,
+            0.03609979487304798,
+            0.03111998560525353,
+            0.0371939074100471
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 1094,
+          "lag_microseconds": 10.94,
+          "magnitude": 0.010745817143839818,
+          "quarter_magnitudes": [
+            0.012008873814834765,
+            0.012021633158806427,
+            0.011902890502705668,
+            0.007411306516823204
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 1110,
+          "lag_microseconds": 11.1,
+          "magnitude": 0.010450337521205779,
+          "quarter_magnitudes": [
+            0.01161570300615101,
+            0.011249270916194749,
+            0.012440991451772911,
+            0.0070857711073013625
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 2234,
+          "lag_microseconds": 22.34,
+          "magnitude": 0.00990868912146003,
+          "quarter_magnitudes": [
+            0.012584966547666773,
+            0.013670281138892612,
+            0.009110725978485687,
+            0.008638101834578455
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6667,
+          "lag_microseconds": 66.67,
+          "magnitude": 0.0659675194067654,
+          "quarter_magnitudes": [
+            0.06927442077225493,
+            0.06680962978644552,
+            0.05657119430735701,
+            0.07293217446974073
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6683,
+          "lag_microseconds": 66.83,
+          "magnitude": 0.01749825702249358,
+          "quarter_magnitudes": [
+            0.01927638772552012,
+            0.019068612656880493,
+            0.014341750791926977,
+            0.01910292290587892
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6651,
+          "lag_microseconds": 66.51,
+          "magnitude": 0.016633904975033163,
+          "quarter_magnitudes": [
+            0.020031829890188316,
+            0.012364400661330668,
+            0.01579729084228466,
+            0.018718889739207056
+          ]
+        }
+      ]
+    },
+    {
+      "clip_id": "ac1cdb0ddcdc6ea2a0d39c26",
+      "category": "DJI FPV COMBO",
+      "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+      "fs_hz": 100000000,
+      "samples": 2088960,
+      "peaks": [
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 39,
+          "lag_microseconds": 0.39,
+          "magnitude": 0.08308150194624045,
+          "quarter_magnitudes": [
+            0.08274988156928886,
+            0.08105548626492783,
+            0.08309212948063505,
+            0.08528573834656342
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 61,
+          "lag_microseconds": 0.61,
+          "magnitude": 0.0549887063764214,
+          "quarter_magnitudes": [
+            0.05631621437873441,
+            0.056259668084957394,
+            0.05171257690946876,
+            0.05552284438237245
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 83,
+          "lag_microseconds": 0.83,
+          "magnitude": 0.03870703844097553,
+          "quarter_magnitudes": [
+            0.039720453383921536,
+            0.04065623435053282,
+            0.033538060978230005,
+            0.040399882021510895
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3316,
+          "lag_microseconds": 33.160000000000004,
+          "magnitude": 0.011069036598768792,
+          "quarter_magnitudes": [
+            0.01717927353211608,
+            0.005774855052844555,
+            0.014469160422121341,
+            0.010374208840527744
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 2233,
+          "lag_microseconds": 22.330000000000002,
+          "magnitude": 0.00993482727410018,
+          "quarter_magnitudes": [
+            0.01581962631048496,
+            0.00799999442887095,
+            0.010718014799747913,
+            0.009277857463290561
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3350,
+          "lag_microseconds": 33.5,
+          "magnitude": 0.009791196316006095,
+          "quarter_magnitudes": [
+            0.009968005630403804,
+            0.013643583071109832,
+            0.009075840392427212,
+            0.007267445092972045
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6667,
+          "lag_microseconds": 66.67,
+          "magnitude": 0.061858682546398966,
+          "quarter_magnitudes": [
+            0.06448059989311446,
+            0.06426503163287672,
+            0.061150417391229686,
+            0.05783178642017645
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6683,
+          "lag_microseconds": 66.83,
+          "magnitude": 0.020239581440801395,
+          "quarter_magnitudes": [
+            0.02096828345396663,
+            0.021785090885568632,
+            0.021370632403180833,
+            0.01770197555261648
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6651,
+          "lag_microseconds": 66.51,
+          "magnitude": 0.015406182881539231,
+          "quarter_magnitudes": [
+            0.016100900823637916,
+            0.017460757029240218,
+            0.01920423579646736,
+            0.012757187453551382
+          ]
+        }
+      ]
+    },
+    {
+      "clip_id": "49c92e874300924ca8b1f83f",
+      "category": "DJI FPV COMBO",
+      "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+      "fs_hz": 100000000,
+      "samples": 2088960,
+      "peaks": [
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 39,
+          "lag_microseconds": 0.39,
+          "magnitude": 0.06463837372152767,
+          "quarter_magnitudes": [
+            0.06357096264664092,
+            0.06251518556847294,
+            0.06576403904290529,
+            0.06842532557938685
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 61,
+          "lag_microseconds": 0.61,
+          "magnitude": 0.0561138242353298,
+          "quarter_magnitudes": [
+            0.057900012256197286,
+            0.05628088234708335,
+            0.05583588538689914,
+            0.05520053156114575
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 83,
+          "lag_microseconds": 0.83,
+          "magnitude": 0.03793297541880304,
+          "quarter_magnitudes": [
+            0.035095793669708726,
+            0.036084909409282794,
+            0.038664748823741005,
+            0.043601045882214924
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3334,
+          "lag_microseconds": 33.34,
+          "magnitude": 0.0397524982620378,
+          "quarter_magnitudes": [
+            0.034248183204823875,
+            0.04091119046244677,
+            0.039698960125412186,
+            0.04910091316303362
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 2236,
+          "lag_microseconds": 22.36,
+          "magnitude": 0.016922756696279934,
+          "quarter_magnitudes": [
+            0.01797228150152816,
+            0.01835254366549246,
+            0.013670767268534376,
+            0.02169002390437499
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3290,
+          "lag_microseconds": 32.9,
+          "magnitude": 0.011773908277279733,
+          "quarter_magnitudes": [
+            0.01166741169316606,
+            0.009530646522394005,
+            0.011302358259858274,
+            0.017648020678063276
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6667,
+          "lag_microseconds": 66.67,
+          "magnitude": 0.06347605146826184,
+          "quarter_magnitudes": [
+            0.08309164103209586,
+            0.05574723343289844,
+            0.05512926239775485,
+            0.06270778921049196
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 5571,
+          "lag_microseconds": 55.71,
+          "magnitude": 0.01732273174038365,
+          "quarter_magnitudes": [
+            0.015113510391656324,
+            0.019046170181643084,
+            0.015572756186809974,
+            0.023286592245846966
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6683,
+          "lag_microseconds": 66.83,
+          "magnitude": 0.015285425335649527,
+          "quarter_magnitudes": [
+            0.022413488469414683,
+            0.007687088648413562,
+            0.014177612751266104,
+            0.02264273507367422
+          ]
+        }
+      ]
+    },
+    {
+      "clip_id": "abe951a832ea1a575245e1fb",
+      "category": "DJI FPV COMBO",
+      "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+      "fs_hz": 100000000,
+      "samples": 2088960,
+      "peaks": [
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 40,
+          "lag_microseconds": 0.39999999999999997,
+          "magnitude": 0.05939309301468976,
+          "quarter_magnitudes": [
+            0.05365874023917567,
+            0.055017586063521716,
+            0.05584181979280586,
+            0.09633672481253433
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 59,
+          "lag_microseconds": 0.59,
+          "magnitude": 0.027078264631964888,
+          "quarter_magnitudes": [
+            0.027140542318373997,
+            0.0301116783340724,
+            0.030062007992827777,
+            0.09019279562859808
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 83,
+          "lag_microseconds": 0.83,
+          "magnitude": 0.023957760551845057,
+          "quarter_magnitudes": [
+            0.0218763124934147,
+            0.024710503388833304,
+            0.025594700206168792,
+            0.02441369399191078
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3333,
+          "lag_microseconds": 33.33,
+          "magnitude": 0.07661900975741305,
+          "quarter_magnitudes": [
+            0.08147801718580454,
+            0.07753163323861575,
+            0.07999512741373294,
+            0.06384817057289877
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 2702,
+          "lag_microseconds": 27.02,
+          "magnitude": 0.018696327445239337,
+          "quarter_magnitudes": [
+            0.015500755632942717,
+            0.022134513247930802,
+            0.020035617942660386,
+            0.019059025769811888
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 1265,
+          "lag_microseconds": 12.649999999999999,
+          "magnitude": 0.011096069493633783,
+          "quarter_magnitudes": [
+            0.013371772207238881,
+            0.011816740525218404,
+            0.010337550334556739,
+            0.009495680161467634
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6666,
+          "lag_microseconds": 66.66,
+          "magnitude": 0.0641517046195909,
+          "quarter_magnitudes": [
+            0.06864569441901724,
+            0.0718193409988787,
+            0.061989733525155334,
+            0.0529761713398101
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6035,
+          "lag_microseconds": 60.35,
+          "magnitude": 0.020523068313001207,
+          "quarter_magnitudes": [
+            0.021193109158994188,
+            0.01892477258553362,
+            0.019448214909008478,
+            0.025534623412205252
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 4597,
+          "lag_microseconds": 45.97,
+          "magnitude": 0.01077124379074749,
+          "quarter_magnitudes": [
+            0.01153275606079752,
+            0.014385442200504287,
+            0.007542430993882805,
+            0.012733943172283962
+          ]
+        }
+      ]
+    },
+    {
+      "clip_id": "2fd59bc4c8e188f2c6e2f748",
+      "category": "DJI FPV COMBO",
+      "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+      "fs_hz": 100000000,
+      "samples": 2088960,
+      "peaks": [
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 40,
+          "lag_microseconds": 0.39999999999999997,
+          "magnitude": 0.09973943180509201,
+          "quarter_magnitudes": [
+            0.09536145352184269,
+            0.1046164729711246,
+            0.10046116357825298,
+            0.10189295039157328
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 66,
+          "lag_microseconds": 0.66,
+          "magnitude": 0.04010681818560197,
+          "quarter_magnitudes": [
+            0.038511581714622135,
+            0.04597577112759394,
+            0.039309922015884353,
+            0.03979572048090432
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 83,
+          "lag_microseconds": 0.83,
+          "magnitude": 0.027830953945790753,
+          "quarter_magnitudes": [
+            0.024705475462727243,
+            0.030457717874790943,
+            0.02836849594439705,
+            0.03004786681172049
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3334,
+          "lag_microseconds": 33.34,
+          "magnitude": 0.050399356991676594,
+          "quarter_magnitudes": [
+            0.052469418445023945,
+            0.05743661927886663,
+            0.043922938842614195,
+            0.046931157786249296
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 2701,
+          "lag_microseconds": 27.01,
+          "magnitude": 0.011524409388173175,
+          "quarter_magnitudes": [
+            0.01047933654292882,
+            0.012180294532099296,
+            0.010676520943307882,
+            0.014933605507289333
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3308,
+          "lag_microseconds": 33.08,
+          "magnitude": 0.010667710499534105,
+          "quarter_magnitudes": [
+            0.012271270383567578,
+            0.009388954367238913,
+            0.010147435975600434,
+            0.010996375659487898
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6667,
+          "lag_microseconds": 66.67,
+          "magnitude": 0.06469160072855587,
+          "quarter_magnitudes": [
+            0.06713886657561716,
+            0.06387039648116155,
+            0.06217506227366612,
+            0.06579712469909604
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6035,
+          "lag_microseconds": 60.35,
+          "magnitude": 0.014441429840889555,
+          "quarter_magnitudes": [
+            0.01764921962489046,
+            0.013422593138925073,
+            0.012097607238096629,
+            0.014659466937282747
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6646,
+          "lag_microseconds": 66.46,
+          "magnitude": 0.010588019945210919,
+          "quarter_magnitudes": [
+            0.00981735092013569,
+            0.009603731897371265,
+            0.012567853785217855,
+            0.013007253899313143
+          ]
+        }
+      ]
+    },
+    {
+      "clip_id": "17d8cb9862df7e61d7a22d94",
+      "category": "DJI FPV COMBO",
+      "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+      "fs_hz": 100000000,
+      "samples": 2088960,
+      "peaks": [
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 37,
+          "lag_microseconds": 0.37,
+          "magnitude": 0.09220007212893645,
+          "quarter_magnitudes": [
+            0.08275334011919386,
+            0.08439427520278302,
+            0.09524401752414761,
+            0.13724979922114602
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 58,
+          "lag_microseconds": 0.58,
+          "magnitude": 0.06777359081881988,
+          "quarter_magnitudes": [
+            0.0723572009748707,
+            0.07662721244077846,
+            0.043484796459014784,
+            0.11258430877187953
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 137,
+          "lag_microseconds": 1.37,
+          "magnitude": 0.031050861692580287,
+          "quarter_magnitudes": [
+            0.022059574389951396,
+            0.024920189923899473,
+            0.029201409709777946,
+            0.05393461915171562
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3334,
+          "lag_microseconds": 33.34,
+          "magnitude": 0.070464796410678,
+          "quarter_magnitudes": [
+            0.07596307681102875,
+            0.06742960909264886,
+            0.08671203849958328,
+            0.04694746360682284
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 2700,
+          "lag_microseconds": 27.0,
+          "magnitude": 0.01775182382540835,
+          "quarter_magnitudes": [
+            0.018292769439336887,
+            0.017351788500946812,
+            0.020326046488516793,
+            0.015862416641227797
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3294,
+          "lag_microseconds": 32.94,
+          "magnitude": 0.012658129371442254,
+          "quarter_magnitudes": [
+            0.006967053621078488,
+            0.00933148969345321,
+            0.016162377469538206,
+            0.021943996033526352
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6667,
+          "lag_microseconds": 66.67,
+          "magnitude": 0.06515612420860216,
+          "quarter_magnitudes": [
+            0.06375089964389419,
+            0.06988471831033746,
+            0.06429026318928367,
+            0.062396921645592525
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6034,
+          "lag_microseconds": 60.34,
+          "magnitude": 0.020050756774718383,
+          "quarter_magnitudes": [
+            0.02044231696824171,
+            0.019852228278764667,
+            0.019314642526149322,
+            0.021718599104366503
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6688,
+          "lag_microseconds": 66.88,
+          "magnitude": 0.013324592238976514,
+          "quarter_magnitudes": [
+            0.013640209630054306,
+            0.01733818592954718,
+            0.011682782873965233,
+            0.011911677527047873
+          ]
+        }
+      ]
+    },
+    {
+      "clip_id": "04c016c84b7707d051ed66d5",
+      "category": "DJI MAVIC3 PRO",
+      "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+      "fs_hz": 100000000,
+      "samples": 2088960,
+      "peaks": [
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 33,
+          "lag_microseconds": 0.33,
+          "magnitude": 0.18232785926074074,
+          "quarter_magnitudes": [
+            0.10029656148547603,
+            0.2506859540327639,
+            0.20961478898003982,
+            0.17194449487140884
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 67,
+          "lag_microseconds": 0.67,
+          "magnitude": 0.12302134560297479,
+          "quarter_magnitudes": [
+            0.04291866653854883,
+            0.14630368284992312,
+            0.14461249948551522,
+            0.10023462011605205
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 110,
+          "lag_microseconds": 1.1,
+          "magnitude": 0.06745534704934832,
+          "quarter_magnitudes": [
+            0.023374200342559374,
+            0.08540529270583291,
+            0.07018439365605264,
+            0.05661246376686058
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 4009,
+          "lag_microseconds": 40.089999999999996,
+          "magnitude": 0.028279724039568424,
+          "quarter_magnitudes": [
+            0.0015737381934368697,
+            0.03287586772796269,
+            0.03894140326821168,
+            0.027593311351767704
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3867,
+          "lag_microseconds": 38.67,
+          "magnitude": 0.026818169629157604,
+          "quarter_magnitudes": [
+            0.0011301007537515666,
+            0.04068393065172257,
+            0.02903251499026844,
+            0.014082979411555993
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 1943,
+          "lag_microseconds": 19.43,
+          "magnitude": 0.02638311110590129,
+          "quarter_magnitudes": [
+            0.003931174808681268,
+            0.03163142588876244,
+            0.02798288955942125,
+            0.023620080710996524
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6663,
+          "lag_microseconds": 66.63000000000001,
+          "magnitude": 0.05885895217634882,
+          "quarter_magnitudes": [
+            0.06023606139080511,
+            0.07738797653848825,
+            0.0607174519930741,
+            0.06577732397004164
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6680,
+          "lag_microseconds": 66.8,
+          "magnitude": 0.0357954693996481,
+          "quarter_magnitudes": [
+            0.005700581690945511,
+            0.05603714291950215,
+            0.056268195356824494,
+            0.03089173225321676
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6647,
+          "lag_microseconds": 66.47,
+          "magnitude": 0.03354395099202505,
+          "quarter_magnitudes": [
+            0.013999497956479767,
+            0.049565405228357756,
+            0.04651139897083101,
+            0.027582536226597145
+          ]
+        }
+      ]
+    },
+    {
+      "clip_id": "67611e1170d4ee30828d799c",
+      "category": "DJI MAVIC3 PRO",
+      "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+      "fs_hz": 100000000,
+      "samples": 2088960,
+      "peaks": [
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 33,
+          "lag_microseconds": 0.33,
+          "magnitude": 0.2752993377622373,
+          "quarter_magnitudes": [
+            0.331211330992988,
+            0.32661367833873695,
+            0.12999508989129893,
+            0.13050854408209864
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 67,
+          "lag_microseconds": 0.67,
+          "magnitude": 0.15367140805753007,
+          "quarter_magnitudes": [
+            0.16130422889280283,
+            0.18237406142700233,
+            0.05201911212577823,
+            0.0462897512250848
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 110,
+          "lag_microseconds": 1.1,
+          "magnitude": 0.09385049220360832,
+          "quarter_magnitudes": [
+            0.10194307780330533,
+            0.0999893429715933,
+            0.024044342883716263,
+            0.028017754370239466
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3886,
+          "lag_microseconds": 38.86,
+          "magnitude": 0.04019309324976141,
+          "quarter_magnitudes": [
+            0.048751959291193275,
+            0.03822076327114436,
+            0.005046211992950578,
+            0.01087472431495385
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3733,
+          "lag_microseconds": 37.33,
+          "magnitude": 0.03907003170459006,
+          "quarter_magnitudes": [
+            0.04304095685781296,
+            0.04147553743494051,
+            0.009040578957155482,
+            0.0087690858528808
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 1960,
+          "lag_microseconds": 19.599999999999998,
+          "magnitude": 0.038632089039399506,
+          "quarter_magnitudes": [
+            0.03887028035806597,
+            0.04770366821164821,
+            0.0014945741800522832,
+            0.00684935422065351
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6663,
+          "lag_microseconds": 66.63000000000001,
+          "magnitude": 0.06114949496058892,
+          "quarter_magnitudes": [
+            0.06361668076517892,
+            0.06464386927414073,
+            0.052789871895668514,
+            0.06401390569241877
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 5690,
+          "lag_microseconds": 56.9,
+          "magnitude": 0.047510398586019305,
+          "quarter_magnitudes": [
+            0.054425792044661137,
+            0.049039531203764225,
+            0.0015997221727141603,
+            0.004247655079400242
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 7777,
+          "lag_microseconds": 77.77,
+          "magnitude": 0.04742161747578883,
+          "quarter_magnitudes": [
+            0.07179966150189845,
+            0.022821473446550614,
+            0.005307247674070317,
+            0.012145293884274181
+          ]
+        }
+      ]
+    },
+    {
+      "clip_id": "14e279ca69bda2b1696cccda",
+      "category": "DJI MAVIC3 PRO",
+      "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+      "fs_hz": 100000000,
+      "samples": 2088960,
+      "peaks": [
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 36,
+          "lag_microseconds": 0.36,
+          "magnitude": 0.2554066480770108,
+          "quarter_magnitudes": [
+            0.27869603686469296,
+            0.2611357552495104,
+            0.22449643013383958,
+            0.04695126110693578
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 67,
+          "lag_microseconds": 0.67,
+          "magnitude": 0.17074890500900214,
+          "quarter_magnitudes": [
+            0.17568515898945347,
+            0.18644243090755008,
+            0.13657304745289298,
+            0.04491608366676802
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 112,
+          "lag_microseconds": 1.12,
+          "magnitude": 0.09503057480343097,
+          "quarter_magnitudes": [
+            0.0900170739949703,
+            0.11124400144674747,
+            0.07391932512689468,
+            0.01193276163294995
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 1967,
+          "lag_microseconds": 19.669999999999998,
+          "magnitude": 0.037870783352839894,
+          "quarter_magnitudes": [
+            0.06210888035554352,
+            0.01881338536891813,
+            0.028272359828825682,
+            0.00926476671491766
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 2920,
+          "lag_microseconds": 29.200000000000003,
+          "magnitude": 0.03638985413734364,
+          "quarter_magnitudes": [
+            0.04072858571925966,
+            0.050572990228378564,
+            0.02231009702470336,
+            0.0036336436222645712
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 619,
+          "lag_microseconds": 6.19,
+          "magnitude": 0.03605224331218942,
+          "quarter_magnitudes": [
+            0.046294603548858844,
+            0.031111159067129204,
+            0.021887657639086632,
+            0.0051139160602971705
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6662,
+          "lag_microseconds": 66.61999999999999,
+          "magnitude": 0.0662807205939314,
+          "quarter_magnitudes": [
+            0.06984458243152718,
+            0.06030523665943909,
+            0.10336206868961226,
+            0.048737899928335174
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 7781,
+          "lag_microseconds": 77.81,
+          "magnitude": 0.04892893754521976,
+          "quarter_magnitudes": [
+            0.06036284506334228,
+            0.05481560082494645,
+            0.03260501810764923,
+            0.009046879589660667
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6645,
+          "lag_microseconds": 66.45,
+          "magnitude": 0.04886896917116,
+          "quarter_magnitudes": [
+            0.06410111600816565,
+            0.0390047833928642,
+            0.06333702087386808,
+            0.003521534223217834
+          ]
+        }
+      ]
+    },
+    {
+      "clip_id": "df305b628cacabac967bf437",
+      "category": "DJI MINI3",
+      "pack_id": "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml",
+      "fs_hz": 100000000,
+      "samples": 2088960,
+      "peaks": [
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 38,
+          "lag_microseconds": 0.38,
+          "magnitude": 0.08260266534875788,
+          "quarter_magnitudes": [
+            0.08183306429925884,
+            0.08858665605583968,
+            0.08286024088556827,
+            0.0773005669879129
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 61,
+          "lag_microseconds": 0.61,
+          "magnitude": 0.04868046499150762,
+          "quarter_magnitudes": [
+            0.044106568784383154,
+            0.05769528898272243,
+            0.047363852047055344,
+            0.04904121207542034
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 94,
+          "lag_microseconds": 0.94,
+          "magnitude": 0.037914261101448854,
+          "quarter_magnitudes": [
+            0.04234009060831171,
+            0.037098219463144885,
+            0.03389122521577275,
+            0.036824711662664225
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 2251,
+          "lag_microseconds": 22.509999999999998,
+          "magnitude": 0.03755685640525581,
+          "quarter_magnitudes": [
+            0.03977283283433602,
+            0.029868350149986636,
+            0.05015565445043525,
+            0.029916871502783365
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 2163,
+          "lag_microseconds": 21.630000000000003,
+          "magnitude": 0.02424074458790714,
+          "quarter_magnitudes": [
+            0.030518768161746767,
+            0.02119141230587316,
+            0.025758154948243094,
+            0.01829630455545552
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 2076,
+          "lag_microseconds": 20.76,
+          "magnitude": 0.012590102988834471,
+          "quarter_magnitudes": [
+            0.013095480322561243,
+            0.01651431578917317,
+            0.011095352607910438,
+            0.010793597725385132
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6667,
+          "lag_microseconds": 66.67,
+          "magnitude": 0.06140078866707766,
+          "quarter_magnitudes": [
+            0.07191928977096626,
+            0.06193880417113436,
+            0.05680500493099756,
+            0.05262848131996052
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 4415,
+          "lag_microseconds": 44.150000000000006,
+          "magnitude": 0.050300393047219505,
+          "quarter_magnitudes": [
+            0.06320945620417427,
+            0.043762018318645256,
+            0.048518892279764955,
+            0.042362507734126774
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 4502,
+          "lag_microseconds": 45.019999999999996,
+          "magnitude": 0.016717143457823394,
+          "quarter_magnitudes": [
+            0.021300420522719524,
+            0.0259304385138052,
+            0.015167449128962606,
+            0.009610885106454085
+          ]
+        }
+      ]
+    },
+    {
+      "clip_id": "75c69b6b945b0b758029491b",
+      "category": "DJI MINI3",
+      "pack_id": "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml",
+      "fs_hz": 100000000,
+      "samples": 2088960,
+      "peaks": [
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 39,
+          "lag_microseconds": 0.39,
+          "magnitude": 0.08930593654701116,
+          "quarter_magnitudes": [
+            0.0939816950937521,
+            0.09201067269044134,
+            0.08687066425858338,
+            0.08618556364519772
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 61,
+          "lag_microseconds": 0.61,
+          "magnitude": 0.05865971185686639,
+          "quarter_magnitudes": [
+            0.06424389187760754,
+            0.05996224821742575,
+            0.06007384777248725,
+            0.055598599883250034
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 94,
+          "lag_microseconds": 0.94,
+          "magnitude": 0.039118032738101334,
+          "quarter_magnitudes": [
+            0.036854008531021484,
+            0.042787113261670354,
+            0.04550436793912721,
+            0.036362059973831795
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 2251,
+          "lag_microseconds": 22.509999999999998,
+          "magnitude": 0.03482556374218852,
+          "quarter_magnitudes": [
+            0.030672817411888657,
+            0.026473355291075182,
+            0.06358561663632376,
+            0.036383425611914016
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 2164,
+          "lag_microseconds": 21.64,
+          "magnitude": 0.024948265713239753,
+          "quarter_magnitudes": [
+            0.039316433580878364,
+            0.020129739957145534,
+            0.04064733556223764,
+            0.01698456413018759
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 2235,
+          "lag_microseconds": 22.35,
+          "magnitude": 0.014231001096565936,
+          "quarter_magnitudes": [
+            0.01920013018535298,
+            0.011669377001175726,
+            0.019542447918938968,
+            0.01528746724571677
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6666,
+          "lag_microseconds": 66.66,
+          "magnitude": 0.06312288015929218,
+          "quarter_magnitudes": [
+            0.06910899432952392,
+            0.055038957833113314,
+            0.06738689608747936,
+            0.06663502350393076
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 4415,
+          "lag_microseconds": 44.150000000000006,
+          "magnitude": 0.04418219264772826,
+          "quarter_magnitudes": [
+            0.02969082649333839,
+            0.045894202505652446,
+            0.07922116514981363,
+            0.04200702575269219
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 9673,
+          "lag_microseconds": 96.73,
+          "magnitude": 0.013213776590211942,
+          "quarter_magnitudes": [
+            0.01715328539580531,
+            0.007466515240003276,
+            0.0016888535204120547,
+            0.021363698200064302
+          ]
+        }
+      ]
+    },
+    {
+      "clip_id": "f4742a332fda7d37f8ea555e",
+      "category": "DJI MINI3",
+      "pack_id": "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml",
+      "fs_hz": 100000000,
+      "samples": 2088960,
+      "peaks": [
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 39,
+          "lag_microseconds": 0.39,
+          "magnitude": 0.08997434024102696,
+          "quarter_magnitudes": [
+            0.0936718985206718,
+            0.049285192468000595,
+            0.0844950818169629,
+            0.11795458247774673
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 60,
+          "lag_microseconds": 0.6,
+          "magnitude": 0.05840368733606403,
+          "quarter_magnitudes": [
+            0.056326026063269606,
+            0.06208865566510796,
+            0.05601197456690853,
+            0.07405773660400472
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 83,
+          "lag_microseconds": 0.83,
+          "magnitude": 0.03734740884692048,
+          "quarter_magnitudes": [
+            0.03649691831193477,
+            0.0323959828330872,
+            0.0421763193709796,
+            0.030178347827989373
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 2250,
+          "lag_microseconds": 22.5,
+          "magnitude": 0.0342451619858367,
+          "quarter_magnitudes": [
+            0.02986524943312535,
+            0.08779286613367818,
+            0.03186033971276117,
+            0.032495508686031786
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 2164,
+          "lag_microseconds": 21.64,
+          "magnitude": 0.023836642500937526,
+          "quarter_magnitudes": [
+            0.020622193320188154,
+            0.07512279403697351,
+            0.018572563675399004,
+            0.030228228500208423
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 2213,
+          "lag_microseconds": 22.13,
+          "magnitude": 0.011623727750038068,
+          "quarter_magnitudes": [
+            0.009550879869438532,
+            0.017366002093425262,
+            0.016201598740074343,
+            0.0038401158899372357
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 6667,
+          "lag_microseconds": 66.67,
+          "magnitude": 0.06044222040641414,
+          "quarter_magnitudes": [
+            0.05346197591302859,
+            0.0401676056156294,
+            0.06560243674492874,
+            0.08192219607095574
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 4414,
+          "lag_microseconds": 44.14,
+          "magnitude": 0.04742430822079569,
+          "quarter_magnitudes": [
+            0.04347435983804529,
+            0.14198641024135777,
+            0.04302053817214086,
+            0.04681333627829077
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 17108,
+          "lag_microseconds": 171.07999999999998,
+          "magnitude": 0.017021701245568878,
+          "quarter_magnitudes": [
+            0.015156130511444123,
+            0.00813438031595705,
+            0.024042671203503056,
+            0.0017797606382895935
+          ]
+        }
+      ]
+    },
+    {
+      "clip_id": "85a201573da850d5be02fb3a",
+      "category": "DJI MINI4 PRO",
+      "pack_id": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml",
+      "fs_hz": 100000000,
+      "samples": 2088960,
+      "peaks": [
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 39,
+          "lag_microseconds": 0.39,
+          "magnitude": 0.13810657604315615,
+          "quarter_magnitudes": [
+            0.08531806105922747,
+            0.2752405668506514,
+            0.07826763072440913,
+            0.09624666361702174
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 63,
+          "lag_microseconds": 0.63,
+          "magnitude": 0.1007487663719669,
+          "quarter_magnitudes": [
+            0.05215803794572772,
+            0.21165637013193944,
+            0.04732524385473687,
+            0.07738771049531121
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 83,
+          "lag_microseconds": 0.83,
+          "magnitude": 0.07616808531378881,
+          "quarter_magnitudes": [
+            0.04052301776989914,
+            0.15125686763866877,
+            0.03329521053471095,
+            0.0744696671058228
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 2687,
+          "lag_microseconds": 26.869999999999997,
+          "magnitude": 0.06204828881587658,
+          "quarter_magnitudes": [
+            0.09352650738713125,
+            0.029940557037194667,
+            0.052959141736582456,
+            0.08305369795472943
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3332,
+          "lag_microseconds": 33.32,
+          "magnitude": 0.056922922332228565,
+          "quarter_magnitudes": [
+            0.06693148080127358,
+            0.03670037551510807,
+            0.06692000089226649,
+            0.06043010877112574
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 1299,
+          "lag_microseconds": 12.989999999999998,
+          "magnitude": 0.03521582037877664,
+          "quarter_magnitudes": [
+            0.05564568493756543,
+            0.009294808182361211,
+            0.038040827544264466,
+            0.04388647601935286
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 14273,
+          "lag_microseconds": 142.73000000000002,
+          "magnitude": 0.045135988438092724,
+          "quarter_magnitudes": [
+            0.029811499610944966,
+            0.05368314794611149,
+            0.049510890661318654,
+            0.04344850363589437
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 28541,
+          "lag_microseconds": 285.40999999999997,
+          "magnitude": 0.021342048870826955,
+          "quarter_magnitudes": [
+            0.01995555987294051,
+            0.023673427648364186,
+            0.03240997149821015,
+            0.0234525732181526
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 12601,
+          "lag_microseconds": 126.00999999999999,
+          "magnitude": 0.02119970999834943,
+          "quarter_magnitudes": [
+            0.01720063683020643,
+            0.029424391372928696,
+            0.021580152207884673,
+            0.020102343045777106
+          ]
+        }
+      ]
+    },
+    {
+      "clip_id": "7c7bab79730415f4603c2bd4",
+      "category": "DJI MINI4 PRO",
+      "pack_id": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml",
+      "fs_hz": 100000000,
+      "samples": 2088960,
+      "peaks": [
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 39,
+          "lag_microseconds": 0.39,
+          "magnitude": 0.1065572427307666,
+          "quarter_magnitudes": [
+            0.08468520218345396,
+            0.14988188371505115,
+            0.07954170745626563,
+            0.08499038868018362
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 59,
+          "lag_microseconds": 0.59,
+          "magnitude": 0.06892817495071363,
+          "quarter_magnitudes": [
+            0.05122501237171715,
+            0.10231588661287896,
+            0.04612767066239874,
+            0.05516332239817495
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 83,
+          "lag_microseconds": 0.83,
+          "magnitude": 0.053842151711473496,
+          "quarter_magnitudes": [
+            0.0395958027609514,
+            0.08339608000678245,
+            0.033043521329294966,
+            0.04394108858163429
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3334,
+          "lag_microseconds": 33.34,
+          "magnitude": 0.05916782252673758,
+          "quarter_magnitudes": [
+            0.06142524291474073,
+            0.05387078600545214,
+            0.06349455431089843,
+            0.06426006041863622
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 2684,
+          "lag_microseconds": 26.84,
+          "magnitude": 0.0426926161962309,
+          "quarter_magnitudes": [
+            0.021310211897612553,
+            0.04644660385271888,
+            0.015583068571035572,
+            0.09020642715576346
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 1299,
+          "lag_microseconds": 12.989999999999998,
+          "magnitude": 0.023489203536589783,
+          "quarter_magnitudes": [
+            0.007825166547821266,
+            0.03291714089685171,
+            0.005804310756764844,
+            0.042687028800643
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 14272,
+          "lag_microseconds": 142.72,
+          "magnitude": 0.0556709984916957,
+          "quarter_magnitudes": [
+            0.07792215416458272,
+            0.0425254587413116,
+            0.076102484507506,
+            0.03886586417938647
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 12605,
+          "lag_microseconds": 126.05,
+          "magnitude": 0.03147440208963363,
+          "quarter_magnitudes": [
+            0.054052328219289174,
+            0.02572265806710599,
+            0.03762568117576458,
+            0.019003952592225107
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 28542,
+          "lag_microseconds": 285.42,
+          "magnitude": 0.02894901391620961,
+          "quarter_magnitudes": [
+            0.05149160089408273,
+            0.026096342212595564,
+            0.039289735159144384,
+            0.01397912169378062
+          ]
+        }
+      ]
+    },
+    {
+      "clip_id": "ad26ac271b80fc9d962191a6",
+      "category": "DJI MINI4 PRO",
+      "pack_id": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml",
+      "fs_hz": 100000000,
+      "samples": 2088960,
+      "peaks": [
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 39,
+          "lag_microseconds": 0.39,
+          "magnitude": 0.10089892629080136,
+          "quarter_magnitudes": [
+            0.04594413822061863,
+            0.1472444714040254,
+            0.08017712451879264,
+            0.09893076687566874
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 59,
+          "lag_microseconds": 0.59,
+          "magnitude": 0.07334708130450969,
+          "quarter_magnitudes": [
+            0.05190695354840962,
+            0.10692663976514825,
+            0.05798180414924052,
+            0.05992162382792304
+          ]
+        },
+        {
+          "lag_band_samples": [
+            32,
+            512
+          ],
+          "lag_samples": 83,
+          "lag_microseconds": 0.83,
+          "magnitude": 0.045835278655636934,
+          "quarter_magnitudes": [
+            0.023073910035018935,
+            0.06754986994183325,
+            0.04452198505733891,
+            0.042333926824706165
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 3334,
+          "lag_microseconds": 33.34,
+          "magnitude": 0.059834174853792374,
+          "quarter_magnitudes": [
+            0.04132324647936575,
+            0.0542005280105117,
+            0.07701382862950476,
+            0.0655597533060161
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 2684,
+          "lag_microseconds": 26.84,
+          "magnitude": 0.040213894035576514,
+          "quarter_magnitudes": [
+            0.015575158681761247,
+            0.05200904768609238,
+            0.024203429611332327,
+            0.062090395543618344
+          ]
+        },
+        {
+          "lag_band_samples": [
+            513,
+            4096
+          ],
+          "lag_samples": 649,
+          "lag_microseconds": 6.489999999999999,
+          "magnitude": 0.019804578122131926,
+          "quarter_magnitudes": [
+            0.004695182775465557,
+            0.02783381012811281,
+            0.013838083883035068,
+            0.031294401328385325
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 14270,
+          "lag_microseconds": 142.7,
+          "magnitude": 0.06292894000122387,
+          "quarter_magnitudes": [
+            0.06300940153052681,
+            0.054326428493817476,
+            0.0661999708621933,
+            0.07668417861824305
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 12604,
+          "lag_microseconds": 126.04,
+          "magnitude": 0.031173885005560387,
+          "quarter_magnitudes": [
+            0.01931073523418767,
+            0.03461321085119139,
+            0.0339734498449023,
+            0.03511630921360916
+          ]
+        },
+        {
+          "lag_band_samples": [
+            4097,
+            32768
+          ],
+          "lag_samples": 28542,
+          "lag_microseconds": 285.42,
+          "magnitude": 0.027414403400672752,
+          "quarter_magnitudes": [
+            0.022864931975373814,
+            0.02770721556458936,
+            0.03934884333176228,
+            0.0260981578473137
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": 24,
+  "training_groups": 8,
+  "distinct_categories": 5,
+  "model_updates": 0,
+  "heldout_read": false,
+  "validation_read": false,
+  "gpu_use": false,
+  "limitation": "Descriptive ordinary autocorrelation; no protocol label or separation guarantee"
+}

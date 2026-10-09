@@ -1,0 +1,98 @@
+{
+  "status": "COMPLETE",
+  "source_complete_sha256": "0856d3820804af40008581549e18b3801b861b6f480c53d5d1c5baa8d35ac133",
+  "curves_sha256": "6317009584abace145fe158ba200fa483b964c7f91372cffb04eab674cbb729c",
+  "plotter_sha256": "03e0e2a9216864eed7e3d3ce3e6235c4a898d90c69a00125ea909715ab32d15a",
+  "groups": [
+    {
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1.xml",
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "median_peak_lag_samples": 12605,
+      "median_peak_lag_microseconds": 126.05,
+      "median_correlation": 0.02863345481455326
+    },
+    {
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+      "indices": [
+        3,
+        4,
+        5
+      ],
+      "median_peak_lag_samples": 14270,
+      "median_peak_lag_microseconds": 142.7,
+      "median_correlation": 0.09304032474756241
+    },
+    {
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+      "indices": [
+        6,
+        7,
+        8
+      ],
+      "median_peak_lag_samples": 14271,
+      "median_peak_lag_microseconds": 142.71,
+      "median_correlation": 0.04227869212627411
+    },
+    {
+      "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+      "indices": [
+        9,
+        10,
+        11
+      ],
+      "median_peak_lag_samples": 6667,
+      "median_peak_lag_microseconds": 66.67,
+      "median_correlation": 0.06347604840993881
+    },
+    {
+      "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+      "indices": [
+        12,
+        13,
+        14
+      ],
+      "median_peak_lag_samples": 3334,
+      "median_peak_lag_microseconds": 33.34,
+      "median_correlation": 0.07046479731798172
+    },
+    {
+      "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+      "indices": [
+        15,
+        16,
+        17
+      ],
+      "median_peak_lag_samples": 6663,
+      "median_peak_lag_microseconds": 66.63,
+      "median_correlation": 0.058858953416347504
+    },
+    {
+      "pack_id": "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml",
+      "indices": [
+        18,
+        19,
+        20
+      ],
+      "median_peak_lag_samples": 6667,
+      "median_peak_lag_microseconds": 66.67,
+      "median_correlation": 0.06140078976750374
+    },
+    {
+      "pack_id": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml",
+      "indices": [
+        21,
+        22,
+        23
+      ],
+      "median_peak_lag_samples": 3334,
+      "median_peak_lag_microseconds": 33.34,
+      "median_correlation": 0.05916782096028328
+    }
+  ],
+  "pdf_sha256": "74afcc3096a23e08c6278a68735a51088e73f6b1c23ad53c691a5f4154db08b2",
+  "png_sha256": "f632dd63838a9ffae247c1f0379220b2918ed3dded904a2906c2e59453ba1fd3"
+}
