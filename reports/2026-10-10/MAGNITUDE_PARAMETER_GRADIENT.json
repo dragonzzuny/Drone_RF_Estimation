@@ -1,0 +1,202 @@
+{
+  "status": "COMPLETE",
+  "protocol_sha256": "418cf78193dcb1a49248bb16404cec51f3f1f2334aaee384f4121a6ef1c83b59",
+  "indices": [
+    0,
+    1,
+    4,
+    5,
+    2,
+    11
+  ],
+  "rows": [
+    {
+      "index": 0,
+      "count": 1,
+      "main_loss": 0.0953797847032547,
+      "magnitude_loss": 0.3027111887931824,
+      "main_norm": 4.969560146641112,
+      "weighted_magnitude_norm": 0.7514569066104233,
+      "ratio": 0.15121195527099662,
+      "cosine": 0.9656246022842554,
+      "real_inner_product": 3.6060384558846534
+    },
+    {
+      "index": 1,
+      "count": 1,
+      "main_loss": 0.03733249753713608,
+      "magnitude_loss": 0.33678388595581055,
+      "main_norm": 1.6945627419593652,
+      "weighted_magnitude_norm": 0.2702112445905916,
+      "ratio": 0.15945779869924176,
+      "cosine": 0.7079864924731729,
+      "real_inner_product": 0.3241798695793034
+    },
+    {
+      "index": 4,
+      "count": 2,
+      "main_loss": 0.32757019996643066,
+      "magnitude_loss": 0.5857142806053162,
+      "main_norm": 3.4633603795580945,
+      "weighted_magnitude_norm": 0.27215739626936686,
+      "ratio": 0.07858188765908693,
+      "cosine": 0.5401093863290675,
+      "real_inner_product": 0.5090958426235642
+    },
+    {
+      "index": 5,
+      "count": 2,
+      "main_loss": 0.36975228786468506,
+      "magnitude_loss": 0.48467370867729187,
+      "main_norm": 4.957078708327686,
+      "weighted_magnitude_norm": 0.27194663990190654,
+      "ratio": 0.05486026264724171,
+      "cosine": 0.10288730962641347,
+      "real_inner_product": 0.138698359055012
+    },
+    {
+      "index": 2,
+      "count": 3,
+      "main_loss": 1.4381333589553833,
+      "magnitude_loss": 0.9048070907592773,
+      "main_norm": 5.180190074606067,
+      "weighted_magnitude_norm": 0.30559611328978503,
+      "ratio": 0.05899322397219651,
+      "cosine": 0.6957185463221917,
+      "real_inner_product": 1.1013544291141633
+    },
+    {
+      "index": 11,
+      "count": 3,
+      "main_loss": 1.124083399772644,
+      "magnitude_loss": 0.586918294429779,
+      "main_norm": 8.799851541970387,
+      "weighted_magnitude_norm": 0.1967602965303198,
+      "ratio": 0.022359501815670736,
+      "cosine": 0.8212262726436111,
+      "real_inner_product": 1.4219215907799685
+    }
+  ],
+  "within_count": [
+    {
+      "count": 1,
+      "main_norm": 2.740666135880944,
+      "weighted_magnitude_norm": 0.4343137924571447,
+      "ratio": 0.15847015686116814,
+      "cosine": 0.9182961855281803,
+      "real_inner_product": 1.0930563091904573
+    },
+    {
+      "count": 2,
+      "main_norm": 2.6443098462133214,
+      "weighted_magnitude_norm": 0.1946163509037748,
+      "ratio": 0.07359816444448347,
+      "cosine": 0.3153968512286234,
+      "real_inner_product": 0.16231139880638626
+    },
+    {
+      "count": 3,
+      "main_norm": 5.53373230779901,
+      "weighted_magnitude_norm": 0.23262993874059576,
+      "ratio": 0.042038524055949884,
+      "cosine": 0.758403329947797,
+      "real_inner_product": 0.976301561693992
+    }
+  ],
+  "cross_count": [
+    {
+      "main_count": 1,
+      "magnitude_count": 1,
+      "main_norm": 2.740666135880944,
+      "weighted_magnitude_norm": 0.4343137924571447,
+      "ratio": 0.15847015686116814,
+      "cosine": 0.9182961855281803,
+      "real_inner_product": 1.0930563091904573
+    },
+    {
+      "main_count": 1,
+      "magnitude_count": 2,
+      "main_norm": 2.740666135880944,
+      "weighted_magnitude_norm": 0.1946163509037748,
+      "ratio": 0.07101060153071817,
+      "cosine": 0.018984495122963043,
+      "real_inner_product": 0.01012592043863953
+    },
+    {
+      "main_count": 1,
+      "magnitude_count": 3,
+      "main_norm": 2.740666135880944,
+      "weighted_magnitude_norm": 0.23262993874059576,
+      "ratio": 0.08488080167627587,
+      "cosine": -0.1855742567375523,
+      "real_inner_product": -0.11831490782735636
+    },
+    {
+      "main_count": 2,
+      "magnitude_count": 1,
+      "main_norm": 2.6443098462133214,
+      "weighted_magnitude_norm": 0.4343137924571447,
+      "ratio": 0.16424466787774,
+      "cosine": -0.08696297947316745,
+      "real_inner_product": -0.09987352408039148
+    },
+    {
+      "main_count": 2,
+      "magnitude_count": 2,
+      "main_norm": 2.6443098462133214,
+      "weighted_magnitude_norm": 0.1946163509037748,
+      "ratio": 0.07359816444448347,
+      "cosine": 0.3153968512286234,
+      "real_inner_product": 0.16231139880638626
+    },
+    {
+      "main_count": 2,
+      "magnitude_count": 3,
+      "main_norm": 2.6443098462133214,
+      "weighted_magnitude_norm": 0.23262993874059576,
+      "ratio": 0.08797378229851702,
+      "cosine": 0.08135716856687636,
+      "real_inner_product": 0.05004650732617538
+    },
+    {
+      "main_count": 3,
+      "magnitude_count": 1,
+      "main_norm": 5.53373230779901,
+      "weighted_magnitude_norm": 0.4343137924571447,
+      "ratio": 0.07848478536719983,
+      "cosine": -0.31573589230124555,
+      "real_inner_product": -0.7588321495789283
+    },
+    {
+      "main_count": 3,
+      "magnitude_count": 2,
+      "main_norm": 5.53373230779901,
+      "weighted_magnitude_norm": 0.1946163509037748,
+      "ratio": 0.03516909385542388,
+      "cosine": 0.016325135670582396,
+      "real_inner_product": 0.017581433035340276
+    },
+    {
+      "main_count": 3,
+      "magnitude_count": 3,
+      "main_norm": 5.53373230779901,
+      "weighted_magnitude_norm": 0.23262993874059576,
+      "ratio": 0.042038524055949884,
+      "cosine": 0.758403329947797,
+      "real_inner_product": 0.976301561693992
+    }
+  ],
+  "multisource_main_vs_single_magnitude": {
+    "main_norm": 3.2027898176163045,
+    "weighted_magnitude_norm": 0.4343137924571447,
+    "ratio": 0.13560483740403087,
+    "cosine": -0.30866136706289543,
+    "real_inner_product": -0.4293528360055593
+  },
+  "full_parameters": 32142859,
+  "updates": 0,
+  "heldout_read": false,
+  "independent_test": false,
+  "seconds": 201.12220859527588,
+  "limitation": "Only two TRAIN48 examples/count at frozen parent; local gradients, not full-dataset AdamW updates or generalization"
+}

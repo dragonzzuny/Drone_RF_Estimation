@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "source_sha256": "9f9bf8f4142179aa0205a6af8b3a7acffc0e72b335e3b9e77d048630e4083dfa",
+  "plotter_sha256": "a541c8a07a736a41c479ba59aea942daca1076fc715d383a175289e007c66e4f",
+  "values": [
+    {
+      "count": 2,
+      "metric": "mean_nmse",
+      "values": [
+        0.46689559431987576,
+        0.48890202106359826,
+        0.4965211242827915,
+        0.4887203941763818
+      ]
+    },
+    {
+      "count": 2,
+      "metric": "mean_si_sdr",
+      "values": [
+        3.777362785523427,
+        3.3662167928026747,
+        3.293580907970632,
+        3.4200436575914823
+      ]
+    },
+    {
+      "count": 3,
+      "metric": "mean_nmse",
+      "values": [
+        0.6902533153143511,
+        0.6996570459929582,
+        0.7022852661650312,
+        0.6994770982618644
+      ]
+    },
+    {
+      "count": 3,
+      "metric": "mean_si_sdr",
+      "values": [
+        -3.1087800503642207,
+        -3.517988285452999,
+        -3.5228596023057337,
+        -3.430414039258124
+      ]
+    }
+  ],
+  "artifacts": {
+    ".pdf": "e3a5e31bb53737035fc1bc685780b8cf24830d4eefb9441b581c855734599b42",
+    ".png": "f7df74ea634809fe525f93f9807f2c18bade608c0a80c6f274aefed3a5083a1a"
+  },
+  "model_updates": 0,
+  "recorded_iq_reads": 0,
+  "visual_review": {
+    "reviewed": true,
+    "titles_and_tick_labels_not_clipped": true,
+    "actual_epoch_values_checked": true,
+    "zero_baselines_and_limitations_visible": true
+  }
+}
