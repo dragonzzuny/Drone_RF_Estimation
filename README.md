@@ -2,13 +2,13 @@
 
 혼합 복소 I/Q에서 각 드론 기록의 기여 파형을 복원하고, 학습하지 않은 기록·기종·조합에 대한 일반화를 검증하는 연구입니다. 현재 범위는 1–3성분입니다.
 
-**2026-10-09 12:57 KST:** 새 초기화 기본 WaveNet·긴 수용범위 WaveNet·STFT U-Net의 공통 3 epoch/225업데이트 비교를 완료했고, 기본 WaveNet 4 epoch가 GPU에서 실행 중입니다. 각 5 epoch/375업데이트까지 동일 자료로 비교합니다. 공통 3 epoch에서 U-Net이 두·세 성분 NMSE와 복소 SI-SDR 모두 가장 좋지만, 약신호 정밀 복원과 안정적 개수 추정은 부족합니다.
+**2026-10-09 14:10 KST:** 새 초기화 기본 WaveNet·긴 수용범위 WaveNet·STFT U-Net의 공통 4 epoch/300업데이트 비교를 완료했고, 기본 WaveNet 5 epoch가 GPU에서 실행 중입니다. 각 5 epoch/375업데이트까지 동일 자료로 비교합니다. 공통 4 epoch에서 U-Net이 두·세 성분 NMSE와 복소 SI-SDR 모두 가장 좋지만, 약신호 정밀 복원과 안정적 개수 추정은 부족합니다. U-Net은 2성분 NMSE가 이전 epoch보다 19.5% 감소했으나 3성분 평균 NMSE와 SI-SDR은 개선되지 않았습니다.
 
-| 같은 225업데이트 모델 | 2성분 NMSE ↓ | 3성분 NMSE ↓ | 2성분 SI-SDR ↑ dB | 3성분 SI-SDR ↑ dB |
+| 같은 300업데이트 모델 | 2성분 NMSE ↓ | 3성분 NMSE ↓ | 2성분 SI-SDR ↑ dB | 3성분 SI-SDR ↑ dB |
 |---|---:|---:|---:|---:|
-| 기본 WaveNet |1.4693|0.7990|0.103|−6.281|
-| 긴 WaveNet |1.0437|0.7679|0.749|−4.549|
-| STFT U-Net |0.6490|0.7252|2.871|−3.440|
+| 기본 WaveNet |0.7997|0.7592|0.682|−5.015|
+| 긴 WaveNet |0.9163|0.7593|0.304|−4.895|
+| STFT U-Net |0.5224|0.7255|3.032|−3.580|
 
 RFUAV 한 데이터셋의 같은 원 RF 대역끼리 합성하고 수신 중심 간격·native 100MS/s·원기록 분할을 유지합니다. 파라미터와 계산량은 모델별로 다릅니다. 목표는 공통 관측 대역으로 제한한 기록 기여 파형이며, 실제 드론 대수나 실측 동시 수신 정답으로 표시하지 않습니다.
 
@@ -19,6 +19,8 @@ RFUAV 한 데이터셋의 같은 원 RF 대역끼리 합성하고 수신 중심 
 - [개수 기울기 차단 대조·네 위상 평가 완료](reports/2026-10-09/COUNT_DETACH_FINAL.md)
 - [원 규모 WaveNet·U-Net 학습 진단 결과](reports/2026-10-09/ARCHITECTURE_FIT_DIAGNOSTICS.md)
 - [세 구조의 epoch별 진행 보고](reports/2026-10-09/ARCHITECTURE_PROGRESS.md)
+- [세 구조의 실제 학습 곡선](reports/2026-10-09/ARCHITECTURE_EPOCHS.pdf)
+- [드론 분리 선행의 입력·출력 범위 재확인](reports/2026-10-09/DRONE_SEPARATION_SOURCE_TRIAGE_KO.md)
 - [TRAIN 전용 STFT 해상도 진단](reports/2026-10-09/STFT_RESOLUTION_TRAIN.md)
 - [모든 성분의 복원 향상 여부](reports/2026-10-09/ARCHITECTURE_ALL_SOURCE_PROGRESS.md)
 - [긴 복소문맥 후속 비교 규약·대기 상태](reports/2026-10-09/PHASE_CONTEXT_COMPARISON_KO.md)

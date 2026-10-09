@@ -1,7 +1,7 @@
 {
   "protocol_sha256": "54b4af1932ee83651aad2f5e251ada981f12133f1230b70f2c86180cb9c7f9a5",
-  "reported_at": "2026-10-09T13:57:42+09:00",
-  "common_epoch": 3,
+  "reported_at": "2026-10-09T14:09:40+09:00",
+  "common_epoch": 4,
   "dataset": "RFUAV native same-band; development validation; 210 cases each count",
   "thresholds": "descriptive only; positive gain >1e-6 dB, positive absolute SI-SDR >0 dB, NMSE<1",
   "limitations": "One seed; reused development validation; correlated windows; no hypothesis test; no claim of clean recovery",
@@ -626,6 +626,50 @@
               "1": 23,
               "2": 112,
               "3": 75
+            }
+          }
+        ]
+      },
+      {
+        "epoch": 4,
+        "validation_sha256": "e4dec2afca418d39c9881bdd0f0ea0d25d384bb578ef647faf66654cbcd5c098",
+        "by_count": [
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.5223824486717783,
+            "mean_si_sdr": 3.0322824532070447,
+            "mean_input_si_sdr": 0.061774673506654366,
+            "mean_si_sdr_gain": 2.97050777970039,
+            "all_sources_gain_gt_1e_6_db": 118,
+            "all_sources_absolute_si_sdr_gt_zero_db": 64,
+            "all_sources_nmse_lt_one": 184,
+            "weakest_si_sdr": -5.801287300277938,
+            "weakest_si_sdr_gain": 6.340326327898009,
+            "weakest_nmse": 0.8810677707179229,
+            "predicted_count_histogram": {
+              "1": 90,
+              "2": 64,
+              "3": 56
+            }
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.7254815392943075,
+            "mean_si_sdr": -3.580178398436992,
+            "mean_input_si_sdr": -5.361108259355544,
+            "mean_si_sdr_gain": 1.780929860918552,
+            "all_sources_gain_gt_1e_6_db": 78,
+            "all_sources_absolute_si_sdr_gt_zero_db": 0,
+            "all_sources_nmse_lt_one": 138,
+            "weakest_si_sdr": -13.13753904014359,
+            "weakest_si_sdr_gain": 1.258059464231359,
+            "weakest_nmse": 0.9878107969528502,
+            "predicted_count_histogram": {
+              "1": 16,
+              "2": 68,
+              "3": 126
             }
           }
         ]
