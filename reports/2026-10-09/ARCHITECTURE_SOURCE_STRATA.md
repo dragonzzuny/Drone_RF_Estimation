@@ -4,6 +4,8 @@
 
 SIR은 해당 정답의 국소 전력/나머지 정답 전력 합의 dB값이다. 복소 교차항을 포함하는 혼합 전력비나 원 수신 SNR이 아니다. SIR 구간은 사후 기술 통계이며 모델 선택을 바꾸지 않는다.
 
+[전체 성분 전력–오차 그림(PDF)](UNET_SOURCE_POWER.pdf), [PNG](UNET_SOURCE_POWER.png), [재현용 집계값](UNET_SOURCE_POWER.csv).
+
 ## 기종
 
 | 모델 | 선택 e | 성분 수 | 조건 | 성분 사례 | 평균 NMSE ↓ | NMSE 중앙값 | SI-SDR ↑ dB | SI-SDR 개선량 ↑ dB | SI-SDR>0 비율 |
