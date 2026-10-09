@@ -3,16 +3,16 @@
   "worker_alive": true,
   "state": {
     "status": "TRAINING",
-    "arm": "unet_mean",
-    "epoch": 4,
-    "updates": 300,
+    "arm": "wavenet_cycle10",
+    "epoch": 5,
+    "updates": 375,
     "examples": 2400,
     "total": 2400,
-    "seconds": 683.8530225753784,
+    "seconds": 1731.788283109665,
     "pid": 3709695,
-    "time": 1791522506.8846376
+    "time": 1791524285.8829694
   },
-  "reported_at": "2026-10-09T14:09:33+09:00",
+  "reported_at": "2026-10-09T14:40:32+09:00",
   "protocol_sha256": "54b4af1932ee83651aad2f5e251ada981f12133f1230b70f2c86180cb9c7f9a5",
   "events": [
     {
@@ -530,6 +530,49 @@
         ],
         "selection_nmse": 0.6239319939830429
       }
+    },
+    {
+      "arm": "wavenet_cycle10",
+      "epoch": 5,
+      "updates": 375,
+      "receipt_sha256": "d364fb52d60ff7c6b34f78b593a0e98c219eec8b99637d010aac471448d01b28",
+      "validation_sha256": "49ada7b11baad512f3633ecb8cdf4ce8eeac8160d28fce7abb8da6f80d414e90",
+      "completed_time": 1791524410.6141036,
+      "train_seconds": 1731.7966177463531,
+      "selected_epoch": 4,
+      "metrics": {
+        "epoch": 5,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.018926286267636403,
+            "mean_si_sdr": 23.536536699118354,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.018926286267636403,
+            "construction_count_accuracy": 0.6
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.8429715987822304,
+            "mean_si_sdr": 1.0960720101203432,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 1.4903608005567095,
+            "construction_count_accuracy": 0.047619047619047616
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.7550112885566095,
+            "mean_si_sdr": -4.210424131301216,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.9845866512461722,
+            "construction_count_accuracy": 0.919047619047619
+          }
+        ],
+        "selection_nmse": 0.7989914436694199
+      }
     }
   ],
   "histories": {
@@ -698,6 +741,39 @@
           }
         ],
         "selection_nmse": 0.7794747165284224
+      },
+      {
+        "epoch": 5,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.018926286267636403,
+            "mean_si_sdr": 23.536536699118354,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.018926286267636403,
+            "construction_count_accuracy": 0.6
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.8429715987822304,
+            "mean_si_sdr": 1.0960720101203432,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 1.4903608005567095,
+            "construction_count_accuracy": 0.047619047619047616
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.7550112885566095,
+            "mean_si_sdr": -4.210424131301216,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.9845866512461722,
+            "construction_count_accuracy": 0.919047619047619
+          }
+        ],
+        "selection_nmse": 0.7989914436694199
       }
     ],
     "wavenet_cycle15": [

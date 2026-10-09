@@ -1,6 +1,6 @@
 {
   "protocol_sha256": "54b4af1932ee83651aad2f5e251ada981f12133f1230b70f2c86180cb9c7f9a5",
-  "reported_at": "2026-10-09T14:09:40+09:00",
+  "reported_at": "2026-10-09T14:40:45+09:00",
   "common_epoch": 4,
   "dataset": "RFUAV native same-band; development validation; 210 cases each count",
   "thresholds": "descriptive only; positive gain >1e-6 dB, positive absolute SI-SDR >0 dB, NMSE<1",
@@ -226,6 +226,50 @@
               "1": 29,
               "2": 76,
               "3": 105
+            }
+          }
+        ]
+      },
+      {
+        "epoch": 5,
+        "validation_sha256": "49ada7b11baad512f3633ecb8cdf4ce8eeac8160d28fce7abb8da6f80d414e90",
+        "by_count": [
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.8429715987822304,
+            "mean_si_sdr": 1.0960720101203432,
+            "mean_input_si_sdr": 0.061774673506654366,
+            "mean_si_sdr_gain": 1.0342973366136887,
+            "all_sources_gain_gt_1e_6_db": 94,
+            "all_sources_absolute_si_sdr_gt_zero_db": 44,
+            "all_sources_nmse_lt_one": 171,
+            "weakest_si_sdr": -9.23943982591258,
+            "weakest_si_sdr_gain": 2.9021738022633663,
+            "weakest_nmse": 1.4903608005567095,
+            "predicted_count_histogram": {
+              "1": 84,
+              "2": 10,
+              "3": 116
+            }
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.7550112885566095,
+            "mean_si_sdr": -4.210424131301216,
+            "mean_input_si_sdr": -5.361108259355544,
+            "mean_si_sdr_gain": 1.1506841280543278,
+            "all_sources_gain_gt_1e_6_db": 78,
+            "all_sources_absolute_si_sdr_gt_zero_db": 0,
+            "all_sources_nmse_lt_one": 149,
+            "weakest_si_sdr": -12.562768204905424,
+            "weakest_si_sdr_gain": 1.8328302994695245,
+            "weakest_nmse": 0.9845866512461722,
+            "predicted_count_histogram": {
+              "1": 17,
+              "2": 0,
+              "3": 193
             }
           }
         ]
