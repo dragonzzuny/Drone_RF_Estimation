@@ -25,3 +25,10 @@ RF용U-Net 검색에서는 무선 간섭 픽셀의 탐지·분할 연구도 함�
 우선순위는 등록된 동일5epoch 구조 비교와, 전체20.89ms 복소 I/Q를 보는지의 대조다. 새 모델 이름을 추가하는 것보다 지금 관측·표현·최적화에서 어느 요인이 성능을 제한하는지 분리한다. 이 대조가 끝나기 전에 LSTM·Mamba·더 긴 초기 커널을 모두 동시에 추가하면 어떤 변화가 도움이 됐는지 판단하기 어렵다. 새 후보를 준비할 수는 있으나 성능을 확인했다고 보고하지 않는다.
 
 [현재 구조 검토](ARCHITECTURE_REVIEW_KO.md) · [진행 수치](ARCHITECTURE_PROGRESS.md) · [긴 복소문맥 비교 규약](PHASE_CONTEXT_COMPARISON_KO.md).
+# RF Challenge 정정문 확인: 2026-10-09 추가
+
+[IEEE 정정문](https://ieeexplore.ieee.org/abstract/document/11142566/), DOI10.1109/OJCOMS.2025.3597377(2025-08-26, 6권6567쪽)의 [공개된 논문 본문](https://www.researchgate.net/publication/394981613_Correction_to_RF_Challenge_The_Data-Driven_Radio_Frequency_Signal_Separation_Challenge)을 확인했다. IEEE PDF 직접 열기는 실패했으나 공개 본문에 DOI·저자·쪽수와 정정 내용이 있다.
+
+정정은 ICASSP2024 대회 검증·시험의 목표 신호(SOI)가 우연히 같았음을 밝힌다. KU-TII의 CommSignal2용 학습이 검증 SOI를 재사용해 시험 누출이 생겼고, 원문 Figure13의 해당 특이하게 좋은 점수를 설명할 수 있다고 저자들이 서술한다. 이는 명시된 대회 조건에 대한 정정이다. U-Net/WaveNet 구조 자체가 부적절하다거나 본문의 모든 실험이 무효라는 뜻으로 확대하지 않는다.
+
+우리 판단: 해당 대회 최고 점수를 구조 선택이나 드론 복원 목표치의 직접 근거로 사용하지 않는다. 원기록 묶음을 먼저 분할하고, 개발 검증과 미개봉 확인 자료를 구분하는 현재 규칙을 유지한다. 분할 규칙이 있다는 사실만으로 모든 종류의 수집 세션 중복이 배제됐다고 주장하지도 않는다. RF Challenge의 신호 생성·구조는 참고하되 그 성능과 우리 native RFUAV 점수는 별개 조건이다.

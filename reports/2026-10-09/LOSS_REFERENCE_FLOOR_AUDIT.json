@@ -1,0 +1,14 @@
+{
+  "status": "SAVED_VALIDATION_REFERENCE_POWER_BOUND",
+  "cases": 630,
+  "sources": 1260,
+  "minimum_lower_bound_reference_over_mixture": 6.194140910131054e-06,
+  "loss_relative_floor": 1e-06,
+  "possible_reference_floor_activations": 0,
+  "validation_sha256": "041e7729a96b0e4c74943b996fade242c6910106b2d46fe14ce21d1b0e284764",
+  "loss_source_sha256": "a51e179ea16d094cf122ec6491d79b26c66e3ed84294e396112156fb3ac8a4d6",
+  "expression": "Pmix <= (sum sqrt(Psource))^2 by triangle inequality; clamp mixture bound to1e-8 matching loss",
+  "new_iq_read": false,
+  "model_updates": 0,
+  "scope": "Only current development validation; does not inspect TRAIN floors or estimate-dependent coherence denominator"
+}

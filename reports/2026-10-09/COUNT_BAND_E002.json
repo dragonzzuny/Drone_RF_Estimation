@@ -1,0 +1,167 @@
+{
+  "status": "COMPLETE_SAVED_VALIDATION_DIAGNOSIS",
+  "source_sha256": {
+    "wavenet_cycle10": "11dee78642b997abe38c140cf36348558bf1f5b64e0995d0ca355beb782ffe29",
+    "wavenet_cycle15": "471684437dfb3b9d1c52de88b08a3a292726f4ac5354029eedbda88116aa5ac9",
+    "unet_mean": "041e7729a96b0e4c74943b996fade242c6910106b2d46fe14ce21d1b0e284764"
+  },
+  "records": [
+    {
+      "arm": "wavenet_cycle10",
+      "band_ghz": "2.4",
+      "epoch": 2,
+      "updates": 150,
+      "cases": 135,
+      "confusion_true_rows_predicted_columns_123": [
+        [
+          84,
+          0,
+          0
+        ],
+        [
+          51,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "arm": "wavenet_cycle10",
+      "band_ghz": "5.8",
+      "epoch": 2,
+      "updates": 150,
+      "cases": 495,
+      "confusion_true_rows_predicted_columns_123": [
+        [
+          42,
+          84,
+          0
+        ],
+        [
+          36,
+          65,
+          58
+        ],
+        [
+          13,
+          55,
+          142
+        ]
+      ]
+    },
+    {
+      "arm": "wavenet_cycle15",
+      "band_ghz": "2.4",
+      "epoch": 2,
+      "updates": 150,
+      "cases": 135,
+      "confusion_true_rows_predicted_columns_123": [
+        [
+          84,
+          0,
+          0
+        ],
+        [
+          47,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "arm": "wavenet_cycle15",
+      "band_ghz": "5.8",
+      "epoch": 2,
+      "updates": 150,
+      "cases": 495,
+      "confusion_true_rows_predicted_columns_123": [
+        [
+          0,
+          42,
+          84
+        ],
+        [
+          0,
+          22,
+          137
+        ],
+        [
+          0,
+          6,
+          204
+        ]
+      ]
+    },
+    {
+      "arm": "unet_mean",
+      "band_ghz": "2.4",
+      "epoch": 2,
+      "updates": 150,
+      "cases": 135,
+      "confusion_true_rows_predicted_columns_123": [
+        [
+          84,
+          0,
+          0
+        ],
+        [
+          51,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "arm": "unet_mean",
+      "band_ghz": "5.8",
+      "epoch": 2,
+      "updates": 150,
+      "cases": 495,
+      "confusion_true_rows_predicted_columns_123": [
+        [
+          60,
+          24,
+          42
+        ],
+        [
+          16,
+          37,
+          106
+        ],
+        [
+          3,
+          31,
+          176
+        ]
+      ]
+    }
+  ],
+  "dataset": "RFUAV native same-band, existing 630 development mixtures",
+  "metric": "construction count, not physical drone count",
+  "validation_iq_read": false,
+  "heldout_read": false,
+  "training": false,
+  "category_to_band": {
+    "DJI MINI3": "2.4",
+    "DJI MINI4 PRO": "2.4",
+    "DJI AVATA2": "5.8",
+    "DJI FPV COMBO": "5.8",
+    "DJI MAVIC3 PRO": "5.8"
+  },
+  "meaning": "Descriptive subgroup count confusion, not evidence of sole causal frequency shortcut"
+}
