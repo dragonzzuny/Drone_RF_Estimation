@@ -1,0 +1,34 @@
+{
+  "status": "PASS_RECOMPUTED_RECEIPTS",
+  "protocol_sha256": "61e17ab23509f578dee692ca985a8e8b7e2e992cbaddfc55c32566de02578d98",
+  "complete_sha256": "536c506ce69a90635eb22985dc341ff3443bb42f9b5148242f6adb7224b7f820",
+  "results": [
+    {
+      "arm": "local",
+      "initial_nmse": 0.9673641267311441,
+      "final_nmse": 0.57033403517635,
+      "parameters": 4641795,
+      "seconds": 94.73145484924316,
+      "peak_bytes": 1293322752,
+      "updates": 32,
+      "weights_discarded": true,
+      "finite_gradients": true
+    },
+    {
+      "arm": "long",
+      "initial_nmse": 0.9673743120009191,
+      "final_nmse": 0.5960507446598431,
+      "parameters": 4641795,
+      "seconds": 94.67607712745667,
+      "peak_bytes": 1293322752,
+      "updates": 32,
+      "weights_discarded": true,
+      "finite_gradients": true
+    }
+  ],
+  "training_cases": 4,
+  "validation_iq_read": false,
+  "heldout_read": false,
+  "generalization_evidence": false,
+  "comparison_initialization": "fresh weights; diagnostic weights discarded"
+}
