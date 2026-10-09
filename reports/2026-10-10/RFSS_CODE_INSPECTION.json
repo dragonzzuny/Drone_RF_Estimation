@@ -1,0 +1,38 @@
+{
+  "commit": "7b3b6eaae3f1e1fc17fa8b5289ba4df045f25b3f",
+  "files": [
+    {
+      "path": "src/models.py",
+      "url": "https://raw.githubusercontent.com/chenhao1umbc/dataset_RFSS/7b3b6eaae3f1e1fc17fa8b5289ba4df045f25b3f/src/models.py",
+      "sha256": "015fc30293bf5f7746dfd69bc9692c7b92d976003ab638748555eefe4d4218c0",
+      "bytes": 20254
+    },
+    {
+      "path": "src/train.py",
+      "url": "https://raw.githubusercontent.com/chenhao1umbc/dataset_RFSS/7b3b6eaae3f1e1fc17fa8b5289ba4df045f25b3f/src/train.py",
+      "sha256": "553d0819bf62dc7dbe6aa9ddd34550285a17387e1b5e46c832c3ae38c7b0d29b",
+      "bytes": 16035
+    },
+    {
+      "path": "src/baseline_algorithms.py",
+      "url": "https://raw.githubusercontent.com/chenhao1umbc/dataset_RFSS/7b3b6eaae3f1e1fc17fa8b5289ba4df045f25b3f/src/baseline_algorithms.py",
+      "sha256": "1df1f0c47ac2d7fe24a824d79b6e2570b3e913a0edbc9141dd704316477e395a",
+      "bytes": 12545
+    },
+    {
+      "path": "src/utils_mixing.py",
+      "url": "https://raw.githubusercontent.com/chenhao1umbc/dataset_RFSS/7b3b6eaae3f1e1fc17fa8b5289ba4df045f25b3f/src/utils_mixing.py",
+      "sha256": "0f1da1aca8571d873feda95958a71fd63d165ca26e3dfe21ed05d739244576bc",
+      "bytes": 21739
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/chenhao1umbc/dataset_RFSS/7b3b6eaae3f1e1fc17fa8b5289ba4df045f25b3f/README.md",
+      "sha256": "46142196fdf8b90d48988fa949e2c429c29e113b57d75dd8937e362fe49eaa79",
+      "bytes": 3658
+    }
+  ],
+  "purpose": "Read-only code inspection; files not executed or incorporated into training",
+  "dataset_downloaded": false,
+  "source": "https://github.com/chenhao1umbc/dataset_RFSS"
+}

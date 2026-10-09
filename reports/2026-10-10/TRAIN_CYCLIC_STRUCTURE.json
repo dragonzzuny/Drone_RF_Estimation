@@ -1,0 +1,1327 @@
+{
+  "status": "COMPLETE",
+  "protocol_sha256": "4db3a6b6f76b00ef8db4a2d60cf7e67374ef9f68e47c1c6d5d7e02c03bd6767b",
+  "rows": [
+    {
+      "clip_id": "b08546d5d1ad9d1084a92bb1",
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1.xml",
+      "category": "DJI AVATA2",
+      "actual": [
+        {
+          "lag_samples": 0,
+          "lag_us": 0.0,
+          "peak_frequency_hz": -1579.733455882353,
+          "peak_period_us": 633.0181818181818,
+          "peak_fraction_total_lag_product_energy": 0.006410148400478154,
+          "bins_searched": 4136,
+          "frequency_resolution_hz": 47.87071078431372
+        },
+        {
+          "lag_samples": 3334,
+          "lag_us": 33.34,
+          "peak_frequency_hz": -84387.13364716397,
+          "peak_period_us": 11.850147727272727,
+          "peak_fraction_total_lag_product_energy": 0.0004262448029620696,
+          "bins_searched": 4130,
+          "frequency_resolution_hz": 47.947235026797706
+        },
+        {
+          "lag_samples": 6667,
+          "lag_us": 66.67,
+          "peak_frequency_hz": 39955.95240439266,
+          "peak_period_us": 25.027560096153845,
+          "peak_fraction_total_lag_product_energy": 5.097419127375857e-05,
+          "bins_searched": 4124,
+          "frequency_resolution_hz": 48.02398125527964
+        },
+        {
+          "lag_samples": 14270,
+          "lag_us": 142.7,
+          "peak_frequency_hz": -6410.596281854156,
+          "peak_period_us": 155.99172932330828,
+          "peak_fraction_total_lag_product_energy": 0.0004816227836068964,
+          "bins_searched": 4108,
+          "frequency_resolution_hz": 48.199972044016214
+        }
+      ],
+      "surrogates": [
+        [
+          {
+            "lag_samples": 0,
+            "lag_us": 0.0,
+            "peak_frequency_hz": 7228.477328431372,
+            "peak_period_us": 138.34172185430464,
+            "peak_fraction_total_lag_product_energy": 1.3882557114502263e-05,
+            "bins_searched": 4136,
+            "frequency_resolution_hz": 47.87071078431372
+          },
+          {
+            "lag_samples": 3334,
+            "lag_us": 33.34,
+            "peak_frequency_hz": 24309.248158586437,
+            "peak_period_us": 41.136607495069036,
+            "peak_fraction_total_lag_product_energy": 1.506874663190237e-05,
+            "bins_searched": 4130,
+            "frequency_resolution_hz": 47.947235026797706
+          },
+          {
+            "lag_samples": 6667,
+            "lag_us": 66.67,
+            "peak_frequency_hz": 76550.22612091574,
+            "peak_period_us": 13.063318695106648,
+            "peak_fraction_total_lag_product_energy": 1.3158412223877556e-05,
+            "bins_searched": 4124,
+            "frequency_resolution_hz": 48.02398125527964
+          },
+          {
+            "lag_samples": 14270,
+            "lag_us": 142.7,
+            "peak_frequency_hz": -49019.37156876448,
+            "peak_period_us": 20.400098328416917,
+            "peak_fraction_total_lag_product_energy": 1.9468886954469282e-05,
+            "bins_searched": 4108,
+            "frequency_resolution_hz": 48.199972044016214
+          }
+        ],
+        [
+          {
+            "lag_samples": 0,
+            "lag_us": 0.0,
+            "peak_frequency_hz": 30158.547794117647,
+            "peak_period_us": 33.158095238095235,
+            "peak_fraction_total_lag_product_energy": 1.444450274575126e-05,
+            "bins_searched": 4136,
+            "frequency_resolution_hz": 47.87071078431372
+          },
+          {
+            "lag_samples": 3334,
+            "lag_us": 33.34,
+            "peak_frequency_hz": 57440.78756210365,
+            "peak_period_us": 17.40923205342237,
+            "peak_fraction_total_lag_product_energy": 1.492588794859602e-05,
+            "bins_searched": 4130,
+            "frequency_resolution_hz": 47.947235026797706
+          },
+          {
+            "lag_samples": 6667,
+            "lag_us": 66.67,
+            "peak_frequency_hz": 33328.642991164066,
+            "peak_period_us": 30.004221902017292,
+            "peak_fraction_total_lag_product_energy": 1.3467992851453263e-05,
+            "bins_searched": 4124,
+            "frequency_resolution_hz": 48.02398125527964
+          },
+          {
+            "lag_samples": 14270,
+            "lag_us": 142.7,
+            "peak_frequency_hz": 27907.783813485385,
+            "peak_period_us": 35.83229706390328,
+            "peak_fraction_total_lag_product_energy": 1.3304101262897627e-05,
+            "bins_searched": 4108,
+            "frequency_resolution_hz": 48.199972044016214
+          }
+        ],
+        [
+          {
+            "lag_samples": 0,
+            "lag_us": 0.0,
+            "peak_frequency_hz": 75875.07659313724,
+            "peak_period_us": 13.179558359621453,
+            "peak_fraction_total_lag_product_energy": 1.7251527584154093e-05,
+            "bins_searched": 4136,
+            "frequency_resolution_hz": 47.87071078431372
+          },
+          {
+            "lag_samples": 3334,
+            "lag_us": 33.34,
+            "peak_frequency_hz": -70961.9078396606,
+            "peak_period_us": 14.092067567567568,
+            "peak_fraction_total_lag_product_energy": 1.8688288618915983e-05,
+            "bins_searched": 4130,
+            "frequency_resolution_hz": 47.947235026797706
+          },
+          {
+            "lag_samples": 6667,
+            "lag_us": 66.67,
+            "peak_frequency_hz": 70883.39633279275,
+            "peak_period_us": 14.107676151761517,
+            "peak_fraction_total_lag_product_energy": 2.1976634791452124e-05,
+            "bins_searched": 4124,
+            "frequency_resolution_hz": 48.02398125527964
+          },
+          {
+            "lag_samples": 14270,
+            "lag_us": 142.7,
+            "peak_frequency_hz": -16195.190606789445,
+            "peak_period_us": 61.7467261904762,
+            "peak_fraction_total_lag_product_energy": 1.897451781611975e-05,
+            "bins_searched": 4108,
+            "frequency_resolution_hz": 48.199972044016214
+          }
+        ]
+      ],
+      "relative_max_fft_magnitude_errors": [
+        2.1295568291908909e-16,
+        2.1295568291908909e-16,
+        2.1295568291908909e-16
+      ]
+    },
+    {
+      "clip_id": "c4ab9b89a6910ea2d529bc59",
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+      "category": "DJI AVATA2",
+      "actual": [
+        {
+          "lag_samples": 0,
+          "lag_us": 0.0,
+          "peak_frequency_hz": 1196.767769607843,
+          "peak_period_us": 835.5840000000001,
+          "peak_fraction_total_lag_product_energy": 0.010424313856407024,
+          "bins_searched": 4136,
+          "frequency_resolution_hz": 47.87071078431372
+        },
+        {
+          "lag_samples": 3334,
+          "lag_us": 33.34,
+          "peak_frequency_hz": 27186.0822601943,
+          "peak_period_us": 36.78352733686067,
+          "peak_fraction_total_lag_product_energy": 0.00022649449188258977,
+          "bins_searched": 4130,
+          "frequency_resolution_hz": 47.947235026797706
+        },
+        {
+          "lag_samples": 6667,
+          "lag_us": 66.67,
+          "peak_frequency_hz": 48456.19708657715,
+          "peak_period_us": 20.63719524281467,
+          "peak_fraction_total_lag_product_energy": 9.642997936069802e-05,
+          "bins_searched": 4124,
+          "frequency_resolution_hz": 48.02398125527964
+        },
+        {
+          "lag_samples": 14270,
+          "lag_us": 142.7,
+          "peak_frequency_hz": -7615.595582954561,
+          "peak_period_us": 131.3094936708861,
+          "peak_fraction_total_lag_product_energy": 0.0004805462410119845,
+          "bins_searched": 4108,
+          "frequency_resolution_hz": 48.199972044016214
+        }
+      ],
+      "surrogates": [
+        [
+          {
+            "lag_samples": 0,
+            "lag_us": 0.0,
+            "peak_frequency_hz": 97991.3449754902,
+            "peak_period_us": 10.204982901807524,
+            "peak_fraction_total_lag_product_energy": 5.5486718083341944e-05,
+            "bins_searched": 4136,
+            "frequency_resolution_hz": 47.87071078431372
+          },
+          {
+            "lag_samples": 3334,
+            "lag_us": 33.34,
+            "peak_frequency_hz": -76811.47051292993,
+            "peak_period_us": 13.01888888888889,
+            "peak_fraction_total_lag_product_energy": 4.66034583563343e-05,
+            "bins_searched": 4130,
+            "frequency_resolution_hz": 47.947235026797706
+          },
+          {
+            "lag_samples": 6667,
+            "lag_us": 66.67,
+            "peak_frequency_hz": -95183.53084796424,
+            "peak_period_us": 10.506019172552977,
+            "peak_fraction_total_lag_product_energy": 8.265524673234984e-05,
+            "bins_searched": 4124,
+            "frequency_resolution_hz": 48.02398125527964
+          },
+          {
+            "lag_samples": 14270,
+            "lag_us": 142.7,
+            "peak_frequency_hz": 90423.1475545744,
+            "peak_period_us": 11.059115138592752,
+            "peak_fraction_total_lag_product_energy": 4.930801415308418e-05,
+            "bins_searched": 4108,
+            "frequency_resolution_hz": 48.199972044016214
+          }
+        ],
+        [
+          {
+            "lag_samples": 0,
+            "lag_us": 0.0,
+            "peak_frequency_hz": 76736.7493872549,
+            "peak_period_us": 13.031565814098567,
+            "peak_fraction_total_lag_product_energy": 4.2010288487414715e-05,
+            "bins_searched": 4136,
+            "frequency_resolution_hz": 47.87071078431372
+          },
+          {
+            "lag_samples": 3334,
+            "lag_us": 33.34,
+            "peak_frequency_hz": 36008.37350512508,
+            "peak_period_us": 27.771318242343543,
+            "peak_fraction_total_lag_product_energy": 6.012504849293347e-05,
+            "bins_searched": 4130,
+            "frequency_resolution_hz": 47.947235026797706
+          },
+          {
+            "lag_samples": 6667,
+            "lag_us": 66.67,
+            "peak_frequency_hz": -56284.10603118774,
+            "peak_period_us": 17.767005119453923,
+            "peak_fraction_total_lag_product_energy": 4.351887502491419e-05,
+            "bins_searched": 4124,
+            "frequency_resolution_hz": 48.02398125527964
+          },
+          {
+            "lag_samples": 14270,
+            "lag_us": 142.7,
+            "peak_frequency_hz": -57550.766620555354,
+            "peak_period_us": 17.37596314907873,
+            "peak_fraction_total_lag_product_energy": 5.566286497258812e-05,
+            "bins_searched": 4108,
+            "frequency_resolution_hz": 48.199972044016214
+          }
+        ],
+        [
+          {
+            "lag_samples": 0,
+            "lag_us": 0.0,
+            "peak_frequency_hz": 26041.666666666664,
+            "peak_period_us": 38.400000000000006,
+            "peak_fraction_total_lag_product_energy": 4.2338281401505464e-05,
+            "bins_searched": 4136,
+            "frequency_resolution_hz": 47.87071078431372
+          },
+          {
+            "lag_samples": 3334,
+            "lag_us": 33.34,
+            "peak_frequency_hz": 21624.202997085766,
+            "peak_period_us": 46.24447893569845,
+            "peak_fraction_total_lag_product_energy": 5.9106817428777315e-05,
+            "bins_searched": 4130,
+            "frequency_resolution_hz": 47.947235026797706
+          },
+          {
+            "lag_samples": 6667,
+            "lag_us": 66.67,
+            "peak_frequency_hz": -64063.99099454303,
+            "peak_period_us": 15.609392803598201,
+            "peak_fraction_total_lag_product_energy": 4.9126808731292076e-05,
+            "bins_searched": 4124,
+            "frequency_resolution_hz": 48.02398125527964
+          },
+          {
+            "lag_samples": 14270,
+            "lag_us": 142.7,
+            "peak_frequency_hz": -67961.96058206285,
+            "peak_period_us": 14.714113475177308,
+            "peak_fraction_total_lag_product_energy": 5.160824884571007e-05,
+            "bins_searched": 4108,
+            "frequency_resolution_hz": 48.199972044016214
+          }
+        ]
+      ],
+      "relative_max_fft_magnitude_errors": [
+        3.8673388293409543e-16,
+        3.8673388293409543e-16,
+        3.8673388293409543e-16
+      ]
+    },
+    {
+      "clip_id": "e01a3a46b8754daece09c342",
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+      "category": "DJI AVATA2",
+      "actual": [
+        {
+          "lag_samples": 0,
+          "lag_us": 0.0,
+          "peak_frequency_hz": 1579.733455882353,
+          "peak_period_us": 633.0181818181818,
+          "peak_fraction_total_lag_product_energy": 0.00958269483752443,
+          "bins_searched": 4136,
+          "frequency_resolution_hz": 47.87071078431372
+        },
+        {
+          "lag_samples": 3334,
+          "lag_us": 33.34,
+          "peak_frequency_hz": -28001.18525564986,
+          "peak_period_us": 35.71277397260274,
+          "peak_fraction_total_lag_product_energy": 0.000510931496721077,
+          "bins_searched": 4130,
+          "frequency_resolution_hz": 47.947235026797706
+        },
+        {
+          "lag_samples": 6667,
+          "lag_us": 66.67,
+          "peak_frequency_hz": 8404.196719673937,
+          "peak_period_us": 118.98817142857142,
+          "peak_fraction_total_lag_product_energy": 3.2072889220210446e-05,
+          "bins_searched": 4124,
+          "frequency_resolution_hz": 48.02398125527964
+        },
+        {
+          "lag_samples": 14270,
+          "lag_us": 142.7,
+          "peak_frequency_hz": -7615.595582954561,
+          "peak_period_us": 131.3094936708861,
+          "peak_fraction_total_lag_product_energy": 0.0006177886271186463,
+          "bins_searched": 4108,
+          "frequency_resolution_hz": 48.199972044016214
+        }
+      ],
+      "surrogates": [
+        [
+          {
+            "lag_samples": 0,
+            "lag_us": 0.0,
+            "peak_frequency_hz": 54189.64460784313,
+            "peak_period_us": 18.453710247349825,
+            "peak_fraction_total_lag_product_energy": 9.010660491202226e-06,
+            "bins_searched": 4136,
+            "frequency_resolution_hz": 47.87071078431372
+          },
+          {
+            "lag_samples": 3334,
+            "lag_us": 33.34,
+            "peak_frequency_hz": -88510.59585946857,
+            "peak_period_us": 11.298082340195018,
+            "peak_fraction_total_lag_product_energy": 9.232212772401634e-06,
+            "bins_searched": 4130,
+            "frequency_resolution_hz": 47.947235026797706
+          },
+          {
+            "lag_samples": 6667,
+            "lag_us": 66.67,
+            "peak_frequency_hz": -46439.18987385541,
+            "peak_period_us": 21.5335367114788,
+            "peak_fraction_total_lag_product_energy": 1.0760047440355223e-05,
+            "bins_searched": 4124,
+            "frequency_resolution_hz": 48.02398125527964
+          },
+          {
+            "lag_samples": 14270,
+            "lag_us": 142.7,
+            "peak_frequency_hz": 7760.195499086609,
+            "peak_period_us": 128.86273291925468,
+            "peak_fraction_total_lag_product_energy": 1.0660664984999848e-05,
+            "bins_searched": 4108,
+            "frequency_resolution_hz": 48.199972044016214
+          }
+        ],
+        [
+          {
+            "lag_samples": 0,
+            "lag_us": 0.0,
+            "peak_frequency_hz": 48253.67647058823,
+            "peak_period_us": 20.723809523809525,
+            "peak_fraction_total_lag_product_energy": 1.1232791452956392e-05,
+            "bins_searched": 4136,
+            "frequency_resolution_hz": 47.87071078431372
+          },
+          {
+            "lag_samples": 3334,
+            "lag_us": 33.34,
+            "peak_frequency_hz": -49193.863137494445,
+            "peak_period_us": 20.327738791423005,
+            "peak_fraction_total_lag_product_energy": 1.4277235742195483e-05,
+            "bins_searched": 4130,
+            "frequency_resolution_hz": 47.947235026797706
+          },
+          {
+            "lag_samples": 6667,
+            "lag_us": 66.67,
+            "peak_frequency_hz": 53114.523268339275,
+            "peak_period_us": 18.82724231464738,
+            "peak_fraction_total_lag_product_energy": 1.2144098191820491e-05,
+            "bins_searched": 4124,
+            "frequency_resolution_hz": 48.02398125527964
+          },
+          {
+            "lag_samples": 14270,
+            "lag_us": 142.7,
+            "peak_frequency_hz": -35957.17914483609,
+            "peak_period_us": 27.81085790884719,
+            "peak_fraction_total_lag_product_energy": 1.1014577581428548e-05,
+            "bins_searched": 4108,
+            "frequency_resolution_hz": 48.199972044016214
+          }
+        ],
+        [
+          {
+            "lag_samples": 0,
+            "lag_us": 0.0,
+            "peak_frequency_hz": 61130.89767156862,
+            "peak_period_us": 16.358339859044637,
+            "peak_fraction_total_lag_product_energy": 9.606487055668213e-06,
+            "bins_searched": 4136,
+            "frequency_resolution_hz": 47.87071078431372
+          },
+          {
+            "lag_samples": 3334,
+            "lag_us": 33.34,
+            "peak_frequency_hz": -92777.89977685356,
+            "peak_period_us": 10.778428940568476,
+            "peak_fraction_total_lag_product_energy": 1.0683785967999914e-05,
+            "bins_searched": 4130,
+            "frequency_resolution_hz": 47.947235026797706
+          },
+          {
+            "lag_samples": 6667,
+            "lag_us": 66.67,
+            "peak_frequency_hz": -64640.27876960639,
+            "peak_period_us": 15.470230312035662,
+            "peak_fraction_total_lag_product_energy": 9.50561072903848e-06,
+            "bins_searched": 4124,
+            "frequency_resolution_hz": 48.02398125527964
+          },
+          {
+            "lag_samples": 14270,
+            "lag_us": 142.7,
+            "peak_frequency_hz": -87049.14951149326,
+            "peak_period_us": 11.48776301218162,
+            "peak_fraction_total_lag_product_energy": 9.350481958749782e-06,
+            "bins_searched": 4108,
+            "frequency_resolution_hz": 48.199972044016214
+          }
+        ]
+      ],
+      "relative_max_fft_magnitude_errors": [
+        2.280147241585449e-16,
+        1.1400736207927246e-16,
+        2.280147241585449e-16
+      ]
+    },
+    {
+      "clip_id": "ac1cdb0ddcdc6ea2a0d39c26",
+      "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+      "category": "DJI FPV COMBO",
+      "actual": [
+        {
+          "lag_samples": 0,
+          "lag_us": 0.0,
+          "peak_frequency_hz": 1388.250612745098,
+          "peak_period_us": 720.3310344827587,
+          "peak_fraction_total_lag_product_energy": 0.0006997484545412752,
+          "bins_searched": 4136,
+          "frequency_resolution_hz": 47.87071078431372
+        },
+        {
+          "lag_samples": 3334,
+          "lag_us": 33.34,
+          "peak_frequency_hz": 44638.875809948666,
+          "peak_period_us": 22.40199785177229,
+          "peak_fraction_total_lag_product_energy": 6.23746111594497e-05,
+          "bins_searched": 4130,
+          "frequency_resolution_hz": 47.947235026797706
+        },
+        {
+          "lag_samples": 6667,
+          "lag_us": 66.67,
+          "peak_frequency_hz": -27997.981071828028,
+          "peak_period_us": 35.71686106346484,
+          "peak_fraction_total_lag_product_energy": 0.0020368696611701037,
+          "bins_searched": 4124,
+          "frequency_resolution_hz": 48.02398125527964
+        },
+        {
+          "lag_samples": 14270,
+          "lag_us": 142.7,
+          "peak_frequency_hz": 33016.9808501511,
+          "peak_period_us": 30.28744525547446,
+          "peak_fraction_total_lag_product_energy": 4.7097974153053925e-05,
+          "bins_searched": 4108,
+          "frequency_resolution_hz": 48.199972044016214
+        }
+      ],
+      "surrogates": [
+        [
+          {
+            "lag_samples": 0,
+            "lag_us": 0.0,
+            "peak_frequency_hz": 10052.849264705881,
+            "peak_period_us": 99.47428571428573,
+            "peak_fraction_total_lag_product_energy": 5.0624050279811654e-05,
+            "bins_searched": 4136,
+            "frequency_resolution_hz": 47.87071078431372
+          },
+          {
+            "lag_samples": 3334,
+            "lag_us": 33.34,
+            "peak_frequency_hz": 40419.519127590465,
+            "peak_period_us": 24.74052194543298,
+            "peak_fraction_total_lag_product_energy": 4.5556900382193955e-05,
+            "bins_searched": 4130,
+            "frequency_resolution_hz": 47.947235026797706
+          },
+          {
+            "lag_samples": 6667,
+            "lag_us": 66.67,
+            "peak_frequency_hz": -83609.75136544184,
+            "peak_period_us": 11.9603273980471,
+            "peak_fraction_total_lag_product_energy": 5.2927288255883454e-05,
+            "bins_searched": 4124,
+            "frequency_resolution_hz": 48.02398125527964
+          },
+          {
+            "lag_samples": 14270,
+            "lag_us": 142.7,
+            "peak_frequency_hz": 80638.55322963912,
+            "peak_period_us": 12.401016138673043,
+            "peak_fraction_total_lag_product_energy": 6.337255551152356e-05,
+            "bins_searched": 4108,
+            "frequency_resolution_hz": 48.199972044016214
+          }
+        ],
+        [
+          {
+            "lag_samples": 0,
+            "lag_us": 0.0,
+            "peak_frequency_hz": 24174.70894607843,
+            "peak_period_us": 41.36554455445545,
+            "peak_fraction_total_lag_product_energy": 5.740529688289363e-05,
+            "bins_searched": 4136,
+            "frequency_resolution_hz": 47.87071078431372
+          },
+          {
+            "lag_samples": 3334,
+            "lag_us": 33.34,
+            "peak_frequency_hz": -20617.311061523014,
+            "peak_period_us": 48.50293023255814,
+            "peak_fraction_total_lag_product_energy": 4.614108007399592e-05,
+            "bins_searched": 4130,
+            "frequency_resolution_hz": 47.947235026797706
+          },
+          {
+            "lag_samples": 6667,
+            "lag_us": 66.67,
+            "peak_frequency_hz": 10901.443744948478,
+            "peak_period_us": 91.73096916299559,
+            "peak_fraction_total_lag_product_energy": 4.882890929730648e-05,
+            "bins_searched": 4124,
+            "frequency_resolution_hz": 48.02398125527964
+          },
+          {
+            "lag_samples": 14270,
+            "lag_us": 142.7,
+            "peak_frequency_hz": 71866.15831762817,
+            "peak_period_us": 13.91475519785379,
+            "peak_fraction_total_lag_product_energy": 4.922323951834239e-05,
+            "bins_searched": 4108,
+            "frequency_resolution_hz": 48.199972044016214
+          }
+        ],
+        [
+          {
+            "lag_samples": 0,
+            "lag_us": 0.0,
+            "peak_frequency_hz": 16706.87806372549,
+            "peak_period_us": 59.85558739255015,
+            "peak_fraction_total_lag_product_energy": 4.560372612995613e-05,
+            "bins_searched": 4136,
+            "frequency_resolution_hz": 47.87071078431372
+          },
+          {
+            "lag_samples": 3334,
+            "lag_us": 33.34,
+            "peak_frequency_hz": -36104.26797517867,
+            "peak_period_us": 27.697556440903057,
+            "peak_fraction_total_lag_product_energy": 4.56367440152537e-05,
+            "bins_searched": 4130,
+            "frequency_resolution_hz": 47.947235026797706
+          },
+          {
+            "lag_samples": 6667,
+            "lag_us": 66.67,
+            "peak_frequency_hz": -25068.518215255972,
+            "peak_period_us": 39.89067049808429,
+            "peak_fraction_total_lag_product_energy": 5.247102264520294e-05,
+            "bins_searched": 4124,
+            "frequency_resolution_hz": 48.02398125527964
+          },
+          {
+            "lag_samples": 14270,
+            "lag_us": 142.7,
+            "peak_frequency_hz": -92736.74621268718,
+            "peak_period_us": 10.78321205821206,
+            "peak_fraction_total_lag_product_energy": 4.944831005265621e-05,
+            "bins_searched": 4108,
+            "frequency_resolution_hz": 48.199972044016214
+          }
+        ]
+      ],
+      "relative_max_fft_magnitude_errors": [
+        3.3591719512816e-16,
+        3.3591719512816e-16,
+        3.3591719512816e-16
+      ]
+    },
+    {
+      "clip_id": "2fd59bc4c8e188f2c6e2f748",
+      "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+      "category": "DJI FPV COMBO",
+      "actual": [
+        {
+          "lag_samples": 0,
+          "lag_us": 0.0,
+          "peak_frequency_hz": -1675.4748774509803,
+          "peak_period_us": 596.8457142857143,
+          "peak_fraction_total_lag_product_energy": 0.0006396968258263705,
+          "bins_searched": 4136,
+          "frequency_resolution_hz": 47.87071078431372
+        },
+        {
+          "lag_samples": 3334,
+          "lag_us": 33.34,
+          "peak_frequency_hz": -2013.7838711255038,
+          "peak_period_us": 496.57761904761907,
+          "peak_fraction_total_lag_product_energy": 0.0010907750924336044,
+          "bins_searched": 4130,
+          "frequency_resolution_hz": 47.947235026797706
+        },
+        {
+          "lag_samples": 6667,
+          "lag_us": 66.67,
+          "peak_frequency_hz": 27997.981071828028,
+          "peak_period_us": 35.71686106346484,
+          "peak_fraction_total_lag_product_energy": 0.0016543892775834467,
+          "bins_searched": 4124,
+          "frequency_resolution_hz": 48.02398125527964
+        },
+        {
+          "lag_samples": 14270,
+          "lag_us": 142.7,
+          "peak_frequency_hz": -3036.598238773021,
+          "peak_period_us": 329.3158730158731,
+          "peak_fraction_total_lag_product_energy": 5.2953328667908535e-05,
+          "bins_searched": 4108,
+          "frequency_resolution_hz": 48.199972044016214
+        }
+      ],
+      "surrogates": [
+        [
+          {
+            "lag_samples": 0,
+            "lag_us": 0.0,
+            "peak_frequency_hz": 30014.935661764703,
+            "peak_period_us": 33.31674641148326,
+            "peak_fraction_total_lag_product_energy": 3.135335320166967e-05,
+            "bins_searched": 4136,
+            "frequency_resolution_hz": 47.87071078431372
+          },
+          {
+            "lag_samples": 3334,
+            "lag_us": 33.34,
+            "peak_frequency_hz": -84291.23917711037,
+            "peak_period_us": 11.86362912400455,
+            "peak_fraction_total_lag_product_energy": 2.6284345866022448e-05,
+            "bins_searched": 4130,
+            "frequency_resolution_hz": 47.947235026797706
+          },
+          {
+            "lag_samples": 6667,
+            "lag_us": 66.67,
+            "peak_frequency_hz": -77318.60982100021,
+            "peak_period_us": 12.933496894409938,
+            "peak_fraction_total_lag_product_energy": 3.6632501317884514e-05,
+            "bins_searched": 4124,
+            "frequency_resolution_hz": 48.02398125527964
+          },
+          {
+            "lag_samples": 14270,
+            "lag_us": 142.7,
+            "peak_frequency_hz": 54128.5686054302,
+            "peak_period_us": 18.474532502226182,
+            "peak_fraction_total_lag_product_energy": 2.9796940250173395e-05,
+            "bins_searched": 4108,
+            "frequency_resolution_hz": 48.199972044016214
+          }
+        ],
+        [
+          {
+            "lag_samples": 0,
+            "lag_us": 0.0,
+            "peak_frequency_hz": 33126.5318627451,
+            "peak_period_us": 30.18728323699422,
+            "peak_fraction_total_lag_product_energy": 3.185209583672672e-05,
+            "bins_searched": 4136,
+            "frequency_resolution_hz": 47.87071078431372
+          },
+          {
+            "lag_samples": 3334,
+            "lag_us": 33.34,
+            "peak_frequency_hz": 98915.14586028366,
+            "peak_period_us": 10.109675230247214,
+            "peak_fraction_total_lag_product_energy": 4.319736497793851e-05,
+            "bins_searched": 4130,
+            "frequency_resolution_hz": 47.947235026797706
+          },
+          {
+            "lag_samples": 6667,
+            "lag_us": 66.67,
+            "peak_frequency_hz": 82072.9839652729,
+            "peak_period_us": 12.184277355178468,
+            "peak_fraction_total_lag_product_energy": 3.364805336754353e-05,
+            "bins_searched": 4124,
+            "frequency_resolution_hz": 48.02398125527964
+          },
+          {
+            "lag_samples": 14270,
+            "lag_us": 142.7,
+            "peak_frequency_hz": 78662.35437583445,
+            "peak_period_us": 12.712561274509806,
+            "peak_fraction_total_lag_product_energy": 2.9796507485784726e-05,
+            "bins_searched": 4108,
+            "frequency_resolution_hz": 48.199972044016214
+          }
+        ],
+        [
+          {
+            "lag_samples": 0,
+            "lag_us": 0.0,
+            "peak_frequency_hz": 49929.15134803921,
+            "peak_period_us": 20.02837967401726,
+            "peak_fraction_total_lag_product_energy": 5.4075929270215587e-05,
+            "bins_searched": 4136,
+            "frequency_resolution_hz": 47.87071078431372
+          },
+          {
+            "lag_samples": 3334,
+            "lag_us": 33.34,
+            "peak_frequency_hz": 87935.22903914699,
+            "peak_period_us": 11.372006543075248,
+            "peak_fraction_total_lag_product_energy": 3.51121743168282e-05,
+            "bins_searched": 4130,
+            "frequency_resolution_hz": 47.947235026797706
+          },
+          {
+            "lag_samples": 6667,
+            "lag_us": 66.67,
+            "peak_frequency_hz": -20746.359902280805,
+            "peak_period_us": 48.20122685185185,
+            "peak_fraction_total_lag_product_energy": 3.364784540911954e-05,
+            "bins_searched": 4124,
+            "frequency_resolution_hz": 48.02398125527964
+          },
+          {
+            "lag_samples": 14270,
+            "lag_us": 142.7,
+            "peak_frequency_hz": 40728.97637719369,
+            "peak_period_us": 24.55254437869823,
+            "peak_fraction_total_lag_product_energy": 3.352622290724603e-05,
+            "bins_searched": 4108,
+            "frequency_resolution_hz": 48.199972044016214
+          }
+        ]
+      ],
+      "relative_max_fft_magnitude_errors": [
+        4.2309680801495666e-16,
+        3.3847744641196537e-16,
+        3.3847744641196537e-16
+      ]
+    },
+    {
+      "clip_id": "67611e1170d4ee30828d799c",
+      "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+      "category": "DJI MAVIC3 PRO",
+      "actual": [
+        {
+          "lag_samples": 0,
+          "lag_us": 0.0,
+          "peak_frequency_hz": 1005.2849264705882,
+          "peak_period_us": 994.7428571428572,
+          "peak_fraction_total_lag_product_energy": 0.008785471448452962,
+          "bins_searched": 4136,
+          "frequency_resolution_hz": 47.87071078431372
+        },
+        {
+          "lag_samples": 3334,
+          "lag_us": 33.34,
+          "peak_frequency_hz": 16254.112674084423,
+          "peak_period_us": 61.52289085545723,
+          "peak_fraction_total_lag_product_energy": 0.0001456841287826668,
+          "bins_searched": 4130,
+          "frequency_resolution_hz": 47.947235026797706
+        },
+        {
+          "lag_samples": 6667,
+          "lag_us": 66.67,
+          "peak_frequency_hz": 27997.981071828028,
+          "peak_period_us": 35.71686106346484,
+          "peak_fraction_total_lag_product_energy": 0.0003538203277722137,
+          "bins_searched": 4124,
+          "frequency_resolution_hz": 48.02398125527964
+        },
+        {
+          "lag_samples": 14270,
+          "lag_us": 142.7,
+          "peak_frequency_hz": -84253.55113294032,
+          "peak_period_us": 11.868935926773458,
+          "peak_fraction_total_lag_product_energy": 0.00015927626862704552,
+          "bins_searched": 4108,
+          "frequency_resolution_hz": 48.199972044016214
+        }
+      ],
+      "surrogates": [
+        [
+          {
+            "lag_samples": 0,
+            "lag_us": 0.0,
+            "peak_frequency_hz": 90236.28982843137,
+            "peak_period_us": 11.082015915119364,
+            "peak_fraction_total_lag_product_energy": 5.579508801262454e-05,
+            "bins_searched": 4136,
+            "frequency_resolution_hz": 47.87071078431372
+          },
+          {
+            "lag_samples": 3334,
+            "lag_us": 33.34,
+            "peak_frequency_hz": 76811.47051292993,
+            "peak_period_us": 13.01888888888889,
+            "peak_fraction_total_lag_product_energy": 6.605902953471248e-05,
+            "bins_searched": 4130,
+            "frequency_resolution_hz": 47.947235026797706
+          },
+          {
+            "lag_samples": 6667,
+            "lag_us": 66.67,
+            "peak_frequency_hz": 14839.410207881408,
+            "peak_period_us": 67.38812297734627,
+            "peak_fraction_total_lag_product_energy": 8.505666581017887e-05,
+            "bins_searched": 4124,
+            "frequency_resolution_hz": 48.02398125527964
+          },
+          {
+            "lag_samples": 14270,
+            "lag_us": 142.7,
+            "peak_frequency_hz": -58321.96617325961,
+            "peak_period_us": 17.146198347107443,
+            "peak_fraction_total_lag_product_energy": 7.187995839524073e-05,
+            "bins_searched": 4108,
+            "frequency_resolution_hz": 48.199972044016214
+          }
+        ],
+        [
+          {
+            "lag_samples": 0,
+            "lag_us": 0.0,
+            "peak_frequency_hz": 23456.648284313724,
+            "peak_period_us": 42.631836734693884,
+            "peak_fraction_total_lag_product_energy": 5.164091407555341e-05,
+            "bins_searched": 4136,
+            "frequency_resolution_hz": 47.87071078431372
+          },
+          {
+            "lag_samples": 3334,
+            "lag_us": 33.34,
+            "peak_frequency_hz": -10931.969586109877,
+            "peak_period_us": 91.47482456140351,
+            "peak_fraction_total_lag_product_energy": 7.840903498747697e-05,
+            "bins_searched": 4130,
+            "frequency_resolution_hz": 47.947235026797706
+          },
+          {
+            "lag_samples": 6667,
+            "lag_us": 66.67,
+            "peak_frequency_hz": -77702.80167104246,
+            "peak_period_us": 12.869548825710753,
+            "peak_fraction_total_lag_product_energy": 7.049967149890507e-05,
+            "bins_searched": 4124,
+            "frequency_resolution_hz": 48.02398125527964
+          },
+          {
+            "lag_samples": 14270,
+            "lag_us": 142.7,
+            "peak_frequency_hz": 5253.796952797767,
+            "peak_period_us": 190.33853211009176,
+            "peak_fraction_total_lag_product_energy": 7.235887152399773e-05,
+            "bins_searched": 4108,
+            "frequency_resolution_hz": 48.199972044016214
+          }
+        ],
+        [
+          {
+            "lag_samples": 0,
+            "lag_us": 0.0,
+            "peak_frequency_hz": -83869.48529411764,
+            "peak_period_us": 11.923287671232877,
+            "peak_fraction_total_lag_product_energy": 8.519578009013284e-05,
+            "bins_searched": 4136,
+            "frequency_resolution_hz": 47.87071078431372
+          },
+          {
+            "lag_samples": 3334,
+            "lag_us": 33.34,
+            "peak_frequency_hz": -83619.9778867352,
+            "peak_period_us": 11.958864678899083,
+            "peak_fraction_total_lag_product_energy": 6.449024253190268e-05,
+            "bins_searched": 4130,
+            "frequency_resolution_hz": 47.947235026797706
+          },
+          {
+            "lag_samples": 6667,
+            "lag_us": 66.67,
+            "peak_frequency_hz": -15655.817889221162,
+            "peak_period_us": 63.87401840490797,
+            "peak_fraction_total_lag_product_energy": 6.818502532266296e-05,
+            "bins_searched": 4124,
+            "frequency_resolution_hz": 48.02398125527964
+          },
+          {
+            "lag_samples": 14270,
+            "lag_us": 142.7,
+            "peak_frequency_hz": 99966.74201928961,
+            "peak_period_us": 10.003326904532306,
+            "peak_fraction_total_lag_product_energy": 8.319997111984307e-05,
+            "bins_searched": 4108,
+            "frequency_resolution_hz": 48.199972044016214
+          }
+        ]
+      ],
+      "relative_max_fft_magnitude_errors": [
+        4.2075318698353533e-16,
+        4.2075318698353533e-16,
+        4.2075318698353533e-16
+      ]
+    },
+    {
+      "clip_id": "75c69b6b945b0b758029491b",
+      "pack_id": "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml",
+      "category": "DJI MINI3",
+      "actual": [
+        {
+          "lag_samples": 0,
+          "lag_us": 0.0,
+          "peak_frequency_hz": 1292.5091911764705,
+          "peak_period_us": 773.688888888889,
+          "peak_fraction_total_lag_product_energy": 0.0025902691871042,
+          "bins_searched": 4136,
+          "frequency_resolution_hz": 47.87071078431372
+        },
+        {
+          "lag_samples": 3334,
+          "lag_us": 33.34,
+          "peak_frequency_hz": -30973.913827311317,
+          "peak_period_us": 32.28523219814242,
+          "peak_fraction_total_lag_product_energy": 3.067218046440254e-05,
+          "bins_searched": 4130,
+          "frequency_resolution_hz": 47.947235026797706
+        },
+        {
+          "lag_samples": 6667,
+          "lag_us": 66.67,
+          "peak_frequency_hz": -55995.962143656056,
+          "peak_period_us": 17.85843053173242,
+          "peak_fraction_total_lag_product_energy": 0.0005806668581568108,
+          "bins_searched": 4124,
+          "frequency_resolution_hz": 48.02398125527964
+        },
+        {
+          "lag_samples": 14270,
+          "lag_us": 142.7,
+          "peak_frequency_hz": -83771.55141250016,
+          "peak_period_us": 11.937226697353282,
+          "peak_fraction_total_lag_product_energy": 3.952518351465291e-05,
+          "bins_searched": 4108,
+          "frequency_resolution_hz": 48.199972044016214
+        }
+      ],
+      "surrogates": [
+        [
+          {
+            "lag_samples": 0,
+            "lag_us": 0.0,
+            "peak_frequency_hz": 17903.645833333332,
+            "peak_period_us": 55.85454545454546,
+            "peak_fraction_total_lag_product_energy": 4.5695174387812935e-05,
+            "bins_searched": 4136,
+            "frequency_resolution_hz": 47.87071078431372
+          },
+          {
+            "lag_samples": 3334,
+            "lag_us": 33.34,
+            "peak_frequency_hz": 94216.31682765749,
+            "peak_period_us": 10.613872773536897,
+            "peak_fraction_total_lag_product_energy": 3.923132073325053e-05,
+            "bins_searched": 4130,
+            "frequency_resolution_hz": 47.947235026797706
+          },
+          {
+            "lag_samples": 6667,
+            "lag_us": 66.67,
+            "peak_frequency_hz": -31119.539853421204,
+            "peak_period_us": 32.1341512345679,
+            "peak_fraction_total_lag_product_energy": 4.510532246868376e-05,
+            "bins_searched": 4124,
+            "frequency_resolution_hz": 48.02398125527964
+          },
+          {
+            "lag_samples": 14270,
+            "lag_us": 142.7,
+            "peak_frequency_hz": 9880.994269023322,
+            "peak_period_us": 101.20439024390247,
+            "peak_fraction_total_lag_product_energy": 4.583874790384794e-05,
+            "bins_searched": 4108,
+            "frequency_resolution_hz": 48.199972044016214
+          }
+        ],
+        [
+          {
+            "lag_samples": 0,
+            "lag_us": 0.0,
+            "peak_frequency_hz": 28291.59007352941,
+            "peak_period_us": 35.34619289340102,
+            "peak_fraction_total_lag_product_energy": 4.016898427496774e-05,
+            "bins_searched": 4136,
+            "frequency_resolution_hz": 47.87071078431372
+          },
+          {
+            "lag_samples": 3334,
+            "lag_us": 33.34,
+            "peak_frequency_hz": -57680.52373723764,
+            "peak_period_us": 17.336874480465504,
+            "peak_fraction_total_lag_product_energy": 4.347818315039121e-05,
+            "bins_searched": 4130,
+            "frequency_resolution_hz": 47.947235026797706
+          },
+          {
+            "lag_samples": 6667,
+            "lag_us": 66.67,
+            "peak_frequency_hz": 31599.779665974,
+            "peak_period_us": 31.64579027355623,
+            "peak_fraction_total_lag_product_energy": 3.800656871326131e-05,
+            "bins_searched": 4124,
+            "frequency_resolution_hz": 48.02398125527964
+          },
+          {
+            "lag_samples": 14270,
+            "lag_us": 142.7,
+            "peak_frequency_hz": -68010.16055410687,
+            "peak_period_us": 14.70368532955351,
+            "peak_fraction_total_lag_product_energy": 3.4623841195442665e-05,
+            "bins_searched": 4108,
+            "frequency_resolution_hz": 48.199972044016214
+          }
+        ],
+        [
+          {
+            "lag_samples": 0,
+            "lag_us": 0.0,
+            "peak_frequency_hz": -24557.67463235294,
+            "peak_period_us": 40.72046783625731,
+            "peak_fraction_total_lag_product_energy": 4.839670086917886e-05,
+            "bins_searched": 4136,
+            "frequency_resolution_hz": 47.87071078431372
+          },
+          {
+            "lag_samples": 3334,
+            "lag_us": 33.34,
+            "peak_frequency_hz": -6808.507373805274,
+            "peak_period_us": 146.87507042253523,
+            "peak_fraction_total_lag_product_energy": 4.885038565287799e-05,
+            "bins_searched": 4130,
+            "frequency_resolution_hz": 47.947235026797706
+          },
+          {
+            "lag_samples": 6667,
+            "lag_us": 66.67,
+            "peak_frequency_hz": 36690.321679033645,
+            "peak_period_us": 27.25514397905759,
+            "peak_fraction_total_lag_product_energy": 3.692806770918378e-05,
+            "bins_searched": 4124,
+            "frequency_resolution_hz": 48.02398125527964
+          },
+          {
+            "lag_samples": 14270,
+            "lag_us": 142.7,
+            "peak_frequency_hz": -45404.37366546327,
+            "peak_period_us": 22.02430997876858,
+            "peak_fraction_total_lag_product_energy": 4.106830820473372e-05,
+            "bins_searched": 4108,
+            "frequency_resolution_hz": 48.199972044016214
+          }
+        ]
+      ],
+      "relative_max_fft_magnitude_errors": [
+        4.2471765061029446e-16,
+        3.3977412048823557e-16,
+        4.2471765061029446e-16
+      ]
+    },
+    {
+      "clip_id": "7c7bab79730415f4603c2bd4",
+      "pack_id": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml",
+      "category": "DJI MINI4 PRO",
+      "actual": [
+        {
+          "lag_samples": 0,
+          "lag_us": 0.0,
+          "peak_frequency_hz": -1196.767769607843,
+          "peak_period_us": 835.5840000000001,
+          "peak_fraction_total_lag_product_energy": 0.008743596829887026,
+          "bins_searched": 4136,
+          "frequency_resolution_hz": 47.87071078431372
+        },
+        {
+          "lag_samples": 3334,
+          "lag_us": 33.34,
+          "peak_frequency_hz": -28001.18525564986,
+          "peak_period_us": 35.71277397260274,
+          "peak_fraction_total_lag_product_energy": 0.0003876188909389793,
+          "bins_searched": 4130,
+          "frequency_resolution_hz": 47.947235026797706
+        },
+        {
+          "lag_samples": 6667,
+          "lag_us": 66.67,
+          "peak_frequency_hz": -78903.40120242444,
+          "peak_period_us": 12.673724893487522,
+          "peak_fraction_total_lag_product_energy": 3.751842909103944e-05,
+          "bins_searched": 4124,
+          "frequency_resolution_hz": 48.02398125527964
+        },
+        {
+          "lag_samples": 14270,
+          "lag_us": 142.7,
+          "peak_frequency_hz": -1204.999301100405,
+          "peak_period_us": 829.8760000000002,
+          "peak_fraction_total_lag_product_energy": 0.0005672294296192498,
+          "bins_searched": 4108,
+          "frequency_resolution_hz": 48.199972044016214
+        }
+      ],
+      "surrogates": [
+        [
+          {
+            "lag_samples": 0,
+            "lag_us": 0.0,
+            "peak_frequency_hz": 80997.24264705883,
+            "peak_period_us": 12.346099290780142,
+            "peak_fraction_total_lag_product_energy": 2.5806344011067645e-05,
+            "bins_searched": 4136,
+            "frequency_resolution_hz": 47.87071078431372
+          },
+          {
+            "lag_samples": 3334,
+            "lag_us": 33.34,
+            "peak_frequency_hz": -41809.9889433676,
+            "peak_period_us": 23.917729357798166,
+            "peak_fraction_total_lag_product_energy": 3.9099819038758954e-05,
+            "bins_searched": 4130,
+            "frequency_resolution_hz": 47.947235026797706
+          },
+          {
+            "lag_samples": 6667,
+            "lag_us": 66.67,
+            "peak_frequency_hz": -42309.12748590136,
+            "peak_period_us": 23.635561861521,
+            "peak_fraction_total_lag_product_energy": 3.7802918163612247e-05,
+            "bins_searched": 4124,
+            "frequency_resolution_hz": 48.02398125527964
+          },
+          {
+            "lag_samples": 14270,
+            "lag_us": 142.7,
+            "peak_frequency_hz": 20002.988398266727,
+            "peak_period_us": 49.99253012048193,
+            "peak_fraction_total_lag_product_energy": 3.985355812710202e-05,
+            "bins_searched": 4108,
+            "frequency_resolution_hz": 48.199972044016214
+          }
+        ],
+        [
+          {
+            "lag_samples": 0,
+            "lag_us": 0.0,
+            "peak_frequency_hz": 30397.901348039213,
+            "peak_period_us": 32.89700787401575,
+            "peak_fraction_total_lag_product_energy": 2.740935664399976e-05,
+            "bins_searched": 4136,
+            "frequency_resolution_hz": 47.87071078431372
+          },
+          {
+            "lag_samples": 3334,
+            "lag_us": 33.34,
+            "peak_frequency_hz": 30398.547006989746,
+            "peak_period_us": 32.89630914826499,
+            "peak_fraction_total_lag_product_energy": 3.127216928871453e-05,
+            "bins_searched": 4130,
+            "frequency_resolution_hz": 47.947235026797706
+          },
+          {
+            "lag_samples": 6667,
+            "lag_us": 66.67,
+            "peak_frequency_hz": 7779.884963355301,
+            "peak_period_us": 128.5366049382716,
+            "peak_fraction_total_lag_product_energy": 3.661542038843649e-05,
+            "bins_searched": 4124,
+            "frequency_resolution_hz": 48.02398125527964
+          },
+          {
+            "lag_samples": 14270,
+            "lag_us": 142.7,
+            "peak_frequency_hz": -5542.996785061864,
+            "peak_period_us": 180.40782608695653,
+            "peak_fraction_total_lag_product_energy": 3.6099002330371364e-05,
+            "bins_searched": 4108,
+            "frequency_resolution_hz": 48.199972044016214
+          }
+        ],
+        [
+          {
+            "lag_samples": 0,
+            "lag_us": 0.0,
+            "peak_frequency_hz": 55194.92953431372,
+            "peak_period_us": 18.11760624457936,
+            "peak_fraction_total_lag_product_energy": 3.766775124036758e-05,
+            "bins_searched": 4136,
+            "frequency_resolution_hz": 47.87071078431372
+          },
+          {
+            "lag_samples": 3334,
+            "lag_us": 33.34,
+            "peak_frequency_hz": -18267.896545209926,
+            "peak_period_us": 54.74083989501313,
+            "peak_fraction_total_lag_product_energy": 3.2383725718171245e-05,
+            "bins_searched": 4130,
+            "frequency_resolution_hz": 47.947235026797706
+          },
+          {
+            "lag_samples": 6667,
+            "lag_us": 66.67,
+            "peak_frequency_hz": -1536.7674001689484,
+            "peak_period_us": 650.7165625,
+            "peak_fraction_total_lag_product_energy": 3.5131281006278644e-05,
+            "bins_searched": 4124,
+            "frequency_resolution_hz": 48.02398125527964
+          },
+          {
+            "lag_samples": 14270,
+            "lag_us": 142.7,
+            "peak_frequency_hz": -55237.167962442574,
+            "peak_period_us": 18.103752181500877,
+            "peak_fraction_total_lag_product_energy": 3.8625568137512815e-05,
+            "bins_searched": 4108,
+            "frequency_resolution_hz": 48.199972044016214
+          }
+        ]
+      ],
+      "relative_max_fft_magnitude_errors": [
+        4.790587827470975e-16,
+        3.592940870603231e-16,
+        3.592940870603231e-16
+      ]
+    }
+  ],
+  "checks": {
+    "status": "PASS",
+    "known_envelope_frequency_hz": 4096,
+    "relative_max_fft_magnitude_error": 4.857942538571154e-16
+  },
+  "model_updates": 0,
+  "heldout_read": false,
+  "validation_read": false,
+  "interpretation": "Descriptive three-surrogate comparison; no p-value, multiple-comparison inference, protocol label, independence claim or separation result"
+}

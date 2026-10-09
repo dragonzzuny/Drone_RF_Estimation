@@ -2,15 +2,17 @@
 
 혼합 복소 I/Q에서 1–3개 원기록의 기여 파형을 복원하고, 학습하지 않은 기록·기종·조합에 대한 일반화를 검증하는 연구입니다.
 
-## 현재 진행 — 2026-10-10 02:02 KST
+## 현재 진행 — 2026-10-10 02:19 KST
 
-**기존 최선 U-Net과 성분 상호작용 출력층을 추가한 U-Net의 GPU 본 비교를 진행 중입니다.** 양쪽 추가 e2가 완료됐고 기존 U-Net e3가 진행 중입니다. 같은 부모·전체 본체·원 손실·AdamW 1e-5·자료 일정·실효 batch 32·각 추가 3 epoch/225업데이트입니다. e2에서도 후보의 이점은 없었고 선택은 양쪽 e0입니다. [epoch별 전체 결과](reports/2026-10-10/SOURCE_INTERACTION_PROGRESS.md).
+**기존 최선 U-Net과 성분 상호작용 출력층을 추가한 U-Net의 GPU 본 비교를 진행 중입니다.** 기존 U-Net의 추가 3 epoch가 완료됐고 후보의 마지막 e3가 진행 중입니다. 같은 부모·전체 본체·원 손실·AdamW 1e-5·자료 일정·실효 batch 32·각 추가 3 epoch/225업데이트입니다. e2에서도 후보의 이점은 없었고 선택은 양쪽 e0입니다. [epoch별 전체 결과](reports/2026-10-10/SOURCE_INTERACTION_PROGRESS.md).
 
 CPU에서는 실제 학습된 추가층의 내부 계산을 확인했습니다. TRAIN4에서 공통 특징을 합친 표현의 성분 차이가 작았고 attention의 차이도 매우 작았습니다. 원시 출력 자체가 같다는 뜻은 아닙니다. [내부 수치와 교차항 검산](reports/2026-10-10/SOURCE_HEAD_MECHANISM_KO.md).
 
 본 비교 뒤 새 층 학습률 검사, 이어서 같은 규모·같은 학습률의 입력 정규화 대조를 등록했습니다. 각각 TRAIN4의 최적화 진단이며 새 기록 성능 평가와 구분합니다. [학습률 규약](reports/2026-10-10/SOURCE_HEAD_FOLLOWUP_PLAN_KO.md), [입력 정규화 대조](reports/2026-10-10/BALANCED_SOURCE_HEAD_PLAN_KO.md).
 
 단독 TRAIN 기록 24구간에서 33.3–142.7 μs 등의 복소 상관 지연도 측정했습니다. 현재 복원 창 안에 들어가는 시간 범위이며, 특정 통신 규약이나 분리 가능성의 증명은 아닙니다. [전체 측정과 그림](reports/2026-10-10/TRAIN_COMPLEX_LAGS_KO.md).
+
+같은 스펙트럼을 보존한 위상 무작위 대조에서도 일부 지연 관계가 구별됐습니다. 8묶음·전체 32조건을 공개하며 이를 규약 판별이나 분리 성공으로 해석하지 않습니다. [시간 구조와 대조 그림](reports/2026-10-10/TRAIN_CYCLIC_STRUCTURE_KO.md). 2–4 RF 성분을 다룬 RFSS의 최신 수정본과 공개 코드도 검토했습니다. [구판 철회·지표 차이·적용 범위](reports/2026-10-10/RFSS_CORRECTED_REVIEW_KO.md).
 
 [현재 목표와 계획](docs/PLAN_KO.md) · [본 비교 규약](reports/2026-10-10/SOURCE_INTERACTION_MAIN_PLAN_KO.md) · [학습 적합도·정답 마스크 진단](reports/2026-10-10/SOURCE_INTERACTION_E1_DIAGNOSIS_KO.md)
 
