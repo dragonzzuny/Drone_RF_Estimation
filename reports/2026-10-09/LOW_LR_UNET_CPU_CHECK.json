@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "worker_sha256": "dbdc8e0344370b29de8b9737576062ae19902cbc161e200b25ab94dd6d661f0a",
+  "parameters": 32142859,
+  "source_sha256": {
+    "experiments/architecture_audit_20261009/check_low_lr.py": "9052241ee2308f349eeac39052d858a52e0de2047e7df83228732b84df5e6f3e"
+  },
+  "reused_full_input_check_sha256": "adff68a5a5d19a97568df8822cb8fa1d832311c4e99c79c8dc1ecb6913deb4ed",
+  "same_model_forward_loss_calls": true,
+  "configured_epochs_per_arm": 1,
+  "configured_updates_per_arm": 75,
+  "learning_rate": 0.0001,
+  "reference_learning_rate": 0.0005,
+  "synthetic_optimizer_step_ratio": 0.2000000000001332,
+  "recorded_iq_reads": 0,
+  "rf_training_updates": 0,
+  "synthetic_optimizer_unit_steps": 2,
+  "note": "No new RF/model fitting. Full-capacity construction and unchanged input/loss checks plus optimizer unit check."
+}
