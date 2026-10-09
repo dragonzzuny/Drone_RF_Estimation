@@ -1,0 +1,111 @@
+{
+  "status": "COMPLETE_SNAPSHOT",
+  "common_completed_epoch": 3,
+  "rows": [
+    {
+      "epoch": 1,
+      "count": 2,
+      "cases": 210,
+      "validation_sha256": {
+        "local": "ed54712c19b036e57907874f19ff36720fc2d481565a2e9e11b88554c42c72cd",
+        "long": "1d45a792d11ee2f59162c9387617a375fe34170eade284779738368750943a27"
+      },
+      "mean_nmse_delta": 0.46744042742468944,
+      "median_nmse_delta": 0.003369432329766664,
+      "mean_si_delta": 0.1644654674402917,
+      "median_si_delta": 0.13265643611266953,
+      "mixture_mean_both_better": 66,
+      "weakest_both_better": 88,
+      "every_source_both_better": 7
+    },
+    {
+      "epoch": 1,
+      "count": 3,
+      "cases": 210,
+      "validation_sha256": {
+        "local": "ed54712c19b036e57907874f19ff36720fc2d481565a2e9e11b88554c42c72cd",
+        "long": "1d45a792d11ee2f59162c9387617a375fe34170eade284779738368750943a27"
+      },
+      "mean_nmse_delta": 0.014322681915116741,
+      "median_nmse_delta": -0.0013784358738127,
+      "mean_si_delta": 0.20928256612886767,
+      "median_si_delta": 0.19607552239821713,
+      "mixture_mean_both_better": 116,
+      "weakest_both_better": 81,
+      "every_source_both_better": 4
+    },
+    {
+      "epoch": 2,
+      "count": 2,
+      "cases": 210,
+      "validation_sha256": {
+        "local": "528cfbd17ffc16f4e8c3881652c90d4729ff2174c08b2d7289433cf0ecc0f60d",
+        "long": "439b7035ec0f797d1e158af66e2cd453dc8616c7865b117255534adc68024aff"
+      },
+      "mean_nmse_delta": 0.18271763516757655,
+      "median_nmse_delta": 0.0029242087188965926,
+      "mean_si_delta": -0.14776651782830952,
+      "median_si_delta": -0.1282451916183911,
+      "mixture_mean_both_better": 19,
+      "weakest_both_better": 26,
+      "every_source_both_better": 8
+    },
+    {
+      "epoch": 2,
+      "count": 3,
+      "cases": 210,
+      "validation_sha256": {
+        "local": "528cfbd17ffc16f4e8c3881652c90d4729ff2174c08b2d7289433cf0ecc0f60d",
+        "long": "439b7035ec0f797d1e158af66e2cd453dc8616c7865b117255534adc68024aff"
+      },
+      "mean_nmse_delta": 0.02247599498414149,
+      "median_nmse_delta": 0.006009012330387642,
+      "mean_si_delta": -0.09812154882276686,
+      "median_si_delta": -0.09352750788572006,
+      "mixture_mean_both_better": 24,
+      "weakest_both_better": 19,
+      "every_source_both_better": 2
+    },
+    {
+      "epoch": 3,
+      "count": 2,
+      "cases": 210,
+      "validation_sha256": {
+        "local": "3273ea5b975e76619dc82cd473567a81a938b4f12fa3d3c910ed997925abb4d9",
+        "long": "eb7328c39cd2c7cb69f3d3695af498de6fe4a0c9aaca78061284dbb8ef1b8ec3"
+      },
+      "mean_nmse_delta": -0.13689394090769602,
+      "median_nmse_delta": -0.0032935631248128816,
+      "mean_si_delta": 0.11133677540751562,
+      "median_si_delta": 0.11703497828350784,
+      "mixture_mean_both_better": 167,
+      "weakest_both_better": 169,
+      "every_source_both_better": 39
+    },
+    {
+      "epoch": 3,
+      "count": 3,
+      "cases": 210,
+      "validation_sha256": {
+        "local": "3273ea5b975e76619dc82cd473567a81a938b4f12fa3d3c910ed997925abb4d9",
+        "long": "eb7328c39cd2c7cb69f3d3695af498de6fe4a0c9aaca78061284dbb8ef1b8ec3"
+      },
+      "mean_nmse_delta": -0.01528233245149525,
+      "median_nmse_delta": -0.006742742572381999,
+      "mean_si_delta": 0.20893838632825434,
+      "median_si_delta": 0.15889886393671437,
+      "mixture_mean_both_better": 196,
+      "weakest_both_better": 190,
+      "every_source_both_better": 65
+    }
+  ],
+  "source_sha256": "dd97becb6945268eb434c972acc5f23e227888e87d0b02965e07ac2338b0ea56",
+  "protocol_sha256": "b5ed9e0f39e8cc9c03da2bcfa25c8caaf930a5c5662d7a7ec4c8e656f39ff60c",
+  "waveform_reads": 0,
+  "heldout_read": false,
+  "selection_changed": false,
+  "independent_test": false,
+  "difference": "long minus local; negative NMSE and positive SI-SDR differences favor long",
+  "scope": "Same actual epoch, no checkpoint cherry-picking. Correlated crops, one training seed; descriptive only",
+  "significance_test": false
+}
