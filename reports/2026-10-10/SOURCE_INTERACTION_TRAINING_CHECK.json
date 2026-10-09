@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "worker_sha256": "cfe5e763f2702426815787735d33e0d29a50514ce4d1949368dbb12a024e36fe",
+  "checker_sha256": "6268139edc12246f674cec0494d78c07973cf0f7dca1f7d4d89a9b8026c7a7d5",
+  "parent_checkpoint_sha256": "19888f8823fbb6ade6333d40bd849dec3202e522ded016e7265eaced6b52aa49",
+  "source_head_sha256": "e62b7628a1648866b203d0e4ebbff8684af587796f65f80e07fcac27d52937ba",
+  "results": [
+    {
+      "arm": "retained_unet",
+      "parameters": 32142859,
+      "parent_state_exact": true,
+      "all_parameters_trainable": true,
+      "learning_rate": 1e-05
+    },
+    {
+      "arm": "source_interaction",
+      "parameters": 32180747,
+      "parent_state_exact": true,
+      "all_parameters_trainable": true,
+      "learning_rate": 1e-05
+    }
+  ],
+  "nonzero_augmented_head_checkpoint_roundtrip": true,
+  "recorded_iq_reads": 0,
+  "heldout_read": false,
+  "training_updates": 0
+}

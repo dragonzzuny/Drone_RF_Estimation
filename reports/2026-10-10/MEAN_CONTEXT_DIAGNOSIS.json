@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "source_sha256": "d1c23caa5fa54e894dd560ecf7be6fc4db5e5e15fa9fd4f81674f3842346eb25",
+  "context_implementation_sha256": "a6bb37a4a5fb8c5c7f0472b76a92d80f178183d91118367b74fe557873d64794",
+  "parent_checkpoint_sha256": "19888f8823fbb6ade6333d40bd849dec3202e522ded016e7265eaced6b52aa49",
+  "input": "synthetic time-constant65x255 features",
+  "crop_starts": [
+    4097,
+    1000000
+  ],
+  "fine_stft_frames": 500,
+  "encoded_edge_center_rms_difference": 0.5072240829467773,
+  "aligned_two_crop_positions_rms_difference": 0.36801931262016296,
+  "input_temporal_order_available": false,
+  "position_dependence_remains": true,
+  "recorded_iq_reads": 0,
+  "training_updates": 0,
+  "heldout_read": false,
+  "limitation": "Feature-space differences, not RF waveform errors. Zero-padded TCN boundary position survives mean conditioning; hopping order does not. No causal claim about separation failures."
+}
