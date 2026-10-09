@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "protocol_sha256": "ee13bf21f637ae04b2848aad9a9c894d98ddbe3aaad3cf8e1354127e53878b95",
+  "complete_sha256": "0b3a20fc53067422de300e658b4514116f41606df847e06ee78ef9a65758c757",
+  "auditor_sha256": "85b8ee4fa6806167c8e7fa88c851abd12ccc2ead99d777f9aa7b9ae03b28b430",
+  "all_630_rows_each_arm_reaggregated": true,
+  "all_actual_selected_tensors_checked": true,
+  "optimizer_groups_learning_rates_and_steps_checked": true,
+  "frozen_parent_tensors_exact": true,
+  "frozen_predicted_counts_all_630_unchanged": true,
+  "source_hashes_checked": true,
+  "hashes": {
+    "joint_adapter_lr": {
+      "ACTUAL_001.pt": "431c5bb53ad4c72fe21e5c7cd7dce12e76fb27f8e32b1cd229ba9844b2ff79c8",
+      "LAST.pt": "b09ef64455a00f6e34e0a6bc53cd3126153745859b7f81c224fa48b228e0aa63",
+      "BEST.pt": "0417ed81e127ed885a5864f28a2d65e942a04949d41238c89fc6bf978307cab6",
+      "VALIDATION_001.json": "184bb1238f53058c71b0f5bd881e5adb719d513629922146dc03da70324edf42"
+    },
+    "frozen_backbone": {
+      "ACTUAL_001.pt": "2e8b1afc71da52551f9f15d745e79227472441f265a911f7c52e5ffe246159b6",
+      "LAST.pt": "0b78ceecd1592b7c1e2071d0d9b56f7ba1533ea1c07e38f4cb8955dd8982d4e0",
+      "BEST.pt": "48c7482718da4be08c9d5bc7cfb18f6b30e804fff6258f146721db9b163205a6",
+      "VALIDATION_001.json": "c737766080cbc7ade5eb94171019519bbe792cce7c357771f3449d8470f17849"
+    }
+  },
+  "gpu_use": false,
+  "heldout_read": false,
+  "recorded_iq_reads": 0,
+  "independently_reran_inference": false
+}

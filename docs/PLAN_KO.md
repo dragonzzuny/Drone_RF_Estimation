@@ -1,14 +1,18 @@
 # 드론 복소 I/Q 분리: 현행 목표와 실행계획
 
-갱신: **2026-10-10 08:26 KST**. [직전 계획과 종료된 비교 이력](PLAN_HISTORY_THROUGH_20261010_0029_KO.md)을 보존했다. 실행 상태는 기록 시점 기준이다.
+갱신: 2026-10-10 08:48 KST
 
-**현재 실행:** 두 축 U-Net 총3epoch/225업데이트와 최종 검산을 마쳤다. 실제e3 NMSE2/3=0.489924/0.689079, 복소SI-SDR=3.473/−2.990dB다. 세 성분 평균은 부모보다 소폭 개선됐으나 두 성분·최약 성분까지 함께 개선하지 못해 선택은e0다. GPU에서는 새 층lr1e-4·본체lr1e-5의 공동 학습군이1epoch65/75업데이트를 진행 중이며, 이어 본체 고정군을 비교한다. [3epoch 결과](../reports/2026-10-10/TF_AXIS_CONTINUATION_KO.md), [학습 곡선 PDF](../reports/2026-10-10/TF_AXIS_CONTINUATION_CURVES.pdf), [후속 규약](../reports/2026-10-10/TF_AXIS_ADAPTATION_PLAN_KO.md).
+GPU의 두 창 지도학습 대조군이1epoch **29/75업데이트**를 진행 중입니다. 이어 같은4800창·75업데이트의 창 간 일관성0.1 후보를 비교합니다. 기존32,142,859개 파라미터를 모두 유지합니다. 실행 상태는 2026-10-10 08:48 KST 실제 진행 파일 기준입니다. [두 창 규약](../reports/2026-10-10/PAIRED_WINDOW_PLAN_KO.md), [수식·선행 검토](../reports/2026-10-10/PAIRED_WINDOW_METHOD_KO.md).
 
-두 축 후보는 실제e1 모델·AdamW·RNG의 완전 일치를 확인해 총3epoch/225업데이트를 완료했다. e1 성적을 보기 전에 예산을 정했고 기존1epoch 규약은 바꾸지 않았다. 동일한225업데이트 원 손실 대조의 각epoch, 실제·선택 가중치와optimizer225단계를 검산했다. [규약](../reports/2026-10-10/TF_AXIS_CONTINUATION_PLAN_KO.md), [최종 검산](../reports/2026-10-10/TF_AXIS_CONTINUATION_AUDIT.json).
+시간·주파수 두 축 보강층의 학습률/본체 고정 비교는 두 군 모두1epoch/75업데이트와 최종 검산을 완료했습니다. 본체 고정군의 NMSE2/3는0.466109/0.690632, 복소SI-SDR은3.822/−3.209dB입니다. 두 성분은 부모보다 조금 좋아졌지만 세 성분의 평균 복원은 악화해 기존 부모를 유지합니다. 전체 평균NMSE 선택은고정군e1이며, 공동 개선 채택 기준과는 별개입니다. [두 군 전체 결과·검산](../reports/2026-10-10/TF_AXIS_ADAPTATION_KO.md).
 
-고정TRAIN6에서 새 층의 추가 특징RMS는 입력의0.38–0.63%였고 우회·이식의 공동 개선은 없었다. [수치·검산](../reports/2026-10-10/TF_AXIS_MECHANISM_KO.md). 이에 따른 본체 학습/고정 후속은 둘 다37.41M 전체 추론 구조를 유지하며 각75업데이트다. 새 층lr1e-4를 동일하게 준다. [후속 규약](../reports/2026-10-10/TF_AXIS_ADAPTATION_PLAN_KO.md), [현재 구조](../reports/2026-10-10/CURRENT_METHOD_KO.md).
+CPU에서 TRAIN48의 정답100성분을 분석했습니다. 세 성분 최약 파형의 에너지 중 그 성분이 가장 강한 칸에 포함된 비율은 중앙값22.61%였습니다. 겹친 약한 성분을 최강 라벨에서 버리는 문제를 점검한 진단입니다. 학습이나 개발 성능이 아닙니다. [우세도 분석](../reports/2026-10-10/SOURCE_DOMINANCE_KO.md).
 
-현재 두 군도 공동 개선이 없으면 같은 혼합의 겹친 두 창 지도학습 대조와 일관성0.1 후보가 이어지도록 준비·수식 검사·원 규모 CPU 역전파·조건부 대기를 완료했다. 두 군 모두 기존 부모32.14M 전체,2400쌍/75업데이트이며 같은3forward/2backward를 사용한다. 추가 항은2/3성분에만 적용한다. 아직 GPU 학습 결과는 없다. [규약](../reports/2026-10-10/PAIRED_WINDOW_PLAN_KO.md), [수식·선행·메모리 절약 미분](../reports/2026-10-10/PAIRED_WINDOW_METHOD_KO.md).
+이를 바탕으로 **성분 친화도 보조 학습**을 구현했습니다. 원 U-Net에 학습용1,040파라미터 층을 붙여, 기존 손실/최강 성분 라벨/여러 성분의 부드러운 기여도 라벨을 같은 예산으로 비교합니다. 수식·미분·원 규모 CPU 역전파 검사와 소스 동결을 마쳤으며, 두 창 실험이 공동 개선에 실패할 때만 이어지는 조건부 대기 상태입니다. 아직 이 후보의 GPU 학습 결과는 없습니다. [계획](../reports/2026-10-10/SOURCE_AFFINITY_PLAN_KO.md), [선행·수식](../reports/2026-10-10/SOURCE_AFFINITY_METHOD_KO.md), [CPU 검사](../reports/2026-10-10/SOURCE_AFFINITY_TRAINING_CHECK.json).
+
+두 축 구조의 기존3epoch/225업데이트 결과와 창 위치/정렬 진단도 보존했습니다. [학습 곡선 PDF](../reports/2026-10-10/TF_AXIS_CONTINUATION_CURVES.pdf), [창 비교](../reports/2026-10-10/WINDOW_OVERLAP_KO.md), [정렬 비교](../reports/2026-10-10/OVERLAP_ALIGNMENT_KO.md).
+
+[직전 계획과 종료된 비교 이력](PLAN_HISTORY_THROUGH_20261010_0029_KO.md)을 보존했다.
 
 CPU의 고정TRAIN48 재평가에서 PCGrad·CAGrad 모두 부모보다 학습 부분집합의 두·세 파형 지표는 좋아졌으나 DEV에서는 악화했다. 원 손실 대조에 대한 일관된 우월성은 없으며 과적합의 원인 전체를 확정하는 결과도 아니다. [192행·체크포인트 검산](../reports/2026-10-10/COUNT_TRAIN_FIT_KO.md).
 

@@ -1,0 +1,2867 @@
+{
+  "status": "COMPLETE",
+  "protocol_sha256": "1d5cb47f829debcd0a902de2e7dfb0e63ac88e9caf865e2a7a4bd8d5b9b5d896",
+  "rows": [
+    {
+      "index": 0,
+      "count": 1,
+      "slot": 0,
+      "category": "DJI FPV COMBO",
+      "weakest": true,
+      "waveform_power": 0.19656672628484773,
+      "winning_bin_fraction": 1.0,
+      "source_energy_in_winning_bins": 1.0000000000000002,
+      "energy_weighted_own_fraction": 1.0,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 1.0000000000000002
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 1.0000000000000002
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 1.0000000000000002
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "count": 1,
+      "slot": 0,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": true,
+      "waveform_power": 0.06598947923503985,
+      "winning_bin_fraction": 1.0,
+      "source_energy_in_winning_bins": 0.9999999999999998,
+      "energy_weighted_own_fraction": 1.0,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 0.9999999999999998
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 0.9999999999999998
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 0.9999999999999998
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "count": 3,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": false,
+      "waveform_power": 0.21366361689242833,
+      "winning_bin_fraction": 0.66572265625,
+      "source_energy_in_winning_bins": 0.8689217506414584,
+      "energy_weighted_own_fraction": 0.8728945120343067,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.657546875,
+          "source_energy_fraction": 0.8683843929394494
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.5608515625,
+          "source_energy_fraction": 0.850456935795931
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.4329921875,
+          "source_energy_fraction": 0.8171083842628678
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "count": 3,
+      "slot": 1,
+      "category": "DJI FPV COMBO",
+      "weakest": false,
+      "waveform_power": 0.41493681321210335,
+      "winning_bin_fraction": 0.23420703125,
+      "source_energy_in_winning_bins": 0.9695027892798965,
+      "energy_weighted_own_fraction": 0.9023100205067927,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.22330859375,
+          "source_energy_fraction": 0.9669395819037403
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.13184765625,
+          "source_energy_fraction": 0.8619079585874868
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.04433203125,
+          "source_energy_fraction": 0.5491451401402332
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "count": 3,
+      "slot": 2,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": true,
+      "waveform_power": 0.08442038825742745,
+      "winning_bin_fraction": 0.1000703125,
+      "source_energy_in_winning_bins": 0.7647156146758296,
+      "energy_weighted_own_fraction": 0.7111964590299432,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.0935546875,
+          "source_energy_fraction": 0.7520100915779324
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.04255078125,
+          "source_energy_fraction": 0.5272210661279795
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.0105,
+          "source_energy_fraction": 0.25898893903726367
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "count": 1,
+      "slot": 0,
+      "category": "DJI MINI4 PRO",
+      "weakest": true,
+      "waveform_power": 0.08472488664259162,
+      "winning_bin_fraction": 1.0,
+      "source_energy_in_winning_bins": 1.0000000000000002,
+      "energy_weighted_own_fraction": 1.0,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 1.0000000000000002
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 1.0000000000000002
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 1.0000000000000002
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "count": 2,
+      "slot": 0,
+      "category": "DJI FPV COMBO",
+      "weakest": true,
+      "waveform_power": 0.22920438514845085,
+      "winning_bin_fraction": 0.2835625,
+      "source_energy_in_winning_bins": 0.9982999707656504,
+      "energy_weighted_own_fraction": 0.9976926279600624,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.2835625,
+          "source_energy_fraction": 0.9982999707656504
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.14743359375,
+          "source_energy_fraction": 0.997125717011895
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.06717578125,
+          "source_energy_fraction": 0.9960446769279988
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "count": 2,
+      "slot": 1,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": false,
+      "waveform_power": 0.25763593577097677,
+      "winning_bin_fraction": 0.7164375,
+      "source_energy_in_winning_bins": 0.9988607592158826,
+      "energy_weighted_own_fraction": 0.9979437213158698,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.7164375,
+          "source_energy_fraction": 0.9988607592158826
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.54203125,
+          "source_energy_fraction": 0.9970338429712068
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.3831328125,
+          "source_energy_fraction": 0.9943160827295691
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "count": 2,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": false,
+      "waveform_power": 2.7584760524276057,
+      "winning_bin_fraction": 0.52149609375,
+      "source_energy_in_winning_bins": 0.9975754942818478,
+      "energy_weighted_own_fraction": 0.9970010049266858,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.52149609375,
+          "source_energy_fraction": 0.9975754942818478
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.4089765625,
+          "source_energy_fraction": 0.9966807727182575
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.32028125,
+          "source_energy_fraction": 0.9933086399149288
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "count": 2,
+      "slot": 1,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": true,
+      "waveform_power": 0.12966367582857852,
+      "winning_bin_fraction": 0.47850390625,
+      "source_energy_in_winning_bins": 0.9732410715367015,
+      "energy_weighted_own_fraction": 0.9361794426619983,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.47850390625,
+          "source_energy_fraction": 0.9732410715367015
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.31279296875,
+          "source_energy_fraction": 0.9250307987712931
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.135625,
+          "source_energy_fraction": 0.7567274872159977
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "count": 2,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": false,
+      "waveform_power": 0.3536294782369047,
+      "winning_bin_fraction": 0.75612109375,
+      "source_energy_in_winning_bins": 0.9848944872226149,
+      "energy_weighted_own_fraction": 0.9706354329494289,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.75612109375,
+          "source_energy_fraction": 0.9848944872226149
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.62396875,
+          "source_energy_fraction": 0.9458170574448638
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.437953125,
+          "source_energy_fraction": 0.895670167942643
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "count": 2,
+      "slot": 1,
+      "category": "DJI FPV COMBO",
+      "weakest": true,
+      "waveform_power": 0.10333354332231,
+      "winning_bin_fraction": 0.24387890625,
+      "source_energy_in_winning_bins": 0.9074645892825616,
+      "energy_weighted_own_fraction": 0.8997101834927389,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.24387890625,
+          "source_energy_fraction": 0.9074645892825616
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.16761328125,
+          "source_energy_fraction": 0.833178859925838
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.1133203125,
+          "source_energy_fraction": 0.7905001741424788
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "count": 1,
+      "slot": 0,
+      "category": "DJI MINI3",
+      "weakest": true,
+      "waveform_power": 3.7678583570958053,
+      "winning_bin_fraction": 1.0,
+      "source_energy_in_winning_bins": 1.0,
+      "energy_weighted_own_fraction": 1.0,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 1.0
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 1.0
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 1.0
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "count": 2,
+      "slot": 0,
+      "category": "DJI MINI3",
+      "weakest": true,
+      "waveform_power": 0.05137260756396774,
+      "winning_bin_fraction": 0.43966796875,
+      "source_energy_in_winning_bins": 0.9982006336604343,
+      "energy_weighted_own_fraction": 0.9978143129730538,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.43966796875,
+          "source_energy_fraction": 0.9982006336604343
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.199765625,
+          "source_energy_fraction": 0.9962308632016961
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.06763671875,
+          "source_energy_fraction": 0.9947834408181822
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "count": 2,
+      "slot": 1,
+      "category": "DJI MINI4 PRO",
+      "weakest": false,
+      "waveform_power": 0.2236198757511517,
+      "winning_bin_fraction": 0.56033203125,
+      "source_energy_in_winning_bins": 0.9996889068797242,
+      "energy_weighted_own_fraction": 0.9994905063866444,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.56033203125,
+          "source_energy_fraction": 0.9996889068797242
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.2918046875,
+          "source_energy_fraction": 0.9991049978489903
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.11596875,
+          "source_energy_fraction": 0.9984887890685495
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "count": 2,
+      "slot": 0,
+      "category": "DJI MINI3",
+      "weakest": false,
+      "waveform_power": 0.18369698380732988,
+      "winning_bin_fraction": 0.581375,
+      "source_energy_in_winning_bins": 0.9996232083767905,
+      "energy_weighted_own_fraction": 0.9991480421313909,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.581375,
+          "source_energy_fraction": 0.9996232083767905
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.43856640625,
+          "source_energy_fraction": 0.999251152834449
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.34194140625,
+          "source_energy_fraction": 0.9983926251671049
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "count": 2,
+      "slot": 1,
+      "category": "DJI MINI4 PRO",
+      "weakest": true,
+      "waveform_power": 0.00043792030122848265,
+      "winning_bin_fraction": 0.418625,
+      "source_energy_in_winning_bins": 0.7189446854125847,
+      "energy_weighted_own_fraction": 0.6430670711804449,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.418625,
+          "source_energy_fraction": 0.7189446854125847
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.22523046875,
+          "source_energy_fraction": 0.4908060013486409
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.07292578125,
+          "source_energy_fraction": 0.1875051277824092
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "count": 1,
+      "slot": 0,
+      "category": "DJI FPV COMBO",
+      "weakest": true,
+      "waveform_power": 0.2132049353381128,
+      "winning_bin_fraction": 1.0,
+      "source_energy_in_winning_bins": 1.0,
+      "energy_weighted_own_fraction": 1.0,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 1.0
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 1.0
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 1.0
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "count": 3,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": false,
+      "waveform_power": 0.18304307747426535,
+      "winning_bin_fraction": 0.33134765625,
+      "source_energy_in_winning_bins": 0.872541417698098,
+      "energy_weighted_own_fraction": 0.7992233924780128,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.31462890625,
+          "source_energy_fraction": 0.8663523871283493
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.17820703125,
+          "source_energy_fraction": 0.7089787367381776
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.0591640625,
+          "source_energy_fraction": 0.35201667011321697
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "count": 3,
+      "slot": 1,
+      "category": "DJI FPV COMBO",
+      "weakest": true,
+      "waveform_power": 0.07667503672516876,
+      "winning_bin_fraction": 0.1564296875,
+      "source_energy_in_winning_bins": 0.8643578773271824,
+      "energy_weighted_own_fraction": 0.7791869247189289,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.14440625,
+          "source_energy_fraction": 0.8562484928911193
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.07922265625,
+          "source_energy_fraction": 0.6550832192863812
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.0255859375,
+          "source_energy_fraction": 0.3051595457340033
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "count": 3,
+      "slot": 2,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": false,
+      "waveform_power": 1.5836823299638492,
+      "winning_bin_fraction": 0.51222265625,
+      "source_energy_in_winning_bins": 0.9883748706725499,
+      "energy_weighted_own_fraction": 0.9832034141668211,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.49445703125,
+          "source_energy_fraction": 0.9879085456299463
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.3675859375,
+          "source_energy_fraction": 0.9813891222558504
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.26034765625,
+          "source_energy_fraction": 0.9646787411033159
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "count": 2,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": false,
+      "waveform_power": 1.6633887789122555,
+      "winning_bin_fraction": 0.88748828125,
+      "source_energy_in_winning_bins": 0.9930923975372168,
+      "energy_weighted_own_fraction": 0.9934071213784152,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.88748828125,
+          "source_energy_fraction": 0.9930923975372168
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.8211328125,
+          "source_energy_fraction": 0.9920740552318386
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.7562734375,
+          "source_energy_fraction": 0.9910286747990878
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "count": 2,
+      "slot": 1,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": true,
+      "waveform_power": 0.21951983988197465,
+      "winning_bin_fraction": 0.11251171875,
+      "source_energy_in_winning_bins": 0.9930037951021924,
+      "energy_weighted_own_fraction": 0.9500820528178521,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.11251171875,
+          "source_energy_fraction": 0.9930037951021924
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.053125,
+          "source_energy_fraction": 0.9598699596311162
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.0183125,
+          "source_energy_fraction": 0.7088490696746513
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "count": 2,
+      "slot": 0,
+      "category": "DJI FPV COMBO",
+      "weakest": false,
+      "waveform_power": 1.033235537495456,
+      "winning_bin_fraction": 0.44508984375,
+      "source_energy_in_winning_bins": 0.9990934303686313,
+      "energy_weighted_own_fraction": 0.9934676075865023,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.44508984375,
+          "source_energy_fraction": 0.9990934303686313
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.35242578125,
+          "source_energy_fraction": 0.9981193620757841
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.21272265625,
+          "source_energy_fraction": 0.987831504584998
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "count": 2,
+      "slot": 1,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": true,
+      "waveform_power": 0.04173489258441442,
+      "winning_bin_fraction": 0.55491015625,
+      "source_energy_in_winning_bins": 0.8493044442008614,
+      "energy_weighted_own_fraction": 0.83823021921768,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.55491015625,
+          "source_energy_fraction": 0.8493044442008614
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.4675625,
+          "source_energy_fraction": 0.8327523162455522
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.34183984375,
+          "source_energy_fraction": 0.7627144813260582
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "count": 2,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": false,
+      "waveform_power": 0.06867545213256827,
+      "winning_bin_fraction": 0.95560546875,
+      "source_energy_in_winning_bins": 0.9987657949162633,
+      "energy_weighted_own_fraction": 0.9776331951876411,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.95560546875,
+          "source_energy_fraction": 0.9987657949162633
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.84419140625,
+          "source_energy_fraction": 0.985190056769164
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.5446171875,
+          "source_energy_fraction": 0.8761285474208422
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "count": 2,
+      "slot": 1,
+      "category": "DJI FPV COMBO",
+      "weakest": true,
+      "waveform_power": 0.0018809031774881422,
+      "winning_bin_fraction": 0.04439453125,
+      "source_energy_in_winning_bins": 0.09304577908777056,
+      "energy_weighted_own_fraction": 0.18286158499896107,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.04439453125,
+          "source_energy_fraction": 0.09304577908777056
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.01275390625,
+          "source_energy_fraction": 0.024759959941436992
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.003515625,
+          "source_energy_fraction": 0.0052766508400596945
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "count": 3,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": true,
+      "waveform_power": 0.03267662810360374,
+      "winning_bin_fraction": 0.435765625,
+      "source_energy_in_winning_bins": 0.7815063588548532,
+      "energy_weighted_own_fraction": 0.727029937800951,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.41511328125,
+          "source_energy_fraction": 0.776660579377611
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.24237109375,
+          "source_energy_fraction": 0.665041281152499
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.07583203125,
+          "source_energy_fraction": 0.3891998961418031
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "count": 3,
+      "slot": 1,
+      "category": "DJI FPV COMBO",
+      "weakest": false,
+      "waveform_power": 0.6685812300842607,
+      "winning_bin_fraction": 0.37404296875,
+      "source_energy_in_winning_bins": 0.997929073785874,
+      "energy_weighted_own_fraction": 0.9889539962369478,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.3608671875,
+          "source_energy_fraction": 0.9978547241425401
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.2550234375,
+          "source_energy_fraction": 0.9951817791448287
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.13823828125,
+          "source_energy_fraction": 0.9683966242583293
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "count": 3,
+      "slot": 2,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": false,
+      "waveform_power": 0.06107571717638515,
+      "winning_bin_fraction": 0.19019140625,
+      "source_energy_in_winning_bins": 0.9572603239376534,
+      "energy_weighted_own_fraction": 0.9498038727734062,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.17476953125,
+          "source_energy_fraction": 0.9556990876622017
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.09830078125,
+          "source_energy_fraction": 0.9433807963447467
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.0584609375,
+          "source_energy_fraction": 0.9129812514309458
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "count": 3,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": false,
+      "waveform_power": 0.013798625908586657,
+      "winning_bin_fraction": 0.15377734375,
+      "source_energy_in_winning_bins": 0.920614467771502,
+      "energy_weighted_own_fraction": 0.8110078013835892,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.148234375,
+          "source_energy_fraction": 0.9200292640593284
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.0693046875,
+          "source_energy_fraction": 0.6619785678437006
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.01804296875,
+          "source_energy_fraction": 0.2525442048068528
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "count": 3,
+      "slot": 1,
+      "category": "DJI FPV COMBO",
+      "weakest": true,
+      "waveform_power": 0.0002413962147379528,
+      "winning_bin_fraction": 0.0139296875,
+      "source_energy_in_winning_bins": 0.033285093113529944,
+      "energy_weighted_own_fraction": 0.07932293636571884,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.0090078125,
+          "source_energy_fraction": 0.023975331332446084
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.0010703125,
+          "source_energy_fraction": 0.0026814824481550255
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 7.03125e-05,
+          "source_energy_fraction": 0.00019734483580580799
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "count": 3,
+      "slot": 2,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": false,
+      "waveform_power": 0.019977270752757847,
+      "winning_bin_fraction": 0.83229296875,
+      "source_energy_in_winning_bins": 0.8739359889940046,
+      "energy_weighted_own_fraction": 0.8618172455835297,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.82223828125,
+          "source_energy_fraction": 0.8733007401913127
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.67954296875,
+          "source_energy_fraction": 0.7969499486926184
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.44500390625,
+          "source_energy_fraction": 0.6895212999780496
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "count": 2,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": true,
+      "waveform_power": 0.0024936261729356195,
+      "winning_bin_fraction": 0.50483984375,
+      "source_energy_in_winning_bins": 0.798428206101955,
+      "energy_weighted_own_fraction": 0.7610254099941682,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.50483984375,
+          "source_energy_fraction": 0.798428206101955
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.3918515625,
+          "source_energy_fraction": 0.7515946721217472
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.20448046875,
+          "source_energy_fraction": 0.517864244928213
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "count": 2,
+      "slot": 1,
+      "category": "DJI FPV COMBO",
+      "weakest": false,
+      "waveform_power": 0.1299571478118699,
+      "winning_bin_fraction": 0.49516015625,
+      "source_energy_in_winning_bins": 0.9989134084962259,
+      "energy_weighted_own_fraction": 0.9954147538568593,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.49516015625,
+          "source_energy_fraction": 0.9989134084962259
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.40376953125,
+          "source_energy_fraction": 0.9983569735154327
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.26622265625,
+          "source_energy_fraction": 0.993380439253506
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "count": 3,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": false,
+      "waveform_power": 0.3860221602840616,
+      "winning_bin_fraction": 0.977421875,
+      "source_energy_in_winning_bins": 0.9997341483029889,
+      "energy_weighted_own_fraction": 0.9882583631441559,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.97708203125,
+          "source_energy_fraction": 0.9997295117606936
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.92283984375,
+          "source_energy_fraction": 0.9966216611251643
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.75701171875,
+          "source_energy_fraction": 0.9570364451438117
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "count": 3,
+      "slot": 1,
+      "category": "DJI FPV COMBO",
+      "weakest": true,
+      "waveform_power": 0.00015260316754179832,
+      "winning_bin_fraction": 5.46875e-05,
+      "source_energy_in_winning_bins": 0.0001842974353266789,
+      "energy_weighted_own_fraction": 0.0035479584156397938,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 2.34375e-05,
+          "source_energy_fraction": 0.00014998148641462447
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.0,
+          "source_energy_fraction": 0.0
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.0,
+          "source_energy_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "count": 3,
+      "slot": 2,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": false,
+      "waveform_power": 0.004884495157326959,
+      "winning_bin_fraction": 0.0225234375,
+      "source_energy_in_winning_bins": 0.04275524487498856,
+      "energy_weighted_own_fraction": 0.10065227036217719,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.022203125,
+          "source_energy_fraction": 0.04240714975109442
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.00551953125,
+          "source_energy_fraction": 0.01014007198727177
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.00109765625,
+          "source_energy_fraction": 0.0021260204007690314
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "count": 3,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": true,
+      "waveform_power": 0.001082489553481351,
+      "winning_bin_fraction": 0.05276171875,
+      "source_energy_in_winning_bins": 0.18443620036210354,
+      "energy_weighted_own_fraction": 0.22506145979777967,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.04240234375,
+          "source_energy_fraction": 0.16017711414009675
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.00709375,
+          "source_energy_fraction": 0.0320700468687409
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.000546875,
+          "source_energy_fraction": 0.002705634247864076
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "count": 3,
+      "slot": 1,
+      "category": "DJI FPV COMBO",
+      "weakest": false,
+      "waveform_power": 0.6394271344931914,
+      "winning_bin_fraction": 0.7316875,
+      "source_energy_in_winning_bins": 0.9992418145789113,
+      "energy_weighted_own_fraction": 0.9977250290772112,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.71828125,
+          "source_energy_fraction": 0.9991847700950179
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.5472265625,
+          "source_energy_fraction": 0.9975953936372097
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.3592109375,
+          "source_energy_fraction": 0.9931697053247547
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "count": 3,
+      "slot": 2,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": false,
+      "waveform_power": 0.03859092965566792,
+      "winning_bin_fraction": 0.21555078125,
+      "source_energy_in_winning_bins": 0.9872798418878068,
+      "energy_weighted_own_fraction": 0.978026697876202,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.210828125,
+          "source_energy_fraction": 0.9870626317851144
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.1630234375,
+          "source_energy_fraction": 0.9835227263474552
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.11705859375,
+          "source_energy_fraction": 0.9513695563168408
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "count": 2,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": true,
+      "waveform_power": 0.39545175343288064,
+      "winning_bin_fraction": 0.32333203125,
+      "source_energy_in_winning_bins": 0.9959057707264103,
+      "energy_weighted_own_fraction": 0.9956797252678317,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.32333203125,
+          "source_energy_fraction": 0.9959057707264103
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.21414453125,
+          "source_energy_fraction": 0.9953465044885965
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.13819921875,
+          "source_energy_fraction": 0.9936847033995132
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "count": 2,
+      "slot": 1,
+      "category": "DJI FPV COMBO",
+      "weakest": false,
+      "waveform_power": 1.2149669024744552,
+      "winning_bin_fraction": 0.67666796875,
+      "source_energy_in_winning_bins": 0.9997330719736667,
+      "energy_weighted_own_fraction": 0.998593213829081,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.67666796875,
+          "source_energy_fraction": 0.9997330719736667
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.50341796875,
+          "source_energy_fraction": 0.9991100660319885
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.311296875,
+          "source_energy_fraction": 0.9949212627553902
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "count": 3,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": false,
+      "waveform_power": 0.5594636289756357,
+      "winning_bin_fraction": 0.89529296875,
+      "source_energy_in_winning_bins": 0.9687767585228106,
+      "energy_weighted_own_fraction": 0.9524717362526324,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.8901953125,
+          "source_energy_fraction": 0.9684816540021005
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.74880078125,
+          "source_energy_fraction": 0.929916537030077
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.4938125,
+          "source_energy_fraction": 0.8462294364300496
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "count": 3,
+      "slot": 1,
+      "category": "DJI FPV COMBO",
+      "weakest": false,
+      "waveform_power": 0.08257081965418671,
+      "winning_bin_fraction": 0.08258984375,
+      "source_energy_in_winning_bins": 0.8106989258232107,
+      "energy_weighted_own_fraction": 0.7154373939277633,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.0784453125,
+          "source_energy_fraction": 0.8092926116290503
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.0310234375,
+          "source_energy_fraction": 0.4838174502966551
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.00708203125,
+          "source_energy_fraction": 0.14650359571541657
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "count": 3,
+      "slot": 2,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": true,
+      "waveform_power": 0.00432922085965371,
+      "winning_bin_fraction": 0.0221171875,
+      "source_energy_in_winning_bins": 0.05365997904015262,
+      "energy_weighted_own_fraction": 0.11572903668652024,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.02063671875,
+          "source_energy_fraction": 0.053164883832323644
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.00474609375,
+          "source_energy_fraction": 0.013098532276604666
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.000875,
+          "source_energy_fraction": 0.00271430572164917
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "count": 2,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": true,
+      "waveform_power": 0.0404871534721704,
+      "winning_bin_fraction": 0.76349609375,
+      "source_energy_in_winning_bins": 0.9693632963084746,
+      "energy_weighted_own_fraction": 0.9249284926863683,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.76349609375,
+          "source_energy_fraction": 0.9693632963084746
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.62110546875,
+          "source_energy_fraction": 0.9232633738362047
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.3703984375,
+          "source_energy_fraction": 0.6884392875838521
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "count": 2,
+      "slot": 1,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": false,
+      "waveform_power": 0.36986401809747493,
+      "winning_bin_fraction": 0.23650390625,
+      "source_energy_in_winning_bins": 0.9937228358078973,
+      "energy_weighted_own_fraction": 0.9917788317139914,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.23650390625,
+          "source_energy_fraction": 0.9937228358078973
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.16998828125,
+          "source_energy_fraction": 0.9924858195324624
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.12837109375,
+          "source_energy_fraction": 0.9881973498600327
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "count": 1,
+      "slot": 0,
+      "category": "DJI MINI3",
+      "weakest": true,
+      "waveform_power": 1.7823240895669976,
+      "winning_bin_fraction": 1.0,
+      "source_energy_in_winning_bins": 1.0,
+      "energy_weighted_own_fraction": 1.0,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 1.0
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 1.0
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 1.0
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "count": 3,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": false,
+      "waveform_power": 0.35725344399749626,
+      "winning_bin_fraction": 0.62051953125,
+      "source_energy_in_winning_bins": 0.9579403454761409,
+      "energy_weighted_own_fraction": 0.922307172402418,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.61679296875,
+          "source_energy_fraction": 0.9574450553902052
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.49958984375,
+          "source_energy_fraction": 0.9011776424532064
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.31230078125,
+          "source_energy_fraction": 0.7309127894420554
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "count": 3,
+      "slot": 1,
+      "category": "DJI FPV COMBO",
+      "weakest": true,
+      "waveform_power": 0.035771667047691025,
+      "winning_bin_fraction": 0.0293125,
+      "source_energy_in_winning_bins": 0.6676218941070415,
+      "energy_weighted_own_fraction": 0.6174433023289722,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.0275078125,
+          "source_energy_fraction": 0.6647750407586537
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.01019921875,
+          "source_energy_fraction": 0.3684265805842575
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.00209375,
+          "source_energy_fraction": 0.1003499398388646
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "count": 3,
+      "slot": 2,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": false,
+      "waveform_power": 9.23325491074997,
+      "winning_bin_fraction": 0.35016796875,
+      "source_energy_in_winning_bins": 0.999094765135857,
+      "energy_weighted_own_fraction": 0.9983882284976082,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.3480078125,
+          "source_energy_fraction": 0.9990936993056992
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.27919921875,
+          "source_energy_fraction": 0.9988221324410479
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.19291015625,
+          "source_energy_fraction": 0.9980001825864355
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "count": 1,
+      "slot": 0,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": true,
+      "waveform_power": 0.1934435881010841,
+      "winning_bin_fraction": 1.0,
+      "source_energy_in_winning_bins": 1.0,
+      "energy_weighted_own_fraction": 1.0,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 1.0
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 1.0
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 1.0
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "count": 1,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": true,
+      "waveform_power": 0.24730054007479538,
+      "winning_bin_fraction": 1.0,
+      "source_energy_in_winning_bins": 1.0000000000000002,
+      "energy_weighted_own_fraction": 1.0,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 1.0000000000000002
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 1.0000000000000002
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 1.0000000000000002
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "count": 3,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": false,
+      "waveform_power": 0.05546990713058774,
+      "winning_bin_fraction": 0.46840234375,
+      "source_energy_in_winning_bins": 0.9504089073527616,
+      "energy_weighted_own_fraction": 0.9123013965249565,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.45367578125,
+          "source_energy_fraction": 0.9476037838149067
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.25144140625,
+          "source_energy_fraction": 0.8545220193875658
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.086875,
+          "source_energy_fraction": 0.7230341596840026
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "count": 3,
+      "slot": 1,
+      "category": "DJI FPV COMBO",
+      "weakest": true,
+      "waveform_power": 0.0008623237864557172,
+      "winning_bin_fraction": 0.00588671875,
+      "source_energy_in_winning_bins": 0.028114380230993944,
+      "energy_weighted_own_fraction": 0.0963091219680404,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.00344140625,
+          "source_energy_fraction": 0.0165877133598089
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.0003359375,
+          "source_energy_fraction": 0.0015056462502626732
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 7.8125e-06,
+          "source_energy_fraction": 3.99475581629048e-05
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "count": 3,
+      "slot": 2,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": false,
+      "waveform_power": 0.2229846269715465,
+      "winning_bin_fraction": 0.5257109375,
+      "source_energy_in_winning_bins": 0.9855194766893112,
+      "energy_weighted_own_fraction": 0.9790568446696313,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.51291796875,
+          "source_energy_fraction": 0.9848998133122332
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.36740234375,
+          "source_energy_fraction": 0.9732835766288799
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.25483984375,
+          "source_energy_fraction": 0.9549168829836628
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "count": 3,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": false,
+      "waveform_power": 1.4929459735284525,
+      "winning_bin_fraction": 0.12539453125,
+      "source_energy_in_winning_bins": 0.9979202600540585,
+      "energy_weighted_own_fraction": 0.9951447284605723,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.11363671875,
+          "source_energy_fraction": 0.9978156989635362
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.06563671875,
+          "source_energy_fraction": 0.9958635413421478
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.0358125,
+          "source_energy_fraction": 0.9884487647859639
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "count": 3,
+      "slot": 1,
+      "category": "DJI FPV COMBO",
+      "weakest": true,
+      "waveform_power": 0.35265421096251703,
+      "winning_bin_fraction": 0.4750703125,
+      "source_energy_in_winning_bins": 0.9795002706516185,
+      "energy_weighted_own_fraction": 0.9698818154356375,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.460015625,
+          "source_energy_fraction": 0.9788970622162557
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.307875,
+          "source_energy_fraction": 0.961239805278085
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.18851171875,
+          "source_energy_fraction": 0.9357867522018024
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "count": 3,
+      "slot": 2,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": false,
+      "waveform_power": 0.806950124664925,
+      "winning_bin_fraction": 0.39953515625,
+      "source_energy_in_winning_bins": 0.9914269690430815,
+      "energy_weighted_own_fraction": 0.9864851974987193,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.38299609375,
+          "source_energy_fraction": 0.9912070024712292
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.25267578125,
+          "source_energy_fraction": 0.9866976043445322
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.167296875,
+          "source_energy_fraction": 0.9720806201889812
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "count": 2,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": true,
+      "waveform_power": 0.03491253369376879,
+      "winning_bin_fraction": 0.58775,
+      "source_energy_in_winning_bins": 0.9330659398024294,
+      "energy_weighted_own_fraction": 0.879339255082989,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.58775,
+          "source_energy_fraction": 0.9330659398024294
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.45080859375,
+          "source_energy_fraction": 0.8618800274121564
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.23601953125,
+          "source_energy_fraction": 0.5797463392794249
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "count": 2,
+      "slot": 1,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": false,
+      "waveform_power": 1.7908359475126348,
+      "winning_bin_fraction": 0.41225,
+      "source_energy_in_winning_bins": 0.9985421297680056,
+      "energy_weighted_own_fraction": 0.9976455930494037,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.41225,
+          "source_energy_fraction": 0.9985421297680056
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.33715625,
+          "source_energy_fraction": 0.9980478020957231
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.27637890625,
+          "source_energy_fraction": 0.9966858557954886
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "count": 2,
+      "slot": 0,
+      "category": "DJI MINI3",
+      "weakest": false,
+      "waveform_power": 0.2590383841502693,
+      "winning_bin_fraction": 0.19041015625,
+      "source_energy_in_winning_bins": 0.9998795758308996,
+      "energy_weighted_own_fraction": 0.9988291941609038,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.19041015625,
+          "source_energy_fraction": 0.9998795758308996
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.15809375,
+          "source_energy_fraction": 0.9997602001503242
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.1156171875,
+          "source_energy_fraction": 0.9989384945984275
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "count": 2,
+      "slot": 1,
+      "category": "DJI MINI4 PRO",
+      "weakest": true,
+      "waveform_power": 0.00339700605083405,
+      "winning_bin_fraction": 0.80958984375,
+      "source_energy_in_winning_bins": 0.9160285831105892,
+      "energy_weighted_own_fraction": 0.9106718961967755,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.80958984375,
+          "source_energy_fraction": 0.9160285831105892
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.77469921875,
+          "source_energy_fraction": 0.9106689376646493
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.69305078125,
+          "source_energy_fraction": 0.8894259741726704
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "count": 3,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": true,
+      "waveform_power": 0.000325003419328446,
+      "winning_bin_fraction": 0.04427734375,
+      "source_energy_in_winning_bins": 0.17263419887644785,
+      "energy_weighted_own_fraction": 0.22519754521758972,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.03141015625,
+          "source_energy_fraction": 0.1314532957719148
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.00393359375,
+          "source_energy_fraction": 0.018303671428888436
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.00027734375,
+          "source_energy_fraction": 0.0013888944492911803
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "count": 3,
+      "slot": 1,
+      "category": "DJI FPV COMBO",
+      "weakest": false,
+      "waveform_power": 1.207713283185489,
+      "winning_bin_fraction": 0.85761328125,
+      "source_energy_in_winning_bins": 0.9999330155477956,
+      "energy_weighted_own_fraction": 0.9996334666845128,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.8316875,
+          "source_energy_fraction": 0.9999056844587305
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.65158984375,
+          "source_energy_fraction": 0.9995233526261955
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.49434375,
+          "source_energy_fraction": 0.9988887160766657
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "count": 3,
+      "slot": 2,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": false,
+      "waveform_power": 0.0004111947910790231,
+      "winning_bin_fraction": 0.098109375,
+      "source_energy_in_winning_bins": 0.3386478184842955,
+      "energy_weighted_own_fraction": 0.3355160152778188,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.079640625,
+          "source_energy_fraction": 0.2876783604311737
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.0197734375,
+          "source_energy_fraction": 0.07493745960133491
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.00273828125,
+          "source_energy_fraction": 0.009580851119333713
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "count": 1,
+      "slot": 0,
+      "category": "DJI MINI4 PRO",
+      "weakest": true,
+      "waveform_power": 6.072397951261813,
+      "winning_bin_fraction": 1.0,
+      "source_energy_in_winning_bins": 0.9999999999999999,
+      "energy_weighted_own_fraction": 1.0,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 0.9999999999999999
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 0.9999999999999999
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 0.9999999999999999
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "count": 2,
+      "slot": 0,
+      "category": "DJI FPV COMBO",
+      "weakest": false,
+      "waveform_power": 1.0339789665372876,
+      "winning_bin_fraction": 0.801796875,
+      "source_energy_in_winning_bins": 0.9998191909445728,
+      "energy_weighted_own_fraction": 0.9997237686459125,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.801796875,
+          "source_energy_fraction": 0.9998191909445728
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.7289453125,
+          "source_energy_fraction": 0.999756071932978
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.5823515625,
+          "source_energy_fraction": 0.9993207839357071
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "count": 2,
+      "slot": 1,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": true,
+      "waveform_power": 0.023432814497432907,
+      "winning_bin_fraction": 0.198203125,
+      "source_energy_in_winning_bins": 0.9945157766750576,
+      "energy_weighted_own_fraction": 0.9878237734046033,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.198203125,
+          "source_energy_fraction": 0.9945157766750576
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.15451171875,
+          "source_energy_fraction": 0.9926662214431127
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.1159375,
+          "source_energy_fraction": 0.9753906515694328
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "count": 1,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": true,
+      "waveform_power": 0.40853454437478703,
+      "winning_bin_fraction": 1.0,
+      "source_energy_in_winning_bins": 0.9999999999999997,
+      "energy_weighted_own_fraction": 1.0,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 0.9999999999999997
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 0.9999999999999997
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 1.0,
+          "source_energy_fraction": 0.9999999999999997
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "count": 2,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": false,
+      "waveform_power": 1.282654716323313,
+      "winning_bin_fraction": 0.49931640625,
+      "source_energy_in_winning_bins": 0.9946658563655241,
+      "energy_weighted_own_fraction": 0.9947821129378547,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.49931640625,
+          "source_energy_fraction": 0.9946658563655241
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.34554296875,
+          "source_energy_fraction": 0.9929274145301118
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.23415234375,
+          "source_energy_fraction": 0.9916370262560361
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "count": 2,
+      "slot": 1,
+      "category": "DJI FPV COMBO",
+      "weakest": true,
+      "waveform_power": 0.7145377142556846,
+      "winning_bin_fraction": 0.50068359375,
+      "source_energy_in_winning_bins": 0.9974135657374483,
+      "energy_weighted_own_fraction": 0.9906193260787969,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.50068359375,
+          "source_energy_fraction": 0.9974135657374483
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.32508203125,
+          "source_energy_fraction": 0.9867864840732086
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.19969921875,
+          "source_energy_fraction": 0.9543438589689313
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "count": 2,
+      "slot": 0,
+      "category": "DJI FPV COMBO",
+      "weakest": false,
+      "waveform_power": 1.4840170661797916,
+      "winning_bin_fraction": 0.7821328125,
+      "source_energy_in_winning_bins": 0.9996823173252166,
+      "energy_weighted_own_fraction": 0.9992713611361171,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.7821328125,
+          "source_energy_fraction": 0.9996823173252166
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.6278828125,
+          "source_energy_fraction": 0.9989632913882355
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.4873046875,
+          "source_energy_fraction": 0.9978855587198227
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "count": 2,
+      "slot": 1,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": true,
+      "waveform_power": 0.014629836437095745,
+      "winning_bin_fraction": 0.2178671875,
+      "source_energy_in_winning_bins": 0.9347980328574643,
+      "energy_weighted_own_fraction": 0.9260894098990994,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.2178671875,
+          "source_energy_fraction": 0.9347980328574643
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.111,
+          "source_energy_fraction": 0.8964162386668688
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.05601953125,
+          "source_energy_fraction": 0.8547009361858747
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "count": 3,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": false,
+      "waveform_power": 0.32960082776343747,
+      "winning_bin_fraction": 0.727125,
+      "source_energy_in_winning_bins": 0.9115163299098379,
+      "energy_weighted_own_fraction": 0.8957381771632725,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.71412890625,
+          "source_energy_fraction": 0.9112284843354065
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.50849609375,
+          "source_energy_fraction": 0.8525987217014493
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.2691171875,
+          "source_energy_fraction": 0.7594123429959181
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "count": 3,
+      "slot": 1,
+      "category": "DJI FPV COMBO",
+      "weakest": false,
+      "waveform_power": 0.3876392352878423,
+      "winning_bin_fraction": 0.2252109375,
+      "source_energy_in_winning_bins": 0.9718490731890338,
+      "energy_weighted_own_fraction": 0.9202918064877764,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.216109375,
+          "source_energy_fraction": 0.971682405875092
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.11249609375,
+          "source_energy_fraction": 0.8991683463883412
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.04291015625,
+          "source_energy_fraction": 0.6334082430633223
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "count": 3,
+      "slot": 2,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": true,
+      "waveform_power": 0.006342228440794007,
+      "winning_bin_fraction": 0.0476640625,
+      "source_energy_in_winning_bins": 0.1234344582084711,
+      "energy_weighted_own_fraction": 0.19367951676323625,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.04291015625,
+          "source_energy_fraction": 0.11994700565579232
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.0105546875,
+          "source_energy_fraction": 0.031157043627256464
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.0015546875,
+          "source_energy_fraction": 0.005314621228024565
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "count": 3,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": false,
+      "waveform_power": 0.08176814728999905,
+      "winning_bin_fraction": 0.63219921875,
+      "source_energy_in_winning_bins": 0.965266494247077,
+      "energy_weighted_own_fraction": 0.9269778831233411,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.6162421875,
+          "source_energy_fraction": 0.9637249919001623
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.44419921875,
+          "source_energy_fraction": 0.9230995108598207
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.197703125,
+          "source_energy_fraction": 0.7335198171127068
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "count": 3,
+      "slot": 1,
+      "category": "DJI FPV COMBO",
+      "weakest": true,
+      "waveform_power": 0.005637100934429803,
+      "winning_bin_fraction": 0.0371328125,
+      "source_energy_in_winning_bins": 0.5352415008419088,
+      "energy_weighted_own_fraction": 0.5626405563299453,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.02956640625,
+          "source_energy_fraction": 0.5249289048688199
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.00576171875,
+          "source_energy_fraction": 0.47654625700694386
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.00131640625,
+          "source_energy_fraction": 0.4186819507893098
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "count": 3,
+      "slot": 2,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": false,
+      "waveform_power": 1.608703413885499,
+      "winning_bin_fraction": 0.33066796875,
+      "source_energy_in_winning_bins": 0.9988967873184282,
+      "energy_weighted_own_fraction": 0.9974489113620699,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.32098828125,
+          "source_energy_fraction": 0.9988632897597621
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.23755078125,
+          "source_energy_fraction": 0.9984270755390645
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.12673828125,
+          "source_energy_fraction": 0.9958790829649284
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "count": 2,
+      "slot": 0,
+      "category": "DJI MINI3",
+      "weakest": true,
+      "waveform_power": 0.12465288021849352,
+      "winning_bin_fraction": 0.04547265625,
+      "source_energy_in_winning_bins": 0.9997374617543451,
+      "energy_weighted_own_fraction": 0.9985088755523738,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.04547265625,
+          "source_energy_fraction": 0.9997374617543451
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.03382421875,
+          "source_energy_fraction": 0.9994426047464925
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.02756640625,
+          "source_energy_fraction": 0.9978518343080793
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "count": 2,
+      "slot": 1,
+      "category": "DJI MINI4 PRO",
+      "weakest": false,
+      "waveform_power": 0.3150539949161034,
+      "winning_bin_fraction": 0.95452734375,
+      "source_energy_in_winning_bins": 0.9994705032801098,
+      "energy_weighted_own_fraction": 0.9994097270628761,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.95452734375,
+          "source_energy_fraction": 0.9994705032801098
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.9292109375,
+          "source_energy_fraction": 0.9994059253851542
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.86006640625,
+          "source_energy_fraction": 0.9992327241926117
+        }
+      ]
+    },
+    {
+      "index": 92,
+      "count": 3,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": false,
+      "waveform_power": 0.3344039207219204,
+      "winning_bin_fraction": 0.9922421875,
+      "source_energy_in_winning_bins": 0.997411774811527,
+      "energy_weighted_own_fraction": 0.9954087164491845,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.9917734375,
+          "source_energy_fraction": 0.9974103198763562
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.9786796875,
+          "source_energy_fraction": 0.9951020114512819
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.93325,
+          "source_energy_fraction": 0.9914113362763273
+        }
+      ]
+    },
+    {
+      "index": 92,
+      "count": 3,
+      "slot": 1,
+      "category": "DJI FPV COMBO",
+      "weakest": false,
+      "waveform_power": 0.00339105631436382,
+      "winning_bin_fraction": 0.0034453125,
+      "source_energy_in_winning_bins": 0.8142779323884256,
+      "energy_weighted_own_fraction": 0.6911570839815566,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.0032265625,
+          "source_energy_fraction": 0.8142543156343013
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.001046875,
+          "source_energy_fraction": 0.45561544381702057
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.00015625,
+          "source_energy_fraction": 0.09731833687184405
+        }
+      ]
+    },
+    {
+      "index": 92,
+      "count": 3,
+      "slot": 2,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": true,
+      "waveform_power": 0.0006559495780951859,
+      "winning_bin_fraction": 0.0043125,
+      "source_energy_in_winning_bins": 0.2678244960801618,
+      "energy_weighted_own_fraction": 0.2625202259708069,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.00415234375,
+          "source_energy_fraction": 0.26766546125445717
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.0011875,
+          "source_energy_fraction": 0.1187296245391339
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.00039453125,
+          "source_energy_fraction": 0.050444023801726745
+        }
+      ]
+    },
+    {
+      "index": 100,
+      "count": 2,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": true,
+      "waveform_power": 0.004220382269523309,
+      "winning_bin_fraction": 0.48094921875,
+      "source_energy_in_winning_bins": 0.7393208206981401,
+      "energy_weighted_own_fraction": 0.67328657186081,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.48094921875,
+          "source_energy_fraction": 0.7393208206981401
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.2332265625,
+          "source_energy_fraction": 0.40822731059267325
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.07748046875,
+          "source_energy_fraction": 0.13619767401306582
+        }
+      ]
+    },
+    {
+      "index": 100,
+      "count": 2,
+      "slot": 1,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": false,
+      "waveform_power": 0.0049967584535958835,
+      "winning_bin_fraction": 0.51905078125,
+      "source_energy_in_winning_bins": 0.815350870566782,
+      "energy_weighted_own_fraction": 0.7240766188418533,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.51905078125,
+          "source_energy_fraction": 0.815350870566782
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.2582109375,
+          "source_energy_fraction": 0.4825394188607985
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.08343359375,
+          "source_energy_fraction": 0.16535575654780837
+        }
+      ]
+    },
+    {
+      "index": 101,
+      "count": 2,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": true,
+      "waveform_power": 0.0014767878595613403,
+      "winning_bin_fraction": 0.37112109375,
+      "source_energy_in_winning_bins": 0.6997616335352104,
+      "energy_weighted_own_fraction": 0.6372006180757479,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.37112109375,
+          "source_energy_fraction": 0.6997616335352104
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.1666796875,
+          "source_energy_fraction": 0.3619880709816094
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.04829296875,
+          "source_energy_fraction": 0.11320702119088334
+        }
+      ]
+    },
+    {
+      "index": 101,
+      "count": 2,
+      "slot": 1,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": false,
+      "waveform_power": 0.23514549425412118,
+      "winning_bin_fraction": 0.62887890625,
+      "source_energy_in_winning_bins": 0.9986173127974386,
+      "energy_weighted_own_fraction": 0.9977197812170178,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.62887890625,
+          "source_energy_fraction": 0.9986173127974386
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.40266015625,
+          "source_energy_fraction": 0.9960528699251777
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.243171875,
+          "source_energy_fraction": 0.9935178994275699
+        }
+      ]
+    },
+    {
+      "index": 110,
+      "count": 2,
+      "slot": 0,
+      "category": "DJI MINI3",
+      "weakest": true,
+      "waveform_power": 0.04141359936551945,
+      "winning_bin_fraction": 0.1046484375,
+      "source_energy_in_winning_bins": 0.9974647263637897,
+      "energy_weighted_own_fraction": 0.9973813541841333,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.1046484375,
+          "source_energy_fraction": 0.9974647263637897
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.05423046875,
+          "source_energy_fraction": 0.9970046381571548
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.02708984375,
+          "source_energy_fraction": 0.9964050215580462
+        }
+      ]
+    },
+    {
+      "index": 110,
+      "count": 2,
+      "slot": 1,
+      "category": "DJI MINI4 PRO",
+      "weakest": false,
+      "waveform_power": 0.12599705832088567,
+      "winning_bin_fraction": 0.8953515625,
+      "source_energy_in_winning_bins": 0.9998148879155663,
+      "energy_weighted_own_fraction": 0.9991409940308691,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.8953515625,
+          "source_energy_fraction": 0.9998148879155663
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.77038671875,
+          "source_energy_fraction": 0.9992760204334777
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.4887109375,
+          "source_energy_fraction": 0.9957274897974262
+        }
+      ]
+    },
+    {
+      "index": 111,
+      "count": 2,
+      "slot": 0,
+      "category": "DJI FPV COMBO",
+      "weakest": true,
+      "waveform_power": 0.04357878448135028,
+      "winning_bin_fraction": 0.0973671875,
+      "source_energy_in_winning_bins": 0.993897036762142,
+      "energy_weighted_own_fraction": 0.9854701060717567,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.0973671875,
+          "source_energy_fraction": 0.993897036762142
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.05048046875,
+          "source_energy_fraction": 0.9911043477584478
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.02973046875,
+          "source_energy_fraction": 0.965854822924143
+        }
+      ]
+    },
+    {
+      "index": 111,
+      "count": 2,
+      "slot": 1,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": false,
+      "waveform_power": 3.196971480081053,
+      "winning_bin_fraction": 0.9026328125,
+      "source_energy_in_winning_bins": 0.9998623419228772,
+      "energy_weighted_own_fraction": 0.9998017807682651,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.9026328125,
+          "source_energy_fraction": 0.9998623419228772
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.8033125,
+          "source_energy_fraction": 0.9998128701884861
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.61096484375,
+          "source_energy_fraction": 0.9995197544006292
+        }
+      ]
+    },
+    {
+      "index": 122,
+      "count": 2,
+      "slot": 0,
+      "category": "DJI MINI3",
+      "weakest": true,
+      "waveform_power": 0.00020407152326838476,
+      "winning_bin_fraction": 0.10499609375,
+      "source_energy_in_winning_bins": 0.4094752458756266,
+      "energy_weighted_own_fraction": 0.43544273349818463,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.10499609375,
+          "source_energy_fraction": 0.4094752458756266
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.03154296875,
+          "source_energy_fraction": 0.1529484305192788
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.00710546875,
+          "source_energy_fraction": 0.03695489324280282
+        }
+      ]
+    },
+    {
+      "index": 122,
+      "count": 2,
+      "slot": 1,
+      "category": "DJI MINI4 PRO",
+      "weakest": false,
+      "waveform_power": 0.08023221809782505,
+      "winning_bin_fraction": 0.89500390625,
+      "source_energy_in_winning_bins": 0.9995790060776886,
+      "energy_weighted_own_fraction": 0.9985632000322554,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.89500390625,
+          "source_energy_fraction": 0.9995790060776886
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.72461328125,
+          "source_energy_fraction": 0.99793462109115
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.44193359375,
+          "source_energy_fraction": 0.9934290857158321
+        }
+      ]
+    },
+    {
+      "index": 130,
+      "count": 2,
+      "slot": 0,
+      "category": "DJI AVATA2",
+      "weakest": true,
+      "waveform_power": 0.23331620851448948,
+      "winning_bin_fraction": 0.73528125,
+      "source_energy_in_winning_bins": 0.8492556568824572,
+      "energy_weighted_own_fraction": 0.859450530946993,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.73528125,
+          "source_energy_fraction": 0.8492556568824572
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.63312890625,
+          "source_energy_fraction": 0.8334054925872045
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.54278125,
+          "source_energy_fraction": 0.8187718677380132
+        }
+      ]
+    },
+    {
+      "index": 130,
+      "count": 2,
+      "slot": 1,
+      "category": "DJI FPV COMBO",
+      "weakest": false,
+      "waveform_power": 0.8202408470897633,
+      "winning_bin_fraction": 0.26471875,
+      "source_energy_in_winning_bins": 0.996092926445812,
+      "energy_weighted_own_fraction": 0.9599888628417886,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.26471875,
+          "source_energy_fraction": 0.996092926445812
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.14934375,
+          "source_energy_fraction": 0.97225715739896
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.0645546875,
+          "source_energy_fraction": 0.7786840167556082
+        }
+      ]
+    },
+    {
+      "index": 148,
+      "count": 2,
+      "slot": 0,
+      "category": "DJI FPV COMBO",
+      "weakest": true,
+      "waveform_power": 0.0064266563051383575,
+      "winning_bin_fraction": 0.12387109375,
+      "source_energy_in_winning_bins": 0.9739996219969028,
+      "energy_weighted_own_fraction": 0.9385700362610531,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.12387109375,
+          "source_energy_fraction": 0.9739996219969028
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.05922265625,
+          "source_energy_fraction": 0.9449233978842336
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.0212578125,
+          "source_energy_fraction": 0.7510055349269945
+        }
+      ]
+    },
+    {
+      "index": 148,
+      "count": 2,
+      "slot": 1,
+      "category": "DJI MAVIC3 PRO",
+      "weakest": false,
+      "waveform_power": 0.06036217870666299,
+      "winning_bin_fraction": 0.87612890625,
+      "source_energy_in_winning_bins": 0.9951666255165649,
+      "energy_weighted_own_fraction": 0.9934638733617622,
+      "dominance": [
+        {
+          "threshold": 0.5,
+          "bin_fraction": 0.87612890625,
+          "source_energy_fraction": 0.9951666255165649
+        },
+        {
+          "threshold": 0.8,
+          "bin_fraction": 0.793140625,
+          "source_energy_fraction": 0.9938567287753316
+        },
+        {
+          "threshold": 0.95,
+          "bin_fraction": 0.65166796875,
+          "source_energy_fraction": 0.9868444528704311
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "count": 1,
+      "group": "all",
+      "contributions": 10,
+      "mean_winning_bin_fraction": 1.0,
+      "mean_source_energy_in_winning_bins": 1.0,
+      "median_source_energy_in_winning_bins": 1.0,
+      "median_energy_in_80percent_bins": 1.0
+    },
+    {
+      "count": 1,
+      "group": "weakest",
+      "contributions": 10,
+      "mean_winning_bin_fraction": 1.0,
+      "mean_source_energy_in_winning_bins": 1.0,
+      "median_source_energy_in_winning_bins": 1.0,
+      "median_energy_in_80percent_bins": 1.0
+    },
+    {
+      "count": 2,
+      "group": "all",
+      "contributions": 48,
+      "mean_winning_bin_fraction": 0.5,
+      "mean_source_energy_in_winning_bins": 0.9269675767514794,
+      "median_source_energy_in_winning_bins": 0.9955361981214876,
+      "median_energy_in_80percent_bins": 0.9925760204877876
+    },
+    {
+      "count": 2,
+      "group": "weakest",
+      "contributions": 24,
+      "mean_winning_bin_fraction": 0.3560634765625,
+      "mean_source_energy_in_winning_bins": 0.8639140143432167,
+      "median_source_energy_in_winning_bins": 0.9520806645829695,
+      "median_energy_in_80percent_bins": 0.916966155750427
+    },
+    {
+      "count": 3,
+      "group": "all",
+      "contributions": 42,
+      "mean_winning_bin_fraction": 0.3333333333333333,
+      "mean_source_energy_in_winning_bins": 0.7284331901482145,
+      "median_source_energy_in_winning_bins": 0.91606539884067,
+      "median_energy_in_80percent_bins": 0.8515278287486902
+    },
+    {
+      "count": 3,
+      "group": "weakest",
+      "contributions": 14,
+      "mean_winning_bin_fraction": 0.10177036830357142,
+      "mean_source_energy_in_winning_bins": 0.3897511871289729,
+      "median_source_energy_in_winning_bins": 0.22613034822113265,
+      "median_energy_in_80percent_bins": 0.07539983570393739
+    }
+  ],
+  "seconds": 5.548325061798096,
+  "updates": 0,
+  "gpu_use": false,
+  "heldout_read": false,
+  "limitation": "Target-side TRAIN48 coverage, not a learned separator or an oracle waveform bound. Independent recording noise is included; sum of component powers is not asserted equal to mixture STFT power."
+}

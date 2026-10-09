@@ -1,0 +1,18 @@
+{
+  "frozen_minus_joint": [
+    {
+      "count": 2,
+      "nmse_delta": -0.01928831278707993,
+      "si_sdr_delta": 0.3852034333096661,
+      "weakest_nmse_delta": -0.031555547536624595
+    },
+    {
+      "count": 3,
+      "nmse_delta": -0.009702619329560846,
+      "si_sdr_delta": 0.3016733620317602,
+      "weakest_nmse_delta": -0.0016354729445199334
+    }
+  ],
+  "all_three_metrics_each_count_improve": true,
+  "heldout_read": false
+}

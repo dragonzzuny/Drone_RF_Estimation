@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "kind": "hard",
+      "low_rank_loss": 0.49418973768911634,
+      "value_error": 0.0,
+      "gradient_max_error": 3.469446951953614e-18,
+      "source_permutation_invariant": true,
+      "common_scale_invariant": true,
+      "inactive_padding_invariant": true,
+      "zero_when_embedding_matches": true
+    },
+    {
+      "kind": "soft",
+      "low_rank_loss": 0.9505671009275399,
+      "value_error": 1.1102230246251565e-16,
+      "gradient_max_error": 3.469446951953614e-18,
+      "source_permutation_invariant": true,
+      "common_scale_invariant": true,
+      "inactive_padding_invariant": true,
+      "zero_when_embedding_matches": true
+    }
+  ],
+  "overlap_example_soft_weak_coefficient": 0.1,
+  "no_recorded_iq": true,
+  "gpu_use": false,
+  "model_updates": 0,
+  "source_sha256": {
+    "experiments/source_affinity_20261010/check.py": "31875ba94e58135dc33bcd49b74d56cf7490fbd7897e66d7280bc2b1b9da9b76",
+    "experiments/source_affinity_20261010/affinity.py": "026659b31fcf47fb995eccf15dc1593939aee59246329bfe46fd4200903fa3c5"
+  }
+}
