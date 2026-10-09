@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "waveform_gradient_recovery_max_error": 1.734723475976807e-18,
+  "actual_displacement_projection_checked": true,
+  "projection_contract": {
+    "status": "PASS",
+    "cases": 44,
+    "maximum_error_vs_independent_primal_solver": 2.121259701702349e-15,
+    "gpu_use": false,
+    "recorded_iq_reads": 0,
+    "training_implemented": false
+  },
+  "source_sha256": {
+    "experiments/count_pcgrad_20261010/gradient.py": "9009c92a182623941666e85a11ee5419d58486095b8706b3e29d9abc5a25c9fc",
+    "experiments/count_pcgrad_20261010/check.py": "50c8c7c0412502e26a36f7f616034afdc57a7e1beac4b44dd4ecea91031a9ed8",
+    "experiments/count_pcgrad_20261010/wave_update_guard.py": "9eaedf1fff2fb431b55d0e8b481aec15d6585bc8c4c1c7f3071c6b3cb40465d9",
+    "experiments/count_pcgrad_20261010/update_projection.py": "fcf0514a045e633cb62c06870b512f6c6f0315539c96f8d3805e884b7acf20db",
+    "experiments/count_pcgrad_20261010/check_wave_guard.py": "ebbca8ed1a58b4e9991ed99952b9703addd8d0b2c63ed41121cda1271731efde"
+  },
+  "gpu_use": false,
+  "recorded_iq_reads": 0
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "full_parameters": 37406475,
+  "added_parameters": 5263616,
+  "full_parent_parameters_preserved": true,
+  "initial_predictions_bitwise_equal": true,
+  "mixture_sum_relative_error": 2.174298423734478e-15,
+  "axis_loop_max_error": 4.76837158203125e-07,
+  "recurrence_gradient_nonzero_after_readout_step": true,
+  "source_sha256": {
+    "experiments/tf_axis_20261010/check.py": "fe0fe1b06174bf4d06d908fc7ee8e1c48848c926c76f0ab67e327fb4922252f1",
+    "experiments/tf_axis_20261010/adapter.py": "9a702076871011b359bf444cc8da674db4c197039e7cd5aaa134d7444184a5f5"
+  },
+  "synthetic_only": true,
+  "recorded_iq_reads": 0,
+  "gpu_use": false,
+  "trained_separation_result": false
+}
