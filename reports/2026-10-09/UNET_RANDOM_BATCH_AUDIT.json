@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "complete_sha256": "121c568fcabbcd76691bbe3c87657b1bad18529b033bd4847819dc8608a8c5bb",
+  "protocol_sha256": "99b0686bb0d25b6448373670607ebe475d1fff5b506a2405f3ff2a47eb3c8d62",
+  "vectors_sha256": "a95d0fa2747dab6b4ceed70a1c83e67340d709bfd06537bc9a0d3fbf2a2d9f7e",
+  "random_draw_verified": true,
+  "source_and_snapshot_hashes_verified": true,
+  "stored_vector_shape": [
+    32,
+    520
+  ],
+  "vectors_checked": 256,
+  "batch_summaries": [
+    {
+      "batch_index": 21,
+      "original_max_fraction": 0.4454105488458802,
+      "log1p_max_fraction": 0.16342641434102217
+    },
+    {
+      "batch_index": 31,
+      "original_max_fraction": 0.349816285740503,
+      "log1p_max_fraction": 0.20310135456035786
+    },
+    {
+      "batch_index": 34,
+      "original_max_fraction": 0.11283694335099342,
+      "log1p_max_fraction": 0.14103597781509017
+    },
+    {
+      "batch_index": 46,
+      "original_max_fraction": 0.8397492522159169,
+      "log1p_max_fraction": 0.26605688011457324
+    }
+  ],
+  "optimizer_updates": 0,
+  "heldout_read": false,
+  "time": 1791537173.2627213
+}

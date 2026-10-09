@@ -5,12 +5,12 @@
     "status": "TRAINING",
     "arm": "local",
     "epoch": 3,
-    "updates": 155,
-    "examples": 160,
+    "updates": 195,
+    "examples": 1440,
     "total": 2400,
-    "seconds": 135.27788257598877,
+    "seconds": 1202.8857533931732,
     "pid": 3843888,
-    "time": 1791536057.90327
+    "time": 1791537125.5111413
   },
   "events": [
     {
@@ -473,5 +473,5 @@
   "checkpoint_tensors_audited": false,
   "chat_notification_service": false,
   "observer_source_sha256": "e5ce604e8781590124096363a38b0f72381cf624a3677098b0fe5fd055ee4b67",
-  "reported_at": "2026-10-09T17:54:18+09:00"
+  "reported_at": "2026-10-09T18:13:57+09:00"
 }
