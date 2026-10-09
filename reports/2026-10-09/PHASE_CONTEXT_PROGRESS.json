@@ -1,0 +1,27 @@
+{
+  "status": "WAITING_GPU_PREFLIGHT",
+  "worker_alive": true,
+  "state": {
+    "status": "WAITING_GPU_PREFLIGHT",
+    "pid": 3843888,
+    "time": 1791523328.5436308
+  },
+  "events": [],
+  "histories": {
+    "local": [],
+    "long": []
+  },
+  "common_epoch": 0,
+  "protocol_sha256": "b5ed9e0f39e8cc9c03da2bcfa25c8caaf930a5c5662d7a7ec4c8e656f39ff60c",
+  "common_selected": {},
+  "parameters": {
+    "local": 4641795,
+    "long": 4641795
+  },
+  "heldout_read": false,
+  "independent_test": false,
+  "checkpoint_tensors_audited": false,
+  "chat_notification_service": false,
+  "observer_source_sha256": "e5ce604e8781590124096363a38b0f72381cf624a3677098b0fe5fd055ee4b67",
+  "reported_at": "2026-10-09T14:22:09+09:00"
+}
