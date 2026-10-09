@@ -1,0 +1,117 @@
+{
+  "status": "PASS_BALANCED_EPOCHS",
+  "epochs": [
+    {
+      "epoch": 1,
+      "counts": {
+        "1": 800,
+        "2": 800,
+        "3": 800
+      },
+      "last32": {
+        "1": 12,
+        "2": 12,
+        "3": 8
+      },
+      "last320": {
+        "1": 120,
+        "2": 97,
+        "3": 103
+      },
+      "longest_same_count_run": 7,
+      "batches_missing_any_count": 0,
+      "epoch_rows_sha256": "21e76337dbd43817e4d3a7a45a0d2de24abbf7b5b7b8ca8040c1cbe775b096ad"
+    },
+    {
+      "epoch": 2,
+      "counts": {
+        "1": 800,
+        "2": 800,
+        "3": 800
+      },
+      "last32": {
+        "1": 7,
+        "2": 17,
+        "3": 8
+      },
+      "last320": {
+        "1": 103,
+        "2": 117,
+        "3": 100
+      },
+      "longest_same_count_run": 11,
+      "batches_missing_any_count": 0,
+      "epoch_rows_sha256": "16b44f18f904e40d1607233ff91c2adb93e47799f2ea34887d33d3093b498666"
+    },
+    {
+      "epoch": 3,
+      "counts": {
+        "1": 800,
+        "2": 800,
+        "3": 800
+      },
+      "last32": {
+        "1": 12,
+        "2": 9,
+        "3": 11
+      },
+      "last320": {
+        "1": 122,
+        "2": 94,
+        "3": 104
+      },
+      "longest_same_count_run": 7,
+      "batches_missing_any_count": 0,
+      "epoch_rows_sha256": "a0fa5e1f3439d4592915fb3aab359d15a45275de31f71334ebeb3f5e1fa17063"
+    },
+    {
+      "epoch": 4,
+      "counts": {
+        "1": 800,
+        "2": 800,
+        "3": 800
+      },
+      "last32": {
+        "1": 11,
+        "2": 12,
+        "3": 9
+      },
+      "last320": {
+        "1": 101,
+        "2": 105,
+        "3": 114
+      },
+      "longest_same_count_run": 7,
+      "batches_missing_any_count": 0,
+      "epoch_rows_sha256": "5af48d64dc4ffc78f627c0ec83519a501de7c2e83af0f52f5bc2be2242b3feb7"
+    },
+    {
+      "epoch": 5,
+      "counts": {
+        "1": 800,
+        "2": 800,
+        "3": 800
+      },
+      "last32": {
+        "1": 13,
+        "2": 7,
+        "3": 12
+      },
+      "last320": {
+        "1": 101,
+        "2": 101,
+        "3": 118
+      },
+      "longest_same_count_run": 9,
+      "batches_missing_any_count": 0,
+      "epoch_rows_sha256": "7694fc4ca2fb6fadeca50e9a234b4a5d19fd237a65eceb521c5ca7a4a0c0b619"
+    }
+  ],
+  "preparation_sha256": "9ef20b525774e64379712593da8509e3dda17443675322f32a13decdac603036",
+  "schedule_sha256": "ef9e1e78d99c65f2aafb30491da6f371e9476ba6f75a7bc2bc3571b668e6b3f0",
+  "audit_source_sha256": "9d35760050f15f2518085439a868001c0eec1d89f0fa76f5cbfcf6fe195dc329",
+  "new_iq_read": false,
+  "training_changed": false,
+  "heldout_read": false,
+  "scope": "Frozen first five TRAIN epochs; composition metadata only, not a causal test"
+}
