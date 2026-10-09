@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "source_sha256": {
+    "experiments/architecture_audit_20261009/check_output_parameterization.py": "ffdc2b5492aa45b12ddb87ec4b9cc2758feeee926f7ad451e57fbcbe4182f929",
+    "experiments/architecture_audit_20261009/output_parameterization.py": "492ef96b3fb515e65d4e7936b0b5a28474b69efefa8cd75244ad3c8a52d8265d"
+  },
+  "full_samples": 63872,
+  "complex_stft_shape": [
+    1,
+    512,
+    500
+  ],
+  "context_shape": [
+    1,
+    65,
+    255
+  ],
+  "parameter_tensors_identical": true,
+  "initial_predictions_identical": true,
+  "mapping_nonzero_head_matches_parent_exactly": true,
+  "head_and_encoder_gradients_checked": true,
+  "zero_mixture_bins_force_zero_mask_output": true,
+  "results": [
+    {
+      "mode": "mapping",
+      "full_parameters": 32142859,
+      "synthetic_steps": 2,
+      "finite_gradient_norms": [
+        2.1166129112243652,
+        0.7320529818534851
+      ],
+      "sum_relative_error": 9.446399229103736e-15,
+      "seconds": 48.544148206710815,
+      "weights_discarded": true
+    },
+    {
+      "mode": "masking",
+      "full_parameters": 32142859,
+      "synthetic_steps": 2,
+      "finite_gradient_norms": [
+        4.711717128753662,
+        4.0612592697143555
+      ],
+      "sum_relative_error": 9.335702617315825e-15,
+      "seconds": 50.819052934646606,
+      "weights_discarded": true
+    }
+  ],
+  "recorded_iq_reads": 0,
+  "validation_read": false,
+  "heldout_read": false,
+  "performance_evaluation": false,
+  "gpu_fit_pending": true
+}
