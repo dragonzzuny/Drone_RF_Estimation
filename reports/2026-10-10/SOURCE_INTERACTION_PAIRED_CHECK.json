@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "source_sha256": "b34aa58b603a8c70f6481999993f12b134e5723be53d9ba7d337223901acce0f",
+  "checker_sha256": "a3052f8e2dc0c815e0466c10879b4c8138419d0a0f243e533e6e01dba668ae0f",
+  "validation_sha256": [
+    "a027032ffdad48afda0872b2ecc9459b673f8d0f70e9d2bdf38569207bb5fb82",
+    "232b3fca26554ec92ef3794dc77cf904853f0c7a3b090dd31af571172371b84e"
+  ],
+  "identity_comparison_exact_zero": true,
+  "row_order_invariant": true,
+  "reference_mismatch_rejected": true,
+  "nonfinite_metric_rejected": true,
+  "all_1050_sources_preserved": true,
+  "registered_means_reproduced": true,
+  "heldout_read": false,
+  "waveform_reads": 0,
+  "checkpoint_reads": 0
+}
