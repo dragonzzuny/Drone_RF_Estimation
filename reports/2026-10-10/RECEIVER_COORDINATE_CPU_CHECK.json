@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "steps": [
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "step_hz": 1562500.0,
+  "rows": [
+    {
+      "steps": -2,
+      "context_max_error": 5.960464477539063e-08,
+      "crop_relative_error": 8.198122200053033e-16,
+      "crop_oscillator_bitwise_equal": true,
+      "sum_relative_error": 3.415609326067894e-15,
+      "power_relative_error": 3.086409139374524e-08
+    },
+    {
+      "steps": -1,
+      "context_max_error": 2.9802322387695312e-08,
+      "crop_relative_error": 8.505871504405386e-16,
+      "crop_oscillator_bitwise_equal": true,
+      "sum_relative_error": 3.4445907701164367e-15,
+      "power_relative_error": 1.555250128681962e-08
+    },
+    {
+      "steps": 0,
+      "context_max_error": 0.0,
+      "crop_relative_error": 0.0,
+      "crop_oscillator_bitwise_equal": true,
+      "sum_relative_error": 0.0,
+      "power_relative_error": 0.0
+    },
+    {
+      "steps": 1,
+      "context_max_error": 5.960464477539063e-08,
+      "crop_relative_error": 7.794872048480126e-16,
+      "crop_oscillator_bitwise_equal": true,
+      "sum_relative_error": 3.3726789434439675e-15,
+      "power_relative_error": 1.6567264560229944e-08
+    },
+    {
+      "steps": 2,
+      "context_max_error": 5.960464477539063e-08,
+      "crop_relative_error": 7.598609220645384e-16,
+      "crop_oscillator_bitwise_equal": true,
+      "sum_relative_error": 3.300439315020911e-15,
+      "power_relative_error": 3.5294444811206915e-08
+    }
+  ],
+  "physical_centers_and_relative_spacing_preserved": true,
+  "passband_nyquist_guard_checked": true,
+  "limitation": "Coordinate identity only; residual FIR stopband leakage is not identically zero; no trained improvement",
+  "source_sha256": {
+    "experiments/receiver_coordinates_20261010/check.py": "23cd215ec9165449540ca1626eba8b6586a72b1609417b02c6e4475794b40503",
+    "experiments/receiver_coordinates_20261010/coordinates.py": "b796794d28921891ecbb1b6cdfe4b00e11d6a6acbaeb39944af536cde651578e",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_data.py": "97886c6accb9e228b85b6fda7efb76cea8e4b4a75e5420c39b115dcf65281268",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/temporal.py": "47c237184e31050706abefd0bc91bce80c1492866f5c26e0e9333fe1712da253"
+  },
+  "synthetic_only": true,
+  "recorded_iq_reads": 0,
+  "gpu_use": false,
+  "training_implemented": false
+}

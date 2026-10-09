@@ -2,7 +2,7 @@
 
 혼합 복소 I/Q에서 1–3개 원기록의 기여 파형을 복원하고, 학습하지 않은 기록·기종·조합에 대한 일반화를 검증하는 연구입니다.
 
-## 현재 진행 — 2026-10-10 07:02 KST
+## 현재 진행 — 2026-10-10 07:31 KST
 
 **기존 U-Net과 성분 상호작용 출력층 후보의 각 추가 3 epoch/225업데이트 비교가 완료됐습니다.** 같은 630 개발 혼합에서 두 군 모두 시작 모델 e0가 선택됐고, 후보는 채택 기준을 충족하지 못했습니다. 모든 실제/선택 가중치·optimizer·전체 평가 행을 검산했습니다. [완료 결과](reports/2026-10-10/SOURCE_INTERACTION_FINAL.md), [학습 곡선](reports/2026-10-10/SOURCE_INTERACTION_EPOCHS.pdf).
 
@@ -20,7 +20,11 @@
 
 TRAIN48 출력 기울기와 별도6사례의 전체 파라미터 기울기를 확인했습니다. 후자에서는 단일 성분 크기 손실과 다중 성분 원 손실의 방향cosine이−0.309였습니다. 소수 사례의 시작점에서의 관계이며 전체 원인·AdamW 경로를 증명하지는 않습니다. [출력 기울기](reports/2026-10-10/MAGNITUDE_GRADIENT_KO.md), [전체 파라미터 진단](reports/2026-10-10/MAGNITUDE_PARAMETER_GRADIENT_KO.md).
 
-**방법론 개발을 계속하고 있습니다.** PCGrad의 전체 75업데이트 비교는 종료·검산됐으나 부모를 넘지 못했습니다(NMSE2/3 0.492554/0.699292). CAGrad는 GPU에서 34/75업데이트이며, 실패할 경우 파형 목표를 보호하는 실제 업데이트 보정 → 주파수·시간 결합 U-Net 순으로 실행하도록 준비했습니다. 각 후보의 초기 모델·자료·75업데이트를 고정했고, 앞선 후보가 기준을 통과하면 뒤 후보는 건너뜁니다. 구조 후보는 기존 본체에 5.26M을 추가한 37.41M 모델입니다. [진행·결과와 파형/분류 손실 분해](reports/2026-10-10/COUNT_OPTIMIZATION_REPORT_KO.md), [파형 보호 계획](reports/2026-10-10/WAVE_UPDATE_GUARD_PLAN_KO.md), [두 축 구조 계획](reports/2026-10-10/TF_AXIS_PLAN_KO.md).
+**현재 GPU에서는 시간축·주파수축 LSTM을 결합한 U-Net을 학습하고 있습니다(1epoch,18/75업데이트).** PCGrad·CAGrad·파형 업데이트 보호는 각75업데이트와630개 개발 혼합 평가·검산을 완료했지만 보존 부모를 넘지 못했습니다. 파형 보호의 실제 NMSE2/3는0.488012/0.699280으로 같은 예산 원 손실 대조보다 조금 나아진 수준입니다. [완료 방법의 전체 수치](reports/2026-10-10/COUNT_OPTIMIZATION_REPORT_KO.md).
+
+두 축 구조는 기존 본체를 유지한 총37.41M 모델입니다. 실제e1 상태를 이어 총3epoch/225업데이트까지 같은 자료 일정의 원 손실 대조와 비교하도록 후속 worker도 대기 중입니다. 첫 결과를 보기 전에 예산을 정했습니다. [구조 계획](reports/2026-10-10/TF_AXIS_PLAN_KO.md), [연속 학습 규약](reports/2026-10-10/TF_AXIS_CONTINUATION_PLAN_KO.md).
+
+PCGrad·CAGrad는 고정TRAIN48에서는 부모보다 복원 지표가 좋아졌지만 DEV에서는 악화했습니다. [학습/개발 구분과 검산](reports/2026-10-10/COUNT_TRAIN_FIT_KO.md). 신호 간 주파수 간격을 보존한 좌표 변화 진단도 완료했으나 세 성분의 공동 개선이 없어 새 최선으로 채택하지 않았습니다. [모든TRAIN6 결과](reports/2026-10-10/RECEIVER_COORDINATE_TRAIN6_KO.md).
 
 CPU에서는 실제 학습된 추가층의 성분 차이, 단독 기록의 복소 상관, 같은 스펙트럼을 보존한 위상 무작위 대조를 확인했습니다. 측정한 구조가 분리에 도움이 되는지는 별도 모델 대조가 필요합니다. [추가층 내부](reports/2026-10-10/SOURCE_HEAD_MECHANISM_KO.md), [시간 구조](reports/2026-10-10/TRAIN_CYCLIC_STRUCTURE_KO.md), [현재 시간 표현](reports/2026-10-10/TEMPORAL_FEATURE_INTERPRETATION_KO.md).
 

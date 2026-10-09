@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "protocol_sha256": "269986afe1930ba1ff631eb7d17d376281d73a30d14a874b15b48ad7ff103b18",
+  "complete_sha256": "a1814a27fd7d41e5e94f31e3f5e77faa801039f0501a663a67ed017d0c0b1855",
+  "auditor_sha256": "387f271121b457d8cd0dd928e21022b718f081b8c33b12cf98fb84e0e86167b5",
+  "criterion_met": false,
+  "selected_epoch": 0,
+  "all_630_rows_reaggregated": true,
+  "optimizer_75_steps_and_moments_checked": true,
+  "actual_selected_tensors_checked": true,
+  "source_hashes_checked": true,
+  "cagrad_gram_algebra_and_trust_ball_checked": true,
+  "maximum_kkt_gap": 4.366041780820562e-07,
+  "gradient_tensors_independently_recomputed": false,
+  "heldout_read": false,
+  "gpu_use": false,
+  "recorded_iq_reads": 0,
+  "hashes": {
+    "ACTUAL_001.pt": "1608db1d6c167bdee9e58ba9d98ce126ff1b0bceb8f3fad6c189d9e84a3970f7",
+    "LAST.pt": "a4e2b3b1e40dfc9d2d0d23b43c494286360ce5d957c8daed5e4cb7be83d0b0db",
+    "BEST.pt": "3f05a96588deff45cdd1dc01950dc0712da2bf3f453c80463134dbf8f007c591",
+    "VALIDATION_001.json": "c6db5b2f8ca960e0a84763676a641be1ba5e9aa7162873564400a6a23dc224c5",
+    "GRADIENT_UPDATES.json": "76c277cefbc53f3202a8b30a22f33a2b2a6266fb8d7a6fb0f0ee157ad08321db"
+  }
+}

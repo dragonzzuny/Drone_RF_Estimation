@@ -36,6 +36,7 @@ def register(root,study,predecessor):
     p=ORIGINAL_REGISTER(root,study,predecessor);check=w.read(CHECK)
     p.update(status='REGISTERED_DUAL_AXIS_UNET',parameters=check['full_parameters'],added_parameters=check['added_parameters'],
         architecture='Complete retained U-Net plus two full-frequency then subband-time BLSTM residual blocks at bottleneck',
+        inference='Full retained U-Net augmented with dual-axis recurrence; mixture-only inputs unchanged, no count/category/reference input',
         gradient_update='Ordinary sum of sample-weighted count-group gradients; no surgery',
         axis_plan_sha256=w.digest(PLAN),
         limitation='One seed, reused DEV; extra 5.26M parameters and recurrent compute, not equal cost or TF-GridNet reproduction')

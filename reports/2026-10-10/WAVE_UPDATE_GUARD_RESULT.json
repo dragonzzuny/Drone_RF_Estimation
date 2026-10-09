@@ -1,0 +1,153 @@
+{
+  "status": "COMPLETE",
+  "protocol_sha256": "d38a9ec73836ec02a1140e32f14a53207820e3d7638ad1ff349cbee1a13cd427",
+  "initial": {
+    "epoch": 0,
+    "by_count": [
+      {
+        "count": 1,
+        "cases": 210,
+        "mean_nmse": 0.027593617315139082,
+        "mean_si_sdr": 21.33658722131418,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.027593617315139082,
+        "construction_count_accuracy": 0.7571428571428571
+      },
+      {
+        "count": 2,
+        "cases": 210,
+        "mean_nmse": 0.46689559431987576,
+        "mean_si_sdr": 3.777362785523427,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.7785797101018634,
+        "construction_count_accuracy": 0.2761904761904762
+      },
+      {
+        "count": 3,
+        "cases": 210,
+        "mean_nmse": 0.6902533153143511,
+        "mean_si_sdr": -3.1087800503642207,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.9513193850439157,
+        "construction_count_accuracy": 0.3238095238095238
+      }
+    ],
+    "selection_nmse": 0.5785744548171134
+  },
+  "actual": {
+    "epoch": 1,
+    "by_count": [
+      {
+        "count": 1,
+        "cases": 210,
+        "mean_nmse": 0.019540919265791094,
+        "mean_si_sdr": 23.76029565533494,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.019540919265791094,
+        "construction_count_accuracy": 0.7904761904761904
+      },
+      {
+        "count": 2,
+        "cases": 210,
+        "mean_nmse": 0.48801238066931923,
+        "mean_si_sdr": 3.416390757966552,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.8121881780638492,
+        "construction_count_accuracy": 0.32857142857142857
+      },
+      {
+        "count": 3,
+        "cases": 210,
+        "mean_nmse": 0.6992795338861977,
+        "mean_si_sdr": -3.423876557678185,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.9526387099972591,
+        "construction_count_accuracy": 0.23333333333333334
+      }
+    ],
+    "selection_nmse": 0.5936459572777585
+  },
+  "selected": {
+    "epoch": 0,
+    "by_count": [
+      {
+        "count": 1,
+        "cases": 210,
+        "mean_nmse": 0.027593617315139082,
+        "mean_si_sdr": 21.33658722131418,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.027593617315139082,
+        "construction_count_accuracy": 0.7571428571428571
+      },
+      {
+        "count": 2,
+        "cases": 210,
+        "mean_nmse": 0.46689559431987576,
+        "mean_si_sdr": 3.777362785523427,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.7785797101018634,
+        "construction_count_accuracy": 0.2761904761904762
+      },
+      {
+        "count": 3,
+        "cases": 210,
+        "mean_nmse": 0.6902533153143511,
+        "mean_si_sdr": -3.1087800503642207,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.9513193850439157,
+        "construction_count_accuracy": 0.3238095238095238
+      }
+    ],
+    "selection_nmse": 0.5785744548171134
+  },
+  "comparison": [
+    {
+      "reference": "parent",
+      "count": 1,
+      "nmse_delta": -0.008052698049347988,
+      "si_sdr_delta": 2.42370843402076,
+      "weakest_nmse_delta": -0.008052698049347988
+    },
+    {
+      "reference": "parent",
+      "count": 2,
+      "nmse_delta": 0.021116786349443473,
+      "si_sdr_delta": -0.36097202755687485,
+      "weakest_nmse_delta": 0.0336084679619858
+    },
+    {
+      "reference": "parent",
+      "count": 3,
+      "nmse_delta": 0.0090262185718466,
+      "si_sdr_delta": -0.3150965073139642,
+      "weakest_nmse_delta": 0.0013193249533434148
+    },
+    {
+      "reference": "retained_control_e1",
+      "count": 1,
+      "nmse_delta": 0.00020407102604942315,
+      "si_sdr_delta": -0.05790895979344057,
+      "weakest_nmse_delta": 0.00020407102604942315
+    },
+    {
+      "reference": "retained_control_e1",
+      "count": 2,
+      "nmse_delta": -0.0008896403942790232,
+      "si_sdr_delta": 0.05017396516387729,
+      "weakest_nmse_delta": -0.0012737886359392991
+    },
+    {
+      "reference": "retained_control_e1",
+      "count": 3,
+      "nmse_delta": -0.0003775121067605136,
+      "si_sdr_delta": 0.09411172777481402,
+      "weakest_nmse_delta": -0.00010866662696473739
+    }
+  ],
+  "criterion_met": false,
+  "train_seconds": 839.5140585899353,
+  "updates": 75,
+  "heldout_read": false,
+  "independent_test": false,
+  "time": 1791584806.7235608
+}

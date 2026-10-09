@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "full_parameters": 32142859,
+  "rows": [
+    {
+      "index": 4,
+      "count": 2,
+      "max_error": 1.906528268591501e-09,
+      "relative_error_norm": 3.922122857602517e-07
+    },
+    {
+      "index": 2,
+      "count": 3,
+      "max_error": 1.6152625903487206e-09,
+      "relative_error_norm": 1.387952863751707e-07
+    }
+  ],
+  "parent_checkpoint_sha256": "19888f8823fbb6ade6333d40bd849dec3202e522ded016e7265eaced6b52aa49",
+  "protocol_sha256": "6694d8a126702cfc916108b9aabea3ffbf1a43c168288ff1af2a77beb616ba7d",
+  "source_sha256": {
+    "experiments/count_pcgrad_20261010/check_wave_guard_full.py": "bc0d8b116d149f4200436006ebb727c219ac946953a731f0355c40f23e9523e6",
+    "experiments/count_pcgrad_20261010/gradient.py": "9009c92a182623941666e85a11ee5419d58486095b8706b3e29d9abc5a25c9fc",
+    "experiments/count_pcgrad_20261010/wave_update_guard.py": "9eaedf1fff2fb431b55d0e8b481aec15d6585bc8c4c1c7f3071c6b3cb40465d9",
+    "experiments/count_pcgrad_20261010/update_projection.py": "fcf0514a045e633cb62c06870b512f6c6f0315539c96f8d3805e884b7acf20db"
+  },
+  "seconds": 66.28049325942993,
+  "device": "cpu",
+  "optimizer_updates": 0,
+  "heldout_read": false,
+  "limitation": "Two fixed TRAIN examples validate implementation, not model performance"
+}

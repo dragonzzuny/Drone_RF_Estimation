@@ -1611,6 +1611,3114 @@
         "shadow_relative_correction_max": 0.03605679995662691,
         "shadow_note": "Counterfactual first-order geometry at recorded iterates only; not applied, no future trajectory or validation prediction"
       }
+    },
+    {
+      "arm": "cagrad",
+      "updates": 75,
+      "by_count": [
+        {
+          "count": 1,
+          "cases": 210,
+          "mean_nmse": 0.01761190325927177,
+          "mean_si_sdr": 24.534969509146276,
+          "weakest_nmse": 0.01761190325927177,
+          "count_accuracy": 0.8
+        },
+        {
+          "count": 2,
+          "cases": 210,
+          "mean_nmse": 0.4939298929841982,
+          "mean_si_sdr": 3.321230930607592,
+          "weakest_nmse": 0.8223848451821243,
+          "count_accuracy": 0.37142857142857144
+        },
+        {
+          "count": 3,
+          "cases": 210,
+          "mean_nmse": 0.6985222301968524,
+          "mean_si_sdr": -3.7151051055035964,
+          "weakest_nmse": 0.9521920123196221,
+          "count_accuracy": 0
+        }
+      ],
+      "selected_epoch": 0,
+      "criterion_met": false,
+      "audited": true,
+      "train_seconds": 841.2710900306702,
+      "gradient": {
+        "batches": 75,
+        "negative_gram_batches": [
+          [
+            0,
+            71,
+            73
+          ],
+          [
+            71,
+            0,
+            23
+          ],
+          [
+            73,
+            23,
+            0
+          ]
+        ],
+        "mean_cosine": [
+          [
+            1.0,
+            -0.4174495973717104,
+            -0.34367198400285137
+          ],
+          [
+            -0.4174495973717104,
+            1.0,
+            0.2127548806189042
+          ],
+          [
+            -0.34367198400285137,
+            0.2127548806189042,
+            1.0
+          ]
+        ],
+        "positive_gradient_dot_actual_delta": [
+          18,
+          19,
+          13
+        ],
+        "relative_gradient_change_median": 0.5,
+        "shadow_actual_update_projection": [
+          {
+            "update": 1,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0024822086561471224,
+              -0.003648163750767708
+            ],
+            "protected_dot_before": [
+              -0.0024822086561471224,
+              -0.003648163750767708
+            ],
+            "constraint_tolerance": 4.814504269376287e-12,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 2,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0008265831274911761,
+              -0.002598421648144722
+            ],
+            "protected_dot_before": [
+              -0.0008265831274911761,
+              -0.002598421648144722
+            ],
+            "constraint_tolerance": 2.868159442222008e-12,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 3,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00035534886410459876,
+              -0.0028375096153467894
+            ],
+            "protected_dot_before": [
+              -0.00035534886410459876,
+              -0.0028375096153467894
+            ],
+            "constraint_tolerance": 2.7625683707311724e-12,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 4,
+            "coefficients": [
+              4.854079134289636e-05,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 5.00462618723607e-09,
+            "protected_dot_after": [
+              0.0,
+              -0.019391748629941825
+            ],
+            "protected_dot_before": [
+              0.00010310145444236696,
+              -0.019228016957640648
+            ],
+            "constraint_tolerance": 1.8701343981783455e-12,
+            "relative_correction_norm": 0.0023261814311547643
+          },
+          {
+            "update": 5,
+            "coefficients": [
+              0.00037287132118437016,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 1.282253140983652e-07,
+            "protected_dot_after": [
+              5.421010862427522e-20,
+              -4.9994457581708373e-05
+            ],
+            "protected_dot_before": [
+              0.0003438862331677228,
+              -2.599904291855637e-05
+            ],
+            "constraint_tolerance": 3.5866573367134505e-13,
+            "relative_correction_norm": 0.014532067710434627
+          },
+          {
+            "update": 6,
+            "coefficients": [
+              0.0,
+              0.0003082109728363886
+            ],
+            "active_constraints": [
+              1
+            ],
+            "correction_squared_norm": 1.0846826855177147e-07,
+            "protected_dot_after": [
+              -0.00021281427497433147,
+              0.0
+            ],
+            "protected_dot_before": [
+              0.0003571663110051304,
+              0.00035192864015698433
+            ],
+            "constraint_tolerance": 3.567658006615359e-13,
+            "relative_correction_norm": 0.015498128009458143
+          },
+          {
+            "update": 7,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00029160958365537226,
+              -0.00046511628897860646
+            ],
+            "protected_dot_before": [
+              -0.00029160958365537226,
+              -0.00046511628897860646
+            ],
+            "constraint_tolerance": 5.765160222293357e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 8,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -7.925306272227317e-05,
+              -0.00011814529716502875
+            ],
+            "protected_dot_before": [
+              -7.925306272227317e-05,
+              -0.00011814529716502875
+            ],
+            "constraint_tolerance": 1.8428347931365525e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 9,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00013205729192122817,
+              -0.00026027465355582535
+            ],
+            "protected_dot_before": [
+              -0.00013205729192122817,
+              -0.00026027465355582535
+            ],
+            "constraint_tolerance": 4.200269516993083e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 10,
+            "coefficients": [
+              0.00010953845823111043,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 8.381737515575935e-08,
+            "protected_dot_after": [
+              0.0,
+              -1.537602242436984e-05
+            ],
+            "protected_dot_before": [
+              0.0007651867344975471,
+              -0.0001660935813561082
+            ],
+            "constraint_tolerance": 2.9379581158609545e-13,
+            "relative_correction_norm": 0.017656758866946228
+          },
+          {
+            "update": 11,
+            "coefficients": [
+              1.174411385558521e-05,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 7.359971883099867e-10,
+            "protected_dot_after": [
+              0.0,
+              -0.0001263109332424205
+            ],
+            "protected_dot_before": [
+              6.266945274546742e-05,
+              -8.193434769054875e-05
+            ],
+            "constraint_tolerance": 4.958457942377091e-14,
+            "relative_correction_norm": 0.0019085524699194469
+          },
+          {
+            "update": 12,
+            "coefficients": [
+              0.00017383969961439762,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 4.3002177649311135e-08,
+            "protected_dot_after": [
+              0.0,
+              -5.199034891479286e-05
+            ],
+            "protected_dot_before": [
+              0.00024736684281378984,
+              3.784504224313423e-05
+            ],
+            "constraint_tolerance": 2.1055630003919558e-13,
+            "relative_correction_norm": 0.015033092806975715
+          },
+          {
+            "update": 13,
+            "coefficients": [
+              0.0001694977840712136,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 1.2774891702978356e-07,
+            "protected_dot_after": [
+              1.0842021724855044e-19,
+              -0.001942419518441066
+            ],
+            "protected_dot_before": [
+              0.0007536907796747983,
+              -0.0022693914361298084
+            ],
+            "constraint_tolerance": 4.525371550938967e-13,
+            "relative_correction_norm": 0.02809005155474095
+          },
+          {
+            "update": 14,
+            "coefficients": [
+              0.00031941628145011733,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 1.2135276564793492e-07,
+            "protected_dot_after": [
+              -5.421010862427522e-20,
+              -0.00029260585657471516
+            ],
+            "protected_dot_before": [
+              0.00037992041325196624,
+              -0.0003637360641732812
+            ],
+            "constraint_tolerance": 3.789380267481072e-13,
+            "relative_correction_norm": 0.028087154500470037
+          },
+          {
+            "update": 15,
+            "coefficients": [
+              0.0,
+              0.00022279335282321375
+            ],
+            "active_constraints": [
+              1
+            ],
+            "correction_squared_norm": 1.4159604486988504e-07,
+            "protected_dot_after": [
+              -0.0005330990200845405,
+              -1.0842021724855044e-19
+            ],
+            "protected_dot_before": [
+              -0.0004329046932980418,
+              0.0006355487857945263
+            ],
+            "constraint_tolerance": 5.247559283679361e-13,
+            "relative_correction_norm": 0.030735839809513183
+          },
+          {
+            "update": 16,
+            "coefficients": [
+              0.0001433966004160238,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 2.1732103898526445e-08,
+            "protected_dot_after": [
+              0.0,
+              -2.403655346090475e-05
+            ],
+            "protected_dot_before": [
+              0.00015155243454501033,
+              4.0053739212453365e-05
+            ],
+            "constraint_tolerance": 1.504317895977951e-13,
+            "relative_correction_norm": 0.011318020096535413
+          },
+          {
+            "update": 17,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0005673874402418733,
+              -0.0011347162071615458
+            ],
+            "protected_dot_before": [
+              -0.0005673874402418733,
+              -0.0011347162071615458
+            ],
+            "constraint_tolerance": 9.18257296200853e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 18,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00019777912530116737,
+              -0.00018985231872648
+            ],
+            "protected_dot_before": [
+              -0.00019777912530116737,
+              -0.00018985231872648
+            ],
+            "constraint_tolerance": 2.1945704081576107e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 19,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0009708330035209656,
+              -0.00010531883162911981
+            ],
+            "protected_dot_before": [
+              -0.0009708330035209656,
+              -0.00010531883162911981
+            ],
+            "constraint_tolerance": 6.389682880754744e-14,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 20,
+            "coefficients": [
+              0.0003554279186626288,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 8.428032323350096e-08,
+            "protected_dot_after": [
+              5.421010862427522e-20,
+              -0.04178354418639349
+            ],
+            "protected_dot_before": [
+              0.000237123531405814,
+              -0.042829860001802444
+            ],
+            "constraint_tolerance": 7.495374695088759e-13,
+            "relative_correction_norm": 0.02475560800052319
+          },
+          {
+            "update": 21,
+            "coefficients": [
+              4.2496775949682154e-05,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 6.320745372434594e-09,
+            "protected_dot_after": [
+              0.0,
+              -0.001245507425435359
+            ],
+            "protected_dot_before": [
+              0.00014873470354359597,
+              -0.0010036735329777002
+            ],
+            "constraint_tolerance": 2.804346022391151e-13,
+            "relative_correction_norm": 0.006471653930726364
+          },
+          {
+            "update": 22,
+            "coefficients": [
+              0.00015073558343698098,
+              3.166211955212041e-07
+            ],
+            "active_constraints": [
+              0,
+              1
+            ],
+            "correction_squared_norm": 2.505783679801978e-08,
+            "protected_dot_after": [
+              -2.710505431213761e-20,
+              4.404571325722362e-20
+            ],
+            "protected_dot_before": [
+              0.0001662416907493025,
+              -2.2154190446599387e-06
+            ],
+            "constraint_tolerance": 1.5829188325265122e-13,
+            "relative_correction_norm": 0.012774681697177255
+          },
+          {
+            "update": 23,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -2.6996724045602605e-05,
+              -1.97555073100375e-06
+            ],
+            "protected_dot_before": [
+              -2.6996724045602605e-05,
+              -1.97555073100375e-06
+            ],
+            "constraint_tolerance": 2.02052848483173e-14,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 24,
+            "coefficients": [
+              0.0003474625491573863,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 1.7990018050764375e-08,
+            "protected_dot_after": [
+              -6.776263578034403e-21,
+              -0.0004123377443614084
+            ],
+            "protected_dot_before": [
+              5.177541606826708e-05,
+              -0.00040617125341668725
+            ],
+            "constraint_tolerance": 2.5747995370184064e-13,
+            "relative_correction_norm": 0.011050321315695364
+          },
+          {
+            "update": 25,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00017460412345826626,
+              -0.0003520309110172093
+            ],
+            "protected_dot_before": [
+              -0.00017460412345826626,
+              -0.0003520309110172093
+            ],
+            "constraint_tolerance": 3.065546330817066e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 26,
+            "coefficients": [
+              1.1788910533976374e-05,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 1.9102941033444734e-10,
+            "protected_dot_after": [
+              0.0,
+              -0.00173190399644011
+            ],
+            "protected_dot_before": [
+              1.6204161511268467e-05,
+              -0.001712397439405322
+            ],
+            "constraint_tolerance": 6.824841998287275e-13,
+            "relative_correction_norm": 0.0010612729177390688
+          },
+          {
+            "update": 27,
+            "coefficients": [
+              1.502454067290121e-05,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 2.4755964238528745e-10,
+            "protected_dot_after": [
+              -3.3881317890172014e-21,
+              -0.0007192490320322304
+            ],
+            "protected_dot_before": [
+              1.6477019016747363e-05,
+              -0.0007166097057051957
+            ],
+            "constraint_tolerance": 5.747814963729475e-13,
+            "relative_correction_norm": 0.0012794629060273652
+          },
+          {
+            "update": 28,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0002490190963726491,
+              -0.0010153796756640077
+            ],
+            "protected_dot_before": [
+              -0.0002490190963726491,
+              -0.0010153796756640077
+            ],
+            "constraint_tolerance": 6.10723631943103e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 29,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.000579209066927433,
+              -0.0005278420867398381
+            ],
+            "protected_dot_before": [
+              -0.000579209066927433,
+              -0.0005278420867398381
+            ],
+            "constraint_tolerance": 2.0338426067004657e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 30,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00043501899926923215,
+              -0.0011217303108423948
+            ],
+            "protected_dot_before": [
+              -0.00043501899926923215,
+              -0.0011217303108423948
+            ],
+            "constraint_tolerance": 6.355619183523455e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 31,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0010277996771037579,
+              -0.0003626630932558328
+            ],
+            "protected_dot_before": [
+              -0.0010277996771037579,
+              -0.0003626630932558328
+            ],
+            "constraint_tolerance": 5.042867391509732e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 32,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0011285608634352684,
+              -0.0006002726149745286
+            ],
+            "protected_dot_before": [
+              -0.0011285608634352684,
+              -0.0006002726149745286
+            ],
+            "constraint_tolerance": 7.501799072870773e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 33,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0012184068327769637,
+              -0.0011293143033981323
+            ],
+            "protected_dot_before": [
+              -0.0012184068327769637,
+              -0.0011293143033981323
+            ],
+            "constraint_tolerance": 9.874984463506345e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 34,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.001220952719449997,
+              -0.0007586352294310927
+            ],
+            "protected_dot_before": [
+              -0.001220952719449997,
+              -0.0007586352294310927
+            ],
+            "constraint_tolerance": 1.0110296647215632e-12,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 35,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00043095642467960715,
+              -0.0013033431023359299
+            ],
+            "protected_dot_before": [
+              -0.00043095642467960715,
+              -0.0013033431023359299
+            ],
+            "constraint_tolerance": 1.0866021809639004e-12,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 36,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00037952751154080033,
+              -0.0010484730591997504
+            ],
+            "protected_dot_before": [
+              -0.00037952751154080033,
+              -0.0010484730591997504
+            ],
+            "constraint_tolerance": 7.294930909494454e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 37,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00031006388599053025,
+              -0.0008020494133234024
+            ],
+            "protected_dot_before": [
+              -0.00031006388599053025,
+              -0.0008020494133234024
+            ],
+            "constraint_tolerance": 8.813087993283199e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 38,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0011785670649260283,
+              -0.00017715430294629186
+            ],
+            "protected_dot_before": [
+              -0.0011785670649260283,
+              -0.00017715430294629186
+            ],
+            "constraint_tolerance": 1.8874986496261655e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 39,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0006359443068504333,
+              -0.0010670917108654976
+            ],
+            "protected_dot_before": [
+              -0.0006359443068504333,
+              -0.0010670917108654976
+            ],
+            "constraint_tolerance": 1.1760489904011884e-12,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 40,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00047431624261662364,
+              -0.0010763539467006922
+            ],
+            "protected_dot_before": [
+              -0.00047431624261662364,
+              -0.0010763539467006922
+            ],
+            "constraint_tolerance": 7.60605371162757e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 41,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.001731006777845323,
+              -0.0005347138503566384
+            ],
+            "protected_dot_before": [
+              -0.001731006777845323,
+              -0.0005347138503566384
+            ],
+            "constraint_tolerance": 7.642229950944324e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 42,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0017334980657324195,
+              -0.0007763280300423503
+            ],
+            "protected_dot_before": [
+              -0.0017334980657324195,
+              -0.0007763280300423503
+            ],
+            "constraint_tolerance": 1.4586618948382345e-12,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 43,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0004466343962121755,
+              -0.002657912205904722
+            ],
+            "protected_dot_before": [
+              -0.0004466343962121755,
+              -0.002657912205904722
+            ],
+            "constraint_tolerance": 1.894495516056525e-12,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 44,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.001406595460139215,
+              -0.0002411992900306359
+            ],
+            "protected_dot_before": [
+              -0.001406595460139215,
+              -0.0002411992900306359
+            ],
+            "constraint_tolerance": 9.303650638560117e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 45,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0004178861854597926,
+              -0.0008904433925636113
+            ],
+            "protected_dot_before": [
+              -0.0004178861854597926,
+              -0.0008904433925636113
+            ],
+            "constraint_tolerance": 9.751273872366506e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 46,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0025591040030121803,
+              -0.00048597584827803075
+            ],
+            "protected_dot_before": [
+              -0.0025591040030121803,
+              -0.00048597584827803075
+            ],
+            "constraint_tolerance": 1.3238353356156572e-12,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 47,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0014527294551953673,
+              -0.00044439680641517043
+            ],
+            "protected_dot_before": [
+              -0.0014527294551953673,
+              -0.00044439680641517043
+            ],
+            "constraint_tolerance": 7.063085665131516e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 48,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0005161931039765477,
+              -0.0009467219933867455
+            ],
+            "protected_dot_before": [
+              -0.0005161931039765477,
+              -0.0009467219933867455
+            ],
+            "constraint_tolerance": 1.3153296857858742e-12,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 49,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0002863518020603806,
+              -0.0008779015042819083
+            ],
+            "protected_dot_before": [
+              -0.0002863518020603806,
+              -0.0008779015042819083
+            ],
+            "constraint_tolerance": 8.52780755245175e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 50,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.001017645001411438,
+              -0.0004730168730020523
+            ],
+            "protected_dot_before": [
+              -0.001017645001411438,
+              -0.0004730168730020523
+            ],
+            "constraint_tolerance": 9.904954648259928e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 51,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0006824759766459465,
+              -0.00014241793542169034
+            ],
+            "protected_dot_before": [
+              -0.0006824759766459465,
+              -0.00014241793542169034
+            ],
+            "constraint_tolerance": 5.525834051120795e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 52,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00037406335468403995,
+              -0.004366155713796616
+            ],
+            "protected_dot_before": [
+              -0.00037406335468403995,
+              -0.004366155713796616
+            ],
+            "constraint_tolerance": 7.257963132607613e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 53,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.000675044022500515,
+              -0.0004122242098674178
+            ],
+            "protected_dot_before": [
+              -0.000675044022500515,
+              -0.0004122242098674178
+            ],
+            "constraint_tolerance": 3.4481431804405137e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 54,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0004712509107775986,
+              -0.0015946314670145512
+            ],
+            "protected_dot_before": [
+              -0.0004712509107775986,
+              -0.0015946314670145512
+            ],
+            "constraint_tolerance": 5.229487265867429e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 55,
+            "coefficients": [
+              0.0,
+              0.00015529970088771898
+            ],
+            "active_constraints": [
+              1
+            ],
+            "correction_squared_norm": 1.9164868003509616e-08,
+            "protected_dot_after": [
+              -0.0012558014124991039,
+              2.710505431213761e-20
+            ],
+            "protected_dot_before": [
+              -0.0012626564130187035,
+              0.00012340569810476154
+            ],
+            "constraint_tolerance": 8.336852505693874e-13,
+            "relative_correction_norm": 0.009851972978027122
+          },
+          {
+            "update": 56,
+            "coefficients": [
+              0.0,
+              2.137480835953483e-05
+            ],
+            "active_constraints": [
+              1
+            ],
+            "correction_squared_norm": 7.662289504738381e-10,
+            "protected_dot_after": [
+              -0.001517177951894241,
+              0.0
+            ],
+            "protected_dot_before": [
+              -0.001570005901157856,
+              3.58472898369655e-05
+            ],
+            "constraint_tolerance": 1.9925588445548724e-13,
+            "relative_correction_norm": 0.0021256329019663854
+          },
+          {
+            "update": 57,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00041705105104483664,
+              -0.001768937218002975
+            ],
+            "protected_dot_before": [
+              -0.00041705105104483664,
+              -0.001768937218002975
+            ],
+            "constraint_tolerance": 8.433525886370145e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 58,
+            "coefficients": [
+              0.0,
+              3.942834790952775e-06
+            ],
+            "active_constraints": [
+              1
+            ],
+            "correction_squared_norm": 2.659931650826304e-10,
+            "protected_dot_after": [
+              -0.00022194130305746023,
+              0.0
+            ],
+            "protected_dot_before": [
+              -0.00021228997502475977,
+              6.746241706423461e-05
+            ],
+            "constraint_tolerance": 2.5729025657940085e-13,
+            "relative_correction_norm": 0.0013322001038730048
+          },
+          {
+            "update": 59,
+            "coefficients": [
+              0.0,
+              5.516454308719373e-05
+            ],
+            "active_constraints": [
+              1
+            ],
+            "correction_squared_norm": 1.305818977713847e-09,
+            "protected_dot_after": [
+              -0.0008186120242819506,
+              -3.3881317890172014e-21
+            ],
+            "protected_dot_before": [
+              -0.0007998143555596471,
+              2.367134584346786e-05
+            ],
+            "constraint_tolerance": 3.2722249433840816e-13,
+            "relative_correction_norm": 0.0030812373692357077
+          },
+          {
+            "update": 60,
+            "coefficients": [
+              0.0,
+              0.0002977077939623785
+            ],
+            "active_constraints": [
+              1
+            ],
+            "correction_squared_norm": 6.29469323613309e-08,
+            "protected_dot_after": [
+              -0.0011776820881591868,
+              -2.710505431213761e-20
+            ],
+            "protected_dot_before": [
+              -0.001067195669747889,
+              0.00021143864432815462
+            ],
+            "constraint_tolerance": 4.143785997925798e-13,
+            "relative_correction_norm": 0.021681288841018782
+          },
+          {
+            "update": 61,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00039763381937518716,
+              -0.00017233018297702074
+            ],
+            "protected_dot_before": [
+              -0.00039763381937518716,
+              -0.00017233018297702074
+            ],
+            "constraint_tolerance": 4.357121576525283e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 62,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00022091953724157065,
+              -0.0002623586042318493
+            ],
+            "protected_dot_before": [
+              -0.00022091953724157065,
+              -0.0002623586042318493
+            ],
+            "constraint_tolerance": 3.255541705539826e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 63,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00024119854788295925,
+              -7.670938794035465e-05
+            ],
+            "protected_dot_before": [
+              -0.00024119854788295925,
+              -7.670938794035465e-05
+            ],
+            "constraint_tolerance": 2.331152956344912e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 64,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00015900569269433618,
+              -0.0006892592646181583
+            ],
+            "protected_dot_before": [
+              -0.00015900569269433618,
+              -0.0006892592646181583
+            ],
+            "constraint_tolerance": 6.530442054885826e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 65,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -6.373982614604756e-05,
+              -0.00013059629418421537
+            ],
+            "protected_dot_before": [
+              -6.373982614604756e-05,
+              -0.00013059629418421537
+            ],
+            "constraint_tolerance": 1.6742259000053633e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 66,
+            "coefficients": [
+              0.0,
+              9.876016080697576e-05
+            ],
+            "active_constraints": [
+              1
+            ],
+            "correction_squared_norm": 3.899701111677546e-08,
+            "protected_dot_after": [
+              -0.00111732999920702,
+              0.0
+            ],
+            "protected_dot_before": [
+              1.020833406073507e-05,
+              0.00039486581226810813
+            ],
+            "constraint_tolerance": 1.9748238865099668e-13,
+            "relative_correction_norm": 0.0191152277585121
+          },
+          {
+            "update": 67,
+            "coefficients": [
+              0.0,
+              6.274817947884455e-05
+            ],
+            "active_constraints": [
+              1
+            ],
+            "correction_squared_norm": 1.0524414447250157e-08,
+            "protected_dot_after": [
+              -0.00023470148296573845,
+              -2.710505431213761e-20
+            ],
+            "protected_dot_before": [
+              -0.00019721381249837577,
+              0.00016772461822256446
+            ],
+            "constraint_tolerance": 2.2817630420529796e-13,
+            "relative_correction_norm": 0.010043071820196281
+          },
+          {
+            "update": 68,
+            "coefficients": [
+              0.0,
+              9.046883236703472e-05
+            ],
+            "active_constraints": [
+              1
+            ],
+            "correction_squared_norm": 1.2663616050184957e-08,
+            "protected_dot_after": [
+              -0.00012162855178463996,
+              0.0
+            ],
+            "protected_dot_before": [
+              -9.773167403182015e-05,
+              0.0001399776665493846
+            ],
+            "constraint_tolerance": 2.008203595475544e-13,
+            "relative_correction_norm": 0.011428637849650609
+          },
+          {
+            "update": 69,
+            "coefficients": [
+              0.00017128980231356151,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 8.738876434626256e-08,
+            "protected_dot_after": [
+              -1.0842021724855044e-19,
+              -0.0010469925638989055
+            ],
+            "protected_dot_before": [
+              0.0005101807764731348,
+              -0.0002645841450430453
+            ],
+            "constraint_tolerance": 3.0588894862029704e-13,
+            "relative_correction_norm": 0.032214574435583954
+          },
+          {
+            "update": 70,
+            "coefficients": [
+              5.210272553554416e-06,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 5.248759793582771e-12,
+            "protected_dot_after": [
+              0.0,
+              -0.0005168255013803029
+            ],
+            "protected_dot_before": [
+              1.0073867997562047e-06,
+              -0.0005170858930796385
+            ],
+            "constraint_tolerance": 2.9348410793025573e-13,
+            "relative_correction_norm": 0.00020678083641931794
+          },
+          {
+            "update": 71,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00022763156448490918,
+              -0.0005655590211972594
+            ],
+            "protected_dot_before": [
+              -0.00022763156448490918,
+              -0.0005655590211972594
+            ],
+            "constraint_tolerance": 7.599891732802769e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 72,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0008491414482705295,
+              -0.0005124731687828898
+            ],
+            "protected_dot_before": [
+              -0.0008491414482705295,
+              -0.0005124731687828898
+            ],
+            "constraint_tolerance": 7.527311735354905e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 73,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0007525307592004538,
+              -9.57922893576324e-05
+            ],
+            "protected_dot_before": [
+              -0.0007525307592004538,
+              -9.57922893576324e-05
+            ],
+            "constraint_tolerance": 3.21346710682722e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 74,
+            "coefficients": [
+              0.0005087303065229416,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 1.2226878940502558e-07,
+            "protected_dot_after": [
+              0.0,
+              -0.0012306611761945603
+            ],
+            "protected_dot_before": [
+              0.00024034107627812773,
+              -0.0012299616355448961
+            ],
+            "constraint_tolerance": 7.686800493318212e-13,
+            "relative_correction_norm": 0.024177252311685396
+          },
+          {
+            "update": 75,
+            "coefficients": [
+              0.0,
+              3.0677055997858414e-05
+            ],
+            "active_constraints": [
+              1
+            ],
+            "correction_squared_norm": 1.3118744248293002e-09,
+            "protected_dot_after": [
+              -0.00017714940654134286,
+              0.0
+            ],
+            "protected_dot_before": [
+              -0.00016380977467633784,
+              4.276402614777908e-05
+            ],
+            "constraint_tolerance": 9.372867439476432e-14,
+            "relative_correction_norm": 0.0030161524193355353
+          }
+        ],
+        "shadow_batches_requiring_correction": 28,
+        "shadow_relative_correction_max": 0.032214574435583954,
+        "shadow_note": "Counterfactual first-order geometry at recorded iterates only; not applied, no future trajectory or validation prediction"
+      }
+    },
+    {
+      "arm": "wave_guard",
+      "updates": 75,
+      "by_count": [
+        {
+          "count": 1,
+          "cases": 210,
+          "mean_nmse": 0.019540919265791094,
+          "mean_si_sdr": 23.76029565533494,
+          "weakest_nmse": 0.019540919265791094,
+          "count_accuracy": 0.7904761904761904
+        },
+        {
+          "count": 2,
+          "cases": 210,
+          "mean_nmse": 0.48801238066931923,
+          "mean_si_sdr": 3.416390757966552,
+          "weakest_nmse": 0.8121881780638492,
+          "count_accuracy": 0.32857142857142857
+        },
+        {
+          "count": 3,
+          "cases": 210,
+          "mean_nmse": 0.6992795338861977,
+          "mean_si_sdr": -3.423876557678185,
+          "weakest_nmse": 0.9526387099972591,
+          "count_accuracy": 0.23333333333333334
+        }
+      ],
+      "selected_epoch": 0,
+      "criterion_met": false,
+      "audited": true,
+      "train_seconds": 839.5140585899353,
+      "gradient": {
+        "batches": 75,
+        "negative_gram_batches": [
+          [
+            0,
+            62,
+            73
+          ],
+          [
+            62,
+            0,
+            28
+          ],
+          [
+            73,
+            28,
+            0
+          ]
+        ],
+        "mean_cosine": [
+          [
+            1.0,
+            -0.24555631140797005,
+            -0.3082466413969001
+          ],
+          [
+            -0.24555631140797005,
+            1.0,
+            0.1106091084469214
+          ],
+          [
+            -0.3082466413969001,
+            0.1106091084469214,
+            1.0
+          ]
+        ],
+        "positive_gradient_dot_actual_delta": [
+          19,
+          11,
+          6
+        ],
+        "relative_gradient_change_median": 0.0,
+        "shadow_actual_update_projection": [
+          {
+            "update": 1,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.003673935541883111,
+              -0.002884416840970516
+            ],
+            "protected_dot_before": [
+              -0.003673935541883111,
+              -0.002884416840970516
+            ],
+            "constraint_tolerance": 4.9173335219115875e-12,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 2,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0002471848565619439,
+              -0.002683057216927409
+            ],
+            "protected_dot_before": [
+              -0.0002471848565619439,
+              -0.002683057216927409
+            ],
+            "constraint_tolerance": 2.573436220907042e-12,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 3,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0006370938499458134,
+              -0.0028802675660699606
+            ],
+            "protected_dot_before": [
+              -0.0006370938499458134,
+              -0.0028802675660699606
+            ],
+            "constraint_tolerance": 2.7795195514702255e-12,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 4,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00018315520719625056,
+              -0.021044742316007614
+            ],
+            "protected_dot_before": [
+              -0.00018315520719625056,
+              -0.021044742316007614
+            ],
+            "constraint_tolerance": 2.034177127062508e-12,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 5,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00022832979448139668,
+              -0.0008237887523137033
+            ],
+            "protected_dot_before": [
+              -0.00022832979448139668,
+              -0.0008237887523137033
+            ],
+            "constraint_tolerance": 5.594760077389564e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 6,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0005100492853671312,
+              -0.0005526893073692918
+            ],
+            "protected_dot_before": [
+              -0.0005100492853671312,
+              -0.0005526893073692918
+            ],
+            "constraint_tolerance": 6.230136026735624e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 7,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0005937387468293309,
+              -0.0009728858713060617
+            ],
+            "protected_dot_before": [
+              -0.0005937387468293309,
+              -0.0009728858713060617
+            ],
+            "constraint_tolerance": 1.1476729899057847e-12,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 8,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0007804271881468594,
+              -0.0003015254042111337
+            ],
+            "protected_dot_before": [
+              -0.0007804271881468594,
+              -0.0003015254042111337
+            ],
+            "constraint_tolerance": 7.567392889704979e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 9,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -8.379702921956778e-05,
+              -0.0002742002543527633
+            ],
+            "protected_dot_before": [
+              -8.379702921956778e-05,
+              -0.0002742002543527633
+            ],
+            "constraint_tolerance": 3.7114380224622945e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 10,
+            "coefficients": [
+              5.86052879354631e-06,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 2.1011869871892434e-10,
+            "protected_dot_after": [
+              -6.776263578034403e-21,
+              -0.0005424216414312027
+            ],
+            "protected_dot_before": [
+              3.585319791454822e-05,
+              -0.0005574285169132054
+            ],
+            "constraint_tolerance": 1.807763150857879e-13,
+            "relative_correction_norm": 0.0009189235348314025
+          },
+          {
+            "update": 11,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0005085031152702868,
+              -0.0002711487468332052
+            ],
+            "protected_dot_before": [
+              -0.0005085031152702868,
+              -0.0002711487468332052
+            ],
+            "constraint_tolerance": 2.63973573881618e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 12,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00012854918895754963,
+              -0.0002903217391576618
+            ],
+            "protected_dot_before": [
+              -0.00012854918895754963,
+              -0.0002903217391576618
+            ],
+            "constraint_tolerance": 3.397243868776575e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 13,
+            "coefficients": [
+              2.620780317644773e-05,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 2.7264390806276138e-09,
+            "protected_dot_after": [
+              -1.3552527156068805e-20,
+              -0.002542204013761068
+            ],
+            "protected_dot_before": [
+              0.0001040315764839761,
+              -0.0025971729774028063
+            ],
+            "constraint_tolerance": 3.0059043827089506e-13,
+            "relative_correction_norm": 0.004367410469767391
+          },
+          {
+            "update": 14,
+            "coefficients": [
+              0.0002048573489940736,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 2.186697142836993e-08,
+            "protected_dot_after": [
+              0.0,
+              -0.0005897285619307076
+            ],
+            "protected_dot_before": [
+              0.00010674243094399571,
+              -0.0006865102332085371
+            ],
+            "constraint_tolerance": 3.2387830907332067e-13,
+            "relative_correction_norm": 0.013381658376478747
+          },
+          {
+            "update": 15,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0005631867097690701,
+              -9.027316082210746e-06
+            ],
+            "protected_dot_before": [
+              -0.0005631867097690701,
+              -9.027316082210746e-06
+            ],
+            "constraint_tolerance": 7.359688667410378e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 16,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00024115775886457413,
+              -0.00029373777215369046
+            ],
+            "protected_dot_before": [
+              -0.00024115775886457413,
+              -0.00029373777215369046
+            ],
+            "constraint_tolerance": 4.149755999336991e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 17,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0003016783157363534,
+              -0.0018417834071442485
+            ],
+            "protected_dot_before": [
+              -0.0003016783157363534,
+              -0.0018417834071442485
+            ],
+            "constraint_tolerance": 7.5145928440772e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 18,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0003321598924230784,
+              -0.000437657639849931
+            ],
+            "protected_dot_before": [
+              -0.0003321598924230784,
+              -0.000437657639849931
+            ],
+            "constraint_tolerance": 4.778082584491292e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 19,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0006781010888516903,
+              -0.000593302771449089
+            ],
+            "protected_dot_before": [
+              -0.0006781010888516903,
+              -0.000593302771449089
+            ],
+            "constraint_tolerance": 3.4657003819293227e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 20,
+            "coefficients": [
+              0.0002456794421557734,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 2.53975452511264e-08,
+            "protected_dot_after": [
+              2.710505431213761e-20,
+              -0.05522323890271469
+            ],
+            "protected_dot_before": [
+              0.00010337676212657243,
+              -0.0551304817199707
+            ],
+            "constraint_tolerance": 9.302400468912502e-13,
+            "relative_correction_norm": 0.01307129169033745
+          },
+          {
+            "update": 21,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -5.825742846354842e-05,
+              -0.0017451875610277057
+            ],
+            "protected_dot_before": [
+              -5.825742846354842e-05,
+              -0.0017451875610277057
+            ],
+            "constraint_tolerance": 5.08532200451403e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 22,
+            "coefficients": [
+              3.5381723311505774e-06,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 1.0467334818030946e-11,
+            "protected_dot_after": [
+              4.235164736271502e-22,
+              -0.0009072700078246856
+            ],
+            "protected_dot_before": [
+              2.9584016374428757e-06,
+              -0.0009087802027352154
+            ],
+            "constraint_tolerance": 2.0920643572166022e-13,
+            "relative_correction_norm": 0.000231224380720802
+          },
+          {
+            "update": 23,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0003630158316809684,
+              -0.0003732212062459439
+            ],
+            "protected_dot_before": [
+              -0.0003630158316809684,
+              -0.0003732212062459439
+            ],
+            "constraint_tolerance": 5.43202243504223e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 24,
+            "coefficients": [
+              0.0005717660326500666,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 4.287636403266908e-08,
+            "protected_dot_after": [
+              0.0,
+              -0.0006915040426341754
+            ],
+            "protected_dot_before": [
+              7.498935156036168e-05,
+              -0.0009067098726518452
+            ],
+            "constraint_tolerance": 5.820896953344519e-13,
+            "relative_correction_norm": 0.015226243921973113
+          },
+          {
+            "update": 25,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0003423216985538602,
+              -0.0005518037360161543
+            ],
+            "protected_dot_before": [
+              -0.0003423216985538602,
+              -0.0005518037360161543
+            ],
+            "constraint_tolerance": 6.092141855817891e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 26,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -9.035445691552013e-05,
+              -0.0021298108622431755
+            ],
+            "protected_dot_before": [
+              -9.035445691552013e-05,
+              -0.0021298108622431755
+            ],
+            "constraint_tolerance": 8.692525568163032e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 27,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -5.623277320410125e-05,
+              -0.0007823110790923238
+            ],
+            "protected_dot_before": [
+              -5.623277320410125e-05,
+              -0.0007823110790923238
+            ],
+            "constraint_tolerance": 7.606759220293046e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 28,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00013101768854539841,
+              -0.0010301750153303146
+            ],
+            "protected_dot_before": [
+              -0.00013101768854539841,
+              -0.0010301750153303146
+            ],
+            "constraint_tolerance": 6.767431909103548e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 29,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0007739217835478485,
+              -0.000551352568436414
+            ],
+            "protected_dot_before": [
+              -0.0007739217835478485,
+              -0.000551352568436414
+            ],
+            "constraint_tolerance": 2.4804383698812925e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 30,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0002438264637021348,
+              -0.0014098451938480139
+            ],
+            "protected_dot_before": [
+              -0.0002438264637021348,
+              -0.0014098451938480139
+            ],
+            "constraint_tolerance": 7.8501616305308e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 31,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0012221864890307188,
+              -0.0004148206498939544
+            ],
+            "protected_dot_before": [
+              -0.0012221864890307188,
+              -0.0004148206498939544
+            ],
+            "constraint_tolerance": 7.240418215954473e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 32,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0012513077817857265,
+              -0.0006456660339608788
+            ],
+            "protected_dot_before": [
+              -0.0012513077817857265,
+              -0.0006456660339608788
+            ],
+            "constraint_tolerance": 9.816782608679397e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 33,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0015031981747597456,
+              -0.0011052712798118591
+            ],
+            "protected_dot_before": [
+              -0.0015031981747597456,
+              -0.0011052712798118591
+            ],
+            "constraint_tolerance": 1.1956178889385122e-12,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 34,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0015325868735089898,
+              -0.000654672970995307
+            ],
+            "protected_dot_before": [
+              -0.0015325868735089898,
+              -0.000654672970995307
+            ],
+            "constraint_tolerance": 1.2721617090544802e-12,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 35,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00017497516819275916,
+              -0.001248434535227716
+            ],
+            "protected_dot_before": [
+              -0.00017497516819275916,
+              -0.001248434535227716
+            ],
+            "constraint_tolerance": 1.087215472880261e-12,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 36,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -7.854041541577317e-06,
+              -0.0008604614995419979
+            ],
+            "protected_dot_before": [
+              -7.854041541577317e-06,
+              -0.0008604614995419979
+            ],
+            "constraint_tolerance": 5.65441419941149e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 37,
+            "coefficients": [
+              2.934393309532421e-05,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 4.93756693575597e-10,
+            "protected_dot_after": [
+              0.0,
+              -0.00038838574524226784
+            ],
+            "protected_dot_before": [
+              1.6826534192659892e-05,
+              -0.00039224192732945085
+            ],
+            "constraint_tolerance": 4.903621181801728e-13,
+            "relative_correction_norm": 0.0015666749777382659
+          },
+          {
+            "update": 38,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0026106820441782475,
+              -7.805215864209458e-05
+            ],
+            "protected_dot_before": [
+              -0.0026106820441782475,
+              -7.805215864209458e-05
+            ],
+            "constraint_tolerance": 1.7981811604480172e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 39,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0006156400195322931,
+              -0.0004151774919591844
+            ],
+            "protected_dot_before": [
+              -0.0006156400195322931,
+              -0.0004151774919591844
+            ],
+            "constraint_tolerance": 6.386824019792233e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 40,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00010191222827415913,
+              -0.0012485674815252423
+            ],
+            "protected_dot_before": [
+              -0.00010191222827415913,
+              -0.0012485674815252423
+            ],
+            "constraint_tolerance": 7.455686299721488e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 41,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0008899875683709979,
+              -0.000495094689540565
+            ],
+            "protected_dot_before": [
+              -0.0008899875683709979,
+              -0.000495094689540565
+            ],
+            "constraint_tolerance": 6.519906742829125e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 42,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0013571659801527858,
+              -0.000515627209097147
+            ],
+            "protected_dot_before": [
+              -0.0013571659801527858,
+              -0.000515627209097147
+            ],
+            "constraint_tolerance": 1.3388974299284538e-12,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 43,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0001404665526933968,
+              -0.0021178724709898233
+            ],
+            "protected_dot_before": [
+              -0.0001404665526933968,
+              -0.0021178724709898233
+            ],
+            "constraint_tolerance": 1.5674980139158479e-12,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 44,
+            "coefficients": [
+              0.0,
+              0.00051461769131747
+            ],
+            "active_constraints": [
+              1
+            ],
+            "correction_squared_norm": 1.2445282656737243e-07,
+            "protected_dot_after": [
+              -0.0010551601672436732,
+              0.0
+            ],
+            "protected_dot_before": [
+              -0.0010477093746885657,
+              0.0002418354997644201
+            ],
+            "constraint_tolerance": 7.955734391953574e-13,
+            "relative_correction_norm": 0.02457627352405696
+          },
+          {
+            "update": 45,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00028447649674490094,
+              -0.0005193197866901755
+            ],
+            "protected_dot_before": [
+              -0.00028447649674490094,
+              -0.0005193197866901755
+            ],
+            "constraint_tolerance": 6.504610396511224e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 46,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0010643142741173506,
+              -1.558993972139433e-05
+            ],
+            "protected_dot_before": [
+              -0.0010643142741173506,
+              -1.558993972139433e-05
+            ],
+            "constraint_tolerance": 7.702398105464793e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 47,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0012360014952719212,
+              -8.375187462661415e-05
+            ],
+            "protected_dot_before": [
+              -0.0012360014952719212,
+              -8.375187462661415e-05
+            ],
+            "constraint_tolerance": 8.016348536345248e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 48,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0002231379912700504,
+              -0.0005809628055430949
+            ],
+            "protected_dot_before": [
+              -0.0002231379912700504,
+              -0.0005809628055430949
+            ],
+            "constraint_tolerance": 6.329462753507262e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 49,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00024698986089788377,
+              -0.00031141721410676837
+            ],
+            "protected_dot_before": [
+              -0.00024698986089788377,
+              -0.00031141721410676837
+            ],
+            "constraint_tolerance": 3.158022683029253e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 50,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0008237138972617686,
+              -0.0002644703781697899
+            ],
+            "protected_dot_before": [
+              -0.0008237138972617686,
+              -0.0002644703781697899
+            ],
+            "constraint_tolerance": 8.66278511653659e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 51,
+            "coefficients": [
+              0.0,
+              3.421240349424429e-05
+            ],
+            "active_constraints": [
+              1
+            ],
+            "correction_squared_norm": 9.414379083145664e-10,
+            "protected_dot_after": [
+              -0.0006863058491121716,
+              6.776263578034403e-21
+            ],
+            "protected_dot_before": [
+              -0.0006830119527876377,
+              2.7517444323166274e-05
+            ],
+            "constraint_tolerance": 4.5394071631771094e-13,
+            "relative_correction_norm": 0.002588290741881873
+          },
+          {
+            "update": 52,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00032145329168997705,
+              -0.0028515635058283806
+            ],
+            "protected_dot_before": [
+              -0.00032145329168997705,
+              -0.0028515635058283806
+            ],
+            "constraint_tolerance": 5.504678570586889e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 53,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0005841425154358149,
+              -0.0002921532141044736
+            ],
+            "protected_dot_before": [
+              -0.0005841425154358149,
+              -0.0002921532141044736
+            ],
+            "constraint_tolerance": 3.032835600386371e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 54,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0002662664046511054,
+              -0.0011410482693463564
+            ],
+            "protected_dot_before": [
+              -0.0002662664046511054,
+              -0.0011410482693463564
+            ],
+            "constraint_tolerance": 3.66244799927027e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 55,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0013292399235069752,
+              -5.5801705457270145e-05
+            ],
+            "protected_dot_before": [
+              -0.0013292399235069752,
+              -5.5801705457270145e-05
+            ],
+            "constraint_tolerance": 1.0113707503033689e-12,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 56,
+            "coefficients": [
+              0.0,
+              1.5512601924178164e-05
+            ],
+            "active_constraints": [
+              1
+            ],
+            "correction_squared_norm": 4.6339730728973076e-10,
+            "protected_dot_after": [
+              -0.001445871642662296,
+              -3.3881317890172014e-21
+            ],
+            "protected_dot_before": [
+              -0.0014899566303938627,
+              2.987231346196495e-05
+            ],
+            "constraint_tolerance": 1.866783081600447e-13,
+            "relative_correction_norm": 0.0016663635569094846
+          },
+          {
+            "update": 57,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0002667336375452578,
+              -0.0024521630257368088
+            ],
+            "protected_dot_before": [
+              -0.0002667336375452578,
+              -0.0024521630257368088
+            ],
+            "constraint_tolerance": 9.011660201509563e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 58,
+            "coefficients": [
+              0.0,
+              8.606548502640445e-06
+            ],
+            "active_constraints": [
+              1
+            ],
+            "correction_squared_norm": 1.3855949750762256e-09,
+            "protected_dot_after": [
+              -0.00015945975731638444,
+              0.0
+            ],
+            "protected_dot_before": [
+              -0.00013293130905367434,
+              0.00016099310596473515
+            ],
+            "constraint_tolerance": 1.4603381013934257e-13,
+            "relative_correction_norm": 0.0030129521538851153
+          },
+          {
+            "update": 59,
+            "coefficients": [
+              0.0,
+              3.84842641994273e-05
+            ],
+            "active_constraints": [
+              1
+            ],
+            "correction_squared_norm": 6.734723313963423e-10,
+            "protected_dot_after": [
+              -0.0009779694871800797,
+              0.0
+            ],
+            "protected_dot_before": [
+              -0.0009590997360646725,
+              1.74999404407572e-05
+            ],
+            "constraint_tolerance": 3.9619042887271e-13,
+            "relative_correction_norm": 0.002272578766674918
+          },
+          {
+            "update": 60,
+            "coefficients": [
+              0.0,
+              8.692376804586774e-05
+            ],
+            "active_constraints": [
+              1
+            ],
+            "correction_squared_norm": 6.0190354751687375e-09,
+            "protected_dot_after": [
+              -0.0012473166715235558,
+              0.0
+            ],
+            "protected_dot_before": [
+              -0.001226346823386848,
+              6.924499029992148e-05
+            ],
+            "constraint_tolerance": 4.274348467805104e-13,
+            "relative_correction_norm": 0.007336642752043903
+          },
+          {
+            "update": 61,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0002835336490534246,
+              -0.0004955555195920169
+            ],
+            "protected_dot_before": [
+              -0.0002835336490534246,
+              -0.0004955555195920169
+            ],
+            "constraint_tolerance": 3.382142006082496e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 62,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00022945288219489157,
+              -0.0004370067617855966
+            ],
+            "protected_dot_before": [
+              -0.00022945288219489157,
+              -0.0004370067617855966
+            ],
+            "constraint_tolerance": 4.094753119723611e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 63,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0004085331747774035,
+              -0.0003352740022819489
+            ],
+            "protected_dot_before": [
+              -0.0004085331747774035,
+              -0.0003352740022819489
+            ],
+            "constraint_tolerance": 4.453655613714885e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 64,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0001026847749017179,
+              -0.001140413573011756
+            ],
+            "protected_dot_before": [
+              -0.0001026847749017179,
+              -0.001140413573011756
+            ],
+            "constraint_tolerance": 6.016318682114993e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 65,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -4.719358912552707e-07,
+              -0.0007876470917835832
+            ],
+            "protected_dot_before": [
+              -4.719358912552707e-07,
+              -0.0007876470917835832
+            ],
+            "constraint_tolerance": 4.055843556648875e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 66,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0009643954690545797,
+              -0.0001908463309518993
+            ],
+            "protected_dot_before": [
+              -0.0009643954690545797,
+              -0.0001908463309518993
+            ],
+            "constraint_tolerance": 2.34861801820568e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 67,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0004573726619128138,
+              -0.00024724850663915277
+            ],
+            "protected_dot_before": [
+              -0.0004573726619128138,
+              -0.00024724850663915277
+            ],
+            "constraint_tolerance": 5.292583430854247e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 68,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00011271575931459665,
+              -0.00022325055033434182
+            ],
+            "protected_dot_before": [
+              -0.00011271575931459665,
+              -0.00022325055033434182
+            ],
+            "constraint_tolerance": 2.7609374533202046e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 69,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -4.4184500438859686e-05,
+              -0.0005771225551143289
+            ],
+            "protected_dot_before": [
+              -4.4184500438859686e-05,
+              -0.0005771225551143289
+            ],
+            "constraint_tolerance": 1.7179858351506177e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 70,
+            "coefficients": [
+              0.0009415684948790867,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 1.0910638177206476e-07,
+            "protected_dot_after": [
+              0.0,
+              -0.0008742699967255892
+            ],
+            "protected_dot_before": [
+              0.00011587726476136595,
+              -0.0010454317089170218
+            ],
+            "constraint_tolerance": 6.876745699367299e-13,
+            "relative_correction_norm": 0.03203113408707542
+          },
+          {
+            "update": 71,
+            "coefficients": [
+              3.4441694974665104e-06,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 1.7140576354627835e-12,
+            "protected_dot_after": [
+              0.0,
+              -0.0006886790882028374
+            ],
+            "protected_dot_before": [
+              4.976693617209094e-07,
+              -0.0006891656666994095
+            ],
+            "constraint_tolerance": 4.2918337097046197e-13,
+            "relative_correction_norm": 0.00011912401624293685
+          },
+          {
+            "update": 72,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.0007625357247889042,
+              -0.0007657678797841072
+            ],
+            "protected_dot_before": [
+              -0.0007625357247889042,
+              -0.0007657678797841072
+            ],
+            "constraint_tolerance": 9.619412619033204e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 73,
+            "coefficients": [
+              0.0,
+              0.0
+            ],
+            "active_constraints": [],
+            "correction_squared_norm": 0.0,
+            "protected_dot_after": [
+              -0.00047852256102487445,
+              -0.0002975455136038363
+            ],
+            "protected_dot_before": [
+              -0.00047852256102487445,
+              -0.0002975455136038363
+            ],
+            "constraint_tolerance": 2.284647157938244e-13,
+            "relative_correction_norm": 0.0
+          },
+          {
+            "update": 74,
+            "coefficients": [
+              0.0007236075026897711,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 1.7804828812959005e-07,
+            "protected_dot_after": [
+              0.0,
+              -0.0015965206961318775
+            ],
+            "protected_dot_before": [
+              0.0002460564428474754,
+              -0.0017057107761502266
+            ],
+            "constraint_tolerance": 1.0007267604416455e-12,
+            "relative_correction_norm": 0.030358529896614913
+          },
+          {
+            "update": 75,
+            "coefficients": [
+              6.104339870442529e-05,
+              0.0
+            ],
+            "active_constraints": [
+              0
+            ],
+            "correction_squared_norm": 4.213666381588085e-09,
+            "protected_dot_after": [
+              0.0,
+              -0.0010866166386119163
+            ],
+            "protected_dot_before": [
+              6.90273882355541e-05,
+              -0.001092294231057167
+            ],
+            "constraint_tolerance": 1.2098450873751114e-12,
+            "relative_correction_norm": 0.0037160874196625207
+          }
+        ],
+        "shadow_batches_requiring_correction": 17,
+        "shadow_relative_correction_max": 0.03203113408707542,
+        "shadow_note": "Counterfactual first-order geometry at recorded iterates only; not applied, no future trajectory or validation prediction",
+        "waveform_guard_applied": true,
+        "waveform_guard_corrected_batches": 18,
+        "waveform_guard_constraint_violations": 0
+      }
     }
   ],
   "run_status": [
@@ -1624,21 +4732,25 @@
     },
     {
       "arm": "cagrad",
-      "status": "TRAINING",
-      "updates": 36,
-      "state_time": 1791583385.9246714
+      "status": "COMPLETE",
+      "updates": 75,
+      "state_time": 1791583862.8661423,
+      "selected_epoch": 0,
+      "audited": true
     },
     {
       "arm": "wave_guard",
-      "status": "WAITING_FOR_CAGRAD",
-      "updates": 0,
-      "state_time": 1791582837.256151
+      "status": "COMPLETE",
+      "updates": 75,
+      "state_time": 1791584806.7245426,
+      "selected_epoch": 0,
+      "audited": true
     },
     {
       "arm": "tf_axis",
-      "status": "WAITING_FOR_WAVE_GUARD",
+      "status": "VALIDATING_INITIAL",
       "updates": 0,
-      "state_time": 1791583221.4282644
+      "state_time": 1791584812.6012607
     }
   ],
   "partition": {
@@ -2228,10 +5340,14 @@
     "local/source_interaction_comparison_20261010_v1/retained_unet/VALIDATION_001.json": "232b3fca26554ec92ef3794dc77cf904853f0c7a3b090dd31af571172371b84e",
     "local/count_pcgrad_20261010_v1/VALIDATION_001.json": "2dccb5f79921c450552bccee4d4c4e7cd1665c73a659fbc7a78525158892a703",
     "reports/2026-10-10/COUNT_PCGRAD_FINAL_AUDIT.json": "fcd03447034328bc2e0d1818faaad4f77063275490742fdb93396535e042961b",
+    "local/count_cagrad_20261010_v1/VALIDATION_001.json": "c6db5b2f8ca960e0a84763676a641be1ba5e9aa7162873564400a6a23dc224c5",
+    "reports/2026-10-10/COUNT_CAGRAD_FINAL_AUDIT.json": "f068236f1835284ecd12b5665f5504ae449fdde5bad72a938a7fb5304be20d23",
+    "local/wave_update_guard_20261010_v1/VALIDATION_001.json": "ae00cb77b5e2b70bdcb9e84524d39b873f3602ce6add86652fc23c4a99424656",
+    "reports/2026-10-10/WAVE_UPDATE_GUARD_FINAL_AUDIT.json": "da9310cfd312dc759a59c0c38965b8c133c763a97d290214268db35b87854c6e",
     "reports/2026-10-10/COUNT_LOSS_PARTITION.json": "f75a67254eff5a354a3fc6c492a5afbfe38331de56fcd539d72544fbfffb1b72"
   },
   "heldout_read": false,
   "independent_test": false,
-  "time": 1791583391.6814299,
+  "time": 1791584819.085986,
   "reporter_sha256": "9c33dfa5f50399c444d60e451c0ecb2f455fa7f691ed7094734ccf94f382b98d"
 }

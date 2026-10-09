@@ -1,10 +1,16 @@
 # 드론 복소 I/Q 분리: 현행 목표와 실행계획
 
-갱신: **2026-10-10 07:02 KST**. [직전 계획과 종료된 비교 이력](PLAN_HISTORY_THROUGH_20261010_0029_KO.md)을 보존했다. 실행 상태는 기록 시점 기준이다.
+갱신: **2026-10-10 07:31 KST**. [직전 계획과 종료된 비교 이력](PLAN_HISTORY_THROUGH_20261010_0029_KO.md)을 보존했다. 실행 상태는 기록 시점 기준이다.
 
-**현재 실행:** PCGrad 1epoch/75업데이트는 종료·검산됐고 부모를 넘지 못했다. 실제 e1 NMSE 2/3=0.492554/0.699292, 복소 SI-SDR=3.352/−3.676dB이며 선택 e0다. CAGrad는 GPU에서 34/75업데이트 진행 중이다. CPU에서 검증한 파형 목표의 실제 업데이트 보호와 주파수·시간 결합 U-Net은 조건부 후속 대기다. 앞선 방법이 개선 기준을 충족하면 뒤 후보는 건너뛴다. [실제 진행·결과](../reports/2026-10-10/COUNT_OPTIMIZATION_REPORT_KO.md).
+**현재 실행:** PCGrad·CAGrad·파형 업데이트 보호의 각1epoch/75업데이트가 완료·검산됐다. 셋 모두 보존 부모를 넘지 못했다. 파형 보호는 같은 예산 원 손실 대조보다 소폭 개선됐지만 실제 e1 NMSE2/3=0.488012/0.699280, 복소SI-SDR=3.416/−3.424dB이며 선택은e0다. 시간·주파수 두 축 LSTM을 결합한 U-Net이 GPU에서1epoch 18/75업데이트 진행 중이다. [전체 실제 결과](../reports/2026-10-10/COUNT_OPTIMIZATION_REPORT_KO.md).
 
-각 후보는 같은 native 부모·원 손실·TRAIN2,400예제·75업데이트·seed0를 사용한다. 업데이트 후보들은 기존 32,142,859파라미터 전체를 학습한다. 구조 후보는 본체를 유지하고 5,263,616개를 추가해 총37,406,475개다. [PCGrad](../reports/2026-10-10/COUNT_PCGRAD_PLAN_KO.md), [CAGrad](../reports/2026-10-10/COUNT_CAGRAD_PLAN_KO.md), [파형 보호](../reports/2026-10-10/WAVE_UPDATE_GUARD_PLAN_KO.md), [두 축 구조](../reports/2026-10-10/TF_AXIS_PLAN_KO.md).
+두 축 후보는 실제e1 모델·AdamW·RNG를 이어 총3epoch/225업데이트까지 비교하도록 별도 후속 worker를 대기시켰다. e1 성적을 보기 전에 예산을 정했으며 기존1epoch 규약은 바꾸지 않는다. 동일한225업데이트로 완료된 원 손실 대조의 각epoch와 비교한다. [후속 계획](../reports/2026-10-10/TF_AXIS_CONTINUATION_PLAN_KO.md).
+
+CPU의 고정TRAIN48 재평가에서 PCGrad·CAGrad 모두 부모보다 학습 부분집합의 두·세 파형 지표는 좋아졌으나 DEV에서는 악화했다. 원 손실 대조에 대한 일관된 우월성은 없으며 과적합의 원인 전체를 확정하는 결과도 아니다. [192행·체크포인트 검산](../reports/2026-10-10/COUNT_TRAIN_FIT_KO.md).
+
+공통 수신 좌표 변화의 TRAIN6·30회 CPU 추론 진단도 마쳤다. 상대 주파수 간격은 보존했으나 5좌표 평균의 세 성분 NMSE는 악화했다. 새 최선으로 채택하거나 좌표 증강 학습을 별도로 예약하지 않는다. [모든 결과](../reports/2026-10-10/RECEIVER_COORDINATE_TRAIN6_KO.md).
+
+첫 epoch 후보들은 같은 native 부모·원 손실·TRAIN2,400예제·75업데이트·seed0를 사용한다. 업데이트 후보들은 기존 32,142,859파라미터 전체를 학습한다. 구조 후보는 본체를 유지하고 5,263,616개를 추가해 총37,406,475개다. [PCGrad](../reports/2026-10-10/COUNT_PCGRAD_PLAN_KO.md), [CAGrad](../reports/2026-10-10/COUNT_CAGRAD_PLAN_KO.md), [파형 보호](../reports/2026-10-10/WAVE_UPDATE_GUARD_PLAN_KO.md), [두 축 구조](../reports/2026-10-10/TF_AXIS_PLAN_KO.md).
 
 고정 TRAIN6의 파형 본체에서 단일↔두/세 성분 gradient cosine은 −0.389/−0.270이었다. 실제 PCGrad 75배치의 전체 원 손실 충돌은 단일↔두70회, 단일↔세73회였다. 충돌이 관측돼도 이 방식으로 복원은 개선되지 않았다. CPU 완료 검산과 보고서를 자동 저장하는 로컬 journal도 실행 중이며, 이는 새 실험 선택이나 채팅 전송 기능은 아니다.
 

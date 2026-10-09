@@ -1,0 +1,176 @@
+{
+  "status": "PASS",
+  "complete_sha256": "17b1d4e3a5c2f29ec3def51a55d146472e8e103d9f10a13c95d2b4e9f3caa256",
+  "protocol_sha256": "c236a982d79e97b5dd2547fb2d46a05c86327a40d5253ad38c4a0a44a7e726bf",
+  "auditor_sha256": "014c195d0daaecd4f1163a75df34afa97057908f866443124ad2819d77841e80",
+  "all_36_rows_reaggregated": true,
+  "source_snapshot_and_parent_hashes_checked": true,
+  "independently_reran_inference": false,
+  "gpu_use": false,
+  "recorded_iq_reads": 0,
+  "heldout_read": false,
+  "summaries": [
+    {
+      "count": 1,
+      "steps": 0,
+      "cases": 2,
+      "mean_nmse": 0.0580071603329968,
+      "mean_si_sdr": 13.999058143809192,
+      "weakest_nmse": 0.0580071603329968,
+      "mean_equivariance_error": 0.0
+    },
+    {
+      "count": 1,
+      "steps": -2,
+      "cases": 2,
+      "mean_nmse": 0.044104073743226196,
+      "mean_si_sdr": 15.121926028556778,
+      "weakest_nmse": 0.044104073743226196,
+      "mean_equivariance_error": 0.0032046239357441664
+    },
+    {
+      "count": 1,
+      "steps": -1,
+      "cases": 2,
+      "mean_nmse": 0.06999634253324603,
+      "mean_si_sdr": 13.471982177282992,
+      "weakest_nmse": 0.06999634253324603,
+      "mean_equivariance_error": 0.0025501654017716646
+    },
+    {
+      "count": 1,
+      "steps": 1,
+      "cases": 2,
+      "mean_nmse": 0.0705305411623514,
+      "mean_si_sdr": 13.292769072675135,
+      "weakest_nmse": 0.0705305411623514,
+      "mean_equivariance_error": 0.002411960216704756
+    },
+    {
+      "count": 1,
+      "steps": 2,
+      "cases": 2,
+      "mean_nmse": 0.06062730959316723,
+      "mean_si_sdr": 14.640444918135424,
+      "weakest_nmse": 0.06062730959316723,
+      "mean_equivariance_error": 0.002250636462122202
+    },
+    {
+      "count": 1,
+      "steps": null,
+      "cases": 2,
+      "mean_nmse": 0.059794506379565765,
+      "mean_si_sdr": 14.139027946963054,
+      "weakest_nmse": 0.059794506379565765,
+      "mean_equivariance_error": null
+    },
+    {
+      "count": 2,
+      "steps": 0,
+      "cases": 2,
+      "mean_nmse": 0.18629041283652495,
+      "mean_si_sdr": 11.865906522863988,
+      "weakest_nmse": 0.24648994862945872,
+      "mean_equivariance_error": 0.0
+    },
+    {
+      "count": 2,
+      "steps": -2,
+      "cases": 2,
+      "mean_nmse": 0.18475610602643155,
+      "mean_si_sdr": 11.907022108365107,
+      "weakest_nmse": 0.24370224683058506,
+      "mean_equivariance_error": 0.0014592938823625445
+    },
+    {
+      "count": 2,
+      "steps": -1,
+      "cases": 2,
+      "mean_nmse": 0.185302698940382,
+      "mean_si_sdr": 11.919695796432457,
+      "weakest_nmse": 0.2448716214013685,
+      "mean_equivariance_error": 0.0013493626029230654
+    },
+    {
+      "count": 2,
+      "steps": 1,
+      "cases": 2,
+      "mean_nmse": 0.1869824403141213,
+      "mean_si_sdr": 11.838313835668236,
+      "weakest_nmse": 0.24773263078362107,
+      "mean_equivariance_error": 0.00134811649331823
+    },
+    {
+      "count": 2,
+      "steps": 2,
+      "cases": 2,
+      "mean_nmse": 0.18496263083477765,
+      "mean_si_sdr": 11.936528360895949,
+      "weakest_nmse": 0.24413402583705232,
+      "mean_equivariance_error": 0.001435043173842132
+    },
+    {
+      "count": 2,
+      "steps": null,
+      "cases": 2,
+      "mean_nmse": 0.18483033194382714,
+      "mean_si_sdr": 12.039951726985453,
+      "weakest_nmse": 0.2440411324718421,
+      "mean_equivariance_error": null
+    },
+    {
+      "count": 3,
+      "steps": 0,
+      "cases": 2,
+      "mean_nmse": 0.5955903810690708,
+      "mean_si_sdr": -5.362690420815815,
+      "weakest_nmse": 0.9912384362272229,
+      "mean_equivariance_error": 0.0
+    },
+    {
+      "count": 3,
+      "steps": -2,
+      "cases": 2,
+      "mean_nmse": 0.5965015628502174,
+      "mean_si_sdr": -6.254332727764818,
+      "weakest_nmse": 0.9908126958677157,
+      "mean_equivariance_error": 0.0013319348217919469
+    },
+    {
+      "count": 3,
+      "steps": -1,
+      "cases": 2,
+      "mean_nmse": 0.5940486630419636,
+      "mean_si_sdr": -5.3311334315390635,
+      "weakest_nmse": 0.9912385238562901,
+      "mean_equivariance_error": 0.0010817949660122395
+    },
+    {
+      "count": 3,
+      "steps": 1,
+      "cases": 2,
+      "mean_nmse": 0.5922915218827132,
+      "mean_si_sdr": -5.886527974213045,
+      "weakest_nmse": 0.9907976343440359,
+      "mean_equivariance_error": 0.0010637894447427243
+    },
+    {
+      "count": 3,
+      "steps": 2,
+      "cases": 2,
+      "mean_nmse": 0.59510305841151,
+      "mean_si_sdr": -5.8309402094979275,
+      "weakest_nmse": 0.990862169146836,
+      "mean_equivariance_error": 0.0010548899590503424
+    },
+    {
+      "count": 3,
+      "steps": null,
+      "cases": 2,
+      "mean_nmse": 0.6286648681518477,
+      "mean_si_sdr": -4.273461091832962,
+      "weakest_nmse": 0.8673569657836511,
+      "mean_equivariance_error": null
+    }
+  ]
+}

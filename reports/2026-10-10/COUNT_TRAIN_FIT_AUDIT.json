@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "complete_sha256": "ece0c3194e8729ce37baa4308521339dee7dd412d9915f631da6b4232e4448b8",
+  "protocol_sha256": "1add4f548e3eddfce8d32a672162fcbdd0c1f9831bd0f41a961f71cfc1d287bf",
+  "auditor_sha256": "6186163ae438e140900adfdfcdbbca1509ff4c8f299bced8652d1b2f3a2ac3a6",
+  "all_192_rows_reaggregated": true,
+  "unchanged_train48_and_prior_rows_checked": true,
+  "source_and_checkpoint_hashes_checked": true,
+  "backend_spot_checks": 6,
+  "independently_reran_inference": false,
+  "gpu_use": false,
+  "recorded_iq_reads": 0,
+  "heldout_read": false
+}

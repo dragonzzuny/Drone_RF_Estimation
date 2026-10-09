@@ -1,0 +1,4427 @@
+{
+  "status": "COMPLETE",
+  "protocol_sha256": "1add4f548e3eddfce8d32a672162fcbdd0c1f9831bd0f41a961f71cfc1d287bf",
+  "rows": [
+    {
+      "model": "parent/e0",
+      "index": 0,
+      "count": 1,
+      "categories": [
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.0975915841409247
+      ],
+      "si_sdr": [
+        10.595130158569397
+      ],
+      "reference_power": [
+        0.19656672628484773
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.1887572038835381e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 1,
+      "count": 1,
+      "categories": [
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.018422736525068904
+      ],
+      "si_sdr": [
+        17.402986129048987
+      ],
+      "reference_power": [
+        0.06598947923503985
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2719010701666771e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 2,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.6326974814901709,
+        0.4004252204625129,
+        1.0031846466053937
+      ],
+      "si_sdr": [
+        -2.157069394687119,
+        2.750986039765843,
+        -34.193636581628844
+      ],
+      "reference_power": [
+        0.21366361689242833,
+        0.41493681321210335,
+        0.08442038825742745
+      ],
+      "weakest_index": 2,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1357866521839295e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 3,
+      "count": 1,
+      "categories": [
+        "DJI MINI4 PRO"
+      ],
+      "nmse": [
+        0.0090200959910482
+      ],
+      "si_sdr": [
+        20.51627488101851
+      ],
+      "reference_power": [
+        0.08472488664259163
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2292017638716377e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 4,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.18263869858660994,
+        0.23547407031868522
+      ],
+      "si_sdr": [
+        7.01208284655019,
+        18.809497182806098
+      ],
+      "reference_power": [
+        0.22920438514845085,
+        0.25763593577097677
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.1422276470078702e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 5,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.0167076837684972,
+        0.3103411986723075
+      ],
+      "si_sdr": [
+        17.807185559657295,
+        3.834860502442366
+      ],
+      "reference_power": [
+        2.7584760524276057,
+        0.12966367582857852
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 1.3186178476267047e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 6,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.22640528589803033,
+        0.7886581359482071
+      ],
+      "si_sdr": [
+        5.8653267659541,
+        -5.121901354869403
+      ],
+      "reference_power": [
+        0.3536294782369047,
+        0.10333354332231
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2107890435059162e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 7,
+      "count": 1,
+      "categories": [
+        "DJI MINI3"
+      ],
+      "nmse": [
+        0.0003402956621873706
+      ],
+      "si_sdr": [
+        34.82904658700355
+      ],
+      "reference_power": [
+        3.7678583570958057
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.310738224956206e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 8,
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "nmse": [
+        0.36696631086253106,
+        0.06979485652297547
+      ],
+      "si_sdr": [
+        8.237895428626526,
+        11.341320931369925
+      ],
+      "reference_power": [
+        0.05137260756396774,
+        0.2236198757511517
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2432399512757114e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 9,
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "nmse": [
+        0.03004917817835569,
+        0.9575182378354934
+      ],
+      "si_sdr": [
+        18.233692805637343,
+        -13.33882478715183
+      ],
+      "reference_power": [
+        0.18369698380732988,
+        0.00043792030122848265
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 1.1486852012753155e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 10,
+      "count": 1,
+      "categories": [
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.0047477321609491535
+      ],
+      "si_sdr": [
+        23.23497843378898
+      ],
+      "reference_power": [
+        0.21320493533811283
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.27859472055482e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 11,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.5133180679074099,
+        0.9792922258490518,
+        0.04462464409988561
+      ],
+      "si_sdr": [
+        0.17359036665253835,
+        -12.064927855123933,
+        13.314914900126627
+      ],
+      "reference_power": [
+        0.18304307747426535,
+        0.07667503672516876,
+        1.5836823299638492
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2351218677259569e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 12,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.10519973335470856,
+        0.739071360405985
+      ],
+      "si_sdr": [
+        9.324983177403814,
+        -4.273431523757711
+      ],
+      "reference_power": [
+        1.6633887789122555,
+        0.21951983988197465
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2093391465354487e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 13,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.012464625262426888,
+        0.4002445954293073
+      ],
+      "si_sdr": [
+        18.989659218809308,
+        6.2636156363921405
+      ],
+      "reference_power": [
+        1.033235537495456,
+        0.04173489258441442
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2492914498394051e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 14,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.1345185191143894,
+        0.9809353505926409
+      ],
+      "si_sdr": [
+        9.07325161839532,
+        -15.499725760752028
+      ],
+      "reference_power": [
+        0.06867545213256827,
+        0.0018809031774881422
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1524669805949365e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 15,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.9246267479873895,
+        0.029967725234573188,
+        0.24031402543195293
+      ],
+      "si_sdr": [
+        -0.9320139953064559,
+        15.102000467826574,
+        6.65945659321085
+      ],
+      "reference_power": [
+        0.03267662810360374,
+        0.6685812300842607,
+        0.06107571717638515
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.221815439605941e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 16,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.6282203312781923,
+        1.003747137859002,
+        0.39981003591578856
+      ],
+      "si_sdr": [
+        0.7731019545792901,
+        -21.498441660080573,
+        2.6905903843478347
+      ],
+      "reference_power": [
+        0.013798625908586657,
+        0.0002413962147379528,
+        0.019977270752757847
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.1278078088996437e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 17,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.46181975563634625,
+        0.007199032153385076
+      ],
+      "si_sdr": [
+        3.992313714302535,
+        21.40662226428006
+      ],
+      "reference_power": [
+        0.0024936261729356195,
+        0.1299571478118699
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2672531550230595e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 20,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.016568377147264942,
+        1.1615076862106457,
+        1.1098157518182103
+      ],
+      "si_sdr": [
+        18.283304503475332,
+        -38.10715174445753,
+        -21.71562991878432
+      ],
+      "reference_power": [
+        0.3860221602840616,
+        0.00015260316754179832,
+        0.004884495157326959
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.236666820453134e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 21,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.9502463501347513,
+        0.01115891324888281,
+        0.21836795087930547
+      ],
+      "si_sdr": [
+        -12.735115060882347,
+        19.55514162551,
+        10.807145002294089
+      ],
+      "reference_power": [
+        0.001082489553481351,
+        0.6394271344931914,
+        0.03859092965566792
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2594155905306268e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 22,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.2112382548875497,
+        0.048100107454064685
+      ],
+      "si_sdr": [
+        16.190590362576827,
+        12.966630048159349
+      ],
+      "reference_power": [
+        0.39545175343288064,
+        1.2149669024744552
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2061976561996107e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 23,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.12466795573394227,
+        0.6983682526831364,
+        0.9852030866468241
+      ],
+      "si_sdr": [
+        8.702501630842571,
+        -2.7840441781348035,
+        -17.6444783680576
+      ],
+      "reference_power": [
+        0.5594636289756357,
+        0.08257081965418671,
+        0.00432922085965371
+      ],
+      "weakest_index": 2,
+      "predicted_count": 3,
+      "sum_relative_error": 1.1611396059217526e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 24,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.36696758399682766,
+        0.02952928347719873
+      ],
+      "si_sdr": [
+        9.64173410773764,
+        15.225028915271832
+      ],
+      "reference_power": [
+        0.0404871534721704,
+        0.36986401809747493
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2875276235621676e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 27,
+      "count": 1,
+      "categories": [
+        "DJI MINI3"
+      ],
+      "nmse": [
+        0.00043163320168156013
+      ],
+      "si_sdr": [
+        33.67813663340373
+      ],
+      "reference_power": [
+        1.7823240895669976
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.3363175004102025e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 29,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.34543634363431486,
+        0.978224893281214,
+        0.009231627659172306
+      ],
+      "si_sdr": [
+        6.594631847838086,
+        -16.518199521763755,
+        20.313670961185228
+      ],
+      "reference_power": [
+        0.35725344399749626,
+        0.035771667047691025,
+        9.23325491074997
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2358315966591606e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 31,
+      "count": 1,
+      "categories": [
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.016178179757060103
+      ],
+      "si_sdr": [
+        18.04337899684521
+      ],
+      "reference_power": [
+        0.19344358810108414
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2675261204113894e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 32,
+      "count": 1,
+      "categories": [
+        "DJI AVATA2"
+      ],
+      "nmse": [
+        0.01922355916367226
+      ],
+      "si_sdr": [
+        17.396318234056213
+      ],
+      "reference_power": [
+        0.24730054007479538
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2685032327658964e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 33,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.5855394799420218,
+        0.9822707755930478,
+        0.13063949966373242
+      ],
+      "si_sdr": [
+        0.7207615423691929,
+        -16.839344798531403,
+        8.504973363158072
+      ],
+      "reference_power": [
+        0.05546990713058774,
+        0.0008623237864557172,
+        0.2229846269715465
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2294484890878746e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 37,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.13417941678682066,
+        0.959634571168296,
+        0.3337701207845067
+      ],
+      "si_sdr": [
+        8.391339032405106,
+        -3.7222236914618616,
+        4.14748069651417
+      ],
+      "reference_power": [
+        1.4929459735284525,
+        0.35265421096251703,
+        0.806950124664925
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1302694013990681e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 38,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.42182196423682894,
+        0.006065335831607463
+      ],
+      "si_sdr": [
+        6.731217772618323,
+        22.18385018859671
+      ],
+      "reference_power": [
+        0.03491253369376879,
+        1.7908359475126348
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2151193952670201e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 40,
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "nmse": [
+        0.0037242137291881687,
+        0.40273380966957323
+      ],
+      "si_sdr": [
+        24.293813120986396,
+        7.9753719606769256
+      ],
+      "reference_power": [
+        0.2590383841502693,
+        0.00339700605083405
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 1.3124662370472905e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 43,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        1.037336504195163,
+        0.001003791388355284,
+        1.469500182925476
+      ],
+      "si_sdr": [
+        -16.80690491979052,
+        30.11870741010361,
+        -9.495056763408662
+      ],
+      "reference_power": [
+        0.000325003419328446,
+        1.207713283185489,
+        0.0004111947910790231
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2649615435997548e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 44,
+      "count": 1,
+      "categories": [
+        "DJI MINI4 PRO"
+      ],
+      "nmse": [
+        0.1537871451879056
+      ],
+      "si_sdr": [
+        8.80893485073467
+      ],
+      "reference_power": [
+        6.072397951261813
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.1451156951950953e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 46,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.003763002022511044,
+        0.207487712892726
+      ],
+      "si_sdr": [
+        24.451056608942515,
+        11.867486915233926
+      ],
+      "reference_power": [
+        1.0339789665372876,
+        0.023432814497432907
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2767210587824954e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 47,
+      "count": 1,
+      "categories": [
+        "DJI AVATA2"
+      ],
+      "nmse": [
+        0.005915055642898419
+      ],
+      "si_sdr": [
+        26.191878848492607
+      ],
+      "reference_power": [
+        0.40853454437478703
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2283691371080543e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 55,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.09617214205131874,
+        0.23273958586946825
+      ],
+      "si_sdr": [
+        9.818514540724166,
+        13.017247943193546
+      ],
+      "reference_power": [
+        1.282654716323313,
+        0.7145377142556846
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.218660705818054e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 58,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.0024691297191937016,
+        0.2538344405214885
+      ],
+      "si_sdr": [
+        26.22345818523084,
+        7.122984200488
+      ],
+      "reference_power": [
+        1.4840170661797916,
+        0.014629836437095745
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2736553330032725e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 73,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.6498287823862521,
+        0.5714238595584785,
+        0.9585069681282423
+      ],
+      "si_sdr": [
+        0.2647397361182118,
+        0.012135324255348787,
+        -13.559674633400054
+      ],
+      "reference_power": [
+        0.32960082776343747,
+        0.3876392352878423,
+        0.006342228440794007
+      ],
+      "weakest_index": 2,
+      "predicted_count": 3,
+      "sum_relative_error": 1.144693216433353e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 74,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.3664227456685164,
+        0.9834193916832115,
+        0.013285885265415326
+      ],
+      "si_sdr": [
+        6.527792803895657,
+        -17.17505459745101,
+        18.765079964200588
+      ],
+      "reference_power": [
+        0.08176814728999905,
+        0.005637100934429803,
+        1.608703413885499
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2789348269448091e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 77,
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "nmse": [
+        1.0637077075161623,
+        0.48536614063602257
+      ],
+      "si_sdr": [
+        -0.6032498017573812,
+        3.595738490978993
+      ],
+      "reference_power": [
+        0.12465288021849352,
+        0.3150539949161034
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1775036540373499e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 92,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.013060729234418884,
+        0.8604987452492787,
+        1.0182597376185578
+      ],
+      "si_sdr": [
+        19.804938838093044,
+        -5.712349428030391,
+        -27.05075084734158
+      ],
+      "reference_power": [
+        0.3344039207219204,
+        0.00339105631436382,
+        0.0006559495780951859
+      ],
+      "weakest_index": 2,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2361501780236633e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 100,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.9860209217403478,
+        0.7619146718962511
+      ],
+      "si_sdr": [
+        -4.9549280352694485,
+        0.5227177114792855
+      ],
+      "reference_power": [
+        0.004220382269523309,
+        0.0049967584535958835
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2137911713503801e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 101,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.5986361117444438,
+        0.004158316896320927
+      ],
+      "si_sdr": [
+        -1.6792433336535926,
+        23.892603312773044
+      ],
+      "reference_power": [
+        0.0014767878595613403,
+        0.23514549425412118
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2150086625940766e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 110,
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "nmse": [
+        0.3039073189624793,
+        0.08017182187069397
+      ],
+      "si_sdr": [
+        14.239136785759936,
+        10.740290458344928
+      ],
+      "reference_power": [
+        0.04141359936551945,
+        0.12599705832088567
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1753300625642598e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 111,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.9371607063747011,
+        0.028620569805687814
+      ],
+      "si_sdr": [
+        -6.256595339683252,
+        15.401308269211459
+      ],
+      "reference_power": [
+        0.04357878448135028,
+        3.196971480081053
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.3211741238542883e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 122,
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "nmse": [
+        0.9411161154566239,
+        0.005664443626875498
+      ],
+      "si_sdr": [
+        -11.616565781583967,
+        22.571846044080065
+      ],
+      "reference_power": [
+        0.00020407152326838476,
+        0.08023221809782505
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2538674101660054e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 130,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.44386223956499604,
+        0.1035662394024742
+      ],
+      "si_sdr": [
+        6.391251786447767,
+        9.662614297706577
+      ],
+      "reference_power": [
+        0.23331620851448948,
+        0.8202408470897633
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2131965555335032e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 148,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.3804680233635468,
+        0.053521027584905616
+      ],
+      "si_sdr": [
+        2.1518864708828342,
+        12.781902121149004
+      ],
+      "reference_power": [
+        0.0064266563051383575,
+        0.06036217870666299
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.3682921545415171e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 0,
+      "count": 1,
+      "categories": [
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.09660261347750601
+      ],
+      "si_sdr": [
+        10.562610870442281
+      ],
+      "reference_power": [
+        0.19656672628484773
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.1886299329141897e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 1,
+      "count": 1,
+      "categories": [
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.01575643386611274
+      ],
+      "si_sdr": [
+        18.060602668418333
+      ],
+      "reference_power": [
+        0.06598947923503985
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2632595498691992e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 2,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.66433256495055,
+        0.4085561371668789,
+        0.9974166383268381
+      ],
+      "si_sdr": [
+        -2.832851950680091,
+        2.5838342026042778,
+        -25.73489104039345
+      ],
+      "reference_power": [
+        0.21366361689242833,
+        0.41493681321210335,
+        0.08442038825742745
+      ],
+      "weakest_index": 2,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1345677388487079e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 3,
+      "count": 1,
+      "categories": [
+        "DJI MINI4 PRO"
+      ],
+      "nmse": [
+        0.004752796077122871
+      ],
+      "si_sdr": [
+        23.258174586582165
+      ],
+      "reference_power": [
+        0.08472488664259163
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2270653153271744e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 4,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.1725099248507046,
+        0.22850215725154194
+      ],
+      "si_sdr": [
+        7.25453750198053,
+        19.009613253330638
+      ],
+      "reference_power": [
+        0.22920438514845085,
+        0.25763593577097677
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.146522150329785e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 5,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.015480822582719508,
+        0.29400474796318377
+      ],
+      "si_sdr": [
+        18.13567101625648,
+        4.350415931329882
+      ],
+      "reference_power": [
+        2.7584760524276057,
+        0.12966367582857852
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 1.3097601478917153e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 6,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.23194988422692406,
+        0.8048990038938115
+      ],
+      "si_sdr": [
+        5.804428171563455,
+        -5.807214900770506
+      ],
+      "reference_power": [
+        0.3536294782369047,
+        0.10333354332231
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.232599296636383e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 7,
+      "count": 1,
+      "categories": [
+        "DJI MINI3"
+      ],
+      "nmse": [
+        0.00037317060322650746
+      ],
+      "si_sdr": [
+        34.649700683897294
+      ],
+      "reference_power": [
+        3.7678583570958057
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.3192372585341629e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 8,
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "nmse": [
+        0.32402574389056704,
+        0.060374461835644655
+      ],
+      "si_sdr": [
+        9.112160554863499,
+        11.98171638116512
+      ],
+      "reference_power": [
+        0.05137260756396774,
+        0.2236198757511517
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.242862524366305e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 9,
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "nmse": [
+        0.031553816403518495,
+        0.955509988354091
+      ],
+      "si_sdr": [
+        18.629202257647787,
+        -13.044908569731703
+      ],
+      "reference_power": [
+        0.18369698380732988,
+        0.00043792030122848265
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 1.1408282653911364e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 10,
+      "count": 1,
+      "categories": [
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.004118665752926997
+      ],
+      "si_sdr": [
+        23.836281127936875
+      ],
+      "reference_power": [
+        0.21320493533811283
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2596401500780132e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 11,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.513382681729438,
+        0.973643708858485,
+        0.04407946311186686
+      ],
+      "si_sdr": [
+        0.1719996266261269,
+        -11.154124399935215,
+        13.370344574411284
+      ],
+      "reference_power": [
+        0.18304307747426535,
+        0.07667503672516876,
+        1.5836823299638492
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2230800795502019e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 12,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.09818561139330013,
+        0.6798354199343901
+      ],
+      "si_sdr": [
+        9.689921335116026,
+        -3.158550752015251
+      ],
+      "reference_power": [
+        1.6633887789122555,
+        0.21951983988197465
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.1991512647989547e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 13,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.012058875121815827,
+        0.3945919602379003
+      ],
+      "si_sdr": [
+        19.135339547418692,
+        6.312635596709612
+      ],
+      "reference_power": [
+        1.033235537495456,
+        0.04173489258441442
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2510227654623598e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 14,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.12678725091610116,
+        0.9747010694735696
+      ],
+      "si_sdr": [
+        9.434266441044848,
+        -14.296267621428045
+      ],
+      "reference_power": [
+        0.06867545213256827,
+        0.0018809031774881422
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.151966270855233e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 15,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.9146546491891938,
+        0.029273890117080703,
+        0.23314425872738098
+      ],
+      "si_sdr": [
+        -0.37318645393400984,
+        15.207236698628021,
+        6.873741178121938
+      ],
+      "reference_power": [
+        0.03267662810360374,
+        0.6685812300842607,
+        0.06107571717638515
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2170511128674764e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 16,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.5240971230006896,
+        0.9978385646043856,
+        0.32622855181331134
+      ],
+      "si_sdr": [
+        2.9074423614977993,
+        -22.882168995086335,
+        3.9577463092974003
+      ],
+      "reference_power": [
+        0.013798625908586657,
+        0.0002413962147379528,
+        0.019977270752757847
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.1613729663585917e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 17,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.45635166398633853,
+        0.0070234420228084534
+      ],
+      "si_sdr": [
+        4.069950005458206,
+        21.51163337297765
+      ],
+      "reference_power": [
+        0.0024936261729356195,
+        0.1299571478118699
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2691147145800015e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 20,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.014033757432569443,
+        1.1018552916415891,
+        1.0227149072592077
+      ],
+      "si_sdr": [
+        18.600940443331627,
+        -41.06686156720877,
+        -21.621924355758303
+      ],
+      "reference_power": [
+        0.3860221602840616,
+        0.00015260316754179832,
+        0.004884495157326959
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2578111549307556e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 21,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.9464166817494273,
+        0.010713188144290427,
+        0.209063972523366
+      ],
+      "si_sdr": [
+        -12.450076491726094,
+        19.73218007410848,
+        11.078003959826253
+      ],
+      "reference_power": [
+        0.001082489553481351,
+        0.6394271344931914,
+        0.03859092965566792
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2633470827387408e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 22,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.20330580130139317,
+        0.045028524533115344
+      ],
+      "si_sdr": [
+        16.53611761772853,
+        13.265622967630863
+      ],
+      "reference_power": [
+        0.39545175343288064,
+        1.2149669024744552
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.202710244388288e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 23,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.11877876369533982,
+        0.6642985888634034,
+        0.9861050178414663
+      ],
+      "si_sdr": [
+        8.95997475074721,
+        -2.406499203850394,
+        -17.33039168934177
+      ],
+      "reference_power": [
+        0.5594636289756357,
+        0.08257081965418671,
+        0.00432922085965371
+      ],
+      "weakest_index": 2,
+      "predicted_count": 3,
+      "sum_relative_error": 1.1690490056887647e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 24,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.3756879253246319,
+        0.030043983810369882
+      ],
+      "si_sdr": [
+        9.627549369780132,
+        15.167644739064416
+      ],
+      "reference_power": [
+        0.0404871534721704,
+        0.36986401809747493
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2853827725330614e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 27,
+      "count": 1,
+      "categories": [
+        "DJI MINI3"
+      ],
+      "nmse": [
+        0.00044823943079443676
+      ],
+      "si_sdr": [
+        33.70332887222491
+      ],
+      "reference_power": [
+        1.7823240895669976
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.3364008784082333e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 29,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.3444707655258469,
+        0.975555081739906,
+        0.009059546992040122
+      ],
+      "si_sdr": [
+        6.6235624064274745,
+        -16.00290428264283,
+        20.391188942421337
+      ],
+      "reference_power": [
+        0.35725344399749626,
+        0.035771667047691025,
+        9.23325491074997
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2329300704246515e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 31,
+      "count": 1,
+      "categories": [
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.013823224554698543
+      ],
+      "si_sdr": [
+        18.722946479654198
+      ],
+      "reference_power": [
+        0.19344358810108414
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2650972361799687e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 32,
+      "count": 1,
+      "categories": [
+        "DJI AVATA2"
+      ],
+      "nmse": [
+        0.016762218273486264
+      ],
+      "si_sdr": [
+        17.975779748385182
+      ],
+      "reference_power": [
+        0.24730054007479538
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2630292207550844e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 33,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.4668584321026471,
+        0.9851341827322853,
+        0.09764543057458056
+      ],
+      "si_sdr": [
+        3.9502355927310684,
+        -16.290095320812167,
+        9.779010829134583
+      ],
+      "reference_power": [
+        0.05546990713058774,
+        0.0008623237864557172,
+        0.2229846269715465
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.233126449654293e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 37,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.13210468632617733,
+        0.9519127110831901,
+        0.31551612536922957
+      ],
+      "si_sdr": [
+        8.44892134836756,
+        -2.9886010720029494,
+        4.685361290096674
+      ],
+      "reference_power": [
+        1.4929459735284525,
+        0.35265421096251703,
+        0.806950124664925
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.1274919664374395e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 38,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.41561185316303123,
+        0.005857129713451213
+      ],
+      "si_sdr": [
+        6.940820298300511,
+        22.320017695699846
+      ],
+      "reference_power": [
+        0.03491253369376879,
+        1.7908359475126348
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2061035289322898e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 40,
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "nmse": [
+        0.003662876907783416,
+        0.3999055706621909
+      ],
+      "si_sdr": [
+        24.355066976057497,
+        8.130390785553477
+      ],
+      "reference_power": [
+        0.2590383841502693,
+        0.00339700605083405
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 1.3114519977649377e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 43,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        1.0184759439875333,
+        0.0009790888964984759,
+        1.4437562544046416
+      ],
+      "si_sdr": [
+        -15.650217278778777,
+        30.152625436769057,
+        -9.372617901537186
+      ],
+      "reference_power": [
+        0.000325003419328446,
+        1.207713283185489,
+        0.0004111947910790231
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2686725032813245e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 44,
+      "count": 1,
+      "categories": [
+        "DJI MINI4 PRO"
+      ],
+      "nmse": [
+        0.09062250161688383
+      ],
+      "si_sdr": [
+        11.74739721589959
+      ],
+      "reference_power": [
+        6.072397951261813
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.1370913403191863e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 46,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.003530033244397043,
+        0.19703516807260224
+      ],
+      "si_sdr": [
+        24.69996622012417,
+        12.430264035820219
+      ],
+      "reference_power": [
+        1.0339789665372876,
+        0.023432814497432907
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2705578403011279e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 47,
+      "count": 1,
+      "categories": [
+        "DJI AVATA2"
+      ],
+      "nmse": [
+        0.002195307035858069
+      ],
+      "si_sdr": [
+        29.91833485884914
+      ],
+      "reference_power": [
+        0.40853454437478703
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2634711677252831e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 55,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.09157331674777316,
+        0.22584521579198957
+      ],
+      "si_sdr": [
+        10.042676560205546,
+        13.385774092987173
+      ],
+      "reference_power": [
+        1.282654716323313,
+        0.7145377142556846
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.223264046985938e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 58,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.0023809491498913613,
+        0.24399297806324627
+      ],
+      "si_sdr": [
+        26.346394342653717,
+        7.382541987857786
+      ],
+      "reference_power": [
+        1.4840170661797916,
+        0.014629836437095745
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2883254183330415e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 73,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.636556681462744,
+        0.5634769775958122,
+        0.9559870551812707
+      ],
+      "si_sdr": [
+        0.3392608198243899,
+        0.16933388277396766,
+        -13.357536134817886
+      ],
+      "reference_power": [
+        0.32960082776343747,
+        0.3876392352878423,
+        0.006342228440794007
+      ],
+      "weakest_index": 2,
+      "predicted_count": 3,
+      "sum_relative_error": 1.1448655352201798e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 74,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.36944712263795987,
+        0.9819912704536929,
+        0.013174100226359927
+      ],
+      "si_sdr": [
+        6.545231359169615,
+        -16.66630495271977,
+        18.790057699547987
+      ],
+      "reference_power": [
+        0.08176814728999905,
+        0.005637100934429803,
+        1.608703413885499
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.288828321119613e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 77,
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "nmse": [
+        0.9832061472093692,
+        0.458500926708009
+      ],
+      "si_sdr": [
+        -0.2544670475254907,
+        4.398950803712368
+      ],
+      "reference_power": [
+        0.12465288021849352,
+        0.3150539949161034
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1553943787267864e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 92,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.010347431581585825,
+        0.7563294115373974,
+        1.0114171658633575
+      ],
+      "si_sdr": [
+        20.13312521479229,
+        -4.870052917193061,
+        -29.58917900644652
+      ],
+      "reference_power": [
+        0.3344039207219204,
+        0.00339105631436382,
+        0.0006559495780951859
+      ],
+      "weakest_index": 2,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2645008466523617e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 100,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.9672165280075736,
+        0.7949566664414901
+      ],
+      "si_sdr": [
+        -7.628442470018215,
+        0.6975992375691988
+      ],
+      "reference_power": [
+        0.004220382269523309,
+        0.0049967584535958835
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2557122111151004e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 101,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.5950526387048582,
+        0.0041011469558422265
+      ],
+      "si_sdr": [
+        -1.6050705304039248,
+        23.90304694623092
+      ],
+      "reference_power": [
+        0.0014767878595613403,
+        0.23514549425412118
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.221629127661495e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 110,
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "nmse": [
+        0.2767766445886769,
+        0.07135024995445673
+      ],
+      "si_sdr": [
+        15.054267993849809,
+        11.253640985931108
+      ],
+      "reference_power": [
+        0.04141359936551945,
+        0.12599705832088567
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.183951999931765e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 111,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.9340128543729692,
+        0.029122649500395375
+      ],
+      "si_sdr": [
+        -5.8942430213927395,
+        15.300333623354327
+      ],
+      "reference_power": [
+        0.04357878448135028,
+        3.196971480081053
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.3253104865184023e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 122,
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "nmse": [
+        0.9371911232392354,
+        0.00563013207988159
+      ],
+      "si_sdr": [
+        -11.223925412402771,
+        22.550808672831742
+      ],
+      "reference_power": [
+        0.00020407152326838476,
+        0.08023221809782505
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2531799717919827e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 130,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.44799002514051695,
+        0.10335030400268023
+      ],
+      "si_sdr": [
+        6.411144012180413,
+        9.67195200912187
+      ],
+      "reference_power": [
+        0.23331620851448948,
+        0.8202408470897633
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2107485638677222e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 148,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.3488469380048222,
+        0.048977631022511355
+      ],
+      "si_sdr": [
+        2.841115172667384,
+        13.246685084025753
+      ],
+      "reference_power": [
+        0.0064266563051383575,
+        0.06036217870666299
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.3366476466762909e-14
+    },
+    {
+      "index": 0,
+      "count": 1,
+      "nmse": [
+        0.08497038566797335
+      ],
+      "si_sdr": [
+        11.187974986779905
+      ],
+      "reference_power": [
+        0.19656672628484773
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2189969567686757e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 1,
+      "count": 1,
+      "nmse": [
+        0.012886707539643017
+      ],
+      "si_sdr": [
+        18.941757530449767
+      ],
+      "reference_power": [
+        0.06598947923503985
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2720769118871517e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 2,
+      "count": 3,
+      "nmse": [
+        0.6480971327397618,
+        0.4038876212986843,
+        0.9968481289113165
+      ],
+      "si_sdr": [
+        -2.412168408063846,
+        2.7537443309781247,
+        -24.73582789700351
+      ],
+      "reference_power": [
+        0.21366361689242833,
+        0.41493681321210335,
+        0.08442038825742745
+      ],
+      "weakest_index": 2,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1486020395854375e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 3,
+      "count": 1,
+      "nmse": [
+        0.0037797820238046195
+      ],
+      "si_sdr": [
+        24.276421492241017
+      ],
+      "reference_power": [
+        0.08472488664259163
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2301922326800293e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 4,
+      "count": 2,
+      "nmse": [
+        0.17381962379976393,
+        0.22850347379130137
+      ],
+      "si_sdr": [
+        7.218461511395493,
+        18.95352759061992
+      ],
+      "reference_power": [
+        0.22920438514845085,
+        0.25763593577097677
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.1391675440708137e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 5,
+      "count": 2,
+      "nmse": [
+        0.015401906238333677,
+        0.29659089634552277
+      ],
+      "si_sdr": [
+        18.16069512614127,
+        4.299597859655819
+      ],
+      "reference_power": [
+        2.7584760524276057,
+        0.12966367582857852
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 1.3415580118000787e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 6,
+      "count": 2,
+      "nmse": [
+        0.23125986768244639,
+        0.8025895130905621
+      ],
+      "si_sdr": [
+        5.902183877621738,
+        -5.493024378509333
+      ],
+      "reference_power": [
+        0.3536294782369047,
+        0.10333354332231
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2356485334966699e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 7,
+      "count": 1,
+      "nmse": [
+        0.00036808913601372805
+      ],
+      "si_sdr": [
+        34.65705966705584
+      ],
+      "reference_power": [
+        3.7678583570958057
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.3196444050816742e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 8,
+      "count": 2,
+      "nmse": [
+        0.3305459663144143,
+        0.06215036623863081
+      ],
+      "si_sdr": [
+        8.99880952927962,
+        11.855296352273442
+      ],
+      "reference_power": [
+        0.05137260756396774,
+        0.2236198757511517
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2261079236732159e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 9,
+      "count": 2,
+      "nmse": [
+        0.020007584446880618,
+        0.9582563834996016
+      ],
+      "si_sdr": [
+        21.120458064916626,
+        -13.448753595100246
+      ],
+      "reference_power": [
+        0.18369698380732988,
+        0.00043792030122848265
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 1.1627823486424653e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 10,
+      "count": 1,
+      "nmse": [
+        0.002966765221430784
+      ],
+      "si_sdr": [
+        25.286514902676124
+      ],
+      "reference_power": [
+        0.21320493533811283
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2488007859450432e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 11,
+      "count": 3,
+      "nmse": [
+        0.5137960653172081,
+        0.9741680013381763,
+        0.04388171427446941
+      ],
+      "si_sdr": [
+        0.14575805413209322,
+        -11.477642341065602,
+        13.39327072127239
+      ],
+      "reference_power": [
+        0.18304307747426535,
+        0.07667503672516876,
+        1.5836823299638492
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.223668949907043e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 12,
+      "count": 2,
+      "nmse": [
+        0.10146005050324354,
+        0.704322195792713
+      ],
+      "si_sdr": [
+        9.512692460260649,
+        -3.6106930823866197
+      ],
+      "reference_power": [
+        1.6633887789122555,
+        0.21951983988197465
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2036675628445449e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 13,
+      "count": 2,
+      "nmse": [
+        0.01202205279158124,
+        0.3942965223099483
+      ],
+      "si_sdr": [
+        19.14891693660512,
+        6.321080260663212
+      ],
+      "reference_power": [
+        1.033235537495456,
+        0.04173489258441442
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.246631172429816e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 14,
+      "count": 2,
+      "nmse": [
+        0.12445495095316542,
+        0.9749358819280284
+      ],
+      "si_sdr": [
+        9.526628080968823,
+        -14.354844003244494
+      ],
+      "reference_power": [
+        0.06867545213256827,
+        0.0018809031774881422
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1638258166950405e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 15,
+      "count": 3,
+      "nmse": [
+        0.9124584984557379,
+        0.02924160476373464,
+        0.23190954690361945
+      ],
+      "si_sdr": [
+        -0.33415379040189197,
+        15.211891417995849,
+        6.888255866998301
+      ],
+      "reference_power": [
+        0.03267662810360374,
+        0.6685812300842607,
+        0.06107571717638515
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.222921677636359e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 16,
+      "count": 3,
+      "nmse": [
+        0.6417049037732895,
+        0.9973265102039331,
+        0.41128190942198883
+      ],
+      "si_sdr": [
+        0.8005343618518507,
+        -21.42881953631745,
+        2.6977803917028114
+      ],
+      "reference_power": [
+        0.013798625908586657,
+        0.0002413962147379528,
+        0.019977270752757847
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.1495362126654307e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 17,
+      "count": 2,
+      "nmse": [
+        0.4562220762254597,
+        0.0070074011997893265
+      ],
+      "si_sdr": [
+        4.076553039014842,
+        21.5178209106192
+      ],
+      "reference_power": [
+        0.0024936261729356195,
+        0.1299571478118699
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2771411040760582e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 20,
+      "count": 3,
+      "nmse": [
+        0.013792672968687789,
+        1.0906737845175298,
+        1.0161281607850718
+      ],
+      "si_sdr": [
+        18.63918725026979,
+        -44.69471725460523,
+        -20.747704407108575
+      ],
+      "reference_power": [
+        0.3860221602840616,
+        0.00015260316754179832,
+        0.004884495157326959
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2563644093987529e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 21,
+      "count": 3,
+      "nmse": [
+        0.945238949629435,
+        0.010532165144060088,
+        0.2048524249068945
+      ],
+      "si_sdr": [
+        -12.350032945212263,
+        19.794623536286554,
+        11.178930796855173
+      ],
+      "reference_power": [
+        0.001082489553481351,
+        0.6394271344931914,
+        0.03859092965566792
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2517540095428308e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 22,
+      "count": 2,
+      "nmse": [
+        0.20499572696195142,
+        0.046026287985825
+      ],
+      "si_sdr": [
+        16.49700859276382,
+        13.167668558853183
+      ],
+      "reference_power": [
+        0.39545175343288064,
+        1.2149669024744552
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2158109657409647e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 23,
+      "count": 3,
+      "nmse": [
+        0.11862399053873032,
+        0.6657099703109157,
+        0.9860050470503916
+      ],
+      "si_sdr": [
+        8.956027249857533,
+        -2.431073269735382,
+        -17.292978206847323
+      ],
+      "reference_power": [
+        0.5594636289756357,
+        0.08257081965418671,
+        0.00432922085965371
+      ],
+      "weakest_index": 2,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1765043543357404e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 24,
+      "count": 2,
+      "nmse": [
+        0.37319368657729707,
+        0.02984380447783361
+      ],
+      "si_sdr": [
+        9.629093212059374,
+        15.20075450377947
+      ],
+      "reference_power": [
+        0.0404871534721704,
+        0.36986401809747493
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2768304678170513e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 27,
+      "count": 1,
+      "nmse": [
+        0.00045913019146664595
+      ],
+      "si_sdr": [
+        33.723289897788376
+      ],
+      "reference_power": [
+        1.7823240895669976
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.3104166767886047e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 29,
+      "count": 3,
+      "nmse": [
+        0.34242453871693374,
+        0.9751237521365855,
+        0.008962627464888559
+      ],
+      "si_sdr": [
+        6.585889831792786,
+        -15.923359908859045,
+        20.437925253013706
+      ],
+      "reference_power": [
+        0.35725344399749626,
+        0.035771667047691025,
+        9.23325491074997
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2356848461726805e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 31,
+      "count": 1,
+      "nmse": [
+        0.010934809444364518
+      ],
+      "si_sdr": [
+        19.755871706303584
+      ],
+      "reference_power": [
+        0.19344358810108414
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2826783672343779e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 32,
+      "count": 1,
+      "nmse": [
+        0.017145595455622404
+      ],
+      "si_sdr": [
+        17.843513216782657
+      ],
+      "reference_power": [
+        0.24730054007479538
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2787222939408567e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 33,
+      "count": 3,
+      "nmse": [
+        0.46960037934800464,
+        0.985807998248416,
+        0.09881125691558008
+      ],
+      "si_sdr": [
+        3.820250757551146,
+        -16.273820437958957,
+        9.73323154873427
+      ],
+      "reference_power": [
+        0.05546990713058774,
+        0.0008623237864557172,
+        0.2229846269715465
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.234602217441763e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 37,
+      "count": 3,
+      "nmse": [
+        0.13361877699378993,
+        0.9532666842239145,
+        0.3240332900775965
+      ],
+      "si_sdr": [
+        8.404184406034156,
+        -3.305574721318206,
+        4.437447567728952
+      ],
+      "reference_power": [
+        1.4929459735284525,
+        0.35265421096251703,
+        0.806950124664925
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1290497568703552e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 38,
+      "count": 2,
+      "nmse": [
+        0.4134710391630299,
+        0.005816613499924767
+      ],
+      "si_sdr": [
+        6.946652041301933,
+        22.347009433197837
+      ],
+      "reference_power": [
+        0.03491253369376879,
+        1.7908359475126348
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2316531641823327e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 40,
+      "count": 2,
+      "nmse": [
+        0.0036949825754404616,
+        0.40196419736721106
+      ],
+      "si_sdr": [
+        24.313444575061084,
+        8.106556582130882
+      ],
+      "reference_power": [
+        0.2590383841502693,
+        0.00339700605083405
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 1.3024412008164961e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 43,
+      "count": 3,
+      "nmse": [
+        1.0171970613361851,
+        0.0009727540239999339,
+        1.4433542528879773
+      ],
+      "si_sdr": [
+        -15.538331199546603,
+        30.152395902108033,
+        -9.3740741125143
+      ],
+      "reference_power": [
+        0.000325003419328446,
+        1.207713283185489,
+        0.0004111947910790231
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2598878333807568e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 44,
+      "count": 1,
+      "nmse": [
+        0.050224566125438665
+      ],
+      "si_sdr": [
+        14.602728972292445
+      ],
+      "reference_power": [
+        6.072397951261813
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.1721037639624784e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 46,
+      "count": 2,
+      "nmse": [
+        0.00349807040072181,
+        0.1963307389148805
+      ],
+      "si_sdr": [
+        24.70636188353934,
+        12.429731614194939
+      ],
+      "reference_power": [
+        1.0339789665372876,
+        0.023432814497432907
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2721088302936987e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 47,
+      "count": 1,
+      "nmse": [
+        0.0018491669627655554
+      ],
+      "si_sdr": [
+        30.461524742460057
+      ],
+      "reference_power": [
+        0.40853454437478703
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2681950116457019e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 55,
+      "count": 2,
+      "nmse": [
+        0.09324988949412794,
+        0.22730994834634796
+      ],
+      "si_sdr": [
+        9.96017392382694,
+        13.252763771952994
+      ],
+      "reference_power": [
+        1.282654716323313,
+        0.7145377142556846
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2123505999720228e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 58,
+      "count": 2,
+      "nmse": [
+        0.002358061022338512,
+        0.2430287898545282
+      ],
+      "si_sdr": [
+        26.355886654700743,
+        7.400377368013791
+      ],
+      "reference_power": [
+        1.4840170661797916,
+        0.014629836437095745
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2884771353363602e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 73,
+      "count": 3,
+      "nmse": [
+        0.6368650511540416,
+        0.5615709078636265,
+        0.9555869391250759
+      ],
+      "si_sdr": [
+        0.34116396505181523,
+        0.1807431137345823,
+        -13.325429816974006
+      ],
+      "reference_power": [
+        0.32960082776343747,
+        0.3876392352878423,
+        0.006342228440794007
+      ],
+      "weakest_index": 2,
+      "predicted_count": 3,
+      "sum_relative_error": 1.146364968350497e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 74,
+      "count": 3,
+      "nmse": [
+        0.3677737210332696,
+        0.9831385294518924,
+        0.013072806783720982
+      ],
+      "si_sdr": [
+        6.4998303577998655,
+        -16.742246947410656,
+        18.822926251960318
+      ],
+      "reference_power": [
+        0.08176814728999905,
+        0.005637100934429803,
+        1.608703413885499
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2836749812455268e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 77,
+      "count": 2,
+      "nmse": [
+        0.9915360580946662,
+        0.46070223653212633
+      ],
+      "si_sdr": [
+        -0.28454220481355946,
+        4.348383727902598
+      ],
+      "reference_power": [
+        0.12465288021849352,
+        0.3150539949161034
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1780461686498138e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 92,
+      "count": 3,
+      "nmse": [
+        0.010165372775261862,
+        0.7609013916031543,
+        1.0112032325222353
+      ],
+      "si_sdr": [
+        20.128577436837087,
+        -5.009325082857172,
+        -31.46318245343221
+      ],
+      "reference_power": [
+        0.3344039207219204,
+        0.00339105631436382,
+        0.0006559495780951859
+      ],
+      "weakest_index": 2,
+      "predicted_count": 3,
+      "sum_relative_error": 1.257015044725752e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 100,
+      "count": 2,
+      "nmse": [
+        0.9675894734268112,
+        0.8027284670943236
+      ],
+      "si_sdr": [
+        -6.519385897301424,
+        0.7159339668423258
+      ],
+      "reference_power": [
+        0.004220382269523309,
+        0.0049967584535958835
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.253518250049586e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 101,
+      "count": 2,
+      "nmse": [
+        0.5941181769050718,
+        0.004091495139211191
+      ],
+      "si_sdr": [
+        -1.5932969884785944,
+        23.906025364471454
+      ],
+      "reference_power": [
+        0.0014767878595613403,
+        0.23514549425412118
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2262362226341109e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 110,
+      "count": 2,
+      "nmse": [
+        0.28062221866700493,
+        0.07320855124195332
+      ],
+      "si_sdr": [
+        14.896934530951944,
+        11.139839319198042
+      ],
+      "reference_power": [
+        0.04141359936551945,
+        0.12599705832088567
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1741384845791789e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 111,
+      "count": 2,
+      "nmse": [
+        0.9358262583752384,
+        0.029033235798968954
+      ],
+      "si_sdr": [
+        -6.1958172060005126,
+        15.323545459898911
+      ],
+      "reference_power": [
+        0.04357878448135028,
+        3.196971480081053
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.3088296853489288e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 122,
+      "count": 2,
+      "nmse": [
+        0.9361492250465551,
+        0.005571413461788944
+      ],
+      "si_sdr": [
+        -11.144929463649147,
+        22.587351411158135
+      ],
+      "reference_power": [
+        0.00020407152326838476,
+        0.08023221809782505
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2564897901962526e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 130,
+      "count": 2,
+      "nmse": [
+        0.4457279110181124,
+        0.1030823248517914
+      ],
+      "si_sdr": [
+        6.402909224402618,
+        9.695061661916014
+      ],
+      "reference_power": [
+        0.23331620851448948,
+        0.8202408470897633
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2128715706510761e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 148,
+      "count": 2,
+      "nmse": [
+        0.3560023481504016,
+        0.05018758082399764
+      ],
+      "si_sdr": [
+        2.674860854815954,
+        13.133788937654673
+      ],
+      "reference_power": [
+        0.0064266563051383575,
+        0.06036217870666299
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.359497624988681e-14,
+      "model": "pcgrad/e1"
+    },
+    {
+      "index": 0,
+      "count": 1,
+      "nmse": [
+        0.07817346352765747
+      ],
+      "si_sdr": [
+        11.585494089109785
+      ],
+      "reference_power": [
+        0.19656672628484773
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2057128578375327e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 1,
+      "count": 1,
+      "nmse": [
+        0.012521913758364573
+      ],
+      "si_sdr": [
+        19.060770165047913
+      ],
+      "reference_power": [
+        0.06598947923503985
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2920046525444176e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 2,
+      "count": 3,
+      "nmse": [
+        0.6379779763273817,
+        0.3994515314306448,
+        0.996012131765376
+      ],
+      "si_sdr": [
+        -2.1492788403272236,
+        2.8449285141109315,
+        -23.40937776874813
+      ],
+      "reference_power": [
+        0.21366361689242833,
+        0.41493681321210335,
+        0.08442038825742745
+      ],
+      "weakest_index": 2,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1382193914604189e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 3,
+      "count": 1,
+      "nmse": [
+        0.0036074990394634994
+      ],
+      "si_sdr": [
+        24.47166802668417
+      ],
+      "reference_power": [
+        0.08472488664259163
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.1996785610099353e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 4,
+      "count": 2,
+      "nmse": [
+        0.17297060463151356,
+        0.22789273629606677
+      ],
+      "si_sdr": [
+        7.229017999555619,
+        18.862156306699838
+      ],
+      "reference_power": [
+        0.22920438514845085,
+        0.25763593577097677
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.1478958633856366e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 5,
+      "count": 2,
+      "nmse": [
+        0.01547387072551265,
+        0.2988331453037864
+      ],
+      "si_sdr": [
+        18.134786530468574,
+        4.230622251354788
+      ],
+      "reference_power": [
+        2.7584760524276057,
+        0.12966367582857852
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 1.3263478683209719e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 6,
+      "count": 2,
+      "nmse": [
+        0.23108931391255477,
+        0.8002790144428383
+      ],
+      "si_sdr": [
+        5.869389600491603,
+        -5.545587142307035
+      ],
+      "reference_power": [
+        0.3536294782369047,
+        0.10333354332231
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2350038675279927e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 7,
+      "count": 1,
+      "nmse": [
+        0.00037188814515131844
+      ],
+      "si_sdr": [
+        34.61924965593177
+      ],
+      "reference_power": [
+        3.7678583570958057
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.3286186689585224e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 8,
+      "count": 2,
+      "nmse": [
+        0.3327285606669554,
+        0.06269868610769384
+      ],
+      "si_sdr": [
+        8.96192400940037,
+        11.819258495564629
+      ],
+      "reference_power": [
+        0.05137260756396774,
+        0.2236198757511517
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2289425410412904e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 9,
+      "count": 2,
+      "nmse": [
+        0.01771239451745025,
+        0.9643057579824125
+      ],
+      "si_sdr": [
+        22.41405037888324,
+        -14.279421034835543
+      ],
+      "reference_power": [
+        0.18369698380732988,
+        0.00043792030122848265
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 1.1700831164298469e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 10,
+      "count": 1,
+      "nmse": [
+        0.002861900261440661
+      ],
+      "si_sdr": [
+        25.4552352194478
+      ],
+      "reference_power": [
+        0.21320493533811283
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.3092349552296687e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 11,
+      "count": 3,
+      "nmse": [
+        0.5096254359672887,
+        0.9742195852003693,
+        0.04355764797845468
+      ],
+      "si_sdr": [
+        0.21229538012282884,
+        -11.4231736950319,
+        13.425925176485311
+      ],
+      "reference_power": [
+        0.18304307747426535,
+        0.07667503672516876,
+        1.5836823299638492
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2291922843385363e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 12,
+      "count": 2,
+      "nmse": [
+        0.10476759030368775,
+        0.7303791424392277
+      ],
+      "si_sdr": [
+        9.348159872251058,
+        -4.098614222919433
+      ],
+      "reference_power": [
+        1.6633887789122555,
+        0.21951983988197465
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2145073649521502e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 13,
+      "count": 2,
+      "nmse": [
+        0.011968770326240902,
+        0.391382357387894
+      ],
+      "si_sdr": [
+        19.168434140022757,
+        6.3208841654953964
+      ],
+      "reference_power": [
+        1.033235537495456,
+        0.04173489258441442
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2310586639793011e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 14,
+      "count": 2,
+      "nmse": [
+        0.12360898907736141,
+        0.974740174152895
+      ],
+      "si_sdr": [
+        9.578647250448189,
+        -14.319745868354737
+      ],
+      "reference_power": [
+        0.06867545213256827,
+        0.0018809031774881422
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1711969771513968e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 15,
+      "count": 3,
+      "nmse": [
+        0.9134607766799657,
+        0.02908260206188334,
+        0.23329612372741704
+      ],
+      "si_sdr": [
+        -0.3927143312030146,
+        15.236437199244614,
+        6.787890157332361
+      ],
+      "reference_power": [
+        0.03267662810360374,
+        0.6685812300842607,
+        0.06107571717638515
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2272391571896696e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 16,
+      "count": 3,
+      "nmse": [
+        0.6066233781698788,
+        0.9973400564214674,
+        0.3864427418201087
+      ],
+      "si_sdr": [
+        1.4916622262673742,
+        -21.68193037251966,
+        3.021627955495363
+      ],
+      "reference_power": [
+        0.013798625908586657,
+        0.0002413962147379528,
+        0.019977270752757847
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.1548303023778618e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 17,
+      "count": 2,
+      "nmse": [
+        0.45345730418379937,
+        0.006989384228859758
+      ],
+      "si_sdr": [
+        4.07788173878246,
+        21.52861364303989
+      ],
+      "reference_power": [
+        0.0024936261729356195,
+        0.1299571478118699
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2603521751714512e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 20,
+      "count": 3,
+      "nmse": [
+        0.013797552654420333,
+        1.0898568340479207,
+        1.0168720536624707
+      ],
+      "si_sdr": [
+        18.63721305702384,
+        -45.78701988948229,
+        -20.374025704687377
+      ],
+      "reference_power": [
+        0.3860221602840616,
+        0.00015260316754179832,
+        0.004884495157326959
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2566083833031826e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 21,
+      "count": 3,
+      "nmse": [
+        0.945451185521829,
+        0.010428916390177885,
+        0.2020358533093868
+      ],
+      "si_sdr": [
+        -12.365562723008395,
+        19.8410627265764,
+        11.162647923519899
+      ],
+      "reference_power": [
+        0.001082489553481351,
+        0.6394271344931914,
+        0.03859092965566792
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.256851024631259e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 22,
+      "count": 2,
+      "nmse": [
+        0.20477632481081667,
+        0.045986959430435057
+      ],
+      "si_sdr": [
+        16.45149150178614,
+        13.17065206499076
+      ],
+      "reference_power": [
+        0.39545175343288064,
+        1.2149669024744552
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2106873696284678e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 23,
+      "count": 3,
+      "nmse": [
+        0.1188635742538232,
+        0.6675906422685263,
+        0.9860757241032045
+      ],
+      "si_sdr": [
+        8.950478095790308,
+        -2.455109830174125,
+        -17.30468715348702
+      ],
+      "reference_power": [
+        0.5594636289756357,
+        0.08257081965418671,
+        0.00432922085965371
+      ],
+      "weakest_index": 2,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1783659428046257e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 24,
+      "count": 2,
+      "nmse": [
+        0.37202130445036574,
+        0.02989284756864799
+      ],
+      "si_sdr": [
+        9.636152089393946,
+        15.197640713225685
+      ],
+      "reference_power": [
+        0.0404871534721704,
+        0.36986401809747493
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2956658594653553e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 27,
+      "count": 1,
+      "nmse": [
+        0.00046425255100278535
+      ],
+      "si_sdr": [
+        33.72265628964974
+      ],
+      "reference_power": [
+        1.7823240895669976
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.318773020257215e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 29,
+      "count": 3,
+      "nmse": [
+        0.34052298161194433,
+        0.9759081408512967,
+        0.008956273439007886
+      ],
+      "si_sdr": [
+        6.629482763554556,
+        -16.065707876100713,
+        20.440225175269365
+      ],
+      "reference_power": [
+        0.35725344399749626,
+        0.035771667047691025,
+        9.23325491074997
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2359536445622457e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 31,
+      "count": 1,
+      "nmse": [
+        0.010768038747511541
+      ],
+      "si_sdr": [
+        19.824416240922083
+      ],
+      "reference_power": [
+        0.19344358810108414
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2665762043998441e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 32,
+      "count": 1,
+      "nmse": [
+        0.01626574390875837
+      ],
+      "si_sdr": [
+        18.07963126816725
+      ],
+      "reference_power": [
+        0.24730054007479538
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2710883824084224e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 33,
+      "count": 3,
+      "nmse": [
+        0.446714854279153,
+        0.9861673220740808,
+        0.09297098563299516
+      ],
+      "si_sdr": [
+        4.418548475578159,
+        -16.279028861393808,
+        9.999338258561977
+      ],
+      "reference_power": [
+        0.05546990713058774,
+        0.0008623237864557172,
+        0.2229846269715465
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2249159728102346e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 37,
+      "count": 3,
+      "nmse": [
+        0.13322027940642295,
+        0.9522680870822651,
+        0.321318980633014
+      ],
+      "si_sdr": [
+        8.409470651917555,
+        -3.174736828308011,
+        4.502469110811455
+      ],
+      "reference_power": [
+        1.4929459735284525,
+        0.35265421096251703,
+        0.806950124664925
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1307312133912055e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 38,
+      "count": 2,
+      "nmse": [
+        0.41038649430412627,
+        0.00579540964663985
+      ],
+      "si_sdr": [
+        6.9530617351624615,
+        22.358744727721383
+      ],
+      "reference_power": [
+        0.03491253369376879,
+        1.7908359475126348
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2309059641464373e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 40,
+      "count": 2,
+      "nmse": [
+        0.0036907269953491565,
+        0.3994382551108846
+      ],
+      "si_sdr": [
+        24.316700837665888,
+        8.116310116264996
+      ],
+      "reference_power": [
+        0.2590383841502693,
+        0.00339700605083405
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 1.3107368953095923e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 43,
+      "count": 3,
+      "nmse": [
+        1.0182299232559533,
+        0.0009722625575558918,
+        1.4498517781068627
+      ],
+      "si_sdr": [
+        -15.626334406376284,
+        30.143147887967153,
+        -9.356203184803366
+      ],
+      "reference_power": [
+        0.000325003419328446,
+        1.207713283185489,
+        0.0004111947910790231
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2632854464337567e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 44,
+      "count": 1,
+      "nmse": [
+        0.054737505885897784
+      ],
+      "si_sdr": [
+        14.177917805269358
+      ],
+      "reference_power": [
+        6.072397951261813
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.1865356203529855e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 46,
+      "count": 2,
+      "nmse": [
+        0.003439188317640261,
+        0.19235774437388384
+      ],
+      "si_sdr": [
+        24.780082940091702,
+        12.431223427841465
+      ],
+      "reference_power": [
+        1.0339789665372876,
+        0.023432814497432907
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2640414743044886e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 47,
+      "count": 1,
+      "nmse": [
+        0.0018886732019623485
+      ],
+      "si_sdr": [
+        30.26401174022292
+      ],
+      "reference_power": [
+        0.40853454437478703
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2652268339792812e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 55,
+      "count": 2,
+      "nmse": [
+        0.09333470582125603,
+        0.2271186041876835
+      ],
+      "si_sdr": [
+        9.951867706620304,
+        13.17347281207244
+      ],
+      "reference_power": [
+        1.282654716323313,
+        0.7145377142556846
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2305790658312239e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 58,
+      "count": 2,
+      "nmse": [
+        0.0023404247452043854,
+        0.23980973441579104
+      ],
+      "si_sdr": [
+        26.386579849391588,
+        7.405902088802661
+      ],
+      "reference_power": [
+        1.4840170661797916,
+        0.014629836437095745
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2711445585738866e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 73,
+      "count": 3,
+      "nmse": [
+        0.6442119690652113,
+        0.5680890810107684,
+        0.9557162540829434
+      ],
+      "si_sdr": [
+        0.2708928635242183,
+        0.04192218135903425,
+        -13.335162892345524
+      ],
+      "reference_power": [
+        0.32960082776343747,
+        0.3876392352878423,
+        0.006342228440794007
+      ],
+      "weakest_index": 2,
+      "predicted_count": 3,
+      "sum_relative_error": 1.1498830123734806e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 74,
+      "count": 3,
+      "nmse": [
+        0.3665618869078185,
+        0.9832421571835539,
+        0.013086219277512018
+      ],
+      "si_sdr": [
+        6.545846459066668,
+        -16.810849672378907,
+        18.815229713629442
+      ],
+      "reference_power": [
+        0.08176814728999905,
+        0.005637100934429803,
+        1.608703413885499
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2751229824485448e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 77,
+      "count": 2,
+      "nmse": [
+        0.9844994648253069,
+        0.4583472181789666
+      ],
+      "si_sdr": [
+        -0.264046640006699,
+        4.409518028232878
+      ],
+      "reference_power": [
+        0.12465288021849352,
+        0.3150539949161034
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1671076692611358e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 92,
+      "count": 3,
+      "nmse": [
+        0.010183397093826355,
+        0.7644089595666961,
+        1.0113454933907962
+      ],
+      "si_sdr": [
+        20.121088267357287,
+        -5.07415477513449,
+        -31.843025581964305
+      ],
+      "reference_power": [
+        0.3344039207219204,
+        0.00339105631436382,
+        0.0006559495780951859
+      ],
+      "weakest_index": 2,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2612621785773841e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 100,
+      "count": 2,
+      "nmse": [
+        0.9668569360611324,
+        0.8040595971415155
+      ],
+      "si_sdr": [
+        -6.789491287215579,
+        0.7066451558262165
+      ],
+      "reference_power": [
+        0.004220382269523309,
+        0.0049967584535958835
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2585368741441365e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 101,
+      "count": 2,
+      "nmse": [
+        0.5935834465753806,
+        0.004084751357251317
+      ],
+      "si_sdr": [
+        -1.5913826030043778,
+        23.903902050303124
+      ],
+      "reference_power": [
+        0.0014767878595613403,
+        0.23514549425412118
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2206704625948266e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 110,
+      "count": 2,
+      "nmse": [
+        0.2820558110259715,
+        0.07379222954379529
+      ],
+      "si_sdr": [
+        14.81670726223477,
+        11.10576295924118
+      ],
+      "reference_power": [
+        0.04141359936551945,
+        0.12599705832088567
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.186884188874024e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 111,
+      "count": 2,
+      "nmse": [
+        0.9363220072148856,
+        0.02903442804744724
+      ],
+      "si_sdr": [
+        -6.240757656175883,
+        15.322381262579007
+      ],
+      "reference_power": [
+        0.04357878448135028,
+        3.196971480081053
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2934319406043096e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 122,
+      "count": 2,
+      "nmse": [
+        0.9376852860361328,
+        0.005537253251178913
+      ],
+      "si_sdr": [
+        -11.258097305910113,
+        22.604074531071582
+      ],
+      "reference_power": [
+        0.00020407152326838476,
+        0.08023221809782505
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2588536680694481e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 130,
+      "count": 2,
+      "nmse": [
+        0.44291187368643176,
+        0.1026038479464824
+      ],
+      "si_sdr": [
+        6.426980280344945,
+        9.713139909583258
+      ],
+      "reference_power": [
+        0.23331620851448948,
+        0.8202408470897633
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2055127323667772e-14,
+      "model": "cagrad/e1"
+    },
+    {
+      "index": 148,
+      "count": 2,
+      "nmse": [
+        0.3550331305756125,
+        0.04991472906740498
+      ],
+      "si_sdr": [
+        2.6955550328175444,
+        13.171731224789095
+      ],
+      "reference_power": [
+        0.0064266563051383575,
+        0.06036217870666299
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.3686225686322628e-14,
+      "model": "cagrad/e1"
+    }
+  ],
+  "summaries": [
+    {
+      "model": "parent/e0",
+      "count": 1,
+      "cases": 10,
+      "mean_nmse": 0.032565801743339624,
+      "mean_si_sdr": 21.069706375296185,
+      "weakest_nmse": 0.032565801743339624
+    },
+    {
+      "model": "parent/e0",
+      "count": 2,
+      "cases": 24,
+      "mean_nmse": 0.3227190744029783,
+      "mean_si_sdr": 8.885585886529151,
+      "weakest_nmse": 0.539162339198633
+    },
+    {
+      "model": "parent/e0",
+      "count": 3,
+      "cases": 14,
+      "mean_nmse": 0.5828001587247328,
+      "mean_si_sdr": -1.612692451656069,
+      "weakest_nmse": 0.9946757659257708
+    },
+    {
+      "model": "retained_unet/e1",
+      "count": 1,
+      "cases": 10,
+      "mean_nmse": 0.024545517068861628,
+      "mean_si_sdr": 22.243515711228998,
+      "weakest_nmse": 0.024545517068861628
+    },
+    {
+      "model": "retained_unet/e1",
+      "count": 2,
+      "cases": 24,
+      "mean_nmse": 0.31496020368246014,
+      "mean_si_sdr": 9.114141526502344,
+      "weakest_nmse": 0.5253377889263193
+    },
+    {
+      "model": "retained_unet/e1",
+      "count": 3,
+      "cases": 14,
+      "mean_nmse": 0.5652577111195599,
+      "mean_si_sdr": -1.1711696669906944,
+      "weakest_nmse": 0.9856002830894729
+    },
+    {
+      "model": "pcgrad/e1",
+      "count": 1,
+      "cases": 10,
+      "mean_nmse": 0.018558499776852328,
+      "mean_si_sdr": 23.073665711482978,
+      "weakest_nmse": 0.018558499776852328
+    },
+    {
+      "model": "pcgrad/e1",
+      "count": 2,
+      "cases": 24,
+      "mean_nmse": 0.31614178175876806,
+      "mean_si_sdr": 9.148032332398767,
+      "weakest_nmse": 0.5274768690072967
+    },
+    {
+      "model": "pcgrad/e1",
+      "count": 3,
+      "cases": 14,
+      "mean_nmse": 0.569276431617614,
+      "mean_si_sdr": -1.306092675397263,
+      "weakest_nmse": 0.984574508367916
+    },
+    {
+      "model": "cagrad/e1",
+      "count": 1,
+      "cases": 10,
+      "mean_nmse": 0.018166087902721034,
+      "mean_si_sdr": 23.12610505004528,
+      "weakest_nmse": 0.018166087902721034
+    },
+    {
+      "model": "cagrad/e1",
+      "count": 2,
+      "cases": 24,
+      "mean_nmse": 0.3162080944041744,
+      "mean_si_sdr": 9.132561727703834,
+      "weakest_nmse": 0.5276638532852387
+    },
+    {
+      "model": "cagrad/e1",
+      "count": 3,
+      "cases": 14,
+      "mean_nmse": 0.5671907050064684,
+      "mean_si_sdr": -1.26091081349782,
+      "weakest_nmse": 0.984663833690073
+    }
+  ],
+  "backend_checks": [
+    {
+      "model": "pcgrad",
+      "index": 4,
+      "nmse_max_error": 7.510911131328873e-10,
+      "si_sdr_max_error": 2.9202734097566463e-07
+    },
+    {
+      "model": "pcgrad",
+      "index": 0,
+      "nmse_max_error": 7.426291899648163e-06,
+      "si_sdr_max_error": 4.462456255538427e-05
+    },
+    {
+      "model": "pcgrad",
+      "index": 3,
+      "nmse_max_error": 6.121937934366883e-08,
+      "si_sdr_max_error": 6.8908715462612236e-06
+    },
+    {
+      "model": "cagrad",
+      "index": 4,
+      "nmse_max_error": 1.1046668709976948e-09,
+      "si_sdr_max_error": 1.1241488806490452e-07
+    },
+    {
+      "model": "cagrad",
+      "index": 0,
+      "nmse_max_error": 8.589467328068423e-06,
+      "si_sdr_max_error": 4.395113033694997e-05
+    },
+    {
+      "model": "cagrad",
+      "index": 3,
+      "nmse_max_error": 8.020521025109417e-08,
+      "si_sdr_max_error": 1.0590876454941167e-05
+    }
+  ],
+  "seconds": 674.4886250495911,
+  "model_updates": 0,
+  "heldout_read": false,
+  "independent_test": false,
+  "limitation": "Fixed small TRAIN48 diagnosis; different power/activity distribution from DEV630, not a pure generalization-gap estimate"
+}
