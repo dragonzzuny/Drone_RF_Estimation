@@ -1,0 +1,684 @@
+{
+  "status": "COMPLETE",
+  "source_sha256": {
+    "experiments/rfuav_native_frequency_20261009/run_native.py": "5efc429c9d4eddcce3a975bbf7eee0e0476321fc1dc20c5caa854998f070c178",
+    "experiments/rfuav_native_frequency_20261009/native.py": "e14f81aed3c1110f6cdb02d0717a462572b6d2ff6205aff9bbd1d95a5922f587",
+    "experiments/rfuav_native_frequency_20261009/native_data.py": "b3ac38f06bd86ea09ed93e94369dacf53310aeb2aa803b7eb637de08e25d99cc",
+    "experiments/rfuav_dense_gated_20261008/cpu_check.py": "e9189ca0f2d1b20a4f36c8d266a3d59ffce1f83f4f80f3eb1083fc7f5641b4a2",
+    "experiments/rfuav_dense_gated_20261008/test_models.py": "f652b3d012f60fc86aa099beba28147ed75bc9fc3b3f0b4170c3d4d8f1999110",
+    "experiments/rfuav_dense_gated_20261008/study.py": "2e2cb2401c546405959d0de3d4ebccf08f55b0e977ea6825d001c7e663df0edd",
+    "experiments/rfuav_dense_gated_20261008/models.py": "b48e5852e194d4c7fca3e636bb79f918da478a4880fc83397c8afd2e538a136c",
+    "experiments/rfuav_dense_gated_20261008/dense_data.py": "a5604c104332731f7dfa220de74bdd2af2c7efdb5b57af860eae3348e2aa4f3d",
+    "experiments/rfuav_dense_gated_20261008/verify_dense.py": "9fafe10f20057b434ab102b1e12cd298a6c9b2d4293234670590fbe5425ae276",
+    "experiments/rfuav_dense_gated_20261008/prepare_dense_gated.py": "eab1ef23cd3af6c58832e8416aa0108c2090b8610e1919612cee2a8e21fd150b",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_training_data.py": "4222e700c5e77761c7fb05269bd86420896fa2fbcdcbe707a97c08e3f63eaee7",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/temporal.py": "47c237184e31050706abefd0bc91bce80c1492866f5c26e0e9333fe1712da253",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/similarity.py": "a8166bcc7adefec50b30c0374f84964b36943395d64ba3e91400f7b8147c561a",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_data.py": "97886c6accb9e228b85b6fda7efb76cea8e4b4a75e5420c39b115dcf65281268",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/within_dataset_schedule.py": "edcddbf19df88bd0ec4ac6558776d6b75dfa983589850aa742bcaf8306ffaf18",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/losses.py": "a51e179ea16d094cf122ec6491d79b26c66e3ed84294e396112156fb3ac8a4d6",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/waveform.py": "7f27d74ffef9ac5f52c34559d66ddd512f76abe83a4ba825887fc94bd1c3159d",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_model.py": "a6bb37a4a5fb8c5c7f0472b76a92d80f178183d91118367b74fe557873d64794",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/data.py": "2c8abdc30d724e3fd61ca4145f158145139a8c9f69f1d66dc4c888ad1653df6e",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/__init__.py": "9452c5c2cea105ebfc875e0128e2b99b459806ff14c2cd59236c3273575016f4",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/model.py": "c97c64d315637c7799e59147ce37dfce910bdb6ff385c2733153720cfdf47105",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/mixture_constraints.py": "306709a6de32ed01581bd3facc8c45e91de6770de07b1fb9e2457f3ecc99372c",
+    "experiments/architecture_audit_20261009/test_adapter.py": "e7348d70f8be9e35cb451ff3d5b414a7f42e3209c8fbd2f73f03f111d1e75781",
+    "experiments/architecture_audit_20261009/fit_diagnostic.py": "edbeabe4177d8850d7fbbe1fa93751a04282f308d25f640fb4e3ebfe755a77e1",
+    "experiments/architecture_audit_20261009/native_wavenet.py": "6ca4ae09603985e161c6ff7f6b56a2abc39456451fb8510f3c4170dcc7eecba5",
+    "experiments/architecture_audit_20261009/audit.py": "b606c670de27d98e0e4b9823053ecc55df44586d08c8218f878315071e9cf936",
+    "experiments/architecture_audit_20261009/train_comparison.py": "a84debcc74960d13300c955e964ff01250328d2a7ed83c7be1bb4fcc345aad2e",
+    "experiments/architecture_audit_20261009/cycle15.py": "d3606f30dbf0488b62b0182d78d78fd83132979a7e97d878527fa0e1959f605a",
+    "experiments/rfuav_native_frequency_20261009/report.py": "6b304b8858b619eac6bf56abbdd798915a8d7b00e920f0e708789a797b255ed2",
+    "experiments/architecture_audit_20261009/phase_fit_v2.py": "6fb94e0439052629a5d0941c1029f0d1c6c73bad752aec9655d89a6c014062c8",
+    "experiments/architecture_audit_20261009/phase_packing.py": "db0794982d126453245abf1baf97f441dbed48a7c129dfe1f180e920c6341180",
+    "experiments/architecture_audit_20261009/gpu_start_guard.py": "63750778b288a7617e91e550823b624b5eebe93193e5c6c4434d9a6d9ed1e1ac",
+    "experiments/architecture_audit_20261009/check_phase_packing.py": "fd081cba34d2ece2270e5fd1d363bd9091db7c82b2ccf2a56a8eed2166c923e7",
+    "experiments/architecture_audit_20261009/phase_comparison_v2.py": "90c1e1fd5a59be92cd35a8711edb461777ff07ccc0faf043a22d8e01ac339414",
+    "experiments/architecture_audit_20261009/phase_data.py": "ac941685c3609c6c3333a9f2b17c216c3ef1c40f891fc49714aa3979d4cd4cea",
+    "experiments/architecture_audit_20261009/phase_evaluation.py": "a8135eb8e53956a8e27a1b0f781353dd5d303d0c0bf5c172307093430c894a72",
+    "experiments/architecture_audit_20261009/watch_epochs.py": "c6bdf5c24efae621a028438c6ecde51ded899f7e0ab8cd7a38a61b687c9f1154",
+    "experiments/architecture_audit_20261009/check_phase_pipeline.py": "9b556865cd549bd19c9b1168d7e827d612be2d739d42fc9ecd7ca3716ac3fc88",
+    "experiments/architecture_audit_20261009/head_gradient_probe.py": "b21f8d067f7da53f0ce45bc46da808b76150f37f81ecac02228e47f4d7fb2fc8",
+    "experiments/architecture_audit_20261009/unet_head_gradient_probe.py": "e86c48c753dd7d56f527fbe62d98940938656b9cff61d83831c83677d7f9f029"
+  },
+  "study_protocol_sha256": "54b4af1932ee83651aad2f5e251ada981f12133f1230b70f2c86180cb9c7f9a5",
+  "prerequisite_sha256": "41eb9ee45ec6836aa592ddc6957c48717659c31599a60fcf75bdda91de15ba3a",
+  "checkpoint_sha256": "09ff6145266b37c8c5793325dba8f7565bb01a3b1e01857dd5a031be7f918627",
+  "checkpoint_arm": "unet_mean",
+  "checkpoint_epoch": 4,
+  "checkpoint_updates": 300,
+  "parameters": 32142859,
+  "preparation_sha256": "9ef20b525774e64379712593da8509e3dda17443675322f32a13decdac603036",
+  "train_indices": [
+    1184,
+    1185,
+    1186,
+    1187,
+    1188,
+    1189,
+    1190,
+    1191,
+    1192,
+    1193,
+    1194,
+    1195,
+    1196,
+    1197,
+    1198,
+    1199,
+    1200,
+    1201,
+    1202,
+    1203,
+    1204,
+    1205,
+    1206,
+    1207,
+    1208,
+    1209,
+    1210,
+    1211,
+    1212,
+    1213,
+    1214,
+    1215
+  ],
+  "selection": "exact epoch1 batch32 containing its largest local reference-power gap",
+  "selected_anchor_index": 1210,
+  "selected_anchor_gap_db": 52.883239152324435,
+  "modes": [
+    "original",
+    "log1p_nmse_fixed_original_PIT"
+  ],
+  "derivative_scope": "final Conv2d weight and bias only",
+  "optimizer_updates": 0,
+  "validation_read": false,
+  "heldout_read": false,
+  "post_hoc": true,
+  "caveat": "Selected extreme batch; not full-network or historical gradients; no trained robust-loss result",
+  "protocol_sha256": "645fc5732203fe51cc541f14b8c8233ab49f10f6897ecf565dbeed4f9405eb93",
+  "rows": [
+    {
+      "index": 1184,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "gap_db": 12.582325794107609,
+      "losses": {
+        "original": 0.6383920311927795,
+        "log1p_nmse_fixed_original_PIT": 0.5831203460693359
+      },
+      "head_gradient_norms": {
+        "original": 1.4767435347009907,
+        "log1p_nmse_fixed_original_PIT": 1.1025780856812275
+      }
+    },
+    {
+      "index": 1185,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "gap_db": 41.42482130709926,
+      "losses": {
+        "original": 2.1884377002716064,
+        "log1p_nmse_fixed_original_PIT": 1.3312362432479858
+      },
+      "head_gradient_norms": {
+        "original": 168.15336950583668,
+        "log1p_nmse_fixed_original_PIT": 33.57952342840783
+      }
+    },
+    {
+      "index": 1186,
+      "count": 1,
+      "categories": [
+        "DJI MINI3"
+      ],
+      "gap_db": 0.0,
+      "losses": {
+        "original": 0.060526348650455475,
+        "log1p_nmse_fixed_original_PIT": 0.059466227889060974
+      },
+      "head_gradient_norms": {
+        "original": 0.45401041455618063,
+        "log1p_nmse_fixed_original_PIT": 0.43509079775624276
+      }
+    },
+    {
+      "index": 1187,
+      "count": 1,
+      "categories": [
+        "DJI AVATA2"
+      ],
+      "gap_db": 0.0,
+      "losses": {
+        "original": 0.07675019651651382,
+        "log1p_nmse_fixed_original_PIT": 0.07444815337657928
+      },
+      "head_gradient_norms": {
+        "original": 0.611915939314287,
+        "log1p_nmse_fixed_original_PIT": 0.5730651619410096
+      }
+    },
+    {
+      "index": 1188,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "gap_db": 0.5278057987099299,
+      "losses": {
+        "original": 0.7656018733978271,
+        "log1p_nmse_fixed_original_PIT": 0.6961634755134583
+      },
+      "head_gradient_norms": {
+        "original": 0.8627823826098697,
+        "log1p_nmse_fixed_original_PIT": 0.628388715094675
+      }
+    },
+    {
+      "index": 1189,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "gap_db": 2.1859500917511423,
+      "losses": {
+        "original": 0.4922984838485718,
+        "log1p_nmse_fixed_original_PIT": 0.4648078680038452
+      },
+      "head_gradient_norms": {
+        "original": 1.1269069279491408,
+        "log1p_nmse_fixed_original_PIT": 0.9679499447715515
+      }
+    },
+    {
+      "index": 1190,
+      "count": 1,
+      "categories": [
+        "DJI FPV COMBO"
+      ],
+      "gap_db": 0.0,
+      "losses": {
+        "original": 0.041217200458049774,
+        "log1p_nmse_fixed_original_PIT": 0.041211165487766266
+      },
+      "head_gradient_norms": {
+        "original": 0.04639101674642741,
+        "log1p_nmse_fixed_original_PIT": 0.04623275402672177
+      }
+    },
+    {
+      "index": 1191,
+      "count": 1,
+      "categories": [
+        "DJI FPV COMBO"
+      ],
+      "gap_db": 0.0,
+      "losses": {
+        "original": 0.11034548282623291,
+        "log1p_nmse_fixed_original_PIT": 0.10742946714162827
+      },
+      "head_gradient_norms": {
+        "original": 0.6544930627116364,
+        "log1p_nmse_fixed_original_PIT": 0.6084434413211208
+      }
+    },
+    {
+      "index": 1192,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "gap_db": 8.633448078758676,
+      "losses": {
+        "original": 1.5284806489944458,
+        "log1p_nmse_fixed_original_PIT": 1.2940207719802856
+      },
+      "head_gradient_norms": {
+        "original": 5.774641827358091,
+        "log1p_nmse_fixed_original_PIT": 4.887667711078563
+      }
+    },
+    {
+      "index": 1193,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "gap_db": 6.9367947550189175,
+      "losses": {
+        "original": 0.4888051748275757,
+        "log1p_nmse_fixed_original_PIT": 0.457040011882782
+      },
+      "head_gradient_norms": {
+        "original": 0.6840897296842682,
+        "log1p_nmse_fixed_original_PIT": 0.6514373274558721
+      }
+    },
+    {
+      "index": 1194,
+      "count": 1,
+      "categories": [
+        "DJI MAVIC3 PRO"
+      ],
+      "gap_db": 0.0,
+      "losses": {
+        "original": 0.1121961921453476,
+        "log1p_nmse_fixed_original_PIT": 0.10976289212703705
+      },
+      "head_gradient_norms": {
+        "original": 0.6188207788050466,
+        "log1p_nmse_fixed_original_PIT": 0.5787562696255935
+      }
+    },
+    {
+      "index": 1195,
+      "count": 1,
+      "categories": [
+        "DJI MINI4 PRO"
+      ],
+      "gap_db": 0.0,
+      "losses": {
+        "original": 0.0053248051553964615,
+        "log1p_nmse_fixed_original_PIT": 0.005321666598320007
+      },
+      "head_gradient_norms": {
+        "original": 0.03185917710974348,
+        "log1p_nmse_fixed_original_PIT": 0.0317808056403616
+      }
+    },
+    {
+      "index": 1196,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "gap_db": 13.75295641641742,
+      "losses": {
+        "original": 0.8310924172401428,
+        "log1p_nmse_fixed_original_PIT": 0.7191791534423828
+      },
+      "head_gradient_norms": {
+        "original": 6.813838399493848,
+        "log1p_nmse_fixed_original_PIT": 6.888993325552057
+      }
+    },
+    {
+      "index": 1197,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "gap_db": 16.022749263570006,
+      "losses": {
+        "original": 0.6779838800430298,
+        "log1p_nmse_fixed_original_PIT": 0.5922774076461792
+      },
+      "head_gradient_norms": {
+        "original": 6.138878304608107,
+        "log1p_nmse_fixed_original_PIT": 6.113133168445265
+      }
+    },
+    {
+      "index": 1198,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "gap_db": 11.318012945004018,
+      "losses": {
+        "original": 0.5454964637756348,
+        "log1p_nmse_fixed_original_PIT": 0.5084075927734375
+      },
+      "head_gradient_norms": {
+        "original": 1.1627369478668936,
+        "log1p_nmse_fixed_original_PIT": 1.003070892740066
+      }
+    },
+    {
+      "index": 1199,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "gap_db": 7.367311363979416,
+      "losses": {
+        "original": 0.8426216840744019,
+        "log1p_nmse_fixed_original_PIT": 0.7380093336105347
+      },
+      "head_gradient_norms": {
+        "original": 2.555561185172246,
+        "log1p_nmse_fixed_original_PIT": 2.191576007190546
+      }
+    },
+    {
+      "index": 1200,
+      "count": 1,
+      "categories": [
+        "DJI FPV COMBO"
+      ],
+      "gap_db": 0.0,
+      "losses": {
+        "original": 0.04322415962815285,
+        "log1p_nmse_fixed_original_PIT": 0.04319440573453903
+      },
+      "head_gradient_norms": {
+        "original": 0.1072550418147164,
+        "log1p_nmse_fixed_original_PIT": 0.10646542096677994
+      }
+    },
+    {
+      "index": 1201,
+      "count": 1,
+      "categories": [
+        "DJI MAVIC3 PRO"
+      ],
+      "gap_db": 0.0,
+      "losses": {
+        "original": 0.047579076141119,
+        "log1p_nmse_fixed_original_PIT": 0.04755236580967903
+      },
+      "head_gradient_norms": {
+        "original": 0.061096544262652465,
+        "log1p_nmse_fixed_original_PIT": 0.060692681452329415
+      }
+    },
+    {
+      "index": 1202,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "gap_db": 5.091935099763485,
+      "losses": {
+        "original": 0.9229974746704102,
+        "log1p_nmse_fixed_original_PIT": 0.8085736036300659
+      },
+      "head_gradient_norms": {
+        "original": 7.372059345138271,
+        "log1p_nmse_fixed_original_PIT": 6.738373941469597
+      }
+    },
+    {
+      "index": 1203,
+      "count": 1,
+      "categories": [
+        "DJI MAVIC3 PRO"
+      ],
+      "gap_db": 0.0,
+      "losses": {
+        "original": 0.050840429961681366,
+        "log1p_nmse_fixed_original_PIT": 0.05078497529029846
+      },
+      "head_gradient_norms": {
+        "original": 0.1166794696867499,
+        "log1p_nmse_fixed_original_PIT": 0.11555107775838691
+      }
+    },
+    {
+      "index": 1204,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "gap_db": 6.645221389385361,
+      "losses": {
+        "original": 1.4182225465774536,
+        "log1p_nmse_fixed_original_PIT": 1.2616329193115234
+      },
+      "head_gradient_norms": {
+        "original": 3.484946708042151,
+        "log1p_nmse_fixed_original_PIT": 2.915304168691384
+      }
+    },
+    {
+      "index": 1205,
+      "count": 1,
+      "categories": [
+        "DJI MAVIC3 PRO"
+      ],
+      "gap_db": 0.0,
+      "losses": {
+        "original": 0.046788692474365234,
+        "log1p_nmse_fixed_original_PIT": 0.04677532613277435
+      },
+      "head_gradient_norms": {
+        "original": 0.03646132980684632,
+        "log1p_nmse_fixed_original_PIT": 0.036303139309178924
+      }
+    },
+    {
+      "index": 1206,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "gap_db": 34.33594310747489,
+      "losses": {
+        "original": 0.9143689870834351,
+        "log1p_nmse_fixed_original_PIT": 0.7547457814216614
+      },
+      "head_gradient_norms": {
+        "original": 8.289525981018597,
+        "log1p_nmse_fixed_original_PIT": 3.630134939404207
+      }
+    },
+    {
+      "index": 1207,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "gap_db": 13.574009341114914,
+      "losses": {
+        "original": 0.677179217338562,
+        "log1p_nmse_fixed_original_PIT": 0.611634373664856
+      },
+      "head_gradient_norms": {
+        "original": 1.250513930831676,
+        "log1p_nmse_fixed_original_PIT": 0.8907942830042231
+      }
+    },
+    {
+      "index": 1208,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "gap_db": 14.653266968846218,
+      "losses": {
+        "original": 1.449831485748291,
+        "log1p_nmse_fixed_original_PIT": 1.1795477867126465
+      },
+      "head_gradient_norms": {
+        "original": 3.4153107718083606,
+        "log1p_nmse_fixed_original_PIT": 2.0822989848477316
+      }
+    },
+    {
+      "index": 1209,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "gap_db": 24.25132028465866,
+      "losses": {
+        "original": 0.7916306257247925,
+        "log1p_nmse_fixed_original_PIT": 0.6797385215759277
+      },
+      "head_gradient_norms": {
+        "original": 1.3591971541530234,
+        "log1p_nmse_fixed_original_PIT": 0.7373753474464978
+      }
+    },
+    {
+      "index": 1210,
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "gap_db": 52.883239152324435,
+      "losses": {
+        "original": 8.479578971862793,
+        "log1p_nmse_fixed_original_PIT": 1.431422472000122
+      },
+      "head_gradient_norms": {
+        "original": 908.7617986636611,
+        "log1p_nmse_fixed_original_PIT": 35.80068611075068
+      }
+    },
+    {
+      "index": 1211,
+      "count": 1,
+      "categories": [
+        "DJI AVATA2"
+      ],
+      "gap_db": 0.0,
+      "losses": {
+        "original": 0.1033380776643753,
+        "log1p_nmse_fixed_original_PIT": 0.10058829188346863
+      },
+      "head_gradient_norms": {
+        "original": 0.6484645277579809,
+        "log1p_nmse_fixed_original_PIT": 0.6038722544222936
+      }
+    },
+    {
+      "index": 1212,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "gap_db": 17.733393138623377,
+      "losses": {
+        "original": 1.2875245809555054,
+        "log1p_nmse_fixed_original_PIT": 1.0900592803955078
+      },
+      "head_gradient_norms": {
+        "original": 3.8552150366301374,
+        "log1p_nmse_fixed_original_PIT": 3.1249685396386178
+      }
+    },
+    {
+      "index": 1213,
+      "count": 1,
+      "categories": [
+        "DJI FPV COMBO"
+      ],
+      "gap_db": 0.0,
+      "losses": {
+        "original": 0.044872723519802094,
+        "log1p_nmse_fixed_original_PIT": 0.04482188820838928
+      },
+      "head_gradient_norms": {
+        "original": 0.12526409433805044,
+        "log1p_nmse_fixed_original_PIT": 0.12409057133020115
+      }
+    },
+    {
+      "index": 1214,
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "gap_db": 23.012100053191848,
+      "losses": {
+        "original": 0.8514555096626282,
+        "log1p_nmse_fixed_original_PIT": 0.6981374621391296
+      },
+      "head_gradient_norms": {
+        "original": 7.495919134441775,
+        "log1p_nmse_fixed_original_PIT": 3.332141585111878
+      }
+    },
+    {
+      "index": 1215,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "gap_db": 25.59961148302571,
+      "losses": {
+        "original": 1.2724636793136597,
+        "log1p_nmse_fixed_original_PIT": 1.0912747383117676
+      },
+      "head_gradient_norms": {
+        "original": 4.499664651334614,
+        "log1p_nmse_fixed_original_PIT": 2.3105427452395966
+      }
+    }
+  ],
+  "summary": [
+    {
+      "mode": "original",
+      "batch_cases": 32,
+      "head_parameters": 520,
+      "mean_gradient_norm": 33.73300609158858,
+      "sum_individual_norms": 1148.0464115192501,
+      "largest_case_norm_fraction": 0.7915723524287357,
+      "largest_case_index": 1210,
+      "largest_case_gap_db": 52.883239152324435,
+      "largest_case_cosine_with_batch_sum": 0.9982244701741242,
+      "top5_norm_fraction": 0.9582127182248072,
+      "top5_indices": [
+        1210,
+        1185,
+        1206,
+        1214,
+        1202
+      ]
+    },
+    {
+      "mode": "log1p_nmse_fixed_original_PIT",
+      "batch_cases": 32,
+      "head_parameters": 520,
+      "mean_gradient_norm": 2.3324098894741825,
+      "sum_individual_norms": 122.89728362757229,
+      "largest_case_norm_fraction": 0.2913057559452739,
+      "largest_case_index": 1210,
+      "largest_case_gap_db": 52.883239152324435,
+      "largest_case_cosine_with_batch_sum": 0.9843786964459862,
+      "top5_norm_fraction": 0.7251641968320202,
+      "top5_indices": [
+        1210,
+        1185,
+        1196,
+        1202,
+        1197
+      ]
+    }
+  ],
+  "gradient_vectors_sha256": "307b09b9d98c76ecaa9ea124081d9bd0ff7599ea711ca5ef0f8749f55ae033aa",
+  "seconds": 216.21497917175293
+}

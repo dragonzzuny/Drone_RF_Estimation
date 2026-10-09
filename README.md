@@ -2,7 +2,7 @@
 
 혼합 복소 I/Q에서 각 드론 기록의 기여 파형을 복원하고, 학습하지 않은 기록·기종·조합에 대한 일반화를 검증하는 연구입니다. 현재 범위는 1–3성분입니다.
 
-**2026-10-09 16:56 KST:** 새 초기화 기본 WaveNet·긴 수용범위 WaveNet·STFT U-Net의 각 5 epoch/375업데이트 비교와 최종 검산을 완료했습니다. 같은 개발검증 평균 NMSE 규칙으로 선택한 결과는 아래와 같습니다. 이번 예산에서는 U-Net의 네 평균 파형 지표가 가장 좋습니다. 모델별 파라미터와 계산량이 달라 계열 전체의 우열이나 충분한 수렴을 입증하는 비교는 아닙니다.
+**2026-10-09 17:53 KST:** 새 초기화 기본 WaveNet·긴 수용범위 WaveNet·STFT U-Net의 각 5 epoch/375업데이트 비교와 최종 검산을 완료했습니다. 같은 개발검증 평균 NMSE 규칙으로 선택한 결과는 아래와 같습니다. 이번 예산에서는 U-Net의 네 평균 파형 지표가 가장 좋습니다. 모델별 파라미터와 계산량이 달라 계열 전체의 우열이나 충분한 수렴을 입증하는 비교는 아닙니다.
 
 | 전체 5 epoch 후 선택 모델 | 선택 epoch | 2성분 NMSE ↓ | 3성분 NMSE ↓ | 2성분 SI-SDR ↑ dB | 3성분 SI-SDR ↑ dB |
 |---|---:|---:|---:|---:|---:|
@@ -14,8 +14,15 @@ U-Net의 마지막 e5는 NMSE 2/3=0.5432/0.7126, SI-SDR=2.468/−4.257dB로, 평
 
 RFUAV 한 데이터셋의 같은 원 RF 대역끼리 합성하고 수신 중심 간격·native 100MS/s·원기록 분할을 유지합니다. 파라미터와 계산량은 모델별로 다릅니다. 목표는 공통 관측 대역으로 제한한 기록 기여 파형이며, 실제 드론 대수나 실측 동시 수신 정답으로 표시하지 않습니다.
 
-20.89ms 복소 I/Q를 제공하는 원 규모 모델의 [GPU 사전 검사](reports/2026-10-09/PHASE_CONTEXT_GPU_PREFLIGHT.md)를 두 군 모두 통과했습니다. 같은 초기값·자료·규모·각 5 epoch의 긴/가린 복소 문맥 본 비교를 시작했으며 두 군의 1 epoch를 완료하고 긴 문맥군 long의 2 epoch를 GPU에서 학습 중입니다. e1의 2/3성분 NMSE는 local 40.9930/2.1707, long 41.4605/2.1850입니다. 긴 문맥에서 SI-SDR은 소폭 개선됐지만 NMSE는 악화해 첫 epoch의 동시 개선 기준을 충족하지 못했습니다. 두 군 모두 아직 크게 부족하며 매우 큰 국소 전력차의 사례가 평균 오차에 큰 영향을 줍니다.  [후속 진행 보고](reports/2026-10-09/PHASE_CONTEXT_PROGRESS.md)에서 실제 시작과 완료 epoch를 구분합니다. 기존 전이 U-Net의 더 좋은 수치는 학습 이력이 달라 이번 새 초기화 비교와 분리합니다. [현행 계획](docs/PLAN_KO.md)과 [검산된 전체 epoch](reports/2026-10-09/ARCHITECTURE_PROGRESS.md)에 실행 순서·약신호 실패·비교 한계를 정리했습니다. 실행 상태는 기록 시점입니다.
+20.89ms 복소 I/Q 후속 비교는 두 군 모두 2 epoch/150업데이트와 개발검증 630개를 완료했습니다. 현재 같은 예산에서 local의 2/3성분 NMSE는 32.3325/1.8616, long은 32.5152/1.8841입니다. SI-SDR도 local −2.986/−6.539dB, long −3.134/−6.637dB로 긴 문맥의 이점을 확인하지 못했습니다. 두 군 모두 1→2 epoch에서 NMSE는 감소했지만 SI-SDR은 악화했습니다. 각 5 epoch 규약을 유지하며 다음은 local e3입니다. [후속 진행 보고](reports/2026-10-09/PHASE_CONTEXT_PROGRESS.md).
 
+CPU에서는 이미 학습한 TRAIN48 재평가와 학습 전체 전력 분포·출력층 기울기 진단을 완료했습니다. 한 극단 batch에서 U-Net의 개별 출력층 gradient norm 합 중 최대 사례 비율은 기존 손실 79.16%, 진단용 log1p 변경 29.13%였습니다. 실제 개선 여부를 검증하기 위해 같은 U-Net e4 시작점·같은 추가 예산의 손실 대조를 등록했습니다. **GPU 대기 중·새 업데이트 0회**이며, 앞서 예약한 출력 방식 TRAIN4 진단 뒤에 실행합니다. [관찰과 가설](reports/2026-10-09/CURRENT_RECONSTRUCTION_DIAGNOSIS_KO.md), [손실 대조 규약](reports/2026-10-09/ROBUST_NMSE_PLAN_KO.md).
+
+기존 전이 U-Net의 더 좋은 수치는 학습 이력이 달라 이번 새 초기화 비교와 분리합니다. [현행 계획](docs/PLAN_KO.md)에 실행 순서·약신호 실패·비교 한계를 정리했습니다. 실행 상태는 기록 시점입니다.
+
+- [동일 시작 U-Net 손실 대조: 전체 입력 CPU 검사 통과·GPU 대기](reports/2026-10-09/ROBUST_NMSE_PLAN_KO.md)
+- [U-Net 출력층 기울기 진단](reports/2026-10-09/UNET_HEAD_GRADIENT_E004.md)
+- [학습에서 이미 본 TRAIN48의 문맥 모델 성능](reports/2026-10-09/PHASE_CONTEXT_TRAIN_E001.md)
 - [U-Net 출력 표현 비교: CPU 검사 통과·후속 GPU 진단 대기](reports/2026-10-09/OUTPUT_PARAMETERIZATION_PLAN_KO.md)
 - [전력 가중 보정의 TRAIN 추론 실패 결과](reports/2026-10-09/PROJECTION_WEIGHT_TRAIN.md)
 - [학습 전체의 국소 전력차·손실 분모 검사](reports/2026-10-09/TRAIN_POWER_DISTRIBUTION.md)

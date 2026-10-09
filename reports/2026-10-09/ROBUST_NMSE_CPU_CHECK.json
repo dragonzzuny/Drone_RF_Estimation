@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "source_sha256": {
+    "experiments/architecture_audit_20261009/check_robust_nmse.py": "3f27a3972db52240dd2d31456cceac5be865b01cc9e7689e1c436dab3034a314",
+    "experiments/architecture_audit_20261009/robust_nmse.py": "920051f2bbf225fb96487e7761ac74a4cf7ab6fefea17dd85111f6dee6056a70",
+    "experiments/architecture_audit_20261009/head_gradient_probe.py": "b21f8d067f7da53f0ce45bc46da808b76150f37f81ecac02228e47f4d7fb2fc8"
+  },
+  "modes": {
+    "original": {
+      "finite_loss_and_gradient": true,
+      "all_six_output_permutations": true,
+      "common_complex_gain_invariance": true,
+      "perfect_reconstruction_finite": true
+    },
+    "log1p_nmse": {
+      "finite_loss_and_gradient": true,
+      "all_six_output_permutations": true,
+      "common_complex_gain_invariance": true,
+      "perfect_reconstruction_finite": true
+    }
+  },
+  "original_assignment_preserved": true,
+  "independent_delta_formula": true,
+  "scalar_derivative_verified": true,
+  "full_input_checks": [
+    {
+      "mode": "original",
+      "parameters": 32142859,
+      "full_complex_samples": 63872,
+      "finite_full_network_gradients": true,
+      "head_and_encoder_gradients": true,
+      "preclip_norm": 2.1197497844696045,
+      "sum_relative_error": 9.536601651601029e-15,
+      "optimizer_updates": 0
+    },
+    {
+      "mode": "log1p_nmse",
+      "parameters": 32142859,
+      "full_complex_samples": 63872,
+      "finite_full_network_gradients": true,
+      "head_and_encoder_gradients": true,
+      "preclip_norm": 2.078322172164917,
+      "sum_relative_error": 9.536601651601029e-15,
+      "optimizer_updates": 0
+    }
+  ],
+  "recorded_iq_reads": 0,
+  "trained": false,
+  "heldout_read": false
+}
