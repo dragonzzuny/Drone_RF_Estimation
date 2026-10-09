@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "device": "cpu",
+  "train_index": 4,
+  "trained": false,
+  "quality_evaluated": false,
+  "validation_iq_read": false,
+  "heldout_read": false,
+  "full_capacity_parameters": 4641795,
+  "input_samples": 2088960,
+  "crop_start": 958283,
+  "fine_samples": 63872,
+  "unchanged_guard_samples": 100000,
+  "changed_sample_count": 1825088,
+  "unchanged_fine_iq": true,
+  "unchanged_sample_magnitudes": true,
+  "unchanged_rms_exact": true,
+  "unchanged_context_features": true,
+  "unchanged_count_logits_exact": true,
+  "local_output_unchanged_exact": true,
+  "long_output_change_mean_squared": 2.9700115646846825e-06,
+  "long_output_change_relative_to_mixture": 2.9700108565789143e-06,
+  "interpretation": "Distant I/Q can affect the decoded interval at fixed RMS and auxiliary context; no trained quality result",
+  "perturbation": "Synthetic sign flips >1ms outside decoded interval; numerical dependency check only",
+  "seconds": 44.315205335617065,
+  "source_sha256": {
+    "check_phase_context_access.py": "6245c0658f8649b3abe7ca96c3dd00b030c7b54ef9b9806f1e79c308e238da77",
+    "phase_packing.py": "db0794982d126453245abf1baf97f441dbed48a7c129dfe1f180e920c6341180"
+  },
+  "preparation_sha256": "9ef20b525774e64379712593da8509e3dda17443675322f32a13decdac603036"
+}
