@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "complex_mse_identity_error": 0.0,
+  "sequential_gradient_relative_error": 6.35707122810939e-17,
+  "permutation_and_overlap_coordinates_checked": true,
+  "source_sha256": {
+    "experiments/window_overlap_20261010/check_paired.py": "afda6a40f5d964ec2cb3e4df0864197074a80f6a636c802ea78dfbdbbce1e4fd",
+    "experiments/window_overlap_20261010/paired.py": "2088b9ed93feed26b4e7b6abdaf197736905d5ba26f0e1fdbfcac665e88e0710"
+  },
+  "recorded_iq_reads": 0,
+  "gpu_use": false,
+  "training_run": false,
+  "limitation": "Algebra and synthetic shared-weight gradient check, not a full-separator training or performance result"
+}

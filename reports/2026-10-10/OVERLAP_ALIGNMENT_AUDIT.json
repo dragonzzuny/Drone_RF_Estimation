@@ -1,0 +1,141 @@
+{
+  "status": "PASS",
+  "protocol_sha256": "833cd2cdb9f109ae8b3c1a24a62457761ff60fe647930be4255d675632bbfd3d",
+  "complete_sha256": "b6931fd8e47651d30650a2950b06a6128b93901f0d49e76d205b92dd916ee5ec",
+  "auditor_sha256": "09f75f39931940ce75f131f38c971632be149e79feec4c9f92972bb1eb3a256d",
+  "all_42_averaged_and_54_window_rows_checked": true,
+  "all_21_summaries_reaggregated": true,
+  "independent_global_pit_scores": [
+    {
+      "alignment": "prediction_mse",
+      "averaging": "uniform",
+      "count": 1,
+      "mean_nmse": 0.10877907034951169,
+      "mean_si_sdr": 22.336981481904274
+    },
+    {
+      "alignment": "prediction_mse",
+      "averaging": "uniform",
+      "count": 2,
+      "mean_nmse": 0.5913010380680334,
+      "mean_si_sdr": 8.361783620602962
+    },
+    {
+      "alignment": "prediction_mse",
+      "averaging": "uniform",
+      "count": 3,
+      "mean_nmse": 0.6333465356085117,
+      "mean_si_sdr": 0.08850453950002884
+    },
+    {
+      "alignment": "prediction_mse",
+      "averaging": "center_weighted",
+      "count": 1,
+      "mean_nmse": 0.13060228745313765,
+      "mean_si_sdr": 17.26856267653362
+    },
+    {
+      "alignment": "prediction_mse",
+      "averaging": "center_weighted",
+      "count": 2,
+      "mean_nmse": 0.5312287779121978,
+      "mean_si_sdr": 6.438861147710028
+    },
+    {
+      "alignment": "prediction_mse",
+      "averaging": "center_weighted",
+      "count": 3,
+      "mean_nmse": 0.6374940030280144,
+      "mean_si_sdr": 0.029918267779675434
+    },
+    {
+      "alignment": "prediction_coherence",
+      "averaging": "uniform",
+      "count": 1,
+      "mean_nmse": 0.17602346932350993,
+      "mean_si_sdr": 21.19801184301234
+    },
+    {
+      "alignment": "prediction_coherence",
+      "averaging": "uniform",
+      "count": 2,
+      "mean_nmse": 0.591983671803911,
+      "mean_si_sdr": 8.433468771991155
+    },
+    {
+      "alignment": "prediction_coherence",
+      "averaging": "uniform",
+      "count": 3,
+      "mean_nmse": 0.6333465356085117,
+      "mean_si_sdr": 0.08850453950002884
+    },
+    {
+      "alignment": "prediction_coherence",
+      "averaging": "center_weighted",
+      "count": 1,
+      "mean_nmse": 0.1842363595001979,
+      "mean_si_sdr": 13.529087950795791
+    },
+    {
+      "alignment": "prediction_coherence",
+      "averaging": "center_weighted",
+      "count": 2,
+      "mean_nmse": 0.531826613062697,
+      "mean_si_sdr": 6.412595116036176
+    },
+    {
+      "alignment": "prediction_coherence",
+      "averaging": "center_weighted",
+      "count": 3,
+      "mean_nmse": 0.6374940030280144,
+      "mean_si_sdr": 0.029918267779675434
+    },
+    {
+      "alignment": "oracle_reference_assignment_diagnostic_only",
+      "averaging": "uniform",
+      "count": 1,
+      "mean_nmse": 0.10877907034951169,
+      "mean_si_sdr": 22.336981481904274
+    },
+    {
+      "alignment": "oracle_reference_assignment_diagnostic_only",
+      "averaging": "uniform",
+      "count": 2,
+      "mean_nmse": 0.30546799517088236,
+      "mean_si_sdr": 7.101660868489887
+    },
+    {
+      "alignment": "oracle_reference_assignment_diagnostic_only",
+      "averaging": "uniform",
+      "count": 3,
+      "mean_nmse": 0.5937453199868192,
+      "mean_si_sdr": 0.13626038890834785
+    },
+    {
+      "alignment": "oracle_reference_assignment_diagnostic_only",
+      "averaging": "center_weighted",
+      "count": 1,
+      "mean_nmse": 0.13060228745313765,
+      "mean_si_sdr": 17.26856267653362
+    },
+    {
+      "alignment": "oracle_reference_assignment_diagnostic_only",
+      "averaging": "center_weighted",
+      "count": 2,
+      "mean_nmse": 0.3107560123647953,
+      "mean_si_sdr": 9.107238553889253
+    },
+    {
+      "alignment": "oracle_reference_assignment_diagnostic_only",
+      "averaging": "center_weighted",
+      "count": 3,
+      "mean_nmse": 0.5877413076340289,
+      "mean_si_sdr": -0.2634617845758135
+    }
+  ],
+  "source_hashes_checked": true,
+  "original_mse_average_reproduced": true,
+  "waveforms_independently_reinferred": false,
+  "heldout_read": false,
+  "oracle_results_are_diagnostic_only": true
+}
