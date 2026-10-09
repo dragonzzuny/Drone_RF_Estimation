@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "report_sha256": "7d776d57bebdc8a5dd9f5c500757ad9f5db41a799244e37f7edabf6540fdde5b",
+  "checks": [
+    {
+      "arm": "wavenet_cycle10",
+      "selected_epoch": 4,
+      "disjoint_tables": 4,
+      "source_cases": 1050,
+      "aggregate_recovery": true,
+      "success_integer_counts_match": true
+    },
+    {
+      "arm": "wavenet_cycle15",
+      "selected_epoch": 5,
+      "disjoint_tables": 4,
+      "source_cases": 1050,
+      "aggregate_recovery": true,
+      "success_integer_counts_match": true
+    },
+    {
+      "arm": "unet_mean",
+      "selected_epoch": 4,
+      "disjoint_tables": 4,
+      "source_cases": 1050,
+      "aggregate_recovery": true,
+      "success_integer_counts_match": true
+    }
+  ],
+  "waveform_reads": 0,
+  "heldout_read": false,
+  "scope": "Independent totals, weighted metric recovery, success counts and saved evidence hashes; descriptive development report"
+}
