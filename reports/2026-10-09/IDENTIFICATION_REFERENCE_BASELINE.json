@@ -1,0 +1,213 @@
+{
+  "status": "COMPLETE",
+  "source_sha256": {
+    "experiments/rfuav_native_frequency_20261009/run_native.py": "5efc429c9d4eddcce3a975bbf7eee0e0476321fc1dc20c5caa854998f070c178",
+    "experiments/rfuav_native_frequency_20261009/native.py": "e14f81aed3c1110f6cdb02d0717a462572b6d2ff6205aff9bbd1d95a5922f587",
+    "experiments/rfuav_native_frequency_20261009/native_data.py": "b3ac38f06bd86ea09ed93e94369dacf53310aeb2aa803b7eb637de08e25d99cc",
+    "experiments/rfuav_dense_gated_20261008/cpu_check.py": "e9189ca0f2d1b20a4f36c8d266a3d59ffce1f83f4f80f3eb1083fc7f5641b4a2",
+    "experiments/rfuav_dense_gated_20261008/test_models.py": "f652b3d012f60fc86aa099beba28147ed75bc9fc3b3f0b4170c3d4d8f1999110",
+    "experiments/rfuav_dense_gated_20261008/study.py": "2e2cb2401c546405959d0de3d4ebccf08f55b0e977ea6825d001c7e663df0edd",
+    "experiments/rfuav_dense_gated_20261008/models.py": "b48e5852e194d4c7fca3e636bb79f918da478a4880fc83397c8afd2e538a136c",
+    "experiments/rfuav_dense_gated_20261008/dense_data.py": "a5604c104332731f7dfa220de74bdd2af2c7efdb5b57af860eae3348e2aa4f3d",
+    "experiments/rfuav_dense_gated_20261008/verify_dense.py": "9fafe10f20057b434ab102b1e12cd298a6c9b2d4293234670590fbe5425ae276",
+    "experiments/rfuav_dense_gated_20261008/prepare_dense_gated.py": "eab1ef23cd3af6c58832e8416aa0108c2090b8610e1919612cee2a8e21fd150b",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_training_data.py": "4222e700c5e77761c7fb05269bd86420896fa2fbcdcbe707a97c08e3f63eaee7",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/temporal.py": "47c237184e31050706abefd0bc91bce80c1492866f5c26e0e9333fe1712da253",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/similarity.py": "a8166bcc7adefec50b30c0374f84964b36943395d64ba3e91400f7b8147c561a",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_data.py": "97886c6accb9e228b85b6fda7efb76cea8e4b4a75e5420c39b115dcf65281268",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/within_dataset_schedule.py": "edcddbf19df88bd0ec4ac6558776d6b75dfa983589850aa742bcaf8306ffaf18",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/losses.py": "a51e179ea16d094cf122ec6491d79b26c66e3ed84294e396112156fb3ac8a4d6",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/waveform.py": "7f27d74ffef9ac5f52c34559d66ddd512f76abe83a4ba825887fc94bd1c3159d",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_model.py": "a6bb37a4a5fb8c5c7f0472b76a92d80f178183d91118367b74fe557873d64794",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/data.py": "2c8abdc30d724e3fd61ca4145f158145139a8c9f69f1d66dc4c888ad1653df6e",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/__init__.py": "9452c5c2cea105ebfc875e0128e2b99b459806ff14c2cd59236c3273575016f4",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/model.py": "c97c64d315637c7799e59147ce37dfce910bdb6ff385c2733153720cfdf47105",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/mixture_constraints.py": "306709a6de32ed01581bd3facc8c45e91de6770de07b1fb9e2457f3ecc99372c",
+    "experiments/architecture_audit_20261009/test_adapter.py": "e7348d70f8be9e35cb451ff3d5b414a7f42e3209c8fbd2f73f03f111d1e75781",
+    "experiments/architecture_audit_20261009/fit_diagnostic.py": "edbeabe4177d8850d7fbbe1fa93751a04282f308d25f640fb4e3ebfe755a77e1",
+    "experiments/architecture_audit_20261009/native_wavenet.py": "6ca4ae09603985e161c6ff7f6b56a2abc39456451fb8510f3c4170dcc7eecba5",
+    "experiments/architecture_audit_20261009/audit.py": "b606c670de27d98e0e4b9823053ecc55df44586d08c8218f878315071e9cf936",
+    "experiments/architecture_audit_20261009/train_comparison.py": "a84debcc74960d13300c955e964ff01250328d2a7ed83c7be1bb4fcc345aad2e",
+    "experiments/architecture_audit_20261009/cycle15.py": "d3606f30dbf0488b62b0182d78d78fd83132979a7e97d878527fa0e1959f605a",
+    "experiments/rfuav_native_frequency_20261009/report.py": "6b304b8858b619eac6bf56abbdd798915a8d7b00e920f0e708789a797b255ed2",
+    "experiments/architecture_audit_20261009/prepare_identification_baseline.py": "2908a41f0bd2afc84a1d611b3b0b1fc3a95c69f61edd7d629b4905d0594846e6",
+    "experiments/architecture_audit_20261009/watch_epochs.py": "c6bdf5c24efae621a028438c6ecde51ded899f7e0ab8cd7a38a61b687c9f1154"
+  },
+  "preparation_sha256": "9ef20b525774e64379712593da8509e3dda17443675322f32a13decdac603036",
+  "parent_protocol_sha256": "54b4af1932ee83651aad2f5e251ada981f12133f1230b70f2c86180cb9c7f9a5",
+  "train_schedule": "epoch1 only; unique(clip,crop) before feature extraction",
+  "validation_schedule": "existing development630 mixtures; unique reference(clip,crop)",
+  "features": "256 amplitude/constant-phase-invariant features: 128 log mean PSD bins and128 log1p temporal CV bins",
+  "stft": "full complex FFT512 hop128 periodic Hann; valid frames only; fftshift; group4 frequency bins",
+  "sample_rate_hz": 100000000,
+  "complex_samples": 63872,
+  "classifier": "class-balanced weighted linear ridge to one-hot labels; lambda0.01; unpenalized intercept",
+  "normalization": "mean and standard deviation fitted only to TRAIN, balanced class weights",
+  "output": "five known recorded-category labels, not individual-airframe fingerprints or calibrated probabilities",
+  "selection": "fixed before examining development classification; no validation tuning",
+  "inference_inputs": "only a single complex I/Q crop; no category, receiver-band label or recording ID",
+  "caveats": "spectral band/receiver offsets remain observable and may be shortcuts; record/BW shift is confounded",
+  "source_separation_evaluated": false,
+  "heldout_read": false,
+  "synthetic_check": {
+    "complex_gain_invariance": true,
+    "synthetic_class_mapping": true,
+    "recorded_reads": 0
+  },
+  "time": 1791538760.718571,
+  "protocol_sha256": "5334fecbe59cc45e2cf4ae0623249f9e93fc22664808a64aab140456c120117a",
+  "classifier_sha256": "85745caf4726cc5758eb0e7fdb97828111537df23f4ed484f6493be9ade7c5ce",
+  "classes": [
+    "DJI AVATA2",
+    "DJI FPV COMBO",
+    "DJI MAVIC3 PRO",
+    "DJI MINI3",
+    "DJI MINI4 PRO"
+  ],
+  "train": {
+    "examples": 4800,
+    "accuracy": 0.9639583333333334,
+    "macro_recall": 0.9737556101463867,
+    "confusion": [
+      [
+        1348,
+        9,
+        5,
+        0,
+        0
+      ],
+      [
+        148,
+        1213,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        1,
+        1352,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        356,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        358
+      ]
+    ],
+    "per_class": [
+      {
+        "category": "DJI AVATA2",
+        "examples": 1362,
+        "recall": 0.9897209985315712
+      },
+      {
+        "category": "DJI FPV COMBO",
+        "examples": 1361,
+        "recall": 0.8912564290962528
+      },
+      {
+        "category": "DJI MAVIC3 PRO",
+        "examples": 1361,
+        "recall": 0.9933872152828802
+      },
+      {
+        "category": "DJI MINI3",
+        "examples": 358,
+        "recall": 0.994413407821229
+      },
+      {
+        "category": "DJI MINI4 PRO",
+        "examples": 358,
+        "recall": 1.0
+      }
+    ]
+  },
+  "validation": {
+    "examples": 1260,
+    "accuracy": 0.6579365079365079,
+    "macro_recall": 0.755373783922171,
+    "confusion": [
+      [
+        17,
+        0,
+        343,
+        0,
+        0
+      ],
+      [
+        79,
+        278,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        1,
+        351,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        90,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        93
+      ]
+    ],
+    "per_class": [
+      {
+        "category": "DJI AVATA2",
+        "examples": 360,
+        "recall": 0.04722222222222222
+      },
+      {
+        "category": "DJI FPV COMBO",
+        "examples": 357,
+        "recall": 0.7787114845938375
+      },
+      {
+        "category": "DJI MAVIC3 PRO",
+        "examples": 357,
+        "recall": 0.9831932773109243
+      },
+      {
+        "category": "DJI MINI3",
+        "examples": 93,
+        "recall": 0.967741935483871
+      },
+      {
+        "category": "DJI MINI4 PRO",
+        "examples": 93,
+        "recall": 1.0
+      }
+    ]
+  },
+  "train_recording_groups": 8,
+  "validation_recording_groups": 5,
+  "reference_window_definition": "deduplicated(clip_id,crop_start); windows are not independent recordings",
+  "feature_sha256": {
+    "TRAIN_FEATURES.npz": "467e0e1e38b87b85f2b225e8f80941cfeb51a165eafe41cd7362df1386a52944",
+    "VALIDATION_FEATURES.npz": "cac86bc2d7d8b53708288589025dadb597e1cb87a4b539d1d4e246f967d2ff11",
+    "EXAMPLE_METADATA.json": "d5898a24579ed754c64a2e3927bc85912bf50da7f9f8857a554ed0f3d25f9217"
+  }
+}
