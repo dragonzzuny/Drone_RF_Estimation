@@ -1,6 +1,6 @@
 # 긴 복소 I/Q 문맥: 조건부 본학습 등록
 
-2026-10-09 11:50 KST, `local/phase_context_screen_20261009_v1`의 `WAITING_GPU_PREFLIGHT`, PID3818510을 확인했다. 이 문서는 **등록·대기 상태**이며 본학습 결과가 아니다. 현재 세 구조 비교와 그 뒤의 GPU 사전 검사를 기다린다.
+2026-10-09 12:24 KST, `local/phase_context_screen_20261009_v2`의 `WAITING_GPU_PREFLIGHT`, PID3843888을 확인했다. 이 문서는 **등록·대기 상태**이며 본학습 결과가 아니다. 현재 세 구조 비교와 그 뒤의 GPU 사전 검사를 기다린다.
 
 검증할 가설은 **짧은 구간 밖의 복소 I/Q가 두세 기록 성분의 파형 복원에 도움이 되는가**이다. 기존 긴 전력 특징과 달리 복소 표본의 시간 순서와 위상 관계를 입력에 남긴다. 재배열 자체나 WaveNet 계열 전체의 우월성을 검증하는 대조는 아니다.
 
@@ -24,10 +24,12 @@
 
 정답·기종·실제 합성 개수는 모델 순전파에 전달하지 않는다. 정답은 손실과 평가용 순열 대응에만 쓴다. 입력 정보 길이만 다른 대조이므로 파라미터·학습 예산은 같아도 원 정보량이 같다고 설명하지 않는다. 한seed·제한된 초기학습 예산의 개발 비교이며 완전 수렴한 성능이나 새 기종 일반화의 검증은 아니다. 확인용 보류 기종은 읽지 않는다.
 
-학습 시작 조건은 먼저 등록된 `phase_context_fit_20261009_v1`의 두 군 모두에서 **원 규모·전체 입력의 유한 기울기, 32업데이트, 초기 대비 고정TRAIN4 NMSE 감소**가 확인되는 것이다. 실패하면 본학습을 시작하지 않고 실패 상태와 근거를 남긴다. 학습에 성공할 가능성을 판단하는 구현 검사이지 일반화 성과가 아니다.
+학습 시작 조건은 먼저 등록된 `phase_context_fit_20261009_v2`의 두 군 모두에서 **원 규모·전체 입력의 유한 기울기, 32업데이트, 초기 대비 고정TRAIN4 NMSE 감소**가 확인되는 것이다. 실패하면 본학습을 시작하지 않고 실패 상태와 근거를 남긴다. 학습에 성공할 가능성을 판단하는 구현 검사이지 일반화 성과가 아니다.
 
 CPU에서는 5개학습epoch에서 개수별첫3개씩, 총45혼합의 긴/짧은 파형이 정확히 연결됨을 확인했다. 1·2·3성분의 출력 순열과NMSE·복소SI-SDR을 별도NumPy 수식으로 검산했고, 새 집계 함수가 이미 저장된 세 모델e2 결과도 재현함을 확인했다. 새 검증I/Q는 이 검사에 읽지 않았다. [검사 기록](PHASE_PIPELINE_CPU_CHECK.json). 더 먼 복소 입력의 접근 경로도 [별도 검사](PHASE_CONTEXT_ACCESS_CPU.json)로 확인했다.
 
-실행 파일은 [phase_comparison.py](../../experiments/architecture_audit_20261009/phase_comparison.py), 데이터 연결은 [phase_data.py](../../experiments/architecture_audit_20261009/phase_data.py), 평가는 [phase_evaluation.py](../../experiments/architecture_audit_20261009/phase_evaluation.py)다. 규약·소스·준비 자료·CPU검사·기존 검증의 조건 정보 해시를 고정했다. `STATE.json`은 대기/학습/검증 상태를, `REPORT_KO.md`는 완료epoch 결과를 기록한다. 매epoch 현재 가중치와 선택 가중치를 함께 보존한다.
+실행 파일은 [phase_comparison_v2.py](../../experiments/architecture_audit_20261009/phase_comparison_v2.py), 데이터 연결은 [phase_data.py](../../experiments/architecture_audit_20261009/phase_data.py), 평가는 [phase_evaluation.py](../../experiments/architecture_audit_20261009/phase_evaluation.py)다. 규약·소스·준비 자료·CPU검사·기존 검증의 조건 정보 해시를 고정했다. `STATE.json`은 대기/학습/검증 상태를, `REPORT_KO.md`는 완료epoch 결과를 기록한다. 매epoch 현재 가중치와 선택 가중치를 함께 보존한다.
 
 현재 세 구조 비교의5epoch가 먼저 완료되므로 새 본학습의 시작 시각은 아직 확정하지 않는다. GPU 사전 검사에서 처리량과 메모리를 실측한 뒤 소요 시간을 갱신한다.
+
+운영 수정(v2): 기존 대기 실행기는 GPU 학습을 시작하기 전에 교체했다. RustDesk가 CUDA 화면 처리166MiB를 사용하여 “다른 학습기”로 오인될 수 있었다. 해당 실행 파일의 절대 경로·SHA-256·사용자와512MiB 상한을 고정해 화면 처리만 허용하고, 미확인 CUDA 프로세스는 계속 차단한다. 현재 연구 학습·원격 화면 프로세스를 중단하지 않았다. v1규약·스냅샷과 중단 사유를 보존했다. 모델·자료·학습·평가 함수가 바뀌지 않은 것을 AST와 규약 비교로 확인했다. [운영 검사](GPU_START_GUARD_CHECK.json).

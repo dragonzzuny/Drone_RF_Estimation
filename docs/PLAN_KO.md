@@ -1,5 +1,7 @@
 # 다기종 드론 I/Q 분리 목표와 실행계획
 
+**12:24 KST 운영·진단 갱신:** 기본WaveNet3epoch는 NMSE(2/3)=1.469321/0.799012로2epoch보다 회복했고 긴WaveNet3epoch가 실행 중이다. 후속 대기는 원격 화면CUDA를 학습기로 오인하지 않도록 시작 조건만 고친v2로 교체했다(사전검사PID3843652, 본학습 대기PID3843888). 원규약·코드·중단사유는 보존했고 현재 GPU학습은 중단하지 않았다. [후속 규약](../reports/2026-10-09/PHASE_CONTEXT_COMPARISON_KO.md). TRAIN48혼합의 [STFT 해상도 진단](../reports/2026-10-09/STFT_RESOLUTION_TRAIN.md)에서는 정답시간·주파수전력마스크의FFT512→32768 증가가2/3성분NMSE를 모두 악화시켰다. 실제 모델 성능·일반적 최적해상도 증거는 아니며 긴복소문맥과 짧은 국소해상도를 구분해 검토한다.
+
 **2026-10-09 11:42 KST 세 구조 모두2epoch 완료:** 같은150업데이트의 현재 가중치에서 U-Net의 NMSE(2/3)=0.680065/0.757379, SI-SDR=1.543/-5.805dB로 두 WaveNet보다 좋다. 기본WaveNet은 e1 선택을 유지하고 긴WaveNet과 U-Net은 e2가 선택됐다. U-Net도 약한 성분 NMSE(2/3)=1.159572/0.983264로 정밀 복원은 부족하다. 세 구조 각5epoch의 동일 예산 비교를 계속한다. [epoch 보고](../reports/2026-10-09/ARCHITECTURE_PROGRESS.md), [모든 성분의 복원 개선 여부](../reports/2026-10-09/ARCHITECTURE_ALL_SOURCE_PROGRESS.md). 보조 집계는 기존 검증630행만 사용하며 선택 기준을 바꾸지 않는다.
 
 긴 복소문맥 후보는 짧은 파형·전력·보조 특징을 고정해도1ms 이상 떨어진 복소 표본이 출력에 영향을 주는 CPU검사를 통과했다. 이는 접근 경로 검산이며 학습 성능 증거는 아니다. [검사](../reports/2026-10-09/PHASE_CONTEXT_ACCESS_CPU.json). **11:50 KST 후속 본학습을 조건부 등록했다.** GPU사전 검사를 통과하면 같은 초기값·자료·각5epoch/375업데이트로 긴/가린 복소문맥을 비교한다. PID3818510은 `WAITING_GPU_PREFLIGHT`이며 아직 본학습 시작 전이다. [규약·대기 상태](../reports/2026-10-09/PHASE_CONTEXT_COMPARISON_KO.md). 아래 시간별 기록은 당시 상태다.

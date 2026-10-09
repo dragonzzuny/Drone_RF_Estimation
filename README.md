@@ -13,6 +13,7 @@
 - [개수 기울기 차단 대조·네 위상 평가 완료](reports/2026-10-09/COUNT_DETACH_FINAL.md)
 - [원 규모 WaveNet·U-Net 학습 진단 결과](reports/2026-10-09/ARCHITECTURE_FIT_DIAGNOSTICS.md)
 - [세 구조의 epoch별 진행 보고](reports/2026-10-09/ARCHITECTURE_PROGRESS.md)
+- [TRAIN 전용 STFT 해상도 진단](reports/2026-10-09/STFT_RESOLUTION_TRAIN.md)
 - [모든 성분의 복원 향상 여부](reports/2026-10-09/ARCHITECTURE_ALL_SOURCE_PROGRESS.md)
 - [긴 복소문맥 후속 비교 규약·대기 상태](reports/2026-10-09/PHASE_CONTEXT_COMPARISON_KO.md)
 - [학습 곡선 PDF](reports/2026-10-09/NATIVE_RF_EPOCHS.pdf)
