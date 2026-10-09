@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "arm": "joint_adapter_lr",
+      "full_parameters": 37406475,
+      "trainable_parameters": 37406475,
+      "changed_backbone_elements": 32142791,
+      "changed_adapter_elements": 5217082,
+      "optimizer_learning_rates": [
+        1e-05,
+        0.0001
+      ],
+      "recurrent_gradient_nonzero": true,
+      "frozen_count_logits_equal": false
+    },
+    {
+      "arm": "frozen_backbone",
+      "full_parameters": 37406475,
+      "trainable_parameters": 5263616,
+      "changed_backbone_elements": 0,
+      "changed_adapter_elements": 5258482,
+      "optimizer_learning_rates": [
+        0.0001
+      ],
+      "recurrent_gradient_nonzero": true,
+      "frozen_count_logits_equal": true
+    }
+  ],
+  "source_sha256": {
+    "experiments/tf_axis_20261010/check_adaptation.py": "930989454f3b46a53878a9c9cee20d7576fa0a1995e962479790037b79c4bd1b",
+    "experiments/tf_axis_20261010/adaptation.py": "0d69315d77e4714935e60d669efb4d0d1bc927a063235cbc5f4e45c23f19fba1"
+  },
+  "synthetic_only": true,
+  "gpu_use": false,
+  "recorded_iq_reads": 0,
+  "trained_separation_result": false
+}

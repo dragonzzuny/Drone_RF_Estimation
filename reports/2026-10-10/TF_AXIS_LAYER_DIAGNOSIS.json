@@ -1,0 +1,1044 @@
+{
+  "status": "COMPLETE",
+  "protocol_sha256": "416849abed058e87d305f3f9582031cda62cb78090f17f21866bafb24b2c1d56",
+  "checkpoint_sha256": "b8992f55b525386f1e678f1e6929d0f08a416c22d035b9527b1e34483d5777f6",
+  "rows": [
+    {
+      "model": "parent/e0",
+      "index": 0,
+      "count": 1,
+      "categories": [
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.0975915841409247
+      ],
+      "si_sdr": [
+        10.595130158569397
+      ],
+      "reference_power": [
+        0.19656672628484773
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.1887572038835381e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 1,
+      "count": 1,
+      "categories": [
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.018422736525068904
+      ],
+      "si_sdr": [
+        17.402986129048987
+      ],
+      "reference_power": [
+        0.06598947923503985
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2719010701666771e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 2,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.6326974814901709,
+        0.4004252204625129,
+        1.0031846466053937
+      ],
+      "si_sdr": [
+        -2.157069394687119,
+        2.750986039765843,
+        -34.193636581628844
+      ],
+      "reference_power": [
+        0.21366361689242833,
+        0.41493681321210335,
+        0.08442038825742745
+      ],
+      "weakest_index": 2,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1357866521839295e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 4,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.18263869858660994,
+        0.23547407031868522
+      ],
+      "si_sdr": [
+        7.01208284655019,
+        18.809497182806098
+      ],
+      "reference_power": [
+        0.22920438514845085,
+        0.25763593577097677
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.1422276470078702e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 5,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.0167076837684972,
+        0.3103411986723075
+      ],
+      "si_sdr": [
+        17.807185559657295,
+        3.834860502442366
+      ],
+      "reference_power": [
+        2.7584760524276057,
+        0.12966367582857852
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 1.3186178476267047e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 11,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.5133180679074099,
+        0.9792922258490518,
+        0.04462464409988561
+      ],
+      "si_sdr": [
+        0.17359036665253835,
+        -12.064927855123933,
+        13.314914900126627
+      ],
+      "reference_power": [
+        0.18304307747426535,
+        0.07667503672516876,
+        1.5836823299638492
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2351218677259569e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 0,
+      "count": 1,
+      "categories": [
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.09660261347750601
+      ],
+      "si_sdr": [
+        10.562610870442281
+      ],
+      "reference_power": [
+        0.19656672628484773
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.1886299329141897e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 1,
+      "count": 1,
+      "categories": [
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.01575643386611274
+      ],
+      "si_sdr": [
+        18.060602668418333
+      ],
+      "reference_power": [
+        0.06598947923503985
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2632595498691992e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 2,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.66433256495055,
+        0.4085561371668789,
+        0.9974166383268381
+      ],
+      "si_sdr": [
+        -2.832851950680091,
+        2.5838342026042778,
+        -25.73489104039345
+      ],
+      "reference_power": [
+        0.21366361689242833,
+        0.41493681321210335,
+        0.08442038825742745
+      ],
+      "weakest_index": 2,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1345677388487079e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 4,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.1725099248507046,
+        0.22850215725154194
+      ],
+      "si_sdr": [
+        7.25453750198053,
+        19.009613253330638
+      ],
+      "reference_power": [
+        0.22920438514845085,
+        0.25763593577097677
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.146522150329785e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 5,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.015480822582719508,
+        0.29400474796318377
+      ],
+      "si_sdr": [
+        18.13567101625648,
+        4.350415931329882
+      ],
+      "reference_power": [
+        2.7584760524276057,
+        0.12966367582857852
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 1.3097601478917153e-14
+    },
+    {
+      "model": "retained_unet/e1",
+      "index": 11,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.513382681729438,
+        0.973643708858485,
+        0.04407946311186686
+      ],
+      "si_sdr": [
+        0.1719996266261269,
+        -11.154124399935215,
+        13.370344574411284
+      ],
+      "reference_power": [
+        0.18304307747426535,
+        0.07667503672516876,
+        1.5836823299638492
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2230800795502019e-14
+    },
+    {
+      "count": 1,
+      "nmse": [
+        0.09799668569899232
+      ],
+      "si_sdr": [
+        10.490673115881354
+      ],
+      "reference_power": [
+        0.19656672628484773
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.187577912926522e-14,
+      "index": 0,
+      "model": "tf_axis/e1"
+    },
+    {
+      "count": 1,
+      "nmse": [
+        0.09660034237287213
+      ],
+      "si_sdr": [
+        10.561180828690642
+      ],
+      "reference_power": [
+        0.19656672628484773
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.1796793091817793e-14,
+      "index": 0,
+      "model": "tf_axis/e1_bypassed"
+    },
+    {
+      "count": 1,
+      "nmse": [
+        0.015946895480663508
+      ],
+      "si_sdr": [
+        18.006780134601335
+      ],
+      "reference_power": [
+        0.06598947923503985
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2326010954320436e-14,
+      "index": 1,
+      "model": "tf_axis/e1"
+    },
+    {
+      "count": 1,
+      "nmse": [
+        0.01575631100204304
+      ],
+      "si_sdr": [
+        18.059641690029434
+      ],
+      "reference_power": [
+        0.06598947923503985
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2777983701645474e-14,
+      "index": 1,
+      "model": "tf_axis/e1_bypassed"
+    },
+    {
+      "count": 2,
+      "nmse": [
+        0.17248558826925148,
+        0.2284603007412326
+      ],
+      "si_sdr": [
+        7.256255510888209,
+        19.012218447698668
+      ],
+      "reference_power": [
+        0.22920438514845085,
+        0.25763593577097677
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.1480520367216779e-14,
+      "index": 4,
+      "model": "tf_axis/e1"
+    },
+    {
+      "count": 2,
+      "nmse": [
+        0.17249243935388137,
+        0.2284785765736265
+      ],
+      "si_sdr": [
+        7.256077671077512,
+        19.014623288133183
+      ],
+      "reference_power": [
+        0.22920438514845085,
+        0.25763593577097677
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.1457113997751379e-14,
+      "index": 4,
+      "model": "tf_axis/e1_bypassed"
+    },
+    {
+      "count": 2,
+      "nmse": [
+        0.0155041864488322,
+        0.2942819276610293
+      ],
+      "si_sdr": [
+        18.128064116856045,
+        4.340447368187787
+      ],
+      "reference_power": [
+        2.7584760524276057,
+        0.12966367582857852
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 1.318091481375684e-14,
+      "index": 5,
+      "model": "tf_axis/e1"
+    },
+    {
+      "count": 2,
+      "nmse": [
+        0.015481019577781323,
+        0.29399185095541847
+      ],
+      "si_sdr": [
+        18.134433755138033,
+        4.351293210637181
+      ],
+      "reference_power": [
+        2.7584760524276057,
+        0.12966367582857852
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 1.3216892805212399e-14,
+      "index": 5,
+      "model": "tf_axis/e1_bypassed"
+    },
+    {
+      "count": 3,
+      "nmse": [
+        0.6677247022981623,
+        0.4100979385953362,
+        0.9971938368038918
+      ],
+      "si_sdr": [
+        -2.903493515150557,
+        2.5629835535264163,
+        -25.33924813828071
+      ],
+      "reference_power": [
+        0.21366361689242833,
+        0.41493681321210335,
+        0.08442038825742745
+      ],
+      "weakest_index": 2,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1375208096960477e-14,
+      "index": 2,
+      "model": "tf_axis/e1"
+    },
+    {
+      "count": 3,
+      "nmse": [
+        0.6641765798847097,
+        0.40850883447928305,
+        0.9975430009898909
+      ],
+      "si_sdr": [
+        -2.8290728214437872,
+        2.586650199661311,
+        -25.967900928627362
+      ],
+      "reference_power": [
+        0.21366361689242833,
+        0.41493681321210335,
+        0.08442038825742745
+      ],
+      "weakest_index": 2,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1357207064384195e-14,
+      "index": 2,
+      "model": "tf_axis/e1_bypassed"
+    },
+    {
+      "count": 3,
+      "nmse": [
+        0.5139228351008056,
+        0.9735117185446167,
+        0.04418183795045709
+      ],
+      "si_sdr": [
+        0.16679516103058178,
+        -11.124837069310354,
+        13.360047117266218
+      ],
+      "reference_power": [
+        0.18304307747426535,
+        0.07667503672516876,
+        1.5836823299638492
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2347058060912471e-14,
+      "index": 11,
+      "model": "tf_axis/e1"
+    },
+    {
+      "count": 3,
+      "nmse": [
+        0.5135176601262426,
+        0.9736277599355935,
+        0.04406608081064322
+      ],
+      "si_sdr": [
+        0.16915953914214704,
+        -11.155301298156658,
+        13.37200727417526
+      ],
+      "reference_power": [
+        0.18304307747426535,
+        0.07667503672516876,
+        1.5836823299638492
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2357279690100134e-14,
+      "index": 11,
+      "model": "tf_axis/e1_bypassed"
+    }
+  ],
+  "internal": [
+    {
+      "input_shape": [
+        1,
+        1024,
+        32,
+        31
+      ],
+      "input_rms": 0.5551655292510986,
+      "delta_rms": 0.002745535923168063,
+      "delta_relative_energy": 2.445734389766585e-05,
+      "index": 0,
+      "prediction_change_relative_energy": 1.0119813622530205e-05,
+      "count_logits_bitwise_equal_when_bypassed": true
+    },
+    {
+      "input_shape": [
+        1,
+        1024,
+        32,
+        31
+      ],
+      "input_rms": 0.5520215630531311,
+      "delta_rms": 0.00211303005926311,
+      "delta_relative_energy": 1.4652081517851911e-05,
+      "index": 1,
+      "prediction_change_relative_energy": 1.1084028914302227e-06,
+      "count_logits_bitwise_equal_when_bypassed": true
+    },
+    {
+      "input_shape": [
+        1,
+        1024,
+        32,
+        31
+      ],
+      "input_rms": 0.551292896270752,
+      "delta_rms": 0.0034868691582232714,
+      "delta_relative_energy": 4.0004280890570953e-05,
+      "index": 4,
+      "prediction_change_relative_energy": 1.9559452855745715e-08,
+      "count_logits_bitwise_equal_when_bypassed": true
+    },
+    {
+      "input_shape": [
+        1,
+        1024,
+        32,
+        31
+      ],
+      "input_rms": 0.5517461895942688,
+      "delta_rms": 0.0024189590476453304,
+      "delta_relative_energy": 1.922110459418036e-05,
+      "index": 5,
+      "prediction_change_relative_energy": 6.730621513148447e-08,
+      "count_logits_bitwise_equal_when_bypassed": true
+    },
+    {
+      "input_shape": [
+        1,
+        1024,
+        32,
+        31
+      ],
+      "input_rms": 0.5361455678939819,
+      "delta_rms": 0.0032170680351555347,
+      "delta_relative_energy": 3.6004359571961686e-05,
+      "index": 2,
+      "prediction_change_relative_energy": 1.0188613480093111e-05,
+      "count_logits_bitwise_equal_when_bypassed": true
+    },
+    {
+      "input_shape": [
+        1,
+        1024,
+        32,
+        31
+      ],
+      "input_rms": 0.5320465564727783,
+      "delta_rms": 0.0024512652307748795,
+      "delta_relative_energy": 2.1226642274996266e-05,
+      "index": 11,
+      "prediction_change_relative_energy": 2.871138988654957e-07,
+      "count_logits_bitwise_equal_when_bypassed": true
+    }
+  ],
+  "parameters": [
+    {
+      "parameter": "input.weight",
+      "initial_norm": 9.24000358581543,
+      "trained_norm": 9.239920616149902,
+      "change_norm": 0.0688178613781929,
+      "changed_elements": 262144,
+      "elements": 262144
+    },
+    {
+      "parameter": "input.bias",
+      "initial_norm": 0.29410839080810547,
+      "trained_norm": 0.2939654588699341,
+      "change_norm": 0.002130088396370411,
+      "changed_elements": 256,
+      "elements": 256
+    },
+    {
+      "parameter": "blocks.0.frequency_norm.weight",
+      "initial_norm": 16.0,
+      "trained_norm": 16.000064849853516,
+      "change_norm": 0.002287507290020585,
+      "changed_elements": 256,
+      "elements": 256
+    },
+    {
+      "parameter": "blocks.0.frequency_norm.bias",
+      "initial_norm": 0.0,
+      "trained_norm": 0.0019525297684594989,
+      "change_norm": 0.0019525297684594989,
+      "changed_elements": 256,
+      "elements": 256
+    },
+    {
+      "parameter": "blocks.0.frequency.weight_ih_l0",
+      "initial_norm": 18.47443199157715,
+      "trained_norm": 18.474458694458008,
+      "change_norm": 0.06661887466907501,
+      "changed_elements": 262142,
+      "elements": 262144
+    },
+    {
+      "parameter": "blocks.0.frequency.weight_hh_l0",
+      "initial_norm": 18.456880569458008,
+      "trained_norm": 18.4569034576416,
+      "change_norm": 0.051498476415872574,
+      "changed_elements": 262139,
+      "elements": 262144
+    },
+    {
+      "parameter": "blocks.0.frequency.bias_ih_l0",
+      "initial_norm": 1.1295170783996582,
+      "trained_norm": 1.1295859813690186,
+      "change_norm": 0.0037568288389593363,
+      "changed_elements": 1024,
+      "elements": 1024
+    },
+    {
+      "parameter": "blocks.0.frequency.bias_hh_l0",
+      "initial_norm": 1.155888557434082,
+      "trained_norm": 1.155893325805664,
+      "change_norm": 0.0037568199913948774,
+      "changed_elements": 1024,
+      "elements": 1024
+    },
+    {
+      "parameter": "blocks.0.frequency.weight_ih_l0_reverse",
+      "initial_norm": 18.482139587402344,
+      "trained_norm": 18.482295989990234,
+      "change_norm": 0.06375552713871002,
+      "changed_elements": 262142,
+      "elements": 262144
+    },
+    {
+      "parameter": "blocks.0.frequency.weight_hh_l0_reverse",
+      "initial_norm": 18.466276168823242,
+      "trained_norm": 18.466333389282227,
+      "change_norm": 0.04721058905124664,
+      "changed_elements": 262138,
+      "elements": 262144
+    },
+    {
+      "parameter": "blocks.0.frequency.bias_ih_l0_reverse",
+      "initial_norm": 1.1443625688552856,
+      "trained_norm": 1.1442201137542725,
+      "change_norm": 0.0037508986424654722,
+      "changed_elements": 1024,
+      "elements": 1024
+    },
+    {
+      "parameter": "blocks.0.frequency.bias_hh_l0_reverse",
+      "initial_norm": 1.1561660766601562,
+      "trained_norm": 1.1561788320541382,
+      "change_norm": 0.0037509030662477016,
+      "changed_elements": 1024,
+      "elements": 1024
+    },
+    {
+      "parameter": "blocks.0.frequency_output.weight",
+      "initial_norm": 9.234950065612793,
+      "trained_norm": 9.235003471374512,
+      "change_norm": 0.04889073967933655,
+      "changed_elements": 131072,
+      "elements": 131072
+    },
+    {
+      "parameter": "blocks.0.frequency_output.bias",
+      "initial_norm": 0.4036904573440552,
+      "trained_norm": 0.4036903381347656,
+      "change_norm": 0.0016986723057925701,
+      "changed_elements": 256,
+      "elements": 256
+    },
+    {
+      "parameter": "blocks.0.time_norm.weight",
+      "initial_norm": 16.0,
+      "trained_norm": 16.00008773803711,
+      "change_norm": 0.0020953533239662647,
+      "changed_elements": 256,
+      "elements": 256
+    },
+    {
+      "parameter": "blocks.0.time_norm.bias",
+      "initial_norm": 0.0,
+      "trained_norm": 0.001740387873724103,
+      "change_norm": 0.001740387873724103,
+      "changed_elements": 256,
+      "elements": 256
+    },
+    {
+      "parameter": "blocks.0.time.weight_ih_l0",
+      "initial_norm": 18.494203567504883,
+      "trained_norm": 18.49424171447754,
+      "change_norm": 0.06116683408617973,
+      "changed_elements": 262143,
+      "elements": 262144
+    },
+    {
+      "parameter": "blocks.0.time.weight_hh_l0",
+      "initial_norm": 18.479522705078125,
+      "trained_norm": 18.479591369628906,
+      "change_norm": 0.04471597075462341,
+      "changed_elements": 262141,
+      "elements": 262144
+    },
+    {
+      "parameter": "blocks.0.time.bias_ih_l0",
+      "initial_norm": 1.150155782699585,
+      "trained_norm": 1.1503554582595825,
+      "change_norm": 0.0035073603503406048,
+      "changed_elements": 1024,
+      "elements": 1024
+    },
+    {
+      "parameter": "blocks.0.time.bias_hh_l0",
+      "initial_norm": 1.1254955530166626,
+      "trained_norm": 1.1254373788833618,
+      "change_norm": 0.0035073680337518454,
+      "changed_elements": 1024,
+      "elements": 1024
+    },
+    {
+      "parameter": "blocks.0.time.weight_ih_l0_reverse",
+      "initial_norm": 18.507326126098633,
+      "trained_norm": 18.50757598876953,
+      "change_norm": 0.06043499335646629,
+      "changed_elements": 262142,
+      "elements": 262144
+    },
+    {
+      "parameter": "blocks.0.time.weight_hh_l0_reverse",
+      "initial_norm": 18.50919532775879,
+      "trained_norm": 18.509143829345703,
+      "change_norm": 0.04406145215034485,
+      "changed_elements": 262141,
+      "elements": 262144
+    },
+    {
+      "parameter": "blocks.0.time.bias_ih_l0_reverse",
+      "initial_norm": 1.1756014823913574,
+      "trained_norm": 1.1756618022918701,
+      "change_norm": 0.003483049338683486,
+      "changed_elements": 1024,
+      "elements": 1024
+    },
+    {
+      "parameter": "blocks.0.time.bias_hh_l0_reverse",
+      "initial_norm": 1.1403603553771973,
+      "trained_norm": 1.1403928995132446,
+      "change_norm": 0.003483041189610958,
+      "changed_elements": 1024,
+      "elements": 1024
+    },
+    {
+      "parameter": "blocks.0.time_output.weight",
+      "initial_norm": 9.23650074005127,
+      "trained_norm": 9.236618995666504,
+      "change_norm": 0.04623618721961975,
+      "changed_elements": 131072,
+      "elements": 131072
+    },
+    {
+      "parameter": "blocks.0.time_output.bias",
+      "initial_norm": 0.4061090350151062,
+      "trained_norm": 0.40606772899627686,
+      "change_norm": 0.0014329231344163418,
+      "changed_elements": 256,
+      "elements": 256
+    },
+    {
+      "parameter": "blocks.1.frequency_norm.weight",
+      "initial_norm": 16.0,
+      "trained_norm": 16.000253677368164,
+      "change_norm": 0.0018497636774554849,
+      "changed_elements": 256,
+      "elements": 256
+    },
+    {
+      "parameter": "blocks.1.frequency_norm.bias",
+      "initial_norm": 0.0,
+      "trained_norm": 0.0014683607732877135,
+      "change_norm": 0.0014683607732877135,
+      "changed_elements": 256,
+      "elements": 256
+    },
+    {
+      "parameter": "blocks.1.frequency.weight_ih_l0",
+      "initial_norm": 18.459285736083984,
+      "trained_norm": 18.459562301635742,
+      "change_norm": 0.05871443450450897,
+      "changed_elements": 262143,
+      "elements": 262144
+    },
+    {
+      "parameter": "blocks.1.frequency.weight_hh_l0",
+      "initial_norm": 18.43756675720215,
+      "trained_norm": 18.437538146972656,
+      "change_norm": 0.04093192145228386,
+      "changed_elements": 262142,
+      "elements": 262144
+    },
+    {
+      "parameter": "blocks.1.frequency.bias_ih_l0",
+      "initial_norm": 1.1408051252365112,
+      "trained_norm": 1.1408523321151733,
+      "change_norm": 0.003298448631539941,
+      "changed_elements": 1024,
+      "elements": 1024
+    },
+    {
+      "parameter": "blocks.1.frequency.bias_hh_l0",
+      "initial_norm": 1.1581376791000366,
+      "trained_norm": 1.15812349319458,
+      "change_norm": 0.003298444440588355,
+      "changed_elements": 1024,
+      "elements": 1024
+    },
+    {
+      "parameter": "blocks.1.frequency.weight_ih_l0_reverse",
+      "initial_norm": 18.495113372802734,
+      "trained_norm": 18.49524688720703,
+      "change_norm": 0.05612412467598915,
+      "changed_elements": 262142,
+      "elements": 262144
+    },
+    {
+      "parameter": "blocks.1.frequency.weight_hh_l0_reverse",
+      "initial_norm": 18.490556716918945,
+      "trained_norm": 18.490571975708008,
+      "change_norm": 0.03702195733785629,
+      "changed_elements": 262138,
+      "elements": 262144
+    },
+    {
+      "parameter": "blocks.1.frequency.bias_ih_l0_reverse",
+      "initial_norm": 1.1177055835723877,
+      "trained_norm": 1.1176815032958984,
+      "change_norm": 0.00319161219522357,
+      "changed_elements": 1024,
+      "elements": 1024
+    },
+    {
+      "parameter": "blocks.1.frequency.bias_hh_l0_reverse",
+      "initial_norm": 1.1461988687515259,
+      "trained_norm": 1.146127462387085,
+      "change_norm": 0.0031916063744574785,
+      "changed_elements": 1024,
+      "elements": 1024
+    },
+    {
+      "parameter": "blocks.1.frequency_output.weight",
+      "initial_norm": 9.244091033935547,
+      "trained_norm": 9.24447250366211,
+      "change_norm": 0.04310305044054985,
+      "changed_elements": 131071,
+      "elements": 131072
+    },
+    {
+      "parameter": "blocks.1.frequency_output.bias",
+      "initial_norm": 0.4160613417625427,
+      "trained_norm": 0.4160630404949188,
+      "change_norm": 0.0013625029241666198,
+      "changed_elements": 256,
+      "elements": 256
+    },
+    {
+      "parameter": "blocks.1.time_norm.weight",
+      "initial_norm": 16.0,
+      "trained_norm": 16.000253677368164,
+      "change_norm": 0.0019474325235933065,
+      "changed_elements": 255,
+      "elements": 256
+    },
+    {
+      "parameter": "blocks.1.time_norm.bias",
+      "initial_norm": 0.0,
+      "trained_norm": 0.0014628763310611248,
+      "change_norm": 0.0014628763310611248,
+      "changed_elements": 256,
+      "elements": 256
+    },
+    {
+      "parameter": "blocks.1.time.weight_ih_l0",
+      "initial_norm": 18.485685348510742,
+      "trained_norm": 18.485891342163086,
+      "change_norm": 0.056344546377658844,
+      "changed_elements": 262139,
+      "elements": 262144
+    },
+    {
+      "parameter": "blocks.1.time.weight_hh_l0",
+      "initial_norm": 18.486162185668945,
+      "trained_norm": 18.486370086669922,
+      "change_norm": 0.037947189062833786,
+      "changed_elements": 262138,
+      "elements": 262144
+    },
+    {
+      "parameter": "blocks.1.time.bias_ih_l0",
+      "initial_norm": 1.1927133798599243,
+      "trained_norm": 1.1926957368850708,
+      "change_norm": 0.003078904002904892,
+      "changed_elements": 1024,
+      "elements": 1024
+    },
+    {
+      "parameter": "blocks.1.time.bias_hh_l0",
+      "initial_norm": 1.1366856098175049,
+      "trained_norm": 1.1366634368896484,
+      "change_norm": 0.0030789023730903864,
+      "changed_elements": 1024,
+      "elements": 1024
+    },
+    {
+      "parameter": "blocks.1.time.weight_ih_l0_reverse",
+      "initial_norm": 18.506223678588867,
+      "trained_norm": 18.506433486938477,
+      "change_norm": 0.055182818323373795,
+      "changed_elements": 262143,
+      "elements": 262144
+    },
+    {
+      "parameter": "blocks.1.time.weight_hh_l0_reverse",
+      "initial_norm": 18.461164474487305,
+      "trained_norm": 18.461332321166992,
+      "change_norm": 0.03656451404094696,
+      "changed_elements": 262140,
+      "elements": 262144
+    },
+    {
+      "parameter": "blocks.1.time.bias_ih_l0_reverse",
+      "initial_norm": 1.1507947444915771,
+      "trained_norm": 1.150678277015686,
+      "change_norm": 0.0031559625640511513,
+      "changed_elements": 1024,
+      "elements": 1024
+    },
+    {
+      "parameter": "blocks.1.time.bias_hh_l0_reverse",
+      "initial_norm": 1.1720645427703857,
+      "trained_norm": 1.1720019578933716,
+      "change_norm": 0.0031559623312205076,
+      "changed_elements": 1024,
+      "elements": 1024
+    },
+    {
+      "parameter": "blocks.1.time_output.weight",
+      "initial_norm": 9.250892639160156,
+      "trained_norm": 9.251290321350098,
+      "change_norm": 0.044227082282304764,
+      "changed_elements": 131070,
+      "elements": 131072
+    },
+    {
+      "parameter": "blocks.1.time_output.bias",
+      "initial_norm": 0.4124373197555542,
+      "trained_norm": 0.41221609711647034,
+      "change_norm": 0.0011872221948578954,
+      "changed_elements": 256,
+      "elements": 256
+    },
+    {
+      "parameter": "output.weight",
+      "initial_norm": 0.0,
+      "trained_norm": 0.0487828403711319,
+      "change_norm": 0.0487828403711319,
+      "changed_elements": 262144,
+      "elements": 262144
+    },
+    {
+      "parameter": "output.bias",
+      "initial_norm": 0.0,
+      "trained_norm": 0.00186521140858531,
+      "change_norm": 0.00186521140858531,
+      "changed_elements": 1024,
+      "elements": 1024
+    }
+  ],
+  "seconds": 88.77592015266418,
+  "updates": 0,
+  "heldout_read": false,
+  "inference_intervention_only": true,
+  "limitation": "Six TRAIN cases; bypass is not an independently retrained ablation; count head has no direct dependency on the added local adapter"
+}

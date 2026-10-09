@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "protocol_sha256": "707735ef414f2521dea1ce9cff6c143d2ec2ebfab03dd8cd5034dee4e724f09a",
+  "complete_sha256": "b4c14dde597ede7b5fddb5cc44046f439ee54b6ff729ed32771ba5a56ef19019",
+  "auditor_sha256": "fba7d5ee42d076ceee2e96654abfae3839aeb4a33571d94c177a928eca95ae3a",
+  "criterion_met": false,
+  "selected_epoch": 0,
+  "all_630_rows_reaggregated": true,
+  "optimizer_75_steps_and_moments_checked": true,
+  "actual_selected_tensors_checked": true,
+  "source_hashes_checked": true,
+  "ordinary_sample_mean_direction_checked": true,
+  "full_parameters": 37406475,
+  "gradient_tensors_independently_recomputed": false,
+  "heldout_read": false,
+  "gpu_use": false,
+  "recorded_iq_reads": 0,
+  "hashes": {
+    "ACTUAL_001.pt": "b8992f55b525386f1e678f1e6929d0f08a416c22d035b9527b1e34483d5777f6",
+    "LAST.pt": "44f3e77a3a5aa1b3b9cb777f6d6f0a8fb82ad3121189547058c4d95a0ec41fc2",
+    "BEST.pt": "cf45ffbaaf13d058573cce3426f748bda90658bf62ac1ed9afa82004be701a5a",
+    "VALIDATION_001.json": "39da30e1572bd40963f877121d09b042bf4d28201c0dfbb3b67cfe2d038aed30",
+    "GRADIENT_UPDATES.json": "1c5f2f75c7a5f5ef99dc5ed9dbe173a89c55aaf13a8471d73525a4aa3d568507"
+  }
+}
