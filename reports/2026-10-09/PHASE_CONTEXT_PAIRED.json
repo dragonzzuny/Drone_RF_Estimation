@@ -1,6 +1,6 @@
 {
   "status": "COMPLETE_SNAPSHOT",
-  "common_completed_epoch": 4,
+  "common_completed_epoch": 5,
   "rows": [
     {
       "epoch": 1,
@@ -129,6 +129,38 @@
       "mixture_mean_both_better": 79,
       "weakest_both_better": 85,
       "every_source_both_better": 18
+    },
+    {
+      "epoch": 5,
+      "count": 2,
+      "cases": 210,
+      "validation_sha256": {
+        "local": "b1b9a35f9a0364f7150994ed94d36cd219c61eface10d48a1eaefa4bcadf0a5e",
+        "long": "40055bb4efd903f351452c049cf50265aa5065666d7195930446640a6c0d411b"
+      },
+      "mean_nmse_delta": 1.3607376447473691,
+      "median_nmse_delta": 0.0017852067600416244,
+      "mean_si_delta": 0.3136811702581681,
+      "median_si_delta": -0.11285716563793446,
+      "mixture_mean_both_better": 43,
+      "weakest_both_better": 51,
+      "every_source_both_better": 16
+    },
+    {
+      "epoch": 5,
+      "count": 3,
+      "cases": 210,
+      "validation_sha256": {
+        "local": "b1b9a35f9a0364f7150994ed94d36cd219c61eface10d48a1eaefa4bcadf0a5e",
+        "long": "40055bb4efd903f351452c049cf50265aa5065666d7195930446640a6c0d411b"
+      },
+      "mean_nmse_delta": 0.006213706737639836,
+      "median_nmse_delta": 0.002618037352282665,
+      "mean_si_delta": -0.05814547349533819,
+      "median_si_delta": -0.10254416281793644,
+      "mixture_mean_both_better": 37,
+      "weakest_both_better": 50,
+      "every_source_both_better": 7
     }
   ],
   "source_sha256": "dd97becb6945268eb434c972acc5f23e227888e87d0b02965e07ac2338b0ea56",

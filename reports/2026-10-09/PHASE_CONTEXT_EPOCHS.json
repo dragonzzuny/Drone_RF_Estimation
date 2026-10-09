@@ -1,0 +1,36 @@
+{
+  "status": "COMPLETE",
+  "source_sha256": "bec62c7bc9f3de3c5464325235272c824556f20951a50015eca4d937803773f9",
+  "protocol_sha256": "b5ed9e0f39e8cc9c03da2bcfa25c8caaf930a5c5662d7a7ec4c8e656f39ff60c",
+  "validation_sha256": {
+    "local/VALIDATION_000.json": "4c7d21e2193bf474e520c81c25b4763077c30f0d6de5a5ac77c18c18204911d9",
+    "local/VALIDATION_001.json": "ed54712c19b036e57907874f19ff36720fc2d481565a2e9e11b88554c42c72cd",
+    "local/VALIDATION_002.json": "528cfbd17ffc16f4e8c3881652c90d4729ff2174c08b2d7289433cf0ecc0f60d",
+    "local/VALIDATION_003.json": "3273ea5b975e76619dc82cd473567a81a938b4f12fa3d3c910ed997925abb4d9",
+    "local/VALIDATION_004.json": "c718403a6e6c3d52f73d112f7e9789cc61efc7e32b8316e6da2eabe1670b52d3",
+    "local/VALIDATION_005.json": "b1b9a35f9a0364f7150994ed94d36cd219c61eface10d48a1eaefa4bcadf0a5e",
+    "long/VALIDATION_000.json": "0454d03d7ecc8e439f8f17f23c768f2671c387562346b3bfe4423b752681e476",
+    "long/VALIDATION_001.json": "1d45a792d11ee2f59162c9387617a375fe34170eade284779738368750943a27",
+    "long/VALIDATION_002.json": "439b7035ec0f797d1e158af66e2cd453dc8616c7865b117255534adc68024aff",
+    "long/VALIDATION_003.json": "eb7328c39cd2c7cb69f3d3695af498de6fe4a0c9aaca78061284dbb8ef1b8ec3",
+    "long/VALIDATION_004.json": "eddc1bc8b5f5ffb7ac7a9cf48e98e0dfc62538f655a85886f1e5a0c337b5b4b9",
+    "long/VALIDATION_005.json": "40055bb4efd903f351452c049cf50265aa5065666d7195930446640a6c0d411b"
+  },
+  "plotted_metric_rows": 24,
+  "epochs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "waveform_reads": 0,
+  "heldout_read": false,
+  "independent_test": false,
+  "files": {
+    "pdf": "366cfe8d6a9992406189dde9cf16a1da2918204c931467fcb8369e14b349ce37",
+    "png": "4c7295739205a3e4d7e65021ef09554d90c60ab2a30de2400906b0874fd8eb52",
+    "csv": "fc30d94a96d036b4e00dfd72bf5b68aec55436390c360115bc79f85616514be2"
+  }
+}

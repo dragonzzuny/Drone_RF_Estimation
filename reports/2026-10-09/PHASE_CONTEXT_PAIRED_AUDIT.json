@@ -1,8 +1,9 @@
 {
   "status": "PASS",
-  "report_sha256": "1699acbd492d4982eb7669ebefeec08e05be5e4d6544e2bbb7cc64606e14769a",
-  "common_epochs": 4,
-  "validated_rows": 8,
+  "report_sha256": "051500b0aa5917b70c8e09d1e00c204167db38beee5712946008cbb0e0145346",
+  "auditor_sha256": "24b7ef0cf0814f7d6580fd485e04dbd7eae2e9c55ad152a886f00d97f52e6d35",
+  "common_epochs": 5,
+  "validated_rows": 10,
   "independent_source_delta_aggregation": true,
   "all_three_success_counts_match": true,
   "waveform_reads": 0,
