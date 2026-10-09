@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "source_sha256": {
+    "experiments/magnitude_loss_20261010/check_selective.py": "bfa622e93d25310bb818197ed12a0faea294e7a5b8a028b70f1073ac638ae843",
+    "experiments/magnitude_loss_20261010/selective.py": "1c745f5383a0ff56ee8d0890e6c22fce42b32685bc2ce7d6dd7f4bf179fadc79"
+  },
+  "single_source_exact_original_loss_and_gradients": true,
+  "two_three_exact_all_count_magnitude_loss_and_gradients": true,
+  "heterogeneous_microbatch_averaging_checked": true,
+  "parameters_changed": 0,
+  "model_updates": 0,
+  "device": "cpu",
+  "recorded_iq_reads": 0,
+  "heldout_read": false,
+  "full_model_check_reused": "MAGNITUDE_CPU_CHECK.json; no architecture or inference change"
+}

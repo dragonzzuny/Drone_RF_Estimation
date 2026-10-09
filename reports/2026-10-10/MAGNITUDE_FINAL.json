@@ -1,0 +1,686 @@
+{
+  "status": "PASS",
+  "protocol_sha256": "71e6699dfcead87a23d3e12b5ede67ce7c824542b80ae304c21f0ce20c5eb01e",
+  "audit": {
+    "status": "PASS",
+    "spectral_rows_reaggregated": true,
+    "spectral_error_identity_checked": true,
+    "study_protocol_sha256": "71e6699dfcead87a23d3e12b5ede67ce7c824542b80ae304c21f0ce20c5eb01e",
+    "complete_sha256": "de1138cf549f8d70fece7afc72177071a7d1aa93aa44f2684ea5e3ebce082ec4",
+    "auditor_sha256": "9f3c55cd6a7224f0fff57cfbb317739684017e6bb57d9f11d4ef40880975006b",
+    "criterion_met": false,
+    "selected_epoch": 0,
+    "all_630_rows_reaggregated": true,
+    "source_and_data_hashes_checked": true,
+    "actual_selected_tensors_checked": true,
+    "optimizer_75_steps_lr_and_moments_checked": true,
+    "hashes": {
+      "ACTUAL_001.pt": "0fe40b752e7bf49961d9f4621df0a791777868be02e990f12dac3e8cf6a0748c",
+      "LAST.pt": "8f91be2cc8e9a49860584d19f5e10182b89ba28c1c1c113e31343d8a479cc6f1",
+      "BEST.pt": "d257fe215d9603b2b358da47ca0075d1d2e6e8b4ae5b4e1a24c478741dccec68",
+      "VALIDATION_000.json": "a027032ffdad48afda0872b2ecc9459b673f8d0f70e9d2bdf38569207bb5fb82",
+      "VALIDATION_001.json": "1dfc222a2a106fff102675cf228755c550a6f45d07e55f8dc1bbb04ddfd7e461"
+    },
+    "model_updates": 0,
+    "recorded_iq_reads": 0,
+    "gpu_use": false,
+    "heldout_read": false
+  },
+  "actual": {
+    "epoch": 1,
+    "by_count": [
+      {
+        "count": 1,
+        "cases": 210,
+        "mean_nmse": 0.01835451206428133,
+        "mean_si_sdr": 24.12587453861193,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.01835451206428133,
+        "construction_count_accuracy": 0.7904761904761904
+      },
+      {
+        "count": 2,
+        "cases": 210,
+        "mean_nmse": 0.4965211242827915,
+        "mean_si_sdr": 3.293580907970632,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.8260261988768259,
+        "construction_count_accuracy": 0.3238095238095238
+      },
+      {
+        "count": 3,
+        "cases": 210,
+        "mean_nmse": 0.7022852661650312,
+        "mean_si_sdr": -3.5228596023057337,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.9534475437179795,
+        "construction_count_accuracy": 0.23333333333333334
+      }
+    ],
+    "selection_nmse": 0.5994031952239114
+  },
+  "selected": {
+    "epoch": 0,
+    "by_count": [
+      {
+        "count": 1,
+        "cases": 210,
+        "mean_nmse": 0.027593617315139082,
+        "mean_si_sdr": 21.33658722131418,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.027593617315139082,
+        "construction_count_accuracy": 0.7571428571428571
+      },
+      {
+        "count": 2,
+        "cases": 210,
+        "mean_nmse": 0.46689559431987576,
+        "mean_si_sdr": 3.777362785523427,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.7785797101018634,
+        "construction_count_accuracy": 0.2761904761904762
+      },
+      {
+        "count": 3,
+        "cases": 210,
+        "mean_nmse": 0.6902533153143511,
+        "mean_si_sdr": -3.1087800503642207,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.9513193850439157,
+        "construction_count_accuracy": 0.3238095238095238
+      }
+    ],
+    "selection_nmse": 0.5785744548171134
+  },
+  "criterion_met": false,
+  "adopted": false,
+  "spectral_by_arm": [
+    {
+      "arm": "magnitude_e1",
+      "checkpoint_sha256": "0fe40b752e7bf49961d9f4621df0a791777868be02e990f12dac3e8cf6a0748c",
+      "validation_sha256": "1dfc222a2a106fff102675cf228755c550a6f45d07e55f8dc1bbb04ddfd7e461",
+      "by_count": [
+        {
+          "count": 1,
+          "cases": 210,
+          "mean_relative_l1": 0.10469702378684635,
+          "weakest_relative_l1": 0.10469702378684635,
+          "mean_magnitude_nmse": 0.01816219574015752,
+          "weakest_magnitude_nmse": 0.01816219574015752,
+          "mean_phase_interaction": 0.00020570039764725823,
+          "weakest_phase_interaction": 0.00020570039764725823,
+          "mean_spectral_complex_nmse": 0.01836789613780478,
+          "weakest_spectral_complex_nmse": 0.01836789613780478,
+          "mean_spectral_rms_ratio": 0.9474398809115496,
+          "weakest_spectral_rms_ratio": 0.9474398809115496
+        },
+        {
+          "count": 2,
+          "cases": 210,
+          "mean_relative_l1": 0.5558924512389053,
+          "weakest_relative_l1": 0.8181585871372931,
+          "mean_magnitude_nmse": 0.4052902270134824,
+          "weakest_magnitude_nmse": 0.6918305693271225,
+          "mean_phase_interaction": 0.09172780349336997,
+          "weakest_phase_interaction": 0.13507700717444032,
+          "mean_spectral_complex_nmse": 0.4970180305068524,
+          "weakest_spectral_complex_nmse": 0.8269075765015628,
+          "mean_spectral_rms_ratio": 0.672133041599495,
+          "weakest_spectral_rms_ratio": 0.3926016352399022
+        },
+        {
+          "count": 3,
+          "cases": 210,
+          "mean_relative_l1": 0.7234495722598978,
+          "weakest_relative_l1": 0.8912692785213504,
+          "mean_magnitude_nmse": 0.5803967764019295,
+          "weakest_magnitude_nmse": 0.8438001759828848,
+          "mean_phase_interaction": 0.12194061021641135,
+          "weakest_phase_interaction": 0.10960475000608527,
+          "mean_spectral_complex_nmse": 0.7023373866183409,
+          "weakest_spectral_complex_nmse": 0.9534049259889701,
+          "mean_spectral_rms_ratio": 0.5316470896522913,
+          "weakest_spectral_rms_ratio": 0.16674575459823077
+        }
+      ],
+      "seconds": 47.18144726753235
+    },
+    {
+      "arm": "parent",
+      "checkpoint_sha256": "19888f8823fbb6ade6333d40bd849dec3202e522ded016e7265eaced6b52aa49",
+      "validation_sha256": "a027032ffdad48afda0872b2ecc9459b673f8d0f70e9d2bdf38569207bb5fb82",
+      "by_count": [
+        {
+          "count": 1,
+          "cases": 210,
+          "mean_relative_l1": 0.14977998448048235,
+          "weakest_relative_l1": 0.14977998448048235,
+          "mean_magnitude_nmse": 0.027364899491068892,
+          "weakest_magnitude_nmse": 0.027364899491068892,
+          "mean_phase_interaction": 0.00020992354672563966,
+          "weakest_phase_interaction": 0.00020992354672563966,
+          "mean_spectral_complex_nmse": 0.02757482303779453,
+          "weakest_spectral_complex_nmse": 0.02757482303779453,
+          "mean_spectral_rms_ratio": 0.9232877452242602,
+          "weakest_spectral_rms_ratio": 0.9232877452242602
+        },
+        {
+          "count": 2,
+          "cases": 210,
+          "mean_relative_l1": 0.5363211076073301,
+          "weakest_relative_l1": 0.7824794356949035,
+          "mean_magnitude_nmse": 0.3660081922466312,
+          "weakest_magnitude_nmse": 0.6230851436364441,
+          "mean_phase_interaction": 0.10140182061212019,
+          "weakest_phase_interaction": 0.15640664215118907,
+          "mean_spectral_complex_nmse": 0.46741001285875144,
+          "weakest_spectral_complex_nmse": 0.7794917857876332,
+          "mean_spectral_rms_ratio": 0.6912581813926665,
+          "weakest_spectral_rms_ratio": 0.447153521450158
+        },
+        {
+          "count": 3,
+          "cases": 210,
+          "mean_relative_l1": 0.7134036275469667,
+          "weakest_relative_l1": 0.8875946499747175,
+          "mean_magnitude_nmse": 0.5617284512667451,
+          "weakest_magnitude_nmse": 0.8366340676999902,
+          "mean_phase_interaction": 0.12855442929276625,
+          "weakest_phase_interaction": 0.11466765247304803,
+          "mean_spectral_complex_nmse": 0.6902828805595114,
+          "weakest_spectral_complex_nmse": 0.9513017201730382,
+          "mean_spectral_rms_ratio": 0.5386746976779015,
+          "weakest_spectral_rms_ratio": 0.1772421308647391
+        }
+      ],
+      "seconds": 47.59988760948181
+    },
+    {
+      "arm": "retained_control_e1",
+      "checkpoint_sha256": "e99e9b149978978bae1c018fa99f6c68d2260e52b4f931fc0213af074732ca96",
+      "validation_sha256": "232b3fca26554ec92ef3794dc77cf904853f0c7a3b090dd31af571172371b84e",
+      "by_count": [
+        {
+          "count": 1,
+          "cases": 210,
+          "mean_relative_l1": 0.11150939384477758,
+          "weakest_relative_l1": 0.11150939384477758,
+          "mean_magnitude_nmse": 0.019145192175691016,
+          "weakest_magnitude_nmse": 0.019145192175691016,
+          "mean_phase_interaction": 0.00020385890025071345,
+          "weakest_phase_interaction": 0.00020385890025071345,
+          "mean_spectral_complex_nmse": 0.019349051075941728,
+          "weakest_spectral_complex_nmse": 0.019349051075941728,
+          "mean_spectral_rms_ratio": 0.9421625728681241,
+          "weakest_spectral_rms_ratio": 0.9421625728681241
+        },
+        {
+          "count": 2,
+          "cases": 210,
+          "mean_relative_l1": 0.5493937493586581,
+          "weakest_relative_l1": 0.8066327754255572,
+          "mean_magnitude_nmse": 0.3951804443964474,
+          "weakest_magnitude_nmse": 0.6737247896068866,
+          "mean_phase_interaction": 0.09421626227547586,
+          "weakest_phase_interaction": 0.14061455619077814,
+          "mean_spectral_complex_nmse": 0.48939670667192325,
+          "weakest_spectral_complex_nmse": 0.8143393457976649,
+          "mean_spectral_rms_ratio": 0.6773630681666911,
+          "weakest_spectral_rms_ratio": 0.4089255014792199
+        },
+        {
+          "count": 3,
+          "cases": 210,
+          "mean_relative_l1": 0.7213648306153335,
+          "weakest_relative_l1": 0.8919903872848236,
+          "mean_magnitude_nmse": 0.5771805078504441,
+          "weakest_magnitude_nmse": 0.8437628960250837,
+          "mean_phase_interaction": 0.12252638555216634,
+          "weakest_phase_interaction": 0.10893930630045122,
+          "mean_spectral_complex_nmse": 0.6997068934026104,
+          "weakest_spectral_complex_nmse": 0.9527022023255349,
+          "mean_spectral_rms_ratio": 0.5313125512107001,
+          "weakest_spectral_rms_ratio": 0.16781923599805626
+        }
+      ],
+      "seconds": 47.380130767822266
+    }
+  ],
+  "category_and_actual_local_sir": [
+    {
+      "arm": "magnitude_e1",
+      "count": 2,
+      "stratifier": "category",
+      "label": "DJI AVATA2",
+      "components": 108,
+      "mean_nmse": 0.41693124921171987,
+      "mean_si_sdr": 4.477761283278928
+    },
+    {
+      "arm": "magnitude_e1",
+      "count": 2,
+      "stratifier": "category",
+      "label": "DJI FPV COMBO",
+      "components": 105,
+      "mean_nmse": 0.4532402090080998,
+      "mean_si_sdr": 3.412256467243079
+    },
+    {
+      "arm": "magnitude_e1",
+      "count": 2,
+      "stratifier": "category",
+      "label": "DJI MAVIC3 PRO",
+      "components": 105,
+      "mean_nmse": 0.5288377172053391,
+      "mean_si_sdr": 0.10937110884344368
+    },
+    {
+      "arm": "magnitude_e1",
+      "count": 2,
+      "stratifier": "category",
+      "label": "DJI MINI3",
+      "components": 51,
+      "mean_nmse": 0.6438858055428195,
+      "mean_si_sdr": 5.25806977692797
+    },
+    {
+      "arm": "magnitude_e1",
+      "count": 2,
+      "stratifier": "category",
+      "label": "DJI MINI4 PRO",
+      "components": 51,
+      "mean_nmse": 0.5402733127218002,
+      "mean_si_sdr": 5.132809973355485
+    },
+    {
+      "arm": "magnitude_e1",
+      "count": 2,
+      "stratifier": "local_sir_db",
+      "label": "<-20",
+      "components": 39,
+      "mean_nmse": 1.2206672120620687,
+      "mean_si_sdr": -15.190596862891395
+    },
+    {
+      "arm": "magnitude_e1",
+      "count": 2,
+      "stratifier": "local_sir_db",
+      "label": ">=0",
+      "components": 210,
+      "mean_nmse": 0.16701604968875705,
+      "mean_si_sdr": 12.199824534470883
+    },
+    {
+      "arm": "magnitude_e1",
+      "count": 2,
+      "stratifier": "local_sir_db",
+      "label": "[-10,0)",
+      "components": 108,
+      "mean_nmse": 0.7059269619046697,
+      "mean_si_sdr": -1.5573444506256189
+    },
+    {
+      "arm": "magnitude_e1",
+      "count": 2,
+      "stratifier": "local_sir_db",
+      "label": "[-20,-10)",
+      "components": 63,
+      "mean_nmse": 0.7876090255239435,
+      "mean_si_sdr": -6.635439564617284
+    },
+    {
+      "arm": "magnitude_e1",
+      "count": 3,
+      "stratifier": "category",
+      "label": "DJI AVATA2",
+      "components": 210,
+      "mean_nmse": 0.6080279136898531,
+      "mean_si_sdr": -0.39083410709490785
+    },
+    {
+      "arm": "magnitude_e1",
+      "count": 3,
+      "stratifier": "category",
+      "label": "DJI FPV COMBO",
+      "components": 210,
+      "mean_nmse": 0.6766457127866443,
+      "mean_si_sdr": -3.1672101524023013
+    },
+    {
+      "arm": "magnitude_e1",
+      "count": 3,
+      "stratifier": "category",
+      "label": "DJI MAVIC3 PRO",
+      "components": 210,
+      "mean_nmse": 0.822182172018596,
+      "mean_si_sdr": -7.010534547419992
+    },
+    {
+      "arm": "magnitude_e1",
+      "count": 3,
+      "stratifier": "local_sir_db",
+      "label": "<-20",
+      "components": 43,
+      "mean_nmse": 1.131812534820457,
+      "mean_si_sdr": -20.265124736147854
+    },
+    {
+      "arm": "magnitude_e1",
+      "count": 3,
+      "stratifier": "local_sir_db",
+      "label": ">=0",
+      "components": 187,
+      "mean_nmse": 0.2656110906331154,
+      "mean_si_sdr": 6.800728432897187
+    },
+    {
+      "arm": "magnitude_e1",
+      "count": 3,
+      "stratifier": "local_sir_db",
+      "label": "[-10,0)",
+      "components": 236,
+      "mean_nmse": 0.7893148114029883,
+      "mean_si_sdr": -4.508399182108992
+    },
+    {
+      "arm": "magnitude_e1",
+      "count": 3,
+      "stratifier": "local_sir_db",
+      "label": "[-20,-10)",
+      "components": 164,
+      "mean_nmse": 0.9623427393121473,
+      "mean_si_sdr": -9.486312169343332
+    },
+    {
+      "arm": "parent",
+      "count": 2,
+      "stratifier": "category",
+      "label": "DJI AVATA2",
+      "components": 108,
+      "mean_nmse": 0.39703297727212117,
+      "mean_si_sdr": 4.626394170595158
+    },
+    {
+      "arm": "parent",
+      "count": 2,
+      "stratifier": "category",
+      "label": "DJI FPV COMBO",
+      "components": 105,
+      "mean_nmse": 0.40846258792814105,
+      "mean_si_sdr": 4.0247416488881775
+    },
+    {
+      "arm": "parent",
+      "count": 2,
+      "stratifier": "category",
+      "label": "DJI MAVIC3 PRO",
+      "components": 105,
+      "mean_nmse": 0.5123239140645554,
+      "mean_si_sdr": 0.44347351416695663
+    },
+    {
+      "arm": "parent",
+      "count": 2,
+      "stratifier": "category",
+      "label": "DJI MINI3",
+      "components": 51,
+      "mean_nmse": 0.6165134131554724,
+      "mean_si_sdr": 5.635983205342166
+    },
+    {
+      "arm": "parent",
+      "count": 2,
+      "stratifier": "category",
+      "label": "DJI MINI4 PRO",
+      "components": 51,
+      "mean_nmse": 0.4919964958587551,
+      "mean_si_sdr": 6.475373802006327
+    },
+    {
+      "arm": "parent",
+      "count": 2,
+      "stratifier": "local_sir_db",
+      "label": "<-20",
+      "components": 39,
+      "mean_nmse": 1.1579333050095864,
+      "mean_si_sdr": -13.500192457719749
+    },
+    {
+      "arm": "parent",
+      "count": 2,
+      "stratifier": "local_sir_db",
+      "label": ">=0",
+      "components": 210,
+      "mean_nmse": 0.15521147853788805,
+      "mean_si_sdr": 12.375311868995684
+    },
+    {
+      "arm": "parent",
+      "count": 2,
+      "stratifier": "local_sir_db",
+      "label": "[-10,0)",
+      "components": 108,
+      "mean_nmse": 0.6511364888138833,
+      "mean_si_sdr": -0.7634886770786851
+    },
+    {
+      "arm": "parent",
+      "count": 2,
+      "stratifier": "local_sir_db",
+      "label": "[-20,-10)",
+      "components": 63,
+      "mean_nmse": 0.76221586403362,
+      "mean_si_sdr": -6.4025212633918445
+    },
+    {
+      "arm": "parent",
+      "count": 3,
+      "stratifier": "category",
+      "label": "DJI AVATA2",
+      "components": 210,
+      "mean_nmse": 0.5941684042085684,
+      "mean_si_sdr": -0.10759163471105805
+    },
+    {
+      "arm": "parent",
+      "count": 3,
+      "stratifier": "category",
+      "label": "DJI FPV COMBO",
+      "components": 210,
+      "mean_nmse": 0.6648898373628604,
+      "mean_si_sdr": -2.714228586954847
+    },
+    {
+      "arm": "parent",
+      "count": 3,
+      "stratifier": "category",
+      "label": "DJI MAVIC3 PRO",
+      "components": 210,
+      "mean_nmse": 0.8117017043716245,
+      "mean_si_sdr": -6.504519929426756
+    },
+    {
+      "arm": "parent",
+      "count": 3,
+      "stratifier": "local_sir_db",
+      "label": "<-20",
+      "components": 43,
+      "mean_nmse": 1.1335547596531619,
+      "mean_si_sdr": -20.22454755958082
+    },
+    {
+      "arm": "parent",
+      "count": 3,
+      "stratifier": "local_sir_db",
+      "label": ">=0",
+      "components": 187,
+      "mean_nmse": 0.247964320350828,
+      "mean_si_sdr": 7.002985325808359
+    },
+    {
+      "arm": "parent",
+      "count": 3,
+      "stratifier": "local_sir_db",
+      "label": "[-10,0)",
+      "components": 236,
+      "mean_nmse": 0.7632234448319589,
+      "mean_si_sdr": -3.5061113488911992
+    },
+    {
+      "arm": "parent",
+      "count": 3,
+      "stratifier": "local_sir_db",
+      "label": "[-20,-10)",
+      "components": 164,
+      "mean_nmse": 0.9733333725427323,
+      "mean_si_sdr": -9.579218684483681
+    },
+    {
+      "arm": "retained_control_e1",
+      "count": 2,
+      "stratifier": "category",
+      "label": "DJI AVATA2",
+      "components": 108,
+      "mean_nmse": 0.40880247579605744,
+      "mean_si_sdr": 4.499163248339853
+    },
+    {
+      "arm": "retained_control_e1",
+      "count": 2,
+      "stratifier": "category",
+      "label": "DJI FPV COMBO",
+      "components": 105,
+      "mean_nmse": 0.44526770704058793,
+      "mean_si_sdr": 3.5205677951086174
+    },
+    {
+      "arm": "retained_control_e1",
+      "count": 2,
+      "stratifier": "category",
+      "label": "DJI MAVIC3 PRO",
+      "components": 105,
+      "mean_nmse": 0.5255652270024709,
+      "mean_si_sdr": 0.1388679674445122
+    },
+    {
+      "arm": "retained_control_e1",
+      "count": 2,
+      "stratifier": "category",
+      "label": "DJI MINI3",
+      "components": 51,
+      "mean_nmse": 0.6312504824798814,
+      "mean_si_sdr": 5.3770611501303955
+    },
+    {
+      "arm": "retained_control_e1",
+      "count": 2,
+      "stratifier": "category",
+      "label": "DJI MINI4 PRO",
+      "components": 51,
+      "mean_nmse": 0.5305284074459201,
+      "mean_si_sdr": 5.2829519300331444
+    },
+    {
+      "arm": "retained_control_e1",
+      "count": 2,
+      "stratifier": "local_sir_db",
+      "label": "<-20",
+      "components": 39,
+      "mean_nmse": 1.2071016078753394,
+      "mean_si_sdr": -15.001400733534618
+    },
+    {
+      "arm": "retained_control_e1",
+      "count": 2,
+      "stratifier": "local_sir_db",
+      "label": ">=0",
+      "components": 210,
+      "mean_nmse": 0.16434207542740792,
+      "mean_si_sdr": 12.228320727757184
+    },
+    {
+      "arm": "retained_control_e1",
+      "count": 2,
+      "stratifier": "local_sir_db",
+      "label": "[-10,0)",
+      "components": 108,
+      "mean_nmse": 0.6917097072319541,
+      "mean_si_sdr": -1.5053081625780158
+    },
+    {
+      "arm": "retained_control_e1",
+      "count": 2,
+      "stratifier": "local_sir_db",
+      "label": "[-20,-10)",
+      "components": 63,
+      "mean_nmse": 0.7784984431550209,
+      "mean_si_sdr": -6.452514121993803
+    },
+    {
+      "arm": "retained_control_e1",
+      "count": 3,
+      "stratifier": "category",
+      "label": "DJI AVATA2",
+      "components": 210,
+      "mean_nmse": 0.6055483803405065,
+      "mean_si_sdr": -0.38158865086087124
+    },
+    {
+      "arm": "retained_control_e1",
+      "count": 3,
+      "stratifier": "category",
+      "label": "DJI FPV COMBO",
+      "components": 210,
+      "mean_nmse": 0.6723893941308595,
+      "mean_si_sdr": -3.1031168469710124
+    },
+    {
+      "arm": "retained_control_e1",
+      "count": 3,
+      "stratifier": "category",
+      "label": "DJI MAVIC3 PRO",
+      "components": 210,
+      "mean_nmse": 0.8210333635075086,
+      "mean_si_sdr": -7.069259358527113
+    },
+    {
+      "arm": "retained_control_e1",
+      "count": 3,
+      "stratifier": "local_sir_db",
+      "label": "<-20",
+      "components": 43,
+      "mean_nmse": 1.132695125349354,
+      "mean_si_sdr": -20.484528422097245
+    },
+    {
+      "arm": "retained_control_e1",
+      "count": 3,
+      "stratifier": "local_sir_db",
+      "label": ">=0",
+      "components": 187,
+      "mean_nmse": 0.2622961440869593,
+      "mean_si_sdr": 6.835303106958764
+    },
+    {
+      "arm": "retained_control_e1",
+      "count": 3,
+      "stratifier": "local_sir_db",
+      "label": "[-10,0)",
+      "components": 236,
+      "mean_nmse": 0.7843398098553417,
+      "mean_si_sdr": -4.430699475169354
+    },
+    {
+      "arm": "retained_control_e1",
+      "count": 3,
+      "stratifier": "local_sir_db",
+      "label": "[-20,-10)",
+      "components": 164,
+      "mean_nmse": 0.962954112898899,
+      "mean_si_sdr": -9.561307942356883
+    }
+  ],
+  "same_parent_e0_never_an_improvement": true,
+  "heldout_read": false,
+  "independent_test": false
+}
