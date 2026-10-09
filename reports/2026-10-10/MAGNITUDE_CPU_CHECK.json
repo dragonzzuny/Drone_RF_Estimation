@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "source_sha256": {
+    "experiments/magnitude_loss_20261010/check_objective.py": "e18a87972fc4878c96cf3783373289183898b9989329419e6d8de8848beb2446",
+    "experiments/magnitude_loss_20261010/objective.py": "61a33f84e66b7e14a0a9d25784efecf0c5a20782feac6fdbd0feb07bd1eff00b"
+  },
+  "identity_zero": true,
+  "half_amplitude_relative_l1": 0.5,
+  "half_amplitude_magnitude_nmse": 0.25,
+  "quarter_turn_magnitude_loss_zero": true,
+  "quarter_turn_spectral_complex_nmse": 2.0,
+  "inactive_sources_excluded": true,
+  "zero_weight_original_loss_and_gradients_exact": true,
+  "whole_window_permutation_invariant": true,
+  "spectral_error_decomposition_exact": true,
+  "common_gain_invariance": true,
+  "full_parameters": 32142859,
+  "full_samples": 63872,
+  "all_gradients_finite": true,
+  "recorded_iq_reads": 0,
+  "gpu_use": false,
+  "updates": 0,
+  "seconds": 20.15560793876648
+}

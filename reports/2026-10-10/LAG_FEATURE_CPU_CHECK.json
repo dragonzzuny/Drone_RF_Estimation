@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "source_sha256": {
+    "experiments/lag_features_20261010/check_lag.py": "e34b5fe2bd40f498e462dd89a36453c2b7d9b6a70f7109a00f15479ed2253bb0",
+    "experiments/lag_features_20261010/lag_input.py": "4463f4c136d2223438f1902a09a9f805bd3325ce949706b0203741fe02bea22d"
+  },
+  "lags_samples": [
+    3334,
+    6667,
+    14270
+  ],
+  "lags_us": [
+    33.34,
+    66.67,
+    142.7
+  ],
+  "complex_parameters": 32149771,
+  "power_control_parameters": 32146315,
+  "analytic_tone_phase_sign_checked": true,
+  "common_phase_invariant_features": true,
+  "zero_features_finite": true,
+  "unavailable_lag_and_reflect_edges_masked": true,
+  "exact_parent_predictions_at_zero_initialization": true,
+  "full_input_backward_finite": true,
+  "power_gradient_norm": 0.002395716030150652,
+  "phase_gradient_norm": 0.00043488500523380935,
+  "sum_relative_error": 9.529639887807546e-15,
+  "model_updates": 0,
+  "recorded_iq_reads": 0,
+  "gpu_use": false,
+  "seconds": 33.894142627716064,
+  "limitation": "Synthetic implementation checks only; no drone-separation performance demonstrated"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "source_sha256": {
+    "experiments/phase_canonical_20261010/check_canonical.py": "8c5bd8ad4e4eb2cfacd45edccd0d097ce3b9de93e3c357bfbe81d97a99df5b85",
+    "experiments/phase_canonical_20261010/canonical.py": "b79a187e88a648a11277dc6e75526f7fa6169db5bee8732c6acee70f78246b7c"
+  },
+  "parameters": 32142859,
+  "added_parameters": 0,
+  "analytic_non_equivariant_toy_rotations_checked": 5,
+  "finite_zero_and_extreme_anchors": true,
+  "full_63872_sample_forward_backward": true,
+  "full_model_rotation_relative_error": 3.226155711392835e-14,
+  "sum_relative_error": 1.3041123390867496e-14,
+  "all_parameter_gradients_finite": true,
+  "count_logits_rotation_invariant": true,
+  "device": "cpu",
+  "recorded_iq_reads": 0,
+  "parent_checkpoint_reads": 0,
+  "model_updates": 0,
+  "seconds": 33.216349363327026,
+  "limitation": "Synthetic correctness check; no RF improvement demonstrated"
+}

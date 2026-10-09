@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "study_protocol_sha256": "2e74e477dff116e9c3cd26ea97ee12f313ab53120b84c4b6fb46454327c100a8",
+  "complete_sha256": "9625a2746a7075fa0a72d71bdefc45d38068b670c038d2af73e6219ae2623a98",
+  "auditor_sha256": "408ca9783f65695b6c324077c08cb4a8afbf5322ec64180e3456f6a127b97ec8",
+  "criterion_met": false,
+  "selected_epoch": 0,
+  "all_630_rows_reaggregated": true,
+  "source_and_data_hashes_checked": true,
+  "actual_selected_tensors_checked": true,
+  "optimizer_75_steps_lr_and_moments_checked": true,
+  "hashes": {
+    "ACTUAL_001.pt": "09a149b9529a8aec3bb17667f647bd7bafea847d0dcf785cc1f939ad2771e591",
+    "LAST.pt": "9a13973a1532d021db80eb7601c35547738bdd1a80561b25d09f6f2c3bc0e57a",
+    "BEST.pt": "9e1779b9ef6e300a5e9bce6baddaae841cca0865b8b8290ac67cc9a216aebe2c",
+    "VALIDATION_000.json": "02a53ce36680231164307927d6af7bb3ca7c96acf346b790545cddbc72cf7589",
+    "VALIDATION_001.json": "70f4ef8370728aa9a7d8ff4c5990bccb1bf44d25c3aeaeb319fa99e2825377a8"
+  },
+  "model_updates": 0,
+  "recorded_iq_reads": 0,
+  "gpu_use": false,
+  "heldout_read": false
+}

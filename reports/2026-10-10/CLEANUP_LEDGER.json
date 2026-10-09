@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-10",
+  "entries": [
+    {
+      "path": "experiments/source_interaction_20261010/balanced_full_screen.py",
+      "bytes": 10571,
+      "sha256": "f164c6ec76638b0d3fd4755feb4ce0aa29dd8ffb8a0309abe3a81f6b27d6d717",
+      "reason": "Prepared but never registered or executed; TRAIN4 prerequisite failed. Unneeded conditional full-data worker and its unused auditor removed after checking all top-level local protocols.",
+      "retained_summary": "reports/2026-10-10/BALANCED_FULL_SCREEN_PLAN_KO.md"
+    },
+    {
+      "path": "experiments/source_interaction_20261010/audit_balanced_screen.py",
+      "bytes": 5185,
+      "sha256": "a78b1a8e9d4758eda3cd7c72ba061adbacebc5d7544171d2244adfb67e79e280",
+      "reason": "Prepared but never registered or executed; TRAIN4 prerequisite failed. Unneeded conditional full-data worker and its unused auditor removed after checking all top-level local protocols.",
+      "retained_summary": "reports/2026-10-10/BALANCED_FULL_SCREEN_PLAN_KO.md"
+    }
+  ],
+  "raw_iq_or_checkpoint_deleted": false
+}

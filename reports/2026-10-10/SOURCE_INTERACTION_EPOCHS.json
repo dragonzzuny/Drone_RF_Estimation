@@ -1,14 +1,22 @@
 {
-  "status": "PARTIAL",
+  "status": "COMPLETE",
   "plotter_sha256": "a9df49df3236d54c8f5eb5597b8391c53753e00c45232c6c3926cb06e3fc6a6c",
   "protocol_sha256": "9ee4368241677a78e2e617285d924faefea74519d3678c2502da86919957c02e",
   "evidence_sha256": {
     "retained_unet/validation0": "a027032ffdad48afda0872b2ecc9459b673f8d0f70e9d2bdf38569207bb5fb82",
     "retained_unet/receipt1": "2d3464eff763fad582a7abb7e421efe79772251efd61a0962aa6a222fa3b1f0e",
     "retained_unet/validation1": "232b3fca26554ec92ef3794dc77cf904853f0c7a3b090dd31af571172371b84e",
+    "retained_unet/receipt2": "b0c76dafb2bd201f393382855fab7b1fb399099ba9a2c8e65e612c2015774d86",
+    "retained_unet/validation2": "0d52ae74237269462bfeae60454f1358f075135ff0c561035072ea515ccc99fd",
+    "retained_unet/receipt3": "fedb0bb49c6886ac627269091a5be2d74113f267c77611a04507e52890f539a4",
+    "retained_unet/validation3": "8d0ac3f5169ffae83921b1391b665c5882fb4f435fbe0a2e5ffb8471fb950bfb",
     "source_interaction/validation0": "a027032ffdad48afda0872b2ecc9459b673f8d0f70e9d2bdf38569207bb5fb82",
     "source_interaction/receipt1": "62a76e362af86863925949b0e8a59a18f82d1ac1ce7d05ca9ae806327be55baa",
-    "source_interaction/validation1": "338553d80943e29ac06e203acc2ed72c1678f5cd719186dec3f9b8c106fa540e"
+    "source_interaction/validation1": "338553d80943e29ac06e203acc2ed72c1678f5cd719186dec3f9b8c106fa540e",
+    "source_interaction/receipt2": "41fc59228079098dcdedfa919da10e73d15b919b1a1ea38890d6615780035fa6",
+    "source_interaction/validation2": "14ebf54ae5aebd39a60ed5a23dedf9e17fc9c6e099b0add7ee95f1eec2b65620",
+    "source_interaction/receipt3": "5abeb5061cdb25f505cda540a818dbc24dee622867ba5e6ab1ac10770dcb29be",
+    "source_interaction/validation3": "406f73e79ffe200465c3fceea934ffdcdafa6079cbe9d003b4c7ab2911dff820"
   },
   "curves": [
     {
@@ -17,11 +25,15 @@
       "metric": "mean_nmse",
       "epochs": [
         0,
-        1
+        1,
+        2,
+        3
       ],
       "values": [
         0.46689559431987576,
-        0.48890202106359826
+        0.48890202106359826,
+        0.48281545669545245,
+        0.49005410127765975
       ]
     },
     {
@@ -30,11 +42,15 @@
       "metric": "mean_nmse",
       "epochs": [
         0,
-        1
+        1,
+        2,
+        3
       ],
       "values": [
         0.46689559431987576,
-        0.48891528264106804
+        0.48891528264106804,
+        0.4828817668757474,
+        0.49003172658667044
       ]
     },
     {
@@ -43,11 +59,15 @@
       "metric": "mean_si_sdr",
       "epochs": [
         0,
-        1
+        1,
+        2,
+        3
       ],
       "values": [
         3.777362785523427,
-        3.3662167928026747
+        3.3662167928026747,
+        3.4618593959187964,
+        3.4761572005125005
       ]
     },
     {
@@ -56,11 +76,15 @@
       "metric": "mean_si_sdr",
       "epochs": [
         0,
-        1
+        1,
+        2,
+        3
       ],
       "values": [
         3.777362785523427,
-        3.3647188784055007
+        3.3647188784055007,
+        3.4597714614968638,
+        3.4760385467781254
       ]
     },
     {
@@ -69,11 +93,15 @@
       "metric": "mean_nmse",
       "epochs": [
         0,
-        1
+        1,
+        2,
+        3
       ],
       "values": [
         0.6902533153143511,
-        0.6996570459929582
+        0.6996570459929582,
+        0.6914136278519228,
+        0.6908277177786846
       ]
     },
     {
@@ -82,11 +110,15 @@
       "metric": "mean_nmse",
       "epochs": [
         0,
-        1
+        1,
+        2,
+        3
       ],
       "values": [
         0.6902533153143511,
-        0.6996745064610105
+        0.6996745064610105,
+        0.6914232685573604,
+        0.6910008074635018
       ]
     },
     {
@@ -95,11 +127,15 @@
       "metric": "mean_si_sdr",
       "epochs": [
         0,
-        1
+        1,
+        2,
+        3
       ],
       "values": [
         -3.1087800503642207,
-        -3.517988285452999
+        -3.517988285452999,
+        -3.413086122839029,
+        -3.0203741746540884
       ]
     },
     {
@@ -108,11 +144,15 @@
       "metric": "mean_si_sdr",
       "epochs": [
         0,
-        1
+        1,
+        2,
+        3
       ],
       "values": [
         -3.1087800503642207,
-        -3.5209388781923123
+        -3.5209388781923123,
+        -3.4152480992005243,
+        -3.015799977095363
       ]
     }
   ],
@@ -122,11 +162,15 @@
       "metric": "mean_nmse",
       "epochs": [
         0,
-        1
+        1,
+        2,
+        3
       ],
       "candidate_minus_control": [
         0.0,
-        1.326157746978085e-05
+        1.326157746978085e-05,
+        6.63101802949595e-05,
+        -2.2374690989312995e-05
       ]
     },
     {
@@ -134,11 +178,15 @@
       "metric": "mean_si_sdr",
       "epochs": [
         0,
-        1
+        1,
+        2,
+        3
       ],
       "candidate_minus_control": [
         0.0,
-        -0.0014979143971740605
+        -0.0014979143971740605,
+        -0.002087934421932669,
+        -0.00011865373437514037
       ]
     },
     {
@@ -146,11 +194,15 @@
       "metric": "mean_nmse",
       "epochs": [
         0,
-        1
+        1,
+        2,
+        3
       ],
       "candidate_minus_control": [
         0.0,
-        1.746046805228829e-05
+        1.746046805228829e-05,
+        9.64070543751916e-06,
+        0.0001730896848172181
       ]
     },
     {
@@ -158,15 +210,19 @@
       "metric": "mean_si_sdr",
       "epochs": [
         0,
-        1
+        1,
+        2,
+        3
       ],
       "candidate_minus_control": [
         0.0,
-        -0.002950592739313418
+        -0.002950592739313418,
+        -0.002161976361495288,
+        0.004574197558725235
       ]
     }
   ],
   "error_bars": false,
-  "pdf_sha256": "9bf989066f876686872623d38fc65f50ce01e149b488f42acd47fbbab2de3669",
-  "png_sha256": "845f52a83e7360d9b9d74ecd69747c5aab38fb17c8011b9dfdb94f777b6445f3"
+  "pdf_sha256": "e6db6547cbad8ebce2c07487f15ab16a7fe342f45463395c2b4aefff620539dc",
+  "png_sha256": "ee69f4bb08daa833c47a62e241a8c214164d1573391eea354bb4e8265f78bbd9"
 }
