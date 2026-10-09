@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "worker_sha256": "09bac5d4b6c2bf0cfa9df4bb6073a6c359c0b60b962202831e7b2ec04c5ef1fa",
+  "source_sha256": {
+    "experiments/architecture_audit_20261009/check_low_lr_continuation.py": "85e4fbc415516c5538ea99cafd970665432dc6534bb946059888671a9f899fd1"
+  },
+  "unchanged_training_function_sha256": "dbdc8e0344370b29de8b9737576062ae19902cbc161e200b25ab94dd6d661f0a",
+  "exact_state_roundtrip": true,
+  "continued_adam_matches_uninterrupted": true,
+  "invalid_protocol_rejected": true,
+  "imported_epochs": [
+    1
+  ],
+  "executed_epochs": [
+    2,
+    3
+  ],
+  "imported_updates_per_arm": 75,
+  "executed_updates_per_arm": 150,
+  "rf_training_updates": 0,
+  "recorded_iq_reads": 0,
+  "note": "Synthetic optimizer state test, not a reduced separator or RF performance experiment."
+}
