@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "cases": 35,
+  "c_zero_recovers_original_mean": true,
+  "trust_ball_checked": true,
+  "dual_no_worse_than_independent_grid": true,
+  "maximum_grid_objective_excess": 0.0,
+  "accumulation_check": {
+    "status": "PASS",
+    "unequal_group_sample_mean_max_error": 1.1102230246251565e-16,
+    "independent_scalar_algorithm": true,
+    "original_reference_vectors_unchanged": true,
+    "zero_and_nonconflicting_cases": true,
+    "opposing_collinear_case": true,
+    "source_sha256": {
+      "experiments/count_pcgrad_20261010/gradient.py": "9009c92a182623941666e85a11ee5419d58486095b8706b3e29d9abc5a25c9fc",
+      "experiments/count_pcgrad_20261010/check.py": "50c8c7c0412502e26a36f7f616034afdc57a7e1beac4b44dd4ecea91031a9ed8"
+    },
+    "gpu_use": false,
+    "recorded_iq_reads": 0
+  },
+  "source_sha256": {
+    "experiments/count_pcgrad_20261010/gradient.py": "9009c92a182623941666e85a11ee5419d58486095b8706b3e29d9abc5a25c9fc",
+    "experiments/count_pcgrad_20261010/check.py": "50c8c7c0412502e26a36f7f616034afdc57a7e1beac4b44dd4ecea91031a9ed8",
+    "experiments/count_pcgrad_20261010/cagrad.py": "370b237502f2fbe647a0332e6465d573b156864480627c61b8c6da0f4e18b419",
+    "experiments/count_pcgrad_20261010/check_cagrad.py": "1aada0e2921760ea8489367352b7eb99b2cb75d7ff906d198368cf940361d817"
+  },
+  "gpu_use": false,
+  "recorded_iq_reads": 0
+}

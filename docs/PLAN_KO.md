@@ -1,6 +1,10 @@
 # 드론 복소 I/Q 분리: 현행 목표와 실행계획
 
-갱신: **2026-10-10 05:58 KST**. [직전 계획과 종료된 비교 이력](PLAN_HISTORY_THROUGH_20261010_0029_KO.md)을 보존했다. 실행 상태는 기록 시점 기준이다.
+갱신: **2026-10-10 06:50 KST**. [직전 계획과 종료된 비교 이력](PLAN_HISTORY_THROUGH_20261010_0029_KO.md)을 보존했다. 실행 상태는 기록 시점 기준이다.
+
+**현재 실행:** PCGrad 원 규모 GPU 비교가 47/75업데이트까지 진행됐고 CAGrad는 종료 후 자동 실행 대기 중이다(06:50 KST, PID 573171/586249). 둘 다 동일 native 부모·전체 32,142,859파라미터·원 손실·TRAIN2,400예제·75업데이트를 유지한다. CPU 수치 검사는 각각 통과했다. [PCGrad 계획](../reports/2026-10-10/COUNT_PCGRAD_PLAN_KO.md), [CAGrad 계획](../reports/2026-10-10/COUNT_CAGRAD_PLAN_KO.md), [실제 진행·손실 분해](../reports/2026-10-10/COUNT_OPTIMIZATION_REPORT_KO.md).
+
+고정 TRAIN6의 손실 분해에서 파형 본체의 단일↔두/세 성분 gradient cosine은 −0.389/−0.270이었다. 분류 손실만의 충돌은 아니지만 표본이 작고 GPU 배치와 다르다. 실제 AdamW 변위의 후속 투영은 수치 검증·가정 계산 단계이며 학습에 적용하지 않았다. 이전 문단의 PCGrad 미구현 상태는 현재 실행으로 대체된다.
 
 성분 상호작용의 본 비교는 양쪽 각3epoch/225업데이트를 마쳤다. 후보와 대조 모두 부모 e0가 선택됐고 후보를 채택하지 않았다. [최종 결과·전체 tensor/optimizer 검산](../reports/2026-10-10/SOURCE_INTERACTION_FINAL.md).
 
