@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "source_sha256": {
+    "experiments/architecture_audit_20261009/check_three_source_math.py": "cd5de94e3fe64b6a10d145a2a7ceab56cb5cd47a8dc3a9cf8364bcfffe0ed175",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/losses.py": "a51e179ea16d094cf122ec6491d79b26c66e3ed84294e396112156fb3ac8a4d6",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/waveform.py": "7f27d74ffef9ac5f52c34559d66ddd512f76abe83a4ba825887fc94bd1c3159d"
+  },
+  "independent_pit_loss": 12.746651693444518,
+  "implemented_pit_loss": 12.746651693444523,
+  "all_six_output_permutations_invariant": true,
+  "counts_checked": [
+    1,
+    2,
+    3
+  ],
+  "perfect_reconstruction_loss": 0.0,
+  "uniform_projection_rank": 3,
+  "projection_common_mode_null_error": 6.667118051786499e-16,
+  "all_feasible_target_waveforms_representable": true,
+  "same_sum_not_unique_separation": true,
+  "two_source_error_energy_law_does_not_extend": true,
+  "complex_stft_roundtrip_nmse": 1.365603578774542e-15,
+  "float64_window_roundtrip_nmse": 4.5520302487307366e-32,
+  "initial_check_failure": "An initial 1e-24 assertion wrongly assumed a float64 production window; measured float32-window rounding before correcting the diagnostic tolerance to1e-12. Production code unchanged.",
+  "complex_si_gain_invariance": true,
+  "recorded_iq_reads": 0,
+  "checkpoint_reads": 0,
+  "training_updates": 0,
+  "limitation": "Algebra and loss implementation checks only; no proof of learnability, generalization, or RF separation performance."
+}
