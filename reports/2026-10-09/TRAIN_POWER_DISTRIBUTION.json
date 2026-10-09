@@ -1,0 +1,974 @@
+{
+  "status": "COMPLETE",
+  "source_sha256": {
+    "experiments/rfuav_native_frequency_20261009/run_native.py": "5efc429c9d4eddcce3a975bbf7eee0e0476321fc1dc20c5caa854998f070c178",
+    "experiments/rfuav_native_frequency_20261009/native.py": "e14f81aed3c1110f6cdb02d0717a462572b6d2ff6205aff9bbd1d95a5922f587",
+    "experiments/rfuav_native_frequency_20261009/native_data.py": "b3ac38f06bd86ea09ed93e94369dacf53310aeb2aa803b7eb637de08e25d99cc",
+    "experiments/rfuav_dense_gated_20261008/cpu_check.py": "e9189ca0f2d1b20a4f36c8d266a3d59ffce1f83f4f80f3eb1083fc7f5641b4a2",
+    "experiments/rfuav_dense_gated_20261008/test_models.py": "f652b3d012f60fc86aa099beba28147ed75bc9fc3b3f0b4170c3d4d8f1999110",
+    "experiments/rfuav_dense_gated_20261008/study.py": "2e2cb2401c546405959d0de3d4ebccf08f55b0e977ea6825d001c7e663df0edd",
+    "experiments/rfuav_dense_gated_20261008/models.py": "b48e5852e194d4c7fca3e636bb79f918da478a4880fc83397c8afd2e538a136c",
+    "experiments/rfuav_dense_gated_20261008/dense_data.py": "a5604c104332731f7dfa220de74bdd2af2c7efdb5b57af860eae3348e2aa4f3d",
+    "experiments/rfuav_dense_gated_20261008/verify_dense.py": "9fafe10f20057b434ab102b1e12cd298a6c9b2d4293234670590fbe5425ae276",
+    "experiments/rfuav_dense_gated_20261008/prepare_dense_gated.py": "eab1ef23cd3af6c58832e8416aa0108c2090b8610e1919612cee2a8e21fd150b",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_training_data.py": "4222e700c5e77761c7fb05269bd86420896fa2fbcdcbe707a97c08e3f63eaee7",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/temporal.py": "47c237184e31050706abefd0bc91bce80c1492866f5c26e0e9333fe1712da253",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/similarity.py": "a8166bcc7adefec50b30c0374f84964b36943395d64ba3e91400f7b8147c561a",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_data.py": "97886c6accb9e228b85b6fda7efb76cea8e4b4a75e5420c39b115dcf65281268",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/within_dataset_schedule.py": "edcddbf19df88bd0ec4ac6558776d6b75dfa983589850aa742bcaf8306ffaf18",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/losses.py": "a51e179ea16d094cf122ec6491d79b26c66e3ed84294e396112156fb3ac8a4d6",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/waveform.py": "7f27d74ffef9ac5f52c34559d66ddd512f76abe83a4ba825887fc94bd1c3159d",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_model.py": "a6bb37a4a5fb8c5c7f0472b76a92d80f178183d91118367b74fe557873d64794",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/data.py": "2c8abdc30d724e3fd61ca4145f158145139a8c9f69f1d66dc4c888ad1653df6e",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/__init__.py": "9452c5c2cea105ebfc875e0128e2b99b459806ff14c2cd59236c3273575016f4",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/model.py": "c97c64d315637c7799e59147ce37dfce910bdb6ff385c2733153720cfdf47105",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/mixture_constraints.py": "306709a6de32ed01581bd3facc8c45e91de6770de07b1fb9e2457f3ecc99372c",
+    "experiments/architecture_audit_20261009/test_adapter.py": "e7348d70f8be9e35cb451ff3d5b414a7f42e3209c8fbd2f73f03f111d1e75781",
+    "experiments/architecture_audit_20261009/fit_diagnostic.py": "edbeabe4177d8850d7fbbe1fa93751a04282f308d25f640fb4e3ebfe755a77e1",
+    "experiments/architecture_audit_20261009/native_wavenet.py": "6ca4ae09603985e161c6ff7f6b56a2abc39456451fb8510f3c4170dcc7eecba5",
+    "experiments/architecture_audit_20261009/audit.py": "b606c670de27d98e0e4b9823053ecc55df44586d08c8218f878315071e9cf936",
+    "experiments/architecture_audit_20261009/train_comparison.py": "a84debcc74960d13300c955e964ff01250328d2a7ed83c7be1bb4fcc345aad2e",
+    "experiments/architecture_audit_20261009/cycle15.py": "d3606f30dbf0488b62b0182d78d78fd83132979a7e97d878527fa0e1959f605a",
+    "experiments/rfuav_native_frequency_20261009/report.py": "6b304b8858b619eac6bf56abbdd798915a8d7b00e920f0e708789a797b255ed2",
+    "experiments/architecture_audit_20261009/train_power_distribution.py": "68dd9c965f876bde3587bee70153122cf8b2088be6614d439ab540cfda7dce48",
+    "experiments/architecture_audit_20261009/watch_epochs.py": "c6bdf5c24efae621a028438c6ecde51ded899f7e0ab8cd7a38a61b687c9f1154"
+  },
+  "study_protocol_sha256": "54b4af1932ee83651aad2f5e251ada981f12133f1230b70f2c86180cb9c7f9a5",
+  "preparation_sha256": "9ef20b525774e64379712593da8509e3dda17443675322f32a13decdac603036",
+  "validation_metadata_sha256": "e4dec2afca418d39c9881bdd0f0ea0d25d384bb578ef647faf66654cbcd5c098",
+  "epochs": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "expected_cases": 12000,
+  "expected_by_count": 4000,
+  "source": "TRAIN scheduled crop references and mixture, exact native data loader",
+  "floor_rule": "source_power < 1e-6*max(mixture_power,1e-8), float64 CPU reductions",
+  "local_full_ratio": "crop source power / nominal normalized full-source power weight",
+  "heldout_read": false,
+  "validation_waveform_read": false,
+  "model_updates": 0,
+  "post_hoc": true,
+  "protocol_sha256": "ca7027646a3b65d309eec222323c0ad87b272a94cd943538d6102fb34de11a9d",
+  "train_rows_sha256": "d583585201808aac912cfa32297221ed99ebab1fae7fe42aae7c48f8e9aa8f4a",
+  "train": [
+    {
+      "count": 1,
+      "cases": 4000,
+      "median_gap_db": 0.0,
+      "p95_gap_db": 0.0,
+      "maximum_gap_db": 0.0,
+      "bins": [
+        {
+          "low_db": 0,
+          "high_db": 10,
+          "cases": 4000
+        },
+        {
+          "low_db": 10,
+          "high_db": 20,
+          "cases": 0
+        },
+        {
+          "low_db": 20,
+          "high_db": 30,
+          "cases": 0
+        },
+        {
+          "low_db": 30,
+          "high_db": 40,
+          "cases": 0
+        },
+        {
+          "low_db": 40,
+          "high_db": 50,
+          "cases": 0
+        },
+        {
+          "low_db": 50,
+          "high_db": null,
+          "cases": 0
+        }
+      ]
+    },
+    {
+      "count": 2,
+      "cases": 4000,
+      "median_gap_db": 11.894106785294756,
+      "p95_gap_db": 35.62385621204644,
+      "maximum_gap_db": 54.03481399378765,
+      "bins": [
+        {
+          "low_db": 0,
+          "high_db": 10,
+          "cases": 1730
+        },
+        {
+          "low_db": 10,
+          "high_db": 20,
+          "cases": 1242
+        },
+        {
+          "low_db": 20,
+          "high_db": 30,
+          "cases": 621
+        },
+        {
+          "low_db": 30,
+          "high_db": 40,
+          "cases": 322
+        },
+        {
+          "low_db": 40,
+          "high_db": 50,
+          "cases": 71
+        },
+        {
+          "low_db": 50,
+          "high_db": null,
+          "cases": 14
+        }
+      ]
+    },
+    {
+      "count": 3,
+      "cases": 4000,
+      "median_gap_db": 17.38607404122923,
+      "p95_gap_db": 36.124403319854295,
+      "maximum_gap_db": 49.05662388403361,
+      "bins": [
+        {
+          "low_db": 0,
+          "high_db": 10,
+          "cases": 819
+        },
+        {
+          "low_db": 10,
+          "high_db": 20,
+          "cases": 1481
+        },
+        {
+          "low_db": 20,
+          "high_db": 30,
+          "cases": 1123
+        },
+        {
+          "low_db": 30,
+          "high_db": 40,
+          "cases": 525
+        },
+        {
+          "low_db": 40,
+          "high_db": 50,
+          "cases": 52
+        },
+        {
+          "low_db": 50,
+          "high_db": null,
+          "cases": 0
+        }
+      ]
+    }
+  ],
+  "validation": [
+    {
+      "count": 1,
+      "cases": 210,
+      "median_gap_db": 0.0,
+      "p95_gap_db": 0.0,
+      "maximum_gap_db": 0.0,
+      "bins": [
+        {
+          "low_db": 0,
+          "high_db": 10,
+          "cases": 210
+        },
+        {
+          "low_db": 10,
+          "high_db": 20,
+          "cases": 0
+        },
+        {
+          "low_db": 20,
+          "high_db": 30,
+          "cases": 0
+        },
+        {
+          "low_db": 30,
+          "high_db": 40,
+          "cases": 0
+        },
+        {
+          "low_db": 40,
+          "high_db": 50,
+          "cases": 0
+        },
+        {
+          "low_db": 50,
+          "high_db": null,
+          "cases": 0
+        }
+      ]
+    },
+    {
+      "count": 2,
+      "cases": 210,
+      "median_gap_db": 9.946359569647592,
+      "p95_gap_db": 33.24277521869584,
+      "maximum_gap_db": 52.058544776627585,
+      "bins": [
+        {
+          "low_db": 0,
+          "high_db": 10,
+          "cases": 108
+        },
+        {
+          "low_db": 10,
+          "high_db": 20,
+          "cases": 63
+        },
+        {
+          "low_db": 20,
+          "high_db": 30,
+          "cases": 22
+        },
+        {
+          "low_db": 30,
+          "high_db": 40,
+          "cases": 10
+        },
+        {
+          "low_db": 40,
+          "high_db": 50,
+          "cases": 5
+        },
+        {
+          "low_db": 50,
+          "high_db": null,
+          "cases": 2
+        }
+      ]
+    },
+    {
+      "count": 3,
+      "cases": 210,
+      "median_gap_db": 12.087470372817613,
+      "p95_gap_db": 25.386909722393717,
+      "maximum_gap_db": 34.293578122318245,
+      "bins": [
+        {
+          "low_db": 0,
+          "high_db": 10,
+          "cases": 69
+        },
+        {
+          "low_db": 10,
+          "high_db": 20,
+          "cases": 105
+        },
+        {
+          "low_db": 20,
+          "high_db": 30,
+          "cases": 33
+        },
+        {
+          "low_db": 30,
+          "high_db": 40,
+          "cases": 3
+        },
+        {
+          "low_db": 40,
+          "high_db": 50,
+          "cases": 0
+        },
+        {
+          "low_db": 50,
+          "high_db": null,
+          "cases": 0
+        }
+      ]
+    }
+  ],
+  "by_epoch": [
+    {
+      "epoch": 1,
+      "summary": [
+        {
+          "count": 1,
+          "cases": 800,
+          "median_gap_db": 0.0,
+          "p95_gap_db": 0.0,
+          "maximum_gap_db": 0.0,
+          "bins": [
+            {
+              "low_db": 0,
+              "high_db": 10,
+              "cases": 800
+            },
+            {
+              "low_db": 10,
+              "high_db": 20,
+              "cases": 0
+            },
+            {
+              "low_db": 20,
+              "high_db": 30,
+              "cases": 0
+            },
+            {
+              "low_db": 30,
+              "high_db": 40,
+              "cases": 0
+            },
+            {
+              "low_db": 40,
+              "high_db": 50,
+              "cases": 0
+            },
+            {
+              "low_db": 50,
+              "high_db": null,
+              "cases": 0
+            }
+          ]
+        },
+        {
+          "count": 2,
+          "cases": 800,
+          "median_gap_db": 12.056520885119433,
+          "p95_gap_db": 34.84906319029231,
+          "maximum_gap_db": 52.883239152324435,
+          "bins": [
+            {
+              "low_db": 0,
+              "high_db": 10,
+              "cases": 332
+            },
+            {
+              "low_db": 10,
+              "high_db": 20,
+              "cases": 269
+            },
+            {
+              "low_db": 20,
+              "high_db": 30,
+              "cases": 129
+            },
+            {
+              "low_db": 30,
+              "high_db": 40,
+              "cases": 55
+            },
+            {
+              "low_db": 40,
+              "high_db": 50,
+              "cases": 10
+            },
+            {
+              "low_db": 50,
+              "high_db": null,
+              "cases": 5
+            }
+          ]
+        },
+        {
+          "count": 3,
+          "cases": 800,
+          "median_gap_db": 17.574708140547685,
+          "p95_gap_db": 36.3953360648084,
+          "maximum_gap_db": 47.55050671654761,
+          "bins": [
+            {
+              "low_db": 0,
+              "high_db": 10,
+              "cases": 148
+            },
+            {
+              "low_db": 10,
+              "high_db": 20,
+              "cases": 293
+            },
+            {
+              "low_db": 20,
+              "high_db": 30,
+              "cases": 236
+            },
+            {
+              "low_db": 30,
+              "high_db": 40,
+              "cases": 109
+            },
+            {
+              "low_db": 40,
+              "high_db": 50,
+              "cases": 14
+            },
+            {
+              "low_db": 50,
+              "high_db": null,
+              "cases": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "epoch": 2,
+      "summary": [
+        {
+          "count": 1,
+          "cases": 800,
+          "median_gap_db": 0.0,
+          "p95_gap_db": 0.0,
+          "maximum_gap_db": 0.0,
+          "bins": [
+            {
+              "low_db": 0,
+              "high_db": 10,
+              "cases": 800
+            },
+            {
+              "low_db": 10,
+              "high_db": 20,
+              "cases": 0
+            },
+            {
+              "low_db": 20,
+              "high_db": 30,
+              "cases": 0
+            },
+            {
+              "low_db": 30,
+              "high_db": 40,
+              "cases": 0
+            },
+            {
+              "low_db": 40,
+              "high_db": 50,
+              "cases": 0
+            },
+            {
+              "low_db": 50,
+              "high_db": null,
+              "cases": 0
+            }
+          ]
+        },
+        {
+          "count": 2,
+          "cases": 800,
+          "median_gap_db": 12.065565589658487,
+          "p95_gap_db": 36.417689085392404,
+          "maximum_gap_db": 54.03481399378765,
+          "bins": [
+            {
+              "low_db": 0,
+              "high_db": 10,
+              "cases": 347
+            },
+            {
+              "low_db": 10,
+              "high_db": 20,
+              "cases": 251
+            },
+            {
+              "low_db": 20,
+              "high_db": 30,
+              "cases": 117
+            },
+            {
+              "low_db": 30,
+              "high_db": 40,
+              "cases": 68
+            },
+            {
+              "low_db": 40,
+              "high_db": 50,
+              "cases": 14
+            },
+            {
+              "low_db": 50,
+              "high_db": null,
+              "cases": 3
+            }
+          ]
+        },
+        {
+          "count": 3,
+          "cases": 800,
+          "median_gap_db": 17.190539742325527,
+          "p95_gap_db": 36.71384819648445,
+          "maximum_gap_db": 47.16120818859178,
+          "bins": [
+            {
+              "low_db": 0,
+              "high_db": 10,
+              "cases": 168
+            },
+            {
+              "low_db": 10,
+              "high_db": 20,
+              "cases": 311
+            },
+            {
+              "low_db": 20,
+              "high_db": 30,
+              "cases": 196
+            },
+            {
+              "low_db": 30,
+              "high_db": 40,
+              "cases": 115
+            },
+            {
+              "low_db": 40,
+              "high_db": 50,
+              "cases": 10
+            },
+            {
+              "low_db": 50,
+              "high_db": null,
+              "cases": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "epoch": 3,
+      "summary": [
+        {
+          "count": 1,
+          "cases": 800,
+          "median_gap_db": 0.0,
+          "p95_gap_db": 0.0,
+          "maximum_gap_db": 0.0,
+          "bins": [
+            {
+              "low_db": 0,
+              "high_db": 10,
+              "cases": 800
+            },
+            {
+              "low_db": 10,
+              "high_db": 20,
+              "cases": 0
+            },
+            {
+              "low_db": 20,
+              "high_db": 30,
+              "cases": 0
+            },
+            {
+              "low_db": 30,
+              "high_db": 40,
+              "cases": 0
+            },
+            {
+              "low_db": 40,
+              "high_db": 50,
+              "cases": 0
+            },
+            {
+              "low_db": 50,
+              "high_db": null,
+              "cases": 0
+            }
+          ]
+        },
+        {
+          "count": 2,
+          "cases": 800,
+          "median_gap_db": 12.278128572926668,
+          "p95_gap_db": 35.642352324397194,
+          "maximum_gap_db": 50.630034710613415,
+          "bins": [
+            {
+              "low_db": 0,
+              "high_db": 10,
+              "cases": 339
+            },
+            {
+              "low_db": 10,
+              "high_db": 20,
+              "cases": 248
+            },
+            {
+              "low_db": 20,
+              "high_db": 30,
+              "cases": 126
+            },
+            {
+              "low_db": 30,
+              "high_db": 40,
+              "cases": 74
+            },
+            {
+              "low_db": 40,
+              "high_db": 50,
+              "cases": 12
+            },
+            {
+              "low_db": 50,
+              "high_db": null,
+              "cases": 1
+            }
+          ]
+        },
+        {
+          "count": 3,
+          "cases": 800,
+          "median_gap_db": 17.424481085074536,
+          "p95_gap_db": 35.88384948740916,
+          "maximum_gap_db": 48.88779164190104,
+          "bins": [
+            {
+              "low_db": 0,
+              "high_db": 10,
+              "cases": 164
+            },
+            {
+              "low_db": 10,
+              "high_db": 20,
+              "cases": 299
+            },
+            {
+              "low_db": 20,
+              "high_db": 30,
+              "cases": 237
+            },
+            {
+              "low_db": 30,
+              "high_db": 40,
+              "cases": 89
+            },
+            {
+              "low_db": 40,
+              "high_db": 50,
+              "cases": 11
+            },
+            {
+              "low_db": 50,
+              "high_db": null,
+              "cases": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "epoch": 4,
+      "summary": [
+        {
+          "count": 1,
+          "cases": 800,
+          "median_gap_db": 0.0,
+          "p95_gap_db": 0.0,
+          "maximum_gap_db": 0.0,
+          "bins": [
+            {
+              "low_db": 0,
+              "high_db": 10,
+              "cases": 800
+            },
+            {
+              "low_db": 10,
+              "high_db": 20,
+              "cases": 0
+            },
+            {
+              "low_db": 20,
+              "high_db": 30,
+              "cases": 0
+            },
+            {
+              "low_db": 30,
+              "high_db": 40,
+              "cases": 0
+            },
+            {
+              "low_db": 40,
+              "high_db": 50,
+              "cases": 0
+            },
+            {
+              "low_db": 50,
+              "high_db": null,
+              "cases": 0
+            }
+          ]
+        },
+        {
+          "count": 2,
+          "cases": 800,
+          "median_gap_db": 11.34065791187135,
+          "p95_gap_db": 35.77858610449437,
+          "maximum_gap_db": 51.519124800794316,
+          "bins": [
+            {
+              "low_db": 0,
+              "high_db": 10,
+              "cases": 355
+            },
+            {
+              "low_db": 10,
+              "high_db": 20,
+              "cases": 240
+            },
+            {
+              "low_db": 20,
+              "high_db": 30,
+              "cases": 124
+            },
+            {
+              "low_db": 30,
+              "high_db": 40,
+              "cases": 64
+            },
+            {
+              "low_db": 40,
+              "high_db": 50,
+              "cases": 15
+            },
+            {
+              "low_db": 50,
+              "high_db": null,
+              "cases": 2
+            }
+          ]
+        },
+        {
+          "count": 3,
+          "cases": 800,
+          "median_gap_db": 17.31884586474014,
+          "p95_gap_db": 35.98175874847992,
+          "maximum_gap_db": 44.69229633106988,
+          "bins": [
+            {
+              "low_db": 0,
+              "high_db": 10,
+              "cases": 181
+            },
+            {
+              "low_db": 10,
+              "high_db": 20,
+              "cases": 283
+            },
+            {
+              "low_db": 20,
+              "high_db": 30,
+              "cases": 219
+            },
+            {
+              "low_db": 30,
+              "high_db": 40,
+              "cases": 108
+            },
+            {
+              "low_db": 40,
+              "high_db": 50,
+              "cases": 9
+            },
+            {
+              "low_db": 50,
+              "high_db": null,
+              "cases": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "epoch": 5,
+      "summary": [
+        {
+          "count": 1,
+          "cases": 800,
+          "median_gap_db": 0.0,
+          "p95_gap_db": 0.0,
+          "maximum_gap_db": 0.0,
+          "bins": [
+            {
+              "low_db": 0,
+              "high_db": 10,
+              "cases": 800
+            },
+            {
+              "low_db": 10,
+              "high_db": 20,
+              "cases": 0
+            },
+            {
+              "low_db": 20,
+              "high_db": 30,
+              "cases": 0
+            },
+            {
+              "low_db": 30,
+              "high_db": 40,
+              "cases": 0
+            },
+            {
+              "low_db": 40,
+              "high_db": 50,
+              "cases": 0
+            },
+            {
+              "low_db": 50,
+              "high_db": null,
+              "cases": 0
+            }
+          ]
+        },
+        {
+          "count": 2,
+          "cases": 800,
+          "median_gap_db": 11.489252121974008,
+          "p95_gap_db": 35.49976578136676,
+          "maximum_gap_db": 53.96001340548989,
+          "bins": [
+            {
+              "low_db": 0,
+              "high_db": 10,
+              "cases": 357
+            },
+            {
+              "low_db": 10,
+              "high_db": 20,
+              "cases": 234
+            },
+            {
+              "low_db": 20,
+              "high_db": 30,
+              "cases": 125
+            },
+            {
+              "low_db": 30,
+              "high_db": 40,
+              "cases": 61
+            },
+            {
+              "low_db": 40,
+              "high_db": 50,
+              "cases": 20
+            },
+            {
+              "low_db": 50,
+              "high_db": null,
+              "cases": 3
+            }
+          ]
+        },
+        {
+          "count": 3,
+          "cases": 800,
+          "median_gap_db": 17.645006015035385,
+          "p95_gap_db": 35.77746462012549,
+          "maximum_gap_db": 49.05662388403361,
+          "bins": [
+            {
+              "low_db": 0,
+              "high_db": 10,
+              "cases": 158
+            },
+            {
+              "low_db": 10,
+              "high_db": 20,
+              "cases": 295
+            },
+            {
+              "low_db": 20,
+              "high_db": 30,
+              "cases": 235
+            },
+            {
+              "low_db": 30,
+              "high_db": 40,
+              "cases": 104
+            },
+            {
+              "low_db": 40,
+              "high_db": 50,
+              "cases": 8
+            },
+            {
+              "low_db": 50,
+              "high_db": null,
+              "cases": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "by_category": [
+    {
+      "category": "DJI AVATA2",
+      "contributions": 6802,
+      "crop_to_full_db_quantiles": {
+        "0": -27.446419438115104,
+        "0.05": -25.65879488109498,
+        "0.5": -3.3342589125451503,
+        "0.95": 4.979824829433048,
+        "1": 13.254995570295334
+      },
+      "floor_applied": 0
+    },
+    {
+      "category": "DJI FPV COMBO",
+      "contributions": 6801,
+      "crop_to_full_db_quantiles": {
+        "0": -28.997491256474824,
+        "0.05": -25.243388356168687,
+        "0.5": 0.8792566632127421,
+        "0.95": 2.01898591931936,
+        "1": 7.980806548785761
+      },
+      "floor_applied": 0
+    },
+    {
+      "category": "DJI MAVIC3 PRO",
+      "contributions": 6799,
+      "crop_to_full_db_quantiles": {
+        "0": -32.36956391075721,
+        "0.05": -24.957969253770926,
+        "0.5": -8.146117983773662,
+        "0.95": 7.459073177761304,
+        "1": 14.683161234252374
+      },
+      "floor_applied": 0
+    },
+    {
+      "category": "DJI MINI3",
+      "contributions": 1799,
+      "crop_to_full_db_quantiles": {
+        "0": -39.61337863434559,
+        "0.05": -37.78602658843949,
+        "0.5": -13.019201874586027,
+        "0.95": 6.608655834378987,
+        "1": 6.967922135854517
+      },
+      "floor_applied": 0
+    },
+    {
+      "category": "DJI MINI4 PRO",
+      "contributions": 1799,
+      "crop_to_full_db_quantiles": {
+        "0": -28.456476974319326,
+        "0.05": -24.427932562726127,
+        "0.5": -5.629943156325733,
+        "0.95": 5.647184613817918,
+        "1": 10.190306452550377
+      },
+      "floor_applied": 0
+    }
+  ],
+  "floor_contributions": 0,
+  "near_floor_contributions": 0,
+  "total_contributions": 24000,
+  "minimum_target_to_mix_ratio": 3.949365728873801e-06,
+  "seconds": 364.9670753479004
+}

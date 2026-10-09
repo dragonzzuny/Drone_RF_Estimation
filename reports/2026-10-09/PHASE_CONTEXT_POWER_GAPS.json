@@ -2,7 +2,7 @@
   "status": "COMPLETE_SNAPSHOT",
   "study_protocol_sha256": "b5ed9e0f39e8cc9c03da2bcfa25c8caaf930a5c5662d7a7ec4c8e656f39ff60c",
   "preparation_sha256": "9ef20b525774e64379712593da8509e3dda17443675322f32a13decdac603036",
-  "source_sha256": "bd7a2ffc5ff56ea27b4fbbb03d39a33ae5ad3987178c79227df2d03fe6e18388",
+  "source_sha256": "44d3a6bca89cdd2873ef299b570a96d8ed70e0cc732ba79db58fdabdc8925d00",
   "events": [
     {
       "arm": "local",
@@ -19,7 +19,9 @@
           "median_case_nmse": 0.5234447982250227,
           "mean_si_sdr": 10.27596558770388,
           "weakest_nmse": 0.5058122986273064,
-          "weakest_si_sdr": 10.27596558770388
+          "weakest_si_sdr": 10.27596558770388,
+          "background_energy_to_mixture": 0.09876525837148045,
+          "inactive_energy_to_mixture": 0.1218227571172395
         },
         {
           "count": 2,
@@ -29,7 +31,9 @@
           "median_case_nmse": 0.7759222533957357,
           "mean_si_sdr": -2.7135673846781567,
           "weakest_nmse": 81.48024925456573,
-          "weakest_si_sdr": -11.964396411632906
+          "weakest_si_sdr": -11.964396411632906,
+          "background_energy_to_mixture": 0.10577826838385156,
+          "inactive_energy_to_mixture": 0.0581746892318786
         },
         {
           "count": 2,
@@ -39,7 +43,9 @@
           "median_case_nmse": 0.6310075308810613,
           "mean_si_sdr": -0.36251704308812727,
           "weakest_nmse": 0.7785040808210433,
-          "weakest_si_sdr": -4.471981461290553
+          "weakest_si_sdr": -4.471981461290553,
+          "background_energy_to_mixture": 0.1067246026707648,
+          "inactive_energy_to_mixture": 0.0567813172416421
         },
         {
           "count": 2,
@@ -49,7 +55,9 @@
           "median_case_nmse": 1.0033979703333167,
           "mean_si_sdr": -2.7693710215391407,
           "weakest_nmse": 1.9265947024760068,
-          "weakest_si_sdr": -13.977674209276318
+          "weakest_si_sdr": -13.977674209276318,
+          "background_energy_to_mixture": 0.1083872716330646,
+          "inactive_energy_to_mixture": 0.05881046328710927
         },
         {
           "count": 2,
@@ -59,7 +67,9 @@
           "median_case_nmse": 16.460691564785098,
           "mean_si_sdr": -9.134023994152033,
           "weakest_nmse": 433.4717547813883,
-          "weakest_si_sdr": -29.460404447156986
+          "weakest_si_sdr": -29.460404447156986,
+          "background_energy_to_mixture": 0.09894310664828612,
+          "inactive_energy_to_mixture": 0.061006238192545525
         },
         {
           "count": 2,
@@ -69,7 +79,9 @@
           "median_case_nmse": 0.6993209559095381,
           "mean_si_sdr": -1.2492527193595533,
           "weakest_nmse": 1.201484836167609,
-          "weakest_si_sdr": -7.9740787894958345
+          "weakest_si_sdr": -7.9740787894958345,
+          "background_energy_to_mixture": 0.10733716492003315,
+          "inactive_energy_to_mixture": 0.057528897363656316
         },
         {
           "count": 3,
@@ -79,7 +91,9 @@
           "median_case_nmse": 1.023482482499847,
           "mean_si_sdr": -6.271841382130458,
           "weakest_nmse": 4.850330842892933,
-          "weakest_si_sdr": -14.677439719221526
+          "weakest_si_sdr": -14.677439719221526,
+          "background_energy_to_mixture": 0.1117034256388152,
+          "inactive_energy_to_mixture": 0.0
         },
         {
           "count": 3,
@@ -89,7 +103,9 @@
           "median_case_nmse": 0.772469375157877,
           "mean_si_sdr": -4.332197754205247,
           "weakest_nmse": 1.0060294089159592,
-          "weakest_si_sdr": -9.11601992517442
+          "weakest_si_sdr": -9.11601992517442,
+          "background_energy_to_mixture": 0.10725430996186454,
+          "inactive_energy_to_mixture": 0.0
         },
         {
           "count": 3,
@@ -99,7 +115,9 @@
           "median_case_nmse": 1.1320448692609502,
           "mean_si_sdr": -6.327852382957292,
           "weakest_nmse": 2.2193477312937193,
-          "weakest_si_sdr": -14.856299000896875
+          "weakest_si_sdr": -14.856299000896875,
+          "background_energy_to_mixture": 0.11395305938088358,
+          "inactive_energy_to_mixture": 0.0
         },
         {
           "count": 3,
@@ -109,7 +127,9 @@
           "median_case_nmse": 4.668149993890429,
           "mean_si_sdr": -9.826126249908851,
           "weakest_nmse": 19.89227600017984,
-          "weakest_si_sdr": -24.815154752925377
+          "weakest_si_sdr": -24.815154752925377,
+          "background_energy_to_mixture": 0.11366946560527118,
+          "inactive_energy_to_mixture": 0.0
         },
         {
           "count": 3,
@@ -119,7 +139,150 @@
           "median_case_nmse": 0.9512191096842177,
           "mean_si_sdr": -5.536472099141825,
           "weakest_nmse": 1.7382042586266766,
-          "weakest_si_sdr": -12.579981436386246
+          "weakest_si_sdr": -12.579981436386246,
+          "background_energy_to_mixture": 0.11129665874920362,
+          "inactive_energy_to_mixture": 0.0
+        }
+      ]
+    },
+    {
+      "arm": "long",
+      "epoch": 1,
+      "updates": 75,
+      "validation_sha256": "1d45a792d11ee2f59162c9387617a375fe34170eade284779738368750943a27",
+      "receipt_sha256": "c3708a1ad7dc2cecf9e1ffc8fa059c5c1034bfe8b7a29dbab782ecf0c885a8cd",
+      "summaries": [
+        {
+          "count": 1,
+          "stratum": "all",
+          "cases": 210,
+          "mean_nmse": 0.5119260275859419,
+          "median_case_nmse": 0.5323539959344159,
+          "mean_si_sdr": 10.541829991279252,
+          "weakest_nmse": 0.5119260275859419,
+          "weakest_si_sdr": 10.541829991279252,
+          "background_energy_to_mixture": 0.09511276197442213,
+          "inactive_energy_to_mixture": 0.12392798523388132
+        },
+        {
+          "count": 2,
+          "stratum": "all",
+          "cases": 210,
+          "mean_nmse": 41.460481731693804,
+          "median_case_nmse": 0.7738378330628655,
+          "mean_si_sdr": -2.549101917237865,
+          "weakest_nmse": 82.40940767903297,
+          "weakest_si_sdr": -11.847636155435536,
+          "background_energy_to_mixture": 0.10009250441834347,
+          "inactive_energy_to_mixture": 0.05709814562544971
+        },
+        {
+          "count": 2,
+          "stratum": "<10dB",
+          "cases": 108,
+          "mean_nmse": 0.6542678057766987,
+          "median_case_nmse": 0.6307713894820366,
+          "mean_si_sdr": -0.2681769406310629,
+          "weakest_nmse": 0.7768401990163157,
+          "weakest_si_sdr": -4.416853302823974,
+          "background_energy_to_mixture": 0.10023563563434545,
+          "inactive_energy_to_mixture": 0.05589903504691383
+        },
+        {
+          "count": 2,
+          "stratum": "10-20dB",
+          "cases": 63,
+          "mean_nmse": 1.2206209589026715,
+          "median_case_nmse": 1.0294513615897862,
+          "mean_si_sdr": -2.6400351954866315,
+          "weakest_nmse": 1.9539999123860607,
+          "weakest_si_sdr": -13.834283004453491,
+          "background_energy_to_mixture": 0.10300809622373283,
+          "inactive_energy_to_mixture": 0.05767047112093889
+        },
+        {
+          "count": 2,
+          "stratum": ">=20dB",
+          "cases": 39,
+          "mean_nmse": 219.46515692874223,
+          "median_case_nmse": 16.420956353128595,
+          "mean_si_sdr": -8.718617326054849,
+          "weakest_nmse": 438.4352532467394,
+          "weakest_si_sdr": -29.21598991425393,
+          "background_energy_to_mixture": 0.09498633890378592,
+          "inactive_energy_to_mixture": 0.0594942337348358
+        },
+        {
+          "count": 2,
+          "stratum": "<20dB",
+          "cases": 171,
+          "mean_nmse": 0.8629242306125835,
+          "median_case_nmse": 0.7026558568520349,
+          "mean_si_sdr": -1.1420194555778513,
+          "weakest_nmse": 1.210530619731485,
+          "weakest_si_sdr": -7.886432666582217,
+          "background_energy_to_mixture": 0.10125706848306712,
+          "inactive_energy_to_mixture": 0.05655166938997569
+        },
+        {
+          "count": 3,
+          "stratum": "all",
+          "cases": 210,
+          "mean_nmse": 2.185028140647363,
+          "median_case_nmse": 1.0185862845446017,
+          "mean_si_sdr": -6.062558816001591,
+          "weakest_nmse": 4.906471927489475,
+          "weakest_si_sdr": -14.484777248538363,
+          "background_energy_to_mixture": 0.10472121976940056,
+          "inactive_energy_to_mixture": 0.0
+        },
+        {
+          "count": 3,
+          "stratum": "<10dB",
+          "cases": 69,
+          "mean_nmse": 0.7780427268367872,
+          "median_case_nmse": 0.7692768988135857,
+          "mean_si_sdr": -4.12174975687434,
+          "weakest_nmse": 0.9985621344250085,
+          "weakest_si_sdr": -8.87554905314856,
+          "background_energy_to_mixture": 0.09981302032205351,
+          "inactive_energy_to_mixture": 0.0
+        },
+        {
+          "count": 3,
+          "stratum": "10-20dB",
+          "cases": 105,
+          "mean_nmse": 1.275688328197826,
+          "median_case_nmse": 1.1300780250288944,
+          "mean_si_sdr": -6.116255013380527,
+          "weakest_nmse": 2.237359035028128,
+          "weakest_si_sdr": -14.705493709370826,
+          "background_energy_to_mixture": 0.10698117457755023,
+          "inactive_energy_to_mixture": 0.0
+        },
+        {
+          "count": 3,
+          "stratum": ">=20dB",
+          "cases": 36,
+          "mean_nmse": 7.533991303428783,
+          "median_case_nmse": 4.742874630579619,
+          "mean_si_sdr": -9.625828936973592,
+          "weakest_nmse": 20.181544967208634,
+          "weakest_si_sdr": -24.59204161227413,
+          "background_energy_to_mixture": 0.10753706718637925,
+          "inactive_energy_to_mixture": 0.0
+        },
+        {
+          "count": 3,
+          "stratum": "<20dB",
+          "cases": 174,
+          "mean_nmse": 1.0783461069684486,
+          "median_case_nmse": 0.9394526506790914,
+          "mean_si_sdr": -5.325330515110832,
+          "weakest_nmse": 1.746111988237236,
+          "weakest_si_sdr": -12.39361910431717,
+          "background_energy_to_mixture": 0.10413863064864635,
+          "inactive_energy_to_mixture": 0.0
         }
       ]
     }

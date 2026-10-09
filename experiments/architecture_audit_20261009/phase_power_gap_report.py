@@ -17,7 +17,9 @@ def aggregate(rows, label):
         median_case_nmse=stats.median(stats.mean(r['nmse']) for r in rows),
         mean_si_sdr=stats.mean(v for r in rows for v in r['si_sdr']),
         weakest_nmse=stats.mean(r['nmse'][r['weakest_index']] for r in rows),
-        weakest_si_sdr=stats.mean(r['si_sdr'][r['weakest_index']] for r in rows))
+        weakest_si_sdr=stats.mean(r['si_sdr'][r['weakest_index']] for r in rows),
+        background_energy_to_mixture=stats.mean(r['background_nmse'] for r in rows),
+        inactive_energy_to_mixture=stats.mean(r['inactive_leak'] for r in rows))
 
 
 def run(study, public):
@@ -70,6 +72,19 @@ def run(study, public):
     lines += ['', '평균과 중앙값의 큰 차이는 일부 큰 오차의 영향을 드러낸다. '
         '이 집계만으로 낮은 활동량, 수신 잡음, 학습 최적화, 합 일치 보정 중 하나를 원인으로 확정하지 않는다. '
         '기존 규약의 모델 선택과 630개 전체 성능 보고는 유지한다.', '']
+    lines += ['## 배경·비활성 출력 에너지', '',
+        '현재 합성 입력은 정답 기록 기여의 합이며, 수신 잡음도 정답 안에 포함된다. 별도 배경 정답은 '
+        '수치 반올림을 제외하면 0이다. 아래 값은 해당 출력의 에너지를 혼합 에너지로 나눈 값이다. '
+        '위상과 교차항이 있으므로 이 비율들을 신호 배분 비율이나 독립적인 오차 기여율로 합산하지 않는다.', '',
+        '| 군 | epoch | 성분 수 | 배경 출력/혼합 에너지 | 비활성 출력/혼합 에너지 |',
+        '|---|---:|---:|---:|---:|']
+    for event in events:
+        for s in event['summaries']:
+            if s['stratum'] == 'all':
+                lines.append(f"|{event['arm']}|{event['epoch']}|{s['count']}|"
+                    f"{s['background_energy_to_mixture']:.6f}|{s['inactive_energy_to_mixture']:.6f}|")
+    lines += ['', '3성분 조건에는 비활성 성분 슬롯이 없다. 이 진단만으로 배경 슬롯을 제거하면 '
+        '학습이 개선된다고 결론 내리지 않는다. 현재 등록 비교의 출력·손실은 변경하지 않는다.', '']
     watch.write(public.with_suffix('.md'), '\n'.join(lines))
     print(f'Wrote {len(events)} completed epoch snapshots, no waveform reads')
 
