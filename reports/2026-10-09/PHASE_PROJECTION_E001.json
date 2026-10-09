@@ -1,0 +1,243 @@
+{
+  "status": "COMPLETE",
+  "protocol_sha256": "99b73f545a3d58e35184c04bd3ec42ded188322dfb6b20fd682e48598cb3c36e",
+  "checkpoint_sha256": "9a99a6516009a12ef59f362ef781a10f66cffc4b9cae4aa7435191b21a70339b",
+  "rows": [
+    {
+      "index": 28,
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "actual_power_gap_db": 50.0130251616998,
+      "weakest_index": 1,
+      "fixed_assignment": [
+        0,
+        2
+      ],
+      "reference_power": [
+        4.269209985731649,
+        4.2564251476098505e-05
+      ],
+      "raw_nmse_fixed_assignment": [
+        0.9693761429031172,
+        343.9863219023804
+      ],
+      "projection_energy_over_reference": [
+        0.06036181574528316,
+        6054.312189217373
+      ],
+      "signed_cross_term": [
+        -0.4834713819230878,
+        -598.1648378428991
+      ],
+      "projected_nmse": [
+        0.5462665767256971,
+        5800.133676074139
+      ],
+      "correction_to_mixture_power": 0.06036039814352989,
+      "cpu_gpu_nmse_max_difference": 2.967122054542415e-05,
+      "reference_used_only_in_scoring": true
+    },
+    {
+      "index": 529,
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "actual_power_gap_db": 52.058544776627585,
+      "weakest_index": 0,
+      "fixed_assignment": [
+        2,
+        0
+      ],
+      "reference_power": [
+        1.572462454127058e-05,
+        2.526008235841126
+      ],
+      "raw_nmse_fixed_assignment": [
+        2123.1315463887327,
+        0.8215100757797577
+      ],
+      "projection_energy_over_reference": [
+        8334.165467113044,
+        0.0518809166873271
+      ],
+      "signed_cross_term": [
+        -5401.917813674195,
+        -0.41219304709140225
+      ],
+      "projected_nmse": [
+        5055.379198926733,
+        0.46119794546747084
+      ],
+      "correction_to_mixture_power": 0.05188005045056343,
+      "cpu_gpu_nmse_max_difference": 0.00012952911311003845,
+      "reference_used_only_in_scoring": true
+    },
+    {
+      "index": 2,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "actual_power_gap_db": 9.908049514552086,
+      "weakest_index": 1,
+      "fixed_assignment": [
+        0,
+        1
+      ],
+      "reference_power": [
+        1.2614042559655638,
+        0.1288395918969785
+      ],
+      "raw_nmse_fixed_assignment": [
+        0.9139715509568808,
+        1.182714876830761
+      ],
+      "projection_energy_over_reference": [
+        0.06261849765687984,
+        0.6130665138222182
+      ],
+      "signed_cross_term": [
+        -0.45226728627042384,
+        -0.6165530129189192
+      ],
+      "projected_nmse": [
+        0.5243227623044573,
+        1.1792283776279877
+      ],
+      "correction_to_mixture_power": 0.05674352869391441,
+      "cpu_gpu_nmse_max_difference": 2.0948037304791e-08,
+      "reference_used_only_in_scoring": true
+    },
+    {
+      "index": 251,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "actual_power_gap_db": 34.293578122318245,
+      "weakest_index": 1,
+      "fixed_assignment": [
+        2,
+        1,
+        0
+      ],
+      "reference_power": [
+        0.05668978942827151,
+        0.0020395838916058263,
+        5.481499584614725
+      ],
+      "raw_nmse_fixed_assignment": [
+        1.380051825727053,
+        11.054989503883855,
+        0.9661122538648472
+      ],
+      "projection_energy_over_reference": [
+        5.942157478200865,
+        165.1609711055406,
+        0.0614539235092385
+      ],
+      "signed_cross_term": [
+        -0.33749696854101774,
+        -35.94338751888382,
+        -0.4843300437044118
+      ],
+      "projected_nmse": [
+        6.984712335744444,
+        140.27257316712877,
+        0.5432361336003677
+      ],
+      "correction_to_mixture_power": 0.06079732999205589,
+      "cpu_gpu_nmse_max_difference": 4.7282253490266157e-07,
+      "reference_used_only_in_scoring": true
+    },
+    {
+      "index": 26,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "actual_power_gap_db": 5.201837037992622,
+      "weakest_index": 2,
+      "fixed_assignment": [
+        0,
+        1,
+        2
+      ],
+      "reference_power": [
+        0.1254339609829348,
+        0.06868603596859986,
+        0.03786443082579553
+      ],
+      "raw_nmse_fixed_assignment": [
+        0.8319795394494414,
+        1.1116830268096143,
+        1.202261991120029
+      ],
+      "projection_energy_over_reference": [
+        0.09346002733595793,
+        0.17067605164580787,
+        0.3096061703992686
+      ],
+      "signed_cross_term": [
+        -0.3653714104437703,
+        -0.4618296139010812,
+        -0.6720633144049879
+      ],
+      "projected_nmse": [
+        0.560068156314547,
+        0.8205294646286339,
+        0.8398048471582299
+      ],
+      "correction_to_mixture_power": 0.05057382211089134,
+      "cpu_gpu_nmse_max_difference": 3.414293792136647e-08,
+      "reference_used_only_in_scoring": true
+    },
+    {
+      "index": 4,
+      "count": 1,
+      "categories": [
+        "DJI FPV COMBO"
+      ],
+      "actual_power_gap_db": 0.0,
+      "weakest_index": 0,
+      "fixed_assignment": [
+        0
+      ],
+      "reference_power": [
+        0.020265094111633616
+      ],
+      "raw_nmse_fixed_assignment": [
+        0.9339767011191032
+      ],
+      "projection_energy_over_reference": [
+        0.05889180091439295
+      ],
+      "signed_cross_term": [
+        -0.46886433282114487
+      ],
+      "projected_nmse": [
+        0.5240041692849208
+      ],
+      "correction_to_mixture_power": 0.05889180675148964,
+      "cpu_gpu_nmse_max_difference": 5.233243616231675e-09,
+      "reference_used_only_in_scoring": true
+    }
+  ],
+  "seconds": 65.8506875038147,
+  "post_hoc": true,
+  "independent_test": false,
+  "heldout_read": false,
+  "model_updates": 0,
+  "decomposition": "NMSE_after=NMSE_raw+projection_energy/reference_power+signed_cross_term",
+  "assignment": "projected-output PIT fixed for all terms; raw is not re-matched"
+}

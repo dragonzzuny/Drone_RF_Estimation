@@ -1,0 +1,133 @@
+{
+  "status": "COMPLETE_SNAPSHOT",
+  "study_protocol_sha256": "b5ed9e0f39e8cc9c03da2bcfa25c8caaf930a5c5662d7a7ec4c8e656f39ff60c",
+  "preparation_sha256": "9ef20b525774e64379712593da8509e3dda17443675322f32a13decdac603036",
+  "source_sha256": "bd7a2ffc5ff56ea27b4fbbb03d39a33ae5ad3987178c79227df2d03fe6e18388",
+  "events": [
+    {
+      "arm": "local",
+      "epoch": 1,
+      "updates": 75,
+      "validation_sha256": "ed54712c19b036e57907874f19ff36720fc2d481565a2e9e11b88554c42c72cd",
+      "receipt_sha256": "120a0377fc35715f77085414b458fa900ea3410c3dd34244c66d2f60e821ffde",
+      "summaries": [
+        {
+          "count": 1,
+          "stratum": "all",
+          "cases": 210,
+          "mean_nmse": 0.5058122986273064,
+          "median_case_nmse": 0.5234447982250227,
+          "mean_si_sdr": 10.27596558770388,
+          "weakest_nmse": 0.5058122986273064,
+          "weakest_si_sdr": 10.27596558770388
+        },
+        {
+          "count": 2,
+          "stratum": "all",
+          "cases": 210,
+          "mean_nmse": 40.99304130426911,
+          "median_case_nmse": 0.7759222533957357,
+          "mean_si_sdr": -2.7135673846781567,
+          "weakest_nmse": 81.48024925456573,
+          "weakest_si_sdr": -11.964396411632906
+        },
+        {
+          "count": 2,
+          "stratum": "<10dB",
+          "cases": 108,
+          "mean_nmse": 0.6526760629309811,
+          "median_case_nmse": 0.6310075308810613,
+          "mean_si_sdr": -0.36251704308812727,
+          "weakest_nmse": 0.7785040808210433,
+          "weakest_si_sdr": -4.471981461290553
+        },
+        {
+          "count": 2,
+          "stratum": "10-20dB",
+          "cases": 63,
+          "mean_nmse": 1.2027575841752967,
+          "median_case_nmse": 1.0033979703333167,
+          "mean_si_sdr": -2.7693710215391407,
+          "weakest_nmse": 1.9265947024760068,
+          "weakest_si_sdr": -13.977674209276318
+        },
+        {
+          "count": 2,
+          "stratum": ">=20dB",
+          "cases": 39,
+          "mean_nmse": 216.98143413581857,
+          "median_case_nmse": 16.460691564785098,
+          "mean_si_sdr": -9.134023994152033,
+          "weakest_nmse": 433.4717547813883,
+          "weakest_si_sdr": -29.460404447156986
+        },
+        {
+          "count": 2,
+          "stratum": "<20dB",
+          "cases": 171,
+          "mean_nmse": 0.8553376760209921,
+          "median_case_nmse": 0.6993209559095381,
+          "mean_si_sdr": -1.2492527193595533,
+          "weakest_nmse": 1.201484836167609,
+          "weakest_si_sdr": -7.9740787894958345
+        },
+        {
+          "count": 3,
+          "stratum": "all",
+          "cases": 210,
+          "mean_nmse": 2.1707054587322463,
+          "median_case_nmse": 1.023482482499847,
+          "mean_si_sdr": -6.271841382130458,
+          "weakest_nmse": 4.850330842892933,
+          "weakest_si_sdr": -14.677439719221526
+        },
+        {
+          "count": 3,
+          "stratum": "<10dB",
+          "cases": 69,
+          "mean_nmse": 0.782461939151537,
+          "median_case_nmse": 0.772469375157877,
+          "mean_si_sdr": -4.332197754205247,
+          "weakest_nmse": 1.0060294089159592,
+          "weakest_si_sdr": -9.11601992517442
+        },
+        {
+          "count": 3,
+          "stratum": "10-20dB",
+          "cases": 105,
+          "mean_nmse": 1.2757809903303974,
+          "median_case_nmse": 1.1320448692609502,
+          "mean_si_sdr": -6.327852382957292,
+          "weakest_nmse": 2.2193477312937193,
+          "weakest_si_sdr": -14.856299000896875
+        },
+        {
+          "count": 3,
+          "stratum": ">=20dB",
+          "cases": 36,
+          "mean_nmse": 7.441701904100665,
+          "median_case_nmse": 4.668149993890429,
+          "mean_si_sdr": -9.826126249908851,
+          "weakest_nmse": 19.89227600017984,
+          "weakest_si_sdr": -24.815154752925377
+        },
+        {
+          "count": 3,
+          "stratum": "<20dB",
+          "cases": 174,
+          "mean_nmse": 1.080154470035332,
+          "median_case_nmse": 0.9512191096842177,
+          "mean_si_sdr": -5.536472099141825,
+          "weakest_nmse": 1.7382042586266766,
+          "weakest_si_sdr": -12.579981436386246
+        }
+      ]
+    }
+  ],
+  "scope": "Existing development rows; post-hoc descriptive strata, no excluded cases",
+  "gap_definition": "10log10(max reference crop power/min reference crop power)",
+  "heldout_read": false,
+  "waveform_reads": 0,
+  "selection_changed": false,
+  "overlapping_strata": "all and <20dB overlap other rows; do not sum their case counts"
+}

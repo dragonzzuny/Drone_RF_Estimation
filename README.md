@@ -2,7 +2,7 @@
 
 혼합 복소 I/Q에서 각 드론 기록의 기여 파형을 복원하고, 학습하지 않은 기록·기종·조합에 대한 일반화를 검증하는 연구입니다. 현재 범위는 1–3성분입니다.
 
-**2026-10-09 15:28 KST:** 새 초기화 기본 WaveNet·긴 수용범위 WaveNet·STFT U-Net의 각 5 epoch/375업데이트 비교와 최종 검산을 완료했습니다. 같은 개발검증 평균 NMSE 규칙으로 선택한 결과는 아래와 같습니다. 이번 예산에서는 U-Net의 네 평균 파형 지표가 가장 좋습니다. 모델별 파라미터와 계산량이 달라 계열 전체의 우열이나 충분한 수렴을 입증하는 비교는 아닙니다.
+**2026-10-09 16:21 KST:** 새 초기화 기본 WaveNet·긴 수용범위 WaveNet·STFT U-Net의 각 5 epoch/375업데이트 비교와 최종 검산을 완료했습니다. 같은 개발검증 평균 NMSE 규칙으로 선택한 결과는 아래와 같습니다. 이번 예산에서는 U-Net의 네 평균 파형 지표가 가장 좋습니다. 모델별 파라미터와 계산량이 달라 계열 전체의 우열이나 충분한 수렴을 입증하는 비교는 아닙니다.
 
 | 전체 5 epoch 후 선택 모델 | 선택 epoch | 2성분 NMSE ↓ | 3성분 NMSE ↓ | 2성분 SI-SDR ↑ dB | 3성분 SI-SDR ↑ dB |
 |---|---:|---:|---:|---:|---:|
@@ -14,8 +14,11 @@ U-Net의 마지막 e5는 NMSE 2/3=0.5432/0.7126, SI-SDR=2.468/−4.257dB로, 평
 
 RFUAV 한 데이터셋의 같은 원 RF 대역끼리 합성하고 수신 중심 간격·native 100MS/s·원기록 분할을 유지합니다. 파라미터와 계산량은 모델별로 다릅니다. 목표는 공통 관측 대역으로 제한한 기록 기여 파형이며, 실제 드론 대수나 실측 동시 수신 정답으로 표시하지 않습니다.
 
-20.89ms 복소 I/Q를 제공하는 원 규모 모델의 [GPU 사전 검사](reports/2026-10-09/PHASE_CONTEXT_GPU_PREFLIGHT.md)를 두 군 모두 통과했습니다. 같은 초기값·자료·규모·각 5 epoch의 긴/가린 복소 문맥 본 비교를 시작했으며 현재 대조군의 학습 전 검증을 수행 중입니다.  [후속 진행 보고](reports/2026-10-09/PHASE_CONTEXT_PROGRESS.md)에서 실제 시작과 완료 epoch를 구분합니다. 기존 전이 U-Net의 더 좋은 수치는 학습 이력이 달라 이번 새 초기화 비교와 분리합니다. [현행 계획](docs/PLAN_KO.md)과 [검산된 전체 epoch](reports/2026-10-09/ARCHITECTURE_PROGRESS.md)에 실행 순서·약신호 실패·비교 한계를 정리했습니다. 실행 상태는 기록 시점입니다.
+20.89ms 복소 I/Q를 제공하는 원 규모 모델의 [GPU 사전 검사](reports/2026-10-09/PHASE_CONTEXT_GPU_PREFLIGHT.md)를 두 군 모두 통과했습니다. 같은 초기값·자료·규모·각 5 epoch의 긴/가린 복소 문맥 본 비교를 시작했으며 대조군 local의 1 epoch를 완료하고 긴 문맥군 long의 1 epoch를 GPU에서 학습 중입니다. 대조군 e1의 2/3성분 NMSE는 40.9930/2.1707로 아직 크게 부족하며, 매우 큰 국소 전력차의 사례가 평균 오차에 큰 영향을 줍니다.  [후속 진행 보고](reports/2026-10-09/PHASE_CONTEXT_PROGRESS.md)에서 실제 시작과 완료 epoch를 구분합니다. 기존 전이 U-Net의 더 좋은 수치는 학습 이력이 달라 이번 새 초기화 비교와 분리합니다. [현행 계획](docs/PLAN_KO.md)과 [검산된 전체 epoch](reports/2026-10-09/ARCHITECTURE_PROGRESS.md)에 실행 순서·약신호 실패·비교 한계를 정리했습니다. 실행 상태는 기록 시점입니다.
 
+- [긴 복소문맥의 국소 전력차별 오차](reports/2026-10-09/PHASE_CONTEXT_POWER_GAPS.md)
+- [새 대조군 e1 합 일치 보정 진단](reports/2026-10-09/PHASE_PROJECTION_E001.md)
+- [U-Net 주파수 배열 전체 개발검증](reports/2026-10-09/FREQUENCY_ORDER_VALIDATION.md)
 - [원 주파수 배치 실험 전체 결과](reports/2026-10-09/NATIVE_RF_FINAL.md)
 - [현재 구조 적합성·WaveNet·최신 RF U-Net 검토](reports/2026-10-09/ARCHITECTURE_REVIEW_KO.md)
 - [개수 기울기 차단 대조·네 위상 평가 완료](reports/2026-10-09/COUNT_DETACH_FINAL.md)
