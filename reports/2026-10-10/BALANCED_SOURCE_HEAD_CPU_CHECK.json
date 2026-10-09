@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "source_sha256": {
+    "experiments/source_interaction_20261010/check_balanced_head.py": "f8c6bb224e3622e49ebd60077dfb4ea5eb953da125e737b7213cd5c29ca93296",
+    "experiments/source_interaction_20261010/balanced_source_head.py": "7da5e1b6788473ff0cc01df459483703c48842d347aaa569e041c5642dd8b1c4"
+  },
+  "parameters": 32180747,
+  "additional_parameters": 37888,
+  "matches_unbalanced_head_parameter_count": true,
+  "exact_initial_parent_waveform_and_count_logits": true,
+  "nonzero_readout_source_permutations": 6,
+  "zero_sum_correction": true,
+  "background_unchanged": true,
+  "chunk_output_and_gradients_match": true,
+  "finite_zero_and_extreme_raw_source_gradients": true,
+  "all_full_model_gradients_finite": true,
+  "first_readout_gradient_norm": 5.936103820800781,
+  "first_qkv_gradient_norm": 0.0,
+  "sum_relative_error": 9.601377649209354e-15,
+  "model_updates": 0,
+  "recorded_iq_reads": 0,
+  "parent_checkpoint_reads": 0,
+  "device": "cpu",
+  "seconds": 44.2403666973114,
+  "rf_performance_evaluated": false
+}

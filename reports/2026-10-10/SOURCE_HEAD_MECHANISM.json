@@ -1,0 +1,188 @@
+{
+  "status": "COMPLETE",
+  "protocol_sha256": "7bbbe2ac3ba33a01b98941ffdc1594b08a52b53f11353559e72e22e4247b2f1f",
+  "checkpoint_sha256": "55d1fb77a605e31b24f50d4f35a49fbd30d7673823b9a2b9d38cc24e441ae3d8",
+  "rows": [
+    {
+      "index": 4,
+      "count": 2,
+      "points": 4096,
+      "contrast_definition": "Subtract mean over the three raw source slots at every TF point",
+      "raw_source_energy": 1298.1455931848216,
+      "raw_source_contrast_energy": 1171.5921767137934,
+      "input_latent_energy": 175363.78821271655,
+      "input_latent_contrast_energy": 357.5027773540768,
+      "attention_energy": 69891.37685154725,
+      "attention_contrast_energy": 1.3424691592660997e-05,
+      "attention_weight_row_contrast_energy": 0.00021759861566182024,
+      "feedforward_contrast_energy": 5.3769179884308755,
+      "readout_component_names": [
+        "input_latent",
+        "attention",
+        "feedforward"
+      ],
+      "readout_component_energies": [
+        0.0001038022627670894,
+        3.5677086586250474e-13,
+        8.030694674671134e-08
+      ],
+      "readout_cross_terms": [
+        {
+          "i": 0,
+          "j": 1,
+          "twice_inner_product": 5.646044252747711e-09
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "twice_inner_product": 1.268446478117355e-06
+        },
+        {
+          "i": 1,
+          "j": 2,
+          "twice_inner_product": 7.229659025101735e-11
+        }
+      ],
+      "final_correction_energy": 0.00010515673488956735,
+      "decomposition_pass": true,
+      "measurement_dtype": "float64 copy of trained FP32 head; backbone features from FP32 CPU"
+    },
+    {
+      "index": 5,
+      "count": 2,
+      "points": 4096,
+      "contrast_definition": "Subtract mean over the three raw source slots at every TF point",
+      "raw_source_energy": 2918.192910926783,
+      "raw_source_contrast_energy": 2709.3976341387192,
+      "input_latent_energy": 219429.2226048992,
+      "input_latent_contrast_energy": 781.8311334136091,
+      "attention_energy": 67679.69399339569,
+      "attention_contrast_energy": 1.4526421915085e-05,
+      "attention_weight_row_contrast_energy": 0.00029500128850845717,
+      "feedforward_contrast_energy": 4.7825317908780995,
+      "readout_component_names": [
+        "input_latent",
+        "attention",
+        "feedforward"
+      ],
+      "readout_component_energies": [
+        0.00021707183664151943,
+        3.6402382185039207e-13,
+        7.427689252666181e-08
+      ],
+      "readout_cross_terms": [
+        {
+          "i": 0,
+          "j": 1,
+          "twice_inner_product": 6.599330761293946e-09
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "twice_inner_product": 7.815636509759339e-07
+        },
+        {
+          "i": 1,
+          "j": 2,
+          "twice_inner_product": 4.1199617334327303e-11
+        }
+      ],
+      "final_correction_energy": 0.00021793431807942448,
+      "decomposition_pass": true,
+      "measurement_dtype": "float64 copy of trained FP32 head; backbone features from FP32 CPU"
+    },
+    {
+      "index": 2,
+      "count": 3,
+      "points": 4096,
+      "contrast_definition": "Subtract mean over the three raw source slots at every TF point",
+      "raw_source_energy": 1398.4159807136484,
+      "raw_source_contrast_energy": 1273.6931307345317,
+      "input_latent_energy": 148297.08660979013,
+      "input_latent_contrast_energy": 381.9784496495481,
+      "attention_energy": 74368.85310541694,
+      "attention_contrast_energy": 9.203643489541513e-05,
+      "attention_weight_row_contrast_energy": 0.0013018520260876833,
+      "feedforward_contrast_energy": 16.246584814405775,
+      "readout_component_names": [
+        "input_latent",
+        "attention",
+        "feedforward"
+      ],
+      "readout_component_energies": [
+        0.00010938353093883557,
+        2.568781510445159e-12,
+        2.7147317214113967e-07
+      ],
+      "readout_cross_terms": [
+        {
+          "i": 0,
+          "j": 1,
+          "twice_inner_product": 1.580994445532938e-08
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "twice_inner_product": 2.0828681216446474e-06
+        },
+        {
+          "i": 1,
+          "j": 2,
+          "twice_inner_product": 3.000686118783678e-10
+        }
+      ],
+      "final_correction_energy": 0.00011175398481447008,
+      "decomposition_pass": true,
+      "measurement_dtype": "float64 copy of trained FP32 head; backbone features from FP32 CPU"
+    },
+    {
+      "index": 11,
+      "count": 3,
+      "points": 4096,
+      "contrast_definition": "Subtract mean over the three raw source slots at every TF point",
+      "raw_source_energy": 2756.7335408948466,
+      "raw_source_contrast_energy": 2553.828266069096,
+      "input_latent_energy": 183645.78385925616,
+      "input_latent_contrast_energy": 772.915920774564,
+      "attention_energy": 72166.33478394413,
+      "attention_contrast_energy": 7.657995592478555e-05,
+      "attention_weight_row_contrast_energy": 0.0010604370973729322,
+      "feedforward_contrast_energy": 16.508454868452517,
+      "readout_component_names": [
+        "input_latent",
+        "attention",
+        "feedforward"
+      ],
+      "readout_component_energies": [
+        0.00022300085003091306,
+        2.0146520825787294e-12,
+        2.3778700099725298e-07
+      ],
+      "readout_cross_terms": [
+        {
+          "i": 0,
+          "j": 1,
+          "twice_inner_product": 2.6961476950568205e-08
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "twice_inner_product": 2.8388648349618535e-06
+        },
+        {
+          "i": 1,
+          "j": 2,
+          "twice_inner_product": 2.9681362607357145e-10
+        }
+      ],
+      "final_correction_energy": 0.00022610476217210093,
+      "decomposition_pass": true,
+      "measurement_dtype": "float64 copy of trained FP32 head; backbone features from FP32 CPU"
+    }
+  ],
+  "checks": "Exact centered readout decomposition including cross terms, all four forwards finite",
+  "model_updates": 0,
+  "heldout_read": false,
+  "validation_read": false,
+  "limitation": "TRAIN4 sampled TF points, feature-scale-dependent descriptive internal measurements; no isolated causal contribution or generalization estimate"
+}
