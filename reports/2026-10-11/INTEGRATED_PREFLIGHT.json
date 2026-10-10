@@ -1,0 +1,198 @@
+{
+  "status": "PASS",
+  "initial_predictions": [
+    {
+      "index": 0,
+      "count": 1,
+      "output_exact": true,
+      "max_error": 0.0
+    },
+    {
+      "index": 4,
+      "count": 2,
+      "output_exact": true,
+      "max_error": 0.0
+    },
+    {
+      "index": 2,
+      "count": 3,
+      "output_exact": true,
+      "max_error": 0.0
+    }
+  ],
+  "diagnostic_updates": 3,
+  "diagnostic_losses": [
+    [
+      0.09537989646196365,
+      0.3275702893733978,
+      1.4381334781646729
+    ],
+    [
+      0.0929831862449646,
+      0.32756707072257996,
+      1.4336978197097778
+    ],
+    [
+      0.0895337164402008,
+      0.3275848925113678,
+      1.4263945817947388
+    ]
+  ],
+  "updates": [
+    {
+      "preclip_norm": 0.23907077312469482,
+      "component_gradient_norms": {
+        "context_encoder.": 0.010989892296493053,
+        "tf_axes.": 0.05553457885980606,
+        "output.": 0.23227132856845856
+      },
+      "protected_gram": [
+        [
+          0.0018536577699705958,
+          -0.012639881111681461
+        ],
+        [
+          -0.012639881111681461,
+          0.09638737142086029
+        ]
+      ],
+      "projection": {
+        "coefficients": [
+          0.22489552559195153,
+          0.0
+        ],
+        "active_constraints": [
+          0
+        ],
+        "correction_squared_norm": 9.375429792804523e-05,
+        "protected_dot_after": [
+          0.0,
+          -0.0014906189389781348
+        ],
+        "protected_dot_before": [
+          0.0004168793384451419,
+          -0.004333271645009518
+        ],
+        "constraint_tolerance": 1.6987186300261805e-11
+      },
+      "proposed_delta_norm": 0.08155114203691483,
+      "corrected_delta_norm": 0.080974280834198,
+      "correction_norm": 0.009682680480182171,
+      "protected_dot_after_fp32": [
+        -2.000888343900442e-11,
+        -0.0014906193828210235
+      ],
+      "fp32_constraint_tolerance": [
+        4.486276906237595e-08,
+        2.613953112889489e-07
+      ]
+    },
+    {
+      "preclip_norm": 0.21604092419147491,
+      "component_gradient_norms": {
+        "context_encoder.": 0.010609542019665241,
+        "tf_axes.": 0.05633328855037689,
+        "output.": 0.20829710364341736
+      },
+      "protected_gram": [
+        [
+          0.0018157553859055042,
+          -0.01156995166093111
+        ],
+        [
+          -0.01156995166093111,
+          0.08199146389961243
+        ]
+      ],
+      "projection": {
+        "coefficients": [
+          0.23259080784909106,
+          0.0
+        ],
+        "active_constraints": [
+          0
+        ],
+        "correction_squared_norm": 9.822961350328952e-05,
+        "protected_dot_after": [
+          0.0,
+          -0.0019435785699513136
+        ],
+        "protected_dot_before": [
+          0.0004223280120640993,
+          -0.0046346429735422134
+        ],
+        "constraint_tolerance": 1.8979122054721002e-11
+      },
+      "proposed_delta_norm": 0.22015194594860077,
+      "corrected_delta_norm": 0.21992875635623932,
+      "correction_norm": 0.009911085478961468,
+      "protected_dot_after_fp32": [
+        2.546585164964199e-11,
+        -0.0019435796421021223
+      ],
+      "fp32_constraint_tolerance": [
+        1.0371533172762016e-07,
+        6.397473398289589e-07
+      ]
+    },
+    {
+      "preclip_norm": 0.19544555246829987,
+      "component_gradient_norms": {
+        "context_encoder.": 0.010556450113654137,
+        "tf_axes.": 0.0736757293343544,
+        "output.": 0.18071916699409485
+      },
+      "protected_gram": [
+        [
+          0.0017951398622244596,
+          -0.010195493698120117
+        ],
+        [
+          -0.010195493698120117,
+          0.06788653135299683
+        ]
+      ],
+      "projection": {
+        "coefficients": [
+          0.24068086892111312,
+          0.0
+        ],
+        "active_constraints": [
+          0
+        ],
+        "correction_squared_norm": 0.0001039875706313272,
+        "protected_dot_after": [
+          0.0,
+          -0.002885064654606924
+        ],
+        "protected_dot_before": [
+          0.00043205582187511027,
+          -0.005338924936950207
+        ],
+        "constraint_tolerance": 2.2888128624584755e-11
+      },
+      "proposed_delta_norm": 0.23544126749038696,
+      "corrected_delta_norm": 0.23522034287452698,
+      "correction_norm": 0.010197430849075317,
+      "protected_dot_after_fp32": [
+        -3.637978807091713e-12,
+        -0.0028850650414824486
+      ],
+      "fp32_constraint_tolerance": [
+        1.0966072758204603e-07,
+        6.228676368184039e-07
+      ]
+    }
+  ],
+  "parameters": 37444428,
+  "trainable": 5301569,
+  "original_parent_weights_unchanged": true,
+  "temporary_weights_discarded": true,
+  "full_model": true,
+  "input_samples": 63872,
+  "peak_bytes": 1570595328,
+  "protocol_sha256": "a1e0802f40a1c523bb6c7fbd2d4cba7ec6780297a40754947b7dcd6e85ee1ec0",
+  "heldout_read": false,
+  "time": 1791647979.7567277,
+  "meaning": "Implementation and connectivity check on TRAIN3, not validation performance"
+}

@@ -1,0 +1,74 @@
+{
+  "status": "STOP_AND_INTEGRATED_START_VERIFIED",
+  "time": 1791648174.8761277,
+  "stopped": {
+    "status": "STOPPED_BY_USER_FOR_INTEGRATED_PRIORITY",
+    "time": 1791647744.176971,
+    "stopped_pids": [
+      1817233,
+      930800
+    ],
+    "last_state": {
+      "status": "TRAINING",
+      "arm": "septda",
+      "epoch": 27,
+      "schedule_epoch": 4,
+      "updates_in_epoch": 72,
+      "cumulative_updates": 2022,
+      "examples": 2304,
+      "mean_training_loss_so_far": 0.49998533428760716,
+      "seconds": 1656.0031683444977,
+      "pid": 930800,
+      "time": 1791647730.59004
+    },
+    "last_complete_epoch": 26,
+    "last_complete_updates": 1950,
+    "partial_epoch_updates_discarded": 72,
+    "checkpoints_deleted": false,
+    "reason": "User: stop current non-improving training immediately; prioritize integrated model"
+  },
+  "stopped_last_checkpoint_hash_verified": true,
+  "withdrawn_attempt": {
+    "reason": "Metadata verification passed a string to a Path-only digest helper; fixed before CUDA initialization or optimizer updates",
+    "optimizer_updates": 0,
+    "cuda_preflight_started": false,
+    "time": 1791647968.6476667
+  },
+  "active_run": "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/integrated_20261011_v2",
+  "active_pid": 1841153,
+  "active_protocol_sha256": "a1e0802f40a1c523bb6c7fbd2d4cba7ec6780297a40754947b7dcd6e85ee1ec0",
+  "preflight_sha256": "1f6e81427e9b5ceaaa058833a7fa9f656be214886683446f2ace77f4548be13d",
+  "baseline": [
+    {
+      "count": 1,
+      "cases": 210,
+      "mean_nmse": 0.027593617315139082,
+      "mean_si_sdr": 21.336587221314186,
+      "mean_si_sdr_gain": null,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.027593617315139082,
+      "construction_count_accuracy": 0.7571428571428571
+    },
+    {
+      "count": 2,
+      "cases": 210,
+      "mean_nmse": 0.46689559431987576,
+      "mean_si_sdr": 3.777362785523427,
+      "mean_si_sdr_gain": 3.7155881120167726,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.7785797101018634,
+      "construction_count_accuracy": 0.2761904761904762
+    },
+    {
+      "count": 3,
+      "cases": 210,
+      "mean_nmse": 0.6902533153143511,
+      "mean_si_sdr": -3.1087800503642207,
+      "mean_si_sdr_gain": 2.2523282089913232,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.9513193850439158,
+      "construction_count_accuracy": 0.3238095238095238
+    }
+  ],
+  "heldout_read": false
+}

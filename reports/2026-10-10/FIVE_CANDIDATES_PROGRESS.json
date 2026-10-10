@@ -1,36 +1,36 @@
 {
-  "status": "WAITING_SEPTDA_50",
-  "active": "septda",
+  "status": "SUSPENDED_BY_USER_FOR_INTEGRATED_MODEL",
+  "active": null,
   "rows": [
     {
       "candidate": "septda",
       "completed": 26,
       "maximum": 50,
-      "status": "진행"
+      "status": "사용자 중지"
     },
     {
       "candidate": "ordered_context",
       "completed": 1,
       "maximum": 50,
-      "status": "대기"
+      "status": "통합 우선으로 보류"
     },
     {
       "candidate": "frozen_tf",
       "completed": 1,
       "maximum": 50,
-      "status": "대기"
+      "status": "통합 우선으로 보류"
     },
     {
       "candidate": "balanced_head",
       "completed": 0,
       "maximum": 50,
-      "status": "대기"
+      "status": "통합 우선으로 보류"
     },
     {
       "candidate": "wave_guard",
       "completed": 1,
       "maximum": 50,
-      "status": "대기"
+      "status": "통합 우선으로 보류"
     }
   ],
   "histories": {
@@ -7988,9 +7988,9 @@
       }
     ]
   },
-  "queue_pid": 1817233,
+  "queue_pid": null,
   "protocol_sha256": "911db1842f6dfe61dbd62666ad04d9ef35002a1312a0ffa8c803b06e9c12841e",
-  "time": 1791647155.026554,
+  "time": 1791647738.2146478,
   "heldout_read": false,
   "execution_order": [
     "septda",
@@ -8008,5 +8008,6 @@
   ],
   "execution_amendment_sha256": "8f67ac665023734e938936270143c147bde871d01f47b4169cd8bfe053056490",
   "execution_amendment": "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/five_candidates_20261010_v2/EXECUTION_ORDER_20261011.json",
-  "next_candidate": "ordered_context"
+  "next_candidate": "ordered_context",
+  "next_experiment": "integrated_20261011_v2"
 }

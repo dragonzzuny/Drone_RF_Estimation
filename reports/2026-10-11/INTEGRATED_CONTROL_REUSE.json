@@ -1,0 +1,190 @@
+{
+  "status": "SAVED_CONTROL_REUSE_VERIFIED",
+  "prior_run": "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/source_interaction_comparison_20261010_v1",
+  "new_run": "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/integrated_20261011_v2",
+  "prior_protocol_sha256": "9ee4368241677a78e2e617285d924faefea74519d3678c2502da86919957c02e",
+  "new_protocol_sha256": "a1e0802f40a1c523bb6c7fbd2d4cba7ec6780297a40754947b7dcd6e85ee1ec0",
+  "source_files_verified": 56,
+  "same_parent_data_seed_batch": true,
+  "same_development_references": true,
+  "matched_update_epochs": [
+    1,
+    2,
+    3
+  ],
+  "events": [
+    {
+      "epoch": 1,
+      "updates": 75,
+      "schedule": 1,
+      "validation": {
+        "epoch": 1,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.01933684823974167,
+            "mean_si_sdr": 23.818204615128376,
+            "mean_si_sdr_gain": null,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 1,
+            "weakest_nmse": 0.01933684823974167,
+            "all_sources_gain_positive": null,
+            "construction_count_accuracy": 0.7904761904761904
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.4889020210635982,
+            "mean_si_sdr": 3.3662167928026747,
+            "mean_si_sdr_gain": 3.30444211929602,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 0,
+            "weakest_nmse": 0.8134619666997887,
+            "all_sources_gain_positive": 0.5619047619047619,
+            "construction_count_accuracy": 0.32857142857142857
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.6996570459929582,
+            "mean_si_sdr": -3.517988285452999,
+            "mean_si_sdr_gain": 1.8431199739025448,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 0,
+            "weakest_nmse": 0.9527473766242237,
+            "all_sources_gain_positive": 0.44285714285714284,
+            "construction_count_accuracy": 0.23809523809523808
+          }
+        ],
+        "selection_nmse": 0.5942795335282782,
+        "two_three_nmse": 0.5942795335282782,
+        "independent_test": false,
+        "physical_aircraft_count": false,
+        "whole_record_tracking": false,
+        "legacy_all_count_nmse": 0.4026319717654327,
+        "native_center_offsets_preserved": true,
+        "reconstruction_target": "common-RF-band-limited recorded contributions, not complete raw records"
+      },
+      "epoch_sha256": "2d3464eff763fad582a7abb7e421efe79772251efd61a0962aa6a222fa3b1f0e",
+      "validation_sha256": "232b3fca26554ec92ef3794dc77cf904853f0c7a3b090dd31af571172371b84e"
+    },
+    {
+      "epoch": 2,
+      "updates": 150,
+      "schedule": 2,
+      "validation": {
+        "epoch": 2,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.01837112530636194,
+            "mean_si_sdr": 23.992629206235463,
+            "mean_si_sdr_gain": null,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 1,
+            "weakest_nmse": 0.01837112530636194,
+            "all_sources_gain_positive": null,
+            "construction_count_accuracy": 0.7714285714285715
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.48281545669545245,
+            "mean_si_sdr": 3.461859395918796,
+            "mean_si_sdr_gain": 3.4000847224121418,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 0,
+            "weakest_nmse": 0.8036298164510906,
+            "all_sources_gain_positive": 0.580952380952381,
+            "construction_count_accuracy": 0.3761904761904762
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.6914136278519228,
+            "mean_si_sdr": -3.413086122839029,
+            "mean_si_sdr_gain": 1.9480221365165142,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 0,
+            "weakest_nmse": 0.9531396166133418,
+            "all_sources_gain_positive": 0.4714285714285714,
+            "construction_count_accuracy": 0.21904761904761905
+          }
+        ],
+        "selection_nmse": 0.5871145422736876,
+        "two_three_nmse": 0.5871145422736876,
+        "independent_test": false,
+        "physical_aircraft_count": false,
+        "whole_record_tracking": false,
+        "legacy_all_count_nmse": 0.39753340328457903,
+        "native_center_offsets_preserved": true,
+        "reconstruction_target": "common-RF-band-limited recorded contributions, not complete raw records"
+      },
+      "epoch_sha256": "b0c76dafb2bd201f393382855fab7b1fb399099ba9a2c8e65e612c2015774d86",
+      "validation_sha256": "0d52ae74237269462bfeae60454f1358f075135ff0c561035072ea515ccc99fd"
+    },
+    {
+      "epoch": 3,
+      "updates": 225,
+      "schedule": 3,
+      "validation": {
+        "epoch": 3,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.01865937617464496,
+            "mean_si_sdr": 24.05840525151201,
+            "mean_si_sdr_gain": null,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 1,
+            "weakest_nmse": 0.01865937617464496,
+            "all_sources_gain_positive": null,
+            "construction_count_accuracy": 0.8
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.4900541012776598,
+            "mean_si_sdr": 3.4761572005125005,
+            "mean_si_sdr_gain": 3.414382527005846,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 0,
+            "weakest_nmse": 0.8159629914865488,
+            "all_sources_gain_positive": 0.580952380952381,
+            "construction_count_accuracy": 0.28095238095238095
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.6908277177786846,
+            "mean_si_sdr": -3.020374174654089,
+            "mean_si_sdr_gain": 2.3407340847014555,
+            "nonfinite_si_sdr": 0,
+            "nonfinite_si_sdr_gain": 0,
+            "weakest_nmse": 0.951582073693222,
+            "all_sources_gain_positive": 0.4857142857142857,
+            "construction_count_accuracy": 0.22380952380952382
+          }
+        ],
+        "selection_nmse": 0.5904409095281722,
+        "two_three_nmse": 0.5904409095281722,
+        "independent_test": false,
+        "physical_aircraft_count": false,
+        "whole_record_tracking": false,
+        "legacy_all_count_nmse": 0.39984706507699647,
+        "native_center_offsets_preserved": true,
+        "reconstruction_target": "common-RF-band-limited recorded contributions, not complete raw records"
+      },
+      "epoch_sha256": "fedb0bb49c6886ac627269091a5be2d74113f267c77611a04507e52890f539a4",
+      "validation_sha256": "8d0ac3f5169ffae83921b1391b665c5882fb4f435fbe0a2e5ffb8471fb950bfb"
+    }
+  ],
+  "new_control_training": false,
+  "limitation": "Historical same-update control, not a concurrent randomized comparison. Integrated architecture, freeze policy and per-group optimizer differ as intended. No matched control after3.",
+  "time": 1791648460.8919938,
+  "heldout_read": false,
+  "iq_payload_read": false
+}

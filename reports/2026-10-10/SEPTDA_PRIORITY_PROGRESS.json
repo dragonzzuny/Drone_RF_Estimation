@@ -1,6 +1,6 @@
 {
-  "status": "PARTIAL",
-  "active_arm": "septda",
+  "status": "STOPPED_BY_USER",
+  "active_arm": null,
   "completed_epochs": 26,
   "max_epochs": 50,
   "events": [
@@ -1106,5 +1106,9 @@
   "protocol_sha256": "b538a9477d4a6f1b99fb9ccef4880afdb04bb3795480404277ac393d1e4078da",
   "amendment_sha256": "ae1f75a0666ae10e7b2b986209ecf055d4eea3c7ae7f852c2402f6a004d8a664",
   "heldout_read": false,
-  "time": 1791646069.2536817
+  "time": 1791646069.2536817,
+  "partial_epoch_discarded": {
+    "epoch": 27,
+    "updates": 72
+  }
 }
