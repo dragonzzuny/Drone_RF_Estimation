@@ -1,0 +1,197 @@
+{
+  "input_sha256": "0fcad2fe4cc735547449bbd58c53fe12fc86366ced8662b631c8f0ce01d0633a",
+  "formula": "q / (abs(a)^2 + q); q is error energy orthogonal to target, normalized by target energy",
+  "scope": "reference-assisted constant complex gain, not deployable calibration",
+  "rows": [
+    {
+      "arm": "parent",
+      "index": 4,
+      "source": 0,
+      "count": 2,
+      "nmse": 0.18263869858661,
+      "reference_assisted_optimal_complex_gain_nmse": 0.16595284823463072
+    },
+    {
+      "arm": "parent",
+      "index": 4,
+      "source": 1,
+      "count": 2,
+      "nmse": 0.23547407031868525,
+      "reference_assisted_optimal_complex_gain_nmse": 0.01298488012627832
+    },
+    {
+      "arm": "parent",
+      "index": 5,
+      "source": 0,
+      "count": 2,
+      "nmse": 0.016707683768497197,
+      "reference_assisted_optimal_complex_gain_nmse": 0.016298524177718265
+    },
+    {
+      "arm": "parent",
+      "index": 5,
+      "source": 1,
+      "count": 2,
+      "nmse": 0.31034119867230753,
+      "reference_assisted_optimal_complex_gain_nmse": 0.2925534102159453
+    },
+    {
+      "arm": "parent",
+      "index": 2,
+      "source": 0,
+      "count": 3,
+      "nmse": 0.632697481490171,
+      "reference_assisted_optimal_complex_gain_nmse": 0.6216794125292777
+    },
+    {
+      "arm": "parent",
+      "index": 2,
+      "source": 1,
+      "count": 3,
+      "nmse": 0.4004252204625129,
+      "reference_assisted_optimal_complex_gain_nmse": 0.34673255785506096
+    },
+    {
+      "arm": "parent",
+      "index": 2,
+      "source": 2,
+      "count": 3,
+      "nmse": 1.0031846466053937,
+      "reference_assisted_optimal_complex_gain_nmse": 0.9996191884085988
+    },
+    {
+      "arm": "parent",
+      "index": 11,
+      "source": 0,
+      "count": 3,
+      "nmse": 0.5133180679074099,
+      "reference_assisted_optimal_complex_gain_nmse": 0.490012809878905
+    },
+    {
+      "arm": "parent",
+      "index": 11,
+      "source": 1,
+      "count": 3,
+      "nmse": 0.9792922258490515,
+      "reference_assisted_optimal_complex_gain_nmse": 0.9414808358675176
+    },
+    {
+      "arm": "parent",
+      "index": 11,
+      "source": 2,
+      "count": 3,
+      "nmse": 0.04462464409988561,
+      "reference_assisted_optimal_complex_gain_nmse": 0.04453851435865638
+    },
+    {
+      "arm": "fit256",
+      "index": 4,
+      "source": 0,
+      "count": 2,
+      "nmse": 0.006986117400755806,
+      "reference_assisted_optimal_complex_gain_nmse": 0.0069068077619751055
+    },
+    {
+      "arm": "fit256",
+      "index": 4,
+      "source": 1,
+      "count": 2,
+      "nmse": 0.00887059942757489,
+      "reference_assisted_optimal_complex_gain_nmse": 0.007297140215000681
+    },
+    {
+      "arm": "fit256",
+      "index": 5,
+      "source": 0,
+      "count": 2,
+      "nmse": 0.00614611434704962,
+      "reference_assisted_optimal_complex_gain_nmse": 0.005958854267137747
+    },
+    {
+      "arm": "fit256",
+      "index": 5,
+      "source": 1,
+      "count": 2,
+      "nmse": 0.08902572456752006,
+      "reference_assisted_optimal_complex_gain_nmse": 0.08872304727382932
+    },
+    {
+      "arm": "fit256",
+      "index": 2,
+      "source": 0,
+      "count": 3,
+      "nmse": 0.16130730572638763,
+      "reference_assisted_optimal_complex_gain_nmse": 0.16096638321490128
+    },
+    {
+      "arm": "fit256",
+      "index": 2,
+      "source": 1,
+      "count": 3,
+      "nmse": 0.11580399909511442,
+      "reference_assisted_optimal_complex_gain_nmse": 0.11577965642560666
+    },
+    {
+      "arm": "fit256",
+      "index": 2,
+      "source": 2,
+      "count": 3,
+      "nmse": 0.2937553512670571,
+      "reference_assisted_optimal_complex_gain_nmse": 0.2926916347615014
+    },
+    {
+      "arm": "fit256",
+      "index": 11,
+      "source": 0,
+      "count": 3,
+      "nmse": 0.2698359613369722,
+      "reference_assisted_optimal_complex_gain_nmse": 0.2668205112004055
+    },
+    {
+      "arm": "fit256",
+      "index": 11,
+      "source": 1,
+      "count": 3,
+      "nmse": 0.3039279013115732,
+      "reference_assisted_optimal_complex_gain_nmse": 0.30280698692177854
+    },
+    {
+      "arm": "fit256",
+      "index": 11,
+      "source": 2,
+      "count": 3,
+      "nmse": 0.022669451948406076,
+      "reference_assisted_optimal_complex_gain_nmse": 0.02227288625247786
+    }
+  ],
+  "groups": [
+    {
+      "arm": "parent",
+      "count": 2,
+      "sources": 4,
+      "mean_nmse": 0.18629041283652498,
+      "oracle_gain_mean_nmse": 0.12194741568864315
+    },
+    {
+      "arm": "parent",
+      "count": 3,
+      "sources": 6,
+      "mean_nmse": 0.5955903810690707,
+      "oracle_gain_mean_nmse": 0.5740105531496694
+    },
+    {
+      "arm": "fit256",
+      "count": 2,
+      "sources": 4,
+      "mean_nmse": 0.027757138935725095,
+      "oracle_gain_mean_nmse": 0.027221462379485716
+    },
+    {
+      "arm": "fit256",
+      "count": 3,
+      "sources": 6,
+      "mean_nmse": 0.19454999511425178,
+      "oracle_gain_mean_nmse": 0.19355634312944522
+    }
+  ]
+}
