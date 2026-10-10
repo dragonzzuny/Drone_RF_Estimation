@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "in-progress recovery checkpoint; no completed epoch or new validation result",
+  "epoch": 1,
+  "updates": 15,
+  "examples": 480,
+  "changed_tensors": 131,
+  "total_tensors": 131,
+  "finite_model_and_optimizer": true,
+  "optimizer_steps_consistent": true,
+  "partial_epoch_receipts_consistent": true,
+  "rng_present": true,
+  "checkpoint_sha256": "08b377fe5072613f1d08b92571c08c5afdcc2386ae8da27867469b28ed440207",
+  "protocol_sha256": "584c2ab7bd4558469d94babfe8313301a2165f8c02294392b2018437568a20c6",
+  "initial_audit_attempt_failure": "hashlib.file_digest unavailable in Python3.10; failed before checkpoint reading; retried with streaming sha256",
+  "heldout_read": false,
+  "time": 1791669892.1986082
+}

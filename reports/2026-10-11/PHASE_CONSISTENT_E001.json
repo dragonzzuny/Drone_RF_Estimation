@@ -1,0 +1,252 @@
+{
+  "epoch": 1,
+  "updates": 75,
+  "training": {
+    "epoch": 1,
+    "schedule": 1,
+    "updates": 75,
+    "examples": 2400,
+    "counts": [
+      800,
+      800,
+      800
+    ],
+    "seconds": 6706.0182847976685,
+    "mean_loss": {
+      "waveform": 0.55139444892754,
+      "consistency": 0.008484476679353368,
+      "count": 0.8836219351385565,
+      "total": 0.6406050912330586
+    },
+    "gradient_norms": [
+      1.4020932912826538,
+      1.758392333984375,
+      1.5604112148284912,
+      12.707771301269531,
+      3.6726129055023193,
+      1.124459147453308,
+      1.9418001174926758,
+      1.5631242990493774,
+      2.7228598594665527,
+      3.7851173877716064,
+      1.1712374687194824,
+      1.0671658515930176,
+      6.903165817260742,
+      1.548173189163208,
+      1.303921103477478,
+      0.9940050840377808,
+      10.388513565063477,
+      1.4496365785598755,
+      8.507473945617676,
+      68.93108367919922,
+      1.7286573648452759,
+      4.107288837432861,
+      1.0759086608886719,
+      3.2157654762268066,
+      1.7922918796539307,
+      1.9781825542449951,
+      2.1768481731414795,
+      1.5041730403900146,
+      4.72390604019165,
+      1.7041568756103516,
+      1.5636550188064575,
+      1.8080580234527588,
+      3.1448428630828857,
+      1.2747571468353271,
+      1.4132840633392334,
+      1.8004158735275269,
+      1.5712506771087646,
+      11.45897102355957,
+      1.8950316905975342,
+      2.0840203762054443,
+      7.462346076965332,
+      1.0239313840866089,
+      1.7023581266403198,
+      1.2363165616989136,
+      2.6820476055145264,
+      1.6046535968780518,
+      2.8038101196289062,
+      1.5894185304641724,
+      2.933212995529175,
+      1.3770509958267212,
+      3.3027334213256836,
+      6.782001495361328,
+      3.9446513652801514,
+      9.567989349365234,
+      2.015886068344116,
+      10.412541389465332,
+      2.700239658355713,
+      1.22287917137146,
+      13.234800338745117,
+      1.418020486831665,
+      1.016486644744873,
+      1.857950210571289,
+      1.1286386251449585,
+      2.1093943119049072,
+      2.0081675052642822,
+      3.9472105503082275,
+      0.8954905271530151,
+      0.7734642624855042,
+      3.9011435508728027,
+      1.2827907800674438,
+      2.926265239715576,
+      2.338407516479492,
+      5.367183208465576,
+      2.17795729637146,
+      1.4734508991241455
+    ],
+    "peak_gpu_bytes": 2490687488,
+    "protocol_sha256": "584c2ab7bd4558469d94babfe8313301a2165f8c02294392b2018437568a20c6"
+  },
+  "single": {
+    "epoch": 1,
+    "by_count": [
+      {
+        "count": 1,
+        "cases": 210,
+        "mean_nmse": 0.026321335051615505,
+        "median_nmse": 0.00835289271387469,
+        "mean_si_sdr": 21.766089045640637,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.026321335051615505,
+        "construction_count_accuracy": 0.780952380952381
+      },
+      {
+        "count": 2,
+        "cases": 210,
+        "mean_nmse": 0.4698716706379637,
+        "median_nmse": 0.40238996408474526,
+        "mean_si_sdr": 3.7975888907188757,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.782769251358256,
+        "construction_count_accuracy": 0.2761904761904762
+      },
+      {
+        "count": 3,
+        "cases": 210,
+        "mean_nmse": 0.6916872185221871,
+        "median_nmse": 0.7608078336453072,
+        "mean_si_sdr": -3.057868444090402,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.9495506656387328,
+        "construction_count_accuracy": 0.319047619047619
+      }
+    ],
+    "selection_nmse": 0.5807794445800754,
+    "independent_test": false,
+    "physical_aircraft_count": false
+  },
+  "eight": {
+    "epoch": 1,
+    "by_count": [
+      {
+        "count": 1,
+        "cases": 210,
+        "mean_nmse": 0.02609442093100859,
+        "median_nmse": 0.008121360746616787,
+        "mean_si_sdr": 22.30840630659517,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.02609442093100859,
+        "construction_count_accuracy": 0.780952380952381
+      },
+      {
+        "count": 2,
+        "cases": 210,
+        "mean_nmse": 0.4476805923420968,
+        "median_nmse": 0.4021262165858702,
+        "mean_si_sdr": 4.269157641652345,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.7387130539365719,
+        "construction_count_accuracy": 0.2761904761904762
+      },
+      {
+        "count": 3,
+        "cases": 210,
+        "mean_nmse": 0.6905085488207594,
+        "median_nmse": 0.7601585101995523,
+        "mean_si_sdr": -2.6977810012444956,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.9470951436576386,
+        "construction_count_accuracy": 0.319047619047619
+      }
+    ],
+    "selection_nmse": 0.5690945705814281,
+    "independent_test": false,
+    "physical_aircraft_count": false
+  },
+  "diagnostic": {
+    "mean_consistency": 0.00558407923018667,
+    "mean_waveform_objective": 0.6164731720577471,
+    "note": "Reference-normalized diagnostic; targets used only after mixture-only forward"
+  },
+  "baseline_diagnostic": {
+    "mean_consistency": 0.0055105908719443025,
+    "mean_waveform_objective": 0.6153005801792403,
+    "note": "Reference-normalized diagnostic; targets used only after mixture-only forward"
+  },
+  "preceding_epoch": {
+    "epoch": 0,
+    "by_count": [
+      {
+        "count": 1,
+        "cases": 210,
+        "mean_nmse": 0.027365086980576128,
+        "median_nmse": 0.009452655014562428,
+        "mean_si_sdr": 21.84324071504541,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.027365086980576128,
+        "construction_count_accuracy": 0.7571428571428571
+      },
+      {
+        "count": 2,
+        "cases": 210,
+        "mean_nmse": 0.44460113563431586,
+        "median_nmse": 0.40004825023034435,
+        "mean_si_sdr": 4.249089139909562,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.7343158631335248,
+        "construction_count_accuracy": 0.2761904761904762
+      },
+      {
+        "count": 3,
+        "cases": 210,
+        "mean_nmse": 0.6889476041665019,
+        "median_nmse": 0.7531907581694455,
+        "mean_si_sdr": -2.735626522965516,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.9486435775016646,
+        "construction_count_accuracy": 0.3238095238095238
+      }
+    ],
+    "selection_nmse": 0.5667743699004089,
+    "independent_test": false,
+    "physical_aircraft_count": false
+  },
+  "candidate": false,
+  "checks": [
+    {
+      "count": 2,
+      "nmse": false,
+      "si": true,
+      "weak": false
+    },
+    {
+      "count": 3,
+      "nmse": false,
+      "si": true,
+      "weak": true
+    }
+  ],
+  "selected_this_epoch": false,
+  "best": {
+    "epoch": 0,
+    "metric": 0.5667743699004089
+  },
+  "evaluation_seconds": 344.4485938549042,
+  "protocol_sha256": "584c2ab7bd4558469d94babfe8313301a2165f8c02294392b2018437568a20c6",
+  "checkpoint_sha256": "8ef564f3712c53c2d54eed971686a97d0e32ecfedcf8c004a37efa5b435cca01",
+  "heldout_read": false,
+  "independent_test": false,
+  "audit_status": "PENDING",
+  "incumbent_replaced": false
+}

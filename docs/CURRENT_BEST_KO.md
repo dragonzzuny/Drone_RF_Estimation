@@ -25,6 +25,12 @@
 실패해 중지했다. TF-GridNet 전체/출력층 적응 실패도 보존한다.
 TF64의4위상 개선은 TRAIN30의 진단이므로 위 DEV 표와 직접 비교하지 않는다.
 
+후속8위상 평균·일관성 추가학습의e1도 전체DEV630과CPU 감사를 마쳤다.
+복소SI-SDR2/3는 개선했지만 NMSE2/3 및 두 성분 최약NMSE가 악화하여
+현재 최선을 대체하지 않았다.위상별 출력 불일치도 감소하지 않았다.
+등록한10epoch 학습은 진행 중이며,이 한epoch로 방법의 최종 한계를
+단정하지 않는다.[추가e1 결과](../reports/2026-10-11/PHASE_CONSISTENT_E001_KO.md).
+
 [선택 manifest](../reports/2026-10-11/CURRENT_BEST_SELECTION.json) ·
 [8위상 전체 결과](../reports/2026-10-11/PHASE_EIGHT_RESULT_KO.md) ·
 [시간 경로 결과](../reports/2026-10-11/ORDERED_BRANCH_RESULT_KO.md) ·
