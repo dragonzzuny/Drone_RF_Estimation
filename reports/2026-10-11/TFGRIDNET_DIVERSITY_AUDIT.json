@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "added_updates": 32,
+  "total_updates": 96,
+  "parameters": 9004297,
+  "per_block_parameter_change_since_update64_l2": {
+    "0": 1.4563328494228613,
+    "1": 1.3576997505541073,
+    "2": 1.3210233636999553,
+    "3": 1.5331956942390748,
+    "4": 1.480968374361153,
+    "5": 1.5498760726117335
+  },
+  "summaries_recomputed": true,
+  "decision_recomputed": true,
+  "indices_disjoint": true,
+  "probe_improvement_candidate": false,
+  "maximum_sum_relative_error": 7.521139797735864e-13,
+  "checkpoint_sha256": "8c7e4e8e7bab282e221d7306dc915d26ecbece46610ad203e72af88f757d4257",
+  "protocol_sha256": "5ec98b1cd063ec6d9115703a6c3f244ca3843d42e006f08c786c346f27881473",
+  "audit_source_sha256": "18551543477f2a8000de4b624ca9fad4aea476b5382d426c5632ce874d4d2942",
+  "independent_full_length_cpu_inference": false,
+  "optimizer_updates": 0,
+  "validation_read": false,
+  "heldout_read": false,
+  "time": 1791658283.8413463
+}

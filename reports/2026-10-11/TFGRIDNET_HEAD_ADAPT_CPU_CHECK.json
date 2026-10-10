@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "parameters": 9004297,
+  "training_parameters": 9224,
+  "changed_names": [
+    "deconv.weight",
+    "deconv.bias"
+  ],
+  "frozen_optimizer_steps": 64,
+  "head_optimizer_steps": 65,
+  "synthetic_latent_unit_check_only": true,
+  "model_capacity_reduced": false,
+  "waveform_inference": false,
+  "training_run_started": false,
+  "checkpoint_written": false,
+  "validation_read": false,
+  "heldout_read": false,
+  "parent_checkpoint_sha256": "d0785c79ff4c650ccb86ad9a182944a423106494b6b000ba6b504f8cc93042d9",
+  "source_sha256": {
+    "experiments/fit_monitor_20261011/check_head_adapt.py": "0f54cca3c996d908eb5f43c58be6d2b0efecd677fa96cc5c5cb25ee949c2244e",
+    "experiments/fit_monitor_20261011/head_adapt.py": "7a5dad220c10af5120425d82b23cc74a861300fa5c6b93ce0e9fbcb3bd5de71e"
+  }
+}

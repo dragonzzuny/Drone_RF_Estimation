@@ -22,7 +22,7 @@
 
 CPU 감사는 PASS이며, optimizer64단계·32회 이후 모든6블록의 가중치 변화·모든 저장점 집계·선택/중지 판정을 확인했다. 마지막/선택 체크포인트 SHA-256은 `d0785c79ff4c650ccb86ad9a182944a423106494b6b000ba6b504f8cc93042d9`다. CPU 전체 파형 재추론을 수행한 감사는 아니며, 후속 GPU 적용 검사에서 학습4혼합 파형 지표를 다시 대조한다.
 
-32회 모델의 배경 배정 검사를 완료했고,64회 선택 모델의 고정4혼합 밖 적용 검사를 이어간다. 새 기종·대역과 같은 기종의 다른 혼합을 분리해 해석한다. DEV·보류 I/Q는 열지 않았고, 실제 동시 수신·드론 식별·물리 드론 대수 추정 성과도 아니다.
+32회 모델의 배경 배정 검사와64회 선택 모델의 고정4혼합 밖 적용 검사를 완료했다. 바깥32혼합의 NMSE2/3는1.007672/10.509555로, 네 혼합의 적합 개선이 그대로 유지되지 않았다. [후속 적용 결과](TFGRIDNET_OUTSIDE_FIT_RESULT_KO.md). 새 기종·대역과 같은 기종의 다른 혼합을 분리해 해석한다. DEV·보류 I/Q는 열지 않았고, 실제 동시 수신·드론 식별·물리 드론 대수 추정 성과도 아니다.
 
 [모든 수치](TFGRIDNET_CONTINUATION_RESULT.json), [감사](TFGRIDNET_CONTINUATION_AUDIT.json), [실행 전 규약](TFGRIDNET_CONTINUATION_PLAN_KO.md), [배정 진단](TFGRIDNET_ROUTING_RESULT_KO.md), [고정 혼합 밖 규약](TFGRIDNET_OUTSIDE_FIT_PLAN_KO.md).
 
