@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "updates": 32,
+  "parameters": 9004297,
+  "per_block_parameter_change_l2": {
+    "0": 4.676085932124316,
+    "1": 4.111929366981485,
+    "2": 4.040755964473049,
+    "3": 3.9429112118736884,
+    "4": 3.7162758178828343,
+    "5": 3.690263420720716
+  },
+  "all_receipt_summaries_recomputed": true,
+  "maximum_sum_relative_error": 6.874648817384819e-13,
+  "checkpoint_sha256": "b6f5b052666a0584d9d4291b78de83b9aca6845f7e45696dcb109761f8a15bac",
+  "protocol_sha256": "9d486efc0f8a4a7b0e7eff18581089cfcc29b7044d142318006e78ea4d0e2fc7",
+  "audit_source_sha256": "bbcc7ab934060b3f49417a3378f04d0168c561f280df7b174ae7c06387de8248",
+  "independent_full_length_cpu_inference": false,
+  "optimizer_updates": 0,
+  "validation_read": false,
+  "heldout_read": false,
+  "time": 1791653788.8453817
+}

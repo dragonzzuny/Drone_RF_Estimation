@@ -1,0 +1,10 @@
+{
+  "status": "FAILED_SYSTEM_OOM",
+  "pid": 1970409,
+  "stage": "PROFILING_BASELINE",
+  "time": 1791654071.142026,
+  "evidence": "Kernel 2026-10-11 02:40:12 KST: Out of memory: Killed process 1970409 (python); anon-rss 6307612 kB.",
+  "training_checkpoint_changed": false,
+  "timing_results_available": false,
+  "action": "Preserve v1; replace unbounded operator trace with bounded phase timing in separately registered v2."
+}

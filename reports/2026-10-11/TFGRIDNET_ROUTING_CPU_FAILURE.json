@@ -1,0 +1,9 @@
+{
+  "traceback": "Traceback (most recent call last):\n  File \"/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/fit_monitor_20261011/routing.py\", line 74, in <module>\n    try:main()\n  File \"/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/fit_monitor_20261011/routing.py\", line 47, in main\n    np.testing.assert_allclose(original['nmse'],prior['nmse'],rtol=1e-5,atol=1e-6)\n  File \"/home/pyj/anaconda3/lib/python3.10/site-packages/numpy/testing/_private/utils.py\", line 1715, in assert_allclose\n    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),\n  File \"/home/pyj/anaconda3/lib/python3.10/site-packages/numpy/testing/_private/utils.py\", line 921, in assert_array_compare\n    raise AssertionError(msg)\nAssertionError: \nNot equal to tolerance rtol=1e-05, atol=1e-06\n\nMismatched elements: 2 / 2 (100%)\nMax absolute difference among violations: 7.53314612e-06\nMax relative difference among violations: 2.89423541e-05\n ACTUAL: array([0.24817 , 0.260936])\n DESIRED: array([0.248177, 0.260943])\n",
+  "time": 1791654615.033604,
+  "status": "CPU_REPRODUCTION_TOLERANCE_FAILED",
+  "maximum_observed_nmse_difference": 7.53314612e-06,
+  "threshold_changed": false,
+  "completed_cases": 0,
+  "action": "Preserve CPU failure; queue same four-case diagnosis on original GPU backend after active training releases lock."
+}

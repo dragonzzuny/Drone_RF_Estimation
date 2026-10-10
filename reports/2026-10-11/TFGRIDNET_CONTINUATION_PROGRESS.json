@@ -1,0 +1,539 @@
+{
+  "status": "TRAIN_DIAGNOSIS",
+  "updates": 40,
+  "history": [
+    {
+      "step": 32,
+      "rows": [
+        {
+          "index": 4,
+          "count": 2,
+          "categories": [
+            "DJI FPV COMBO",
+            "DJI MAVIC3 PRO"
+          ],
+          "pack_ids": [
+            "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+            "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml"
+          ],
+          "reference_power": [
+            0.22920438514845085,
+            0.2576359357709767
+          ],
+          "nmse": [
+            0.24817676764539848,
+            0.26094312930904345
+          ],
+          "si_sdr": [
+            4.852199861280943,
+            5.8037435815607905
+          ],
+          "weakest_index": 0,
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "sum_relative_error": 5.226303010943248e-13,
+          "predicted_count": 2
+        },
+        {
+          "index": 5,
+          "count": 2,
+          "categories": [
+            "DJI AVATA2",
+            "DJI MAVIC3 PRO"
+          ],
+          "pack_ids": [
+            "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+            "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml"
+          ],
+          "reference_power": [
+            2.7584760524276057,
+            0.1296636758285785
+          ],
+          "nmse": [
+            0.041326056338173524,
+            0.2587454437319586
+          ],
+          "si_sdr": [
+            13.656323181457248,
+            4.594856006461833
+          ],
+          "weakest_index": 1,
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "sum_relative_error": 4.881317383671742e-13,
+          "predicted_count": 2
+        },
+        {
+          "index": 2,
+          "count": 3,
+          "categories": [
+            "DJI AVATA2",
+            "DJI FPV COMBO",
+            "DJI MAVIC3 PRO"
+          ],
+          "pack_ids": [
+            "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+            "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+            "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml"
+          ],
+          "reference_power": [
+            0.21366361689242827,
+            0.41493681321210335,
+            0.08442038825742744
+          ],
+          "nmse": [
+            0.2526307304105779,
+            0.2801018764086917,
+            1.1068180397046938
+          ],
+          "si_sdr": [
+            5.971217382897232,
+            4.322823200572397,
+            -14.93224382777537
+          ],
+          "weakest_index": 2,
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "sum_relative_error": 4.4284686667195053e-13,
+          "predicted_count": 3
+        },
+        {
+          "index": 11,
+          "count": 3,
+          "categories": [
+            "DJI AVATA2",
+            "DJI FPV COMBO",
+            "DJI MAVIC3 PRO"
+          ],
+          "pack_ids": [
+            "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+            "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+            "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml"
+          ],
+          "reference_power": [
+            0.18304307747426532,
+            0.07667503672516876,
+            1.5836823299638492
+          ],
+          "nmse": [
+            0.4224662217734316,
+            0.7031067983393504,
+            0.0445532085903759
+          ],
+          "si_sdr": [
+            1.9796696141960362,
+            -2.976107218043585,
+            13.380532460014742
+          ],
+          "weakest_index": 1,
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "sum_relative_error": 4.848641347456038e-13,
+          "predicted_count": 3
+        }
+      ],
+      "by_count": [
+        {
+          "count": 2,
+          "cases": 2,
+          "mean_nmse": 0.20229784925614352,
+          "mean_si_sdr": 7.226780657690203,
+          "weakest_nmse": 0.2534611056886785,
+          "max_source_nmse": 0.26094312930904345
+        },
+        {
+          "count": 3,
+          "cases": 2,
+          "mean_nmse": 0.46827947920452023,
+          "mean_si_sdr": 1.2909819353102423,
+          "weakest_nmse": 0.9049624190220221,
+          "max_source_nmse": 1.1068180397046938
+        }
+      ],
+      "all_sources_below_005": false,
+      "seconds": 13.36296796798706,
+      "checkpoint_sha256": "b6f5b052666a0584d9d4291b78de83b9aca6845f7e45696dcb109761f8a15bac",
+      "checkpoint": "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/tfgridnet_fit_20261011_v1/LAST.pt"
+    },
+    {
+      "step": 40,
+      "rows": [
+        {
+          "index": 4,
+          "count": 2,
+          "categories": [
+            "DJI FPV COMBO",
+            "DJI MAVIC3 PRO"
+          ],
+          "pack_ids": [
+            "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+            "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml"
+          ],
+          "reference_power": [
+            0.22920438514845085,
+            0.2576359357709767
+          ],
+          "nmse": [
+            0.18879460802325887,
+            0.18177991165353166
+          ],
+          "si_sdr": [
+            6.695923873306434,
+            6.937752892083193
+          ],
+          "weakest_index": 0,
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "sum_relative_error": 5.236800237088467e-13,
+          "predicted_count": 2
+        },
+        {
+          "index": 5,
+          "count": 2,
+          "categories": [
+            "DJI AVATA2",
+            "DJI MAVIC3 PRO"
+          ],
+          "pack_ids": [
+            "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+            "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml"
+          ],
+          "reference_power": [
+            2.7584760524276057,
+            0.1296636758285785
+          ],
+          "nmse": [
+            0.03525116095256439,
+            0.2196228934473345
+          ],
+          "si_sdr": [
+            14.46937473085917,
+            5.585917034601734
+          ],
+          "weakest_index": 1,
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "sum_relative_error": 5.016589567172696e-13,
+          "predicted_count": 2
+        },
+        {
+          "index": 2,
+          "count": 3,
+          "categories": [
+            "DJI AVATA2",
+            "DJI FPV COMBO",
+            "DJI MAVIC3 PRO"
+          ],
+          "pack_ids": [
+            "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+            "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+            "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml"
+          ],
+          "reference_power": [
+            0.21366361689242827,
+            0.41493681321210335,
+            0.08442038825742744
+          ],
+          "nmse": [
+            0.21106796374947662,
+            0.2489146895830909,
+            0.9650289005809233
+          ],
+          "si_sdr": [
+            6.2451393152220955,
+            5.048429369059438,
+            -10.752870307148408
+          ],
+          "weakest_index": 2,
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "sum_relative_error": 4.591752831902469e-13,
+          "predicted_count": 3
+        },
+        {
+          "index": 11,
+          "count": 3,
+          "categories": [
+            "DJI AVATA2",
+            "DJI FPV COMBO",
+            "DJI MAVIC3 PRO"
+          ],
+          "pack_ids": [
+            "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+            "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+            "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml"
+          ],
+          "reference_power": [
+            0.18304307747426532,
+            0.07667503672516876,
+            1.5836823299638492
+          ],
+          "nmse": [
+            0.3848840595671634,
+            0.6216274870574323,
+            0.038249892805832963
+          ],
+          "si_sdr": [
+            2.303723165254774,
+            -1.0442051790913118,
+            14.016067968152626
+          ],
+          "weakest_index": 1,
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "sum_relative_error": 4.821607491627297e-13,
+          "predicted_count": 3
+        }
+      ],
+      "by_count": [
+        {
+          "count": 2,
+          "cases": 2,
+          "mean_nmse": 0.15636214351917238,
+          "mean_si_sdr": 8.422242132712633,
+          "weakest_nmse": 0.20420875073529668,
+          "max_source_nmse": 0.2196228934473345
+        },
+        {
+          "count": 3,
+          "cases": 2,
+          "mean_nmse": 0.41162883222398655,
+          "mean_si_sdr": 2.636047388574869,
+          "weakest_nmse": 0.7933281938191779,
+          "max_source_nmse": 0.9650289005809233
+        }
+      ],
+      "all_sources_below_005": false,
+      "seconds": 409.1231532096863,
+      "training_loss": 0.5087262354791164,
+      "gradient_norm_before_clip": 3.759890079498291,
+      "checkpoint_sha256": "6aeb2499d1072c2f61736000999101525003d3d3380ff02280f025db4e127739",
+      "checkpoint": "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/tfgridnet_continuation_20261011_v1/LAST.pt",
+      "continuation_pass": true,
+      "checks": [
+        {
+          "count": 2,
+          "nmse": true,
+          "si": true,
+          "weak": true
+        },
+        {
+          "count": 3,
+          "nmse": true,
+          "si": true,
+          "weak": true
+        }
+      ]
+    }
+  ],
+  "selected": {
+    "step": 40,
+    "rows": [
+      {
+        "index": 4,
+        "count": 2,
+        "categories": [
+          "DJI FPV COMBO",
+          "DJI MAVIC3 PRO"
+        ],
+        "pack_ids": [
+          "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+          "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml"
+        ],
+        "reference_power": [
+          0.22920438514845085,
+          0.2576359357709767
+        ],
+        "nmse": [
+          0.18879460802325887,
+          0.18177991165353166
+        ],
+        "si_sdr": [
+          6.695923873306434,
+          6.937752892083193
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 5.236800237088467e-13,
+        "predicted_count": 2
+      },
+      {
+        "index": 5,
+        "count": 2,
+        "categories": [
+          "DJI AVATA2",
+          "DJI MAVIC3 PRO"
+        ],
+        "pack_ids": [
+          "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+          "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml"
+        ],
+        "reference_power": [
+          2.7584760524276057,
+          0.1296636758285785
+        ],
+        "nmse": [
+          0.03525116095256439,
+          0.2196228934473345
+        ],
+        "si_sdr": [
+          14.46937473085917,
+          5.585917034601734
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 5.016589567172696e-13,
+        "predicted_count": 2
+      },
+      {
+        "index": 2,
+        "count": 3,
+        "categories": [
+          "DJI AVATA2",
+          "DJI FPV COMBO",
+          "DJI MAVIC3 PRO"
+        ],
+        "pack_ids": [
+          "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+          "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+          "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml"
+        ],
+        "reference_power": [
+          0.21366361689242827,
+          0.41493681321210335,
+          0.08442038825742744
+        ],
+        "nmse": [
+          0.21106796374947662,
+          0.2489146895830909,
+          0.9650289005809233
+        ],
+        "si_sdr": [
+          6.2451393152220955,
+          5.048429369059438,
+          -10.752870307148408
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 4.591752831902469e-13,
+        "predicted_count": 3
+      },
+      {
+        "index": 11,
+        "count": 3,
+        "categories": [
+          "DJI AVATA2",
+          "DJI FPV COMBO",
+          "DJI MAVIC3 PRO"
+        ],
+        "pack_ids": [
+          "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+          "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+          "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml"
+        ],
+        "reference_power": [
+          0.18304307747426532,
+          0.07667503672516876,
+          1.5836823299638492
+        ],
+        "nmse": [
+          0.3848840595671634,
+          0.6216274870574323,
+          0.038249892805832963
+        ],
+        "si_sdr": [
+          2.303723165254774,
+          -1.0442051790913118,
+          14.016067968152626
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          1,
+          0,
+          2
+        ],
+        "sum_relative_error": 4.821607491627297e-13,
+        "predicted_count": 3
+      }
+    ],
+    "by_count": [
+      {
+        "count": 2,
+        "cases": 2,
+        "mean_nmse": 0.15636214351917238,
+        "mean_si_sdr": 8.422242132712633,
+        "weakest_nmse": 0.20420875073529668,
+        "max_source_nmse": 0.2196228934473345
+      },
+      {
+        "count": 3,
+        "cases": 2,
+        "mean_nmse": 0.41162883222398655,
+        "mean_si_sdr": 2.636047388574869,
+        "weakest_nmse": 0.7933281938191779,
+        "max_source_nmse": 0.9650289005809233
+      }
+    ],
+    "all_sources_below_005": false,
+    "seconds": 409.1231532096863,
+    "training_loss": 0.5087262354791164,
+    "gradient_norm_before_clip": 3.759890079498291,
+    "checkpoint_sha256": "6aeb2499d1072c2f61736000999101525003d3d3380ff02280f025db4e127739",
+    "checkpoint": "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/tfgridnet_continuation_20261011_v1/SELECTED.pt",
+    "continuation_pass": true,
+    "checks": [
+      {
+        "count": 2,
+        "nmse": true,
+        "si": true,
+        "weak": true
+      },
+      {
+        "count": 3,
+        "nmse": true,
+        "si": true,
+        "weak": true
+      }
+    ]
+  },
+  "protocol_sha256": "946041007b6c3e7839afbc3cd85d6c902c7536f647bcefe33e8a6e52c90e1722",
+  "validation_read": false,
+  "heldout_read": false,
+  "incumbent_replaced": false
+}
