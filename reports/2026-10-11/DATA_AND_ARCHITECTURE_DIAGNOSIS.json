@@ -1,0 +1,222 @@
+{
+  "status": "COMPLETE_CHECKED",
+  "train6_endpoint": [
+    {
+      "mode": "branch_bypassed",
+      "count": 1,
+      "cases": 2,
+      "nmse": 0.031616115861685584,
+      "si_sdr": 20.16754301910408
+    },
+    {
+      "mode": "branch_bypassed",
+      "count": 2,
+      "cases": 2,
+      "nmse": 0.13740045339176435,
+      "si_sdr": 12.776853357708767
+    },
+    {
+      "mode": "branch_bypassed",
+      "count": 3,
+      "cases": 2,
+      "nmse": 0.5599678324988475,
+      "si_sdr": -1.772290213383292
+    },
+    {
+      "mode": "full",
+      "count": 1,
+      "cases": 2,
+      "nmse": 0.03171733134392065,
+      "si_sdr": 20.078954155891473
+    },
+    {
+      "mode": "full",
+      "count": 2,
+      "cases": 2,
+      "nmse": 0.13582840806137259,
+      "si_sdr": 12.80421339337678
+    },
+    {
+      "mode": "full",
+      "count": 3,
+      "cases": 2,
+      "nmse": 0.5603926897716307,
+      "si_sdr": -2.004236137544011
+    },
+    {
+      "mode": "parent/e0",
+      "count": 1,
+      "cases": 2,
+      "nmse": 0.0580071603329968,
+      "si_sdr": 13.999058143809192
+    },
+    {
+      "mode": "parent/e0",
+      "count": 2,
+      "cases": 2,
+      "nmse": 0.18629041283652495,
+      "si_sdr": 11.865906522863988
+    },
+    {
+      "mode": "parent/e0",
+      "count": 3,
+      "cases": 2,
+      "nmse": 0.5955903810690708,
+      "si_sdr": -5.362690420815815
+    },
+    {
+      "mode": "septda_e1",
+      "count": 1,
+      "cases": 2,
+      "nmse": 0.05838047579934637,
+      "si_sdr": 13.884701141373952
+    },
+    {
+      "mode": "septda_e1",
+      "count": 2,
+      "cases": 2,
+      "nmse": 0.17940652302558002,
+      "si_sdr": 11.972097683083671
+    },
+    {
+      "mode": "septda_e1",
+      "count": 3,
+      "cases": 2,
+      "nmse": 0.5738085859310459,
+      "si_sdr": -2.6797502273761866
+    }
+  ],
+  "dev_power_bins": [
+    {
+      "count": 2,
+      "power_contrast": "0–10 dB",
+      "cases": 108,
+      "baseline_nmse": 0.45962761562137155,
+      "e26_nmse": 0.5659255150850808,
+      "worse_cases": 80
+    },
+    {
+      "count": 2,
+      "power_contrast": "10–20 dB",
+      "cases": 63,
+      "baseline_nmse": 0.40550041579014257,
+      "e26_nmse": 0.4654111871478129,
+      "worse_cases": 47
+    },
+    {
+      "count": 2,
+      "power_contrast": ">20 dB",
+      "cases": 39,
+      "baseline_nmse": 0.5861991314176102,
+      "e26_nmse": 0.7411652072059562,
+      "worse_cases": 30
+    },
+    {
+      "count": 3,
+      "power_contrast": "0–10 dB",
+      "cases": 69,
+      "baseline_nmse": 0.7241139043896186,
+      "e26_nmse": 0.7285007110202777,
+      "worse_cases": 30
+    },
+    {
+      "count": 3,
+      "power_contrast": "10–20 dB",
+      "cases": 105,
+      "baseline_nmse": 0.6706394452172482,
+      "e26_nmse": 0.6986491675407946,
+      "worse_cases": 66
+    },
+    {
+      "count": 3,
+      "power_contrast": ">20 dB",
+      "cases": 36,
+      "baseline_nmse": 0.6825609740366386,
+      "e26_nmse": 0.7112929984302228,
+      "worse_cases": 26
+    }
+  ],
+  "dev_e20": [
+    {
+      "count": 1,
+      "cases": 210,
+      "mean_nmse": 0.013165281901967717,
+      "mean_si_sdr": 26.221579950508886,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.013165281901967717,
+      "construction_count_accuracy": 0.8
+    },
+    {
+      "count": 2,
+      "cases": 210,
+      "mean_nmse": 0.5657890231751856,
+      "mean_si_sdr": 2.305242509612925,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.9448021348508635,
+      "construction_count_accuracy": 0.37142857142857144
+    },
+    {
+      "count": 3,
+      "cases": 210,
+      "mean_nmse": 0.7086952284906529,
+      "mean_si_sdr": -4.744883936126022,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.9555188082802523,
+      "construction_count_accuracy": 0.08571428571428572
+    }
+  ],
+  "dev_baseline": [
+    {
+      "count": 1,
+      "cases": 210,
+      "mean_nmse": 0.027593617315139082,
+      "mean_si_sdr": 21.336587221314186,
+      "mean_si_sdr_gain": null,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.027593617315139082,
+      "construction_count_accuracy": 0.7571428571428571
+    },
+    {
+      "count": 2,
+      "cases": 210,
+      "mean_nmse": 0.46689559431987576,
+      "mean_si_sdr": 3.777362785523427,
+      "mean_si_sdr_gain": 3.7155881120167726,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.7785797101018634,
+      "construction_count_accuracy": 0.2761904761904762
+    },
+    {
+      "count": 3,
+      "cases": 210,
+      "mean_nmse": 0.6902533153143511,
+      "mean_si_sdr": -3.1087800503642207,
+      "mean_si_sdr_gain": 2.2523282089913232,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.9513193850439158,
+      "construction_count_accuracy": 0.3238095238095238
+    }
+  ],
+  "context": {
+    "full_ms": 20.8896,
+    "waveform_ms": 0.63872,
+    "current_mode": "mean",
+    "long_context_temporal_order_preserved": false,
+    "added_recurrent_branch_input": "short-window complex STFT"
+  },
+  "inputs": {
+    "reports/2026-10-11/DATA_POWER_AUDIT.json": "4fae6d590790ebaa4f8ba5bbd12ee6099e50355538ad3fe69c40075ca686ee92",
+    "reports/2026-10-11/BRANCH_AUDIT_E020.json": "1d49474290e7dc2d810371cc2fa9da30770f8102f3d72b6a8098f9c0f7470b9a",
+    "local/septda_continuation_20261010_v1/septda/VALIDATION_000.json": "723fc8462f085a29899461241f07a4d128d8907541965faf8a8070a425719107",
+    "local/septda_continuation_20261010_v1/septda/VALIDATION_020.json": "50eab6a3b555dfc012b25a87161b8d0612b7c15ad584975ba6bb1bcecd0710a9",
+    "local/septda_continuation_20261010_v1/septda/VALIDATION_026.json": "8fc252edc00acf5dc7b9ef2b101b3e32d130a5ef7254fcdb78c2dd7a2b37ccb1",
+    "experiments/septda_followup_20261011/report.py": "36f3f0ce71f6835773fd110595c5e69eef8a8a1892072f5976589da7560360aa",
+    "experiments/septda_rf_20261010/architecture.py": "fef305e9317c661c73b362e7cdd3631365e009a973102842d43f7878c24502b5",
+    "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/context_model.py": "a6bb37a4a5fb8c5c7f0472b76a92d80f178183d91118367b74fe557873d64794",
+    "experiments/source_interaction_20261010/train_comparison.py": "cfe5e763f2702426815787735d33e0d29a50514ce4d1949368dbb12a024e36fe",
+    "experiments/rfuav_dense_gated_20261008/models.py": "b48e5852e194d4c7fca3e636bb79f918da478a4880fc83397c8afd2e538a136c"
+  },
+  "training_changed": false,
+  "new_optimizer_updates": 0,
+  "heldout_read": false
+}

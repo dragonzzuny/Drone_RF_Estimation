@@ -1,0 +1,879 @@
+{
+  "status": "COMPLETE_CHECKED",
+  "checkpoint_epoch": 20,
+  "rows": [
+    {
+      "role": "validation_pack",
+      "index": 4,
+      "count": 1,
+      "mode": "full",
+      "nmse": [
+        0.001194233999143106
+      ],
+      "si_sdr": [
+        32.6770260685143
+      ],
+      "reference_power": [
+        0.02026509411163361
+      ],
+      "sum_relative_error": 1.2773973522695151e-14
+    },
+    {
+      "role": "validation_pack",
+      "index": 4,
+      "count": 1,
+      "mode": "branch_bypassed",
+      "nmse": [
+        0.0011744170460148257
+      ],
+      "si_sdr": [
+        32.68466206290584
+      ],
+      "reference_power": [
+        0.02026509411163361
+      ],
+      "sum_relative_error": 1.2697085324417922e-14
+    },
+    {
+      "role": "validation_pack",
+      "index": 0,
+      "count": 2,
+      "mode": "full",
+      "nmse": [
+        0.0005028515658696978,
+        3.093299134038896
+      ],
+      "si_sdr": [
+        33.414251173779846,
+        -30.766564611229658
+      ],
+      "reference_power": [
+        1.7112250029614406,
+        4.642116972329153e-05
+      ],
+      "sum_relative_error": 1.3297970159330876e-14
+    },
+    {
+      "role": "validation_pack",
+      "index": 0,
+      "count": 2,
+      "mode": "branch_bypassed",
+      "nmse": [
+        0.0005072385296874353,
+        2.815684148565654
+      ],
+      "si_sdr": [
+        33.44235704038376,
+        -29.93983620150573
+      ],
+      "reference_power": [
+        1.7112250029614406,
+        4.642116972329153e-05
+      ],
+      "sum_relative_error": 1.3054739203785209e-14
+    },
+    {
+      "role": "validation_pack",
+      "index": 3,
+      "count": 3,
+      "mode": "full",
+      "nmse": [
+        0.92583696737709,
+        0.10566662901528318,
+        0.9780100859919493
+      ],
+      "si_sdr": [
+        -5.577160900878917,
+        9.73976169836146,
+        -15.340880612515218
+      ],
+      "reference_power": [
+        0.11162389301164169,
+        1.02803182437305,
+        0.010203702058333179
+      ],
+      "sum_relative_error": 1.3248458139815795e-14
+    },
+    {
+      "role": "validation_pack",
+      "index": 3,
+      "count": 3,
+      "mode": "branch_bypassed",
+      "nmse": [
+        0.9261281053395816,
+        0.10571294165352767,
+        0.9871096321204365
+      ],
+      "si_sdr": [
+        -5.457984755603467,
+        9.740970704330534,
+        -18.374520176507506
+      ],
+      "reference_power": [
+        0.11162389301164169,
+        1.02803182437305,
+        0.010203702058333179
+      ],
+      "sum_relative_error": 1.2979056995712435e-14
+    },
+    {
+      "role": "train_pack",
+      "index": 0,
+      "count": 1,
+      "mode": "full",
+      "nmse": [
+        0.061589120843458516
+      ],
+      "si_sdr": [
+        12.785305875265971
+      ],
+      "reference_power": [
+        0.19656672628484773
+      ],
+      "sum_relative_error": 1.2067744768570002e-14
+    },
+    {
+      "role": "train_pack",
+      "index": 0,
+      "count": 1,
+      "mode": "branch_bypassed",
+      "nmse": [
+        0.06143391399944052
+      ],
+      "si_sdr": [
+        12.79683989301844
+      ],
+      "reference_power": [
+        0.19656672628484773
+      ],
+      "sum_relative_error": 1.186269281030314e-14
+    },
+    {
+      "role": "train_pack",
+      "index": 1,
+      "count": 1,
+      "mode": "full",
+      "nmse": [
+        0.0018455418443827816
+      ],
+      "si_sdr": [
+        27.372602436516974
+      ],
+      "reference_power": [
+        0.06598947923503985
+      ],
+      "sum_relative_error": 1.323261717442655e-14
+    },
+    {
+      "role": "train_pack",
+      "index": 1,
+      "count": 1,
+      "mode": "branch_bypassed",
+      "nmse": [
+        0.0017983177239306518
+      ],
+      "si_sdr": [
+        27.53824614518972
+      ],
+      "reference_power": [
+        0.06598947923503985
+      ],
+      "sum_relative_error": 1.2836716833615384e-14
+    },
+    {
+      "role": "train_pack",
+      "index": 4,
+      "count": 2,
+      "mode": "full",
+      "nmse": [
+        0.11043980592328857,
+        0.15078011473882366
+      ],
+      "si_sdr": [
+        9.229006125763911,
+        19.607622122405484
+      ],
+      "reference_power": [
+        0.22920438514845085,
+        0.25763593577097677
+      ],
+      "sum_relative_error": 1.1737417912702401e-14
+    },
+    {
+      "role": "train_pack",
+      "index": 4,
+      "count": 2,
+      "mode": "branch_bypassed",
+      "nmse": [
+        0.10948775726012584,
+        0.15147682532873555
+      ],
+      "si_sdr": [
+        9.268095829004046,
+        19.60575984826199
+      ],
+      "reference_power": [
+        0.22920438514845085,
+        0.25763593577097677
+      ],
+      "sum_relative_error": 1.1679144100427032e-14
+    },
+    {
+      "role": "train_pack",
+      "index": 5,
+      "count": 2,
+      "mode": "full",
+      "nmse": [
+        0.01621176195848323,
+        0.26588194962489486
+      ],
+      "si_sdr": [
+        17.93428406167693,
+        4.4459412636607984
+      ],
+      "reference_power": [
+        2.7584760524276057,
+        0.12966367582857852
+      ],
+      "sum_relative_error": 1.3478154495979158e-14
+    },
+    {
+      "role": "train_pack",
+      "index": 5,
+      "count": 2,
+      "mode": "branch_bypassed",
+      "nmse": [
+        0.01624152928161005,
+        0.27239570169658595
+      ],
+      "si_sdr": [
+        17.917210101974824,
+        4.3163476515942065
+      ],
+      "reference_power": [
+        2.7584760524276057,
+        0.12966367582857852
+      ],
+      "sum_relative_error": 1.334516532097334e-14
+    },
+    {
+      "role": "train_pack",
+      "index": 2,
+      "count": 3,
+      "mode": "full",
+      "nmse": [
+        0.5318709281321921,
+        0.3408542850924915,
+        0.9917091506894291
+      ],
+      "si_sdr": [
+        0.1671641659726782,
+        3.8477176211577104,
+        -17.862732886325603
+      ],
+      "reference_power": [
+        0.21366361689242833,
+        0.41493681321210335,
+        0.08442038825742745
+      ],
+      "sum_relative_error": 1.1783327539228589e-14
+    },
+    {
+      "role": "train_pack",
+      "index": 2,
+      "count": 3,
+      "mode": "branch_bypassed",
+      "nmse": [
+        0.5320175894036479,
+        0.3411005802970614,
+        0.9904162035069911
+      ],
+      "si_sdr": [
+        0.1599674363153683,
+        3.8483240863483914,
+        -16.773139818412194
+      ],
+      "reference_power": [
+        0.21366361689242833,
+        0.41493681321210335,
+        0.08442038825742745
+      ],
+      "sum_relative_error": 1.1607641725605009e-14
+    },
+    {
+      "role": "train_pack",
+      "index": 11,
+      "count": 3,
+      "mode": "full",
+      "nmse": [
+        0.4906045902074488,
+        0.9777991969396633,
+        0.029517987568559743
+      ],
+      "si_sdr": [
+        0.16393200385020462,
+        -13.514999994096282,
+        15.173502264177225
+      ],
+      "reference_power": [
+        0.18304307747426535,
+        0.07667503672516876,
+        1.5836823299638492
+      ],
+      "sum_relative_error": 1.2605215658233435e-14
+    },
+    {
+      "role": "train_pack",
+      "index": 11,
+      "count": 3,
+      "mode": "branch_bypassed",
+      "nmse": [
+        0.48998006407782235,
+        0.9766898231409544,
+        0.02960273456660821
+      ],
+      "si_sdr": [
+        0.17472438447338853,
+        -13.206214101694826,
+        15.162596732670119
+      ],
+      "reference_power": [
+        0.18304307747426535,
+        0.07667503672516876,
+        1.5836823299638492
+      ],
+      "sum_relative_error": 1.2396645004049298e-14
+    }
+  ],
+  "backend": [
+    {
+      "index": 4,
+      "max_nmse_difference": 3.2915670018177773e-09,
+      "max_si_sdr_difference": 1.0488271513509062e-06
+    },
+    {
+      "index": 0,
+      "max_nmse_difference": 5.860741300267591e-06,
+      "max_si_sdr_difference": 9.579305920937031e-06
+    },
+    {
+      "index": 3,
+      "max_nmse_difference": 2.1330905475291928e-07,
+      "max_si_sdr_difference": 5.397836576648274e-05
+    }
+  ],
+  "prior_rows": [
+    {
+      "model": "parent/e0",
+      "index": 0,
+      "count": 1,
+      "categories": [
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.0975915841409247
+      ],
+      "si_sdr": [
+        10.595130158569397
+      ],
+      "reference_power": [
+        0.19656672628484773
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.1887572038835381e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 1,
+      "count": 1,
+      "categories": [
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.018422736525068904
+      ],
+      "si_sdr": [
+        17.402986129048987
+      ],
+      "reference_power": [
+        0.06598947923503985
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2719010701666771e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 2,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.6326974814901709,
+        0.4004252204625129,
+        1.0031846466053937
+      ],
+      "si_sdr": [
+        -2.157069394687119,
+        2.750986039765843,
+        -34.193636581628844
+      ],
+      "reference_power": [
+        0.21366361689242833,
+        0.41493681321210335,
+        0.08442038825742745
+      ],
+      "weakest_index": 2,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1357866521839295e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 4,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.18263869858660994,
+        0.23547407031868522
+      ],
+      "si_sdr": [
+        7.01208284655019,
+        18.809497182806098
+      ],
+      "reference_power": [
+        0.22920438514845085,
+        0.25763593577097677
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.1422276470078702e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 5,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.0167076837684972,
+        0.3103411986723075
+      ],
+      "si_sdr": [
+        17.807185559657295,
+        3.834860502442366
+      ],
+      "reference_power": [
+        2.7584760524276057,
+        0.12966367582857852
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 1.3186178476267047e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 11,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.5133180679074099,
+        0.9792922258490518,
+        0.04462464409988561
+      ],
+      "si_sdr": [
+        0.17359036665253835,
+        -12.064927855123933,
+        13.314914900126627
+      ],
+      "reference_power": [
+        0.18304307747426535,
+        0.07667503672516876,
+        1.5836823299638492
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2351218677259569e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 0,
+      "count": 1,
+      "nmse": [
+        0.09804741409255212
+      ],
+      "si_sdr": [
+        10.48867576612945
+      ],
+      "reference_power": [
+        0.1965667262848477
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 3.7797069631316886e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 1,
+      "count": 1,
+      "nmse": [
+        0.018634502769936848
+      ],
+      "si_sdr": [
+        17.305162842801316
+      ],
+      "reference_power": [
+        0.06598947923503984
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 4.18614887252309e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 2,
+      "count": 3,
+      "nmse": [
+        0.5695366744901925,
+        0.3631908531962403,
+        0.9948204780613097
+      ],
+      "si_sdr": [
+        -0.4544387100489711,
+        3.5736044721854494,
+        -21.83779347264322
+      ],
+      "reference_power": [
+        0.21366361689242827,
+        0.41493681321210335,
+        0.08442038825742744
+      ],
+      "weakest_index": 2,
+      "predicted_count": 2,
+      "sum_relative_error": 3.8307732821916015e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 4,
+      "count": 2,
+      "nmse": [
+        0.1687041598841804,
+        0.22524706324706145
+      ],
+      "si_sdr": [
+        7.354221945124535,
+        18.958381316228234
+      ],
+      "reference_power": [
+        0.22920438514845085,
+        0.2576359357709767
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 3.8067262323848394e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 5,
+      "count": 2,
+      "nmse": [
+        0.016811459735798298,
+        0.30671670968098236
+      ],
+      "si_sdr": [
+        17.751022630795937,
+        3.8553326939200554
+      ],
+      "reference_power": [
+        2.7584760524276057,
+        0.1296636758285785
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 5.179600989033221e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 11,
+      "count": 3,
+      "nmse": [
+        0.5049943371666081,
+        0.9691336698664228,
+        0.0401854155562003
+      ],
+      "si_sdr": [
+        0.18782011383736202,
+        -10.692388920001857,
+        13.787712295227958
+      ],
+      "reference_power": [
+        0.18304307747426532,
+        0.07667503672516876,
+        1.5836823299638492
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.9313944379030716e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 0,
+      "count": 1,
+      "nmse": [
+        0.0980181506630106
+      ],
+      "si_sdr": [
+        10.492605614635904
+      ],
+      "reference_power": [
+        0.1965667262848477
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 3.806434968611601e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 0,
+      "count": 1,
+      "nmse": [
+        0.09799306363992288
+      ],
+      "si_sdr": [
+        10.493686181295656
+      ],
+      "reference_power": [
+        0.1965667262848477
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 3.7317707067970826e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 1,
+      "count": 1,
+      "nmse": [
+        0.01874280093568213
+      ],
+      "si_sdr": [
+        17.276796668112002
+      ],
+      "reference_power": [
+        0.06598947923503984
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 4.202838188663614e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 1,
+      "count": 1,
+      "nmse": [
+        0.01874584501385375
+      ],
+      "si_sdr": [
+        17.281762281976718
+      ],
+      "reference_power": [
+        0.06598947923503984
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 4.205284823846022e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 2,
+      "count": 3,
+      "nmse": [
+        0.5698030135281325,
+        0.36307908545176076,
+        0.9951652592843517
+      ],
+      "si_sdr": [
+        -0.46350165703421203,
+        3.5721898197473543,
+        -22.28370535661556
+      ],
+      "reference_power": [
+        0.21366361689242827,
+        0.41493681321210335,
+        0.08442038825742744
+      ],
+      "weakest_index": 2,
+      "predicted_count": 2,
+      "sum_relative_error": 3.82311013797848e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 2,
+      "count": 3,
+      "nmse": [
+        0.5697841515641403,
+        0.36310994184495,
+        0.9950121599157994
+      ],
+      "si_sdr": [
+        -0.4637854973148819,
+        3.572441827481618,
+        -22.092418413357635
+      ],
+      "reference_power": [
+        0.21366361689242827,
+        0.41493681321210335,
+        0.08442038825742744
+      ],
+      "weakest_index": 2,
+      "predicted_count": 2,
+      "sum_relative_error": 3.838801235397179e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 4,
+      "count": 2,
+      "nmse": [
+        0.16971532759748756,
+        0.22481679038446345
+      ],
+      "si_sdr": [
+        7.327920130705623,
+        18.956724997061542
+      ],
+      "reference_power": [
+        0.22920438514845085,
+        0.2576359357709767
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 3.815690862584511e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 4,
+      "count": 2,
+      "nmse": [
+        0.16916583756155915,
+        0.22541434817121359
+      ],
+      "si_sdr": [
+        7.342443450803939,
+        18.955727094342283
+      ],
+      "reference_power": [
+        0.22920438514845085,
+        0.2576359357709767
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 3.824818275740546e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 5,
+      "count": 2,
+      "nmse": [
+        0.016862786641911768,
+        0.3062311874784573
+      ],
+      "si_sdr": [
+        17.73944223010065,
+        3.8643033744668682
+      ],
+      "reference_power": [
+        2.7584760524276057,
+        0.1296636758285785
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 5.209736089788924e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 5,
+      "count": 2,
+      "nmse": [
+        0.016838538232183287,
+        0.3067435128646585
+      ],
+      "si_sdr": [
+        17.74427297763946,
+        3.8546352574113203
+      ],
+      "reference_power": [
+        2.7584760524276057,
+        0.1296636758285785
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 5.2349803373151166e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 11,
+      "count": 3,
+      "nmse": [
+        0.5050821858037369,
+        0.9695820485054716,
+        0.040139923012821925
+      ],
+      "si_sdr": [
+        0.1858383756952609,
+        -10.88313349163127,
+        13.793810945581306
+      ],
+      "reference_power": [
+        0.18304307747426532,
+        0.07667503672516876,
+        1.5836823299638492
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.953204068178334e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 11,
+      "count": 3,
+      "nmse": [
+        0.5049891033342405,
+        0.9693258977469538,
+        0.040168138443477476
+      ],
+      "si_sdr": [
+        0.1876631574529604,
+        -10.77108349902476,
+        13.78960936827454
+      ],
+      "reference_power": [
+        0.18304307747426532,
+        0.07667503672516876,
+        1.5836823299638492
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.937687509403114e-14
+    }
+  ],
+  "protocol_sha256": "d92624ace93f2161595ddc28f7d372f53eb055f750343c26ec3e5884990ff295",
+  "heldout_read": false,
+  "cuda_initialized": false,
+  "new_optimizer_updates": 0,
+  "limitations": [
+    "Six fixed TRAIN cases and three DEV backend checks are diagnostic only.",
+    "Branch bypass keeps the jointly trained backbone; not a trained architecture ablation."
+  ]
+}
