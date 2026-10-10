@@ -1,0 +1,121 @@
+{
+  "status": "VERIFIED",
+  "amendment": {
+    "status": "EXECUTION_ORDER_ONLY",
+    "registered_at": 1791646877.8271422,
+    "user_authorization": "2026-10-11: 다 진행해; accept ordered-context before frozen-backbone proposal",
+    "run": "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/five_candidates_20261010_v2",
+    "original_order": [
+      "septda",
+      "frozen_tf",
+      "ordered_context",
+      "balanced_head",
+      "wave_guard"
+    ],
+    "execution_order": [
+      "septda",
+      "ordered_context",
+      "frozen_tf",
+      "balanced_head",
+      "wave_guard"
+    ],
+    "protocol_sha256": "911db1842f6dfe61dbd62666ad04d9ef35002a1312a0ffa8c803b06e9c12841e",
+    "wrapper_sha256": "b82c79e86c319a3bffe6c5981f21b4f171e15d489b22e9b86d235477487d20e9",
+    "trainer": "/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/five_candidates_20261010/train.py",
+    "trainer_sha256": "347cc565e6b5c36689bffe183e475bd4314c7001f69118d2eb54504cdf6527e5",
+    "ready_sha256": "7887ec4cd4a1f027745205d7cf3b561e5ead309b9eda57704c0ca0b644422b3c",
+    "maximum_epochs": 50,
+    "updates_per_epoch": 75,
+    "reason": "Full-context feature temporal averaging removes time order; TRAIN6 fit improves while full DEV does not. Test ordered context before freezing backbone.",
+    "model_data_loss_optimizer_seed_budget_changed": false,
+    "heldout_read": false,
+    "prior_waiting_queue_pid": 935459
+  },
+  "preflight": {
+    "status": "PASS",
+    "execution_order": [
+      "septda",
+      "ordered_context",
+      "frozen_tf",
+      "balanced_head",
+      "wave_guard"
+    ],
+    "completed": {
+      "septda": 26,
+      "ordered_context": 1,
+      "frozen_tf": 1,
+      "balanced_head": 0,
+      "wave_guard": 1
+    },
+    "original_sources_verified": 91,
+    "original_pins_verified": 40,
+    "model_preflights_verified": 4,
+    "trainer": "/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/five_candidates_20261010/train.py",
+    "protocol_sha256": "911db1842f6dfe61dbd62666ad04d9ef35002a1312a0ffa8c803b06e9c12841e",
+    "amendment_sha256": "8f67ac665023734e938936270143c147bde871d01f47b4169cd8bfe053056490",
+    "time": 1791646879.655803,
+    "model_training_changed": false,
+    "iq_payload_read": false
+  },
+  "handoff": {
+    "status": "VERIFIED_WAITING_SEPTDA_WITH_ORDERED_CONTEXT_NEXT",
+    "previous_queue_pid": 935459,
+    "new_queue_pid": 1817233,
+    "previous_command": [
+      "/home/pyj/anaconda3/bin/python",
+      "/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/five_candidates_20261010/serial_runner.py",
+      "--run",
+      "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/five_candidates_20261010_v2",
+      "--python",
+      "/home/pyj/문서/GitHub/uav_analysis/rf_detection/deep_nmf_drone_20260929/.venv_temporal_v65/bin/python"
+    ],
+    "new_command": [
+      "nice",
+      "-n",
+      "10",
+      "taskset",
+      "-c",
+      "12,13",
+      "/usr/bin/python3",
+      "/home/pyj/문서/GitHub/Drone_RF_Estimation/experiments/execution_order_20261011/serial_amendment.py",
+      "--run",
+      "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/five_candidates_20261010_v2",
+      "--amendment",
+      "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/five_candidates_20261010_v2/EXECUTION_ORDER_20261011.json",
+      "--python",
+      "/home/pyj/문서/GitHub/uav_analysis/rf_detection/deep_nmf_drone_20260929/.venv_temporal_v65/bin/python"
+    ],
+    "time": 1791646911.9869509,
+    "sep_worker_pid": 930800,
+    "notification_worker_pid": 1022362,
+    "training_workers_signalled": false,
+    "verified_at": 1791647001.8601556,
+    "queue_state": {
+      "status": "WAITING_SEPTDA_50",
+      "pid": 1817233,
+      "time": 1791646994.239381,
+      "execution_order": [
+        "septda",
+        "ordered_context",
+        "frozen_tf",
+        "balanced_head",
+        "wave_guard"
+      ],
+      "original_order": [
+        "septda",
+        "frozen_tf",
+        "ordered_context",
+        "balanced_head",
+        "wave_guard"
+      ],
+      "execution_amendment_sha256": "8f67ac665023734e938936270143c147bde871d01f47b4169cd8bfe053056490",
+      "execution_amendment": "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/five_candidates_20261010_v2/EXECUTION_ORDER_20261011.json",
+      "next_candidate": "ordered_context"
+    }
+  },
+  "tests": {
+    "passed": 4,
+    "initial_test_only_failure": "Mock launcher assertion indexed interpreter as trainer; corrected indices and reran all four successfully; production worker unchanged."
+  },
+  "time_utc": "2026-10-10T15:45:16.548066+00:00"
+}

@@ -1,0 +1,1214 @@
+{
+  "status": "METADATA_RECONCILIATION_COMPLETE",
+  "time_utc": "2026-10-10T15:43:28.462742+00:00",
+  "input_sha256": {
+    "local/inventory/INVENTORY.json": "7e81a50edf373bb3c7f641e29b99fc86732a5fad6784f2bc5830030cf4f11ee8",
+    "local/native_frequency_20261009_v1/preparation/NATIVE_MANIFEST.json": "d21bcdcaad1649da0dcb991fa38407f0671e786b2ecce29b9307cee543c7f6de",
+    "reports/2026-10-07/rfuav_signal_scope_audit.json": "43b71f221eb031c47b6691876558b25b3f140f1526901517f255b5eba8ed29cb"
+  },
+  "raw_root": "/media/pyj/Elements/uav_rf_research_20260914/extracted/rfuav",
+  "categories": 37,
+  "iq_files": 358,
+  "recording_groups": 53,
+  "live_filesystem_checks": {
+    "missing_iq_files": [],
+    "new_iq_files": [],
+    "changed_file_size_or_mtime": [],
+    "changed_xml": [],
+    "new_xml": [],
+    "missing_xml": []
+  },
+  "active_roles": {
+    "train_pack": {
+      "clips": 3902,
+      "files": 83,
+      "recording_groups": 8,
+      "source_paths": [
+        "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1_0-1s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1_1-2s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1_10-11s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1_2-3s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1_3-4s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1_5-6s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1_6-7s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1_7-8s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1_8-9s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1_9-10s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_0-1s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_1-2s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_10-11s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_11-12s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_12-13s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_2-3s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_3-4s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_4-5s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_5-6s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_6-7s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_7-8s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_8-9s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_9-10s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3_0-1s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3_1-2s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3_10-11s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3_11-12s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3_2-3s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3_3-4s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3_4-5s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3_5-6s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3_6-7s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3_7-8s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3_8-9s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3_9-10s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_0-1s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_1-2s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_10-11s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_11-12s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_12-13s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_2-3s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_3-4s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_4-5s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_5-6s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_6-7s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_7-8s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_8-9s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_9-10s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2_0-1s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2_1-2s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2_2-3s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2_3-4s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2_4-5s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2_5-6s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2_6-7s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2_7-8s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2_8-9s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2_9-10s.iq",
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_0-1s.iq",
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_1-2s.iq",
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_2-3s.iq",
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_3-4s.iq",
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_4-5s.iq",
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_5-6s.iq",
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_6-7s.iq",
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_7-8s.iq",
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_8-9s.iq",
+        "DJI MINI3/DJI MINI3/VTSBW=10/pack2_0-1s.iq",
+        "DJI MINI3/DJI MINI3/VTSBW=10/pack2_1-2s.iq",
+        "DJI MINI3/DJI MINI3/VTSBW=10/pack2_2-3s.iq",
+        "DJI MINI3/DJI MINI3/VTSBW=10/pack2_3-4s.iq",
+        "DJI MINI3/DJI MINI3/VTSBW=10/pack2_4-5s.iq",
+        "DJI MINI3/DJI MINI3/VTSBW=10/pack2_5-6s.iq",
+        "DJI MINI3/DJI MINI3/VTSBW=10/pack2_6-7s.iq",
+        "DJI MINI3/DJI MINI3/VTSBW=10/pack2_7-8s.iq",
+        "DJI MINI3/DJI MINI3/VTSBW=10/pack2_9-10s.iq",
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1_0-1s.iq",
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1_1-2s.iq",
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1_2-3s.iq",
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1_3-4s.iq",
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1_4-5s.iq",
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1_5-6s.iq",
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1_6-7s.iq"
+      ],
+      "pack_ids": [
+        "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1.xml",
+        "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+        "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+        "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml",
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml"
+      ],
+      "original_seconds": 81.2684319,
+      "nominal_widths_mhz": [
+        10,
+        40,
+        60
+      ]
+    },
+    "validation_pack": {
+      "clips": 144,
+      "files": 48,
+      "recording_groups": 5,
+      "source_paths": [
+        "DJI AVATA2/DJI AVATA2/VTSBW=20/pack2_0-1s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=20/pack2_1-2s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=20/pack2_2-3s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=20/pack2_3-4s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=20/pack2_4-5s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=20/pack2_5-6s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=20/pack2_6-7s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=20/pack2_7-8s.iq",
+        "DJI AVATA2/DJI AVATA2/VTSBW=20/pack2_8-9s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=20/pack3_0-1s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=20/pack3_1-2s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=20/pack3_11-12s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=20/pack3_12-13s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=20/pack3_13-14s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=20/pack3_14-15s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=20/pack3_15-16s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=20/pack3_2-3s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=20/pack3_3-4s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=20/pack3_4-5s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=20/pack3_5-6s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=20/pack3_6-7s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=20/pack3_7-8s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=20/pack3_8-9s.iq",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=20/pack3_9-10s.iq",
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=20/pack2_0-1s.iq",
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=20/pack2_1-2s.iq",
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=20/pack2_2-3s.iq",
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=20/pack2_3-4s.iq",
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=20/pack2_4-5s.iq",
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=20/pack2_5-6s.iq",
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=20/pack2_6-7s.iq",
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=20/pack2_7-8s.iq",
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=20/pack2_8-9s.iq",
+        "DJI MINI3/DJI MINI3/VTSBW=20/pack2_0-1s.iq",
+        "DJI MINI3/DJI MINI3/VTSBW=20/pack2_1-2s.iq",
+        "DJI MINI3/DJI MINI3/VTSBW=20/pack2_2-3s.iq",
+        "DJI MINI3/DJI MINI3/VTSBW=20/pack2_3-4s.iq",
+        "DJI MINI3/DJI MINI3/VTSBW=20/pack2_4-5s.iq",
+        "DJI MINI3/DJI MINI3/VTSBW=20/pack2_5-6s.iq",
+        "DJI MINI3/DJI MINI3/VTSBW=20/pack2_6-7s.iq",
+        "DJI MINI3/DJI MINI3/VTSBW=20/pack2_7-8s.iq",
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=20/pack2_0-1s.iq",
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=20/pack2_1-2s.iq",
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=20/pack2_2-3s.iq",
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=20/pack2_3-4s.iq",
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=20/pack2_4-5s.iq",
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=20/pack2_5-6s.iq",
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=20/pack2_6-7s.iq"
+      ],
+      "pack_ids": [
+        "DJI AVATA2/DJI AVATA2/VTSBW=20/pack2.xml",
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=20/pack3.xml",
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=20/pack2.xml",
+        "DJI MINI3/DJI MINI3/VTSBW=20/pack2.xml",
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=20/pack2.xml"
+      ],
+      "original_seconds": 47.31616444,
+      "nominal_widths_mhz": [
+        20
+      ]
+    }
+  },
+  "unused_files_in_current_cohort": [],
+  "unused_training_groups_in_current_cohort": [],
+  "new_approved_training_groups": 0,
+  "new_admissions": 0,
+  "protected_heldout_files": 13,
+  "noncohort_review_categories": 31,
+  "nominal_capture_settings_by_category": [
+    {
+      "category": "DJI AVATA2",
+      "train": {
+        "groups": 3,
+        "files": 35,
+        "nominal_widths_mhz": [
+          10,
+          40,
+          60
+        ],
+        "centers_mhz": [
+          5760.0
+        ],
+        "reference_snr_labels": [
+          "1",
+          "23",
+          "9"
+        ],
+        "scale_factor_labels": [
+          "85",
+          "90"
+        ]
+      },
+      "dev": {
+        "groups": 1,
+        "files": 9,
+        "nominal_widths_mhz": [
+          20
+        ],
+        "centers_mhz": [
+          5765.0
+        ],
+        "reference_snr_labels": [
+          "2"
+        ],
+        "scale_factor_labels": [
+          "85"
+        ]
+      },
+      "dev_nominal_width_absent_from_train": true
+    },
+    {
+      "category": "DJI FPV COMBO",
+      "train": {
+        "groups": 2,
+        "files": 23,
+        "nominal_widths_mhz": [
+          10,
+          40
+        ],
+        "centers_mhz": [
+          5760.0
+        ],
+        "reference_snr_labels": [
+          "30",
+          "32"
+        ],
+        "scale_factor_labels": [
+          "90"
+        ]
+      },
+      "dev": {
+        "groups": 1,
+        "files": 15,
+        "nominal_widths_mhz": [
+          20
+        ],
+        "centers_mhz": [
+          5760.0
+        ],
+        "reference_snr_labels": [
+          "20"
+        ],
+        "scale_factor_labels": [
+          "90"
+        ]
+      },
+      "dev_nominal_width_absent_from_train": true
+    },
+    {
+      "category": "DJI MAVIC3 PRO",
+      "train": {
+        "groups": 1,
+        "files": 9,
+        "nominal_widths_mhz": [
+          10
+        ],
+        "centers_mhz": [
+          5800.0
+        ],
+        "reference_snr_labels": [
+          "22"
+        ],
+        "scale_factor_labels": [
+          "90"
+        ]
+      },
+      "dev": {
+        "groups": 1,
+        "files": 9,
+        "nominal_widths_mhz": [
+          20
+        ],
+        "centers_mhz": [
+          5800.0
+        ],
+        "reference_snr_labels": [
+          "6"
+        ],
+        "scale_factor_labels": [
+          "90"
+        ]
+      },
+      "dev_nominal_width_absent_from_train": true
+    },
+    {
+      "category": "DJI MINI3",
+      "train": {
+        "groups": 1,
+        "files": 9,
+        "nominal_widths_mhz": [
+          10
+        ],
+        "centers_mhz": [
+          2470.0
+        ],
+        "reference_snr_labels": [
+          "21"
+        ],
+        "scale_factor_labels": [
+          "60"
+        ]
+      },
+      "dev": {
+        "groups": 1,
+        "files": 8,
+        "nominal_widths_mhz": [
+          20
+        ],
+        "centers_mhz": [
+          2470.0
+        ],
+        "reference_snr_labels": [
+          "36"
+        ],
+        "scale_factor_labels": [
+          "60"
+        ]
+      },
+      "dev_nominal_width_absent_from_train": true
+    },
+    {
+      "category": "DJI MINI4 PRO",
+      "train": {
+        "groups": 1,
+        "files": 7,
+        "nominal_widths_mhz": [
+          10
+        ],
+        "centers_mhz": [
+          2450.0
+        ],
+        "reference_snr_labels": [
+          "29"
+        ],
+        "scale_factor_labels": [
+          "60"
+        ]
+      },
+      "dev": {
+        "groups": 1,
+        "files": 7,
+        "nominal_widths_mhz": [
+          20
+        ],
+        "centers_mhz": [
+          2450.0
+        ],
+        "reference_snr_labels": [
+          "31"
+        ],
+        "scale_factor_labels": [
+          "60"
+        ]
+      },
+      "dev_nominal_width_absent_from_train": true
+    }
+  ],
+  "admission_ledger": [
+    {
+      "category": "DAUTEL EVO NANO",
+      "status": "HELDOUT_KEEP_UNOPENED",
+      "iq_files": 13,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": 20.0,
+      "packs": [
+        {
+          "pack_id": "DAUTEL EVO NANO/DAUTEL EVO NANO/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 5770000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "DEVENTION DEVO",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 6,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "DEVENTION DEVO/DEVENTION DEVO/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "DJI AVATA2",
+      "status": "EXISTING_RECORDING_CONTRIBUTION_TASK_KEEP_FROZEN",
+      "iq_files": 44,
+      "recording_groups": 4,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": 10.0,
+      "packs": [
+        {
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 5760000000.0,
+          "nominal_width_mhz": 10
+        },
+        {
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=20/pack2.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 5765000000.0,
+          "nominal_width_mhz": 20
+        },
+        {
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 5760000000.0,
+          "nominal_width_mhz": 40
+        },
+        {
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 5760000000.0,
+          "nominal_width_mhz": 60
+        }
+      ]
+    },
+    {
+      "category": "DJI FPV COMBO",
+      "status": "EXISTING_RECORDING_CONTRIBUTION_TASK_KEEP_FROZEN",
+      "iq_files": 38,
+      "recording_groups": 3,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": 10.0,
+      "packs": [
+        {
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 5760000000.0,
+          "nominal_width_mhz": 10
+        },
+        {
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=20/pack3.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 5760000000.0,
+          "nominal_width_mhz": 20
+        },
+        {
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 5760000000.0,
+          "nominal_width_mhz": 40
+        }
+      ]
+    },
+    {
+      "category": "DJI MAVIC3 PRO",
+      "status": "EXISTING_RECORDING_CONTRIBUTION_TASK_KEEP_FROZEN",
+      "iq_files": 18,
+      "recording_groups": 2,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": 10.0,
+      "packs": [
+        {
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 5800000000.0,
+          "nominal_width_mhz": 10
+        },
+        {
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=20/pack2.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 5800000000.0,
+          "nominal_width_mhz": 20
+        }
+      ]
+    },
+    {
+      "category": "DJI MINI3",
+      "status": "EXISTING_RECORDING_CONTRIBUTION_TASK_KEEP_FROZEN",
+      "iq_files": 17,
+      "recording_groups": 2,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": 10.0,
+      "packs": [
+        {
+          "pack_id": "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2470000000.0,
+          "nominal_width_mhz": 10
+        },
+        {
+          "pack_id": "DJI MINI3/DJI MINI3/VTSBW=20/pack2.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2470000000.0,
+          "nominal_width_mhz": 20
+        }
+      ]
+    },
+    {
+      "category": "DJI MINI4 PRO",
+      "status": "EXISTING_RECORDING_CONTRIBUTION_TASK_KEEP_FROZEN",
+      "iq_files": 14,
+      "recording_groups": 2,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": 10.0,
+      "packs": [
+        {
+          "pack_id": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2450000000.0,
+          "nominal_width_mhz": 10
+        },
+        {
+          "pack_id": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=20/pack2.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2450000000.0,
+          "nominal_width_mhz": 20
+        }
+      ]
+    },
+    {
+      "category": "FLYSKY EL 18",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 7,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "FLYSKY EL 18/FLYSKY EL 18/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "FLYSKY FS I6X",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 6,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "FLYSKY FS I6X/FLYSKY FS I6X/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "FLYSKY NV 14",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 6,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "FLYSKY NV 14/FLYSKY NV 14/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "FRSKY X14",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 7,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "FRSKY X14/FRSKY X14/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "FRSKY X20R",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 7,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "FRSKY X20R/FRSKY X20R/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "FRSKY X9DP2019",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 6,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "FRSKY X9DP2019/FRSKY X9DP2019/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "FUTABA T10J",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 7,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "FUTABA T10J/FUTABA T10J/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "FUTABA T14SG",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 8,
+      "recording_groups": 2,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "FUTABA T14SG/FUTABA T14SG/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        },
+        {
+          "pack_id": "FUTABA T14SG/FUTABA T14SG/pack2.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "FUTABA T16IZ",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 7,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "FUTABA T16IZ/FUTABA T16IZ/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "FUTABA T18SZ",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 7,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "FUTABA T18SZ/FUTABA T18SZ/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "Herelink Hx4",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 8,
+      "recording_groups": 2,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": 19.136,
+      "packs": [
+        {
+          "pack_id": "Herelink Hx4/Herelink Hx4/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        },
+        {
+          "pack_id": "Herelink Hx4/Herelink Hx4/pack2.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "JR PROPO XG14",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 7,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "JR PROPO XG14/JR PROPO XG14/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "JR PROPO XG7",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 7,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "JR PROPO XG7/JR PROPO XG7/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "JUMPER T14",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 7,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "JUMPER T14/JUMPER T14/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "JUMPER TProV2",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 7,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "JUMPER TProV2/JUMPER TProV2/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "RadioMaster BOXER",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 7,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "RadioMaster BOXER/RadioMaster BOXER/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "RadioMaster TX16S",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 7,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "RadioMaster TX16S/RadioMaster TX16S/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "Radiolink AT10 II",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 7,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "Radiolink AT10 II/Radiolink AT10 II/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "Radiolink AT9S Pro",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 8,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "Radiolink AT9S Pro/Radiolink AT9S Pro/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "SIYI FT24",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 7,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "SIYI FT24/SIYI FT24/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "SIYI MK15",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 8,
+      "recording_groups": 2,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "SIYI MK15/SIYI MK15/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        },
+        {
+          "pack_id": "SIYI MK15/SIYI MK15/pack2.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "SIYI MK32",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 6,
+      "recording_groups": 3,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "SIYI MK32/SIYI MK32/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        },
+        {
+          "pack_id": "SIYI MK32/SIYI MK32/pack2.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        },
+        {
+          "pack_id": "SIYI MK32/SIYI MK32/pack3.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "SKYDROID H12",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 8,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "SKYDROID H12/SKYDROID H12/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2470000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "SKYDROID T10",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 9,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "SKYDROID T10/SKYDROID T10/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2470000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "WFLY ET10",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 9,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "WFLY ET10/WFLY ET10/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "WFLY ET16S",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 8,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "WFLY ET16S/WFLY ET16S/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "WFLY WFT09SII",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 8,
+      "recording_groups": 1,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "WFLY WFT09SII/WFLY WFT09SII/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2410000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "YUNZHUO H12",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 4,
+      "recording_groups": 2,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "YUNZHUO H12/YUNZHUO H12/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        },
+        {
+          "pack_id": "YUNZHUO H12/YUNZHUO H12/pack2.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "YUNZHUO H16",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 4,
+      "recording_groups": 2,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": 20.0,
+      "packs": [
+        {
+          "pack_id": "YUNZHUO H16/YUNZHUO H16/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        },
+        {
+          "pack_id": "YUNZHUO H16/YUNZHUO H16/pack2.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    },
+    {
+      "category": "YUNZHUO H30",
+      "status": "NOT_ADMITTED_TRANSMITTER_PROVENANCE_REVIEW_REQUIRED",
+      "iq_files": 4,
+      "recording_groups": 2,
+      "aircraft_only_capture_verified": false,
+      "new_admission": false,
+      "video_required": false,
+      "paper_video_bandwidth_mhz": null,
+      "packs": [
+        {
+          "pack_id": "YUNZHUO H30/YUNZHUO H30/pack1.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        },
+        {
+          "pack_id": "YUNZHUO H30/YUNZHUO H30/pack2.xml",
+          "device": "USRPX310",
+          "fs_hz": 100000000,
+          "center_hz": 2440000000.0,
+          "nominal_width_mhz": null
+        }
+      ]
+    }
+  ],
+  "iq_payloads_opened": 0,
+  "caches_opened": 0,
+  "xml_files_opened": 53,
+  "full_iq_integrity_reverified": false,
+  "split_changed": false,
+  "heldout_payload_read": false,
+  "interpretation": "All existing training recording groups are represented. DEV holds out VTSBW=20 for all five product labels, so its generalization gap also includes a capture-condition shift. Metadata establishes this shift, not its causal share of waveform error. VTSBW is a folder label, not measured occupied bandwidth. Current labels and pending video evidence do not establish aircraft-only emission."
+}
