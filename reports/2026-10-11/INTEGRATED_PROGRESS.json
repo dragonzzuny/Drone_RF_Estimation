@@ -1,8 +1,105 @@
 {
-  "status": "TRAINING_FIRST_EPOCH",
-  "events": [],
-  "completed_epochs": 0,
+  "status": "STOPPED_AT_USER_EPOCH_REVIEW",
+  "events": [
+    {
+      "candidate": "integrated",
+      "epoch": 1,
+      "updates": 75,
+      "validation": {
+        "epoch": 1,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.027185574916748105,
+            "mean_si_sdr": 21.561520182301674,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.027185574916748105,
+            "construction_count_accuracy": 0.780952380952381
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.4690708866167944,
+            "mean_si_sdr": 3.949600307061464,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.7809885729446651,
+            "construction_count_accuracy": 0.2619047619047619
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.6910694563828903,
+            "mean_si_sdr": -2.9250645637123864,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.948192376502178,
+            "construction_count_accuracy": 0.30952380952380953
+          }
+        ],
+        "selection_nmse": 0.5800701714998424
+      },
+      "best": {
+        "epoch": 0,
+        "metric": 0.5785744548171134
+      },
+      "joint_success": false,
+      "monitor": {
+        "bad": 1,
+        "lr_bad": 1,
+        "ever_joint": false
+      },
+      "count_examples": [
+        800,
+        800,
+        800
+      ],
+      "mean_training_loss": 0.6597097998133783,
+      "train_seconds": 1384.6232860088348,
+      "peak_bytes": 1570595328,
+      "schedule_epoch": 1,
+      "rows_sha256": "34fabac0e2b20f3c7c917646aeca5b282679a80ea2a03b93d9c5028db74e4e22",
+      "used_learning_rates": [
+        0.01,
+        0.0001,
+        0.001
+      ],
+      "next_learning_rates": [
+        0.01,
+        0.0001,
+        0.001
+      ],
+      "validation_sha256": "128fa6a0637b4e03463f9e5f5c13af0e7686fff952fa40698c34cef5f14361e9",
+      "last_sha256": "c9a5d239ccef8fac750ef532d0e2ef74fea2d0d9ca7aef96515e63b042457b8e",
+      "best_sha256": "d21284bed4bde99521ee149842997bc75ee66f41083c87beccfdab2a295b3b23",
+      "protocol_sha256": "a1e0802f40a1c523bb6c7fbd2d4cba7ec6780297a40754947b7dcd6e85ee1ec0",
+      "parent_parameters_unchanged": true,
+      "heldout_read": false
+    }
+  ],
+  "completed_epochs": 1,
+  "max_epochs": 50,
   "run": "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/integrated_20261011_v2",
   "protocol_sha256": "a1e0802f40a1c523bb6c7fbd2d4cba7ec6780297a40754947b7dcd6e85ee1ec0",
-  "time": 1791648174.8855436
+  "time": 1791649437.8456297,
+  "heldout_read": false,
+  "user_review": {
+    "epoch": 1,
+    "incumbent_epoch": 0,
+    "improved": false,
+    "checks": [
+      {
+        "count": 2,
+        "nmse_better": false,
+        "si_better": true,
+        "weakest_nonworse": false
+      },
+      {
+        "count": 3,
+        "nmse_better": false,
+        "si_better": true,
+        "weakest_nonworse": true
+      }
+    ],
+    "time": 1791649438.1094835
+  }
 }

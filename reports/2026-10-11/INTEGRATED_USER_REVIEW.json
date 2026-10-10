@@ -1,0 +1,56 @@
+{
+  "decision": {
+    "epoch": 1,
+    "incumbent_epoch": 0,
+    "improved": false,
+    "checks": [
+      {
+        "count": 2,
+        "nmse_better": false,
+        "si_better": true,
+        "weakest_nonworse": false
+      },
+      {
+        "count": 3,
+        "nmse_better": false,
+        "si_better": true,
+        "weakest_nonworse": true
+      }
+    ],
+    "time": 1791649438.1094835
+  },
+  "stop": {
+    "status": "STOPPED_AT_USER_EPOCH_REVIEW",
+    "reason": "NO_JOINT_IMPROVEMENT",
+    "epochs": 1,
+    "updates": 75,
+    "best": {
+      "epoch": 0,
+      "metric": 0.5785744548171134
+    },
+    "incumbent_joint_epoch": 0,
+    "last_state_before_stop": {
+      "status": "VALIDATING",
+      "pid": 1841153,
+      "time": 1791649365.9133155,
+      "epoch": 1,
+      "updates": 75
+    },
+    "checkpoint_sha256_verified": true,
+    "protocol_sha256": "a1e0802f40a1c523bb6c7fbd2d4cba7ec6780297a40754947b7dcd6e85ee1ec0",
+    "amendment_sha256": "f84dd5e597974357abb90843319691ed217e4b3c9838be2f2df030522d6997c7",
+    "time": 1791649438.440862,
+    "heldout_read": false,
+    "old_maximum_budget_completed": false
+  },
+  "amendment": {
+    "status": "USER_OVERRIDE_MINIMUM_FIVE",
+    "source_sha256": "4ece32cb681efd8ff05654d0ea1fbabca7d91aeb42c136ed0bf76456a3d50ea5",
+    "protocol_sha256": "a1e0802f40a1c523bb6c7fbd2d4cba7ec6780297a40754947b7dcd6e85ee1ec0",
+    "training_pid": 1841153,
+    "process_start_ticks": "40587810",
+    "rule": "Every next completed epoch must strictly improve counts2/3 NMSE and complex SI-SDR, with weakest NMSE nonworse, versus last jointly accepted model (initially parent). Otherwise stop saved trajectory.",
+    "user_authorization": "다음 epoch도 개선 안 되면 중지하고 다음 실험",
+    "registered_at": 1791649000.753708
+  }
+}

@@ -1,5 +1,7 @@
 # 매epoch 완료 PC 알림
 
+**최신 상태:** 통합 모델은 사용자 규칙으로 첫 epoch 후 종료했고, 관찰기도 해당 결과1건의 데스크톱 서버 응답을 받은 뒤 `COMPLETED_RUN_REPORTED`로 종료했다. 이후 epoch는 실행 중이 아니다. 후속 고정 절반 보정 검사는 학습epoch가 없는 추론 검사이므로 채팅과 실행 상태로 따로 보고한다. 알림 기록은 `local/integrated_notifications_20261011_v1/STATE.json`에 보존했다.
+
 **2026-10-11 변경:** 사용자 지시로 기존 SepTDA·개별 후보 학습과 기존 알림 관찰기를 중지했다. 현재 통합 모델의 완료epoch는 `experiments/integrated_notifications_20261011/watch.py`가 알린다. 상태는 `local/integrated_notifications_20261011_v1/STATE.json`이다. 검증 파일 지문을 검사하고 같은 세 파형 지표를 표시하며, 등록된 조기 종료까지 보고하면 종료한다. 이하 설명과 알림 이력은 이전 다섯 후보 실행 당시 기록이다.
 
 2026-10-10 사용자의 반복적인 epoch별 보고 요청에 따라, 학습 PC의 GNOME 알림 센터에 실제 완료 결과를 전달하는 별도 관찰 프로세스를 실행했다. 대화 응답이 진행 중이 아니어도 이 프로세스는 동작한다. 채팅 자동 발송 기능은 아니다.

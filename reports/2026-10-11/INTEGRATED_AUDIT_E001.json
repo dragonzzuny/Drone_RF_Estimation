@@ -1,0 +1,145 @@
+{
+  "status": "PASS",
+  "epoch": 1,
+  "all_rows": 630,
+  "groups": [
+    {
+      "count": 1,
+      "cases": 210,
+      "mean_nmse": 0.027185574916748105,
+      "mean_si_sdr": 21.561520182301674,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.027185574916748105,
+      "construction_count_accuracy": 0.780952380952381
+    },
+    {
+      "count": 2,
+      "cases": 210,
+      "mean_nmse": 0.4690708866167944,
+      "mean_si_sdr": 3.949600307061464,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.7809885729446651,
+      "construction_count_accuracy": 0.2619047619047619
+    },
+    {
+      "count": 3,
+      "cases": 210,
+      "mean_nmse": 0.6910694563828903,
+      "mean_si_sdr": -2.9250645637123864,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.948192376502178,
+      "construction_count_accuracy": 0.30952380952380953
+    }
+  ],
+  "selected": {
+    "epoch": 0,
+    "metric": 0.5785744548171134
+  },
+  "joint_success": false,
+  "checkpoint": {
+    "status": "PASS",
+    "frozen_tensors_bitwise_equal": 131,
+    "optimizer_parameter_tensors": 68,
+    "optimizer_steps": 75,
+    "nonzero_gradient_history": {
+      "context_encoder.order_gate": 4.682649887399748e-06,
+      "tf_axes.blocks.0.time.weight_ih_l0": 3.488443326205015e-06,
+      "tf_axes.blocks.0.frequency.weight_ih_l0": 6.757089067832567e-06,
+      "output.input.weight": 4.6859291614964604e-05,
+      "output.qkv.weight": 1.0106593890668591e-06,
+      "output.readout.weight": 0.048614904284477234,
+      "tf_axes.output.weight": 0.0004738077986985445
+    },
+    "initially_zero_parameters_norm": {
+      "context_encoder.order_gate": 1.3934886455535889,
+      "output.readout.weight": 0.013191993348300457,
+      "tf_axes.output.weight": 0.35680100321769714
+    },
+    "gpu_initialized": false,
+    "checkpoint_sha256": "c9a5d239ccef8fac750ef532d0e2ef74fea2d0d9ca7aef96515e63b042457b8e"
+  },
+  "all75_guard_constraints_pass": true,
+  "combinations": [
+    {
+      "combination": "DJI AVATA2 + DJI FPV COMBO",
+      "parent": {
+        "cases": 54,
+        "nmse": 0.4696899041576349,
+        "si_sdr": 2.1057528395995315,
+        "weakest_nmse": 0.7615024182521244
+      },
+      "integrated": {
+        "cases": 54,
+        "nmse": 0.4717177691719701,
+        "si_sdr": 2.2258878137227094,
+        "weakest_nmse": 0.7638237070504594
+      }
+    },
+    {
+      "combination": "DJI AVATA2 + DJI FPV COMBO + DJI MAVIC3 PRO",
+      "parent": {
+        "cases": 210,
+        "nmse": 0.6902533153143514,
+        "si_sdr": -3.10878005036422,
+        "weakest_nmse": 0.9513193850439156
+      },
+      "integrated": {
+        "cases": 210,
+        "nmse": 0.6910694563828903,
+        "si_sdr": -2.925064563712385,
+        "weakest_nmse": 0.9481923765021776
+      }
+    },
+    {
+      "combination": "DJI AVATA2 + DJI MAVIC3 PRO",
+      "parent": {
+        "cases": 54,
+        "nmse": 0.48693482756656087,
+        "si_sdr": 1.1489742108790229,
+        "weakest_nmse": 0.7985633763593987
+      },
+      "integrated": {
+        "cases": 54,
+        "nmse": 0.48710924235589953,
+        "si_sdr": 1.263244593640896,
+        "weakest_nmse": 0.7991774837051144
+      }
+    },
+    {
+      "combination": "DJI FPV COMBO + DJI MAVIC3 PRO",
+      "parent": {
+        "cases": 51,
+        "nmse": 0.3553595414549908,
+        "si_sdr": 6.0519866773861,
+        "weakest_nmse": 0.56390052136243
+      },
+      "integrated": {
+        "cases": 51,
+        "nmse": 0.36009244101290167,
+        "si_sdr": 6.048271235176952,
+        "weakest_nmse": 0.5679351738281754
+      }
+    },
+    {
+      "combination": "DJI MINI3 + DJI MINI4 PRO",
+      "parent": {
+        "cases": 51,
+        "nmse": 0.5542549545071137,
+        "si_sdr": 6.055678503674247,
+        "weakest_nmse": 0.990181561233042
+      },
+      "integrated": {
+        "cases": 51,
+        "nmse": 0.5561473152032135,
+        "si_sdr": 6.5204133625734935,
+        "weakest_nmse": 0.9929576892616023
+      }
+    }
+  ],
+  "protocol_sha256": "a1e0802f40a1c523bb6c7fbd2d4cba7ec6780297a40754947b7dcd6e85ee1ec0",
+  "event_sha256": "4e1eb99a9429e8df99c58aa0a59f186ef45d7cfdbf8de35d8f80d79a10d8f99d",
+  "auditor_sha256": "328fb4724578d9a09d8d1abeb0e89c289991f8fbd3aaf83f74f22cff38b7fb32",
+  "heldout_read": false,
+  "raw_iq_read": false,
+  "time": 1791649444.5381281
+}
