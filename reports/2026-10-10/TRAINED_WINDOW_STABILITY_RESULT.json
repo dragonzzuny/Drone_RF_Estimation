@@ -1,0 +1,2930 @@
+{
+  "status": "COMPLETE_CHECKED",
+  "protocol_sha256": "97fbaa0036e3fd52368f0f6711a93a8ac0983ebf700a3bf2024a846ebb8a0b53",
+  "rows": [
+    {
+      "model": "parent",
+      "role": "train_pack",
+      "index": 0,
+      "count": 1,
+      "offset": 16384,
+      "common_samples": 47488,
+      "consistency": 0.14365682005882263,
+      "drift_over_mixture_energy": 0.4231290817260742,
+      "per_source_relative_drift": [
+        0.23652317901197892
+      ],
+      "original_window": {
+        "count": 1,
+        "nmse": [
+          0.0975915841409247
+        ],
+        "si_sdr": [
+          10.595130158569397
+        ],
+        "reference_power": [
+          0.19656672628484773
+        ],
+        "absolute_error_power": [
+          0.019183258207533832
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.1887572038835381e-14
+      },
+      "shifted_window": {
+        "count": 1,
+        "nmse": [
+          0.0027493084009608433
+        ],
+        "si_sdr": [
+          26.15797504696409
+        ],
+        "reference_power": [
+          0.09194120475806171
+        ],
+        "absolute_error_power": [
+          0.00025277472663580013
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2782036008471178e-14
+      }
+    },
+    {
+      "model": "parent",
+      "role": "train_pack",
+      "index": 1,
+      "count": 1,
+      "offset": -16384,
+      "common_samples": 47488,
+      "consistency": 0.0940113365650177,
+      "drift_over_mixture_energy": 0.2747426927089691,
+      "per_source_relative_drift": [
+        0.163688427204258
+      ],
+      "original_window": {
+        "count": 1,
+        "nmse": [
+          0.018422736525068904
+        ],
+        "si_sdr": [
+          17.402986129048987
+        ],
+        "reference_power": [
+          0.06598947923503985
+        ],
+        "absolute_error_power": [
+          0.0012157067893736446
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2719010701666771e-14
+      },
+      "shifted_window": {
+        "count": 1,
+        "nmse": [
+          0.023214492072480004
+        ],
+        "si_sdr": [
+          17.703948214815586
+        ],
+        "reference_power": [
+          0.005120863537155001
+        ],
+        "absolute_error_power": [
+          0.00011887824598753668
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2159756426248621e-14
+      }
+    },
+    {
+      "model": "parent",
+      "role": "train_pack",
+      "index": 4,
+      "count": 2,
+      "offset": 16384,
+      "common_samples": 47488,
+      "consistency": 0.645774245262146,
+      "drift_over_mixture_energy": 0.6887953877449036,
+      "per_source_relative_drift": [
+        1.4504896011647028,
+        0.4728673456063377
+      ],
+      "original_window": {
+        "count": 2,
+        "nmse": [
+          0.18263869858660994,
+          0.23547407031868522
+        ],
+        "si_sdr": [
+          7.01208284655019,
+          18.809497182806098
+        ],
+        "reference_power": [
+          0.22920438514845085,
+          0.25763593577097677
+        ],
+        "absolute_error_power": [
+          0.04186159061385717,
+          0.060666582456355256
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          1,
+          0
+        ],
+        "independent_pit_assignment": [
+          2,
+          1,
+          0
+        ],
+        "sum_relative_error": 1.1422276470078702e-14
+      },
+      "shifted_window": {
+        "count": 2,
+        "nmse": [
+          0.9729432924830647,
+          0.2657491486711857
+        ],
+        "si_sdr": [
+          -14.597427327985049,
+          5.664572558888084
+        ],
+        "reference_power": [
+          0.05206573580322881,
+          0.18874175898032186
+        ],
+        "absolute_error_power": [
+          0.05065700841794682,
+          0.05015796176772265
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.2927778318233544e-14
+      }
+    },
+    {
+      "model": "parent",
+      "role": "train_pack",
+      "index": 5,
+      "count": 2,
+      "offset": -16384,
+      "common_samples": 47488,
+      "consistency": 0.21146191656589508,
+      "drift_over_mixture_energy": 0.007568114437162876,
+      "per_source_relative_drift": [
+        0.00041562452034654305,
+        0.6296391159281962
+      ],
+      "original_window": {
+        "count": 2,
+        "nmse": [
+          0.0167076837684972,
+          0.3103411986723075
+        ],
+        "si_sdr": [
+          17.807185559657295,
+          3.834860502442366
+        ],
+        "reference_power": [
+          2.7584760524276057,
+          0.12966367582857852
+        ],
+        "absolute_error_power": [
+          0.046087745566932944,
+          0.04023998058089856
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          1,
+          0
+        ],
+        "independent_pit_assignment": [
+          2,
+          1,
+          0
+        ],
+        "sum_relative_error": 1.3186178476267047e-14
+      },
+      "shifted_window": {
+        "count": 2,
+        "nmse": [
+          0.005453475859590685,
+          0.9329675936430547
+        ],
+        "si_sdr": [
+          22.698835693445325,
+          -8.495911593777034
+        ],
+        "reference_power": [
+          3.574538849221349,
+          0.014471615046118453
+        ],
+        "absolute_error_power": [
+          0.019493661323397693,
+          0.013501547865705758
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.3406814097695722e-14
+      }
+    },
+    {
+      "model": "parent",
+      "role": "train_pack",
+      "index": 2,
+      "count": 3,
+      "offset": 16384,
+      "common_samples": 47488,
+      "consistency": 0.06335195153951645,
+      "drift_over_mixture_energy": 0.07670016586780548,
+      "per_source_relative_drift": [
+        0.11351953899103462,
+        0.07483912698355513,
+        0.00021048500676618592
+      ],
+      "original_window": {
+        "count": 3,
+        "nmse": [
+          0.6326974814901709,
+          0.4004252204625129,
+          1.0031846466053937
+        ],
+        "si_sdr": [
+          -2.157069394687119,
+          2.750986039765843,
+          -34.193636581628844
+        ],
+        "reference_power": [
+          0.21366361689242833,
+          0.41493681321210335,
+          0.08442038825742745
+        ],
+        "absolute_error_power": [
+          0.13518443229392013,
+          0.166151164908469,
+          0.08468923736031748
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.1357866521839295e-14
+      },
+      "shifted_window": {
+        "count": 3,
+        "nmse": [
+          0.7250624018682689,
+          0.3879227824278486,
+          1.00214393501564
+        ],
+        "si_sdr": [
+          -4.14584898575505,
+          2.421738055831259,
+          -46.73737053947079
+        ],
+        "reference_power": [
+          0.21365225226977308,
+          0.4508202393398859,
+          0.06856435751684287
+        ],
+        "absolute_error_power": [
+          0.15491121519528697,
+          0.1748834416195172,
+          0.06871135504374809
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.1236978855763349e-14
+      }
+    },
+    {
+      "model": "parent",
+      "role": "train_pack",
+      "index": 11,
+      "count": 3,
+      "offset": -16384,
+      "common_samples": 47488,
+      "consistency": 0.00017867767019197345,
+      "drift_over_mixture_energy": 0.00012118626909796149,
+      "per_source_relative_drift": [
+        0.00035310587687001284,
+        8.752523759655911e-05,
+        8.386221791559246e-05
+      ],
+      "original_window": {
+        "count": 3,
+        "nmse": [
+          0.5133180679074099,
+          0.9792922258490518,
+          0.04462464409988561
+        ],
+        "si_sdr": [
+          0.17359036665253835,
+          -12.064927855123933,
+          13.314914900126627
+        ],
+        "reference_power": [
+          0.18304307747426535,
+          0.07667503672516876,
+          1.5836823299638492
+        ],
+        "absolute_error_power": [
+          0.09395931887291623,
+          0.07508726738164831,
+          0.07067126034191439
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          1,
+          0,
+          2
+        ],
+        "independent_pit_assignment": [
+          1,
+          0,
+          2
+        ],
+        "sum_relative_error": 1.2351218677259569e-14
+      },
+      "shifted_window": {
+        "count": 3,
+        "nmse": [
+          0.46600464901609406,
+          0.9824054409375053,
+          0.05180712171762101
+        ],
+        "si_sdr": [
+          1.9187563973215038,
+          -14.312688077000931,
+          12.645851754514716
+        ],
+        "reference_power": [
+          0.23123513279762412,
+          0.0548830610253613,
+          1.5692928661842183
+        ],
+        "absolute_error_power": [
+          0.10775664689954673,
+          0.053917417766620075,
+          0.08130054652900014
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          1,
+          0,
+          2
+        ],
+        "independent_pit_assignment": [
+          1,
+          0,
+          2
+        ],
+        "sum_relative_error": 1.2259285393857106e-14
+      }
+    },
+    {
+      "model": "parent",
+      "role": "validation_pack",
+      "index": 4,
+      "count": 1,
+      "offset": 16384,
+      "common_samples": 47488,
+      "consistency": 2.3280761524802074e-05,
+      "drift_over_mixture_energy": 6.344899156829342e-05,
+      "per_source_relative_drift": [
+        4.1233677441154534e-05
+      ],
+      "original_window": {
+        "count": 1,
+        "nmse": [
+          0.003993015558127212
+        ],
+        "si_sdr": [
+          27.444955080530047
+        ],
+        "reference_power": [
+          0.02026509411163361
+        ],
+        "absolute_error_power": [
+          8.091883607466515e-05
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2373696139332952e-14
+      },
+      "shifted_window": {
+        "count": 1,
+        "nmse": [
+          0.003691163691720544
+        ],
+        "si_sdr": [
+          28.025510341696382
+        ],
+        "reference_power": [
+          0.02025870546034631
+        ],
+        "absolute_error_power": [
+          7.477819803649104e-05
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2517022074704996e-14
+      }
+    },
+    {
+      "model": "parent",
+      "role": "validation_pack",
+      "index": 5,
+      "count": 1,
+      "offset": -16384,
+      "common_samples": 47488,
+      "consistency": 0.00010080642823595554,
+      "drift_over_mixture_energy": 0.0002867380972020328,
+      "per_source_relative_drift": [
+        0.0001779897903527175
+      ],
+      "original_window": {
+        "count": 1,
+        "nmse": [
+          0.006210532901812654
+        ],
+        "si_sdr": [
+          25.973608130026964
+        ],
+        "reference_power": [
+          0.5473825650386256
+        ],
+        "absolute_error_power": [
+          0.003399537430050989
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2385366267192237e-14
+      },
+      "shifted_window": {
+        "count": 1,
+        "nmse": [
+          0.006046657416922071
+        ],
+        "si_sdr": [
+          26.133351990655576
+        ],
+        "reference_power": [
+          0.5411219126330744
+        ],
+        "absolute_error_power": [
+          0.003271978826481836
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2400783300245847e-14
+      }
+    },
+    {
+      "model": "parent",
+      "role": "validation_pack",
+      "index": 0,
+      "count": 2,
+      "offset": 16384,
+      "common_samples": 47488,
+      "consistency": 0.08784333616495132,
+      "drift_over_mixture_energy": 0.00017993392248172313,
+      "per_source_relative_drift": [
+        0.00010840089579442644,
+        0.26334163043546455
+      ],
+      "original_window": {
+        "count": 2,
+        "nmse": [
+          0.032026597051481684,
+          2.157001299489957
+        ],
+        "si_sdr": [
+          14.94791607656194,
+          -22.344587150046085
+        ],
+        "reference_power": [
+          1.7112250029614406,
+          4.642116972329153e-05
+        ],
+        "absolute_error_power": [
+          0.05480471363426661,
+          0.00010013052341698367
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2737023079963992e-14
+      },
+      "shifted_window": {
+        "count": 2,
+        "nmse": [
+          0.011023158857999704,
+          2.4867329873485158
+        ],
+        "si_sdr": [
+          19.653309349272487,
+          -23.89097177946137
+        ],
+        "reference_power": [
+          2.734857906440452,
+          4.651937677743153e-05
+        ],
+        "absolute_error_power": [
+          0.030146773156749594,
+          0.00011568126878333349
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2636806550528008e-14
+      }
+    },
+    {
+      "model": "parent",
+      "role": "validation_pack",
+      "index": 1,
+      "count": 2,
+      "offset": -16384,
+      "common_samples": 47488,
+      "consistency": 0.00022109276324044913,
+      "drift_over_mixture_energy": 2.8148042474640533e-05,
+      "per_source_relative_drift": [
+        0.0006415661729124109,
+        1.5985574080457993e-05
+      ],
+      "original_window": {
+        "count": 2,
+        "nmse": [
+          0.40617166772108987,
+          0.005835314534991992
+        ],
+        "si_sdr": [
+          7.394551404659179,
+          22.33251326337996
+        ],
+        "reference_power": [
+          0.18120797534143218,
+          10.186069373703777
+        ],
+        "absolute_error_power": [
+          0.07360154554879164,
+          0.05943891867081043
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.2444728675019146e-14
+      },
+      "shifted_window": {
+        "count": 2,
+        "nmse": [
+          0.39809369405553224,
+          0.006453167686656018
+        ],
+        "si_sdr": [
+          7.398589066051164,
+          21.886062760895662
+        ],
+        "reference_power": [
+          0.18093112478022913,
+          9.044987103677903
+        ],
+        "absolute_error_power": [
+          0.07202753983338386,
+          0.058368818503674647
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.245666049581317e-14
+      }
+    },
+    {
+      "model": "parent",
+      "role": "validation_pack",
+      "index": 3,
+      "count": 3,
+      "offset": -16384,
+      "common_samples": 47488,
+      "consistency": 0.4105920195579529,
+      "drift_over_mixture_energy": 0.024851985275745392,
+      "per_source_relative_drift": [
+        0.1445017584009737,
+        0.0003031170914410441,
+        1.086944983565075
+      ],
+      "original_window": {
+        "count": 3,
+        "nmse": [
+          0.7563123416640506,
+          0.0799356105587448,
+          0.9821798117143009
+        ],
+        "si_sdr": [
+          -4.492945010309967,
+          10.62496676572451,
+          -16.54094944526512
+        ],
+        "reference_power": [
+          0.11162389301164169,
+          1.02803182437305,
+          0.010203702058333179
+        ],
+        "absolute_error_power": [
+          0.08442252790929218,
+          0.08217635155508006,
+          0.010021870166442506
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.2325891664271336e-14
+      },
+      "shifted_window": {
+        "count": 3,
+        "nmse": [
+          0.9765318532802985,
+          0.06746993386708736,
+          0.7802000954759895
+        ],
+        "si_sdr": [
+          -6.517445331046038,
+          11.4069964058857,
+          -4.0177966707673765
+        ],
+        "reference_power": [
+          0.09206045909463675,
+          1.0234519351429918,
+          0.02887280934224962
+        ],
+        "absolute_error_power": [
+          0.08989997073352074,
+          0.06905223438024023,
+          0.022526568605483195
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          0,
+          2,
+          1
+        ],
+        "independent_pit_assignment": [
+          0,
+          2,
+          1
+        ],
+        "sum_relative_error": 1.2256922767597335e-14
+      }
+    },
+    {
+      "model": "parent",
+      "role": "validation_pack",
+      "index": 11,
+      "count": 3,
+      "offset": -16384,
+      "common_samples": 47488,
+      "consistency": 0.001981214853003621,
+      "drift_over_mixture_energy": 0.0011427421122789383,
+      "per_source_relative_drift": [
+        0.0007773925656048403,
+        0.00023436982098988424,
+        0.004841150417516239
+      ],
+      "original_window": {
+        "count": 3,
+        "nmse": [
+          0.14863428952669955,
+          0.9794162689413597,
+          0.41318448768202637
+        ],
+        "si_sdr": [
+          7.688413126223624,
+          -10.694691899777505,
+          2.125806951575026
+        ],
+        "reference_power": [
+          0.7547707858320405,
+          0.10446972251133052,
+          0.07134990119105523
+        ],
+        "absolute_error_power": [
+          0.11218481950765403,
+          0.10231934583938651,
+          0.029480672369789362
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.1947494007630685e-14
+      },
+      "shifted_window": {
+        "count": 3,
+        "nmse": [
+          0.16082059501089216,
+          0.9729914823965435,
+          0.36144667697178634
+        ],
+        "si_sdr": [
+          7.249941289565069,
+          -10.897116187141027,
+          4.0977942675065275
+        ],
+        "reference_power": [
+          0.7557119367739503,
+          0.09197203557251996,
+          0.1447531155406556
+        ],
+        "absolute_error_power": [
+          0.12153404332882041,
+          0.08948800723073383,
+          0.05232053259348301
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.165697500648135e-14
+      }
+    },
+    {
+      "model": "paired_supervision",
+      "role": "train_pack",
+      "index": 0,
+      "count": 1,
+      "offset": 16384,
+      "common_samples": 47488,
+      "consistency": 0.16298197209835052,
+      "drift_over_mixture_energy": 0.4799974858760834,
+      "per_source_relative_drift": [
+        0.27003761316187785
+      ],
+      "original_window": {
+        "count": 1,
+        "nmse": [
+          0.10805441660794683
+        ],
+        "si_sdr": [
+          10.010200953145468
+        ],
+        "reference_power": [
+          0.19656672628484773
+        ],
+        "absolute_error_power": [
+          0.02123990293324319
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.1840314892724121e-14
+      },
+      "shifted_window": {
+        "count": 1,
+        "nmse": [
+          0.002995255511335972
+        ],
+        "si_sdr": [
+          25.4270460326412
+        ],
+        "reference_power": [
+          0.09194120475806171
+        ],
+        "absolute_error_power": [
+          0.00027538740027045343
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2745743684068716e-14
+      }
+    },
+    {
+      "model": "paired_supervision",
+      "role": "train_pack",
+      "index": 1,
+      "count": 1,
+      "offset": -16384,
+      "common_samples": 47488,
+      "consistency": 0.08384650200605392,
+      "drift_over_mixture_energy": 0.2436370700597763,
+      "per_source_relative_drift": [
+        0.14906182305167678
+      ],
+      "original_window": {
+        "count": 1,
+        "nmse": [
+          0.0150516374885609
+        ],
+        "si_sdr": [
+          18.26668804542739
+        ],
+        "reference_power": [
+          0.06598947923503985
+        ],
+        "absolute_error_power": [
+          0.000993249719504737
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2504018169429891e-14
+      },
+      "shifted_window": {
+        "count": 1,
+        "nmse": [
+          0.00829116687998816
+        ],
+        "si_sdr": [
+          22.275245707230432
+        ],
+        "reference_power": [
+          0.005120863537155001
+        ],
+        "absolute_error_power": [
+          4.245793415619856e-05
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2385327643457887e-14
+      }
+    },
+    {
+      "model": "paired_supervision",
+      "role": "train_pack",
+      "index": 4,
+      "count": 2,
+      "offset": 16384,
+      "common_samples": 47488,
+      "consistency": 0.6398358941078186,
+      "drift_over_mixture_energy": 0.6846307516098022,
+      "per_source_relative_drift": [
+        1.4327374781775828,
+        0.4721482785308142
+      ],
+      "original_window": {
+        "count": 2,
+        "nmse": [
+          0.1728708049785626,
+          0.22972547823395492
+        ],
+        "si_sdr": [
+          7.238501229918014,
+          18.893622802159538
+        ],
+        "reference_power": [
+          0.22920438514845085,
+          0.25763593577097677
+        ],
+        "absolute_error_power": [
+          0.0396227465652292,
+          0.059185538555240134
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          1,
+          0
+        ],
+        "independent_pit_assignment": [
+          2,
+          1,
+          0
+        ],
+        "sum_relative_error": 1.1599400196786466e-14
+      },
+      "shifted_window": {
+        "count": 2,
+        "nmse": [
+          0.9847326011810752,
+          0.2693415973853241
+        ],
+        "si_sdr": [
+          -17.92568381359216,
+          5.613226362110316
+        ],
+        "reference_power": [
+          0.05206573580322881,
+          0.18874175898032186
+        ],
+        "absolute_error_power": [
+          0.05127082744992015,
+          0.05083600685707573
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.2873195939819381e-14
+      }
+    },
+    {
+      "model": "paired_supervision",
+      "role": "train_pack",
+      "index": 5,
+      "count": 2,
+      "offset": -16384,
+      "common_samples": 47488,
+      "consistency": 0.18151479959487915,
+      "drift_over_mixture_energy": 0.007136877626180649,
+      "per_source_relative_drift": [
+        0.0005623768172814147,
+        0.5398175903574993
+      ],
+      "original_window": {
+        "count": 2,
+        "nmse": [
+          0.015392043355949167,
+          0.2913302321022303
+        ],
+        "si_sdr": [
+          18.163511324229972,
+          4.454871025443341
+        ],
+        "reference_power": [
+          2.7584760524276057,
+          0.12966367582857852
+        ],
+        "absolute_error_power": [
+          0.042458582995313215,
+          0.03777494877436813
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          1,
+          0
+        ],
+        "independent_pit_assignment": [
+          2,
+          1,
+          0
+        ],
+        "sum_relative_error": 1.3083080071532601e-14
+      },
+      "shifted_window": {
+        "count": 2,
+        "nmse": [
+          0.005352142194876733,
+          0.9328226432642015
+        ],
+        "si_sdr": [
+          22.735294895011844,
+          -8.300107968216457
+        ],
+        "reference_power": [
+          3.574538849221349,
+          0.014471615046118453
+        ],
+        "absolute_error_power": [
+          0.0191314402021437,
+          0.013499450199622204
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.3442091094276653e-14
+      }
+    },
+    {
+      "model": "paired_supervision",
+      "role": "train_pack",
+      "index": 2,
+      "count": 3,
+      "offset": 16384,
+      "common_samples": 47488,
+      "consistency": 0.048946626484394073,
+      "drift_over_mixture_energy": 0.05941189453005791,
+      "per_source_relative_drift": [
+        0.08715167092087699,
+        0.058385453443646256,
+        0.00012945414133979573
+      ],
+      "original_window": {
+        "count": 3,
+        "nmse": [
+          0.60168722981607,
+          0.37829256578672527,
+          0.9957410519623151
+        ],
+        "si_sdr": [
+          -1.060219130321654,
+          3.344383666525539,
+          -22.912981655994212
+        ],
+        "reference_power": [
+          0.21366361689242833,
+          0.41493681321210335,
+          0.08442038825742745
+        ],
+        "absolute_error_power": [
+          0.12855866976048727,
+          0.15696751170937373,
+          0.08406084621051789
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.1564970364046023e-14
+      },
+      "shifted_window": {
+        "count": 3,
+        "nmse": [
+          0.6050488449183266,
+          0.3128852787465213,
+          0.9963666822700866
+        ],
+        "si_sdr": [
+          -0.9527027568764607,
+          4.1996072132401565,
+          -23.972756725883286
+        ],
+        "reference_power": [
+          0.21365225226977308,
+          0.4508202393398859,
+          0.06856435751684287
+        ],
+        "absolute_error_power": [
+          0.12927004845002513,
+          0.14105501625043365,
+          0.0683152414210368
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.1593336331535281e-14
+      }
+    },
+    {
+      "model": "paired_supervision",
+      "role": "train_pack",
+      "index": 11,
+      "count": 3,
+      "offset": -16384,
+      "common_samples": 47488,
+      "consistency": 0.35957661271095276,
+      "drift_over_mixture_energy": 0.06269565969705582,
+      "per_source_relative_drift": [
+        0.24958645326201484,
+        0.8290421462944719,
+        8.943911686887208e-05
+      ],
+      "original_window": {
+        "count": 3,
+        "nmse": [
+          0.9534732720142622,
+          0.71484008769857,
+          0.04431691513946757
+        ],
+        "si_sdr": [
+          -1.3480525489414255,
+          -2.6018928621496187,
+          13.347537844984885
+        ],
+        "reference_power": [
+          0.18304307747426535,
+          0.07667503672516876,
+          1.5836823299638492
+        ],
+        "absolute_error_power": [
+          0.17452668199894789,
+          0.05481038997691071,
+          0.07018391542488218
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          0,
+          1,
+          2
+        ],
+        "independent_pit_assignment": [
+          0,
+          1,
+          2
+        ],
+        "sum_relative_error": 1.2293773110033031e-14
+      },
+      "shifted_window": {
+        "count": 3,
+        "nmse": [
+          0.4737575015473678,
+          0.9742419422750856,
+          0.051669009672328556
+        ],
+        "si_sdr": [
+          1.8062021052151078,
+          -12.5859868475462,
+          12.660227418244162
+        ],
+        "reference_power": [
+          0.23123513279762412,
+          0.0548830610253613,
+          1.5692928661842183
+        ],
+        "absolute_error_power": [
+          0.1095493787841762,
+          0.053469379971350046,
+          0.08108380828158858
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          1,
+          0,
+          2
+        ],
+        "independent_pit_assignment": [
+          1,
+          0,
+          2
+        ],
+        "sum_relative_error": 1.2389088802648895e-14
+      }
+    },
+    {
+      "model": "paired_supervision",
+      "role": "validation_pack",
+      "index": 4,
+      "count": 1,
+      "offset": 16384,
+      "common_samples": 47488,
+      "consistency": 1.9712084394996054e-05,
+      "drift_over_mixture_energy": 5.2980747568653896e-05,
+      "per_source_relative_drift": [
+        3.585476510847614e-05
+      ],
+      "original_window": {
+        "count": 1,
+        "nmse": [
+          0.0019668556631899006
+        ],
+        "si_sdr": [
+          30.392337814136265
+        ],
+        "reference_power": [
+          0.02026509411163361
+        ],
+        "absolute_error_power": [
+          3.985851511854287e-05
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2575923306123857e-14
+      },
+      "shifted_window": {
+        "count": 1,
+        "nmse": [
+          0.0018213382844908625
+        ],
+        "si_sdr": [
+          30.951932523398156
+        ],
+        "reference_power": [
+          0.02025870546034631
+        ],
+        "absolute_error_power": [
+          3.689795584915282e-05
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.262558983674122e-14
+      }
+    },
+    {
+      "model": "paired_supervision",
+      "role": "validation_pack",
+      "index": 5,
+      "count": 1,
+      "offset": -16384,
+      "common_samples": 47488,
+      "consistency": 3.82790676667355e-05,
+      "drift_over_mixture_energy": 0.00010537026537349448,
+      "per_source_relative_drift": [
+        6.986318943411137e-05
+      ],
+      "original_window": {
+        "count": 1,
+        "nmse": [
+          0.0023842189968900553
+        ],
+        "si_sdr": [
+          30.48663646625296
+        ],
+        "reference_power": [
+          0.5473825650386256
+        ],
+        "absolute_error_power": [
+          0.0013050799101314973
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.26111714770062e-14
+      },
+      "shifted_window": {
+        "count": 1,
+        "nmse": [
+          0.0022914692130178793
+        ],
+        "si_sdr": [
+          30.818752831342415
+        ],
+        "reference_power": [
+          0.5411219126330744
+        ],
+        "absolute_error_power": [
+          0.0012399642032880406
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.255688127152528e-14
+      }
+    },
+    {
+      "model": "paired_supervision",
+      "role": "validation_pack",
+      "index": 0,
+      "count": 2,
+      "offset": 16384,
+      "common_samples": 47488,
+      "consistency": 0.10826825350522995,
+      "drift_over_mixture_energy": 0.0005179006257094443,
+      "per_source_relative_drift": [
+        0.0002910449664232425,
+        0.3242749054224464
+      ],
+      "original_window": {
+        "count": 2,
+        "nmse": [
+          0.01274637477445974,
+          2.4146819518139098
+        ],
+        "si_sdr": [
+          19.005058800671065,
+          -28.068136364248247
+        ],
+        "reference_power": [
+          1.7112250029614406,
+          4.642116972329153e-05
+        ],
+        "absolute_error_power": [
+          0.0218119152111725,
+          0.00011209236071292236
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2877703756957589e-14
+      },
+      "shifted_window": {
+        "count": 2,
+        "nmse": [
+          0.0045721163116778825,
+          2.863480781676216
+        ],
+        "si_sdr": [
+          23.39455348678879,
+          -27.83956056848336
+        ],
+        "reference_power": [
+          2.734857906440452,
+          4.651937677743153e-05
+        ],
+        "absolute_error_power": [
+          0.012504088444157613,
+          0.00013320734137773005
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2701504889126369e-14
+      }
+    },
+    {
+      "model": "paired_supervision",
+      "role": "validation_pack",
+      "index": 1,
+      "count": 2,
+      "offset": -16384,
+      "common_samples": 47488,
+      "consistency": 0.00017848059360403568,
+      "drift_over_mixture_energy": 2.6191462893621065e-05,
+      "per_source_relative_drift": [
+        0.0005138217979697835,
+        1.614696904234392e-05
+      ],
+      "original_window": {
+        "count": 2,
+        "nmse": [
+          0.6246244742095927,
+          0.009021908065253154
+        ],
+        "si_sdr": [
+          5.0983689861508905,
+          20.413860963385964
+        ],
+        "reference_power": [
+          0.18120797534143218,
+          10.186069373703777
+        ],
+        "absolute_error_power": [
+          0.1131869363202269,
+          0.09189778143584625
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.2499671093521416e-14
+      },
+      "shifted_window": {
+        "count": 2,
+        "nmse": [
+          0.6241911166122885,
+          0.010172765938961943
+        ],
+        "si_sdr": [
+          5.104631071092517,
+          19.892519333308517
+        ],
+        "reference_power": [
+          0.18093112478022913,
+          9.044987103677903
+        ],
+        "absolute_error_power": [
+          0.11293560080648854,
+          0.09201253672664461
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.2457800586319407e-14
+      }
+    },
+    {
+      "model": "paired_supervision",
+      "role": "validation_pack",
+      "index": 3,
+      "count": 3,
+      "offset": -16384,
+      "common_samples": 47488,
+      "consistency": 0.3726807236671448,
+      "drift_over_mixture_energy": 0.022274889051914215,
+      "per_source_relative_drift": [
+        0.12779810511728124,
+        0.0002500956290663007,
+        0.9899713195402223
+      ],
+      "original_window": {
+        "count": 3,
+        "nmse": [
+          0.7566639395914388,
+          0.07963075146750563,
+          0.9755130320532817
+        ],
+        "si_sdr": [
+          -4.324888837318709,
+          10.660907733502835,
+          -14.751579655057302
+        ],
+        "reference_power": [
+          0.11162389301164169,
+          1.02803182437305,
+          0.010203702058333179
+        ],
+        "absolute_error_power": [
+          0.08446177463872208,
+          0.08186294670733674,
+          0.00995384433309291
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.2434975403027581e-14
+      },
+      "shifted_window": {
+        "count": 3,
+        "nmse": [
+          0.9733256454863654,
+          0.06794716703119995,
+          0.7625503262505461
+        ],
+        "si_sdr": [
+          -5.848691654590933,
+          11.380111934272797,
+          -3.9601136807693695
+        ],
+        "reference_power": [
+          0.09206045909463675,
+          1.0234519351429918,
+          0.02887280934224962
+        ],
+        "absolute_error_power": [
+          0.08960480577205845,
+          0.06954065958556568,
+          0.022016970183702262
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          0,
+          2,
+          1
+        ],
+        "independent_pit_assignment": [
+          0,
+          2,
+          1
+        ],
+        "sum_relative_error": 1.2350308912533771e-14
+      }
+    },
+    {
+      "model": "paired_supervision",
+      "role": "validation_pack",
+      "index": 11,
+      "count": 3,
+      "offset": -16384,
+      "common_samples": 47488,
+      "consistency": 0.001418965868651867,
+      "drift_over_mixture_energy": 0.0008130439091473818,
+      "per_source_relative_drift": [
+        0.0005453845113639126,
+        0.0001980224536984905,
+        0.0034393574196159822
+      ],
+      "original_window": {
+        "count": 3,
+        "nmse": [
+          0.15136732525213872,
+          0.9859367893896027,
+          0.3879984139036381
+        ],
+        "si_sdr": [
+          7.693398481087258,
+          -11.859095318502925,
+          2.759114603052118
+        ],
+        "reference_power": [
+          0.7547707858320405,
+          0.10446972251133052,
+          0.07134990119105523
+        ],
+        "absolute_error_power": [
+          0.1142476350298508,
+          0.10300054280124392,
+          0.02768364849431073
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2124683044876654e-14
+      },
+      "shifted_window": {
+        "count": 3,
+        "nmse": [
+          0.16044163361890862,
+          0.978882029202979,
+          0.3406640300703638
+        ],
+        "si_sdr": [
+          7.329780524052431,
+          -11.388517943282983,
+          4.508714212619006
+        ],
+        "reference_power": [
+          0.7557119367739503,
+          0.09197203557251996,
+          0.1447531155406556
+        ],
+        "absolute_error_power": [
+          0.12124765768132197,
+          0.0900297728111569,
+          0.04931217970532074
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.187874397266415e-14
+      }
+    },
+    {
+      "model": "paired_consistency",
+      "role": "train_pack",
+      "index": 0,
+      "count": 1,
+      "offset": 16384,
+      "common_samples": 47488,
+      "consistency": 0.17156299948692322,
+      "drift_over_mixture_energy": 0.5045121312141418,
+      "per_source_relative_drift": [
+        0.28583848243992904
+      ],
+      "original_window": {
+        "count": 1,
+        "nmse": [
+          0.116663285783499
+        ],
+        "si_sdr": [
+          9.595108302980664
+        ],
+        "reference_power": [
+          0.19656672628484773
+        ],
+        "absolute_error_power": [
+          0.022932120164096015
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.1926368255189e-14
+      },
+      "shifted_window": {
+        "count": 1,
+        "nmse": [
+          0.0030541829459677914
+        ],
+        "si_sdr": [
+          25.596826053863012
+        ],
+        "reference_power": [
+          0.09194120475806171
+        ],
+        "absolute_error_power": [
+          0.00028080525960380484
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2766734341977584e-14
+      }
+    },
+    {
+      "model": "paired_consistency",
+      "role": "train_pack",
+      "index": 1,
+      "count": 1,
+      "offset": -16384,
+      "common_samples": 47488,
+      "consistency": 0.0955272689461708,
+      "drift_over_mixture_energy": 0.27734294533729553,
+      "per_source_relative_drift": [
+        0.1702552774086015
+      ],
+      "original_window": {
+        "count": 1,
+        "nmse": [
+          0.01719694157519223
+        ],
+        "si_sdr": [
+          17.70664085393373
+        ],
+        "reference_power": [
+          0.06598947923503985
+        ],
+        "absolute_error_power": [
+          0.0011348172189823414
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2554608183579208e-14
+      },
+      "shifted_window": {
+        "count": 1,
+        "nmse": [
+          0.008790251841675908
+        ],
+        "si_sdr": [
+          22.302933244369857
+        ],
+        "reference_power": [
+          0.005120863537155001
+        ],
+        "absolute_error_power": [
+          4.501368013844775e-05
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2437530410419803e-14
+      }
+    },
+    {
+      "model": "paired_consistency",
+      "role": "train_pack",
+      "index": 4,
+      "count": 2,
+      "offset": 16384,
+      "common_samples": 47488,
+      "consistency": 0.6229724287986755,
+      "drift_over_mixture_energy": 0.6686834692955017,
+      "per_source_relative_drift": [
+        1.3895611237664598,
+        0.4629064945521279
+      ],
+      "original_window": {
+        "count": 2,
+        "nmse": [
+          0.15750619933133814,
+          0.22389309097217994
+        ],
+        "si_sdr": [
+          7.6309990617462065,
+          19.148970249485554
+        ],
+        "reference_power": [
+          0.22920438514845085,
+          0.25763593577097677
+        ],
+        "absolute_error_power": [
+          0.0361011115748087,
+          0.05768290600527401
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          1,
+          0
+        ],
+        "independent_pit_assignment": [
+          2,
+          1,
+          0
+        ],
+        "sum_relative_error": 1.1386923704762864e-14
+      },
+      "shifted_window": {
+        "count": 2,
+        "nmse": [
+          0.9921224452099562,
+          0.26906196475928235
+        ],
+        "si_sdr": [
+          -20.926072150183813,
+          5.585047667371846
+        ],
+        "reference_power": [
+          0.05206573580322881,
+          0.18874175898032186
+        ],
+        "absolute_error_power": [
+          0.05165558511675493,
+          0.05078322850336832
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.2934978578506247e-14
+      }
+    },
+    {
+      "model": "paired_consistency",
+      "role": "train_pack",
+      "index": 5,
+      "count": 2,
+      "offset": -16384,
+      "common_samples": 47488,
+      "consistency": 0.16971205174922943,
+      "drift_over_mixture_energy": 0.00675165606662631,
+      "per_source_relative_drift": [
+        0.0005491868640273729,
+        0.5046383766540407
+      ],
+      "original_window": {
+        "count": 2,
+        "nmse": [
+          0.015650007345891302,
+          0.28722709235461036
+        ],
+        "si_sdr": [
+          18.1107441089495,
+          4.6004514276344315
+        ],
+        "reference_power": [
+          2.7584760524276057,
+          0.12966367582857852
+        ],
+        "absolute_error_power": [
+          0.04317017048395727,
+          0.03724292059225338
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          1,
+          0
+        ],
+        "independent_pit_assignment": [
+          2,
+          1,
+          0
+        ],
+        "sum_relative_error": 1.3098489936983897e-14
+      },
+      "shifted_window": {
+        "count": 2,
+        "nmse": [
+          0.005507053113688769,
+          0.9248257980713459
+        ],
+        "si_sdr": [
+          22.6540856404278,
+          -7.552772744988038
+        ],
+        "reference_power": [
+          3.574538849221349,
+          0.014471615046118453
+        ],
+        "absolute_error_power": [
+          0.0196851752996059,
+          0.013383722934407795
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.3349012656808364e-14
+      }
+    },
+    {
+      "model": "paired_consistency",
+      "role": "train_pack",
+      "index": 2,
+      "count": 3,
+      "offset": 16384,
+      "common_samples": 47488,
+      "consistency": 0.05754030495882034,
+      "drift_over_mixture_energy": 0.06993656605482101,
+      "per_source_relative_drift": [
+        0.10199848798560499,
+        0.06899322905783684,
+        0.0001610594240241702
+      ],
+      "original_window": {
+        "count": 3,
+        "nmse": [
+          0.6256353114691015,
+          0.38226887573293605,
+          0.9984836807958479
+        ],
+        "si_sdr": [
+          -1.846901401630622,
+          3.1124448036407553,
+          -27.813801530182808
+        ],
+        "reference_power": [
+          0.21366361689242833,
+          0.41493681321210335,
+          0.08442038825742745
+        ],
+        "absolute_error_power": [
+          0.13367550350410917,
+          0.15861742908679805,
+          0.08429238000149074
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.1402348389289202e-14
+      },
+      "shifted_window": {
+        "count": 3,
+        "nmse": [
+          0.6570323682594896,
+          0.3386522214279534,
+          0.9978355878520256
+        ],
+        "si_sdr": [
+          -2.6620260631726484,
+          3.451694337954429,
+          -26.557794409724174
+        ],
+        "reference_power": [
+          0.21365225226977308,
+          0.4508202393398859,
+          0.06856435751684287
+        ],
+        "absolute_error_power": [
+          0.14037644529278293,
+          0.152671275517134,
+          0.06841595598851535
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.1290189387026091e-14
+      }
+    },
+    {
+      "model": "paired_consistency",
+      "role": "train_pack",
+      "index": 11,
+      "count": 3,
+      "offset": -16384,
+      "common_samples": 47488,
+      "consistency": 0.3511485457420349,
+      "drift_over_mixture_energy": 0.06129664555191994,
+      "per_source_relative_drift": [
+        0.24436293147325913,
+        0.8089621940700663,
+        0.00010751212333428724
+      ],
+      "original_window": {
+        "count": 3,
+        "nmse": [
+          0.9461508801919261,
+          0.7031763970217154,
+          0.0431496514135103
+        ],
+        "si_sdr": [
+          -0.7404169879960549,
+          -2.470254474057645,
+          13.4617985082013
+        ],
+        "reference_power": [
+          0.18304307747426535,
+          0.07667503672516876,
+          1.5836823299638492
+        ],
+        "absolute_error_power": [
+          0.17318636886531508,
+          0.05391607606591188,
+          0.0683353404876759
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          0,
+          1,
+          2
+        ],
+        "independent_pit_assignment": [
+          0,
+          1,
+          2
+        ],
+        "sum_relative_error": 1.2272679329982055e-14
+      },
+      "shifted_window": {
+        "count": 3,
+        "nmse": [
+          0.4796617835281227,
+          0.9701409140923928,
+          0.050314493856421394
+        ],
+        "si_sdr": [
+          1.675917880839111,
+          -12.201460569865088,
+          12.770565464800228
+        ],
+        "reference_power": [
+          0.23123513279762412,
+          0.0548830610253613,
+          1.5692928661842183
+        ],
+        "absolute_error_power": [
+          0.1109146562120707,
+          0.053244302991332586,
+          0.07895817627455178
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          1,
+          0,
+          2
+        ],
+        "independent_pit_assignment": [
+          1,
+          0,
+          2
+        ],
+        "sum_relative_error": 1.2199039028227607e-14
+      }
+    },
+    {
+      "model": "paired_consistency",
+      "role": "validation_pack",
+      "index": 4,
+      "count": 1,
+      "offset": 16384,
+      "common_samples": 47488,
+      "consistency": 1.9382170648896135e-05,
+      "drift_over_mixture_energy": 5.226390203461051e-05,
+      "per_source_relative_drift": [
+        3.530596253280147e-05
+      ],
+      "original_window": {
+        "count": 1,
+        "nmse": [
+          0.002332147966950199
+        ],
+        "si_sdr": [
+          30.285747030672088
+        ],
+        "reference_power": [
+          0.02026509411163361
+        ],
+        "absolute_error_power": [
+          4.7261198032500765e-05
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2467928147783773e-14
+      },
+      "shifted_window": {
+        "count": 1,
+        "nmse": [
+          0.002176259601992678
+        ],
+        "si_sdr": [
+          30.853226881159074
+        ],
+        "reference_power": [
+          0.02025870546034631
+        ],
+        "absolute_error_power": [
+          4.408820228202016e-05
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2541279995575064e-14
+      }
+    },
+    {
+      "model": "paired_consistency",
+      "role": "validation_pack",
+      "index": 5,
+      "count": 1,
+      "offset": -16384,
+      "common_samples": 47488,
+      "consistency": 3.693935286719352e-05,
+      "drift_over_mixture_energy": 0.00010178659431403503,
+      "per_source_relative_drift": [
+        6.757921544806841e-05
+      ],
+      "original_window": {
+        "count": 1,
+        "nmse": [
+          0.002715854240300277
+        ],
+        "si_sdr": [
+          30.800612439657463
+        ],
+        "reference_power": [
+          0.5473825650386256
+        ],
+        "absolute_error_power": [
+          0.0014866112603265933
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2648131115857717e-14
+      },
+      "shifted_window": {
+        "count": 1,
+        "nmse": [
+          0.002627501728828836
+        ],
+        "si_sdr": [
+          31.125585627418722
+        ],
+        "reference_power": [
+          0.5411219126330744
+        ],
+        "absolute_error_power": [
+          0.0014217987609505692
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2577233867882845e-14
+      }
+    },
+    {
+      "model": "paired_consistency",
+      "role": "validation_pack",
+      "index": 0,
+      "count": 2,
+      "offset": 16384,
+      "common_samples": 47488,
+      "consistency": 0.11970891058444977,
+      "drift_over_mixture_energy": 0.000557054067030549,
+      "per_source_relative_drift": [
+        0.0003146123165138045,
+        0.35855632775592405
+      ],
+      "original_window": {
+        "count": 2,
+        "nmse": [
+          0.014286081165393698,
+          2.3510085474680427
+        ],
+        "si_sdr": [
+          18.543401702538745,
+          -27.023993259559283
+        ],
+        "reference_power": [
+          1.7112250029614406,
+          4.642116972329153e-05
+        ],
+        "absolute_error_power": [
+          0.024446699284558213,
+          0.0001091365668029231
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2778193472002264e-14
+      },
+      "shifted_window": {
+        "count": 2,
+        "nmse": [
+          0.00400389555160464,
+          2.69487511273819
+        ],
+        "si_sdr": [
+          24.003132854920008,
+          -26.951086844027927
+        ],
+        "reference_power": [
+          2.734857906440452,
+          4.651937677743153e-05
+        ],
+        "absolute_error_power": [
+          0.010950085405867704,
+          0.00012536391073759114
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2785955785719757e-14
+      }
+    },
+    {
+      "model": "paired_consistency",
+      "role": "validation_pack",
+      "index": 1,
+      "count": 2,
+      "offset": -16384,
+      "common_samples": 47488,
+      "consistency": 0.00020240557205397636,
+      "drift_over_mixture_energy": 2.9236069167382084e-05,
+      "per_source_relative_drift": [
+        0.0005834203439013813,
+        1.805330469097543e-05
+      ],
+      "original_window": {
+        "count": 2,
+        "nmse": [
+          0.6433821737342065,
+          0.008993563938484378
+        ],
+        "si_sdr": [
+          4.8507327010461045,
+          20.424004683338808
+        ],
+        "reference_power": [
+          0.18120797534143218,
+          10.186069373703777
+        ],
+        "absolute_error_power": [
+          0.11658598107314512,
+          0.09160906619424244
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.2527909666188469e-14
+      },
+      "shifted_window": {
+        "count": 2,
+        "nmse": [
+          0.6393648644462306,
+          0.010062428942948039
+        ],
+        "si_sdr": [
+          4.879195681087213,
+          19.93083574424985
+        ],
+        "reference_power": [
+          0.18093112478022913,
+          9.044987103677903
+        ],
+        "absolute_error_power": [
+          0.11568100406921525,
+          0.09101454002064029
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.2411876575818293e-14
+      }
+    },
+    {
+      "model": "paired_consistency",
+      "role": "validation_pack",
+      "index": 3,
+      "count": 3,
+      "offset": -16384,
+      "common_samples": 47488,
+      "consistency": 0.30909135937690735,
+      "drift_over_mixture_energy": 0.01850571669638157,
+      "per_source_relative_drift": [
+        0.10580583969934954,
+        0.00025779424764413983,
+        0.8211877617947257
+      ],
+      "original_window": {
+        "count": 3,
+        "nmse": [
+          0.7645911254502425,
+          0.08040884666396321,
+          0.9652886756549813
+        ],
+        "si_sdr": [
+          -4.290646277876841,
+          10.61257439580525,
+          -12.908401357497596
+        ],
+        "reference_power": [
+          0.11162389301164169,
+          1.02803182437305,
+          0.010203702058333179
+        ],
+        "absolute_error_power": [
+          0.08534663798490859,
+          0.08266285333168694,
+          0.009849518046666441
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.2422400456686512e-14
+      },
+      "shifted_window": {
+        "count": 3,
+        "nmse": [
+          0.9688214981758372,
+          0.07067329757172684,
+          0.8077987647697883
+        ],
+        "si_sdr": [
+          -5.3824506461120745,
+          11.197852556233059,
+          -5.165840426398961
+        ],
+        "reference_power": [
+          0.09206045909463675,
+          1.0234519351429918,
+          0.02887280934224962
+        ],
+        "absolute_error_power": [
+          0.08919015190282135,
+          0.07233072316272034,
+          0.023323419722102848
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          0,
+          2,
+          1
+        ],
+        "independent_pit_assignment": [
+          0,
+          2,
+          1
+        ],
+        "sum_relative_error": 1.2340259255371846e-14
+      }
+    },
+    {
+      "model": "paired_consistency",
+      "role": "validation_pack",
+      "index": 11,
+      "count": 3,
+      "offset": -16384,
+      "common_samples": 47488,
+      "consistency": 0.0013474298175424337,
+      "drift_over_mixture_energy": 0.0007831602124497294,
+      "per_source_relative_drift": [
+        0.0005343021024997707,
+        0.00018577909450335565,
+        0.003252953157501946
+      ],
+      "original_window": {
+        "count": 3,
+        "nmse": [
+          0.15036297664037573,
+          0.9830030168187183,
+          0.3850041922694084
+        ],
+        "si_sdr": [
+          7.702690632428014,
+          -11.40368824110232,
+          2.8624042067411093
+        ],
+        "reference_power": [
+          0.7547707858320405,
+          0.10446972251133052,
+          0.07134990119105523
+        ],
+        "absolute_error_power": [
+          0.11348958203890114,
+          0.10269405239485227,
+          0.027470011076564323
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.1968888977394984e-14
+      },
+      "shifted_window": {
+        "count": 3,
+        "nmse": [
+          0.15907759761158047,
+          0.9763569758800571,
+          0.33754438853814145
+        ],
+        "si_sdr": [
+          7.350761057443402,
+          -11.235531557583577,
+          4.591328579790835
+        ],
+        "reference_power": [
+          0.7557119367739503,
+          0.09197203557251996,
+          0.1447531155406556
+        ],
+        "absolute_error_power": [
+          0.1202168393883946,
+          0.08979753851711862,
+          0.04886060187416153
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.1825005409624434e-14
+      }
+    }
+  ],
+  "summary": [
+    {
+      "model": "parent",
+      "role": "train_pack",
+      "count": 1,
+      "cases": 2,
+      "consistency": 0.11883407831192017,
+      "drift_over_mixture_energy": 0.34893588721752167,
+      "original_nmse": 0.0580071603329968,
+      "shifted_nmse": 0.012981900236720424
+    },
+    {
+      "model": "parent",
+      "role": "train_pack",
+      "count": 2,
+      "cases": 2,
+      "consistency": 0.42861808091402054,
+      "drift_over_mixture_energy": 0.3481817510910332,
+      "original_nmse": 0.18629041283652495,
+      "shifted_nmse": 0.5442783776642239
+    },
+    {
+      "model": "parent",
+      "role": "train_pack",
+      "count": 3,
+      "cases": 2,
+      "consistency": 0.03176531460485421,
+      "drift_over_mixture_energy": 0.03841067606845172,
+      "original_nmse": 0.5955903810690708,
+      "shifted_nmse": 0.6025577218304963
+    },
+    {
+      "model": "parent",
+      "role": "validation_pack",
+      "count": 1,
+      "cases": 2,
+      "consistency": 6.20435948803788e-05,
+      "drift_over_mixture_energy": 0.0001750935443851631,
+      "original_nmse": 0.005101774229969933,
+      "shifted_nmse": 0.004868910554321307
+    },
+    {
+      "model": "parent",
+      "role": "validation_pack",
+      "count": 2,
+      "cases": 2,
+      "consistency": 0.04403221446409589,
+      "drift_over_mixture_energy": 0.00010404098247818183,
+      "original_nmse": 0.6502587196993801,
+      "shifted_nmse": 0.7255757519871759
+    },
+    {
+      "model": "parent",
+      "role": "validation_pack",
+      "count": 3,
+      "cases": 2,
+      "consistency": 0.20628661720547825,
+      "drift_over_mixture_energy": 0.012997363694012165,
+      "original_nmse": 0.559943801681197,
+      "shifted_nmse": 0.5532434395004329
+    },
+    {
+      "model": "paired_supervision",
+      "role": "train_pack",
+      "count": 1,
+      "cases": 2,
+      "consistency": 0.12341423705220222,
+      "drift_over_mixture_energy": 0.36181727796792984,
+      "original_nmse": 0.06155302704825387,
+      "shifted_nmse": 0.005643211195662066
+    },
+    {
+      "model": "paired_supervision",
+      "role": "train_pack",
+      "count": 2,
+      "cases": 2,
+      "consistency": 0.4106753468513489,
+      "drift_over_mixture_energy": 0.34588381461799145,
+      "original_nmse": 0.17732963966767426,
+      "shifted_nmse": 0.5480622460063694
+    },
+    {
+      "model": "paired_supervision",
+      "role": "train_pack",
+      "count": 3,
+      "cases": 2,
+      "consistency": 0.20426161959767342,
+      "drift_over_mixture_energy": 0.06105377711355686,
+      "original_nmse": 0.6147251870695684,
+      "shifted_nmse": 0.5689948765716194
+    },
+    {
+      "model": "paired_supervision",
+      "role": "validation_pack",
+      "count": 1,
+      "cases": 2,
+      "consistency": 2.8995576030865777e-05,
+      "drift_over_mixture_energy": 7.917550647107419e-05,
+      "original_nmse": 0.002175537330039978,
+      "shifted_nmse": 0.002056403748754371
+    },
+    {
+      "model": "paired_supervision",
+      "role": "validation_pack",
+      "count": 2,
+      "cases": 2,
+      "consistency": 0.05422336704941699,
+      "drift_over_mixture_energy": 0.0002720460443015327,
+      "original_nmse": 0.7652686772158038,
+      "shifted_nmse": 0.875604195134786
+    },
+    {
+      "model": "paired_supervision",
+      "role": "validation_pack",
+      "count": 3,
+      "cases": 2,
+      "consistency": 0.18704984476789832,
+      "drift_over_mixture_energy": 0.011543966480530798,
+      "original_nmse": 0.5561850419429343,
+      "shifted_nmse": 0.5473018052767271
+    },
+    {
+      "model": "paired_consistency",
+      "role": "train_pack",
+      "count": 1,
+      "cases": 2,
+      "consistency": 0.133545134216547,
+      "drift_over_mixture_energy": 0.3909275382757187,
+      "original_nmse": 0.06693011367934561,
+      "shifted_nmse": 0.00592221739382185
+    },
+    {
+      "model": "paired_consistency",
+      "role": "train_pack",
+      "count": 2,
+      "cases": 2,
+      "consistency": 0.3963422402739525,
+      "drift_over_mixture_energy": 0.337717562681064,
+      "original_nmse": 0.17106909750100494,
+      "shifted_nmse": 0.5478793152885683
+    },
+    {
+      "model": "paired_consistency",
+      "role": "train_pack",
+      "count": 3,
+      "cases": 2,
+      "consistency": 0.20434442535042763,
+      "drift_over_mixture_energy": 0.06561660580337048,
+      "original_nmse": 0.6164774661041729,
+      "shifted_nmse": 0.5822728948360676
+    },
+    {
+      "model": "paired_consistency",
+      "role": "validation_pack",
+      "count": 1,
+      "cases": 2,
+      "consistency": 2.8160761758044828e-05,
+      "drift_over_mixture_energy": 7.702524817432277e-05,
+      "original_nmse": 0.002524001103625238,
+      "shifted_nmse": 0.002401880665410757
+    },
+    {
+      "model": "paired_consistency",
+      "role": "validation_pack",
+      "count": 2,
+      "cases": 2,
+      "consistency": 0.05995565807825187,
+      "drift_over_mixture_energy": 0.00029314506809896557,
+      "original_nmse": 0.7544175915765318,
+      "shifted_nmse": 0.8370765754197433
+    },
+    {
+      "model": "paired_consistency",
+      "role": "validation_pack",
+      "count": 3,
+      "cases": 2,
+      "consistency": 0.1552193945972249,
+      "drift_over_mixture_energy": 0.00964443845441565,
+      "original_nmse": 0.5547764722496149,
+      "shifted_nmse": 0.5533787537578552
+    }
+  ],
+  "seconds": 478.14946722984314,
+  "updates": 0,
+  "gpu_use": false,
+  "heldout_read": false,
+  "dev_reused": true,
+  "limitation": "Six TRAIN and six reused DEV cases, reference-aligned diagnostic; not population effect or independent test"
+}

@@ -1,0 +1,92 @@
+{
+  "status": "CHECKED_SAVED_ROWS",
+  "summary": [
+    {
+      "count": 1,
+      "output_slot": 0,
+      "matched_active_sources": 10,
+      "weakest_matches": 10,
+      "mean_nmse": 0.032565801743339624,
+      "mean_si_sdr": 21.069706375296185,
+      "both_improved_sources": 0
+    },
+    {
+      "count": 1,
+      "output_slot": 1,
+      "matched_active_sources": 0,
+      "weakest_matches": 0,
+      "mean_nmse": null,
+      "mean_si_sdr": null,
+      "both_improved_sources": 0
+    },
+    {
+      "count": 1,
+      "output_slot": 2,
+      "matched_active_sources": 0,
+      "weakest_matches": 0,
+      "mean_nmse": null,
+      "mean_si_sdr": null,
+      "both_improved_sources": 0
+    },
+    {
+      "count": 2,
+      "output_slot": 0,
+      "matched_active_sources": 24,
+      "weakest_matches": 2,
+      "mean_nmse": 0.12817190107182636,
+      "mean_si_sdr": 14.549437883706506,
+      "both_improved_sources": 0
+    },
+    {
+      "count": 2,
+      "output_slot": 1,
+      "matched_active_sources": 19,
+      "weakest_matches": 17,
+      "mean_nmse": 0.34570349452861204,
+      "mean_si_sdr": 7.747490790735619,
+      "both_improved_sources": 10
+    },
+    {
+      "count": 2,
+      "output_slot": 2,
+      "matched_active_sources": 5,
+      "weakest_matches": 5,
+      "mean_nmse": 0.9751978834671053,
+      "mean_si_sdr": -9.405567208297654,
+      "both_improved_sources": 2
+    },
+    {
+      "count": 3,
+      "output_slot": 0,
+      "matched_active_sources": 14,
+      "weakest_matches": 0,
+      "mean_nmse": 0.14131804315907265,
+      "mean_si_sdr": 13.325920632654189,
+      "both_improved_sources": 0
+    },
+    {
+      "count": 3,
+      "output_slot": 1,
+      "matched_active_sources": 14,
+      "weakest_matches": 0,
+      "mean_nmse": 0.6419135269770166,
+      "mean_si_sdr": 0.2951773235642363,
+      "both_improved_sources": 7
+    },
+    {
+      "count": 3,
+      "output_slot": 2,
+      "matched_active_sources": 14,
+      "weakest_matches": 14,
+      "mean_nmse": 1.5491523501268256,
+      "mean_si_sdr": -14.337204472293728,
+      "both_improved_sources": 4
+    }
+  ],
+  "input_sha256": "7a86cc77fa78ca5f9cdbc5f2c440bf670fb91a61988f1a350e7feb8095fcca19",
+  "reporter_sha256": "ff157b48546c79af71e12b912b1bd29394873ed07e594c84337d7bec77b84645",
+  "heldout_read": false,
+  "additional_inference": 0,
+  "optimizer_steps": 0,
+  "limitation": "PIT-aligned output roles on reused TRAIN48, not a learned aircraft identity or causal isolation"
+}

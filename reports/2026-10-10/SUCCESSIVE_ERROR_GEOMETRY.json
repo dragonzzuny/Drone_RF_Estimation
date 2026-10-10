@@ -1,0 +1,224 @@
+{
+  "status": "CHECKED_SAVED_ROWS",
+  "rows": [
+    {
+      "index": 2,
+      "matched_references_in_output_order": [
+        1,
+        0,
+        2
+      ],
+      "first_error_power": 0.166151164908469,
+      "second_error_power": 0.16088984039021345,
+      "last_error_power": 0.0764590582382732,
+      "last_reference_power": 0.08442038825742745,
+      "last_nmse": 0.9056942264364225,
+      "conditional_lower_nmse_given_first_two_error_norms": 0.0005013473604814844,
+      "derived_real_error_cosine": -0.7663087386723935
+    },
+    {
+      "index": 11,
+      "matched_references_in_output_order": [
+        2,
+        0,
+        1
+      ],
+      "first_error_power": 0.07067126034191439,
+      "second_error_power": 0.10102908962753196,
+      "last_error_power": 0.053978932838407025,
+      "last_reference_power": 0.07667503672516876,
+      "last_nmse": 0.7039961784679304,
+      "conditional_lower_nmse_given_first_two_error_norms": 0.03527937186325667,
+      "derived_real_error_cosine": -0.6965957938200713
+    },
+    {
+      "index": 15,
+      "matched_references_in_output_order": [
+        1,
+        2,
+        0
+      ],
+      "first_error_power": 0.020035858600158083,
+      "second_error_power": 0.010368876082036503,
+      "last_error_power": 0.02107559158316178,
+      "last_reference_power": 0.03267662810360374,
+      "last_nmse": 0.6449744911359889,
+      "conditional_lower_nmse_given_first_two_error_norms": 0.04828252786902067,
+      "derived_real_error_cosine": -0.3236249064514326
+    },
+    {
+      "index": 16,
+      "matched_references_in_output_order": [
+        2,
+        0,
+        1
+      ],
+      "first_error_power": 0.007987113337159547,
+      "second_error_power": 0.008364825219950902,
+      "last_error_power": 0.0005210886580823156,
+      "last_reference_power": 0.0002413962147379528,
+      "last_nmse": 2.158644693944279,
+      "conditional_lower_nmse_given_first_two_error_norms": 0.018073802817878067,
+      "derived_real_error_cosine": -0.9683912940463716
+    },
+    {
+      "index": 20,
+      "matched_references_in_output_order": [
+        0,
+        2,
+        1
+      ],
+      "first_error_power": 0.00639576073878829,
+      "second_error_power": 0.005441644618501393,
+      "last_error_power": 0.00047794292786427643,
+      "last_reference_power": 0.00015260316754179832,
+      "last_nmse": 3.131933206650949,
+      "conditional_lower_nmse_given_first_two_error_norms": 0.2523826481066191,
+      "derived_real_error_cosine": -0.9627567931930234
+    },
+    {
+      "index": 21,
+      "matched_references_in_output_order": [
+        1,
+        2,
+        0
+      ],
+      "first_error_power": 0.007135311922791244,
+      "second_error_power": 0.005863876352173866,
+      "last_error_power": 0.0012711734812156292,
+      "last_reference_power": 0.001082489553481351,
+      "last_nmse": 1.174305541450686,
+      "conditional_lower_nmse_given_first_two_error_norms": 0.05757861240817841,
+      "derived_real_error_cosine": -0.9065580649312128
+    },
+    {
+      "index": 23,
+      "matched_references_in_output_order": [
+        0,
+        1,
+        2
+      ],
+      "first_error_power": 0.06974718693188525,
+      "second_error_power": 0.05249302105186967,
+      "last_error_power": 0.014101637931709163,
+      "last_reference_power": 0.00432922085965371,
+      "last_nmse": 3.2573154359320764,
+      "conditional_lower_nmse_given_first_two_error_norms": 0.28269205289334615,
+      "derived_real_error_cosine": -0.8935862856924103
+    },
+    {
+      "index": 29,
+      "matched_references_in_output_order": [
+        2,
+        0,
+        1
+      ],
+      "first_error_power": 0.08523797141826794,
+      "second_error_power": 0.15094581576441327,
+      "last_error_power": 0.04255754977329697,
+      "last_reference_power": 0.035771667047691025,
+      "last_nmse": 1.189699929739337,
+      "conditional_lower_nmse_given_first_two_error_norms": 0.26065953104582934,
+      "derived_real_error_cosine": -0.8535070612125839
+    },
+    {
+      "index": 33,
+      "matched_references_in_output_order": [
+        2,
+        0,
+        1
+      ],
+      "first_error_power": 0.02913060010026685,
+      "second_error_power": 0.035243063445174055,
+      "last_error_power": 0.002313702378286291,
+      "last_reference_power": 0.0008623237864557172,
+      "last_nmse": 2.6831016546533664,
+      "conditional_lower_nmse_given_first_two_error_norms": 0.3372921076779151,
+      "derived_real_error_cosine": -0.9684338527445763
+    },
+    {
+      "index": 37,
+      "matched_references_in_output_order": [
+        0,
+        2,
+        1
+      ],
+      "first_error_power": 0.20032262002227996,
+      "second_error_power": 0.16490797845505237,
+      "last_error_power": 0.14945059343078848,
+      "last_reference_power": 0.35265421096251703,
+      "last_nmse": 0.4237879168460385,
+      "conditional_lower_nmse_given_first_two_error_norms": 0.004880270902864354,
+      "derived_real_error_cosine": -0.5936020245228147
+    },
+    {
+      "index": 43,
+      "matched_references_in_output_order": [
+        1,
+        2,
+        0
+      ],
+      "first_error_power": 0.0012122921932638804,
+      "second_error_power": 0.0008519339608048299,
+      "last_error_power": 0.00039547534819240677,
+      "last_reference_power": 0.000325003419328446,
+      "last_nmse": 1.21683442287954,
+      "conditional_lower_nmse_given_first_two_error_norms": 0.09753062883515617,
+      "derived_real_error_cosine": -0.8210221483843763
+    },
+    {
+      "index": 73,
+      "matched_references_in_output_order": [
+        0,
+        1,
+        2
+      ],
+      "first_error_power": 0.21418410457901535,
+      "second_error_power": 0.21164436258688532,
+      "last_error_power": 0.009464845779404228,
+      "last_reference_power": 0.006342228440794007,
+      "last_nmse": 1.4923533372789215,
+      "conditional_lower_nmse_given_first_two_error_norms": 0.0011941984244446186,
+      "derived_real_error_cosine": -0.9777904934931749
+    },
+    {
+      "index": 74,
+      "matched_references_in_output_order": [
+        2,
+        0,
+        1
+      ],
+      "first_error_power": 0.021373048982964684,
+      "second_error_power": 0.030850656600823523,
+      "last_error_power": 0.005766470279253118,
+      "last_reference_power": 0.005637100934429803,
+      "last_nmse": 1.0229496236324533,
+      "conditional_lower_nmse_given_first_two_error_norms": 0.153838436566488,
+      "derived_real_error_cosine": -0.9046027821474489
+    },
+    {
+      "index": 92,
+      "matched_references_in_output_order": [
+        0,
+        1,
+        2
+      ],
+      "first_error_power": 0.00436755906347708,
+      "second_error_power": 0.0025322977299503417,
+      "last_error_power": 0.0011036628742444768,
+      "last_reference_power": 0.0006559495780951859,
+      "last_nmse": 1.682542242727569,
+      "conditional_lower_nmse_given_first_two_error_norms": 0.37892118482214177,
+      "derived_real_error_cosine": -0.8714372799555354
+    }
+  ],
+  "source_sha256": "7a86cc77fa78ca5f9cdbc5f2c440bf670fb91a61988f1a350e7feb8095fcca19",
+  "reporter_sha256": "c5011296bb143996d3d5e9d87629493d2dc80d2d0f0f13b40f12844122026d83",
+  "median_derived_error_cosine": -0.8825117828239728,
+  "median_conditional_lower_nmse": 0.07755462062166729,
+  "conditional_lower_nmse_above_point1": 6,
+  "heldout_read": false,
+  "additional_inference": 0,
+  "updates": 0,
+  "limitation": "Conditional geometry holds current first-two error norms fixed; not a learned performance limit or receiver-noise floor. Error cosine derived from conservation, not separately measured waveform cross-products."
+}

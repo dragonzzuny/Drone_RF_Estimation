@@ -1,0 +1,576 @@
+{
+  "status": "SNAPSHOT",
+  "rows": [
+    {
+      "label": "원 손실",
+      "parameters": 32142859,
+      "trainable": 32142859,
+      "unique_long_mixtures": 2400,
+      "distinct_window_views": 2400,
+      "updates": 75,
+      "actual_e1": {
+        "epoch": 1,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.01933684823974167,
+            "mean_si_sdr": 23.81820461512838,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.01933684823974167,
+            "construction_count_accuracy": 0.7904761904761904
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.48890202106359826,
+            "mean_si_sdr": 3.3662167928026747,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.8134619666997885,
+            "construction_count_accuracy": 0.32857142857142857
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.6996570459929582,
+            "mean_si_sdr": -3.517988285452999,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.9527473766242238,
+            "construction_count_accuracy": 0.23809523809523808
+          }
+        ],
+        "selection_nmse": 0.5942795335282782
+      },
+      "parent_joint_criterion": false,
+      "parent_deltas": [
+        {
+          "count": 2,
+          "nmse_delta": 0.022006426743722496,
+          "si_sdr_delta": -0.41114599272075214,
+          "weakest_nmse_delta": 0.0348822565979251
+        },
+        {
+          "count": 3,
+          "nmse_delta": 0.009403730678607114,
+          "si_sdr_delta": -0.40920823508877824,
+          "weakest_nmse_delta": 0.0014279915803081522
+        }
+      ],
+      "validation_sha256": "232b3fca26554ec92ef3794dc77cf904853f0c7a3b090dd31af571172371b84e",
+      "epoch_receipt_sha256": "2d3464eff763fad582a7abb7e421efe79772251efd61a0962aa6a222fa3b1f0e"
+    },
+    {
+      "label": "PCGrad",
+      "parameters": 32142859,
+      "trainable": 32142859,
+      "unique_long_mixtures": 2400,
+      "distinct_window_views": 2400,
+      "updates": 75,
+      "actual_e1": {
+        "epoch": 1,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.01763912795471813,
+            "mean_si_sdr": 24.545804214578325,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.01763912795471813,
+            "construction_count_accuracy": 0.8
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.4925535239126732,
+            "mean_si_sdr": 3.352427723895636,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.8204539048178727,
+            "construction_count_accuracy": 0.21904761904761905
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.6992923343111691,
+            "mean_si_sdr": -3.676124342467128,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.9516519790193951,
+            "construction_count_accuracy": 0.11428571428571428
+          }
+        ],
+        "selection_nmse": 0.5959229291119211
+      },
+      "parent_joint_criterion": false,
+      "parent_deltas": [
+        {
+          "count": 2,
+          "nmse_delta": 0.025657929592797446,
+          "si_sdr_delta": -0.42493506162779093,
+          "weakest_nmse_delta": 0.04187419471600928
+        },
+        {
+          "count": 3,
+          "nmse_delta": 0.009039018996818027,
+          "si_sdr_delta": -0.5673442921029075,
+          "weakest_nmse_delta": 0.0003325939754794671
+        }
+      ],
+      "validation_sha256": "2dccb5f79921c450552bccee4d4c4e7cd1665c73a659fbc7a78525158892a703",
+      "epoch_receipt_sha256": "902f948ed6dc135bf5f8860f382b03424f07c20672b77ce0cdb93cf37cdfdb17"
+    },
+    {
+      "label": "CAGrad",
+      "parameters": 32142859,
+      "trainable": 32142859,
+      "unique_long_mixtures": 2400,
+      "distinct_window_views": 2400,
+      "updates": 75,
+      "actual_e1": {
+        "epoch": 1,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.01761190325927177,
+            "mean_si_sdr": 24.534969509146276,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.01761190325927177,
+            "construction_count_accuracy": 0.8
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.4939298929841982,
+            "mean_si_sdr": 3.321230930607592,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.8223848451821243,
+            "construction_count_accuracy": 0.37142857142857144
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.6985222301968524,
+            "mean_si_sdr": -3.7151051055035964,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.9521920123196221,
+            "construction_count_accuracy": 0
+          }
+        ],
+        "selection_nmse": 0.5962260615905253
+      },
+      "parent_joint_criterion": false,
+      "parent_deltas": [
+        {
+          "count": 2,
+          "nmse_delta": 0.027034298664322443,
+          "si_sdr_delta": -0.4561318549158351,
+          "weakest_nmse_delta": 0.04380513508026085
+        },
+        {
+          "count": 3,
+          "nmse_delta": 0.008268914882501366,
+          "si_sdr_delta": -0.6063250551393757,
+          "weakest_nmse_delta": 0.0008726272757064724
+        }
+      ],
+      "validation_sha256": "c6db5b2f8ca960e0a84763676a641be1ba5e9aa7162873564400a6a23dc224c5",
+      "epoch_receipt_sha256": "7151478b9921a3d19e68d1114b7d94da4d5703a40edb7b1c0a74bc6d8b43ebff"
+    },
+    {
+      "label": "파형 업데이트 보호",
+      "parameters": 32142859,
+      "trainable": 32142859,
+      "unique_long_mixtures": 2400,
+      "distinct_window_views": 2400,
+      "updates": 75,
+      "actual_e1": {
+        "epoch": 1,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.019540919265791094,
+            "mean_si_sdr": 23.76029565533494,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.019540919265791094,
+            "construction_count_accuracy": 0.7904761904761904
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.48801238066931923,
+            "mean_si_sdr": 3.416390757966552,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.8121881780638492,
+            "construction_count_accuracy": 0.32857142857142857
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.6992795338861977,
+            "mean_si_sdr": -3.423876557678185,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.9526387099972591,
+            "construction_count_accuracy": 0.23333333333333334
+          }
+        ],
+        "selection_nmse": 0.5936459572777585
+      },
+      "parent_joint_criterion": false,
+      "parent_deltas": [
+        {
+          "count": 2,
+          "nmse_delta": 0.021116786349443473,
+          "si_sdr_delta": -0.36097202755687485,
+          "weakest_nmse_delta": 0.0336084679619858
+        },
+        {
+          "count": 3,
+          "nmse_delta": 0.0090262185718466,
+          "si_sdr_delta": -0.3150965073139642,
+          "weakest_nmse_delta": 0.0013193249533434148
+        }
+      ],
+      "validation_sha256": "ae00cb77b5e2b70bdcb9e84524d39b873f3602ce6add86652fc23c4a99424656",
+      "epoch_receipt_sha256": "2457a385db065d640058451daf31bd2c50487e6735d248f9e8ae8af1a1f7ef7a"
+    },
+    {
+      "label": "주파수·시간 보강층",
+      "parameters": 37406475,
+      "trainable": 37406475,
+      "unique_long_mixtures": 2400,
+      "distinct_window_views": 2400,
+      "updates": 75,
+      "actual_e1": {
+        "epoch": 1,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.01936818335599332,
+            "mean_si_sdr": 23.784915039625925,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.01936818335599332,
+            "construction_count_accuracy": 0.7904761904761904
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.48842433881568054,
+            "mean_si_sdr": 3.3768509522297334,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.8125801941132069,
+            "construction_count_accuracy": 0.32857142857142857
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.6993030006512577,
+            "mean_si_sdr": -3.5297636744629433,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.95263146744274,
+            "construction_count_accuracy": 0.23809523809523808
+          }
+        ],
+        "selection_nmse": 0.5938636697334692
+      },
+      "parent_joint_criterion": false,
+      "parent_deltas": [
+        {
+          "count": 2,
+          "nmse_delta": 0.021528744495804775,
+          "si_sdr_delta": -0.40051183329369344,
+          "weakest_nmse_delta": 0.03400048401134348
+        },
+        {
+          "count": 3,
+          "nmse_delta": 0.009049685336906643,
+          "si_sdr_delta": -0.4209836240987226,
+          "weakest_nmse_delta": 0.0013120823988242991
+        }
+      ],
+      "validation_sha256": "39da30e1572bd40963f877121d09b042bf4d28201c0dfbb3b67cfe2d038aed30",
+      "epoch_receipt_sha256": "852b9e6ec833cf4955ddf52ecf068447f3dbf74b87fc524ce99d668dd08a8a55"
+    },
+    {
+      "label": "보강층 학습률 증가",
+      "parameters": 37406475,
+      "trainable": 37406475,
+      "unique_long_mixtures": 2400,
+      "distinct_window_views": 2400,
+      "updates": 75,
+      "actual_e1": {
+        "epoch": 1,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.019568103813182542,
+            "mean_si_sdr": 23.7990773427631,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.019568103813182542,
+            "construction_count_accuracy": 0.7904761904761904
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.48539752330555636,
+            "mean_si_sdr": 3.4364013515417597,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.8071955655315585,
+            "construction_count_accuracy": 0.3333333333333333
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.7003350633498626,
+            "mean_si_sdr": -3.5108132639144443,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.9507802604361364,
+            "construction_count_accuracy": 0.23809523809523808
+          }
+        ],
+        "selection_nmse": 0.5928662933277095
+      },
+      "parent_joint_criterion": false,
+      "parent_deltas": [
+        {
+          "count": 2,
+          "nmse_delta": 0.018501928985680594,
+          "si_sdr_delta": -0.3409614339816671,
+          "weakest_nmse_delta": 0.028615855429695025
+        },
+        {
+          "count": 3,
+          "nmse_delta": 0.01008174803551154,
+          "si_sdr_delta": -0.4020332135502236,
+          "weakest_nmse_delta": -0.0005391246077792733
+        }
+      ],
+      "validation_sha256": "184bb1238f53058c71b0f5bd881e5adb719d513629922146dc03da70324edf42",
+      "epoch_receipt_sha256": "9c9933775619df43d93d24aba1918655470bb6126e9cf47cf5362472cd451fb4"
+    },
+    {
+      "label": "보강층만 학습",
+      "parameters": 37406475,
+      "trainable": 5263616,
+      "unique_long_mixtures": 2400,
+      "distinct_window_views": 2400,
+      "updates": 75,
+      "actual_e1": {
+        "epoch": 1,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.0266820693228926,
+            "mean_si_sdr": 21.601511306727325,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.0266820693228926,
+            "construction_count_accuracy": 0.7571428571428571
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.4661092105184764,
+            "mean_si_sdr": 3.821604784851426,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.7756400179949339,
+            "construction_count_accuracy": 0.2761904761904762
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.6906324440203018,
+            "mean_si_sdr": -3.209139901882684,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.9491447874916165,
+            "construction_count_accuracy": 0.3238095238095238
+          }
+        ],
+        "selection_nmse": 0.578370827269389
+      },
+      "parent_joint_criterion": false,
+      "parent_deltas": [
+        {
+          "count": 2,
+          "nmse_delta": -0.0007863838013993374,
+          "si_sdr_delta": 0.04424199932799899,
+          "weakest_nmse_delta": -0.00293969210692957
+        },
+        {
+          "count": 3,
+          "nmse_delta": 0.00037912870595069315,
+          "si_sdr_delta": -0.10035985151846338,
+          "weakest_nmse_delta": -0.0021745975522992067
+        }
+      ],
+      "validation_sha256": "c737766080cbc7ade5eb94171019519bbe792cce7c357771f3449d8470f17849",
+      "epoch_receipt_sha256": "98af5f80a019751c7f8cd198b3c1f17543954ef6df322a573d0933aae2dd6d0f"
+    },
+    {
+      "label": "두 창 지도학습",
+      "parameters": 32142859,
+      "trainable": 32142859,
+      "unique_long_mixtures": 2400,
+      "distinct_window_views": 4800,
+      "updates": 75,
+      "actual_e1": {
+        "epoch": 1,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.019712037928622528,
+            "mean_si_sdr": 23.598780808429563,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.019712037928622528,
+            "construction_count_accuracy": 0.7904761904761904
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.4837324588576135,
+            "mean_si_sdr": 3.492506373101195,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.8055985279558049,
+            "construction_count_accuracy": 0.35714285714285715
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.6967663848517429,
+            "mean_si_sdr": -3.517527505622771,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.9501456897432441,
+            "construction_count_accuracy": 0.20952380952380953
+          }
+        ],
+        "selection_nmse": 0.5902494218546782
+      },
+      "parent_joint_criterion": false,
+      "parent_deltas": [
+        {
+          "count": 2,
+          "nmse_delta": 0.01683686453773775,
+          "si_sdr_delta": -0.2848564124222319,
+          "weakest_nmse_delta": 0.027018817853941446
+        },
+        {
+          "count": 3,
+          "nmse_delta": 0.006513069537391836,
+          "si_sdr_delta": -0.4087474552585504,
+          "weakest_nmse_delta": -0.0011736953006715733
+        }
+      ],
+      "validation_sha256": "68c5b617192e953640ac3df649e1bc6b7507d4365b818c5e53f5b6fe8fac1faf",
+      "epoch_receipt_sha256": "e28b2e0eae2dbc7eb7f65202a4f3a2225487e84a63c6f964e6d301efa0777c1d"
+    },
+    {
+      "label": "두 창+일관성",
+      "parameters": 32142859,
+      "trainable": 32142859,
+      "unique_long_mixtures": 2400,
+      "distinct_window_views": 4800,
+      "updates": 75,
+      "actual_e1": {
+        "epoch": 1,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.02197255962527485,
+            "mean_si_sdr": 23.45618009197446,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.02197255962527485,
+            "construction_count_accuracy": 0.7857142857142857
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.4892806189856845,
+            "mean_si_sdr": 3.5016004931287346,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.8175152906266937,
+            "construction_count_accuracy": 0.35714285714285715
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.6981931855549866,
+            "mean_si_sdr": -3.228571287088203,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.9545765747124736,
+            "construction_count_accuracy": 0.20476190476190476
+          }
+        ],
+        "selection_nmse": 0.5937369022703355
+      },
+      "parent_joint_criterion": false,
+      "parent_deltas": [
+        {
+          "count": 2,
+          "nmse_delta": 0.022385024665808717,
+          "si_sdr_delta": -0.2757622923946923,
+          "weakest_nmse_delta": 0.03893558052483026
+        },
+        {
+          "count": 3,
+          "nmse_delta": 0.007939870240635472,
+          "si_sdr_delta": -0.1197912367239824,
+          "weakest_nmse_delta": 0.003257189668557925
+        }
+      ],
+      "validation_sha256": "d0f0eaccd877bc818fa2874564d8a5eccefb0e0b63f7e78171c6c805d16a57d8",
+      "epoch_receipt_sha256": "75b69d9bf02f7cf60b563242ee5456d11e44a6f7dd122356dadd6c20e856015f"
+    }
+  ],
+  "pending": [
+    "친화도0 대조",
+    "최강 성분 친화도",
+    "부드러운 성분 친화도",
+    "같은 입력2회 대조",
+    "공유 U-Net 순차 추출"
+  ],
+  "parent": {
+    "epoch": 2,
+    "by_count": [
+      {
+        "count": 1,
+        "cases": 210,
+        "mean_nmse": 0.027593617315139082,
+        "mean_si_sdr": 21.33658722131418,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.027593617315139082,
+        "construction_count_accuracy": 0.7571428571428571
+      },
+      {
+        "count": 2,
+        "cases": 210,
+        "mean_nmse": 0.46689559431987576,
+        "mean_si_sdr": 3.777362785523427,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.7785797101018634,
+        "construction_count_accuracy": 0.2761904761904762
+      },
+      {
+        "count": 3,
+        "cases": 210,
+        "mean_nmse": 0.6902533153143511,
+        "mean_si_sdr": -3.1087800503642207,
+        "nonfinite_si_sdr": 0,
+        "weakest_nmse": 0.9513193850439157,
+        "construction_count_accuracy": 0.3238095238095238
+      }
+    ],
+    "selection_nmse": 0.5785744548171134
+  },
+  "parent_checkpoint_sha256": "19888f8823fbb6ade6333d40bd849dec3202e522ded016e7265eaced6b52aa49",
+  "all_same_630_identities_checked": true,
+  "data_reads": 0,
+  "inference": 0,
+  "heldout_read": false,
+  "independent_test": false,
+  "created_utc": "2026-10-10T00:39:02.638978+00:00",
+  "reporter_sha256": "16ec411481f502487abbc855f2d71ee5234e2edd684463c0591fe376294cd2b3",
+  "limitation": "Same additional updates does not imply same total pretraining, parameters, window views, or computation. Parent criterion does not replace matched-control requirement."
+}
