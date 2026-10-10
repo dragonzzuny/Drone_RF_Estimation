@@ -1,0 +1,190 @@
+{
+  "status": "PASS",
+  "candidates": {
+    "frozen_tf": {
+      "status": "PASS",
+      "candidate": "frozen_tf",
+      "restore": {
+        "exact_model_optimizer_cpu_rng": true,
+        "epoch": 1,
+        "updates": 75,
+        "cuda_rng_present": true,
+        "origin_protocol": "ee13bf21f637ae04b2848aad9a9c894d98ddbe3aaad3cf8e1354127e53878b95"
+      },
+      "parameters": 37406475,
+      "trainable": 5263616,
+      "optimizer_groups": [
+        {
+          "lr": 0.0001,
+          "weight_decay": 0.0001,
+          "parameters": 5263616
+        }
+      ],
+      "schedule_histogram": {
+        "1": 10,
+        "2": 10,
+        "3": 10,
+        "4": 10,
+        "5": 10
+      },
+      "protocol_sha256": "911db1842f6dfe61dbd62666ad04d9ef35002a1312a0ffa8c803b06e9c12841e",
+      "full_model": true,
+      "gpu_initialized": false,
+      "optimizer_steps": 0,
+      "recorded_iq_reads": 0,
+      "heldout_read": false,
+      "previous_full_forward_checks": [
+        "TF_AXIS_CPU_CHECK.json",
+        "TF_AXIS_ADAPTATION_CPU_CHECK.json",
+        "TF_AXIS_ADAPTATION_AUDIT.json"
+      ],
+      "time": 1791603244.6819847
+    },
+    "ordered_context": {
+      "status": "PASS",
+      "candidate": "ordered_context",
+      "restore": {
+        "exact_model_optimizer_cpu_rng": true,
+        "epoch": 1,
+        "updates": 75,
+        "cuda_rng_present": true,
+        "origin_protocol": "3f17170b8b6f9fcb249ed04bdb15e5ad8e34d38f34fab8515ec947b21cdf504c"
+      },
+      "parameters": 32142924,
+      "trainable": 32142924,
+      "optimizer_groups": [
+        {
+          "lr": 1e-05,
+          "weight_decay": 0.0001,
+          "parameters": 32142859
+        },
+        {
+          "lr": 0.01,
+          "weight_decay": 0.0,
+          "parameters": 65
+        }
+      ],
+      "schedule_histogram": {
+        "1": 10,
+        "2": 10,
+        "3": 10,
+        "4": 10,
+        "5": 10
+      },
+      "protocol_sha256": "911db1842f6dfe61dbd62666ad04d9ef35002a1312a0ffa8c803b06e9c12841e",
+      "full_model": true,
+      "gpu_initialized": false,
+      "optimizer_steps": 0,
+      "recorded_iq_reads": 0,
+      "heldout_read": false,
+      "previous_full_forward_checks": [
+        "ORDERED_CONTEXT_CHECK.json",
+        "ORDERED_CONTEXT_AUDIT.json"
+      ],
+      "time": 1791603271.0396314
+    },
+    "balanced_head": {
+      "status": "PASS",
+      "candidate": "balanced_head",
+      "restore": {
+        "epoch": 0,
+        "updates": 0,
+        "exact_parent_tensors": true,
+        "zero_new_readout": true
+      },
+      "parameters": 32180747,
+      "trainable": 32180747,
+      "optimizer_groups": [
+        {
+          "lr": 1e-05,
+          "weight_decay": 0.0001,
+          "parameters": 32142859
+        },
+        {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "parameters": 37888
+        }
+      ],
+      "schedule_histogram": {
+        "1": 10,
+        "2": 10,
+        "3": 10,
+        "4": 10,
+        "5": 10
+      },
+      "protocol_sha256": "911db1842f6dfe61dbd62666ad04d9ef35002a1312a0ffa8c803b06e9c12841e",
+      "full_model": true,
+      "gpu_initialized": false,
+      "optimizer_steps": 0,
+      "recorded_iq_reads": 0,
+      "heldout_read": false,
+      "previous_full_forward_checks": [
+        "BALANCED_SOURCE_HEAD_CPU_CHECK.json"
+      ],
+      "time": 1791603280.5225627
+    },
+    "wave_guard": {
+      "status": "PASS",
+      "candidate": "wave_guard",
+      "restore": {
+        "exact_model_optimizer_cpu_rng": true,
+        "epoch": 1,
+        "updates": 75,
+        "cuda_rng_present": true,
+        "origin_protocol": "d38a9ec73836ec02a1140e32f14a53207820e3d7638ad1ff349cbee1a13cd427"
+      },
+      "parameters": 32142859,
+      "trainable": 32142859,
+      "optimizer_groups": [
+        {
+          "lr": 1e-05,
+          "weight_decay": 0.0001,
+          "parameters": 32142859
+        }
+      ],
+      "schedule_histogram": {
+        "1": 10,
+        "2": 10,
+        "3": 10,
+        "4": 10,
+        "5": 10
+      },
+      "protocol_sha256": "911db1842f6dfe61dbd62666ad04d9ef35002a1312a0ffa8c803b06e9c12841e",
+      "full_model": true,
+      "gpu_initialized": false,
+      "optimizer_steps": 0,
+      "recorded_iq_reads": 0,
+      "heldout_read": false,
+      "previous_full_forward_checks": [
+        "WAVE_UPDATE_GUARD_CPU_CHECK.json",
+        "WAVE_UPDATE_GUARD_FULL_CHECK.json",
+        "WAVE_UPDATE_GUARD_FINAL_AUDIT.json"
+      ],
+      "time": 1791603302.1848307
+    }
+  },
+  "queue_checks": {
+    "incomplete_predecessors_rejected": true,
+    "missing_completion_marker_rejected": true,
+    "completed_fixture_accepted": true,
+    "tampered_validation_rejected": true
+  },
+  "ready": {
+    "status": "ALL_PREFLIGHTS_PASS",
+    "protocol_sha256": "911db1842f6dfe61dbd62666ad04d9ef35002a1312a0ffa8c803b06e9c12841e",
+    "preflight_sha256": {
+      "frozen_tf": "ad1f975a9ecd7dd7e351fdf147f299b76be7adfbd541555f983bb0d2f9eb0716",
+      "ordered_context": "123aeb370c52ca03fe21c1b6366bad01238c432b90c53612eb719691c628d144",
+      "balanced_head": "8dd3fbb190fa9a5f0abc91e23c42e2e965133e6a9eed98a247a6ed9e980968df",
+      "wave_guard": "31e48cfee5f50332d32a6d1c9600452a523eff287b1851780763021159b1b623"
+    },
+    "time": 1791603322.341983
+  },
+  "heldout_read": false,
+  "lr_rule_checked": {
+    "no_reduction_before30": true,
+    "half_all_groups_after_ten_nonimprovements": true,
+    "improvement_resets_counter": true
+  }
+}

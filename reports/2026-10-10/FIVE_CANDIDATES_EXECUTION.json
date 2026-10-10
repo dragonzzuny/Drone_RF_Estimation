@@ -1,0 +1,30 @@
+{
+  "status": "SERIAL_QUEUE_RUNNING_SEPTDA_ACTIVE",
+  "run": "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/five_candidates_20261010_v2",
+  "protocol_sha256": "911db1842f6dfe61dbd62666ad04d9ef35002a1312a0ffa8c803b06e9c12841e",
+  "plan_sha256": "c03471ac769096e6c600ed5d197e0e94afc430d45f6a996884bef6ecf6695d8a",
+  "ready_sha256": "7887ec4cd4a1f027745205d7cf3b561e5ead309b9eda57704c0ca0b644422b3c",
+  "queue": {
+    "status": "WAITING_SEPTDA_50",
+    "pid": 935459,
+    "time": 1791603395.5983624
+  },
+  "current_training": {
+    "status": "TRAINING",
+    "arm": "septda",
+    "epoch": 3,
+    "schedule_epoch": 5,
+    "updates_in_epoch": 10,
+    "cumulative_updates": 160,
+    "examples": 320,
+    "mean_training_loss_so_far": 0.5974810928790248,
+    "seconds": 237.5232515335083,
+    "pid": 930800,
+    "time": 1791603391.6396973
+  },
+  "preflight_candidates": 4,
+  "source_files": 91,
+  "pinned_files": 40,
+  "heldout_read": false,
+  "time": 1791603408.001092
+}

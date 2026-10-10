@@ -1,0 +1,43 @@
+{
+  "reason": "Discarded duplicate checkpoint copies from withdrawn preflight-only v1; originals, active v2 and withdrawn protocol/source/error evidence retained",
+  "removed": [
+    {
+      "path": "local/five_candidates_20261010_v1/ordered_context/RESUME_INPUT.pt",
+      "bytes": 385878299,
+      "sha256": "d336812cd2889196ce23f3b107bd4f61d1632dccc3811ba99de64adc935b71f7",
+      "retained_copy": "local/five_candidates_20261010_v2/ordered_context/RESUME_INPUT.pt"
+    },
+    {
+      "path": "local/five_candidates_20261010_v1/ordered_context/BEST.pt",
+      "bytes": 128618103,
+      "sha256": "a1d6be332b7d1b34a7bb2f1f1461cc8452c72a4f19419edcd2b67264ae17c075",
+      "retained_copy": "local/five_candidates_20261010_v2/ordered_context/BEST.pt"
+    },
+    {
+      "path": "local/five_candidates_20261010_v1/frozen_tf/RESUME_INPUT.pt",
+      "bytes": 191842829,
+      "sha256": "0b78ceecd1592b7c1e2071d0d9b56f7ba1533ea1c07e38f4cb8955dd8982d4e0",
+      "retained_copy": "local/five_candidates_20261010_v2/frozen_tf/RESUME_INPUT.pt"
+    },
+    {
+      "path": "local/five_candidates_20261010_v1/frozen_tf/BEST.pt",
+      "bytes": 149683977,
+      "sha256": "48c7482718da4be08c9d5bc7cfb18f6b30e804fff6258f146721db9b163205a6",
+      "retained_copy": "local/five_candidates_20261010_v2/frozen_tf/BEST.pt"
+    },
+    {
+      "path": "local/five_candidates_20261010_v1/wave_guard/RESUME_INPUT.pt",
+      "bytes": 385879523,
+      "sha256": "53d4349219895fef89d74235583988f7e617212c3b8f685736860eaeb243c3c6",
+      "retained_copy": "local/five_candidates_20261010_v2/wave_guard/RESUME_INPUT.pt"
+    },
+    {
+      "path": "local/five_candidates_20261010_v1/wave_guard/BEST.pt",
+      "bytes": 128617017,
+      "sha256": "11d84400614f7fd57795c9b4e9349d1fb247760263833c80428efbd9ca5feac0",
+      "retained_copy": "local/five_candidates_20261010_v2/wave_guard/BEST.pt"
+    }
+  ],
+  "bytes_freed": 1370519748,
+  "time": 1791603408.0005412
+}

@@ -1,0 +1,8 @@
+{
+  "status": "WITHDRAWN_BEFORE_TRAINING",
+  "reason": "Local queue.py shadowed Python standard-library queue while importing torch; renamed serial_runner.py before running any candidate.",
+  "new_run": "local/five_candidates_20261010_v2",
+  "candidate_training_updates": 0,
+  "septda_existing_worker_unaffected": true,
+  "time": 1791603232.1951973
+}
