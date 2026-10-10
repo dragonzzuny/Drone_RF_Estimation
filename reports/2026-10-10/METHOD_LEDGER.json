@@ -580,11 +580,125 @@
       ],
       "validation_sha256": "176a88c469b89c15db138babc25e81aad0d68eb8e99d2a952f409fb3ceb83a63",
       "epoch_receipt_sha256": "df95c6a946e5c3c2fe58aba93500f1a4a16fbfec574a86c05745a2a0235766b0"
+    },
+    {
+      "label": "최강 성분 친화도",
+      "parameters": 32143899,
+      "trainable": 32143899,
+      "unique_long_mixtures": 2400,
+      "distinct_window_views": 2400,
+      "updates": 75,
+      "actual_e1": {
+        "epoch": 1,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.01941815525147885,
+            "mean_si_sdr": 23.787838150469433,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.01941815525147885,
+            "construction_count_accuracy": 0.7904761904761904
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.4879962626679851,
+            "mean_si_sdr": 3.3614137692668886,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.8128496625603744,
+            "construction_count_accuracy": 0.32857142857142857
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.6993104880626114,
+            "mean_si_sdr": -3.4478923451359087,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.9523900900236959,
+            "construction_count_accuracy": 0.23809523809523808
+          }
+        ],
+        "selection_nmse": 0.5936533753652983
+      },
+      "parent_joint_criterion": false,
+      "parent_deltas": [
+        {
+          "count": 2,
+          "nmse_delta": 0.021100668348109364,
+          "si_sdr_delta": -0.41594901625653824,
+          "weakest_nmse_delta": 0.034269952458510944
+        },
+        {
+          "count": 3,
+          "nmse_delta": 0.009057172748260345,
+          "si_sdr_delta": -0.339112294771688,
+          "weakest_nmse_delta": 0.0010707049797802348
+        }
+      ],
+      "validation_sha256": "0358171e90b428df7311a3f2bf1b5102bd817fad14d645779afccc2b1bcfd2b0",
+      "epoch_receipt_sha256": "31300415625bee2c3e8eaa676e77d5abdd3ce331c65342a987dff98c471d707b"
+    },
+    {
+      "label": "부드러운 성분 친화도",
+      "parameters": 32143899,
+      "trainable": 32143899,
+      "unique_long_mixtures": 2400,
+      "distinct_window_views": 2400,
+      "updates": 75,
+      "actual_e1": {
+        "epoch": 1,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.019408694922587066,
+            "mean_si_sdr": 23.805087746965203,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.019408694922587066,
+            "construction_count_accuracy": 0.7904761904761904
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.4891003579917364,
+            "mean_si_sdr": 3.4006758096710215,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.8140480224097582,
+            "construction_count_accuracy": 0.32857142857142857
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.6992837818307114,
+            "mean_si_sdr": -3.4712293583863985,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.9523393806237146,
+            "construction_count_accuracy": 0.23809523809523808
+          }
+        ],
+        "selection_nmse": 0.5941920699112239
+      },
+      "parent_joint_criterion": false,
+      "parent_deltas": [
+        {
+          "count": 2,
+          "nmse_delta": 0.02220476367186064,
+          "si_sdr_delta": -0.3766869758524054,
+          "weakest_nmse_delta": 0.03546831230789471
+        },
+        {
+          "count": 3,
+          "nmse_delta": 0.009030466516360303,
+          "si_sdr_delta": -0.3624493080221778,
+          "weakest_nmse_delta": 0.0010199955797989269
+        }
+      ],
+      "validation_sha256": "e6cbba2c893cc7623d19e5dea2b437297a141196d09d7b4f23c015f35fec0a3b",
+      "epoch_receipt_sha256": "aa3acd364567eeafaf5ba4faf084f35da68ec88f77d743521e56862ab86ee1f1"
     }
   ],
   "pending": [
-    "최강 성분 친화도",
-    "부드러운 성분 친화도",
     "같은 입력2회 대조",
     "공유 U-Net 순차 추출"
   ],
@@ -627,7 +741,7 @@
   "inference": 0,
   "heldout_read": false,
   "independent_test": false,
-  "created_utc": "2026-10-10T00:56:17.687898+00:00",
+  "created_utc": "2026-10-10T01:19:42.277956+00:00",
   "reporter_sha256": "16ec411481f502487abbc855f2d71ee5234e2edd684463c0591fe376294cd2b3",
   "limitation": "Same additional updates does not imply same total pretraining, parameters, window views, or computation. Parent criterion does not replace matched-control requirement."
 }

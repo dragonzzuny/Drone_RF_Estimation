@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "protocol_sha256": "6e3e5dc32fffcfb8411cd4d95533ef40eb7fee4b82f78b3f51450a4249ba6e06",
+  "complete_sha256": "103ef1d827d3e7bf39374979217b137c15c4d013700c44c89488b0123377767e",
+  "auditor_sha256": "9e3f4c324b6b16ecae24661ed46993f5250a5558624c21f9a295e7c4281e34bc",
+  "rows_checked": 24,
+  "groups_checked": 12,
+  "source_and_checkpoint_hashes_checked": true,
+  "same_reference_powers_checked": true,
+  "recorded_iq_reads": 0,
+  "independently_reran_inference": false,
+  "heldout_read": false
+}

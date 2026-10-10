@@ -1,0 +1,1113 @@
+{
+  "status": "COMPLETE_CHECKED",
+  "protocol_sha256": "6e3e5dc32fffcfb8411cd4d95533ef40eb7fee4b82f78b3f51450a4249ba6e06",
+  "audit_sha256": "72d7d53e2e81e06fa61784b35443e42b453a2682b748036aaa8745ffa213a2e5",
+  "checkpoint_sha256": {
+    "affinity_control": "1373a11c233bc5403a21f4e9015aff0f5921721fe714f06eb1e362029a52e332",
+    "hard_affinity": "6941080450523d8b6e9751102b9faa0f2065ed9f455e54a8b01eac0a0b6426d1",
+    "soft_affinity": "d45c658820f1542aec560239e4cf21eb068799bb9a0d653a6f3585d4b0ccaccf"
+  },
+  "rows": [
+    {
+      "arm": "affinity_control",
+      "role": "train_pack",
+      "index": 4,
+      "count": 2,
+      "hard_affinity": 0.13515914077653723,
+      "soft_affinity": 0.12330228983412672,
+      "waveform": {
+        "count": 2,
+        "nmse": [
+          0.17250991898493537,
+          0.22850215186563683
+        ],
+        "si_sdr": [
+          7.254537708589792,
+          19.00961362428537
+        ],
+        "reference_power": [
+          0.22920438514845085,
+          0.25763593577097677
+        ],
+        "absolute_error_power": [
+          0.03954002991295118,
+          0.05887036572158519
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          1,
+          0
+        ],
+        "independent_pit_assignment": [
+          2,
+          1,
+          0
+        ],
+        "sum_relative_error": 1.152274305521399e-14
+      }
+    },
+    {
+      "arm": "affinity_control",
+      "role": "train_pack",
+      "index": 5,
+      "count": 2,
+      "hard_affinity": 0.10707760757162632,
+      "soft_affinity": 0.08993502176562462,
+      "waveform": {
+        "count": 2,
+        "nmse": [
+          0.015480823339154074,
+          0.29400475290019984
+        ],
+        "si_sdr": [
+          18.13567101890388,
+          4.350415837027304
+        ],
+        "reference_power": [
+          2.7584760524276057,
+          0.12966367582857852
+        ],
+        "absolute_error_power": [
+          0.04270348045291888,
+          0.038121736972112845
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          1,
+          0
+        ],
+        "independent_pit_assignment": [
+          2,
+          1,
+          0
+        ],
+        "sum_relative_error": 1.3147874038334226e-14
+      }
+    },
+    {
+      "arm": "affinity_control",
+      "role": "train_pack",
+      "index": 2,
+      "count": 3,
+      "hard_affinity": 0.2346825560987954,
+      "soft_affinity": 0.11537642949087817,
+      "waveform": {
+        "count": 3,
+        "nmse": [
+          0.6643325276542595,
+          0.4085561259461924,
+          0.9974166458193585
+        ],
+        "si_sdr": [
+          -2.8328510878481463,
+          2.5838345148680286,
+          -25.734904919187763
+        ],
+        "reference_power": [
+          0.21366361689242833,
+          0.41493681321210335,
+          0.08442038825742745
+        ],
+        "absolute_error_power": [
+          0.14194369067789825,
+          0.1695249769183958,
+          0.08420230049449125
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.1377008138987857e-14
+      }
+    },
+    {
+      "arm": "affinity_control",
+      "role": "train_pack",
+      "index": 11,
+      "count": 3,
+      "hard_affinity": 0.22141903571175037,
+      "soft_affinity": 0.0955682412018008,
+      "waveform": {
+        "count": 3,
+        "nmse": [
+          0.5133826821516724,
+          0.9736437097156891,
+          0.044079461794163416
+        ],
+        "si_sdr": [
+          0.1719995504348781,
+          -11.154124454165142,
+          13.370344717899584
+        ],
+        "reference_power": [
+          0.18304307747426535,
+          0.07667503672516876,
+          1.5836823299638492
+        ],
+        "absolute_error_power": [
+          0.09397114606303471,
+          0.07465416719968002,
+          0.06980786475773319
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          1,
+          0,
+          2
+        ],
+        "independent_pit_assignment": [
+          1,
+          0,
+          2
+        ],
+        "sum_relative_error": 1.2352572459007586e-14
+      }
+    },
+    {
+      "arm": "affinity_control",
+      "role": "validation_pack",
+      "index": 0,
+      "count": 2,
+      "hard_affinity": 0.3332145820502035,
+      "soft_affinity": 0.21966429254348996,
+      "waveform": {
+        "count": 2,
+        "nmse": [
+          0.009219611669915985,
+          2.3874238526493428
+        ],
+        "si_sdr": [
+          20.39541544051523,
+          -28.07009665764419
+        ],
+        "reference_power": [
+          1.7112250029614406,
+          4.642116972329153e-05
+        ],
+        "absolute_error_power": [
+          0.015776830007155313,
+          0.00011082700786526969
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2798091788098147e-14
+      }
+    },
+    {
+      "arm": "affinity_control",
+      "role": "validation_pack",
+      "index": 1,
+      "count": 2,
+      "hard_affinity": 0.0770318640376152,
+      "soft_affinity": 0.05002641312643419,
+      "waveform": {
+        "count": 2,
+        "nmse": [
+          0.6317580599380594,
+          0.009171805737952381
+        ],
+        "si_sdr": [
+          4.915585635229903,
+          20.34447449872749
+        ],
+        "reference_power": [
+          0.18120797534143218,
+          10.186069373703777
+        ],
+        "absolute_error_power": [
+          0.11447959894700692,
+          0.09342464952891733
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.2489183804958785e-14
+      }
+    },
+    {
+      "arm": "affinity_control",
+      "role": "validation_pack",
+      "index": 3,
+      "count": 3,
+      "hard_affinity": 0.18632509720637452,
+      "soft_affinity": 0.13710960135914757,
+      "waveform": {
+        "count": 3,
+        "nmse": [
+          0.758623675621057,
+          0.080335662886778,
+          0.9732835708551284
+        ],
+        "si_sdr": [
+          -4.299709461049353,
+          10.634469857995239,
+          -14.2443673929722
+        ],
+        "reference_power": [
+          0.11162389301164169,
+          1.02803182437305,
+          0.010203702058333179
+        ],
+        "absolute_error_power": [
+          0.08468052800362325,
+          0.08258761807971271,
+          0.00993109557527634
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.2449685183966309e-14
+      }
+    },
+    {
+      "arm": "affinity_control",
+      "role": "validation_pack",
+      "index": 11,
+      "count": 3,
+      "hard_affinity": 0.17235134000030422,
+      "soft_affinity": 0.07177167937138695,
+      "waveform": {
+        "count": 3,
+        "nmse": [
+          0.1519541800747927,
+          0.9837902701824996,
+          0.3830310409580542
+        ],
+        "si_sdr": [
+          7.702837475219111,
+          -10.972917113319765,
+          2.9644191207099757
+        ],
+        "reference_power": [
+          0.7547707858320405,
+          0.10446972251133052,
+          0.07134990119105523
+        ],
+        "absolute_error_power": [
+          0.11469057590551467,
+          0.10277629653531262,
+          0.027329226925464196
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2219872660157483e-14
+      }
+    },
+    {
+      "arm": "hard_affinity",
+      "role": "train_pack",
+      "index": 4,
+      "count": 2,
+      "hard_affinity": 0.10588807803280631,
+      "soft_affinity": 0.09510958876210207,
+      "waveform": {
+        "count": 2,
+        "nmse": [
+          0.1723363996422389,
+          0.22936630852301515
+        ],
+        "si_sdr": [
+          7.26003016983976,
+          19.031612739340275
+        ],
+        "reference_power": [
+          0.22920438514845085,
+          0.25763593577097677
+        ],
+        "absolute_error_power": [
+          0.039500258518697075,
+          0.059093003530661575
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          1,
+          0
+        ],
+        "independent_pit_assignment": [
+          2,
+          1,
+          0
+        ],
+        "sum_relative_error": 1.1548512007338615e-14
+      }
+    },
+    {
+      "arm": "hard_affinity",
+      "role": "train_pack",
+      "index": 5,
+      "count": 2,
+      "hard_affinity": 0.07781246202200537,
+      "soft_affinity": 0.06696169845500516,
+      "waveform": {
+        "count": 2,
+        "nmse": [
+          0.015415362089976632,
+          0.29300377204408445
+        ],
+        "si_sdr": [
+          18.170935181576912,
+          4.4103782338902695
+        ],
+        "reference_power": [
+          2.7584760524276057,
+          0.12966367582857852
+        ],
+        "absolute_error_power": [
+          0.042522907164700904,
+          0.037991946114874886
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          1,
+          0
+        ],
+        "independent_pit_assignment": [
+          2,
+          1,
+          0
+        ],
+        "sum_relative_error": 1.3387920233216662e-14
+      }
+    },
+    {
+      "arm": "hard_affinity",
+      "role": "train_pack",
+      "index": 2,
+      "count": 3,
+      "hard_affinity": 0.23455973473563313,
+      "soft_affinity": 0.11052733026334344,
+      "waveform": {
+        "count": 3,
+        "nmse": [
+          0.6663188036061352,
+          0.4096173489118846,
+          0.9971432671183016
+        ],
+        "si_sdr": [
+          -2.8578522265726796,
+          2.5941171080123397,
+          -25.261613118153292
+        ],
+        "reference_power": [
+          0.21366361689242833,
+          0.41493681321210335,
+          0.08442038825742745
+        ],
+        "absolute_error_power": [
+          0.14236808558192246,
+          0.16996531739388762,
+          0.08417922175840671
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.151651505585897e-14
+      }
+    },
+    {
+      "arm": "hard_affinity",
+      "role": "train_pack",
+      "index": 11,
+      "count": 3,
+      "hard_affinity": 0.20059691066489926,
+      "soft_affinity": 0.07145779807511415,
+      "waveform": {
+        "count": 3,
+        "nmse": [
+          0.5182521997040143,
+          0.9742514749862827,
+          0.044496843773873404
+        ],
+        "si_sdr": [
+          0.09405669659554294,
+          -11.446015870371276,
+          13.328411274250547
+        ],
+        "reference_power": [
+          0.18304307747426535,
+          0.07667503672516876,
+          1.5836823299638492
+        ],
+        "absolute_error_power": [
+          0.09486247754163031,
+          0.07470076762412306,
+          0.07046886522384523
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          1,
+          0,
+          2
+        ],
+        "independent_pit_assignment": [
+          1,
+          0,
+          2
+        ],
+        "sum_relative_error": 1.2217382546771513e-14
+      }
+    },
+    {
+      "arm": "hard_affinity",
+      "role": "validation_pack",
+      "index": 0,
+      "count": 2,
+      "hard_affinity": 0.24632900056727836,
+      "soft_affinity": 0.13003417999691314,
+      "waveform": {
+        "count": 2,
+        "nmse": [
+          0.009903761633332146,
+          2.3935495487555247
+        ],
+        "si_sdr": [
+          20.10487665771546,
+          -27.609284859923072
+        ],
+        "reference_power": [
+          1.7112250029614406,
+          4.642116972329153e-05
+        ],
+        "absolute_error_power": [
+          0.016947564530328203,
+          0.00011111136984388806
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2898878995947589e-14
+      }
+    },
+    {
+      "arm": "hard_affinity",
+      "role": "validation_pack",
+      "index": 1,
+      "count": 2,
+      "hard_affinity": 0.09961591821365062,
+      "soft_affinity": 0.04695972457682579,
+      "waveform": {
+        "count": 2,
+        "nmse": [
+          0.6350150083654656,
+          0.009196501646220887
+        ],
+        "si_sdr": [
+          4.8119078366605565,
+          20.32714966565246
+        ],
+        "reference_power": [
+          0.18120797534143218,
+          10.186069373703777
+        ],
+        "absolute_error_power": [
+          0.11506978397732864,
+          0.09367620376378694
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.2503677402087349e-14
+      }
+    },
+    {
+      "arm": "hard_affinity",
+      "role": "validation_pack",
+      "index": 3,
+      "count": 3,
+      "hard_affinity": 0.17598157918148916,
+      "soft_affinity": 0.10326383445609588,
+      "waveform": {
+        "count": 3,
+        "nmse": [
+          0.7620739015942629,
+          0.08056898917640477,
+          0.9728201727825323
+        ],
+        "si_sdr": [
+          -4.341794325256191,
+          10.626315936975022,
+          -14.229068734076344
+        ],
+        "reference_power": [
+          0.11162389301164169,
+          1.02803182437305,
+          0.010203702058333179
+        ],
+        "absolute_error_power": [
+          0.08506565565852237,
+          0.08282748493091191,
+          0.009926367199409163
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.245264476649012e-14
+      }
+    },
+    {
+      "arm": "hard_affinity",
+      "role": "validation_pack",
+      "index": 11,
+      "count": 3,
+      "hard_affinity": 0.15657098119225665,
+      "soft_affinity": 0.05930539886879743,
+      "waveform": {
+        "count": 3,
+        "nmse": [
+          0.15166911118633994,
+          0.9832534165895644,
+          0.38325463009195343
+        ],
+        "si_sdr": [
+          7.704728455940952,
+          -10.88607324497442,
+          2.9515775150460266
+        ],
+        "reference_power": [
+          0.7547707858320405,
+          0.10446972251133052,
+          0.07134990119105523
+        ],
+        "absolute_error_power": [
+          0.11447541423656092,
+          0.10272021158942947,
+          0.027345179988075303
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2038243666564327e-14
+      }
+    },
+    {
+      "arm": "soft_affinity",
+      "role": "train_pack",
+      "index": 4,
+      "count": 2,
+      "hard_affinity": 0.1663263295610934,
+      "soft_affinity": 0.14988363355199963,
+      "waveform": {
+        "count": 2,
+        "nmse": [
+          0.17259472315562593,
+          0.22908477245341266
+        ],
+        "si_sdr": [
+          7.2498521391219315,
+          19.02225451509193
+        ],
+        "reference_power": [
+          0.22920438514845085,
+          0.25763593577097677
+        ],
+        "absolute_error_power": [
+          0.039559467400752335,
+          0.059020469721916255
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          1,
+          0
+        ],
+        "independent_pit_assignment": [
+          2,
+          1,
+          0
+        ],
+        "sum_relative_error": 1.1566232674932644e-14
+      }
+    },
+    {
+      "arm": "soft_affinity",
+      "role": "train_pack",
+      "index": 5,
+      "count": 2,
+      "hard_affinity": 0.10141818992265694,
+      "soft_affinity": 0.061030684380987354,
+      "waveform": {
+        "count": 2,
+        "nmse": [
+          0.015506313385324,
+          0.2948030133436825
+        ],
+        "si_sdr": [
+          18.1404098825198,
+          4.361258593876393
+        ],
+        "reference_power": [
+          2.7584760524276057,
+          0.12966367582857852
+        ],
+        "absolute_error_power": [
+          0.04277379413485389,
+          0.03822524235548335
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          1,
+          0
+        ],
+        "independent_pit_assignment": [
+          2,
+          1,
+          0
+        ],
+        "sum_relative_error": 1.31869816149419e-14
+      }
+    },
+    {
+      "arm": "soft_affinity",
+      "role": "train_pack",
+      "index": 2,
+      "count": 3,
+      "hard_affinity": 0.2932317270861253,
+      "soft_affinity": 0.11200550428870382,
+      "waveform": {
+        "count": 3,
+        "nmse": [
+          0.6633924609310413,
+          0.40833653781734863,
+          0.9979195356953126
+        ],
+        "si_sdr": [
+          -2.8036994117386396,
+          2.600936596546402,
+          -26.755818608982842
+        ],
+        "reference_power": [
+          0.21366361689242833,
+          0.41493681321210335,
+          0.08442038825742745
+        ],
+        "absolute_error_power": [
+          0.14174283262169524,
+          0.16943386171999417,
+          0.08424475465307002
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.1445417859023098e-14
+      }
+    },
+    {
+      "arm": "soft_affinity",
+      "role": "train_pack",
+      "index": 11,
+      "count": 3,
+      "hard_affinity": 0.2586254201184257,
+      "soft_affinity": 0.0710589985424806,
+      "waveform": {
+        "count": 3,
+        "nmse": [
+          0.5164707813476634,
+          0.9740505027507698,
+          0.0444509120866595
+        ],
+        "si_sdr": [
+          0.1296924801388114,
+          -11.276687035160576,
+          13.331591142800185
+        ],
+        "reference_power": [
+          0.18304307747426535,
+          0.07667503672516876,
+          1.5836823299638492
+        ],
+        "absolute_error_power": [
+          0.09453640124341472,
+          0.07468535807058437,
+          0.07039612402241914
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          1,
+          0,
+          2
+        ],
+        "independent_pit_assignment": [
+          1,
+          0,
+          2
+        ],
+        "sum_relative_error": 1.2263003990778932e-14
+      }
+    },
+    {
+      "arm": "soft_affinity",
+      "role": "validation_pack",
+      "index": 0,
+      "count": 2,
+      "hard_affinity": 0.19478931609032724,
+      "soft_affinity": 0.07517328595626327,
+      "waveform": {
+        "count": 2,
+        "nmse": [
+          0.00946162215996301,
+          2.3515899760588663
+        ],
+        "si_sdr": [
+          20.29735738158766,
+          -27.425923120744308
+        ],
+        "reference_power": [
+          1.7112250029614406,
+          4.642116972329153e-05
+        ],
+        "absolute_error_power": [
+          0.016190964408702734,
+          0.00010916355739821969
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2797186090654287e-14
+      }
+    },
+    {
+      "arm": "soft_affinity",
+      "role": "validation_pack",
+      "index": 1,
+      "count": 2,
+      "hard_affinity": 0.14868749963250338,
+      "soft_affinity": 0.07396610080494348,
+      "waveform": {
+        "count": 2,
+        "nmse": [
+          0.6359414031747562,
+          0.009166173532031944
+        ],
+        "si_sdr": [
+          4.871749905152151,
+          20.345958581127697
+        ],
+        "reference_power": [
+          0.18120797534143218,
+          10.186069373703777
+        ],
+        "absolute_error_power": [
+          0.11523765410508702,
+          0.09336727948868477
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.2418983562501398e-14
+      }
+    },
+    {
+      "arm": "soft_affinity",
+      "role": "validation_pack",
+      "index": 3,
+      "count": 3,
+      "hard_affinity": 0.2391521463234174,
+      "soft_affinity": 0.07646390960941474,
+      "waveform": {
+        "count": 3,
+        "nmse": [
+          0.7616272239100061,
+          0.08055449546690653,
+          0.9720293626224331
+        ],
+        "si_sdr": [
+          -4.3230397516995795,
+          10.624907606575738,
+          -13.989478234391994
+        ],
+        "reference_power": [
+          0.11162389301164169,
+          1.02803182437305,
+          0.010203702058333179
+        ],
+        "absolute_error_power": [
+          0.0850157957564842,
+          0.08281258493629451,
+          0.009918298008150809
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.253739204843902e-14
+      }
+    },
+    {
+      "arm": "soft_affinity",
+      "role": "validation_pack",
+      "index": 11,
+      "count": 3,
+      "hard_affinity": 0.2143052061203915,
+      "soft_affinity": 0.045098542458067215,
+      "waveform": {
+        "count": 3,
+        "nmse": [
+          0.1518689851902279,
+          0.9840596767346615,
+          0.38401867312951254
+        ],
+        "si_sdr": [
+          7.694559202789265,
+          -11.04514047654547,
+          2.9396932531639814
+        ],
+        "reference_power": [
+          0.7547707858320405,
+          0.10446972251133052,
+          0.07134990119105523
+        ],
+        "absolute_error_power": [
+          0.11462627329554283,
+          0.1028044413630597,
+          0.027399694383310857
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.2096679114742783e-14
+      }
+    }
+  ],
+  "summary": [
+    {
+      "arm": "affinity_control",
+      "role": "train_pack",
+      "count": 2,
+      "cases": 2,
+      "hard_affinity": 0.12111837417408178,
+      "soft_affinity": 0.10661865579987567,
+      "mean_nmse": 0.17762441177248153
+    },
+    {
+      "arm": "affinity_control",
+      "role": "train_pack",
+      "count": 3,
+      "cases": 2,
+      "hard_affinity": 0.22805079590527289,
+      "soft_affinity": 0.10547233534633949,
+      "mean_nmse": 0.6002351921802226
+    },
+    {
+      "arm": "affinity_control",
+      "role": "validation_pack",
+      "count": 2,
+      "cases": 2,
+      "hard_affinity": 0.20512322304390934,
+      "soft_affinity": 0.13484535283496207,
+      "mean_nmse": 0.7593933324988177
+    },
+    {
+      "arm": "affinity_control",
+      "role": "validation_pack",
+      "count": 3,
+      "cases": 2,
+      "hard_affinity": 0.17933821860333937,
+      "soft_affinity": 0.10444064036526726,
+      "mean_nmse": 0.5551697334297183
+    },
+    {
+      "arm": "hard_affinity",
+      "role": "train_pack",
+      "count": 2,
+      "cases": 2,
+      "hard_affinity": 0.09185027002740584,
+      "soft_affinity": 0.08103564360855361,
+      "mean_nmse": 0.1775304605748288
+    },
+    {
+      "arm": "hard_affinity",
+      "role": "train_pack",
+      "count": 3,
+      "cases": 2,
+      "hard_affinity": 0.2175783227002662,
+      "soft_affinity": 0.0909925641692288,
+      "mean_nmse": 0.6016799896834153
+    },
+    {
+      "arm": "hard_affinity",
+      "role": "validation_pack",
+      "count": 2,
+      "cases": 2,
+      "hard_affinity": 0.1729724593904645,
+      "soft_affinity": 0.08849695228686946,
+      "mean_nmse": 0.7619162051001358
+    },
+    {
+      "arm": "hard_affinity",
+      "role": "validation_pack",
+      "count": 3,
+      "cases": 2,
+      "hard_affinity": 0.1662762801868729,
+      "soft_affinity": 0.08128461666244666,
+      "mean_nmse": 0.5556067035701763
+    },
+    {
+      "arm": "soft_affinity",
+      "role": "train_pack",
+      "count": 2,
+      "cases": 2,
+      "hard_affinity": 0.13387225974187517,
+      "soft_affinity": 0.10545715896649349,
+      "mean_nmse": 0.17799720558451126
+    },
+    {
+      "arm": "soft_affinity",
+      "role": "train_pack",
+      "count": 3,
+      "cases": 2,
+      "hard_affinity": 0.2759285736022755,
+      "soft_affinity": 0.09153225141559221,
+      "mean_nmse": 0.6007701217714658
+    },
+    {
+      "arm": "soft_affinity",
+      "role": "validation_pack",
+      "count": 2,
+      "cases": 2,
+      "hard_affinity": 0.1717384078614153,
+      "soft_affinity": 0.07456969338060337,
+      "mean_nmse": 0.7515397937314043
+    },
+    {
+      "arm": "soft_affinity",
+      "role": "validation_pack",
+      "count": 3,
+      "cases": 2,
+      "hard_affinity": 0.22672867622190446,
+      "soft_affinity": 0.060781226033740976,
+      "mean_nmse": 0.5556930695089579
+    }
+  ],
+  "optimizer_steps": 0,
+  "inferences": 24,
+  "gpu_use": false,
+  "heldout_read": false,
+  "dev_reused": true,
+  "seconds": 162.93971943855286,
+  "limitation": "Two cases per count/role; supervised embedding diagnosis, not deployable assignment or independent test"
+}

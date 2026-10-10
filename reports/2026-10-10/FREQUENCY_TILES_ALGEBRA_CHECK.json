@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "all_frequency_bins_covered": true,
+  "positive_partition_of_unity": true,
+  "prediction_only_alignment": true,
+  "background_fixed": true,
+  "complex_sum_conserved": true,
+  "full_model_test": false,
+  "inference_calls_per_case": 9,
+  "optimizer_steps": 0,
+  "heldout_read": false,
+  "sources": {
+    "experiments/frequency_tiles_20261010/check.py": "555f52ab49f24769347c226a82c0bceb889770302b6a3431c3dfcfeef3184d4b",
+    "experiments/frequency_tiles_20261010/tiles.py": "52be27fa2899e7a01a77845e7df0c6d2f5d54d2ed17f281d2c52ac760e89f338"
+  }
+}
