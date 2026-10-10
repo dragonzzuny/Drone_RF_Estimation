@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "protocol_sha256": "584c2ab7bd4558469d94babfe8313301a2165f8c02294392b2018437568a20c6",
+  "recording_groups": {
+    "train_pack": 8,
+    "validation_pack": 5
+  },
+  "recording_group_disjoint": true,
+  "schedule_counts": {
+    "1": {
+      "1": 800,
+      "3": 800,
+      "2": 800
+    },
+    "2": {
+      "3": 800,
+      "2": 800,
+      "1": 800
+    },
+    "3": {
+      "2": 800,
+      "1": 800,
+      "3": 800
+    },
+    "4": {
+      "1": 800,
+      "3": 800,
+      "2": 800
+    },
+    "5": {
+      "3": 800,
+      "1": 800,
+      "2": 800
+    }
+  },
+  "training_compositions": {
+    "1": [
+      [
+        "DJI AVATA2"
+      ],
+      [
+        "DJI FPV COMBO"
+      ],
+      [
+        "DJI MAVIC3 PRO"
+      ],
+      [
+        "DJI MINI3"
+      ],
+      [
+        "DJI MINI4 PRO"
+      ]
+    ],
+    "2": [
+      [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ]
+    ],
+    "3": [
+      [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ]
+    ]
+  },
+  "training_rows": 12000,
+  "unique_schedules": 5,
+  "scheduled_passes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "total_mixture_presentations": 24000,
+  "rotated_views_per_presentation": 8,
+  "model_or_inputs_reduced": false,
+  "heldout_read": false,
+  "raw_iq_read_by_audit": false,
+  "same_native_band_center_and_rate": true,
+  "time": 1791668289.6312416
+}

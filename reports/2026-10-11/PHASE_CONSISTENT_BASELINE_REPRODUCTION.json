@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "cases": 630,
+  "maximum_metric_differences": {
+    "nmse": 0.0,
+    "si_sdr": 0.0
+  },
+  "by_count": [
+    {
+      "count": 1,
+      "cases": 210,
+      "mean_nmse": 0.027365086980576128,
+      "median_nmse": 0.009452655014562428,
+      "mean_si_sdr": 21.84324071504541,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.027365086980576128,
+      "construction_count_accuracy": 0.7571428571428571
+    },
+    {
+      "count": 2,
+      "cases": 210,
+      "mean_nmse": 0.44460113563431586,
+      "median_nmse": 0.40004825023034435,
+      "mean_si_sdr": 4.249089139909562,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.7343158631335248,
+      "construction_count_accuracy": 0.2761904761904762
+    },
+    {
+      "count": 3,
+      "cases": 210,
+      "mean_nmse": 0.6889476041665019,
+      "median_nmse": 0.7531907581694455,
+      "mean_si_sdr": -2.735626522965516,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.9486435775016646,
+      "construction_count_accuracy": 0.3238095238095238
+    }
+  ],
+  "phase_consistency_diagnostic": {
+    "mean_consistency": 0.0055105908719443025,
+    "mean_waveform_objective": 0.6153005801792403,
+    "note": "Reference-normalized diagnostic; targets used only after mixture-only forward"
+  },
+  "protocol_sha256": "584c2ab7bd4558469d94babfe8313301a2165f8c02294392b2018437568a20c6",
+  "parent_checkpoint_sha256": "19888f8823fbb6ade6333d40bd849dec3202e522ded016e7265eaced6b52aa49",
+  "comparison": "fresh GPU baseline vs saved selected C8; CPU compared receipts, not independent CPU waveform inference",
+  "new_training_epoch_completed": false,
+  "time": 1791668561.1794162
+}

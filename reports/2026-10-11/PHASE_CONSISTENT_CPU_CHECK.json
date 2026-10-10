@@ -1,0 +1,175 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "count": 1,
+      "maximum_gradient_error": 5.551115123125783e-17,
+      "loss": {
+        "waveform": 0.31752843439644174,
+        "consistency": 0.11316623092348677,
+        "count": 2.923718331541077,
+        "total": 0.6212168906428981
+      },
+      "replay_loss": 0.6212168906428981,
+      "orders": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "wrong_equal_output_loss": 0.6666666666666666
+    },
+    {
+      "count": 2,
+      "maximum_gradient_error": 2.7755575615628914e-17,
+      "loss": {
+        "waveform": 0.8000976912426626,
+        "consistency": 0.03672026060923023,
+        "count": 3.5701600070633392,
+        "total": 1.1607857180099195
+      },
+      "replay_loss": 1.1607857180099195,
+      "orders": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "wrong_equal_output_loss": 1.3333333333333333
+    },
+    {
+      "count": 3,
+      "maximum_gradient_error": 5.551115123125783e-17,
+      "loss": {
+        "waveform": 1.4935235271138765,
+        "consistency": 0.04552494744969712,
+        "count": 0.7010097407664173,
+        "total": 1.568176995935488
+      },
+      "replay_loss": 1.568176995935488,
+      "orders": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "wrong_equal_output_loss": 2.0
+    }
+  ],
+  "full_vs_replay_gradients": true,
+  "selected_eight_inference_identical": true,
+  "wrong_identical_outputs_penalized": true,
+  "source_sha256": {
+    "experiments/phase_consistent_20261011/objective.py": "14d542510b5cb2047965ac18b3c0540a657cff2791b6eedf3497f081b6ec3ddd",
+    "experiments/phase_consistent_20261011/check.py": "dd62fc2b9dc8cc8be665c54c32c9290178a50e5259ca0956b4a3e7e729714e2c",
+    "experiments/phase_consistent_20261011/common.py": "673c91fb9870d06096909a3801a944e53c6f8c46dce7cfaada7a31c6dbe3531b"
+  }
+}

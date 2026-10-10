@@ -1,0 +1,184 @@
+{
+  "status": "PASS",
+  "parameters": 32142859,
+  "trainable_parameters": 32142859,
+  "rows": [
+    {
+      "index": 0,
+      "count": 1,
+      "seconds": 3.4852488040924072,
+      "loss": {
+        "waveform": 0.08521118760108948,
+        "consistency": 0.0002558350679464638,
+        "count": 0.09798071533441544,
+        "total": 0.09503484517335892,
+        "prediction_only_orders": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "count": 2,
+      "seconds": 2.6907076835632324,
+      "loss": {
+        "waveform": 0.20157665014266968,
+        "consistency": 0.000446048507001251,
+        "count": 1.248311161994934,
+        "total": 0.326452374458313,
+        "prediction_only_orders": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "count": 3,
+      "seconds": 2.67602801322937,
+      "loss": {
+        "waveform": 1.3347018957138062,
+        "consistency": 0.00044188136234879494,
+        "count": 1.0080952644348145,
+        "total": 1.4355556964874268,
+        "prediction_only_orders": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      }
+    }
+  ],
+  "gradient_norms": {
+    "down": 1.089577317237854,
+    "up": 0.6643473505973816,
+    "output": 0.5797989964485168,
+    "context_encoder": 2.0160152912139893,
+    "context_projection": 0.00930042564868927,
+    "count_head": 0.12246646732091904
+  },
+  "preclip_norm": 2.4584763050079346,
+  "seconds": 9.136913061141968,
+  "peak_gpu_bytes": 2233536512,
+  "discarded_updates": 1,
+  "parent_sha256": "19888f8823fbb6ade6333d40bd849dec3202e522ded016e7265eaced6b52aa49",
+  "source_sha256": {
+    "experiments/phase_consistent_20261011/objective.py": "14d542510b5cb2047965ac18b3c0540a657cff2791b6eedf3497f081b6ec3ddd",
+    "experiments/phase_consistent_20261011/check.py": "dd62fc2b9dc8cc8be665c54c32c9290178a50e5259ca0956b4a3e7e729714e2c",
+    "experiments/phase_consistent_20261011/common.py": "673c91fb9870d06096909a3801a944e53c6f8c46dce7cfaada7a31c6dbe3531b"
+  }
+}
