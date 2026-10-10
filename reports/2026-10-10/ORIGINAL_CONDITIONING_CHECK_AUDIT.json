@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "protocol_sha256": "72f9023408dbc96cefc5312a847f9debbcf1bf1bb5e527760f3d420da6f4189d",
+  "complete_sha256": "289a11da4d9d96e6d54d0208024af50a28c61446b3d04040685a3f710ea314dc",
+  "prior_check_sha256": "3ec30dcec56d4f7165df2634a28a04b1be01db8ab6c4f93c8f4ebd566e99dec2",
+  "auditor_sha256": "c3b329d73a9cc98e7c20c3bf7c8ea4bd7593da5f71e9ecc7164d42f37b8b9905",
+  "deltas": [
+    {
+      "index": 0,
+      "objective_absolute_difference": 0.0,
+      "residual_gradient_norm_difference": 0.0
+    },
+    {
+      "index": 4,
+      "objective_absolute_difference": 0.0,
+      "residual_gradient_norm_difference": 0.0
+    },
+    {
+      "index": 2,
+      "objective_absolute_difference": 0.0,
+      "residual_gradient_norm_difference": 0.0
+    }
+  ],
+  "all_source_hashes_checked": true,
+  "parent_and_preparation_hashes_checked": true,
+  "optimizer_steps": 0,
+  "recorded_iq_reads": 0,
+  "independently_reran_inference": false,
+  "heldout_read": false,
+  "trained_result": false
+}

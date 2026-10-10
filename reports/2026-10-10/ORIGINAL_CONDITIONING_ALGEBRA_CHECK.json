@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "feature_scale_invariance": true,
+  "feature_phase_covariance": true,
+  "model_phase_equivariance_claimed": false,
+  "degenerate_derivatives_finite": true,
+  "zero_input_features_zero": true,
+  "scale_invariance_above_numerical_floor_only": true,
+  "zero_adapter_forward_exact": true,
+  "adapter_gradient_nonzero": true,
+  "hook_cleanup": true,
+  "cpu_rng_preserved": true,
+  "extra_parameters": 2304,
+  "optimizer_steps": 0,
+  "full_model_test": false,
+  "heldout_read": false,
+  "sources": {
+    "experiments/recursive_conditioning_20261010/check.py": "505961e63880c4375f4a8a2af0d0fd0d91189ac55315ffd0ba88e969d4b26b02",
+    "experiments/recursive_conditioning_20261010/conditioning.py": "5db1a7fed293f5965f139753b88231d11d1b0a873f1da1e3c1021b2c2ec01c8d"
+  }
+}
