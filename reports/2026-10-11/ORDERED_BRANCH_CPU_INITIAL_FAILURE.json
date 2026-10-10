@@ -1,0 +1,12 @@
+{
+  "status": "FAILED_CPU_CONTRACT",
+  "time": 1791659185.0870984,
+  "check": "constant context has exactly zero temporal residual",
+  "cause": "Repeated FP32 averaging of a constant vector can change its value by rounding; branch and constant-input comparator then differ",
+  "training_started": false,
+  "source_sha256": {
+    "experiments/ordered_branch_20261011/architecture.py": "21843686815c7d7c205543722e57be2d7c6cea8ccb9e5585d5eedb86443e0e9b",
+    "experiments/ordered_branch_20261011/check_cpu.py": "59b6932fdf29866b84ef3e78d1aa809e589875965a218047c2b318b92dbf1384"
+  },
+  "fix": "Use anchor-centered mean for the new branch only; keep original parent mean untouched"
+}

@@ -1,0 +1,13 @@
+{
+  "checkpoint_updates": 50,
+  "tanh_gate_mean_abs": 0.14219558238983154,
+  "tanh_gate_min": -0.3018095791339874,
+  "tanh_gate_max": 0.2532899081707001,
+  "branch_weight_change_norm": {
+    "ordered_encoder.": 0.6564969674747945,
+    "ordered_projection.": 0.39731117272904415
+  },
+  "frozen_parent_tensors": 131,
+  "frozen_exact": true,
+  "performance_evaluation": false
+}

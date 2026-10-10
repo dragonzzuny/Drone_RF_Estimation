@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "parameters": 32878091,
+  "trainable_parameters": 735232,
+  "frozen_parent_parameters": 32142859,
+  "frozen_parent_tensors": 131,
+  "train_schedule_epoch": 3,
+  "train_context_index": 5,
+  "zero_gate_preserves_context_exactly": true,
+  "constant_context_zero_added_path": true,
+  "reversed_context_max_bias_difference": 0.023007333278656006,
+  "nonzero_gate_gradient_norms": {
+    "gate": 0.00018940655870751944,
+    "ordered_encoder": 0.011541601714761483,
+    "ordered_projection": 0.0002551607637374914
+  },
+  "full_waveform_gpu_preflight_pending": true,
+  "full_waveform_cpu_inference": false,
+  "optimizer_updates": 0,
+  "validation_read": false,
+  "heldout_read": false,
+  "parent_checkpoint_sha256": "19888f8823fbb6ade6333d40bd849dec3202e522ded016e7265eaced6b52aa49",
+  "source_sha256": {
+    "experiments/ordered_branch_20261011/check_cpu.py": "59b6932fdf29866b84ef3e78d1aa809e589875965a218047c2b318b92dbf1384",
+    "experiments/ordered_branch_20261011/architecture.py": "a72653fbc26d1bb8a015f466a32b0935eac93bf9549e02db01f99cbba9ac008f"
+  }
+}

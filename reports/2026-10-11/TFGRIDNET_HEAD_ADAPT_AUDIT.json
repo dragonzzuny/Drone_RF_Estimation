@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "added_updates": 16,
+  "total_updates": 80,
+  "changed_tensors": [
+    "deconv.weight",
+    "deconv.bias"
+  ],
+  "all_other_tensors_bitwise_unchanged": true,
+  "frozen_optimizer_state_bitwise_unchanged": true,
+  "summaries_recomputed": true,
+  "decisions_recomputed": true,
+  "selected_added_updates": 0,
+  "selected_checkpoint_sha256": "d0785c79ff4c650ccb86ad9a182944a423106494b6b000ba6b504f8cc93042d9",
+  "maximum_sum_relative_error": 7.350850443933621e-13,
+  "protocol_sha256": "150d482b883d5935a079c90d1e1f98d44047e78e855de49d3e7a1670a8e7e9fd",
+  "audit_source_sha256": "653ac1254463ca9474eb5d81fff59217682b3b4d02932d099fe3e604af1a8cac",
+  "independent_full_length_cpu_inference": false,
+  "optimizer_updates": 0,
+  "validation_read": false,
+  "heldout_read": false,
+  "time": 1791658722.6416705
+}

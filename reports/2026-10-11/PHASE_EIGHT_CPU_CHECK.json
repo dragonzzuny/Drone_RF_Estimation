@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "synthetic_only": true,
+  "forward_calls": 8,
+  "no_reference_or_count_input": true,
+  "changed_output_permutations": 2,
+  "max_four_error": 0.0,
+  "max_eight_error": 2.220446049250313e-16,
+  "source_sha256": {
+    "experiments/rfuav_phase_average_20261009/phase_core.py": "c320161c3ef3d94fbd7f08f726ef73be4f6e3a4c85eb0ff367b62ef2a59918dd",
+    "experiments/phase_eight_20261011/core.py": "8736598c2214d32c8794fc019198dd755a1fcd0ad2c4cc38c3151a18646692c0",
+    "experiments/phase_eight_20261011/check.py": "1066e1c61a30811599353f37a0eb11b41ee5ae780536165773b8f2791e297b8f"
+  }
+}

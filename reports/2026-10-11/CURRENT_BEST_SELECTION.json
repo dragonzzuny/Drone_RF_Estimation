@@ -1,0 +1,64 @@
+{
+  "status": "SELECTED_ON_REPEATED_DEV",
+  "model": "native e2 full complex STFT U-Net",
+  "checkpoint_relative_path": "local/native_frequency_20261009_v1/gpu/SELECTED_005.pt",
+  "checkpoint_sha256": "19888f8823fbb6ade6333d40bd849dec3202e522ded016e7265eaced6b52aa49",
+  "architecture_parameters": 32142859,
+  "inference": "eight phase prediction-only aligned equal average",
+  "inference_source": "experiments/phase_eight_20261011/core.py",
+  "inference_source_sha256": "8736598c2214d32c8794fc019198dd755a1fcd0ad2c4cc38c3151a18646692c0",
+  "call": "_, estimates, count_logits, diagnostics = core.predict_eight(net, worker.predict, item)",
+  "angles_degrees": [
+    0,
+    45,
+    90,
+    135,
+    180,
+    225,
+    270,
+    315
+  ],
+  "forward_passes_per_example": 8,
+  "optimizer_updates_for_selection": 0,
+  "validation_cases": 630,
+  "validation_recording_groups": 5,
+  "metrics": [
+    {
+      "count": 1,
+      "cases": 210,
+      "mean_nmse": 0.027365086980576128,
+      "median_nmse": 0.009452655014562428,
+      "mean_si_sdr": 21.84324071504541,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.027365086980576128,
+      "construction_count_accuracy": 0.7571428571428571
+    },
+    {
+      "count": 2,
+      "cases": 210,
+      "mean_nmse": 0.44460113563431586,
+      "median_nmse": 0.40004825023034435,
+      "mean_si_sdr": 4.249089139909562,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.7343158631335248,
+      "construction_count_accuracy": 0.2761904761904762
+    },
+    {
+      "count": 3,
+      "cases": 210,
+      "mean_nmse": 0.6889476041665019,
+      "median_nmse": 0.7531907581694455,
+      "mean_si_sdr": -2.735626522965516,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.9486435775016646,
+      "construction_count_accuracy": 0.3238095238095238
+    }
+  ],
+  "result": "reports/2026-10-11/PHASE_EIGHT_RESULT.json",
+  "result_sha256": "4661c88123f55471176a7b285aae842aa3f356a23c4bc49001c11c9ab876a5d7",
+  "audit": "reports/2026-10-11/PHASE_EIGHT_AUDIT.json",
+  "independent_test": false,
+  "heldout_read": false,
+  "perfect_reconstruction": false,
+  "supersedes_inference": "four-phase on the same native e2 checkpoint; weights unchanged"
+}
