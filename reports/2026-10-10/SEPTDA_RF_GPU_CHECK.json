@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "parameters": 54596107,
+  "peak_bytes": 2445089792,
+  "loss": 1.0661057233810425,
+  "optimizer_steps": 0,
+  "nested_checkpoint_checked": true,
+  "gradient_relative_l2": 1.5564518554135056e-07,
+  "max_abs_gradient_difference": 1.4901161193847656e-07,
+  "gradients_bitwise_equal": false,
+  "enabled_query_gradient_norm": 2.171181949961465e-05,
+  "source_readout_restored_zero": true,
+  "protocol_sha256": "c34ec83303291729b878907fc59c7b572319ad60bcf51f6224d6a01ca381ca49"
+}

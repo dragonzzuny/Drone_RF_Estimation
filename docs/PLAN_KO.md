@@ -1,6 +1,6 @@
 # 드론 복소 I/Q 분리: 현행 목표와 실행계획
 
-갱신: 2026-10-10 10:59 KST
+갱신: 2026-10-10 11:18 KST
 
 두 창 비교의 두 군 모두1epoch/75업데이트와 최종 검산을 마쳤다. 일관성 후보의 실제e1 NMSE2/3는0.489281/0.698193, 복소SI-SDR은3.502/−3.229dB였다. 같은 두 창 지도학습보다 SI-SDR은 나아졌으나 NMSE·최약NMSE는 악화했고 부모도 넘지 못해 비채택이다. [모든 결과·검산](../reports/2026-10-10/PAIRED_WINDOW_KO.md).
 
@@ -10,9 +10,11 @@ CPU의 고정TRAIN14에서 예측 전력이 가장 큰 성분을 빼고 재분�
 
 **새 혼합 일정의 1 epoch·75업데이트와 검산을 완료했다.** 실제 e1의 NMSE 2/3는 0.478828/0.691211, 복소 SI-SDR은 3.701/−2.826 dB다. 기존 혼합 반복 대조보다 다중 신호 지표는 좋아졌으나 부모 공동 기준을 넘지 못해 선택은 e0다. 같은 TRAIN 원기록의 새 혼합이며 독립 자료는 아니다. 순차 연구의 중복 대조는 35/75업데이트에서 종료했고 순차 후보는 학습하지 않았다. [새 비교 계획](../reports/2026-10-10/FRESH_SCHEDULE_PLAN_KO.md).
 
-**현재 후속은 시간 순서 문맥의 GPU 비교다.** 부모 전체를 유지하고 긴 전력 특징의 시간 변동을 점진적으로 전달한다. 원규모 TRAIN 1/2/3개 사례에서 초기 출력 일치·gradient·시간 교란 전달 검사를 통과했다. 같은 새 혼합 일정과 75업데이트 예산으로 비교하며 아직 후보 e1 결과는 없다. [규약](../reports/2026-10-10/ORDERED_CONTEXT_PLAN_KO.md), [CPU 검사](../reports/2026-10-10/ORDERED_CONTEXT_CHECK.json).
+**시간 순서 문맥의 1 epoch·75업데이트를 완료·검산했다.** 실제 NMSE 2/3는 0.478348/0.691365, 복소 SI-SDR은 3.694/−2.827 dB다. 같은 일정 대조에 대한 공동 개선은 없었고 부모를 넘지 못해 선택은 e0다. [규약](../reports/2026-10-10/ORDERED_CONTEXT_PLAN_KO.md), [CPU 검사](../reports/2026-10-10/ORDERED_CONTEXT_CHECK.json).
 
-[새 일정의 완료 결과](../reports/2026-10-10/FRESH_SCHEDULE_KO.md), [기록별 분석](../reports/2026-10-10/FRESH_SCHEDULE_HISTORY_KO.md), [세 신호 선행의 구조 차이](../reports/2026-10-10/THREE_SOURCE_AUDIO_TRANSFER_KO.md). 설치한 Codex 플러그인으로 읽기 전용 검토 두 건을 완료했고, 추가 검산을 반영했다. Claude 모델로 검토한 결과는 아니다. [플러그인 사용 상태](CODEX_PLUGIN_KO.md).
+**현재 GPU에서는 SepTDA 참고 분리부를 학습 중이다.** 전체 U-Net 32,142,859개와 새 분리부 22,453,248개를 합친 총 54,596,107파라미터다. 구간 내부·구간 사이 처리, 신호별 query·FiLM, 8단계 시간·신호 간 처리와 복소 출력이 연결된다. 원규모 CPU와 GPU의 출력·전체 gradient 검사를 통과한 뒤 첫 75업데이트 비교를 시작했다. 아직 새 후보 e1 결과는 없다. [규약](../reports/2026-10-10/SEPTDA_RF_PLAN_KO.md), [구조·원형과의 차이](../experiments/septda_rf_20261010/README.md), [사전 검사](../reports/2026-10-10/SEPTDA_RF_PREPARATION_KO.md), [시간 문맥 완료 결과](../reports/2026-10-10/ORDERED_CONTEXT_KO.md).
+
+[새 일정의 완료 결과](../reports/2026-10-10/FRESH_SCHEDULE_KO.md), [기록별 분석](../reports/2026-10-10/FRESH_SCHEDULE_HISTORY_KO.md), [세 신호 선행의 구조 차이](../reports/2026-10-10/THREE_SOURCE_AUDIO_TRANSFER_KO.md). 설치한 Codex 플러그인으로 읽기 전용 검토 세 건을 완료했고, 추가 검산을 반영했다. Claude 모델로 검토한 결과는 아니다. [플러그인 사용 상태](CODEX_PLUGIN_KO.md).
 
 전체 시간·모델 크기를 유지한 주파수 구간 추론은 고정TRAIN6에서 NMSE2/3를0.186290/0.595590→0.223383/0.983204로 악화시켜 확대하지 않았다. 예측만으로 순서를 맞췄고 모든결과를 검산했다. [진단과한계](../reports/2026-10-10/FREQUENCY_TILES_KO.md).
 
@@ -24,7 +26,7 @@ CPU의 고정TRAIN14에서 예측 전력이 가장 큰 성분을 빼고 재분�
 
 TRAIN48 정답의 주파수 해상도 진단과 모든 약신호 산점도를 저장했다. 세 성분 최약 파형의 에너지 중 최강 성분으로 나타나는 칸의 비율은 중앙값22.61%이며, 정답전력을주파수축으로16칸씩 평균하면4.50%였다. 이는 학습 특징의 인과 실험이나 달성 가능한 분리 성능 상한이 아니다. [고해상도 그림PDF](../reports/2026-10-10/SOURCE_RESOLUTION.pdf), [전체 진단](../reports/2026-10-10/SOURCE_RESOLUTION_KO.md).
 
-실행 상태는 2026-10-10 10:59 KST의 실제 프로세스와 진행 파일을 확인한 기록이다. 자료·모델·규약 지문을 고정했고 GPU worker는 공유 잠금 아래 하나씩 실행한다. CPU의 TRAIN6+DEV6 창 위치 진단72회도 완료·검산했다. 일관성 후보는 DEV 세 성분2사례의 일관성 항을 줄였으나 두 성분2사례에서는 늘렸다. 소수 사례 진단이며 전체630개 비채택 판단은 유지한다. [창 의존성 진단](../reports/2026-10-10/TRAINED_WINDOW_STABILITY_KO.md). [같은 부모 추가75업데이트 비교표](../reports/2026-10-10/METHOD_LEDGER_KO.md).
+실행 상태는 2026-10-10 11:18 KST의 실제 프로세스와 진행 파일을 확인한 기록이다. 자료·모델·규약 지문을 고정했고 GPU worker는 공유 잠금 아래 하나씩 실행한다. CPU의 TRAIN6+DEV6 창 위치 진단72회도 완료·검산했다. 일관성 후보는 DEV 세 성분2사례의 일관성 항을 줄였으나 두 성분2사례에서는 늘렸다. 소수 사례 진단이며 전체630개 비채택 판단은 유지한다. [창 의존성 진단](../reports/2026-10-10/TRAINED_WINDOW_STABILITY_KO.md). [같은 부모 추가75업데이트 비교표](../reports/2026-10-10/METHOD_LEDGER_KO.md).
 
 [직전 계획과 종료된 비교 이력](PLAN_HISTORY_THROUGH_20261010_0029_KO.md)을 보존했다.
 

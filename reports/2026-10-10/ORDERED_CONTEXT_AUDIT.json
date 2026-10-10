@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "protocol_sha256": "3f17170b8b6f9fcb249ed04bdb15e5ad8e34d38f34fab8515ec947b21cdf504c",
+  "complete_sha256": "ec38dc69135608d18453cdec6c72959edbb07bdfa7b2fe379fc55df867e7bd44",
+  "hashes": {
+    "ACTUAL_001.pt": "5a2c4bfd852fc341702e6a747b1e5b93c59d17959c3b7821b402483f8ef35029",
+    "LAST.pt": "d336812cd2889196ce23f3b107bd4f61d1632dccc3811ba99de64adc935b71f7",
+    "BEST.pt": "a1d6be332b7d1b34a7bb2f1f1461cc8452c72a4f19419edcd2b67264ae17c075",
+    "EPOCH_001.json": "95dad435552c2fc8114d0e529f47ac2661c7842c9a112db1ab926fe75d524b3c",
+    "VALIDATION_001.json": "c9216e544ab38e3ab91243a11fd7e4c15aedbf646d795c622839a60a83f8f570"
+  },
+  "validation_rows_reaggregated": 630,
+  "optimizer_steps_checked": 75,
+  "selected_tensors_checked": true,
+  "gate_nonzero": true,
+  "independently_reran_inference": false,
+  "heldout_read": false
+}

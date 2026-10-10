@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "parameters": 54596107,
+  "branch_parameters": 22453248,
+  "parent_parameters": 32142859,
+  "full_configuration": {
+    "width": 128,
+    "encoder_width": 256,
+    "lstm_hidden_per_direction": 256,
+    "attention_heads": 4,
+    "attractor_layers": 2,
+    "triple_blocks": 8,
+    "chunk_frames": 96,
+    "hop_frames": 48,
+    "complex_samples": 63872
+  },
+  "rows": [
+    {
+      "index": 1,
+      "count": 1,
+      "initial_output_bitwise_equal": true,
+      "sum_relative_error": 1.2620863758922539e-14
+    },
+    {
+      "index": 0,
+      "count": 2,
+      "initial_output_bitwise_equal": true,
+      "sum_relative_error": 1.2183611799022713e-14
+    },
+    {
+      "index": 5,
+      "count": 3,
+      "initial_output_bitwise_equal": true,
+      "sum_relative_error": 1.1908656434014495e-14
+    }
+  ],
+  "zero_readout_gradient_norm": 0.04401426389813423,
+  "initial_query_gradient_norm": 0.0,
+  "enabled_internal_gradient_norms": {
+    "queries": 2.743267577898223e-05,
+    "encoder.weight": 0.00016087038966361433,
+    "attractors.0.cross_attention.in_proj_weight": 4.716166222351603e-05,
+    "triple.0.temporal.intra.recurrent.weight_ih_l0": 4.8216484174190555e-06,
+    "triple.7.temporal.inter.recurrent.weight_ih_l0": 2.132766667273245e-06,
+    "triple.7.source.self_attn.in_proj_weight": 1.3803044566884637e-05
+  },
+  "initial_state_restored": true,
+  "optimizer_updates": 0,
+  "gpu_use": false,
+  "heldout_read": false,
+  "parent_sha256": "19888f8823fbb6ade6333d40bd849dec3202e522ded016e7265eaced6b52aa49",
+  "preparation_sha256": "9ef20b525774e64379712593da8509e3dda17443675322f32a13decdac603036",
+  "source_sha256": {
+    "experiments/septda_rf_20261010/check.py": "0b007f4c0e582658c7c5a8cc64154e6b1858bec98b7cb1c4952b276e839b4f03",
+    "experiments/septda_rf_20261010/architecture.py": "fef305e9317c661c73b362e7cdd3631365e009a973102842d43f7878c24502b5"
+  },
+  "seconds": 111.16851806640625,
+  "limitation": "Full configuration numerical/gradient checks on three TRAIN mixtures, not performance evidence."
+}

@@ -27,6 +27,7 @@ def run():
         ('부드러운 성분 친화도','source_affinity_20261010_v1/soft_affinity',32143899,32143899,2400),
         ('새 혼합 일정3','fresh_schedule_20261010_v1',32142859,32142859,2400),
         ('시간 순서 문맥','ordered_context_20261010_v1',32142924,32142924,2400),
+        ('SepTDA 참고 분리부','septda_rf_20261010_v1',54596107,54596107,2400),
         ('같은 입력2회 대조','successive_pit_20261010_v1/retained_two_pass_control',32142859,32142859,2400),
         ('공유 U-Net 순차 추출','successive_pit_20261010_v1/successive_pit',32142859,32142859,2400)]
     rows=[];pending=[];stopped=[]
@@ -52,7 +53,7 @@ def run():
             deltas.append(dict(count=count,nmse_delta=dn,si_sdr_delta=ds,weakest_nmse_delta=dw))
         rows.append(dict(label=label,parameters=parameters,trainable=trainable,
             unique_long_mixtures=2400,distinct_window_views=windows,updates=75,
-            train_schedule_epoch=3 if relative in ('fresh_schedule_20261010_v1','ordered_context_20261010_v1') else 1,
+            train_schedule_epoch=3 if relative in ('fresh_schedule_20261010_v1','ordered_context_20261010_v1','septda_rf_20261010_v1') else 1,
             actual_e1=value,parent_joint_criterion=bool(passed),parent_deltas=deltas,
             validation_sha256=hashlib.sha256(vp.read_bytes()).hexdigest(),
             epoch_receipt_sha256=hashlib.sha256(ep.read_bytes()).hexdigest()))
@@ -66,7 +67,7 @@ def run():
     lines=['# 방법 개발의 실제1epoch 결과: 같은 부모와 추가75업데이트','',
         '각 방법의 실제e1을 같은630개 DEV 혼합의 정답·기종·기록·전력 지문으로 대조했다. '
         '선택이e0여도 실패한e1을 숨기지 않는다. 모든 군의 원본 긴 학습혼합은2400개이며, 두 창 군만 서로 다른4800창을 본다. '
-        '새 혼합 일정3과 시간 순서 문맥은 schedule3, 나머지는 schedule1이므로 자료 일정까지 모두 같은 비교는 아니다. '
+        '새 혼합 일정3·시간 순서 문맥·SepTDA 참고 분리부는 schedule3, 나머지는 schedule1이므로 자료 일정까지 모두 같은 비교는 아니다. '
         '추가업데이트 수가 같아도 파라미터·계산량·총 사전학습 이력이 같은 것은 아니다.','',
         '| 방법 | 총/학습 파라미터M | NMSE2/3 ↓ | 복소SI-SDR2/3 ↑ dB | 최약NMSE2/3 ↓ | 부모 공동 기준 |',
         '|---|---|---|---|---|---|']
