@@ -1,0 +1,10 @@
+{
+  "input_sha256": {
+    "experiments/fit_monitor_20261011/plot_fit.py": "18bcb2d83ca86a4ac51f2aa6729196ecf0324059501a9abb76151f395103e9ef",
+    "reports/2026-10-11/TFGRIDNET_FIT_RESULT.json": "695207c943f84b33f6b160d3c3279bc304edf090646a0a681b3494849f4cb6f5",
+    "reports/2026-10-11/TFGRIDNET_CONTINUATION_RESULT.json": "f3e0e7cf8cb646b1fe38e22d8ff714310be26c177efa42fbcc13a4c14f89215a"
+  },
+  "matplotlib": "3.10.8",
+  "no_interpolated_or_omitted_observations": true,
+  "scope": "fixed TRAIN4 only; no error bars because these are not independent replications"
+}

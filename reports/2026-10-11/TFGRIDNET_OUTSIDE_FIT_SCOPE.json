@@ -1,0 +1,1225 @@
+{
+  "status": "COMPLETE",
+  "rows": [
+    {
+      "index": 2,
+      "count": 3,
+      "subset": "fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": true,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3_11-12s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 50575864,
+          "end": 50639736,
+          "fraction_overlap_with_fit_waveform_windows": 1.0
+        },
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2_1-2s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 52673016,
+          "end": 52736888,
+          "fraction_overlap_with_fit_waveform_windows": 1.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_7-8s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 58964472,
+          "end": 59028344,
+          "fraction_overlap_with_fit_waveform_windows": 1.0
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "count": 2,
+      "subset": "fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": true,
+      "components": [
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_3-4s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 63876939,
+          "end": 63940811,
+          "fraction_overlap_with_fit_waveform_windows": 1.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_1-2s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 36613963,
+          "end": 36677835,
+          "fraction_overlap_with_fit_waveform_windows": 1.0
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "count": 2,
+      "subset": "fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": true,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_4-5s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 42355127,
+          "end": 42418999,
+          "fraction_overlap_with_fit_waveform_windows": 1.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_7-8s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 50743735,
+          "end": 50807607,
+          "fraction_overlap_with_fit_waveform_windows": 1.0
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "count": 2,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_8-9s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 51390242,
+          "end": 51454114,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_10-11s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 36710178,
+          "end": 36774050,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "count": 2,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": false,
+      "all_record_groups_in_fit": false,
+      "all_bands_in_fit": false,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI MINI3/DJI MINI3/VTSBW=10/pack2_4-5s.iq",
+          "pack_id": "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml",
+          "category": "DJI MINI3",
+          "center_hz": 2460000000,
+          "start": 7599202,
+          "end": 7663074,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1_4-5s.iq",
+          "pack_id": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MINI4 PRO",
+          "center_hz": 2460000000,
+          "start": 39056482,
+          "end": 39120354,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "count": 2,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": false,
+      "all_record_groups_in_fit": false,
+      "all_bands_in_fit": false,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI MINI3/DJI MINI3/VTSBW=10/pack2_9-10s.iq",
+          "pack_id": "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml",
+          "category": "DJI MINI3",
+          "center_hz": 2460000000,
+          "start": 95148347,
+          "end": 95212219,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1_5-6s.iq",
+          "pack_id": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MINI4 PRO",
+          "center_hz": 2460000000,
+          "start": 15456571,
+          "end": 15520443,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "count": 3,
+      "subset": "fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": true,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3_1-2s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 66819507,
+          "end": 66883379,
+          "fraction_overlap_with_fit_waveform_windows": 1.0
+        },
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2_6-7s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 8099251,
+          "end": 8163123,
+          "fraction_overlap_with_fit_waveform_windows": 1.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_6-7s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 22779315,
+          "end": 22843187,
+          "fraction_overlap_with_fit_waveform_windows": 1.0
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "count": 2,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": false,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1_2-3s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 24608821,
+          "end": 24672693,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_5-6s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 81231925,
+          "end": 81295797,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "count": 2,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_1-2s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 87830372,
+          "end": 87894244,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_7-8s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 1847140,
+          "end": 1911012,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "count": 2,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": false,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1_3-4s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 34656253,
+          "end": 34720125,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_3-4s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 95473661,
+          "end": 95537533,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "count": 3,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3_1-2s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 85805946,
+          "end": 85869818,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_8-9s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 50154362,
+          "end": 50218234,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_4-5s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 20794234,
+          "end": 20858106,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "count": 3,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_7-8s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 83354004,
+          "end": 83417876,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2_8-9s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 89645460,
+          "end": 89709332,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_5-6s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 47702420,
+          "end": 47766292,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "count": 2,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_6-7s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 90969990,
+          "end": 91033862,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_2-3s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 84678534,
+          "end": 84742406,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "count": 2,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_3-4s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 91689609,
+          "end": 91753481,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_0-1s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 39260809,
+          "end": 39324681,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "count": 2,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": false,
+      "all_record_groups_in_fit": false,
+      "all_bands_in_fit": false,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI MINI3/DJI MINI3/VTSBW=10/pack2_1-2s.iq",
+          "pack_id": "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml",
+          "category": "DJI MINI3",
+          "center_hz": 2460000000,
+          "start": 35473670,
+          "end": 35537542,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1_6-7s.iq",
+          "pack_id": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MINI4 PRO",
+          "center_hz": 2460000000,
+          "start": 24987910,
+          "end": 25051782,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "count": 3,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3_0-1s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 70967302,
+          "end": 71031174,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_3-4s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 37412870,
+          "end": 37476742,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_6-7s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 29024262,
+          "end": 29088134,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "count": 3,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_10-11s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 81200494,
+          "end": 81264366,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2_3-4s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 60228974,
+          "end": 60292846,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_1-2s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 32965998,
+          "end": 33029870,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "count": 2,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_4-5s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 47846150,
+          "end": 47910022,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_1-2s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 89789190,
+          "end": 89853062,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "count": 3,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": false,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1_5-6s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 51647893,
+          "end": 51711765,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_4-5s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 9704853,
+          "end": 9768725,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_5-6s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 49550741,
+          "end": 49614613,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "count": 2,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3_2-3s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 44622446,
+          "end": 44686318,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_0-1s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 23650926,
+          "end": 23714798,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "count": 2,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_9-10s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 47606607,
+          "end": 47670479,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_11-12s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 45509455,
+          "end": 45573327,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "count": 3,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_7-8s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 14719112,
+          "end": 14782984,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2_0-1s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 90216584,
+          "end": 90280456,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_4-5s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 62953608,
+          "end": 63017480,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "count": 2,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3_6-7s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 35896314,
+          "end": 35960186,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_3-4s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 67353594,
+          "end": 67417466,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "count": 3,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3_10-11s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 30379441,
+          "end": 30443313,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_7-8s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 42962353,
+          "end": 43026225,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_6-7s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 47156657,
+          "end": 47220529,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "count": 2,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": false,
+      "all_record_groups_in_fit": false,
+      "all_bands_in_fit": false,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI MINI3/DJI MINI3/VTSBW=10/pack2_3-4s.iq",
+          "pack_id": "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml",
+          "category": "DJI MINI3",
+          "center_hz": 2460000000,
+          "start": 41324321,
+          "end": 41388193,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1_0-1s.iq",
+          "pack_id": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MINI4 PRO",
+          "center_hz": 2460000000,
+          "start": 20352801,
+          "end": 20416673,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "count": 3,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3_4-5s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 26713880,
+          "end": 26777752,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_4-5s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 22519576,
+          "end": 22583448,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_3-4s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 79142680,
+          "end": 79206552,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "count": 3,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_0-1s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 28987700,
+          "end": 29051572,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_2-3s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 8016180,
+          "end": 8080052,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_0-1s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 37376308,
+          "end": 37440180,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "count": 3,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_10-11s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 99842437,
+          "end": 99906309,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2_6-7s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 22911109,
+          "end": 22974981,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_2-3s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 58562693,
+          "end": 58626565,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "count": 2,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3_8-9s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 5641167,
+          "end": 5705039,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_4-5s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 51778511,
+          "end": 51842383,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "count": 3,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3_0-1s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 63784161,
+          "end": 63848033,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2_2-3s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 98772449,
+          "end": 98836321,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_8-9s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 11355361,
+          "end": 11419233,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "count": 2,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": false,
+      "all_record_groups_in_fit": false,
+      "all_bands_in_fit": false,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI MINI3/DJI MINI3/VTSBW=10/pack2_0-1s.iq",
+          "pack_id": "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml",
+          "category": "DJI MINI3",
+          "center_hz": 2460000000,
+          "start": 28305217,
+          "end": 28369089,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1_4-5s.iq",
+          "pack_id": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MINI4 PRO",
+          "center_hz": 2460000000,
+          "start": 40888129,
+          "end": 40952001,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "count": 2,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_8-9s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 28039993,
+          "end": 28103865,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_6-7s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 11262777,
+          "end": 11326649,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "count": 3,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": false,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1_0-1s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 76079236,
+          "end": 76143108,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_0-1s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 90759300,
+          "end": 90823172,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_2-3s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 90759300,
+          "end": 90823172,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "count": 3,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4_4-5s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 54026955,
+          "end": 54090827,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1_5-6s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 77095627,
+          "end": 77159499,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_0-1s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 5792459,
+          "end": 5856331,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "count": 3,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3_0-1s.iq",
+          "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+          "category": "DJI AVATA2",
+          "center_hz": 5780000000,
+          "start": 65167086,
+          "end": 65230958,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2_4-5s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 21126894,
+          "end": 21190766,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_0-1s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 12738286,
+          "end": 12802158,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "count": 2,
+      "subset": "outside_fit4",
+      "all_categories_in_fit": true,
+      "all_record_groups_in_fit": true,
+      "all_bands_in_fit": true,
+      "any_waveform_sample_overlap": false,
+      "components": [
+        {
+          "source_path": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2_2-3s.iq",
+          "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+          "category": "DJI FPV COMBO",
+          "center_hz": 5780000000,
+          "start": 6563056,
+          "end": 6626928,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        },
+        {
+          "source_path": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1_0-1s.iq",
+          "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+          "category": "DJI MAVIC3 PRO",
+          "center_hz": 5780000000,
+          "start": 79963376,
+          "end": 80027248,
+          "fraction_overlap_with_fit_waveform_windows": 0.0
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "fit_categories": [
+      "DJI AVATA2",
+      "DJI FPV COMBO",
+      "DJI MAVIC3 PRO"
+    ],
+    "fit_record_groups": [
+      "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+      "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+      "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+      "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+      "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml"
+    ],
+    "fit_common_centers_hz": [
+      5780000000
+    ],
+    "outside_mixtures": 32,
+    "outside_with_unfitted_category": 5,
+    "outside_with_unfitted_record_group": 9,
+    "outside_with_waveform_sample_overlap": 0
+  },
+  "files": {
+    "/home/pyj/\ubb38\uc11c/GitHub/Drone_RF_Estimation/experiments/fit_monitor_20261011/outside_scope.py": "bc099b1882c316fa7d8ea974b226b13c7af21c6ca768c88ee0a533b641838434",
+    "/home/pyj/\ubb38\uc11c/GitHub/Drone_RF_Estimation/local/native_frequency_20261009_v1/preparation/PREPARATION.json": "9ef20b525774e64379712593da8509e3dda17443675322f32a13decdac603036",
+    "/home/pyj/\ubb38\uc11c/GitHub/Drone_RF_Estimation/local/native_frequency_20261009_v1/preparation/NATIVE_MANIFEST.json": "d21bcdcaad1649da0dcb991fa38407f0671e786b2ecce29b9307cee543c7f6de",
+    "/home/pyj/\ubb38\uc11c/GitHub/uav_analysis/rf_detection/rfuav_architecture_20261008/dense_preparation/TRAIN.npy": "ef9e1e78d99c65f2aafb30491da6f371e9476ba6f75a7bc2bc3571b668e6b3f0"
+  },
+  "iq_read": false,
+  "validation_examples_read": false,
+  "heldout_read": false,
+  "scope": "raw sample interval overlap from metadata; RF filtering may add dependence beyond nominal intervals; long context overlap not excluded",
+  "time": 1791655554.755277
+}

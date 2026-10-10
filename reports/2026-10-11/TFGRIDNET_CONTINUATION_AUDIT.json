@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "updates": 64,
+  "parameters": 9004297,
+  "per_block_parameter_change_since_update32_l2": {
+    "0": 2.6523991119343506,
+    "1": 2.857140233763532,
+    "2": 2.5408002605446054,
+    "3": 2.937685876141675,
+    "4": 2.9776782861285285,
+    "5": 3.1879854757158204
+  },
+  "all_receipt_summaries_recomputed": true,
+  "selected_update": 64,
+  "selected_checkpoint_sha256": "d0785c79ff4c650ccb86ad9a182944a423106494b6b000ba6b504f8cc93042d9",
+  "stop_decisions_recomputed": true,
+  "maximum_sum_relative_error": 5.352134067260038e-13,
+  "checkpoint_sha256": "d0785c79ff4c650ccb86ad9a182944a423106494b6b000ba6b504f8cc93042d9",
+  "protocol_sha256": "946041007b6c3e7839afbc3cd85d6c902c7536f647bcefe33e8a6e52c90e1722",
+  "audit_source_sha256": "9fce730778e13335b4afbaf61d664d90fb511adfe311c7ab67577c9dfcf16ffc",
+  "independent_full_length_cpu_inference": false,
+  "optimizer_updates": 0,
+  "validation_read": false,
+  "heldout_read": false,
+  "time": 1791655955.666139
+}

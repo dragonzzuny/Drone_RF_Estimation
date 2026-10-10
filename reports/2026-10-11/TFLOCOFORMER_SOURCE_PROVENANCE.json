@@ -1,0 +1,27 @@
+{
+  "commit": "7a615460d347ff7334a13dbb831d16280da72cdc",
+  "files": [
+    {
+      "path": "standalone/tflocoformer_separator.py",
+      "local": "tflocoformer_separator.py",
+      "url": "https://raw.githubusercontent.com/merlresearch/tf-locoformer/7a615460d347ff7334a13dbb831d16280da72cdc/standalone/tflocoformer_separator.py",
+      "sha256": "6c01fa3cd005c0da5705ebf5399c48c686aba7c0319820bece0aaefa86cc6aa2",
+      "bytes": 18237
+    },
+    {
+      "path": "egs2/wsj0_2mix/enh1/conf/tuning/train_enh_tflocoformer.yaml",
+      "local": "TRAIN.yaml",
+      "url": "https://raw.githubusercontent.com/merlresearch/tf-locoformer/7a615460d347ff7334a13dbb831d16280da72cdc/egs2/wsj0_2mix/enh1/conf/tuning/train_enh_tflocoformer.yaml",
+      "sha256": "94179499f0ee2715313dc1054dec398a0e4077025bcb99d923cd8d24da12780c",
+      "bytes": 1757
+    },
+    {
+      "path": "LICENSE.md",
+      "local": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/merlresearch/tf-locoformer/7a615460d347ff7334a13dbb831d16280da72cdc/LICENSE.md",
+      "sha256": "0b3204d175388251410569d1e6ae8efc9e7e4ae2572ef11ace4015e0ca8d61b7",
+      "bytes": 11379
+    }
+  ],
+  "executed": false
+}
