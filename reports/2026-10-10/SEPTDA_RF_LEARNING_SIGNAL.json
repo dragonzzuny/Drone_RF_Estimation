@@ -1,0 +1,141 @@
+{
+  "status": "CHECKED",
+  "checkpoint_hashes": {
+    "INITIAL.pt": "59c9ea0d0bc020c418fef1d8919e7c5d326605f24ccf645b700c691f9c3899b7",
+    "ACTUAL_001.pt": "c19b7e68832e2be501e6ed9ae9ba554ef676ab80043694b330343ef898ab7c85",
+    "EPOCH_001.json": "0f7828e07ec0e7d8828f2499f79c7e2cf0e66712a80918d3ff0babe2cf5fa24a"
+  },
+  "reporter_sha256": "b5ce6153e458785b2b0477f21deb123ce66a4763e47e7cfc0c597e231ea2fccb",
+  "groups": {
+    "parent": {
+      "tensors": 131,
+      "changed_tensors": 131,
+      "elements": 32142859,
+      "initial_squared_norm": 11188.450050360474,
+      "delta_squared_norm": 0.4072826244185778,
+      "delta_l2": 0.6381869823324335,
+      "relative_delta_l2": 0.0060334119283825685
+    },
+    "queries": {
+      "tensors": 1,
+      "changed_tensors": 1,
+      "elements": 384,
+      "initial_squared_norm": 0.1449921701694391,
+      "delta_squared_norm": 0.0001744729551814804,
+      "delta_l2": 0.013208821112479358,
+      "relative_delta_l2": 0.03468900024661989
+    },
+    "encoder": {
+      "tensors": 2,
+      "changed_tensors": 2,
+      "elements": 786688,
+      "initial_squared_norm": 85.28897884983608,
+      "delta_squared_norm": 0.6258031172237425,
+      "delta_l2": 0.7910771879050378,
+      "relative_delta_l2": 0.08565888237712148
+    },
+    "project": {
+      "tensors": 2,
+      "changed_tensors": 2,
+      "elements": 32896,
+      "initial_squared_norm": 42.876312683926095,
+      "delta_squared_norm": 0.012677560388649332,
+      "delta_l2": 0.11259467300298595,
+      "relative_delta_l2": 0.017195275137574975
+    },
+    "dual": {
+      "tensors": 52,
+      "changed_tensors": 52,
+      "elements": 2109952,
+      "initial_squared_norm": 3814.9351018621846,
+      "delta_squared_norm": 0.45896365868104594,
+      "delta_l2": 0.6774685665630885,
+      "relative_delta_l2": 0.010968457891393436
+    },
+    "attractors": {
+      "tensors": 30,
+      "changed_tensors": 30,
+      "elements": 462848,
+      "initial_squared_norm": 1776.256978369038,
+      "delta_squared_norm": 0.15867968268624857,
+      "delta_l2": 0.3983461844755747,
+      "relative_delta_l2": 0.009451652872959534
+    },
+    "film_scale": {
+      "tensors": 2,
+      "changed_tensors": 2,
+      "elements": 16512,
+      "initial_squared_norm": 42.49885125599718,
+      "delta_squared_norm": 0.007865134534704183,
+      "delta_l2": 0.08868559372696437,
+      "relative_delta_l2": 0.013603932934179719
+    },
+    "film_shift": {
+      "tensors": 2,
+      "changed_tensors": 2,
+      "elements": 16512,
+      "initial_squared_norm": 43.05995639070779,
+      "delta_squared_norm": 0.0073305846952850424,
+      "delta_l2": 0.08561883376503701,
+      "relative_delta_l2": 0.013047656511458243
+    },
+    "triple": {
+      "tensors": 528,
+      "changed_tensors": 528,
+      "elements": 18467840,
+      "initial_squared_norm": 37178.20326349827,
+      "delta_squared_norm": 2.516583921659142,
+      "delta_l2": 1.586374458209392,
+      "relative_delta_l2": 0.008227379117426492
+    },
+    "decode_features": {
+      "tensors": 4,
+      "changed_tensors": 4,
+      "elements": 33280,
+      "initial_squared_norm": 214.1454393069087,
+      "delta_squared_norm": 0.04694348386672418,
+      "delta_l2": 0.21666444993751094,
+      "relative_delta_l2": 0.014805846544519958
+    },
+    "source_readout": {
+      "tensors": 2,
+      "changed_tensors": 2,
+      "elements": 263168,
+      "initial_squared_norm": 0.0,
+      "delta_squared_norm": 0.046933902911367245,
+      "delta_l2": 0.21664233868606397,
+      "relative_delta_l2": null
+    },
+    "background_readout": {
+      "tensors": 2,
+      "changed_tensors": 2,
+      "elements": 263168,
+      "initial_squared_norm": 0.0,
+      "delta_squared_norm": 0.09404335263041774,
+      "delta_l2": 0.30666488652993473,
+      "relative_delta_l2": null
+    }
+  },
+  "preclip_gradient_history": {
+    "query_gradient_norm": {
+      "first": 0.0,
+      "nonzero_updates": 74,
+      "first10_median": 8.313807666127104e-05,
+      "last10_median": 7.765484497213038e-06
+    },
+    "readout_gradient_norm": {
+      "first": 0.021874606609344482,
+      "nonzero_updates": 75,
+      "first10_median": 0.019955740310251713,
+      "last10_median": 0.003949472098611295
+    }
+  },
+  "clipped_updates": 74,
+  "updates": 75,
+  "model_inference": 0,
+  "iq_reads": 0,
+  "new_optimizer_steps": 0,
+  "cuda_initialized": false,
+  "heldout_read": false,
+  "interpretation": "Nonzero parameter change and gradient connectivity are not proof of useful separation. Parameter changes include weight decay. Group norms are not comparable across differently sized groups. Zero-initialized readouts have no defined relative change; report absolute L2."
+}
