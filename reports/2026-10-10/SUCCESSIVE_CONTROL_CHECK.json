@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "duplicate_vs_single_gradient_max_error": 0.0,
+  "no_new_examples_in_control": true,
+  "optimizer_steps": 0,
+  "synthetic_only": true,
+  "sources": {
+    "experiments/recursive_20261010/check_control.py": "6b5e848b2850cb20f82e23364f3fbd0e750fb7d1f391e5d51e91daea50404814",
+    "experiments/recursive_20261010/train.py": "80fcbc57cc00e58a64682c8f3518672a8e2ae1e532eba889c21c32d2be541b43",
+    "experiments/recursive_20261010/successive.py": "318b68b514a34b2b53174886f1fd25d27f6647aaef935b81e28dcc40cb66204f",
+    "experiments/recursive_20261010/validation.py": "4067293513cae4454a8b219f7e3607abd23a4674c655b1357de2347d04b8340c"
+  }
+}

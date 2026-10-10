@@ -1,0 +1,236 @@
+{
+  "status": "PASS",
+  "protocol_sha256": "9bf30177ef5ee4ca3ddc8d58dc36ce88b26cbe6ce8b7fc6c2a0385fbf78d5b79",
+  "rows": [
+    {
+      "index": 0,
+      "count": 1,
+      "objective": 0.10066976398229599,
+      "gradient_norm": 5.2321438358282375,
+      "residual_gradient_norm": 0.0018209698610007763,
+      "first_slot": 2,
+      "second_slot": 2,
+      "all_gradients_finite": true,
+      "weights_unchanged": true,
+      "parent": {
+        "count": 1,
+        "nmse": [
+          0.0975915841409247
+        ],
+        "si_sdr": [
+          10.595130158569397
+        ],
+        "reference_power": [
+          0.19656672628484773
+        ],
+        "absolute_error_power": [
+          0.019183258207533832
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "independent_pit_assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 1.1887572038835381e-14
+      },
+      "successive_initial": {
+        "count": 1,
+        "nmse": [
+          0.0975915841409247
+        ],
+        "si_sdr": [
+          10.595130158569397
+        ],
+        "reference_power": [
+          0.19656672628484773
+        ],
+        "absolute_error_power": [
+          0.019183258207533832
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          0,
+          1,
+          2
+        ],
+        "independent_pit_assignment": [
+          0,
+          1,
+          2
+        ],
+        "sum_relative_error": 7.072721585992805e-16
+      }
+    },
+    {
+      "index": 4,
+      "count": 2,
+      "objective": 0.3000478744506836,
+      "gradient_norm": 3.7184059278551937,
+      "residual_gradient_norm": 0.0022876483853906393,
+      "first_slot": 2,
+      "second_slot": 2,
+      "all_gradients_finite": true,
+      "weights_unchanged": true,
+      "parent": {
+        "count": 2,
+        "nmse": [
+          0.18263869858660994,
+          0.23547407031868522
+        ],
+        "si_sdr": [
+          7.01208284655019,
+          18.809497182806098
+        ],
+        "reference_power": [
+          0.22920438514845085,
+          0.25763593577097677
+        ],
+        "absolute_error_power": [
+          0.04186159061385717,
+          0.060666582456355256
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          1,
+          0
+        ],
+        "independent_pit_assignment": [
+          2,
+          1,
+          0
+        ],
+        "sum_relative_error": 1.1422276470078702e-14
+      },
+      "successive_initial": {
+        "count": 2,
+        "nmse": [
+          0.18263869858660994,
+          0.16661802491822247
+        ],
+        "si_sdr": [
+          7.01208284655019,
+          20.233468456394963
+        ],
+        "reference_power": [
+          0.22920438514845085,
+          0.25763593577097677
+        ],
+        "absolute_error_power": [
+          0.04186159061385717,
+          0.04292679076611817
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          0,
+          1,
+          2
+        ],
+        "independent_pit_assignment": [
+          0,
+          1,
+          2
+        ],
+        "sum_relative_error": 9.709098716671813e-16
+      }
+    },
+    {
+      "index": 2,
+      "count": 3,
+      "objective": 1.453290581703186,
+      "gradient_norm": 4.547764036909395,
+      "residual_gradient_norm": 0.00965157337486744,
+      "first_slot": 2,
+      "second_slot": 2,
+      "all_gradients_finite": true,
+      "weights_unchanged": true,
+      "parent": {
+        "count": 3,
+        "nmse": [
+          0.6326974814901709,
+          0.4004252204625129,
+          1.0031846466053937
+        ],
+        "si_sdr": [
+          -2.157069394687119,
+          2.750986039765843,
+          -34.193636581628844
+        ],
+        "reference_power": [
+          0.21366361689242833,
+          0.41493681321210335,
+          0.08442038825742745
+        ],
+        "absolute_error_power": [
+          0.13518443229392013,
+          0.166151164908469,
+          0.08468923736031748
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "independent_pit_assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 1.1357866521839295e-14
+      },
+      "successive_initial": {
+        "count": 3,
+        "nmse": [
+          0.7530053208413836,
+          0.4004252204625129,
+          0.9056942264364225
+        ],
+        "si_sdr": [
+          -4.779948262602203,
+          2.750986039765843,
+          -9.601133840851453
+        ],
+        "reference_power": [
+          0.21366361689242833,
+          0.41493681321210335,
+          0.08442038825742745
+        ],
+        "absolute_error_power": [
+          0.16088984039021345,
+          0.166151164908469,
+          0.0764590582382732
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          1,
+          0,
+          2
+        ],
+        "independent_pit_assignment": [
+          1,
+          0,
+          2
+        ],
+        "sum_relative_error": 4.864489336525531e-16
+      }
+    }
+  ],
+  "parameters": 32142859,
+  "optimizer_steps": 0,
+  "all_weights_unchanged": true,
+  "all_gradients_finite": true,
+  "two_stage_gradient_connected": true,
+  "activation_checkpointing": true,
+  "full_scale_geometry": true,
+  "seconds": 158.77250385284424,
+  "heldout_read": false,
+  "gpu_use": false,
+  "trained_result": false
+}

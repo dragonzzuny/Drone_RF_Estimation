@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "two_pass_gradient_absolute_error": 0.0,
+  "analytic_gradient": 96.43475249309842,
+  "autograd_gradient": 96.43475249309842,
+  "exact_additive_conservation": true,
+  "reference_blind_whitelist": true,
+  "output_permutation_invariance_away_from_ties": true,
+  "background_excluded": true,
+  "optimizer_steps": 0,
+  "full_model_test": false,
+  "sources": {
+    "check_algebra.py": "b46a0fd1cb2eee18702b191484346ba55a13180674cbb6346581ba9ff99317ce",
+    "successive.py": "318b68b514a34b2b53174886f1fd25d27f6647aaef935b81e28dcc40cb66204f"
+  }
+}
