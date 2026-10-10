@@ -1,0 +1,30 @@
+{
+  "status": "PASS_DESKTOP_INTEGRATION",
+  "script_sha256": "feb71a7ab55bd1943caca5bc93e89ff2ed6ad2cb807fc81919bd59589cc60def",
+  "watcher_pid": 1022362,
+  "first_delivery": {
+    "candidate": "septda",
+    "epoch": 4,
+    "title": "SepTDA 참고 U-Net 4/50 epoch 완료",
+    "body": "2신호: NMSE 0.5005 · SI-SDR 3.302 dB · 최약NMSE 0.8305\n3신호: NMSE 0.6995 · SI-SDR -3.804 dB · 최약NMSE 0.9539\n직전 대비 NMSE 변화: -0.0037 / -0.0067 (감소가 개선)\n선택 모델: 기존 부모(e0)\n동일 DEV 검증 · 독립 확인평가 아님",
+    "notification_id": 3,
+    "epoch_sha256": "7ae62587d9f7137ffd3572feadf0b5c9fdb93e1a604bc6b051245626bbe7d29d",
+    "time": 1791607374.2201383,
+    "delivery": "LOCAL_DESKTOP_SERVER_ACKNOWLEDGED",
+    "human_seen": false
+  },
+  "seen": {
+    "septda": 4,
+    "frozen_tf": 1,
+    "ordered_context": 1,
+    "balanced_head": 0,
+    "wave_guard": 1
+  },
+  "desktop_banners_enabled": true,
+  "recorded_iq_reads": 0,
+  "gpu_use": false,
+  "training_changes": false,
+  "automatic_chat": false,
+  "human_receipt_confirmed": false,
+  "time": 1791607432.902628
+}
