@@ -25,12 +25,22 @@ def run():
         ('친화도0 대조','source_affinity_20261010_v1/affinity_control',32143899,32143899,2400),
         ('최강 성분 친화도','source_affinity_20261010_v1/hard_affinity',32143899,32143899,2400),
         ('부드러운 성분 친화도','source_affinity_20261010_v1/soft_affinity',32143899,32143899,2400),
+        ('새 혼합 일정3','fresh_schedule_20261010_v1',32142859,32142859,2400),
+        ('시간 순서 문맥','ordered_context_20261010_v1',32142924,32142924,2400),
         ('같은 입력2회 대조','successive_pit_20261010_v1/retained_two_pass_control',32142859,32142859,2400),
         ('공유 U-Net 순차 추출','successive_pit_20261010_v1/successive_pit',32142859,32142859,2400)]
-    rows=[];pending=[]
+    rows=[];pending=[];stopped=[]
     for label,relative,parameters,trainable,windows in entries:
         folder=ROOT/'local'/relative;vp=folder/'VALIDATION_001.json';ep=folder/'EPOCH_001.json'
-        if not vp.exists() or not ep.exists():pending.append(label);continue
+        if not vp.exists() or not ep.exists():
+            receipt=folder.parent/'STOPPED_BY_REPLAN.json'
+            if receipt.exists():
+                s=watch.read(receipt)
+                stopped.append(dict(label=label,status=s['status'],completed_epoch=False,
+                    trained_updates=s['prior_state']['updates'] if 'control' in relative else 0,
+                    reason=s['reason']))
+            else:pending.append(label)
+            continue
         event=watch.read(ep);assert event['epoch']==1 and event['updates']==75
         value,_=watch.validate(vp,ids)
         passed=True;deltas=[]
@@ -42,10 +52,11 @@ def run():
             deltas.append(dict(count=count,nmse_delta=dn,si_sdr_delta=ds,weakest_nmse_delta=dw))
         rows.append(dict(label=label,parameters=parameters,trainable=trainable,
             unique_long_mixtures=2400,distinct_window_views=windows,updates=75,
+            train_schedule_epoch=3 if relative in ('fresh_schedule_20261010_v1','ordered_context_20261010_v1') else 1,
             actual_e1=value,parent_joint_criterion=bool(passed),parent_deltas=deltas,
             validation_sha256=hashlib.sha256(vp.read_bytes()).hexdigest(),
             epoch_receipt_sha256=hashlib.sha256(ep.read_bytes()).hexdigest()))
-    result=dict(status='SNAPSHOT',rows=rows,pending=pending,parent=parent,
+    result=dict(status='SNAPSHOT',rows=rows,pending=pending,stopped=stopped,parent=parent,
         parent_checkpoint_sha256=old['parent_checkpoint_sha256'],all_same_630_identities_checked=True,
         data_reads=0,inference=0,heldout_read=False,independent_test=False,
         created_utc=datetime.now(timezone.utc).isoformat(),
@@ -55,6 +66,7 @@ def run():
     lines=['# 방법 개발의 실제1epoch 결과: 같은 부모와 추가75업데이트','',
         '각 방법의 실제e1을 같은630개 DEV 혼합의 정답·기종·기록·전력 지문으로 대조했다. '
         '선택이e0여도 실패한e1을 숨기지 않는다. 모든 군의 원본 긴 학습혼합은2400개이며, 두 창 군만 서로 다른4800창을 본다. '
+        '새 혼합 일정3과 시간 순서 문맥은 schedule3, 나머지는 schedule1이므로 자료 일정까지 모두 같은 비교는 아니다. '
         '추가업데이트 수가 같아도 파라미터·계산량·총 사전학습 이력이 같은 것은 아니다.','',
         '| 방법 | 총/학습 파라미터M | NMSE2/3 ↓ | 복소SI-SDR2/3 ↑ dB | 최약NMSE2/3 ↓ | 부모 공동 기준 |',
         '|---|---|---|---|---|---|']
@@ -66,13 +78,14 @@ def run():
     lines+=['','부모 공동 기준은 두·세 성분 모두의 평균NMSE 감소·복소SI-SDR 증가·최약NMSE 비악화다. '
         '각 후보의 정식 채택에는 자기 실험의 같은 예산 대조군도 넘어야 하며, 이 표의 부모 기준으로 대신하지 않는다. '
         '단일 성분 지표와 개수 정확도는JSON의 세 개수 전체 집계에 보존했다.',
-        '', '아직 e1 수치가 없는 등록 조건: '+', '.join(pending)+'.',
+        '', '아직 e1 수치가 없는 대기 조건: '+(', '.join(pending) if pending else '없음')+'.',
+        '', '계획 변경으로 중단/실행보류: '+', '.join(f"{s['label']}({s['trained_updates']}업데이트, 완료epoch없음)" for s in stopped)+'.',
         '', '복원 정답은 공통 관측RF대역의 원기록 기여 파형이며 수신 잡음을 포함한다. '
         '단일seed·반복DEV·5개 개발 기록 묶음·한 세 기종 조합의 한계를 유지한다. '
         'CPU TRAIN 진단이나 정답 이용 제거 결과를 이 DEV 비교에 섞지 않는다. '
         '네 위상 평균 추론은 네 번 실행하는 별도 설정이므로 여기의 단일 추론 부모와 구분한다.',
         '', '[전체 집계·지문](METHOD_LEDGER.json)']
     (public/'METHOD_LEDGER_KO.md').write_text('\n'.join(lines)+'\n')
-    print(dict(completed=len(rows),pending=pending))
+    print(dict(completed=len(rows),pending=pending,stopped=stopped))
 
 if __name__=='__main__':run()

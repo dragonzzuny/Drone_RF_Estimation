@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "parameters": 32142924,
+  "new_parameters": 65,
+  "rows": [
+    {
+      "index": 1,
+      "count": 1,
+      "initial_output_bitwise_equal": true,
+      "gate_gradient_norm": 0.003739101579412818,
+      "mean_reverse_max_difference": 2.1457672119140625e-06,
+      "enabled_context_reverse_rms": 0.10909763723611832,
+      "enabled_waveform_reverse_relative_difference": 8.660960588713351e-07,
+      "mixture_sum_relative_error": 1.2774284295559869e-14
+    },
+    {
+      "index": 0,
+      "count": 2,
+      "initial_output_bitwise_equal": true,
+      "gate_gradient_norm": 0.0015157724265009165,
+      "mean_reverse_max_difference": 2.1457672119140625e-06,
+      "enabled_context_reverse_rms": 0.11102817207574844,
+      "enabled_waveform_reverse_relative_difference": 2.148751843122909e-09,
+      "mixture_sum_relative_error": 1.226094590710703e-14
+    },
+    {
+      "index": 5,
+      "count": 3,
+      "initial_output_bitwise_equal": true,
+      "gate_gradient_norm": 0.0007180122775025666,
+      "mean_reverse_max_difference": 1.6689300537109375e-06,
+      "enabled_context_reverse_rms": 0.15831293165683746,
+      "enabled_waveform_reverse_relative_difference": 1.7030039089149795e-05,
+      "mixture_sum_relative_error": 1.1893340384262242e-14
+    }
+  ],
+  "optimizer_updates": 0,
+  "parent_weights_unchanged": true,
+  "gate_reset_zero": true,
+  "gpu_use": false,
+  "heldout_read": false,
+  "parent_sha256": "19888f8823fbb6ade6333d40bd849dec3202e522ded016e7265eaced6b52aa49",
+  "preparation_sha256": "9ef20b525774e64379712593da8509e3dda17443675322f32a13decdac603036",
+  "source_sha256": {
+    "experiments/ordered_context_20261010/check.py": "f0969d78b2167473ea06973552ee24fb0a15692384338a147f2ce50bf97c8c33",
+    "experiments/ordered_context_20261010/model.py": "5f1b92101fd19b8adb9db4d018873bdfff3cdbacc1c157c40e98b51b86f3aba8"
+  },
+  "seconds": 115.81778907775879,
+  "limitation": "TRAIN 3 information-flow checks, not performance or generalization evidence."
+}

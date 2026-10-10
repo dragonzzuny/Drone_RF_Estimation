@@ -1,0 +1,17 @@
+{
+  "status": "INSTALLED_ENABLED_RUNTIME_READY",
+  "plugin": "codex@openai-codex",
+  "version": "1.0.6",
+  "scope": "user",
+  "node": "22.22.1",
+  "codex": "0.160.1",
+  "claude": "2.1.281",
+  "plugin_validation": "PASS",
+  "codex_authenticated": true,
+  "claude_authenticated": false,
+  "review_gate_enabled": false,
+  "source": "https://github.com/openai/codex-plugin-cc",
+  "review_job": "task-mv1q53px-abl41w",
+  "review_mode": "read-only task via installed plugin runtime; no Claude inference",
+  "observed_at": "2026-10-10 10:38 KST"
+}

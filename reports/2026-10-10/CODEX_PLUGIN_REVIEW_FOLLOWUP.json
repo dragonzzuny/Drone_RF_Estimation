@@ -1,0 +1,31 @@
+{
+  "status": "FINAL_FOLLOWUP_PASS",
+  "training_protocol_sha256": "2adf24bb82be06e866c3cac444f6654d28263a12b7484c79ccfbbacda9a9844b",
+  "original_control_pin_matched": true,
+  "e0_file_matches_parent": true,
+  "checkpoint_gradient_check_sha256": "168be8b6e057c9615523f2124c8fc734587c5e6fa980bd386af2a881a40da9a8",
+  "reproduction_validation_sha256": "176a88c469b89c15db138babc25e81aad0d68eb8e99d2a952f409fb3ceb83a63",
+  "reproduction_differences": [
+    {
+      "count": 2,
+      "nmse_abs_difference": 4.54489368362232e-09,
+      "si_sdr_abs_difference": 1.7106071981132231e-07
+    },
+    {
+      "count": 3,
+      "nmse_abs_difference": 6.371141614280873e-09,
+      "si_sdr_abs_difference": 6.523348683451502e-07
+    }
+  ],
+  "remaining": "Frozen trainer nonfinite-SI failure branch remains a future hardening item; not reached in this run. All count scores and recording-group errors are in supplementary reports; criterion unchanged.",
+  "heldout_read": false,
+  "best_metric_checked": 0.5785744548171134,
+  "e0_sha256": "723fc8462f085a29899461241f07a4d128d8907541965faf8a8070a425719107",
+  "checker_sha256": "1ec38286c17338eea4a5b90891c4b10da51e77b1188bcdb0a4ab034b4ced0fb7",
+  "no_undefined_si_sdr_in_this_result": true,
+  "numerical_margin_display": {
+    "nmse": 1e-05,
+    "si_sdr_db": 0.0001,
+    "passed": false
+  }
+}

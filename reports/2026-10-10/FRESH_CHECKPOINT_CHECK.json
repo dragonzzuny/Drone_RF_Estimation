@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "parameters": 32142859,
+  "rows": [
+    {
+      "index": 0,
+      "count": 2,
+      "loss": 0.18719851970672607,
+      "outputs_bitwise_equal": true,
+      "gradients_bitwise_equal": true,
+      "gradient_relative_l2": 0.0,
+      "max_abs_gradient_error": 0.0
+    },
+    {
+      "index": 5,
+      "count": 3,
+      "loss": 1.0661026239395142,
+      "outputs_bitwise_equal": true,
+      "gradients_bitwise_equal": true,
+      "gradient_relative_l2": 0.0,
+      "max_abs_gradient_error": 0.0
+    }
+  ],
+  "optimizer_steps": 0,
+  "weights_unchanged": true,
+  "gpu_use": false,
+  "heldout_read": false,
+  "training_protocol_sha256": "2adf24bb82be06e866c3cac444f6654d28263a12b7484c79ccfbbacda9a9844b",
+  "checker_sha256": "77086e9bda613569607a2e905f39e28dbef05892958731b51ca12c17e5041352",
+  "seconds": 93.54881024360657,
+  "limitation": "Two complete TRAIN examples on CPU; not all75 GPU updates or equal-FLOP guarantee."
+}

@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "schedules": [
+    {
+      "schedule_epoch": 1,
+      "rows_sha256": "34fabac0e2b20f3c7c917646aeca5b282679a80ea2a03b93d9c5028db74e4e22",
+      "examples": 2400,
+      "overlap_with_parent_native_epochs1_2": 2400,
+      "count_histogram": {
+        "1": 800,
+        "2": 800,
+        "3": 800
+      },
+      "category_power_strata": {
+        "(1, ('DJI AVATA2',), (0.0,))": 160,
+        "(1, ('DJI FPV COMBO',), (0.0,))": 160,
+        "(1, ('DJI MAVIC3 PRO',), (0.0,))": 160,
+        "(1, ('DJI MINI3',), (0.0,))": 160,
+        "(1, ('DJI MINI4 PRO',), (0.0,))": 160,
+        "(2, ('DJI AVATA2', 'DJI FPV COMBO'), (-10.0, 0.0))": 67,
+        "(2, ('DJI AVATA2', 'DJI FPV COMBO'), (0.0, 0.0))": 67,
+        "(2, ('DJI AVATA2', 'DJI FPV COMBO'), (10.0, 0.0))": 67,
+        "(2, ('DJI AVATA2', 'DJI MAVIC3 PRO'), (-10.0, 0.0))": 67,
+        "(2, ('DJI AVATA2', 'DJI MAVIC3 PRO'), (0.0, 0.0))": 67,
+        "(2, ('DJI AVATA2', 'DJI MAVIC3 PRO'), (10.0, 0.0))": 67,
+        "(2, ('DJI FPV COMBO', 'DJI MAVIC3 PRO'), (-10.0, 0.0))": 67,
+        "(2, ('DJI FPV COMBO', 'DJI MAVIC3 PRO'), (0.0, 0.0))": 67,
+        "(2, ('DJI FPV COMBO', 'DJI MAVIC3 PRO'), (10.0, 0.0))": 66,
+        "(2, ('DJI MINI3', 'DJI MINI4 PRO'), (-10.0, 0.0))": 66,
+        "(2, ('DJI MINI3', 'DJI MINI4 PRO'), (0.0, 0.0))": 66,
+        "(2, ('DJI MINI3', 'DJI MINI4 PRO'), (10.0, 0.0))": 66,
+        "(3, ('DJI AVATA2', 'DJI FPV COMBO', 'DJI MAVIC3 PRO'), (-10.0, 0.0, 0.0))": 115,
+        "(3, ('DJI AVATA2', 'DJI FPV COMBO', 'DJI MAVIC3 PRO'), (0.0, -10.0, 0.0))": 114,
+        "(3, ('DJI AVATA2', 'DJI FPV COMBO', 'DJI MAVIC3 PRO'), (0.0, 0.0, -10.0))": 114,
+        "(3, ('DJI AVATA2', 'DJI FPV COMBO', 'DJI MAVIC3 PRO'), (0.0, 0.0, 0.0))": 115,
+        "(3, ('DJI AVATA2', 'DJI FPV COMBO', 'DJI MAVIC3 PRO'), (0.0, 0.0, 10.0))": 114,
+        "(3, ('DJI AVATA2', 'DJI FPV COMBO', 'DJI MAVIC3 PRO'), (0.0, 10.0, 0.0))": 114,
+        "(3, ('DJI AVATA2', 'DJI FPV COMBO', 'DJI MAVIC3 PRO'), (10.0, 0.0, 0.0))": 114
+      },
+      "pack_occurrences": {
+        "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1.xml": 374,
+        "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml": 503,
+        "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml": 485,
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml": 774,
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml": 587,
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml": 1361,
+        "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml": 358,
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml": 358
+      }
+    },
+    {
+      "schedule_epoch": 2,
+      "rows_sha256": "9a16df7889411df3548aab2846c886eafd99e7b1cb1076ed1fa2396acad01724",
+      "examples": 2400,
+      "overlap_with_parent_native_epochs1_2": 2400,
+      "count_histogram": {
+        "1": 800,
+        "2": 800,
+        "3": 800
+      },
+      "category_power_strata": {
+        "(1, ('DJI AVATA2',), (0.0,))": 160,
+        "(1, ('DJI FPV COMBO',), (0.0,))": 160,
+        "(1, ('DJI MAVIC3 PRO',), (0.0,))": 160,
+        "(1, ('DJI MINI3',), (0.0,))": 160,
+        "(1, ('DJI MINI4 PRO',), (0.0,))": 160,
+        "(2, ('DJI AVATA2', 'DJI FPV COMBO'), (-10.0, 0.0))": 67,
+        "(2, ('DJI AVATA2', 'DJI FPV COMBO'), (0.0, 0.0))": 67,
+        "(2, ('DJI AVATA2', 'DJI FPV COMBO'), (10.0, 0.0))": 67,
+        "(2, ('DJI AVATA2', 'DJI MAVIC3 PRO'), (-10.0, 0.0))": 67,
+        "(2, ('DJI AVATA2', 'DJI MAVIC3 PRO'), (0.0, 0.0))": 66,
+        "(2, ('DJI AVATA2', 'DJI MAVIC3 PRO'), (10.0, 0.0))": 66,
+        "(2, ('DJI FPV COMBO', 'DJI MAVIC3 PRO'), (-10.0, 0.0))": 66,
+        "(2, ('DJI FPV COMBO', 'DJI MAVIC3 PRO'), (0.0, 0.0))": 66,
+        "(2, ('DJI FPV COMBO', 'DJI MAVIC3 PRO'), (10.0, 0.0))": 67,
+        "(2, ('DJI MINI3', 'DJI MINI4 PRO'), (-10.0, 0.0))": 67,
+        "(2, ('DJI MINI3', 'DJI MINI4 PRO'), (0.0, 0.0))": 67,
+        "(2, ('DJI MINI3', 'DJI MINI4 PRO'), (10.0, 0.0))": 67,
+        "(3, ('DJI AVATA2', 'DJI FPV COMBO', 'DJI MAVIC3 PRO'), (-10.0, 0.0, 0.0))": 114,
+        "(3, ('DJI AVATA2', 'DJI FPV COMBO', 'DJI MAVIC3 PRO'), (0.0, -10.0, 0.0))": 115,
+        "(3, ('DJI AVATA2', 'DJI FPV COMBO', 'DJI MAVIC3 PRO'), (0.0, 0.0, -10.0))": 115,
+        "(3, ('DJI AVATA2', 'DJI FPV COMBO', 'DJI MAVIC3 PRO'), (0.0, 0.0, 0.0))": 114,
+        "(3, ('DJI AVATA2', 'DJI FPV COMBO', 'DJI MAVIC3 PRO'), (0.0, 0.0, 10.0))": 114,
+        "(3, ('DJI AVATA2', 'DJI FPV COMBO', 'DJI MAVIC3 PRO'), (0.0, 10.0, 0.0))": 114,
+        "(3, ('DJI AVATA2', 'DJI FPV COMBO', 'DJI MAVIC3 PRO'), (10.0, 0.0, 0.0))": 114
+      },
+      "pack_occurrences": {
+        "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1.xml": 374,
+        "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml": 521,
+        "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml": 465,
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml": 759,
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml": 601,
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml": 1358,
+        "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml": 361,
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml": 361
+      }
+    },
+    {
+      "schedule_epoch": 3,
+      "rows_sha256": "fd13a2e2de18fafd6449b83a5d505369ebfabc5cab61aefa02c1c7af9690c363",
+      "examples": 2400,
+      "overlap_with_parent_native_epochs1_2": 0,
+      "count_histogram": {
+        "1": 800,
+        "2": 800,
+        "3": 800
+      },
+      "category_power_strata": {
+        "(1, ('DJI AVATA2',), (0.0,))": 160,
+        "(1, ('DJI FPV COMBO',), (0.0,))": 160,
+        "(1, ('DJI MAVIC3 PRO',), (0.0,))": 160,
+        "(1, ('DJI MINI3',), (0.0,))": 160,
+        "(1, ('DJI MINI4 PRO',), (0.0,))": 160,
+        "(2, ('DJI AVATA2', 'DJI FPV COMBO'), (-10.0, 0.0))": 66,
+        "(2, ('DJI AVATA2', 'DJI FPV COMBO'), (0.0, 0.0))": 66,
+        "(2, ('DJI AVATA2', 'DJI FPV COMBO'), (10.0, 0.0))": 66,
+        "(2, ('DJI AVATA2', 'DJI MAVIC3 PRO'), (-10.0, 0.0))": 66,
+        "(2, ('DJI AVATA2', 'DJI MAVIC3 PRO'), (0.0, 0.0))": 67,
+        "(2, ('DJI AVATA2', 'DJI MAVIC3 PRO'), (10.0, 0.0))": 67,
+        "(2, ('DJI FPV COMBO', 'DJI MAVIC3 PRO'), (-10.0, 0.0))": 67,
+        "(2, ('DJI FPV COMBO', 'DJI MAVIC3 PRO'), (0.0, 0.0))": 67,
+        "(2, ('DJI FPV COMBO', 'DJI MAVIC3 PRO'), (10.0, 0.0))": 67,
+        "(2, ('DJI MINI3', 'DJI MINI4 PRO'), (-10.0, 0.0))": 67,
+        "(2, ('DJI MINI3', 'DJI MINI4 PRO'), (0.0, 0.0))": 67,
+        "(2, ('DJI MINI3', 'DJI MINI4 PRO'), (10.0, 0.0))": 67,
+        "(3, ('DJI AVATA2', 'DJI FPV COMBO', 'DJI MAVIC3 PRO'), (-10.0, 0.0, 0.0))": 114,
+        "(3, ('DJI AVATA2', 'DJI FPV COMBO', 'DJI MAVIC3 PRO'), (0.0, -10.0, 0.0))": 114,
+        "(3, ('DJI AVATA2', 'DJI FPV COMBO', 'DJI MAVIC3 PRO'), (0.0, 0.0, -10.0))": 114,
+        "(3, ('DJI AVATA2', 'DJI FPV COMBO', 'DJI MAVIC3 PRO'), (0.0, 0.0, 0.0))": 114,
+        "(3, ('DJI AVATA2', 'DJI FPV COMBO', 'DJI MAVIC3 PRO'), (0.0, 0.0, 10.0))": 114,
+        "(3, ('DJI AVATA2', 'DJI FPV COMBO', 'DJI MAVIC3 PRO'), (0.0, 10.0, 0.0))": 115,
+        "(3, ('DJI AVATA2', 'DJI FPV COMBO', 'DJI MAVIC3 PRO'), (10.0, 0.0, 0.0))": 115
+      },
+      "pack_occurrences": {
+        "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1.xml": 373,
+        "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml": 519,
+        "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml": 466,
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml": 774,
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml": 585,
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml": 1361,
+        "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml": 361,
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml": 361
+      }
+    }
+  ],
+  "recorded_iq_reads": 0,
+  "same_category_power_histogram": false,
+  "histogram_l1": 12,
+  "qualification": "Schedule3 unseen in selected native e2 gradients; underlying TRAIN recordings are reused. Schedule3 has appeared in other development trials and is not an independent test or new recording."
+}

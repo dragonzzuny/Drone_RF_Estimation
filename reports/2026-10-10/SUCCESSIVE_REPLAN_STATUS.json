@@ -1,0 +1,23 @@
+{
+  "status": "STOPPED_BY_REPLAN",
+  "reason": "User requested adaptive decisions. Redundant replay control replaced by fresh-mixture schedule diagnosis after affinity objective improved without waveform gain.",
+  "prior_state": {
+    "status": "TRAINING",
+    "arm": "retained_two_pass_control",
+    "epoch": 1,
+    "updates": 35,
+    "total_updates": 35,
+    "target_total_updates": 150,
+    "examples": 1120,
+    "total_examples": 2400,
+    "seconds": 853.062911272049,
+    "pid": 699817,
+    "time": 1791596059.3481674
+  },
+  "pid": 699817,
+  "time": 1791596067.2612834,
+  "incomplete_weights_saved": false,
+  "candidate_trained": false,
+  "original_protocol_preserved": true,
+  "process_exit_confirmed_at": 1791596090.6618574
+}

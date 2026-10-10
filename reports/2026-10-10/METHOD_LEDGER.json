@@ -8,6 +8,7 @@
       "unique_long_mixtures": 2400,
       "distinct_window_views": 2400,
       "updates": 75,
+      "train_schedule_epoch": 1,
       "actual_e1": {
         "epoch": 1,
         "by_count": [
@@ -66,6 +67,7 @@
       "unique_long_mixtures": 2400,
       "distinct_window_views": 2400,
       "updates": 75,
+      "train_schedule_epoch": 1,
       "actual_e1": {
         "epoch": 1,
         "by_count": [
@@ -124,6 +126,7 @@
       "unique_long_mixtures": 2400,
       "distinct_window_views": 2400,
       "updates": 75,
+      "train_schedule_epoch": 1,
       "actual_e1": {
         "epoch": 1,
         "by_count": [
@@ -182,6 +185,7 @@
       "unique_long_mixtures": 2400,
       "distinct_window_views": 2400,
       "updates": 75,
+      "train_schedule_epoch": 1,
       "actual_e1": {
         "epoch": 1,
         "by_count": [
@@ -240,6 +244,7 @@
       "unique_long_mixtures": 2400,
       "distinct_window_views": 2400,
       "updates": 75,
+      "train_schedule_epoch": 1,
       "actual_e1": {
         "epoch": 1,
         "by_count": [
@@ -298,6 +303,7 @@
       "unique_long_mixtures": 2400,
       "distinct_window_views": 2400,
       "updates": 75,
+      "train_schedule_epoch": 1,
       "actual_e1": {
         "epoch": 1,
         "by_count": [
@@ -356,6 +362,7 @@
       "unique_long_mixtures": 2400,
       "distinct_window_views": 2400,
       "updates": 75,
+      "train_schedule_epoch": 1,
       "actual_e1": {
         "epoch": 1,
         "by_count": [
@@ -414,6 +421,7 @@
       "unique_long_mixtures": 2400,
       "distinct_window_views": 4800,
       "updates": 75,
+      "train_schedule_epoch": 1,
       "actual_e1": {
         "epoch": 1,
         "by_count": [
@@ -472,6 +480,7 @@
       "unique_long_mixtures": 2400,
       "distinct_window_views": 4800,
       "updates": 75,
+      "train_schedule_epoch": 1,
       "actual_e1": {
         "epoch": 1,
         "by_count": [
@@ -530,6 +539,7 @@
       "unique_long_mixtures": 2400,
       "distinct_window_views": 2400,
       "updates": 75,
+      "train_schedule_epoch": 1,
       "actual_e1": {
         "epoch": 1,
         "by_count": [
@@ -588,6 +598,7 @@
       "unique_long_mixtures": 2400,
       "distinct_window_views": 2400,
       "updates": 75,
+      "train_schedule_epoch": 1,
       "actual_e1": {
         "epoch": 1,
         "by_count": [
@@ -646,6 +657,7 @@
       "unique_long_mixtures": 2400,
       "distinct_window_views": 2400,
       "updates": 75,
+      "train_schedule_epoch": 1,
       "actual_e1": {
         "epoch": 1,
         "by_count": [
@@ -696,11 +708,85 @@
       ],
       "validation_sha256": "e6cbba2c893cc7623d19e5dea2b437297a141196d09d7b4f23c015f35fec0a3b",
       "epoch_receipt_sha256": "aa3acd364567eeafaf5ba4faf084f35da68ec88f77d743521e56862ab86ee1f1"
+    },
+    {
+      "label": "새 혼합 일정3",
+      "parameters": 32142859,
+      "trainable": 32142859,
+      "unique_long_mixtures": 2400,
+      "distinct_window_views": 2400,
+      "updates": 75,
+      "train_schedule_epoch": 3,
+      "actual_e1": {
+        "epoch": 1,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.02239871131724372,
+            "mean_si_sdr": 22.768964133805188,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.02239871131724372,
+            "construction_count_accuracy": 0.8
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.4788283769796474,
+            "mean_si_sdr": 3.701391262253193,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.7989671569710123,
+            "construction_count_accuracy": 0.3047619047619048
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.6912109836924899,
+            "mean_si_sdr": -2.8260548711387914,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.9451476919245133,
+            "construction_count_accuracy": 0.3619047619047619
+          }
+        ],
+        "selection_nmse": 0.5850196803360687
+      },
+      "parent_joint_criterion": false,
+      "parent_deltas": [
+        {
+          "count": 2,
+          "nmse_delta": 0.011932782659771657,
+          "si_sdr_delta": -0.07597152327023382,
+          "weakest_nmse_delta": 0.02038744686914884
+        },
+        {
+          "count": 3,
+          "nmse_delta": 0.0009576683781388207,
+          "si_sdr_delta": 0.2827251792254293,
+          "weakest_nmse_delta": -0.006171693119402355
+        }
+      ],
+      "validation_sha256": "2b8ba06369933539cf964276e4c37a82531b8f666a5d40f5f8b908e7efbfb699",
+      "epoch_receipt_sha256": "f1b0aabd250883d98adad3651f052d8c18701acf90d4f69d68ec70b331d0cce2"
     }
   ],
   "pending": [
-    "같은 입력2회 대조",
-    "공유 U-Net 순차 추출"
+    "시간 순서 문맥"
+  ],
+  "stopped": [
+    {
+      "label": "같은 입력2회 대조",
+      "status": "STOPPED_BY_REPLAN",
+      "completed_epoch": false,
+      "trained_updates": 35,
+      "reason": "User requested adaptive decisions. Redundant replay control replaced by fresh-mixture schedule diagnosis after affinity objective improved without waveform gain."
+    },
+    {
+      "label": "공유 U-Net 순차 추출",
+      "status": "STOPPED_BY_REPLAN",
+      "completed_epoch": false,
+      "trained_updates": 0,
+      "reason": "User requested adaptive decisions. Redundant replay control replaced by fresh-mixture schedule diagnosis after affinity objective improved without waveform gain."
+    }
   ],
   "parent": {
     "epoch": 2,
@@ -741,7 +827,7 @@
   "inference": 0,
   "heldout_read": false,
   "independent_test": false,
-  "created_utc": "2026-10-10T01:19:42.277956+00:00",
-  "reporter_sha256": "16ec411481f502487abbc855f2d71ee5234e2edd684463c0591fe376294cd2b3",
+  "created_utc": "2026-10-10T01:58:16.624695+00:00",
+  "reporter_sha256": "297787f9d881541d99a2f540e451761dcb96949fca6131bc3581fe0484167c38",
   "limitation": "Same additional updates does not imply same total pretraining, parameters, window views, or computation. Parent criterion does not replace matched-control requirement."
 }
