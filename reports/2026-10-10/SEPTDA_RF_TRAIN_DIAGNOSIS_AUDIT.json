@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "report_sha256": "0c8993a9dfcf6e37d5804447decac0a670335f7e90cc4e34de2762caf6d4c8ec",
+  "protocol_sha256": "c88a4bc1ffd75d9d5a6b209166cd35e42a0863eee42e974aa4a99cec1520e747",
+  "rows_reaggregated": 192,
+  "summaries_checked": 12,
+  "unique_train_mixtures": 48,
+  "new_gpu_inferences_recorded": 144,
+  "saved_gpu_reproductions_checked": 6,
+  "reused_parent_rows": 48,
+  "heldout_read": false,
+  "new_inference_in_this_audit": 0,
+  "checkpoint_inference_rerun_by_audit": false
+}

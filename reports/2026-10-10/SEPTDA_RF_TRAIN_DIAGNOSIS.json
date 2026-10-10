@@ -1,0 +1,4474 @@
+{
+  "status": "COMPLETE_CHECKED",
+  "protocol_sha256": "c88a4bc1ffd75d9d5a6b209166cd35e42a0863eee42e974aa4a99cec1520e747",
+  "rows": [
+    {
+      "model": "parent/e0",
+      "index": 0,
+      "count": 1,
+      "categories": [
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.0975915841409247
+      ],
+      "si_sdr": [
+        10.595130158569397
+      ],
+      "reference_power": [
+        0.19656672628484773
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.1887572038835381e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 1,
+      "count": 1,
+      "categories": [
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.018422736525068904
+      ],
+      "si_sdr": [
+        17.402986129048987
+      ],
+      "reference_power": [
+        0.06598947923503985
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2719010701666771e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 2,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.6326974814901709,
+        0.4004252204625129,
+        1.0031846466053937
+      ],
+      "si_sdr": [
+        -2.157069394687119,
+        2.750986039765843,
+        -34.193636581628844
+      ],
+      "reference_power": [
+        0.21366361689242833,
+        0.41493681321210335,
+        0.08442038825742745
+      ],
+      "weakest_index": 2,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1357866521839295e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 3,
+      "count": 1,
+      "categories": [
+        "DJI MINI4 PRO"
+      ],
+      "nmse": [
+        0.0090200959910482
+      ],
+      "si_sdr": [
+        20.51627488101851
+      ],
+      "reference_power": [
+        0.08472488664259163
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2292017638716377e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 4,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.18263869858660994,
+        0.23547407031868522
+      ],
+      "si_sdr": [
+        7.01208284655019,
+        18.809497182806098
+      ],
+      "reference_power": [
+        0.22920438514845085,
+        0.25763593577097677
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.1422276470078702e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 5,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.0167076837684972,
+        0.3103411986723075
+      ],
+      "si_sdr": [
+        17.807185559657295,
+        3.834860502442366
+      ],
+      "reference_power": [
+        2.7584760524276057,
+        0.12966367582857852
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 1.3186178476267047e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 6,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.22640528589803033,
+        0.7886581359482071
+      ],
+      "si_sdr": [
+        5.8653267659541,
+        -5.121901354869403
+      ],
+      "reference_power": [
+        0.3536294782369047,
+        0.10333354332231
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2107890435059162e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 7,
+      "count": 1,
+      "categories": [
+        "DJI MINI3"
+      ],
+      "nmse": [
+        0.0003402956621873706
+      ],
+      "si_sdr": [
+        34.82904658700355
+      ],
+      "reference_power": [
+        3.7678583570958057
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.310738224956206e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 8,
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "nmse": [
+        0.36696631086253106,
+        0.06979485652297547
+      ],
+      "si_sdr": [
+        8.237895428626526,
+        11.341320931369925
+      ],
+      "reference_power": [
+        0.05137260756396774,
+        0.2236198757511517
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2432399512757114e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 9,
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "nmse": [
+        0.03004917817835569,
+        0.9575182378354934
+      ],
+      "si_sdr": [
+        18.233692805637343,
+        -13.33882478715183
+      ],
+      "reference_power": [
+        0.18369698380732988,
+        0.00043792030122848265
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 1.1486852012753155e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 10,
+      "count": 1,
+      "categories": [
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.0047477321609491535
+      ],
+      "si_sdr": [
+        23.23497843378898
+      ],
+      "reference_power": [
+        0.21320493533811283
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.27859472055482e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 11,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.5133180679074099,
+        0.9792922258490518,
+        0.04462464409988561
+      ],
+      "si_sdr": [
+        0.17359036665253835,
+        -12.064927855123933,
+        13.314914900126627
+      ],
+      "reference_power": [
+        0.18304307747426535,
+        0.07667503672516876,
+        1.5836823299638492
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2351218677259569e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 12,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.10519973335470856,
+        0.739071360405985
+      ],
+      "si_sdr": [
+        9.324983177403814,
+        -4.273431523757711
+      ],
+      "reference_power": [
+        1.6633887789122555,
+        0.21951983988197465
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2093391465354487e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 13,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.012464625262426888,
+        0.4002445954293073
+      ],
+      "si_sdr": [
+        18.989659218809308,
+        6.2636156363921405
+      ],
+      "reference_power": [
+        1.033235537495456,
+        0.04173489258441442
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2492914498394051e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 14,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.1345185191143894,
+        0.9809353505926409
+      ],
+      "si_sdr": [
+        9.07325161839532,
+        -15.499725760752028
+      ],
+      "reference_power": [
+        0.06867545213256827,
+        0.0018809031774881422
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1524669805949365e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 15,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.9246267479873895,
+        0.029967725234573188,
+        0.24031402543195293
+      ],
+      "si_sdr": [
+        -0.9320139953064559,
+        15.102000467826574,
+        6.65945659321085
+      ],
+      "reference_power": [
+        0.03267662810360374,
+        0.6685812300842607,
+        0.06107571717638515
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.221815439605941e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 16,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.6282203312781923,
+        1.003747137859002,
+        0.39981003591578856
+      ],
+      "si_sdr": [
+        0.7731019545792901,
+        -21.498441660080573,
+        2.6905903843478347
+      ],
+      "reference_power": [
+        0.013798625908586657,
+        0.0002413962147379528,
+        0.019977270752757847
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.1278078088996437e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 17,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.46181975563634625,
+        0.007199032153385076
+      ],
+      "si_sdr": [
+        3.992313714302535,
+        21.40662226428006
+      ],
+      "reference_power": [
+        0.0024936261729356195,
+        0.1299571478118699
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2672531550230595e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 20,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.016568377147264942,
+        1.1615076862106457,
+        1.1098157518182103
+      ],
+      "si_sdr": [
+        18.283304503475332,
+        -38.10715174445753,
+        -21.71562991878432
+      ],
+      "reference_power": [
+        0.3860221602840616,
+        0.00015260316754179832,
+        0.004884495157326959
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.236666820453134e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 21,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.9502463501347513,
+        0.01115891324888281,
+        0.21836795087930547
+      ],
+      "si_sdr": [
+        -12.735115060882347,
+        19.55514162551,
+        10.807145002294089
+      ],
+      "reference_power": [
+        0.001082489553481351,
+        0.6394271344931914,
+        0.03859092965566792
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2594155905306268e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 22,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.2112382548875497,
+        0.048100107454064685
+      ],
+      "si_sdr": [
+        16.190590362576827,
+        12.966630048159349
+      ],
+      "reference_power": [
+        0.39545175343288064,
+        1.2149669024744552
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2061976561996107e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 23,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.12466795573394227,
+        0.6983682526831364,
+        0.9852030866468241
+      ],
+      "si_sdr": [
+        8.702501630842571,
+        -2.7840441781348035,
+        -17.6444783680576
+      ],
+      "reference_power": [
+        0.5594636289756357,
+        0.08257081965418671,
+        0.00432922085965371
+      ],
+      "weakest_index": 2,
+      "predicted_count": 3,
+      "sum_relative_error": 1.1611396059217526e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 24,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.36696758399682766,
+        0.02952928347719873
+      ],
+      "si_sdr": [
+        9.64173410773764,
+        15.225028915271832
+      ],
+      "reference_power": [
+        0.0404871534721704,
+        0.36986401809747493
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2875276235621676e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 27,
+      "count": 1,
+      "categories": [
+        "DJI MINI3"
+      ],
+      "nmse": [
+        0.00043163320168156013
+      ],
+      "si_sdr": [
+        33.67813663340373
+      ],
+      "reference_power": [
+        1.7823240895669976
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.3363175004102025e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 29,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.34543634363431486,
+        0.978224893281214,
+        0.009231627659172306
+      ],
+      "si_sdr": [
+        6.594631847838086,
+        -16.518199521763755,
+        20.313670961185228
+      ],
+      "reference_power": [
+        0.35725344399749626,
+        0.035771667047691025,
+        9.23325491074997
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2358315966591606e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 31,
+      "count": 1,
+      "categories": [
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.016178179757060103
+      ],
+      "si_sdr": [
+        18.04337899684521
+      ],
+      "reference_power": [
+        0.19344358810108414
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2675261204113894e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 32,
+      "count": 1,
+      "categories": [
+        "DJI AVATA2"
+      ],
+      "nmse": [
+        0.01922355916367226
+      ],
+      "si_sdr": [
+        17.396318234056213
+      ],
+      "reference_power": [
+        0.24730054007479538
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2685032327658964e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 33,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.5855394799420218,
+        0.9822707755930478,
+        0.13063949966373242
+      ],
+      "si_sdr": [
+        0.7207615423691929,
+        -16.839344798531403,
+        8.504973363158072
+      ],
+      "reference_power": [
+        0.05546990713058774,
+        0.0008623237864557172,
+        0.2229846269715465
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2294484890878746e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 37,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.13417941678682066,
+        0.959634571168296,
+        0.3337701207845067
+      ],
+      "si_sdr": [
+        8.391339032405106,
+        -3.7222236914618616,
+        4.14748069651417
+      ],
+      "reference_power": [
+        1.4929459735284525,
+        0.35265421096251703,
+        0.806950124664925
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1302694013990681e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 38,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.42182196423682894,
+        0.006065335831607463
+      ],
+      "si_sdr": [
+        6.731217772618323,
+        22.18385018859671
+      ],
+      "reference_power": [
+        0.03491253369376879,
+        1.7908359475126348
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2151193952670201e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 40,
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "nmse": [
+        0.0037242137291881687,
+        0.40273380966957323
+      ],
+      "si_sdr": [
+        24.293813120986396,
+        7.9753719606769256
+      ],
+      "reference_power": [
+        0.2590383841502693,
+        0.00339700605083405
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 1.3124662370472905e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 43,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        1.037336504195163,
+        0.001003791388355284,
+        1.469500182925476
+      ],
+      "si_sdr": [
+        -16.80690491979052,
+        30.11870741010361,
+        -9.495056763408662
+      ],
+      "reference_power": [
+        0.000325003419328446,
+        1.207713283185489,
+        0.0004111947910790231
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2649615435997548e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 44,
+      "count": 1,
+      "categories": [
+        "DJI MINI4 PRO"
+      ],
+      "nmse": [
+        0.1537871451879056
+      ],
+      "si_sdr": [
+        8.80893485073467
+      ],
+      "reference_power": [
+        6.072397951261813
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.1451156951950953e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 46,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.003763002022511044,
+        0.207487712892726
+      ],
+      "si_sdr": [
+        24.451056608942515,
+        11.867486915233926
+      ],
+      "reference_power": [
+        1.0339789665372876,
+        0.023432814497432907
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2767210587824954e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 47,
+      "count": 1,
+      "categories": [
+        "DJI AVATA2"
+      ],
+      "nmse": [
+        0.005915055642898419
+      ],
+      "si_sdr": [
+        26.191878848492607
+      ],
+      "reference_power": [
+        0.40853454437478703
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2283691371080543e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 55,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.09617214205131874,
+        0.23273958586946825
+      ],
+      "si_sdr": [
+        9.818514540724166,
+        13.017247943193546
+      ],
+      "reference_power": [
+        1.282654716323313,
+        0.7145377142556846
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.218660705818054e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 58,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.0024691297191937016,
+        0.2538344405214885
+      ],
+      "si_sdr": [
+        26.22345818523084,
+        7.122984200488
+      ],
+      "reference_power": [
+        1.4840170661797916,
+        0.014629836437095745
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2736553330032725e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 73,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.6498287823862521,
+        0.5714238595584785,
+        0.9585069681282423
+      ],
+      "si_sdr": [
+        0.2647397361182118,
+        0.012135324255348787,
+        -13.559674633400054
+      ],
+      "reference_power": [
+        0.32960082776343747,
+        0.3876392352878423,
+        0.006342228440794007
+      ],
+      "weakest_index": 2,
+      "predicted_count": 3,
+      "sum_relative_error": 1.144693216433353e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 74,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.3664227456685164,
+        0.9834193916832115,
+        0.013285885265415326
+      ],
+      "si_sdr": [
+        6.527792803895657,
+        -17.17505459745101,
+        18.765079964200588
+      ],
+      "reference_power": [
+        0.08176814728999905,
+        0.005637100934429803,
+        1.608703413885499
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2789348269448091e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 77,
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "nmse": [
+        1.0637077075161623,
+        0.48536614063602257
+      ],
+      "si_sdr": [
+        -0.6032498017573812,
+        3.595738490978993
+      ],
+      "reference_power": [
+        0.12465288021849352,
+        0.3150539949161034
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1775036540373499e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 92,
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.013060729234418884,
+        0.8604987452492787,
+        1.0182597376185578
+      ],
+      "si_sdr": [
+        19.804938838093044,
+        -5.712349428030391,
+        -27.05075084734158
+      ],
+      "reference_power": [
+        0.3344039207219204,
+        0.00339105631436382,
+        0.0006559495780951859
+      ],
+      "weakest_index": 2,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2361501780236633e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 100,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.9860209217403478,
+        0.7619146718962511
+      ],
+      "si_sdr": [
+        -4.9549280352694485,
+        0.5227177114792855
+      ],
+      "reference_power": [
+        0.004220382269523309,
+        0.0049967584535958835
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2137911713503801e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 101,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.5986361117444438,
+        0.004158316896320927
+      ],
+      "si_sdr": [
+        -1.6792433336535926,
+        23.892603312773044
+      ],
+      "reference_power": [
+        0.0014767878595613403,
+        0.23514549425412118
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.2150086625940766e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 110,
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "nmse": [
+        0.3039073189624793,
+        0.08017182187069397
+      ],
+      "si_sdr": [
+        14.239136785759936,
+        10.740290458344928
+      ],
+      "reference_power": [
+        0.04141359936551945,
+        0.12599705832088567
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.1753300625642598e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 111,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.9371607063747011,
+        0.028620569805687814
+      ],
+      "si_sdr": [
+        -6.256595339683252,
+        15.401308269211459
+      ],
+      "reference_power": [
+        0.04357878448135028,
+        3.196971480081053
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 1.3211741238542883e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 122,
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "nmse": [
+        0.9411161154566239,
+        0.005664443626875498
+      ],
+      "si_sdr": [
+        -11.616565781583967,
+        22.571846044080065
+      ],
+      "reference_power": [
+        0.00020407152326838476,
+        0.08023221809782505
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 1.2538674101660054e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 130,
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "nmse": [
+        0.44386223956499604,
+        0.1035662394024742
+      ],
+      "si_sdr": [
+        6.391251786447767,
+        9.662614297706577
+      ],
+      "reference_power": [
+        0.23331620851448948,
+        0.8202408470897633
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.2131965555335032e-14
+    },
+    {
+      "model": "parent/e0",
+      "index": 148,
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nmse": [
+        0.3804680233635468,
+        0.053521027584905616
+      ],
+      "si_sdr": [
+        2.1518864708828342,
+        12.781902121149004
+      ],
+      "reference_power": [
+        0.0064266563051383575,
+        0.06036217870666299
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 1.3682921545415171e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 0,
+      "count": 1,
+      "nmse": [
+        0.09804741409255212
+      ],
+      "si_sdr": [
+        10.48867576612945
+      ],
+      "reference_power": [
+        0.1965667262848477
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 3.7797069631316886e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 1,
+      "count": 1,
+      "nmse": [
+        0.018634502769936848
+      ],
+      "si_sdr": [
+        17.305162842801316
+      ],
+      "reference_power": [
+        0.06598947923503984
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 4.18614887252309e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 2,
+      "count": 3,
+      "nmse": [
+        0.5695366744901925,
+        0.3631908531962403,
+        0.9948204780613097
+      ],
+      "si_sdr": [
+        -0.4544387100489711,
+        3.5736044721854494,
+        -21.83779347264322
+      ],
+      "reference_power": [
+        0.21366361689242827,
+        0.41493681321210335,
+        0.08442038825742744
+      ],
+      "weakest_index": 2,
+      "predicted_count": 2,
+      "sum_relative_error": 3.8307732821916015e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 3,
+      "count": 1,
+      "nmse": [
+        0.005815173506677071
+      ],
+      "si_sdr": [
+        22.34545883221823
+      ],
+      "reference_power": [
+        0.08472488664259162
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 3.357480848783974e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 4,
+      "count": 2,
+      "nmse": [
+        0.1687041598841804,
+        0.22524706324706145
+      ],
+      "si_sdr": [
+        7.354221945124535,
+        18.958381316228234
+      ],
+      "reference_power": [
+        0.22920438514845085,
+        0.2576359357709767
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 3.8067262323848394e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 5,
+      "count": 2,
+      "nmse": [
+        0.016811459735798298,
+        0.30671670968098236
+      ],
+      "si_sdr": [
+        17.751022630795937,
+        3.8553326939200554
+      ],
+      "reference_power": [
+        2.7584760524276057,
+        0.1296636758285785
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 5.179600989033221e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 6,
+      "count": 2,
+      "nmse": [
+        0.22169631712590163,
+        0.7770104249624137
+      ],
+      "si_sdr": [
+        6.023411292223503,
+        -4.83388881514578
+      ],
+      "reference_power": [
+        0.3536294782369047,
+        0.10333354332230998
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.9129160242663926e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 7,
+      "count": 1,
+      "nmse": [
+        0.0004462050255610419
+      ],
+      "si_sdr": [
+        34.73950872192554
+      ],
+      "reference_power": [
+        3.7678583570958053
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 4.383664206960962e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 8,
+      "count": 2,
+      "nmse": [
+        0.3577815197901105,
+        0.06732437370741419
+      ],
+      "si_sdr": [
+        8.330076199278789,
+        11.517902407392013
+      ],
+      "reference_power": [
+        0.051372607563967734,
+        0.22361987575115172
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 3.676152115433471e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 9,
+      "count": 2,
+      "nmse": [
+        0.08436175653032912,
+        0.9435276911238818
+      ],
+      "si_sdr": [
+        11.84290426931031,
+        -12.010679557040753
+      ],
+      "reference_power": [
+        0.18369698380732985,
+        0.0004379203012284827
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 4.5391371430217085e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 10,
+      "count": 1,
+      "nmse": [
+        0.0030160106224100384
+      ],
+      "si_sdr": [
+        25.258283509807733
+      ],
+      "reference_power": [
+        0.2132049353381128
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 3.6085933217290885e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 11,
+      "count": 3,
+      "nmse": [
+        0.5049943371666081,
+        0.9691336698664228,
+        0.0401854155562003
+      ],
+      "si_sdr": [
+        0.18782011383736202,
+        -10.692388920001857,
+        13.787712295227958
+      ],
+      "reference_power": [
+        0.18304307747426532,
+        0.07667503672516876,
+        1.5836823299638492
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.9313944379030716e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 12,
+      "count": 2,
+      "nmse": [
+        0.11596685214286294,
+        0.8031673690544862
+      ],
+      "si_sdr": [
+        8.83122484031013,
+        -5.410781679581053
+      ],
+      "reference_power": [
+        1.6633887789122552,
+        0.21951983988197463
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 4.1257841707924537e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 13,
+      "count": 2,
+      "nmse": [
+        0.011687747538257843,
+        0.3883674444557922
+      ],
+      "si_sdr": [
+        19.27546066065615,
+        6.277265026424383
+      ],
+      "reference_power": [
+        1.033235537495456,
+        0.041734892584414415
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.7322421031826863e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 14,
+      "count": 2,
+      "nmse": [
+        0.13844748948040922,
+        0.9720150265364191
+      ],
+      "si_sdr": [
+        8.924853377093973,
+        -13.987235270085158
+      ],
+      "reference_power": [
+        0.06867545213256826,
+        0.001880903177488142
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 4.028078107616263e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 15,
+      "count": 3,
+      "nmse": [
+        0.9074089110411632,
+        0.02829721501370965,
+        0.22876556317113067
+      ],
+      "si_sdr": [
+        -0.15057568517383155,
+        15.358934529011366,
+        6.890531597804187
+      ],
+      "reference_power": [
+        0.03267662810360375,
+        0.6685812300842606,
+        0.06107571717638515
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 3.659704855915366e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 16,
+      "count": 3,
+      "nmse": [
+        0.5944302600817445,
+        1.003550398680494,
+        0.37439830261592183
+      ],
+      "si_sdr": [
+        1.684878611083296,
+        -21.836862338902726,
+        3.1263950095873003
+      ],
+      "reference_power": [
+        0.013798625908586654,
+        0.0002413962147379528,
+        0.019977270752757847
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.890973086233357e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 17,
+      "count": 2,
+      "nmse": [
+        0.45266875527200534,
+        0.006872424512425643
+      ],
+      "si_sdr": [
+        4.0611219547972786,
+        21.59911381640142
+      ],
+      "reference_power": [
+        0.0024936261729356195,
+        0.1299571478118699
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 3.6892259731237454e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 20,
+      "count": 3,
+      "nmse": [
+        0.015543673269743107,
+        1.1747155169937622,
+        1.0752803048462278
+      ],
+      "si_sdr": [
+        18.38394357482371,
+        -36.812546843234955,
+        -23.601301542356627
+      ],
+      "reference_power": [
+        0.3860221602840616,
+        0.00015260316754179832,
+        0.004884495157326958
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.978021290691852e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 21,
+      "count": 3,
+      "nmse": [
+        0.9421221483769905,
+        0.009357062576844178,
+        0.18507273162758003
+      ],
+      "si_sdr": [
+        -12.113148731227085,
+        20.31189986884273,
+        11.772331186959196
+      ],
+      "reference_power": [
+        0.001082489553481351,
+        0.6394271344931913,
+        0.03859092965566792
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 3.930708859049309e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 22,
+      "count": 2,
+      "nmse": [
+        0.20436802320400335,
+        0.04507684554262266
+      ],
+      "si_sdr": [
+        16.650799624181044,
+        13.263883746627565
+      ],
+      "reference_power": [
+        0.39545175343288047,
+        1.214966902474455
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 4.0339631599259025e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 23,
+      "count": 3,
+      "nmse": [
+        0.12666224677783527,
+        0.696854484542631,
+        0.9884606784338126
+      ],
+      "si_sdr": [
+        8.645260918451088,
+        -2.7035712778732273,
+        -17.342855123247013
+      ],
+      "reference_power": [
+        0.5594636289756356,
+        0.08257081965418668,
+        0.004329220859653709
+      ],
+      "weakest_index": 2,
+      "predicted_count": 3,
+      "sum_relative_error": 3.973027034399693e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 24,
+      "count": 2,
+      "nmse": [
+        0.35543783971001475,
+        0.0278438320183277
+      ],
+      "si_sdr": [
+        9.592524027635354,
+        15.500851687213723
+      ],
+      "reference_power": [
+        0.040487153472170384,
+        0.3698640180974748
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 4.282143909227594e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 27,
+      "count": 1,
+      "nmse": [
+        0.0004829343861198853
+      ],
+      "si_sdr": [
+        33.62701622574693
+      ],
+      "reference_power": [
+        1.7823240895669976
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 4.347730454651616e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 29,
+      "count": 3,
+      "nmse": [
+        0.3331769058545587,
+        0.9750021099216561,
+        0.008345284901267059
+      ],
+      "si_sdr": [
+        6.346713414775891,
+        -15.895541171018744,
+        20.74926721737219
+      ],
+      "reference_power": [
+        0.3572534439974962,
+        0.035771667047691025,
+        9.233254910749967
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.442785951496383e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 31,
+      "count": 1,
+      "nmse": [
+        0.016995555110616695
+      ],
+      "si_sdr": [
+        17.751758924881326
+      ],
+      "reference_power": [
+        0.19344358810108409
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 4.035256924636076e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 32,
+      "count": 1,
+      "nmse": [
+        0.01490071047756429
+      ],
+      "si_sdr": [
+        18.411478803999103
+      ],
+      "reference_power": [
+        0.24730054007479535
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 4.072443467557202e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 33,
+      "count": 3,
+      "nmse": [
+        0.36820736709417445,
+        0.987929045399497,
+        0.07336123612992952
+      ],
+      "si_sdr": [
+        6.581068979265829,
+        -16.00739065176123,
+        11.058699986282113
+      ],
+      "reference_power": [
+        0.055469907130587734,
+        0.000862323786455717,
+        0.22298462697154645
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 4.122542254068783e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 37,
+      "count": 3,
+      "nmse": [
+        0.1215106923379133,
+        0.943102596680398,
+        0.3047303799277112
+      ],
+      "si_sdr": [
+        8.818435380876599,
+        -2.0870120337317086,
+        4.7928166524970965
+      ],
+      "reference_power": [
+        1.4929459735284523,
+        0.3526542109625169,
+        0.8069501246649249
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.2527884038030584e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 38,
+      "count": 2,
+      "nmse": [
+        0.40362718084695115,
+        0.005608226165357582
+      ],
+      "si_sdr": [
+        6.976054380661543,
+        22.49109641076689
+      ],
+      "reference_power": [
+        0.03491253369376879,
+        1.7908359475126345
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 3.961706446196681e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 40,
+      "count": 2,
+      "nmse": [
+        0.0034799875915927695,
+        0.39348621513793347
+      ],
+      "si_sdr": [
+        24.570593432509188,
+        8.075829656072413
+      ],
+      "reference_power": [
+        0.2590383841502693,
+        0.0033970060508340494
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 4.434740268447203e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 43,
+      "count": 3,
+      "nmse": [
+        1.0190837688965775,
+        0.0009681489523725462,
+        1.4691729303811405
+      ],
+      "si_sdr": [
+        -15.408816651166525,
+        30.141527844129115,
+        -9.515737800204434
+      ],
+      "reference_power": [
+        0.00032500341932844597,
+        1.207713283185489,
+        0.00041119479107902307
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 3.6324929458318574e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 44,
+      "count": 1,
+      "nmse": [
+        0.16134989174769407
+      ],
+      "si_sdr": [
+        8.445225775160273
+      ],
+      "reference_power": [
+        6.072397951261812
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 3.574134573304686e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 46,
+      "count": 2,
+      "nmse": [
+        0.003085232849912892,
+        0.18051427806353054
+      ],
+      "si_sdr": [
+        25.184904672727633,
+        13.059018343221588
+      ],
+      "reference_power": [
+        1.0339789665372878,
+        0.02343281449743291
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 3.9350850301143273e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 47,
+      "count": 1,
+      "nmse": [
+        0.004288646786221566
+      ],
+      "si_sdr": [
+        27.384890494097412
+      ],
+      "reference_power": [
+        0.4085345443747871
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 3.974880652211487e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 55,
+      "count": 2,
+      "nmse": [
+        0.08839178376843417,
+        0.2204589029183634
+      ],
+      "si_sdr": [
+        10.196378790281184,
+        13.328300713323955
+      ],
+      "reference_power": [
+        1.2826547163233128,
+        0.7145377142556846
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 4.519290616537616e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 58,
+      "count": 2,
+      "nmse": [
+        0.002212474200934162,
+        0.22982583128036913
+      ],
+      "si_sdr": [
+        26.57861285662748,
+        7.6621914511966835
+      ],
+      "reference_power": [
+        1.4840170661797918,
+        0.014629836437095745
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.9400977196662584e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 73,
+      "count": 3,
+      "nmse": [
+        0.7196776019103805,
+        0.6315061775950447,
+        0.9571341060673526
+      ],
+      "si_sdr": [
+        -0.229620546109928,
+        -1.328797887448058,
+        -13.381484940808217
+      ],
+      "reference_power": [
+        0.3296008277634374,
+        0.38763923528784217,
+        0.006342228440794006
+      ],
+      "weakest_index": 2,
+      "predicted_count": 3,
+      "sum_relative_error": 3.735255167778117e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 74,
+      "count": 3,
+      "nmse": [
+        0.354178697630673,
+        0.9816767764759601,
+        0.012300330827633684
+      ],
+      "si_sdr": [
+        6.454007908922592,
+        -16.365949621234297,
+        19.08892639328724
+      ],
+      "reference_power": [
+        0.08176814728999904,
+        0.0056371009344298026,
+        1.6087034138854983
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 5.2702137658745177e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 77,
+      "count": 2,
+      "nmse": [
+        1.0396614887650442,
+        0.47809832510537315
+      ],
+      "si_sdr": [
+        -0.5508971500174811,
+        3.5245857656425708
+      ],
+      "reference_power": [
+        0.12465288021849354,
+        0.3150539949161034
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 3.8828871960913505e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 92,
+      "count": 3,
+      "nmse": [
+        0.011896393893024436,
+        0.8063737771637813,
+        1.020610717385142
+      ],
+      "si_sdr": [
+        19.93326126940261,
+        -5.332641385913747,
+        -27.334539313974524
+      ],
+      "reference_power": [
+        0.33440392072192043,
+        0.0033910563143638196,
+        0.0006559495780951859
+      ],
+      "weakest_index": 2,
+      "predicted_count": 3,
+      "sum_relative_error": 3.951104069720142e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 100,
+      "count": 2,
+      "nmse": [
+        0.9850680056245465,
+        0.7757601001149856
+      ],
+      "si_sdr": [
+        -3.949805924499103,
+        0.6541513318824019
+      ],
+      "reference_power": [
+        0.004220382269523309,
+        0.0049967584535958835
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 3.9472038137137574e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 101,
+      "count": 2,
+      "nmse": [
+        0.5942631315767338,
+        0.004113402405785957
+      ],
+      "si_sdr": [
+        -1.6233334805703525,
+        23.860502239177265
+      ],
+      "reference_power": [
+        0.0014767878595613399,
+        0.23514549425412115
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 3.961843096185357e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 110,
+      "count": 2,
+      "nmse": [
+        0.29095576016489577,
+        0.07550395529431156
+      ],
+      "si_sdr": [
+        14.611545473396708,
+        11.031606671829797
+      ],
+      "reference_power": [
+        0.04141359936551946,
+        0.12599705832088567
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 3.247403481552536e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 111,
+      "count": 2,
+      "nmse": [
+        0.9342700377589659,
+        0.029248174003833335
+      ],
+      "si_sdr": [
+        -5.993754192257779,
+        15.276673611149103
+      ],
+      "reference_power": [
+        0.043578784481350274,
+        3.1969714800810527
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 4.3038061556138874e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 122,
+      "count": 2,
+      "nmse": [
+        0.935864105250467,
+        0.005786984989916553
+      ],
+      "si_sdr": [
+        -11.142947375769525,
+        22.39137029704289
+      ],
+      "reference_power": [
+        0.00020407152326838474,
+        0.08023221809782505
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 3.35098664627334e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 130,
+      "count": 2,
+      "nmse": [
+        0.4290566285060759,
+        0.09755271143659064
+      ],
+      "si_sdr": [
+        6.3203040744619985,
+        9.940467556969258
+      ],
+      "reference_power": [
+        0.23331620851448948,
+        0.8202408470897633
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 3.65809366715071e-14
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 148,
+      "count": 2,
+      "nmse": [
+        0.3826534011204327,
+        0.05462691989026312
+      ],
+      "si_sdr": [
+        2.093786291399653,
+        12.69724131107655
+      ],
+      "reference_power": [
+        0.0064266563051383575,
+        0.06036217870666299
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 4.959013092707072e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 0,
+      "count": 1,
+      "nmse": [
+        0.0980181506630106
+      ],
+      "si_sdr": [
+        10.492605614635904
+      ],
+      "reference_power": [
+        0.1965667262848477
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 3.806434968611601e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 0,
+      "count": 1,
+      "nmse": [
+        0.09799306363992288
+      ],
+      "si_sdr": [
+        10.493686181295656
+      ],
+      "reference_power": [
+        0.1965667262848477
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 3.7317707067970826e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 1,
+      "count": 1,
+      "nmse": [
+        0.01874280093568213
+      ],
+      "si_sdr": [
+        17.276796668112002
+      ],
+      "reference_power": [
+        0.06598947923503984
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 4.202838188663614e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 1,
+      "count": 1,
+      "nmse": [
+        0.01874584501385375
+      ],
+      "si_sdr": [
+        17.281762281976718
+      ],
+      "reference_power": [
+        0.06598947923503984
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 4.205284823846022e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 2,
+      "count": 3,
+      "nmse": [
+        0.5698030135281325,
+        0.36307908545176076,
+        0.9951652592843517
+      ],
+      "si_sdr": [
+        -0.46350165703421203,
+        3.5721898197473543,
+        -22.28370535661556
+      ],
+      "reference_power": [
+        0.21366361689242827,
+        0.41493681321210335,
+        0.08442038825742744
+      ],
+      "weakest_index": 2,
+      "predicted_count": 2,
+      "sum_relative_error": 3.82311013797848e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 2,
+      "count": 3,
+      "nmse": [
+        0.5697841515641403,
+        0.36310994184495,
+        0.9950121599157994
+      ],
+      "si_sdr": [
+        -0.4637854973148819,
+        3.572441827481618,
+        -22.092418413357635
+      ],
+      "reference_power": [
+        0.21366361689242827,
+        0.41493681321210335,
+        0.08442038825742744
+      ],
+      "weakest_index": 2,
+      "predicted_count": 2,
+      "sum_relative_error": 3.838801235397179e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 3,
+      "count": 1,
+      "nmse": [
+        0.005797975129734208
+      ],
+      "si_sdr": [
+        22.361378740044202
+      ],
+      "reference_power": [
+        0.08472488664259162
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 3.416385417465811e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 3,
+      "count": 1,
+      "nmse": [
+        0.005798093641777774
+      ],
+      "si_sdr": [
+        22.36048002812183
+      ],
+      "reference_power": [
+        0.08472488664259162
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 3.394080983807005e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 4,
+      "count": 2,
+      "nmse": [
+        0.16971532759748756,
+        0.22481679038446345
+      ],
+      "si_sdr": [
+        7.327920130705623,
+        18.956724997061542
+      ],
+      "reference_power": [
+        0.22920438514845085,
+        0.2576359357709767
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 3.815690862584511e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 4,
+      "count": 2,
+      "nmse": [
+        0.16916583756155915,
+        0.22541434817121359
+      ],
+      "si_sdr": [
+        7.342443450803939,
+        18.955727094342283
+      ],
+      "reference_power": [
+        0.22920438514845085,
+        0.2576359357709767
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 3.824818275740546e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 5,
+      "count": 2,
+      "nmse": [
+        0.016862786641911768,
+        0.3062311874784573
+      ],
+      "si_sdr": [
+        17.73944223010065,
+        3.8643033744668682
+      ],
+      "reference_power": [
+        2.7584760524276057,
+        0.1296636758285785
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 5.209736089788924e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 5,
+      "count": 2,
+      "nmse": [
+        0.016838538232183287,
+        0.3067435128646585
+      ],
+      "si_sdr": [
+        17.74427297763946,
+        3.8546352574113203
+      ],
+      "reference_power": [
+        2.7584760524276057,
+        0.1296636758285785
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 5.2349803373151166e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 6,
+      "count": 2,
+      "nmse": [
+        0.2216899599555409,
+        0.7770970548760597
+      ],
+      "si_sdr": [
+        6.018662887240417,
+        -4.8509430370001985
+      ],
+      "reference_power": [
+        0.3536294782369047,
+        0.10333354332230998
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.953422680702093e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 6,
+      "count": 2,
+      "nmse": [
+        0.2216949211863111,
+        0.7770672641288862
+      ],
+      "si_sdr": [
+        6.0189451100862605,
+        -4.850690954402599
+      ],
+      "reference_power": [
+        0.3536294782369047,
+        0.10333354332230998
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.9246598738985853e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 7,
+      "count": 1,
+      "nmse": [
+        0.00044312287469502025
+      ],
+      "si_sdr": [
+        34.7426129241891
+      ],
+      "reference_power": [
+        3.7678583570958053
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 4.432948363993536e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 7,
+      "count": 1,
+      "nmse": [
+        0.00044351032935093264
+      ],
+      "si_sdr": [
+        34.74505729544172
+      ],
+      "reference_power": [
+        3.7678583570958053
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 4.3960174856012775e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 8,
+      "count": 2,
+      "nmse": [
+        0.35780713716080026,
+        0.06735831556845527
+      ],
+      "si_sdr": [
+        8.327302001541904,
+        11.514304096767017
+      ],
+      "reference_power": [
+        0.051372607563967734,
+        0.22361987575115172
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 3.69415605550246e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 8,
+      "count": 2,
+      "nmse": [
+        0.35781687949753516,
+        0.06735473248481341
+      ],
+      "si_sdr": [
+        8.327929776953367,
+        11.51470050029534
+      ],
+      "reference_power": [
+        0.051372607563967734,
+        0.22361987575115172
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 3.609151257712847e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 9,
+      "count": 2,
+      "nmse": [
+        0.08474179113936857,
+        0.9430220910455226
+      ],
+      "si_sdr": [
+        11.834678500826497,
+        -11.96536578707339
+      ],
+      "reference_power": [
+        0.18369698380732985,
+        0.0004379203012284827
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 4.585119997894964e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 9,
+      "count": 2,
+      "nmse": [
+        0.08470919467641132,
+        0.9433670241626455
+      ],
+      "si_sdr": [
+        11.83408411592955,
+        -12.0002146590773
+      ],
+      "reference_power": [
+        0.18369698380732985,
+        0.0004379203012284827
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 4.545881087878956e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 10,
+      "count": 1,
+      "nmse": [
+        0.0030131670641501762
+      ],
+      "si_sdr": [
+        25.256566222013163
+      ],
+      "reference_power": [
+        0.2132049353381128
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 3.6063346788432084e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 10,
+      "count": 1,
+      "nmse": [
+        0.0030121962121266617
+      ],
+      "si_sdr": [
+        25.25824893979879
+      ],
+      "reference_power": [
+        0.2132049353381128
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 3.589292557459412e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 11,
+      "count": 3,
+      "nmse": [
+        0.5050821858037369,
+        0.9695820485054716,
+        0.040139923012821925
+      ],
+      "si_sdr": [
+        0.1858383756952609,
+        -10.88313349163127,
+        13.793810945581306
+      ],
+      "reference_power": [
+        0.18304307747426532,
+        0.07667503672516876,
+        1.5836823299638492
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.953204068178334e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 11,
+      "count": 3,
+      "nmse": [
+        0.5049891033342405,
+        0.9693258977469538,
+        0.040168138443477476
+      ],
+      "si_sdr": [
+        0.1876631574529604,
+        -10.77108349902476,
+        13.78960936827454
+      ],
+      "reference_power": [
+        0.18304307747426532,
+        0.07667503672516876,
+        1.5836823299638492
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.937687509403114e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 12,
+      "count": 2,
+      "nmse": [
+        0.11611243223346461,
+        0.8039403779159661
+      ],
+      "si_sdr": [
+        8.825108019853701,
+        -5.4261800344653235
+      ],
+      "reference_power": [
+        1.6633887789122552,
+        0.21951983988197463
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 4.1519583776518194e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 12,
+      "count": 2,
+      "nmse": [
+        0.11611500054600477,
+        0.8038885775163243
+      ],
+      "si_sdr": [
+        8.824970083517865,
+        -5.424642137811421
+      ],
+      "reference_power": [
+        1.6633887789122552,
+        0.21951983988197463
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 4.1349824097795536e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 13,
+      "count": 2,
+      "nmse": [
+        0.011687249069312263,
+        0.38842124057730776
+      ],
+      "si_sdr": [
+        19.27521804615266,
+        6.278790742528688
+      ],
+      "reference_power": [
+        1.033235537495456,
+        0.041734892584414415
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.795704337570822e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 13,
+      "count": 2,
+      "nmse": [
+        0.011683601885134608,
+        0.3884822426453557
+      ],
+      "si_sdr": [
+        19.27667979533642,
+        6.276952096014422
+      ],
+      "reference_power": [
+        1.033235537495456,
+        0.041734892584414415
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.747789948210841e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 14,
+      "count": 2,
+      "nmse": [
+        0.1385394810762083,
+        0.972112015855005
+      ],
+      "si_sdr": [
+        8.920518858291324,
+        -14.007308122317044
+      ],
+      "reference_power": [
+        0.06867545213256826,
+        0.001880903177488142
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 4.043367384850987e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 14,
+      "count": 2,
+      "nmse": [
+        0.13851288757799318,
+        0.9720127320887343
+      ],
+      "si_sdr": [
+        8.92171664641425,
+        -13.99473010094182
+      ],
+      "reference_power": [
+        0.06867545213256826,
+        0.001880903177488142
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 4.0072826544709865e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 15,
+      "count": 3,
+      "nmse": [
+        0.9071918190059117,
+        0.028340914805371254,
+        0.22819897977907946
+      ],
+      "si_sdr": [
+        -0.1528145839007929,
+        15.352024826838536,
+        6.903046218678838
+      ],
+      "reference_power": [
+        0.03267662810360375,
+        0.6685812300842606,
+        0.06107571717638515
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 3.661590145631585e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 15,
+      "count": 3,
+      "nmse": [
+        0.9070901261474437,
+        0.028308924568887776,
+        0.2286669197128962
+      ],
+      "si_sdr": [
+        -0.13539736807086641,
+        15.357064390896243,
+        6.894308323904312
+      ],
+      "reference_power": [
+        0.03267662810360375,
+        0.6685812300842606,
+        0.06107571717638515
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 3.6547257182200245e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 16,
+      "count": 3,
+      "nmse": [
+        0.593771671398243,
+        1.0042693245943775,
+        0.3735754773547512
+      ],
+      "si_sdr": [
+        1.6843993639219612,
+        -21.84857232106075,
+        3.1336620947061578
+      ],
+      "reference_power": [
+        0.013798625908586654,
+        0.0002413962147379528,
+        0.019977270752757847
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.892716936847682e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 16,
+      "count": 3,
+      "nmse": [
+        0.5936446329683939,
+        1.0038461908635437,
+        0.37366579030687624
+      ],
+      "si_sdr": [
+        1.6889208604360506,
+        -21.77188766819811,
+        3.1322774028134437
+      ],
+      "reference_power": [
+        0.013798625908586654,
+        0.0002413962147379528,
+        0.019977270752757847
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.912043543273836e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 17,
+      "count": 2,
+      "nmse": [
+        0.45288317541715983,
+        0.006870597446567638
+      ],
+      "si_sdr": [
+        4.060378391522905,
+        21.60022360348046
+      ],
+      "reference_power": [
+        0.0024936261729356195,
+        0.1299571478118699
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 3.7130868640080385e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 17,
+      "count": 2,
+      "nmse": [
+        0.45280044535747704,
+        0.006870515519178968
+      ],
+      "si_sdr": [
+        4.061127537977086,
+        21.60027995101883
+      ],
+      "reference_power": [
+        0.0024936261729356195,
+        0.1299571478118699
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 3.691459624079529e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 20,
+      "count": 3,
+      "nmse": [
+        0.015577359389554207,
+        1.1878064271907345,
+        1.0752210531269393
+      ],
+      "si_sdr": [
+        18.378392276347395,
+        -36.624514261160385,
+        -23.74241279262837
+      ],
+      "reference_power": [
+        0.3860221602840616,
+        0.00015260316754179832,
+        0.004884495157326958
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.991163163726934e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 20,
+      "count": 3,
+      "nmse": [
+        0.015573287284752917,
+        1.1866042329762096,
+        1.0754316762642235
+      ],
+      "si_sdr": [
+        18.378725720478016,
+        -36.62182688083802,
+        -23.770828749614722
+      ],
+      "reference_power": [
+        0.3860221602840616,
+        0.00015260316754179832,
+        0.004884495157326958
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.971511320633479e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 21,
+      "count": 3,
+      "nmse": [
+        0.9424103716014514,
+        0.009401344290221311,
+        0.18459611382776384
+      ],
+      "si_sdr": [
+        -12.137594403228862,
+        20.29230039969406,
+        11.784890290920757
+      ],
+      "reference_power": [
+        0.001082489553481351,
+        0.6394271344931913,
+        0.03859092965566792
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 3.9495508022261576e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 21,
+      "count": 3,
+      "nmse": [
+        0.9420167163582456,
+        0.009372928358916675,
+        0.18513281217755756
+      ],
+      "si_sdr": [
+        -12.104878085899438,
+        20.30489712180641,
+        11.772969962798106
+      ],
+      "reference_power": [
+        0.001082489553481351,
+        0.6394271344931913,
+        0.03859092965566792
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 3.9346641354828704e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 22,
+      "count": 2,
+      "nmse": [
+        0.20370806734635774,
+        0.04532400963012824
+      ],
+      "si_sdr": [
+        16.65389502685763,
+        13.239212029253558
+      ],
+      "reference_power": [
+        0.39545175343288047,
+        1.214966902474455
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 4.065876936800788e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 22,
+      "count": 2,
+      "nmse": [
+        0.20433348041180605,
+        0.045156316008846696
+      ],
+      "si_sdr": [
+        16.648693994456135,
+        13.25590278424876
+      ],
+      "reference_power": [
+        0.39545175343288047,
+        1.214966902474455
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 4.040979297348987e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 23,
+      "count": 3,
+      "nmse": [
+        0.1267710149289326,
+        0.6970231018082106,
+        0.9882888754976461
+      ],
+      "si_sdr": [
+        8.640092771584703,
+        -2.705247360235166,
+        -17.318954917802074
+      ],
+      "reference_power": [
+        0.5594636289756356,
+        0.08257081965418668,
+        0.004329220859653709
+      ],
+      "weakest_index": 2,
+      "predicted_count": 3,
+      "sum_relative_error": 4.015966497242051e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 23,
+      "count": 3,
+      "nmse": [
+        0.12675606148394497,
+        0.6970800611708698,
+        0.9884499801064879
+      ],
+      "si_sdr": [
+        8.640654397313979,
+        -2.7056245465507374,
+        -17.328309427642495
+      ],
+      "reference_power": [
+        0.5594636289756356,
+        0.08257081965418668,
+        0.004329220859653709
+      ],
+      "weakest_index": 2,
+      "predicted_count": 3,
+      "sum_relative_error": 3.976068294511705e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 24,
+      "count": 2,
+      "nmse": [
+        0.3553967939953495,
+        0.027793151410457538
+      ],
+      "si_sdr": [
+        9.596099236997919,
+        15.51185527984391
+      ],
+      "reference_power": [
+        0.040487153472170384,
+        0.3698640180974748
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 4.2699466822805614e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 24,
+      "count": 2,
+      "nmse": [
+        0.35535617510105094,
+        0.02779793833697992
+      ],
+      "si_sdr": [
+        9.592543694058934,
+        15.506813078313888
+      ],
+      "reference_power": [
+        0.040487153472170384,
+        0.3698640180974748
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 4.251118969312273e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 27,
+      "count": 1,
+      "nmse": [
+        0.00047632906991223534
+      ],
+      "si_sdr": [
+        33.619034593965594
+      ],
+      "reference_power": [
+        1.7823240895669976
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 4.450167173536581e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 27,
+      "count": 1,
+      "nmse": [
+        0.00047602586293209496
+      ],
+      "si_sdr": [
+        33.62772649461691
+      ],
+      "reference_power": [
+        1.7823240895669976
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 4.4099964830127793e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 29,
+      "count": 3,
+      "nmse": [
+        0.333303321316523,
+        0.9749361929368487,
+        0.008343461426109897
+      ],
+      "si_sdr": [
+        6.345198472083729,
+        -15.883537886734796,
+        20.75040356303061
+      ],
+      "reference_power": [
+        0.3572534439974962,
+        0.035771667047691025,
+        9.233254910749967
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.466856473623663e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 29,
+      "count": 3,
+      "nmse": [
+        0.3332577417077135,
+        0.9750128687626214,
+        0.008341406058408916
+      ],
+      "si_sdr": [
+        6.34765906458438,
+        -15.89450177647267,
+        20.751347012977796
+      ],
+      "reference_power": [
+        0.3572534439974962,
+        0.035771667047691025,
+        9.233254910749967
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.454013551270938e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 31,
+      "count": 1,
+      "nmse": [
+        0.01709840766362704
+      ],
+      "si_sdr": [
+        17.71822196230754
+      ],
+      "reference_power": [
+        0.19344358810108409
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 4.081006469330067e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 31,
+      "count": 1,
+      "nmse": [
+        0.017102837496404757
+      ],
+      "si_sdr": [
+        17.724438165093662
+      ],
+      "reference_power": [
+        0.19344358810108409
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 4.0533092808695005e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 32,
+      "count": 1,
+      "nmse": [
+        0.014889710747847016
+      ],
+      "si_sdr": [
+        18.419520473012525
+      ],
+      "reference_power": [
+        0.24730054007479535
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 4.1150543567548474e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 32,
+      "count": 1,
+      "nmse": [
+        0.014910192211018086
+      ],
+      "si_sdr": [
+        18.411568499465666
+      ],
+      "reference_power": [
+        0.24730054007479535
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 4.0732249102106116e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 33,
+      "count": 3,
+      "nmse": [
+        0.3673875211946931,
+        0.9888762035626524,
+        0.07307019916392152
+      ],
+      "si_sdr": [
+        6.601519925908223,
+        -16.04691253049525,
+        11.07802936820523
+      ],
+      "reference_power": [
+        0.055469907130587734,
+        0.000862323786455717,
+        0.22298462697154645
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 4.111099269624915e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 33,
+      "count": 3,
+      "nmse": [
+        0.3671675467786296,
+        0.9881911686525535,
+        0.0731307407800968
+      ],
+      "si_sdr": [
+        6.6107622536451665,
+        -16.00204616908463,
+        11.072317098599239
+      ],
+      "reference_power": [
+        0.055469907130587734,
+        0.000862323786455717,
+        0.22298462697154645
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 4.114833644868058e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 37,
+      "count": 3,
+      "nmse": [
+        0.12192749825179434,
+        0.9433004605476738,
+        0.3040398553227623
+      ],
+      "si_sdr": [
+        8.803372902983432,
+        -2.1831829266178864,
+        4.808260034128521
+      ],
+      "reference_power": [
+        1.4929459735284523,
+        0.3526542109625169,
+        0.8069501246649249
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.293407796359505e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 37,
+      "count": 3,
+      "nmse": [
+        0.12169782267044875,
+        0.9430862253933703,
+        0.30464738285432463
+      ],
+      "si_sdr": [
+        8.812154346760286,
+        -2.069802955236076,
+        4.796945711697239
+      ],
+      "reference_power": [
+        1.4929459735284523,
+        0.3526542109625169,
+        0.8069501246649249
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.268628489086222e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 38,
+      "count": 2,
+      "nmse": [
+        0.4037457688675777,
+        0.0056056183176186256
+      ],
+      "si_sdr": [
+        6.973863146874406,
+        22.49483010341205
+      ],
+      "reference_power": [
+        0.03491253369376879,
+        1.7908359475126345
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 3.9936960549214217e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 38,
+      "count": 2,
+      "nmse": [
+        0.4036674968530618,
+        0.00560513679524984
+      ],
+      "si_sdr": [
+        6.9797336435880215,
+        22.49486117649412
+      ],
+      "reference_power": [
+        0.03491253369376879,
+        1.7908359475126345
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 3.978882210660655e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 40,
+      "count": 2,
+      "nmse": [
+        0.0034788480921283346,
+        0.39375710820284665
+      ],
+      "si_sdr": [
+        24.571273962238664,
+        8.067438611505072
+      ],
+      "reference_power": [
+        0.2590383841502693,
+        0.0033970060508340494
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 4.43378846899181e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 40,
+      "count": 2,
+      "nmse": [
+        0.003478584926210072,
+        0.39367614587675076
+      ],
+      "si_sdr": [
+        24.571879372975225,
+        8.074328153221964
+      ],
+      "reference_power": [
+        0.2590383841502693,
+        0.0033970060508340494
+      ],
+      "weakest_index": 1,
+      "predicted_count": 1,
+      "sum_relative_error": 4.4375627975021926e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 43,
+      "count": 3,
+      "nmse": [
+        1.0193836315822382,
+        0.0009691896567731167,
+        1.4692037165986502
+      ],
+      "si_sdr": [
+        -15.397669088302102,
+        30.135010477369768,
+        -9.513997718830117
+      ],
+      "reference_power": [
+        0.00032500341932844597,
+        1.207713283185489,
+        0.00041119479107902307
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 3.6603064296220855e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 43,
+      "count": 3,
+      "nmse": [
+        1.01840621100795,
+        0.0009682998314772072,
+        1.4688171284517622
+      ],
+      "si_sdr": [
+        -15.365749009768713,
+        30.140022655074027,
+        -9.517758419623176
+      ],
+      "reference_power": [
+        0.00032500341932844597,
+        1.207713283185489,
+        0.00041119479107902307
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 3.6672221279442465e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 44,
+      "count": 1,
+      "nmse": [
+        0.16108770062848188
+      ],
+      "si_sdr": [
+        8.45816477374194
+      ],
+      "reference_power": [
+        6.072397951261812
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 3.58771065123979e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 44,
+      "count": 1,
+      "nmse": [
+        0.16107493645585827
+      ],
+      "si_sdr": [
+        8.458086735869427
+      ],
+      "reference_power": [
+        6.072397951261812
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 3.5776214221694647e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 46,
+      "count": 2,
+      "nmse": [
+        0.0031036658826113558,
+        0.18009367645759017
+      ],
+      "si_sdr": [
+        25.163584356173473,
+        13.068802011648932
+      ],
+      "reference_power": [
+        1.0339789665372878,
+        0.02343281449743291
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 3.961772816329477e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 46,
+      "count": 2,
+      "nmse": [
+        0.0030917281572803833,
+        0.18063692059703357
+      ],
+      "si_sdr": [
+        25.17864711735028,
+        13.057032727540083
+      ],
+      "reference_power": [
+        1.0339789665372878,
+        0.02343281449743291
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 3.931100676372526e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 47,
+      "count": 1,
+      "nmse": [
+        0.0043280875278351285
+      ],
+      "si_sdr": [
+        27.3459998560401
+      ],
+      "reference_power": [
+        0.4085345443747871
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 3.979015858410887e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 47,
+      "count": 1,
+      "nmse": [
+        0.00432527853805718
+      ],
+      "si_sdr": [
+        27.342831296797662
+      ],
+      "reference_power": [
+        0.4085345443747871
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 3.95922735398398e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 55,
+      "count": 2,
+      "nmse": [
+        0.08852737947958286,
+        0.22064140183351397
+      ],
+      "si_sdr": [
+        10.192308655362863,
+        13.310829899769686
+      ],
+      "reference_power": [
+        1.2826547163233128,
+        0.7145377142556846
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 4.517436242048712e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 55,
+      "count": 2,
+      "nmse": [
+        0.08858518667194502,
+        0.22055514048436714
+      ],
+      "si_sdr": [
+        10.18678132315385,
+        13.328384239808509
+      ],
+      "reference_power": [
+        1.2826547163233128,
+        0.7145377142556846
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 4.544397971284031e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 58,
+      "count": 2,
+      "nmse": [
+        0.002220704429469244,
+        0.22954720814759516
+      ],
+      "si_sdr": [
+        26.5662956419661,
+        7.663931009988021
+      ],
+      "reference_power": [
+        1.4840170661797918,
+        0.014629836437095745
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.975903428263912e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 58,
+      "count": 2,
+      "nmse": [
+        0.002215919133683131,
+        0.22994322995574396
+      ],
+      "si_sdr": [
+        26.574451451906963,
+        7.660733743597186
+      ],
+      "reference_power": [
+        1.4840170661797918,
+        0.014629836437095745
+      ],
+      "weakest_index": 1,
+      "predicted_count": 3,
+      "sum_relative_error": 3.9553382882127276e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 73,
+      "count": 3,
+      "nmse": [
+        0.7179856475177587,
+        0.6299367186565958,
+        0.9568085545694782
+      ],
+      "si_sdr": [
+        -0.21983163543888928,
+        -1.2952852141679325,
+        -13.3499944898837
+      ],
+      "reference_power": [
+        0.3296008277634374,
+        0.38763923528784217,
+        0.006342228440794006
+      ],
+      "weakest_index": 2,
+      "predicted_count": 3,
+      "sum_relative_error": 3.7310757420262905e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 73,
+      "count": 3,
+      "nmse": [
+        0.7180147874688878,
+        0.6299041505298422,
+        0.9569792653006242
+      ],
+      "si_sdr": [
+        -0.2198727290067781,
+        -1.2944418943903588,
+        -13.371926818285747
+      ],
+      "reference_power": [
+        0.3296008277634374,
+        0.38763923528784217,
+        0.006342228440794006
+      ],
+      "weakest_index": 2,
+      "predicted_count": 3,
+      "sum_relative_error": 3.716606317737994e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 74,
+      "count": 3,
+      "nmse": [
+        0.35419624970311747,
+        0.9816945559322164,
+        0.012310841608059153
+      ],
+      "si_sdr": [
+        6.459833865727172,
+        -16.375424416192335,
+        19.089296469899445
+      ],
+      "reference_power": [
+        0.08176814728999904,
+        0.0056371009344298026,
+        1.6087034138854983
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 5.2863490209727486e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 74,
+      "count": 3,
+      "nmse": [
+        0.354217997750977,
+        0.9821926052700094,
+        0.01230040661860054
+      ],
+      "si_sdr": [
+        6.454294109679941,
+        -16.411562993453487,
+        19.09080261892069
+      ],
+      "reference_power": [
+        0.08176814728999904,
+        0.0056371009344298026,
+        1.6087034138854983
+      ],
+      "weakest_index": 1,
+      "predicted_count": 2,
+      "sum_relative_error": 5.239422069460742e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 77,
+      "count": 2,
+      "nmse": [
+        1.0393051383756136,
+        0.47805153408980117
+      ],
+      "si_sdr": [
+        -0.5487992105505937,
+        3.531129207199429
+      ],
+      "reference_power": [
+        0.12465288021849354,
+        0.3150539949161034
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 3.881660963308764e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 77,
+      "count": 2,
+      "nmse": [
+        1.0395876151194758,
+        0.477928134496982
+      ],
+      "si_sdr": [
+        -0.5495818951623711,
+        3.534056144286923
+      ],
+      "reference_power": [
+        0.12465288021849354,
+        0.3150539949161034
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 3.8851434221684966e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 92,
+      "count": 3,
+      "nmse": [
+        0.01192656992078136,
+        0.8049162453193938,
+        1.021827845242502
+      ],
+      "si_sdr": [
+        19.928412246049106,
+        -5.3050975713019035,
+        -26.88067357169263
+      ],
+      "reference_power": [
+        0.33440392072192043,
+        0.0033910563143638196,
+        0.0006559495780951859
+      ],
+      "weakest_index": 2,
+      "predicted_count": 3,
+      "sum_relative_error": 3.9521727265822936e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 92,
+      "count": 3,
+      "nmse": [
+        0.011922935556107824,
+        0.8050083045288202,
+        1.0222653145280298
+      ],
+      "si_sdr": [
+        19.92859873333426,
+        -5.306120726453782,
+        -27.205490145964355
+      ],
+      "reference_power": [
+        0.33440392072192043,
+        0.0033910563143638196,
+        0.0006559495780951859
+      ],
+      "weakest_index": 2,
+      "predicted_count": 3,
+      "sum_relative_error": 3.965629104905999e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 100,
+      "count": 2,
+      "nmse": [
+        0.9843595303151084,
+        0.7752586133648891
+      ],
+      "si_sdr": [
+        -3.8596014583896854,
+        0.6542822531145258
+      ],
+      "reference_power": [
+        0.004220382269523309,
+        0.0049967584535958835
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 3.9517711441181316e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 100,
+      "count": 2,
+      "nmse": [
+        0.9842737939890266,
+        0.7753527012009391
+      ],
+      "si_sdr": [
+        -3.7229399740372324,
+        0.6534097691320757
+      ],
+      "reference_power": [
+        0.004220382269523309,
+        0.0049967584535958835
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 3.930240402921995e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 101,
+      "count": 2,
+      "nmse": [
+        0.5943793069252684,
+        0.0041181425404285595
+      ],
+      "si_sdr": [
+        -1.6253881769068816,
+        23.86075953986955
+      ],
+      "reference_power": [
+        0.0014767878595613399,
+        0.23514549425412115
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 3.9657254343601084e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 101,
+      "count": 2,
+      "nmse": [
+        0.594179785606012,
+        0.004118043420240811
+      ],
+      "si_sdr": [
+        -1.621380586044808,
+        23.860106872232272
+      ],
+      "reference_power": [
+        0.0014767878595613399,
+        0.23514549425412115
+      ],
+      "weakest_index": 0,
+      "predicted_count": 1,
+      "sum_relative_error": 3.9462136141283206e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 110,
+      "count": 2,
+      "nmse": [
+        0.29117887570529355,
+        0.07558163925949583
+      ],
+      "si_sdr": [
+        14.613064959644479,
+        11.025403155499593
+      ],
+      "reference_power": [
+        0.04141359936551946,
+        0.12599705832088567
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 3.230894764767468e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 110,
+      "count": 2,
+      "nmse": [
+        0.2910994217394951,
+        0.07560033610911313
+      ],
+      "si_sdr": [
+        14.612184763570117,
+        11.024907649429078
+      ],
+      "reference_power": [
+        0.04141359936551946,
+        0.12599705832088567
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 3.261894627524036e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 111,
+      "count": 2,
+      "nmse": [
+        0.9340215355155639,
+        0.02918305638730333
+      ],
+      "si_sdr": [
+        -5.980334078316215,
+        15.28884811190423
+      ],
+      "reference_power": [
+        0.043578784481350274,
+        3.1969714800810527
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 4.25262935369738e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 111,
+      "count": 2,
+      "nmse": [
+        0.9339579007600214,
+        0.029223466079227
+      ],
+      "si_sdr": [
+        -5.968110140701325,
+        15.281066796208309
+      ],
+      "reference_power": [
+        0.043578784481350274,
+        3.1969714800810527
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 4.2823141352749804e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 122,
+      "count": 2,
+      "nmse": [
+        0.935634978735394,
+        0.005799201382222275
+      ],
+      "si_sdr": [
+        -11.13406664307531,
+        22.387251634602574
+      ],
+      "reference_power": [
+        0.00020407152326838474,
+        0.08023221809782505
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 3.3553608824344506e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 122,
+      "count": 2,
+      "nmse": [
+        0.9355325381536966,
+        0.005798243739245377
+      ],
+      "si_sdr": [
+        -11.120018826290465,
+        22.38681418343971
+      ],
+      "reference_power": [
+        0.00020407152326838474,
+        0.08023221809782505
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 3.319776126610691e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 130,
+      "count": 2,
+      "nmse": [
+        0.4289876086595898,
+        0.09746078940850035
+      ],
+      "si_sdr": [
+        6.320092902958459,
+        9.94413851158403
+      ],
+      "reference_power": [
+        0.23331620851448948,
+        0.8202408470897633
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 3.6463468236679076e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 130,
+      "count": 2,
+      "nmse": [
+        0.42893128204456793,
+        0.09747207156177638
+      ],
+      "si_sdr": [
+        6.320612623208879,
+        9.943864762185
+      ],
+      "reference_power": [
+        0.23331620851448948,
+        0.8202408470897633
+      ],
+      "weakest_index": 0,
+      "predicted_count": 2,
+      "sum_relative_error": 3.6341977147399976e-14
+    },
+    {
+      "model": "septda_e1",
+      "index": 148,
+      "count": 2,
+      "nmse": [
+        0.3827884852294079,
+        0.05472603867418104
+      ],
+      "si_sdr": [
+        2.0911440488589035,
+        12.691819391092
+      ],
+      "reference_power": [
+        0.0064266563051383575,
+        0.06036217870666299
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 4.995578007157183e-14
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "index": 148,
+      "count": 2,
+      "nmse": [
+        0.3827320173840221,
+        0.05472629038832375
+      ],
+      "si_sdr": [
+        2.0922508282391585,
+        12.688472175883872
+      ],
+      "reference_power": [
+        0.0064266563051383575,
+        0.06036217870666299
+      ],
+      "weakest_index": 0,
+      "predicted_count": 3,
+      "sum_relative_error": 5.04869785165591e-14
+    }
+  ],
+  "summaries": [
+    {
+      "model": "parent/e0",
+      "count": 1,
+      "cases": 10,
+      "mean_nmse": 0.032565801743339624,
+      "mean_si_sdr": 21.069706375296185,
+      "weakest_nmse": 0.032565801743339624
+    },
+    {
+      "model": "parent/e0",
+      "count": 2,
+      "cases": 24,
+      "mean_nmse": 0.3227190744029783,
+      "mean_si_sdr": 8.885585886529151,
+      "weakest_nmse": 0.539162339198633
+    },
+    {
+      "model": "parent/e0",
+      "count": 3,
+      "cases": 14,
+      "mean_nmse": 0.5828001587247328,
+      "mean_si_sdr": -1.612692451656069,
+      "weakest_nmse": 0.9946757659257708
+    },
+    {
+      "model": "same_schedule_control",
+      "count": 1,
+      "cases": 10,
+      "mean_nmse": 0.03239770445253536,
+      "mean_si_sdr": 21.57574598967673,
+      "weakest_nmse": 0.03239770445253536
+    },
+    {
+      "model": "same_schedule_control",
+      "count": 2,
+      "cases": 24,
+      "mean_nmse": 0.31946404937681877,
+      "mean_si_sdr": 8.971505070876336,
+      "weakest_nmse": 0.5312279137786916
+    },
+    {
+      "model": "same_schedule_control",
+      "count": 3,
+      "cases": 14,
+      "mean_nmse": 0.5688744279003036,
+      "mean_si_sdr": -0.7796423196060954,
+      "weakest_nmse": 0.990339351591467
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "count": 1,
+      "cases": 10,
+      "mean_nmse": 0.03238819794013024,
+      "mean_si_sdr": 21.570388591847802,
+      "weakest_nmse": 0.03238819794013024
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "count": 2,
+      "cases": 24,
+      "mean_nmse": 0.3194823186917624,
+      "mean_si_sdr": 8.975222670579175,
+      "weakest_nmse": 0.5312419774958045
+    },
+    {
+      "model": "septda_branch_bypassed",
+      "count": 3,
+      "cases": 14,
+      "mean_nmse": 0.5690371439071444,
+      "mean_si_sdr": -0.7785923246505414,
+      "weakest_nmse": 0.9913199259307031
+    },
+    {
+      "model": "septda_e1",
+      "count": 1,
+      "cases": 10,
+      "mean_nmse": 0.03238954523049754,
+      "mean_si_sdr": 21.569090182806207,
+      "weakest_nmse": 0.03238954523049754
+    },
+    {
+      "model": "septda_e1",
+      "count": 2,
+      "cases": 24,
+      "mean_nmse": 0.3194518101687489,
+      "mean_si_sdr": 8.971411292097201,
+      "weakest_nmse": 0.5311989621764932
+    },
+    {
+      "model": "septda_e1",
+      "count": 3,
+      "cases": 14,
+      "mean_nmse": 0.569086662957524,
+      "mean_si_sdr": -0.7831446068060338,
+      "weakest_nmse": 0.9915386835752539
+    }
+  ],
+  "gpu_reproduction_checks": [
+    {
+      "model": "same_schedule_control",
+      "index": 4,
+      "nmse_max_error": 0.0,
+      "si_sdr_max_error": 0.0
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 0,
+      "nmse_max_error": 0.0,
+      "si_sdr_max_error": 0.0
+    },
+    {
+      "model": "same_schedule_control",
+      "index": 3,
+      "nmse_max_error": 0.0,
+      "si_sdr_max_error": 0.0
+    },
+    {
+      "model": "septda_e1",
+      "index": 4,
+      "nmse_max_error": 0.0,
+      "si_sdr_max_error": 0.0
+    },
+    {
+      "model": "septda_e1",
+      "index": 0,
+      "nmse_max_error": 0.0,
+      "si_sdr_max_error": 0.0
+    },
+    {
+      "model": "septda_e1",
+      "index": 3,
+      "nmse_max_error": 0.0,
+      "si_sdr_max_error": 0.0
+    }
+  ],
+  "corrections": [
+    {
+      "index": 0,
+      "count": 1,
+      "summed_four_output_change_energy_over_mixture_energy": 4.360056278700308e-06
+    },
+    {
+      "index": 1,
+      "count": 1,
+      "summed_four_output_change_energy_over_mixture_energy": 1.132398024215324e-05
+    },
+    {
+      "index": 2,
+      "count": 3,
+      "summed_four_output_change_energy_over_mixture_energy": 4.221225872428289e-06
+    },
+    {
+      "index": 3,
+      "count": 1,
+      "summed_four_output_change_energy_over_mixture_energy": 5.486053959826408e-06
+    },
+    {
+      "index": 4,
+      "count": 2,
+      "summed_four_output_change_energy_over_mixture_energy": 7.517895255322876e-06
+    },
+    {
+      "index": 5,
+      "count": 2,
+      "summed_four_output_change_energy_over_mixture_energy": 5.181341430427603e-06
+    },
+    {
+      "index": 6,
+      "count": 2,
+      "summed_four_output_change_energy_over_mixture_energy": 5.306814512987241e-06
+    },
+    {
+      "index": 7,
+      "count": 1,
+      "summed_four_output_change_energy_over_mixture_energy": 4.358133813785019e-06
+    },
+    {
+      "index": 8,
+      "count": 2,
+      "summed_four_output_change_energy_over_mixture_energy": 5.171759492705603e-06
+    },
+    {
+      "index": 9,
+      "count": 2,
+      "summed_four_output_change_energy_over_mixture_energy": 4.041838734496595e-06
+    },
+    {
+      "index": 10,
+      "count": 1,
+      "summed_four_output_change_energy_over_mixture_energy": 5.010610954543047e-06
+    },
+    {
+      "index": 11,
+      "count": 3,
+      "summed_four_output_change_energy_over_mixture_energy": 9.463177733894509e-06
+    },
+    {
+      "index": 12,
+      "count": 2,
+      "summed_four_output_change_energy_over_mixture_energy": 4.224053948900208e-06
+    },
+    {
+      "index": 13,
+      "count": 2,
+      "summed_four_output_change_energy_over_mixture_energy": 4.000449042350633e-06
+    },
+    {
+      "index": 14,
+      "count": 2,
+      "summed_four_output_change_energy_over_mixture_energy": 4.620513441260639e-06
+    },
+    {
+      "index": 15,
+      "count": 3,
+      "summed_four_output_change_energy_over_mixture_energy": 4.40119544668235e-06
+    },
+    {
+      "index": 16,
+      "count": 3,
+      "summed_four_output_change_energy_over_mixture_energy": 5.730665539140591e-06
+    },
+    {
+      "index": 17,
+      "count": 2,
+      "summed_four_output_change_energy_over_mixture_energy": 3.9739134148243595e-06
+    },
+    {
+      "index": 20,
+      "count": 3,
+      "summed_four_output_change_energy_over_mixture_energy": 4.930055983426346e-06
+    },
+    {
+      "index": 21,
+      "count": 3,
+      "summed_four_output_change_energy_over_mixture_energy": 4.419665869550278e-06
+    },
+    {
+      "index": 22,
+      "count": 2,
+      "summed_four_output_change_energy_over_mixture_energy": 5.857129996947857e-06
+    },
+    {
+      "index": 23,
+      "count": 3,
+      "summed_four_output_change_energy_over_mixture_energy": 4.476817362378939e-06
+    },
+    {
+      "index": 24,
+      "count": 2,
+      "summed_four_output_change_energy_over_mixture_energy": 1.070766082970915e-05
+    },
+    {
+      "index": 27,
+      "count": 1,
+      "summed_four_output_change_energy_over_mixture_energy": 4.779824302162218e-06
+    },
+    {
+      "index": 29,
+      "count": 3,
+      "summed_four_output_change_energy_over_mixture_energy": 4.604074174071873e-06
+    },
+    {
+      "index": 31,
+      "count": 1,
+      "summed_four_output_change_energy_over_mixture_energy": 1.049908666863913e-05
+    },
+    {
+      "index": 32,
+      "count": 1,
+      "summed_four_output_change_energy_over_mixture_energy": 6.017208476538499e-06
+    },
+    {
+      "index": 33,
+      "count": 3,
+      "summed_four_output_change_energy_over_mixture_energy": 8.781260005556576e-06
+    },
+    {
+      "index": 37,
+      "count": 3,
+      "summed_four_output_change_energy_over_mixture_energy": 6.1013798021769705e-06
+    },
+    {
+      "index": 38,
+      "count": 2,
+      "summed_four_output_change_energy_over_mixture_energy": 3.833354979086405e-06
+    },
+    {
+      "index": 40,
+      "count": 2,
+      "summed_four_output_change_energy_over_mixture_energy": 4.459956026337932e-06
+    },
+    {
+      "index": 43,
+      "count": 3,
+      "summed_four_output_change_energy_over_mixture_energy": 3.921153305060521e-06
+    },
+    {
+      "index": 44,
+      "count": 1,
+      "summed_four_output_change_energy_over_mixture_energy": 4.327337902489409e-06
+    },
+    {
+      "index": 46,
+      "count": 2,
+      "summed_four_output_change_energy_over_mixture_energy": 4.146995751413541e-06
+    },
+    {
+      "index": 47,
+      "count": 1,
+      "summed_four_output_change_energy_over_mixture_energy": 4.859807373845334e-06
+    },
+    {
+      "index": 55,
+      "count": 2,
+      "summed_four_output_change_energy_over_mixture_energy": 9.287243331260771e-06
+    },
+    {
+      "index": 58,
+      "count": 2,
+      "summed_four_output_change_energy_over_mixture_energy": 4.035924988940342e-06
+    },
+    {
+      "index": 73,
+      "count": 3,
+      "summed_four_output_change_energy_over_mixture_energy": 4.119182896616203e-06
+    },
+    {
+      "index": 74,
+      "count": 3,
+      "summed_four_output_change_energy_over_mixture_energy": 5.169934342712148e-06
+    },
+    {
+      "index": 77,
+      "count": 2,
+      "summed_four_output_change_energy_over_mixture_energy": 4.4913073405e-06
+    },
+    {
+      "index": 92,
+      "count": 3,
+      "summed_four_output_change_energy_over_mixture_energy": 4.925984512669273e-06
+    },
+    {
+      "index": 100,
+      "count": 2,
+      "summed_four_output_change_energy_over_mixture_energy": 5.305269107558425e-06
+    },
+    {
+      "index": 101,
+      "count": 2,
+      "summed_four_output_change_energy_over_mixture_energy": 4.19640927750345e-06
+    },
+    {
+      "index": 110,
+      "count": 2,
+      "summed_four_output_change_energy_over_mixture_energy": 4.509155492096919e-06
+    },
+    {
+      "index": 111,
+      "count": 2,
+      "summed_four_output_change_energy_over_mixture_energy": 5.498238214859744e-06
+    },
+    {
+      "index": 122,
+      "count": 2,
+      "summed_four_output_change_energy_over_mixture_energy": 4.024375262872856e-06
+    },
+    {
+      "index": 130,
+      "count": 2,
+      "summed_four_output_change_energy_over_mixture_energy": 4.207197628343273e-06
+    },
+    {
+      "index": 148,
+      "count": 2,
+      "summed_four_output_change_energy_over_mixture_energy": 6.380172172741772e-06
+    }
+  ],
+  "seconds": 17.665803909301758,
+  "new_model_updates": 0,
+  "cuda_initialized": true,
+  "heldout_read": false,
+  "independent_test": false,
+  "limitation": "Small reused TRAIN48; different activity/power distribution from DEV, not a pure generalization-gap estimate. Inference bypass is not a trained ablation. Prior parent results reused after hash and reference-power checks."
+}

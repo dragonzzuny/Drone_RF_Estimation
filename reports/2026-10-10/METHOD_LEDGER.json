@@ -826,11 +826,68 @@
       ],
       "validation_sha256": "c9216e544ab38e3ab91243a11fd7e4c15aedbf646d795c622839a60a83f8f570",
       "epoch_receipt_sha256": "95dad435552c2fc8114d0e529f47ac2661c7842c9a112db1ab926fe75d524b3c"
+    },
+    {
+      "label": "SepTDA 참고 분리부",
+      "parameters": 54596107,
+      "trainable": 54596107,
+      "unique_long_mixtures": 2400,
+      "distinct_window_views": 2400,
+      "updates": 75,
+      "train_schedule_epoch": 3,
+      "actual_e1": {
+        "epoch": 1,
+        "by_count": [
+          {
+            "count": 1,
+            "cases": 210,
+            "mean_nmse": 0.022500264812168616,
+            "mean_si_sdr": 22.738551391323853,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.022500264812168616,
+            "construction_count_accuracy": 0.8
+          },
+          {
+            "count": 2,
+            "cases": 210,
+            "mean_nmse": 0.4790199673534433,
+            "mean_si_sdr": 3.7077604161679036,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.799451846659336,
+            "construction_count_accuracy": 0.3047619047619048
+          },
+          {
+            "count": 3,
+            "cases": 210,
+            "mean_nmse": 0.6907688421043356,
+            "mean_si_sdr": -2.818143856636351,
+            "nonfinite_si_sdr": 0,
+            "weakest_nmse": 0.9451155050696838,
+            "construction_count_accuracy": 0.3619047619047619
+          }
+        ],
+        "selection_nmse": 0.5848944047288895
+      },
+      "parent_joint_criterion": false,
+      "parent_deltas": [
+        {
+          "count": 2,
+          "nmse_delta": 0.01212437303356756,
+          "si_sdr_delta": -0.06960236935552322,
+          "weakest_nmse_delta": 0.020872136557472554
+        },
+        {
+          "count": 3,
+          "nmse_delta": 0.0005155267899845661,
+          "si_sdr_delta": 0.29063619372786986,
+          "weakest_nmse_delta": -0.006203879974231885
+        }
+      ],
+      "validation_sha256": "3343ed4de597e59a6003798a73da2d3c2297d64383e96d3119e4d34d8d8e201a",
+      "epoch_receipt_sha256": "0f7828e07ec0e7d8828f2499f79c7e2cf0e66712a80918d3ff0babe2cf5fa24a"
     }
   ],
-  "pending": [
-    "SepTDA 참고 분리부"
-  ],
+  "pending": [],
   "stopped": [
     {
       "label": "같은 입력2회 대조",
@@ -886,7 +943,7 @@
   "inference": 0,
   "heldout_read": false,
   "independent_test": false,
-  "created_utc": "2026-10-10T02:15:45.551257+00:00",
+  "created_utc": "2026-10-10T02:49:55.731094+00:00",
   "reporter_sha256": "15f1127cc763ed89966406ab477feecedea7e504955c2b7f1d860cf548b7096e",
   "limitation": "Same additional updates does not imply same total pretraining, parameters, window views, or computation. Parent criterion does not replace matched-control requirement."
 }

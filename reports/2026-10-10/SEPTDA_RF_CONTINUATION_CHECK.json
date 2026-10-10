@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "arm": "control",
+      "parameters": 32142859,
+      "optimizer_states": 131,
+      "checkpoint_sha256": "e200761dd505d88effeb79224bef1f0fec998ba3b5a81d0e568360aad3c803c7",
+      "source_protocol_sha256": "2adf24bb82be06e866c3cac444f6654d28263a12b7484c79ccfbbacda9a9844b",
+      "exact_model_optimizer_rng_restore": true,
+      "previous_updates": 75
+    },
+    {
+      "arm": "septda",
+      "parameters": 54596107,
+      "optimizer_states": 758,
+      "checkpoint_sha256": "8800f55589a265fe7d9c13e3f9e475991b67f5762232af3d58c0cb51f2e0dc1e",
+      "source_protocol_sha256": "c34ec83303291729b878907fc59c7b572319ad60bcf51f6224d6a01ca381ca49",
+      "exact_model_optimizer_rng_restore": true,
+      "previous_updates": 75
+    }
+  ],
+  "worker_sha256": "5770684597e07521ee32e99a2f3a4ef82c503d5b3c7459a5187f3bb82000708c",
+  "checker_sha256": "b594f390f1da2d62ec5995353212df3009953faae1c72519d7c943120be37863",
+  "new_updates": 0,
+  "recorded_iq_reads": 0,
+  "cuda_initialized": false,
+  "heldout_read": false
+}

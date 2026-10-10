@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "protocol_sha256": "c34ec83303291729b878907fc59c7b572319ad60bcf51f6224d6a01ca381ca49",
+  "complete_sha256": "dfc8bbc07d132e9710f8581c04497c2301ce8232bdcffba1efa41f1f702ca119",
+  "hashes": {
+    "INITIAL.pt": "59c9ea0d0bc020c418fef1d8919e7c5d326605f24ccf645b700c691f9c3899b7",
+    "ACTUAL_001.pt": "c19b7e68832e2be501e6ed9ae9ba554ef676ab80043694b330343ef898ab7c85",
+    "LAST.pt": "8800f55589a265fe7d9c13e3f9e475991b67f5762232af3d58c0cb51f2e0dc1e",
+    "BEST.pt": "e710924976175938c93dc05563040ce26ca6c76add7bbb42357e5ffe4d7dbac0",
+    "EPOCH_001.json": "0f7828e07ec0e7d8828f2499f79c7e2cf0e66712a80918d3ff0babe2cf5fa24a",
+    "VALIDATION_001.json": "3343ed4de597e59a6003798a73da2d3c2297d64383e96d3119e4d34d8d8e201a"
+  },
+  "gpu_preflight_sha256": "28ea0e0f05aff2e8da3f65a02927ba083027fa5117110a2a5ded76739bb9d5e1",
+  "validation_rows_reaggregated": 630,
+  "optimizer_steps_checked": 75,
+  "selected_tensors_checked": true,
+  "initial_parent_tensors_checked": true,
+  "internal_gradient_observed": true,
+  "independently_reran_inference": false,
+  "heldout_read": false
+}
