@@ -1,0 +1,178 @@
+{
+  "status": "PASS",
+  "updates": 256,
+  "parameters": 32180747,
+  "cpu_final": {
+    "rows": [
+      {
+        "index": 4,
+        "count": 2,
+        "categories": [
+          "DJI FPV COMBO",
+          "DJI MAVIC3 PRO"
+        ],
+        "pack_ids": [
+          "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+          "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml"
+        ],
+        "reference_power": [
+          0.22920438514845085,
+          0.25763593577097677
+        ],
+        "nmse": [
+          0.006986117400755806,
+          0.008870599427574889
+        ],
+        "si_sdr": [
+          21.57930515336595,
+          21.336994359464864
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          1,
+          0
+        ],
+        "sum_relative_error": 1.3546487336472644e-14,
+        "predicted_count": 2
+      },
+      {
+        "index": 5,
+        "count": 2,
+        "categories": [
+          "DJI AVATA2",
+          "DJI MAVIC3 PRO"
+        ],
+        "pack_ids": [
+          "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml",
+          "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml"
+        ],
+        "reference_power": [
+          2.7584760524276057,
+          0.12966367582857852
+        ],
+        "nmse": [
+          0.006146114347049624,
+          0.08902572456752005
+        ],
+        "si_sdr": [
+          22.222828994067644,
+          10.116835487930134
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          1,
+          0
+        ],
+        "sum_relative_error": 1.342138754342867e-14,
+        "predicted_count": 2
+      },
+      {
+        "index": 2,
+        "count": 3,
+        "categories": [
+          "DJI AVATA2",
+          "DJI FPV COMBO",
+          "DJI MAVIC3 PRO"
+        ],
+        "pack_ids": [
+          "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+          "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+          "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml"
+        ],
+        "reference_power": [
+          0.21366361689242833,
+          0.41493681321210335,
+          0.08442038825742745
+        ],
+        "nmse": [
+          0.16130730572638766,
+          0.11580399909511443,
+          0.29375535126705704
+        ],
+        "si_sdr": [
+          7.1706922796873,
+          8.829533404929478,
+          3.8340458397464983
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          0,
+          2,
+          1
+        ],
+        "sum_relative_error": 1.2802365246454995e-14,
+        "predicted_count": 3
+      },
+      {
+        "index": 11,
+        "count": 3,
+        "categories": [
+          "DJI AVATA2",
+          "DJI FPV COMBO",
+          "DJI MAVIC3 PRO"
+        ],
+        "pack_ids": [
+          "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml",
+          "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml",
+          "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml"
+        ],
+        "reference_power": [
+          0.18304307747426535,
+          0.07667503672516876,
+          1.5836823299638492
+        ],
+        "nmse": [
+          0.2698359613369722,
+          0.30392790131157316,
+          0.022669451948406073
+        ],
+        "si_sdr": [
+          4.390249547258911,
+          3.6220754756061386,
+          16.424916724106595
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          0,
+          1,
+          2
+        ],
+        "sum_relative_error": 1.2833608307209013e-14,
+        "predicted_count": 3
+      }
+    ],
+    "by_count": [
+      {
+        "count": 2,
+        "cases": 2,
+        "mean_nmse": 0.027757138935725092,
+        "mean_si_sdr": 18.813990998707148,
+        "weakest_nmse": 0.048005920984137924,
+        "max_source_nmse": 0.08902572456752005
+      },
+      {
+        "count": 3,
+        "cases": 2,
+        "mean_nmse": 0.19454999511425175,
+        "mean_si_sdr": 7.378585545222488,
+        "weakest_nmse": 0.2988416262893151,
+        "max_source_nmse": 0.30392790131157316
+      }
+    ],
+    "all_sources_below_005": false
+  },
+  "gpu_cpu_max_abs": {
+    "nmse": 4.9041086136458745e-08,
+    "si_sdr": 1.1443210583550467e-06
+  },
+  "all_history_summaries_recomputed": true,
+  "checkpoint_sha256": "42a553052fee784b34fa4817998f0d411dc2832c5f0dfffe198f389904cbd024",
+  "training_protocol_sha256": "2d34b969143ffcadc075e8315a1add065b9f3fb77989fca4de6211ce1b4e9233",
+  "audit_protocol_sha256": "024a0a01cc60cd0825a1bd8b7705986e37b37f377bec2204e490dcdffae135d5",
+  "optimizer_updates": 0,
+  "heldout_read": false,
+  "validation_read": false,
+  "time": 1791652104.234243
+}

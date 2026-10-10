@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "parameters": 9004297,
+  "blocks": 6,
+  "width": 128,
+  "lstm_hidden": 192,
+  "heads": 4,
+  "two_sided_bins": 512,
+  "synthetic_samples": 2048,
+  "training_crop_samples_not_yet_checked": 63872,
+  "upstream_chunk_forward_max_abs": 3.337860107421875e-06,
+  "upstream_chunk_forward_relative_l2": 2.844432458459778e-07,
+  "upstream_chunk_float64_max_abs": 6.661338147750939e-15,
+  "block_gradient_norms": [
+    15.711962889001798,
+    10.068273719554625,
+    6.809476149866232,
+    5.614462273378156,
+    4.842198828350029,
+    4.70483700506714
+  ],
+  "sum_relative_error": 3.1195738266903694e-13,
+  "optimizer_updates": 0,
+  "recorded_iq_reads": 0,
+  "gpu_initialized": false,
+  "time": 1791651922.5227304
+}

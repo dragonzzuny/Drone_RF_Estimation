@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/espnet/espnet",
+  "commit": "3826362c7313d69d92eca721ec49441b6908c0b0",
+  "source_path": "espnet2/enh/separator/tfgridnetv2_separator.py",
+  "source_sha256": "2718a81742d5ab7dbae3a647a2afcddb3fc7ce7d3667186795348c47f0084f6b",
+  "adapted_sha256": "56faaeafe01a85e47909b45d30fd871c713596e526c772a2ee769b4313179a41",
+  "license": "Apache-2.0",
+  "change": "extract block and normalization classes; nn.PReLU replaces get_layer(prelu)"
+}

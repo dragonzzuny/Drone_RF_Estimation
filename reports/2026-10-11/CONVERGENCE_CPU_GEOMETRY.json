@@ -1,0 +1,153 @@
+{
+  "status": "COMPLETE",
+  "rows": [
+    {
+      "index": 4,
+      "count": 2,
+      "nmse": [
+        0.18263869858660994,
+        0.23547407031868522
+      ],
+      "si_sdr": [
+        7.01208284655019,
+        18.809497182806098
+      ],
+      "reference_power": [
+        0.22920438514845085,
+        0.25763593577097677
+      ],
+      "loss_nmse_background": 0.14309412240982056,
+      "loss_coherence": 0.05964501574635506,
+      "output_gradient_cosine": 0.6371337175369263,
+      "sum_preserving_gradient_cosine": 0.6700137257575989,
+      "nmse_gradient_norm": 0.0035097834188491106,
+      "coherence_gradient_norm": 0.002075385069474578,
+      "nmse_only_assignment": [
+        2,
+        1,
+        0
+      ],
+      "training_assignment": [
+        2,
+        1,
+        0
+      ],
+      "assignments_equal": true
+    },
+    {
+      "index": 5,
+      "count": 2,
+      "nmse": [
+        0.0167076837684972,
+        0.3103411986723075
+      ],
+      "si_sdr": [
+        17.807185559657295,
+        3.834860502442366
+      ],
+      "reference_power": [
+        2.7584760524276057,
+        0.12966367582857852
+      ],
+      "loss_nmse_background": 0.10976777225732803,
+      "loss_coherence": 0.10295089334249496,
+      "output_gradient_cosine": 0.9704780578613281,
+      "sum_preserving_gradient_cosine": 0.9692139029502869,
+      "nmse_gradient_norm": 0.0035957542713731527,
+      "coherence_gradient_norm": 0.004140094853937626,
+      "nmse_only_assignment": [
+        2,
+        1,
+        0
+      ],
+      "training_assignment": [
+        2,
+        1,
+        0
+      ],
+      "assignments_equal": true
+    },
+    {
+      "index": 2,
+      "count": 3,
+      "nmse": [
+        0.6326974814901709,
+        0.4004252204625129,
+        1.0031846466053937
+      ],
+      "si_sdr": [
+        -2.157069394687119,
+        2.750986039765843,
+        -34.193636581628844
+      ],
+      "reference_power": [
+        0.21366361689242833,
+        0.41493681321210335,
+        0.08442038825742745
+      ],
+      "loss_nmse_background": 0.6813137531280518,
+      "loss_coherence": 0.656010091304779,
+      "output_gradient_cosine": -0.14556317031383514,
+      "sum_preserving_gradient_cosine": -0.0338456891477108,
+      "nmse_gradient_norm": 0.009879393503069878,
+      "coherence_gradient_norm": 0.0062306784093379974,
+      "nmse_only_assignment": [
+        1,
+        2,
+        0
+      ],
+      "training_assignment": [
+        1,
+        2,
+        0
+      ],
+      "assignments_equal": true
+    },
+    {
+      "index": 11,
+      "count": 3,
+      "nmse": [
+        0.5133180679074099,
+        0.9792922258490518,
+        0.04462464409988561
+      ],
+      "si_sdr": [
+        0.17359036665253835,
+        -12.064927855123933,
+        13.314914900126627
+      ],
+      "reference_power": [
+        0.18304307747426535,
+        0.07667503672516876,
+        1.5836823299638492
+      ],
+      "loss_nmse_background": 0.5135369896888733,
+      "loss_coherence": 0.4920080602169037,
+      "output_gradient_cosine": 0.9279327392578125,
+      "sum_preserving_gradient_cosine": 0.9428198933601379,
+      "nmse_gradient_norm": 0.009670433588325977,
+      "coherence_gradient_norm": 0.042091336101293564,
+      "nmse_only_assignment": [
+        1,
+        0,
+        2
+      ],
+      "training_assignment": [
+        1,
+        0,
+        2
+      ],
+      "assignments_equal": true
+    }
+  ],
+  "cases": 4,
+  "optimizer_updates": 0,
+  "heldout_read": false,
+  "validation_iq_read": false,
+  "gpu_initialized": false,
+  "parent_checkpoint_sha256": "19888f8823fbb6ade6333d40bd849dec3202e522ded016e7265eaced6b52aa49",
+  "source_sha256": "dbb99c2767b6f10ece08dd2f188d86034329704ab26f80daab58500ee19b7908",
+  "scope": "output-space geometry only; not parameter-gradient conflicts or DEV causality",
+  "seconds": 27.497993230819702,
+  "time": 1791651420.654154
+}
