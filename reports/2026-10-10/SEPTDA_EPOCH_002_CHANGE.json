@@ -1,0 +1,257 @@
+{
+  "status": "COMPLETE_FROM_SAVED_VALIDATIONS",
+  "epochs": [
+    1,
+    2
+  ],
+  "validation_cases": 630,
+  "identities_exactly_equal": true,
+  "source_sha256": {
+    "local/septda_continuation_20261010_v1/septda/VALIDATION_001.json": "3343ed4de597e59a6003798a73da2d3c2297d64383e96d3119e4d34d8d8e201a",
+    "local/septda_continuation_20261010_v1/septda/VALIDATION_002.json": "94efeb41ae8afde2e538f0261f3a63cd5fbe1b97147efbeeed3ed3b3532fc6ee"
+  },
+  "by_count": [
+    {
+      "count": 1,
+      "cases": 210,
+      "improved": 177,
+      "worsened": 33,
+      "unchanged": 0,
+      "mean_nmse_delta": -0.0037291556037514282
+    },
+    {
+      "count": 2,
+      "cases": 210,
+      "improved": 76,
+      "worsened": 134,
+      "unchanged": 0,
+      "mean_nmse_delta": 0.027992664827617798
+    },
+    {
+      "count": 3,
+      "cases": 210,
+      "improved": 81,
+      "worsened": 129,
+      "unchanged": 0,
+      "mean_nmse_delta": 0.00763119201060591
+    }
+  ],
+  "by_category_role": [
+    {
+      "count": 1,
+      "category": "DJI AVATA2",
+      "role": "weakest",
+      "source_windows": 42,
+      "e1_nmse": 0.06256254647688131,
+      "e2_nmse": 0.0585408207726701,
+      "e1_si_sdr": 18.232226928112656,
+      "e2_si_sdr": 18.719697144413203
+    },
+    {
+      "count": 1,
+      "category": "DJI FPV COMBO",
+      "role": "weakest",
+      "source_windows": 42,
+      "e1_nmse": 0.008373668691228943,
+      "e2_nmse": 0.005255212136866386,
+      "e1_si_sdr": 23.99235349393895,
+      "e2_si_sdr": 25.82812541065062
+    },
+    {
+      "count": 1,
+      "category": "DJI MAVIC3 PRO",
+      "role": "weakest",
+      "source_windows": 42,
+      "e1_nmse": 0.01798725657259967,
+      "e2_nmse": 0.011643405780488615,
+      "e1_si_sdr": 20.288072033990495,
+      "e2_si_sdr": 24.708576625448906
+    },
+    {
+      "count": 1,
+      "category": "DJI MINI3",
+      "role": "weakest",
+      "source_windows": 42,
+      "e1_nmse": 0.01292933616850261,
+      "e2_nmse": 0.007934044396836468,
+      "e1_si_sdr": 26.845135034463304,
+      "e2_si_sdr": 28.856931552584268
+    },
+    {
+      "count": 1,
+      "category": "DJI MINI4 PRO",
+      "role": "weakest",
+      "source_windows": 42,
+      "e1_nmse": 0.010648516151630545,
+      "e2_nmse": 0.010482062955224362,
+      "e1_si_sdr": 24.33496946611386,
+      "e2_si_sdr": 25.20108181378248
+    },
+    {
+      "count": 2,
+      "category": "DJI AVATA2",
+      "role": "other",
+      "source_windows": 61,
+      "e1_nmse": 0.16550858298192225,
+      "e2_nmse": 0.17094326593151718,
+      "e1_si_sdr": 9.835723906804219,
+      "e2_si_sdr": 9.708170668623811
+    },
+    {
+      "count": 2,
+      "category": "DJI AVATA2",
+      "role": "weakest",
+      "source_windows": 47,
+      "e1_nmse": 0.7132278433558323,
+      "e2_nmse": 0.7667630778752447,
+      "e1_si_sdr": -2.067713177466544,
+      "e2_si_sdr": -2.9045095745682175
+    },
+    {
+      "count": 2,
+      "category": "DJI FPV COMBO",
+      "role": "other",
+      "source_windows": 59,
+      "e1_nmse": 0.15877210923261953,
+      "e2_nmse": 0.1659745650509366,
+      "e1_si_sdr": 11.079586313206859,
+      "e2_si_sdr": 10.772178005072243
+    },
+    {
+      "count": 2,
+      "category": "DJI FPV COMBO",
+      "role": "weakest",
+      "source_windows": 46,
+      "e1_nmse": 0.7676317357617082,
+      "e2_nmse": 0.8441484319432229,
+      "e1_si_sdr": -5.567328902465642,
+      "e2_si_sdr": -6.3391256193529895
+    },
+    {
+      "count": 2,
+      "category": "DJI MAVIC3 PRO",
+      "role": "other",
+      "source_windows": 39,
+      "e1_nmse": 0.20174426079945434,
+      "e2_nmse": 0.22841126651256788,
+      "e1_si_sdr": 9.472345121480647,
+      "e2_si_sdr": 8.61306788670273
+    },
+    {
+      "count": 2,
+      "category": "DJI MAVIC3 PRO",
+      "role": "weakest",
+      "source_windows": 66,
+      "e1_nmse": 0.7015713409135566,
+      "e2_nmse": 0.7174316610944536,
+      "e1_si_sdr": -4.692797773174065,
+      "e2_si_sdr": -4.8244175920603976
+    },
+    {
+      "count": 2,
+      "category": "DJI MINI3",
+      "role": "other",
+      "source_windows": 21,
+      "e1_nmse": 0.07386857015016049,
+      "e2_nmse": 0.07209399642545573,
+      "e1_si_sdr": 23.277230676573854,
+      "e2_si_sdr": 23.59723337969545
+    },
+    {
+      "count": 2,
+      "category": "DJI MINI3",
+      "role": "weakest",
+      "source_windows": 30,
+      "e1_nmse": 1.0204317214054028,
+      "e2_nmse": 1.0874258094847284,
+      "e1_si_sdr": -6.3460165714562455,
+      "e2_si_sdr": -7.017698169729814
+    },
+    {
+      "count": 2,
+      "category": "DJI MINI4 PRO",
+      "role": "other",
+      "source_windows": 30,
+      "e1_nmse": 0.14735514463439087,
+      "e2_nmse": 0.15709679994319342,
+      "e1_si_sdr": 15.783913347185234,
+      "e2_si_sdr": 15.92376247494283
+    },
+    {
+      "count": 2,
+      "category": "DJI MINI4 PRO",
+      "role": "weakest",
+      "source_windows": 21,
+      "e1_nmse": 1.0540694844400502,
+      "e2_nmse": 1.0832568186998475,
+      "e1_si_sdr": -8.32339434940823,
+      "e2_si_sdr": -9.662953141274894
+    },
+    {
+      "count": 3,
+      "category": "DJI AVATA2",
+      "role": "other",
+      "source_windows": 166,
+      "e1_nmse": 0.5020624422757922,
+      "e2_nmse": 0.513559591194212,
+      "e1_si_sdr": 1.9704816553708755,
+      "e2_si_sdr": 1.5051331772672525
+    },
+    {
+      "count": 3,
+      "category": "DJI AVATA2",
+      "role": "weakest",
+      "source_windows": 44,
+      "e1_nmse": 0.9542434756551761,
+      "e2_nmse": 0.9538515695108001,
+      "e1_si_sdr": -7.1656185925972355,
+      "e2_si_sdr": -7.732885558929001
+    },
+    {
+      "count": 3,
+      "category": "DJI FPV COMBO",
+      "role": "other",
+      "source_windows": 149,
+      "e1_nmse": 0.5439365965578713,
+      "e2_nmse": 0.5579547808147739,
+      "e1_si_sdr": 1.8806298098626593,
+      "e2_si_sdr": 0.9795851394169314
+    },
+    {
+      "count": 3,
+      "category": "DJI FPV COMBO",
+      "role": "weakest",
+      "source_windows": 61,
+      "e1_nmse": 0.9481676660254436,
+      "e2_nmse": 0.9605087597330182,
+      "e1_si_sdr": -12.884582507873413,
+      "e2_si_sdr": -13.955129367144462
+    },
+    {
+      "count": 3,
+      "category": "DJI MAVIC3 PRO",
+      "role": "other",
+      "source_windows": 105,
+      "e1_nmse": 0.6887732967256526,
+      "e2_nmse": 0.6906726890656953,
+      "e1_si_sdr": -0.5735154883740389,
+      "e2_si_sdr": -0.7930770080094864
+    },
+    {
+      "count": 3,
+      "category": "DJI MAVIC3 PRO",
+      "role": "weakest",
+      "source_windows": 105,
+      "e1_nmse": 0.9395172905547979,
+      "e2_nmse": 0.9383307738922414,
+      "e1_si_sdr": -11.631224274363543,
+      "e2_si_sdr": -11.314259567561104
+    }
+  ],
+  "dataset": "RFUAV native100MS/s TRAIN8 DEV5 same original band",
+  "paired_unit": "synthetic mixture case, not independent recording",
+  "limitation": "Descriptive comparison on reused DEV; category and strength not randomized causal factors",
+  "heldout_read": false,
+  "new_inference": false,
+  "new_training_updates": 0
+}

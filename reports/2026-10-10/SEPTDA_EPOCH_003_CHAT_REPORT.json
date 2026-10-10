@@ -1,0 +1,97 @@
+{
+  "status": "SAVED_EPOCH_VERIFIED_AND_REPORTED_IN_CHAT",
+  "epoch": 3,
+  "updates": 225,
+  "best": {
+    "epoch": 0,
+    "metric": 0.5785744548171134
+  },
+  "prior": [
+    {
+      "count": 1,
+      "cases": 210,
+      "mean_nmse": 0.018771109208417184,
+      "mean_si_sdr": 24.662882509375898,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.018771109208417184,
+      "construction_count_accuracy": 0.8
+    },
+    {
+      "count": 2,
+      "cases": 210,
+      "mean_nmse": 0.5070126321810611,
+      "mean_si_sdr": 3.2784406791881278,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.845668331614273,
+      "construction_count_accuracy": 0.3047619047619048
+    },
+    {
+      "count": 3,
+      "cases": 210,
+      "mean_nmse": 0.6984000341149414,
+      "mean_si_sdr": -3.2809046082922433,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.9480249269565458,
+      "construction_count_accuracy": 0.21428571428571427
+    }
+  ],
+  "current": [
+    {
+      "count": 1,
+      "cases": 210,
+      "mean_nmse": 0.018063043387763312,
+      "mean_si_sdr": 24.604239928133097,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.018063043387763312,
+      "construction_count_accuracy": 0.8
+    },
+    {
+      "count": 2,
+      "cases": 210,
+      "mean_nmse": 0.5041413302640073,
+      "mean_si_sdr": 3.140849544924422,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.8383743524425523,
+      "construction_count_accuracy": 0.3142857142857143
+    },
+    {
+      "count": 3,
+      "cases": 210,
+      "mean_nmse": 0.7062058645404641,
+      "mean_si_sdr": -3.7721867147540102,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.9583911285090347,
+      "construction_count_accuracy": 0.14761904761904762
+    }
+  ],
+  "paired_changes": [
+    {
+      "count": 1,
+      "cases": 210,
+      "nmse_improved": 125,
+      "nmse_worsened": 85,
+      "mean_delta": -0.0007080658206538742
+    },
+    {
+      "count": 2,
+      "cases": 210,
+      "nmse_improved": 99,
+      "nmse_worsened": 111,
+      "mean_delta": -0.0028713019170538393
+    },
+    {
+      "count": 3,
+      "cases": 210,
+      "nmse_improved": 81,
+      "nmse_worsened": 129,
+      "mean_delta": 0.007805830425522519
+    }
+  ],
+  "last_sha256": "bf0ff4c8c5c127a26a70414bc0fce35d7ee07aaeca69c03942c51e870709adeb",
+  "epoch_receipt_sha256": "bb6883b5e9a826f857708da85a05780b377ebc9eb35e082de05670493d39055d",
+  "validation_sha256": "6f293219f514db21018a72fce7481839ad6c224cb18f6c1470c2f737199619a4",
+  "identities_exactly_equal": true,
+  "new_inference": false,
+  "heldout_read": false,
+  "time": 1791604989.455234
+}
