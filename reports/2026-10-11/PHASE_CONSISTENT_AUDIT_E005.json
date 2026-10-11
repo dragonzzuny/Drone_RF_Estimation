@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "epoch": 5,
+  "updates": 375,
+  "checkpoint_sha256": "be36b8c25bca877575ddfc18293e783fa7b745e2dcf241cab745b5d250083848",
+  "protocol_sha256": "584c2ab7bd4558469d94babfe8313301a2165f8c02294392b2018437568a20c6",
+  "independent_cpu_waveform_reinference": false,
+  "checked": "source hashes, all checkpoint tensors, optimizer steps, all1260rows, independent aggregates, candidate criterion"
+}

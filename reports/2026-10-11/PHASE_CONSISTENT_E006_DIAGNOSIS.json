@@ -1,0 +1,679 @@
+{
+  "status": "POSTHOC_SAVED_ROW_AUDIT_PASS",
+  "evaluated_epoch": 6,
+  "source_sha256": {
+    "local/phase_consistent_20261011_v1/PROTOCOL.json": "584c2ab7bd4558469d94babfe8313301a2165f8c02294392b2018437568a20c6",
+    "local/phase_consistent_20261011_v1/EIGHT_000.json": "5544d81b30fc6d545e01bfbc400ca46a9f7afb3d5caeab376c664e88ea9bb76d",
+    "local/phase_consistent_20261011_v1/EIGHT_006.json": "d17ba8b297e8fece2a86dece75e74553217b4b7163dde113fda5f7faae88aff2",
+    "reports/2026-10-11/PHASE_CONSISTENT_AUDIT_E001.json": "1cc24e42767e76661971c337c638ef777e3c262b88cb893f7edc3a38b694a8bf",
+    "local/phase_consistent_20261011_v1/TRAIN_001.json": "60c75c9967c8f594d75d9f301b12ef665e1a6c083d45bf6d2e321a6cbd108589",
+    "local/phase_consistent_20261011_v1/DIAGNOSTIC_001.json": "31fc81452bcdcb607aa368654d16ec9743cc443d0df2222793ba19d8406b9740",
+    "local/phase_consistent_20261011_v1/EPOCH_001.json": "33c23f28da5fc6d14565f458ceb7a9ebcc5e2d4cec0a2d44d0f6294574547c4a",
+    "reports/2026-10-11/PHASE_CONSISTENT_AUDIT_E002.json": "a57a26b7dd9e18fb4892b1585d9d0d1390d1054d5f845f130c047f0afe2e89f1",
+    "local/phase_consistent_20261011_v1/TRAIN_002.json": "a603746d85858f37e070481ce72083b1604e0ce20dedbd1a28de66c7b7a653a4",
+    "local/phase_consistent_20261011_v1/DIAGNOSTIC_002.json": "dad198b8d735e435be66dd6125ddcf9786ddb335aaa4b0b274bdafd80f780e73",
+    "local/phase_consistent_20261011_v1/EPOCH_002.json": "329d8da3b082fb5b7df8c8bb439f64e4ada8d6a5d3ed5861a709835def691620",
+    "reports/2026-10-11/PHASE_CONSISTENT_AUDIT_E003.json": "092cc22f873dbb084c0b6ae0bf545340545716bb07646e97d7b4dcdaf726ff4c",
+    "local/phase_consistent_20261011_v1/TRAIN_003.json": "c1199d560234c75a030fa585f7428a5cf183babe1a4f29f2b2bc5ad3056b88dd",
+    "local/phase_consistent_20261011_v1/DIAGNOSTIC_003.json": "741ffec1f8b3459a4013a26692dfba9ed2a36a855893106c59586ec915a78dd6",
+    "local/phase_consistent_20261011_v1/EPOCH_003.json": "8d09b92a1715319686da71718dbdd75d6774c97f2962b3fb58fc39ee04c226e4",
+    "reports/2026-10-11/PHASE_CONSISTENT_AUDIT_E004.json": "ce37f3b2af63c3ff57569425af220c7605afdaef77f674805cb2fbd79a851bf0",
+    "local/phase_consistent_20261011_v1/TRAIN_004.json": "2eba16cb08d35b6fa14566ad9f3a1e6de65d2f59b921117fc2d9e3f356661444",
+    "local/phase_consistent_20261011_v1/DIAGNOSTIC_004.json": "4fe23f1ec2f62cd5400538590cf69a8fc26ced3f56d62cf2cbaceac33479316f",
+    "local/phase_consistent_20261011_v1/EPOCH_004.json": "3c122492fa7df7ca77e94bdd2358cb98846469f92580133b9527ff22ac98131b",
+    "reports/2026-10-11/PHASE_CONSISTENT_AUDIT_E005.json": "866020f7860ffec0e27a7e886d56ef75a57caf06d979a73b0ac49e9805efb3c6",
+    "local/phase_consistent_20261011_v1/TRAIN_005.json": "b92325938750510f76bb43bd8b81195d28354397a0314fc864ac2f6e34f474d9",
+    "local/phase_consistent_20261011_v1/DIAGNOSTIC_005.json": "3bdf3754c00563d9067b09ee5832c0481f474d058dacc1e1337ee0cbdbb9f1a6",
+    "local/phase_consistent_20261011_v1/EPOCH_005.json": "ee736c952910f483ca036da8591f561552f74cad42693bf1a2a2a9ef6dc32ccd",
+    "reports/2026-10-11/PHASE_CONSISTENT_AUDIT_E006.json": "bb567caf5ca87bea20288e946ab6e270336b64216c28309c8b0dd741acc54abc",
+    "local/phase_consistent_20261011_v1/TRAIN_006.json": "c6e0d1fc0b73d0c9960a0b42f3a349cfff1976c3e04263e41e126274a9ac9e8f",
+    "local/phase_consistent_20261011_v1/DIAGNOSTIC_006.json": "96f9a7fe0315e96b8f205e7017c3341b426b20a83b8412a6944f7f68b11d46fe",
+    "local/phase_consistent_20261011_v1/EPOCH_006.json": "66837e78c02b07f04161a8d24f56a51115e6df54fb61aa642f4b092fa6b0acc6",
+    "reports/2026-10-10/SOURCE_INTERACTION_FINAL.json": "2ce1e5b9a1ff68a52c76aecf0c89e4258cd1f80c15a09bc30bc6bcdeead35c0b"
+  },
+  "by_count": [
+    {
+      "group": 1,
+      "cases": 210,
+      "initial_nmse": 0.027365086980576128,
+      "epoch6_nmse": 0.021928777636325957,
+      "delta": -0.005436309344250171,
+      "worsened_cases": 15,
+      "relative_change_percent": -19.865858084459553,
+      "initial_weakest_nmse": 0.027365086980576128,
+      "epoch6_weakest_nmse": 0.021928777636325954
+    },
+    {
+      "group": 2,
+      "cases": 210,
+      "initial_nmse": 0.44460113563431586,
+      "epoch6_nmse": 0.4544867996559777,
+      "delta": 0.00988566402166189,
+      "worsened_cases": 134,
+      "relative_change_percent": 2.2234905017860416,
+      "initial_weakest_nmse": 0.7343158631335248,
+      "epoch6_weakest_nmse": 0.7511318885548662
+    },
+    {
+      "group": 3,
+      "cases": 210,
+      "initial_nmse": 0.6889476041665018,
+      "epoch6_nmse": 0.6916259869855106,
+      "delta": 0.0026783828190087133,
+      "worsened_cases": 118,
+      "relative_change_percent": 0.3887643708768038,
+      "initial_weakest_nmse": 0.9486435775016646,
+      "epoch6_weakest_nmse": 0.9487673667248205
+    }
+  ],
+  "by_composition": [
+    {
+      "group": [
+        1,
+        [
+          "DJI AVATA2"
+        ]
+      ],
+      "cases": 42,
+      "initial_nmse": 0.06364752886800604,
+      "epoch6_nmse": 0.060629297350041245,
+      "delta": -0.0030182315179647897,
+      "worsened_cases": 5
+    },
+    {
+      "group": [
+        1,
+        [
+          "DJI FPV COMBO"
+        ]
+      ],
+      "cases": 42,
+      "initial_nmse": 0.011834444127703651,
+      "epoch6_nmse": 0.007500444072576017,
+      "delta": -0.004334000055127634,
+      "worsened_cases": 0
+    },
+    {
+      "group": [
+        1,
+        [
+          "DJI MAVIC3 PRO"
+        ]
+      ],
+      "cases": 42,
+      "initial_nmse": 0.02707968544425966,
+      "epoch6_nmse": 0.016656062157765585,
+      "delta": -0.010423623286494073,
+      "worsened_cases": 2
+    },
+    {
+      "group": [
+        1,
+        [
+          "DJI MINI3"
+        ]
+      ],
+      "cases": 42,
+      "initial_nmse": 0.024133062714065314,
+      "epoch6_nmse": 0.015575198192213435,
+      "delta": -0.00855786452185188,
+      "worsened_cases": 1
+    },
+    {
+      "group": [
+        1,
+        [
+          "DJI MINI4 PRO"
+        ]
+      ],
+      "cases": 42,
+      "initial_nmse": 0.010130713748845985,
+      "epoch6_nmse": 0.009282886409033506,
+      "delta": -0.000847827339812478,
+      "worsened_cases": 7
+    },
+    {
+      "group": [
+        2,
+        [
+          "DJI AVATA2",
+          "DJI FPV COMBO"
+        ]
+      ],
+      "cases": 54,
+      "initial_nmse": 0.46959916347913755,
+      "epoch6_nmse": 0.4801362387263012,
+      "delta": 0.010537075247163631,
+      "worsened_cases": 38
+    },
+    {
+      "group": [
+        2,
+        [
+          "DJI AVATA2",
+          "DJI MAVIC3 PRO"
+        ]
+      ],
+      "cases": 54,
+      "initial_nmse": 0.48660986065602546,
+      "epoch6_nmse": 0.48966737272866606,
+      "delta": 0.0030575120726405846,
+      "worsened_cases": 26
+    },
+    {
+      "group": [
+        2,
+        [
+          "DJI FPV COMBO",
+          "DJI MAVIC3 PRO"
+        ]
+      ],
+      "cases": 51,
+      "initial_nmse": 0.3544250278453585,
+      "epoch6_nmse": 0.37072780393631766,
+      "delta": 0.016302776090959172,
+      "worsened_cases": 32
+    },
+    {
+      "group": [
+        2,
+        [
+          "DJI MINI3",
+          "DJI MINI4 PRO"
+        ]
+      ],
+      "cases": 51,
+      "initial_nmse": 0.4638289168587106,
+      "epoch6_nmse": 0.47383754722421356,
+      "delta": 0.010008630365502974,
+      "worsened_cases": 38
+    },
+    {
+      "group": [
+        3,
+        [
+          "DJI AVATA2",
+          "DJI FPV COMBO",
+          "DJI MAVIC3 PRO"
+        ]
+      ],
+      "cases": 210,
+      "initial_nmse": 0.6889476041665018,
+      "epoch6_nmse": 0.6916259869855106,
+      "delta": 0.0026783828190087133,
+      "worsened_cases": 118
+    }
+  ],
+  "by_actual_reference_power_spread": [
+    {
+      "group": [
+        2,
+        "0-10dB"
+      ],
+      "cases": 108,
+      "initial_nmse": 0.45928023345590124,
+      "epoch6_nmse": 0.47263739261263676,
+      "delta": 0.013357159156735543,
+      "worsened_cases": 80
+    },
+    {
+      "group": [
+        2,
+        "10-20dB"
+      ],
+      "cases": 63,
+      "initial_nmse": 0.40516835730028244,
+      "epoch6_nmse": 0.4083832082522697,
+      "delta": 0.003214850951987258,
+      "worsened_cases": 30
+    },
+    {
+      "group": [
+        2,
+        "20-30dB"
+      ],
+      "cases": 22,
+      "initial_nmse": 0.44740834283000175,
+      "epoch6_nmse": 0.4508118276467701,
+      "delta": 0.003403484816768336,
+      "worsened_cases": 9
+    },
+    {
+      "group": [
+        2,
+        "30+dB"
+      ],
+      "cases": 17,
+      "initial_nmse": 0.4938460716347742,
+      "epoch6_nmse": 0.5147874822040364,
+      "delta": 0.02094141056926222,
+      "worsened_cases": 15
+    },
+    {
+      "group": [
+        3,
+        "0-10dB"
+      ],
+      "cases": 69,
+      "initial_nmse": 0.7236693333978489,
+      "epoch6_nmse": 0.7298814841429645,
+      "delta": 0.006212150745115598,
+      "worsened_cases": 44
+    },
+    {
+      "group": [
+        3,
+        "10-20dB"
+      ],
+      "cases": 105,
+      "initial_nmse": 0.6698350683497284,
+      "epoch6_nmse": 0.6711553755736506,
+      "delta": 0.0013203072239221971,
+      "worsened_cases": 57
+    },
+    {
+      "group": [
+        3,
+        "20-30dB"
+      ],
+      "cases": 33,
+      "initial_nmse": 0.6315672233556955,
+      "epoch6_nmse": 0.6314816168484193,
+      "delta": -8.560650727609725e-05,
+      "worsened_cases": 16
+    },
+    {
+      "group": [
+        3,
+        "30+dB"
+      ],
+      "cases": 3,
+      "initial_nmse": 1.1904707743514604,
+      "epoch6_nmse": 1.1898090232871716,
+      "delta": -0.0006617510642886552,
+      "worsened_cases": 1
+    }
+  ],
+  "learning_curves": [
+    {
+      "epoch": 1,
+      "schedule": 1,
+      "online_train_loss": {
+        "waveform": 0.55139444892754,
+        "consistency": 0.008484476679353368,
+        "count": 0.8836219351385565,
+        "total": 0.6406050912330586
+      },
+      "dev_diagnostic": {
+        "mean_consistency": 0.00558407923018667,
+        "mean_waveform_objective": 0.6164731720577471,
+        "note": "Reference-normalized diagnostic; targets used only after mixture-only forward"
+      },
+      "dev_by_count": [
+        {
+          "count": 1,
+          "cases": 210,
+          "mean_nmse": 0.02609442093100859,
+          "median_nmse": 0.008121360746616787,
+          "mean_si_sdr": 22.30840630659517,
+          "nonfinite_si_sdr": 0,
+          "weakest_nmse": 0.02609442093100859,
+          "construction_count_accuracy": 0.780952380952381
+        },
+        {
+          "count": 2,
+          "cases": 210,
+          "mean_nmse": 0.4476805923420968,
+          "median_nmse": 0.4021262165858702,
+          "mean_si_sdr": 4.269157641652345,
+          "nonfinite_si_sdr": 0,
+          "weakest_nmse": 0.7387130539365719,
+          "construction_count_accuracy": 0.2761904761904762
+        },
+        {
+          "count": 3,
+          "cases": 210,
+          "mean_nmse": 0.6905085488207594,
+          "median_nmse": 0.7601585101995523,
+          "mean_si_sdr": -2.6977810012444956,
+          "nonfinite_si_sdr": 0,
+          "weakest_nmse": 0.9470951436576386,
+          "construction_count_accuracy": 0.319047619047619
+        }
+      ],
+      "gradient_norm_median": 1.8950316905975342,
+      "clipped_fraction": 0.96
+    },
+    {
+      "epoch": 2,
+      "schedule": 2,
+      "online_train_loss": {
+        "waveform": 0.5311806641554904,
+        "consistency": 0.00816179714051638,
+        "count": 0.8665580739651341,
+        "total": 0.6186526524512252
+      },
+      "dev_diagnostic": {
+        "mean_consistency": 0.005639421919084502,
+        "mean_waveform_objective": 0.6167026215284418,
+        "note": "Reference-normalized diagnostic; targets used only after mixture-only forward"
+      },
+      "dev_by_count": [
+        {
+          "count": 1,
+          "cases": 210,
+          "mean_nmse": 0.025155645228469928,
+          "median_nmse": 0.007802695529413813,
+          "mean_si_sdr": 22.55233311473989,
+          "nonfinite_si_sdr": 0,
+          "weakest_nmse": 0.025155645228469928,
+          "construction_count_accuracy": 0.7857142857142857
+        },
+        {
+          "count": 2,
+          "cases": 210,
+          "mean_nmse": 0.447969418064047,
+          "median_nmse": 0.4031107456580258,
+          "mean_si_sdr": 4.227775056317899,
+          "nonfinite_si_sdr": 0,
+          "weakest_nmse": 0.7399670407431775,
+          "construction_count_accuracy": 0.2714285714285714
+        },
+        {
+          "count": 3,
+          "cases": 210,
+          "mean_nmse": 0.6902342608689459,
+          "median_nmse": 0.7617013441320646,
+          "mean_si_sdr": -2.7119170517350044,
+          "nonfinite_si_sdr": 0,
+          "weakest_nmse": 0.9470117649922892,
+          "construction_count_accuracy": 0.37142857142857144
+        }
+      ],
+      "gradient_norm_median": 1.9543697834014893,
+      "clipped_fraction": 0.9466666666666667
+    },
+    {
+      "epoch": 3,
+      "schedule": 3,
+      "online_train_loss": {
+        "waveform": 0.5063222057376667,
+        "consistency": 0.006974909640706149,
+        "count": 0.8498467621013212,
+        "total": 0.5920043741308231
+      },
+      "dev_diagnostic": {
+        "mean_consistency": 0.005666383705679364,
+        "mean_waveform_objective": 0.6164668801567694,
+        "note": "Reference-normalized diagnostic; targets used only after mixture-only forward"
+      },
+      "dev_by_count": [
+        {
+          "count": 1,
+          "cases": 210,
+          "mean_nmse": 0.0249366113961485,
+          "median_nmse": 0.007638053314326288,
+          "mean_si_sdr": 22.648103222073455,
+          "nonfinite_si_sdr": 0,
+          "weakest_nmse": 0.0249366113961485,
+          "construction_count_accuracy": 0.7857142857142857
+        },
+        {
+          "count": 2,
+          "cases": 210,
+          "mean_nmse": 0.4480642060798002,
+          "median_nmse": 0.40205945687205674,
+          "mean_si_sdr": 4.238015187337281,
+          "nonfinite_si_sdr": 0,
+          "weakest_nmse": 0.7400429759668855,
+          "construction_count_accuracy": 0.28095238095238095
+        },
+        {
+          "count": 3,
+          "cases": 210,
+          "mean_nmse": 0.6901599702073883,
+          "median_nmse": 0.763891505177924,
+          "mean_si_sdr": -2.695513774979552,
+          "nonfinite_si_sdr": 0,
+          "weakest_nmse": 0.9471869829308689,
+          "construction_count_accuracy": 0.3619047619047619
+        }
+      ],
+      "gradient_norm_median": 1.7494336366653442,
+      "clipped_fraction": 0.92
+    },
+    {
+      "epoch": 4,
+      "schedule": 4,
+      "online_train_loss": {
+        "waveform": 0.5219974181200693,
+        "consistency": 0.006515737025929411,
+        "count": 0.8354050495665676,
+        "total": 0.6061894975615238
+      },
+      "dev_diagnostic": {
+        "mean_consistency": 0.005723063298581918,
+        "mean_waveform_objective": 0.6166012382771038,
+        "note": "Reference-normalized diagnostic; targets used only after mixture-only forward"
+      },
+      "dev_by_count": [
+        {
+          "count": 1,
+          "cases": 210,
+          "mean_nmse": 0.023910928129583436,
+          "median_nmse": 0.007200293108254515,
+          "mean_si_sdr": 22.959531253854664,
+          "nonfinite_si_sdr": 0,
+          "weakest_nmse": 0.023910928129583436,
+          "construction_count_accuracy": 0.7857142857142857
+        },
+        {
+          "count": 2,
+          "cases": 210,
+          "mean_nmse": 0.4508193071646159,
+          "median_nmse": 0.40368900156216037,
+          "mean_si_sdr": 4.230344189422549,
+          "nonfinite_si_sdr": 0,
+          "weakest_nmse": 0.7454129707285385,
+          "construction_count_accuracy": 0.2857142857142857
+        },
+        {
+          "count": 3,
+          "cases": 210,
+          "mean_nmse": 0.6898040867076966,
+          "median_nmse": 0.7595798956903657,
+          "mean_si_sdr": -2.67870359397807,
+          "nonfinite_si_sdr": 0,
+          "weakest_nmse": 0.9471855338870704,
+          "construction_count_accuracy": 0.3523809523809524
+        }
+      ],
+      "gradient_norm_median": 1.7683980464935303,
+      "clipped_fraction": 0.96
+    },
+    {
+      "epoch": 5,
+      "schedule": 5,
+      "online_train_loss": {
+        "waveform": 0.5232322655998268,
+        "consistency": 0.010557074951132867,
+        "count": 0.8056059439100015,
+        "total": 0.6048485677558346
+      },
+      "dev_diagnostic": {
+        "mean_consistency": 0.005806729071004416,
+        "mean_waveform_objective": 0.6176921010637122,
+        "note": "Reference-normalized diagnostic; targets used only after mixture-only forward"
+      },
+      "dev_by_count": [
+        {
+          "count": 1,
+          "cases": 210,
+          "mean_nmse": 0.02272633042801185,
+          "median_nmse": 0.006641742961130412,
+          "mean_si_sdr": 23.27139456967678,
+          "nonfinite_si_sdr": 0,
+          "weakest_nmse": 0.02272633042801185,
+          "construction_count_accuracy": 0.7857142857142857
+        },
+        {
+          "count": 2,
+          "cases": 210,
+          "mean_nmse": 0.4529119427637602,
+          "median_nmse": 0.4110965067073248,
+          "mean_si_sdr": 4.1821401460905,
+          "nonfinite_si_sdr": 0,
+          "weakest_nmse": 0.7486485826069447,
+          "construction_count_accuracy": 0.3142857142857143
+        },
+        {
+          "count": 3,
+          "cases": 210,
+          "mean_nmse": 0.6911888521073204,
+          "median_nmse": 0.7642468253255809,
+          "mean_si_sdr": -2.720724227861752,
+          "nonfinite_si_sdr": 0,
+          "weakest_nmse": 0.9490749095486203,
+          "construction_count_accuracy": 0.32857142857142857
+        }
+      ],
+      "gradient_norm_median": 2.2160496711730957,
+      "clipped_fraction": 0.9733333333333334
+    },
+    {
+      "epoch": 6,
+      "schedule": 1,
+      "online_train_loss": {
+        "waveform": 0.5426630185844897,
+        "consistency": 0.008620041709118596,
+        "count": 0.786807128773847,
+        "total": 0.6222057352709817
+      },
+      "dev_diagnostic": {
+        "mean_consistency": 0.005827153263505482,
+        "mean_waveform_objective": 0.6184224168026597,
+        "note": "Reference-normalized diagnostic; targets used only after mixture-only forward"
+      },
+      "dev_by_count": [
+        {
+          "count": 1,
+          "cases": 210,
+          "mean_nmse": 0.021928777636325954,
+          "median_nmse": 0.006207194819882908,
+          "mean_si_sdr": 23.533590245515683,
+          "nonfinite_si_sdr": 0,
+          "weakest_nmse": 0.021928777636325954,
+          "construction_count_accuracy": 0.7857142857142857
+        },
+        {
+          "count": 2,
+          "cases": 210,
+          "mean_nmse": 0.45448679965597777,
+          "median_nmse": 0.41773601538322447,
+          "mean_si_sdr": 4.1555212567818876,
+          "nonfinite_si_sdr": 0,
+          "weakest_nmse": 0.7511318885548662,
+          "construction_count_accuracy": 0.3238095238095238
+        },
+        {
+          "count": 3,
+          "cases": 210,
+          "mean_nmse": 0.6916259869855106,
+          "median_nmse": 0.7669703289527425,
+          "mean_si_sdr": -2.7479653525177503,
+          "nonfinite_si_sdr": 0,
+          "weakest_nmse": 0.9487673667248205,
+          "construction_count_accuracy": 0.3380952380952381
+        }
+      ],
+      "gradient_norm_median": 1.95821213722229,
+      "clipped_fraction": 0.96
+    }
+  ],
+  "same_schedule_online_loss_change_1_to_6": {
+    "waveform": -0.00873143034305024,
+    "consistency": 0.00013556502976522743,
+    "count": -0.09681480636470952,
+    "total": -0.01839935596207698
+  },
+  "historical_single_view_control": [
+    {
+      "epoch": 0,
+      "by_count": [
+        {
+          "count": 1,
+          "cases": 210,
+          "mean_nmse": 0.027593617315139082,
+          "mean_si_sdr": 21.33658722131418,
+          "nonfinite_si_sdr": 0,
+          "weakest_nmse": 0.027593617315139082,
+          "construction_count_accuracy": 0.7571428571428571
+        },
+        {
+          "count": 2,
+          "cases": 210,
+          "mean_nmse": 0.46689559431987576,
+          "mean_si_sdr": 3.777362785523427,
+          "nonfinite_si_sdr": 0,
+          "weakest_nmse": 0.7785797101018634,
+          "construction_count_accuracy": 0.2761904761904762
+        },
+        {
+          "count": 3,
+          "cases": 210,
+          "mean_nmse": 0.6902533153143511,
+          "mean_si_sdr": -3.1087800503642207,
+          "nonfinite_si_sdr": 0,
+          "weakest_nmse": 0.9513193850439157,
+          "construction_count_accuracy": 0.3238095238095238
+        }
+      ],
+      "selection_nmse": 0.5785744548171134
+    },
+    {
+      "epoch": 1,
+      "by_count": [
+        {
+          "count": 1,
+          "cases": 210,
+          "mean_nmse": 0.01933684823974167,
+          "mean_si_sdr": 23.81820461512838,
+          "nonfinite_si_sdr": 0,
+          "weakest_nmse": 0.01933684823974167,
+          "construction_count_accuracy": 0.7904761904761904
+        },
+        {
+          "count": 2,
+          "cases": 210,
+          "mean_nmse": 0.48890202106359826,
+          "mean_si_sdr": 3.3662167928026747,
+          "nonfinite_si_sdr": 0,
+          "weakest_nmse": 0.8134619666997885,
+          "construction_count_accuracy": 0.32857142857142857
+        },
+        {
+          "count": 3,
+          "cases": 210,
+          "mean_nmse": 0.6996570459929582,
+          "mean_si_sdr": -3.517988285452999,
+          "nonfinite_si_sdr": 0,
+          "weakest_nmse": 0.9527473766242238,
+          "construction_count_accuracy": 0.23809523809523808
+        }
+      ],
+      "selection_nmse": 0.5942795335282782
+    }
+  ],
+  "heldout_read": false,
+  "raw_iq_read": false,
+  "new_inference": false,
+  "new_updates": 0,
+  "caveats": [
+    "Online training losses use changing weights, not fixed-checkpoint evaluation.",
+    "Same-schedule e1/e6 receipt comparison is descriptive, not a causal ablation.",
+    "630 windows derive from five DEV recording groups, not 630 independent recordings.",
+    "Scalar loss magnitudes do not establish gradient magnitudes or interference.",
+    "Historical control uses single inference and a different learning rate/budget.",
+    "Power-spread bins are posthoc and not received SNR; no condition was excluded."
+  ]
+}
