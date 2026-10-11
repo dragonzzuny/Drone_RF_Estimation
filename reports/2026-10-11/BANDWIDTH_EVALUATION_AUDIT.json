@@ -1,0 +1,224 @@
+{
+  "status": "METADATA_AND_INTERVAL_CHECK_PASS",
+  "strata": [
+    {
+      "category": "DJI AVATA2",
+      "nominal_vtsbw_mhz": 10,
+      "recording_groups": 1,
+      "separate_train_dev_recordings_available": false,
+      "pack_ids": [
+        "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1.xml"
+      ]
+    },
+    {
+      "category": "DJI AVATA2",
+      "nominal_vtsbw_mhz": 20,
+      "recording_groups": 1,
+      "separate_train_dev_recordings_available": false,
+      "pack_ids": [
+        "DJI AVATA2/DJI AVATA2/VTSBW=20/pack2.xml"
+      ]
+    },
+    {
+      "category": "DJI AVATA2",
+      "nominal_vtsbw_mhz": 40,
+      "recording_groups": 1,
+      "separate_train_dev_recordings_available": false,
+      "pack_ids": [
+        "DJI AVATA2/DJI AVATA2/VTSBW=40/pack4.xml"
+      ]
+    },
+    {
+      "category": "DJI AVATA2",
+      "nominal_vtsbw_mhz": 60,
+      "recording_groups": 1,
+      "separate_train_dev_recordings_available": false,
+      "pack_ids": [
+        "DJI AVATA2/DJI AVATA2/VTSBW=60/pack3.xml"
+      ]
+    },
+    {
+      "category": "DJI FPV COMBO",
+      "nominal_vtsbw_mhz": 10,
+      "recording_groups": 1,
+      "separate_train_dev_recordings_available": false,
+      "pack_ids": [
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml"
+      ]
+    },
+    {
+      "category": "DJI FPV COMBO",
+      "nominal_vtsbw_mhz": 20,
+      "recording_groups": 1,
+      "separate_train_dev_recordings_available": false,
+      "pack_ids": [
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=20/pack3.xml"
+      ]
+    },
+    {
+      "category": "DJI FPV COMBO",
+      "nominal_vtsbw_mhz": 40,
+      "recording_groups": 1,
+      "separate_train_dev_recordings_available": false,
+      "pack_ids": [
+        "DJI FPV COMBO/DJI FPV COMBO/VTSBW=40/pack2.xml"
+      ]
+    },
+    {
+      "category": "DJI MAVIC3 PRO",
+      "nominal_vtsbw_mhz": 10,
+      "recording_groups": 1,
+      "separate_train_dev_recordings_available": false,
+      "pack_ids": [
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml"
+      ]
+    },
+    {
+      "category": "DJI MAVIC3 PRO",
+      "nominal_vtsbw_mhz": 20,
+      "recording_groups": 1,
+      "separate_train_dev_recordings_available": false,
+      "pack_ids": [
+        "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=20/pack2.xml"
+      ]
+    },
+    {
+      "category": "DJI MINI3",
+      "nominal_vtsbw_mhz": 10,
+      "recording_groups": 1,
+      "separate_train_dev_recordings_available": false,
+      "pack_ids": [
+        "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml"
+      ]
+    },
+    {
+      "category": "DJI MINI3",
+      "nominal_vtsbw_mhz": 20,
+      "recording_groups": 1,
+      "separate_train_dev_recordings_available": false,
+      "pack_ids": [
+        "DJI MINI3/DJI MINI3/VTSBW=20/pack2.xml"
+      ]
+    },
+    {
+      "category": "DJI MINI4 PRO",
+      "nominal_vtsbw_mhz": 10,
+      "recording_groups": 1,
+      "separate_train_dev_recordings_available": false,
+      "pack_ids": [
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml"
+      ]
+    },
+    {
+      "category": "DJI MINI4 PRO",
+      "nominal_vtsbw_mhz": 20,
+      "recording_groups": 1,
+      "separate_train_dev_recordings_available": false,
+      "pack_ids": [
+        "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=20/pack2.xml"
+      ]
+    }
+  ],
+  "same_bandwidth_independent_recording_split_available": false,
+  "within_record_time_block_summary": [
+    {
+      "category": "DJI AVATA2",
+      "pack_id": "DJI AVATA2/DJI AVATA2/VTSBW=10/pack1.xml",
+      "nominal_vtsbw_mhz": 10,
+      "fit_before_seconds": 6.0,
+      "dev_from_seconds": 7.0,
+      "cache_metadata_horizon_seconds": 10.26829728,
+      "fit_contexts": 240,
+      "dev_contexts": 157,
+      "excluded_contexts": 48,
+      "minimum_raw_support_gap_seconds": 1.0,
+      "same_recording_in_both_roles": true,
+      "independent_recording_validation": false
+    },
+    {
+      "category": "DJI FPV COMBO",
+      "pack_id": "DJI FPV COMBO/DJI FPV COMBO/VTSBW=10/pack1.xml",
+      "nominal_vtsbw_mhz": 10,
+      "fit_before_seconds": 7.0,
+      "dev_from_seconds": 8.0,
+      "cache_metadata_horizon_seconds": 13.0,
+      "fit_contexts": 336,
+      "dev_contexts": 240,
+      "excluded_contexts": 48,
+      "minimum_raw_support_gap_seconds": 1.0,
+      "same_recording_in_both_roles": true,
+      "independent_recording_validation": false
+    },
+    {
+      "category": "DJI MAVIC3 PRO",
+      "pack_id": "DJI MAVIC3 PRO/DJI MAVIC3 PRO/VTSBW=10/pack1.xml",
+      "nominal_vtsbw_mhz": 10,
+      "fit_before_seconds": 5.0,
+      "dev_from_seconds": 6.0,
+      "cache_metadata_horizon_seconds": 8.81398458,
+      "fit_contexts": 240,
+      "dev_contexts": 135,
+      "excluded_contexts": 48,
+      "minimum_raw_support_gap_seconds": 1.0,
+      "same_recording_in_both_roles": true,
+      "independent_recording_validation": false
+    },
+    {
+      "category": "DJI MINI3",
+      "pack_id": "DJI MINI3/DJI MINI3/VTSBW=10/pack1.xml",
+      "nominal_vtsbw_mhz": 10,
+      "fit_before_seconds": 6.0,
+      "dev_from_seconds": 7.0,
+      "cache_metadata_horizon_seconds": 10.0,
+      "fit_contexts": 288,
+      "dev_contexts": 96,
+      "excluded_contexts": 48,
+      "minimum_raw_support_gap_seconds": 1.0,
+      "same_recording_in_both_roles": true,
+      "independent_recording_validation": false
+    },
+    {
+      "category": "DJI MINI4 PRO",
+      "pack_id": "DJI MINI4 PRO/DJI MINI4 PRO/VTSBW=10/pack1.xml",
+      "nominal_vtsbw_mhz": 10,
+      "fit_before_seconds": 4.0,
+      "dev_from_seconds": 5.0,
+      "cache_metadata_horizon_seconds": 7.0,
+      "fit_contexts": 192,
+      "dev_contexts": 96,
+      "excluded_contexts": 48,
+      "minimum_raw_support_gap_seconds": 1.0,
+      "same_recording_in_both_roles": true,
+      "independent_recording_validation": false
+    }
+  ],
+  "context_counts": {
+    "fit_block": 1296,
+    "within_record_dev": 724,
+    "gap_excluded": 240
+  },
+  "local_manifest": "local/bandwidth_evaluation_20261011_v1/TIME_BLOCK_MANIFEST.json",
+  "local_manifest_sha256": "5467a1ee7e65a6eac13fa73202de65f42baefd0d11a6ef211ba8c198e35aac90",
+  "source_sha256": "af892f17c8ede69bf8ab78be8b841a606f84f75051b805be4dfa2ae08381a171",
+  "input_sha256": {
+    "local/inventory/INVENTORY.json": "7e81a50edf373bb3c7f641e29b99fc86732a5fad6784f2bc5830030cf4f11ee8",
+    "reports/2026-10-11/RECORDING_ADMISSION_AUDIT.json": "6333e148230b105133282bf960dc16bf1c1c121ee05e469cf7230922e0a30d1d",
+    "local/native_frequency_20261009_v1/preparation/NATIVE_MANIFEST.json": "d21bcdcaad1649da0dcb991fa38407f0671e786b2ecce29b9307cee543c7f6de"
+  },
+  "raw_iq_read": false,
+  "cache_arrays_read": false,
+  "heldout_payload_read": false,
+  "existing_split_changed": false,
+  "existing_worker_changed": false,
+  "new_training_started": false,
+  "new_performance_measured": false,
+  "physical_recording_session_independence_verified": false,
+  "one_second_gap_proves_independence": false,
+  "pending": [
+    "Check cache integrity/duplicate or shifted waveform similarity.",
+    "Implement a separate explicit within-record diagnostic loader.",
+    "Generate mixtures and mixture context features within each new role.",
+    "Freeze learning budget/selection; initialize fresh full-capacity model.",
+    "Obtain additional same-condition recordings for independent evaluation."
+  ]
+}
