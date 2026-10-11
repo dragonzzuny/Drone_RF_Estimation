@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "source_sha256": {
+    "experiments/bandwidth_timeblock_20261011/data.py": "9f8973dddd86b28f585d2046a30159ae05fdd84aa143f9a823063d51fc8034b8",
+    "experiments/bandwidth_timeblock_20261011/prepare.py": "ecd5eef143d6be5cab9c8f4afda19720c98572d69742a95bc60ed9e4d01171e5"
+  },
+  "manifest_sha256": "5467a1ee7e65a6eac13fa73202de65f42baefd0d11a6ef211ba8c198e35aac90",
+  "preparation_sha256": "8386d17c8e7364eb4a677971079d7356faa07b3a792d23cee19b154ab7bc09de",
+  "checked_contexts": 2020,
+  "roles": {
+    "fit_block": 1296,
+    "within_record_dev": 724
+  },
+  "finite_power_hash_checks": true,
+  "cross_role_exact_duplicate_caches": 0,
+  "full_raw_support_gap_at_least_seconds": 1,
+  "role_overlap_negative_tests": "PASS",
+  "arbitrary_time_or_frequency_shift_duplicate_test": false,
+  "old_dev20_read": false,
+  "heldout_read": false,
+  "seconds": 88.07548642158508
+}

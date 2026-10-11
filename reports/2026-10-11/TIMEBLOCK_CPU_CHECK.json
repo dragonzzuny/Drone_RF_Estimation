@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "all_50_training_schedules_checked": true,
+  "fixed_dev_schedule_checked": true,
+  "full_parameters": 32142859,
+  "all_parameters_trainable": true,
+  "nonidentity_pit_recovery_nmse": 0.0,
+  "old_checkpoint_loaded": false,
+  "preparation_sha256": "8386d17c8e7364eb4a677971079d7356faa07b3a792d23cee19b154ab7bc09de",
+  "source_sha256": {
+    "experiments/bandwidth_timeblock_20261011/check_cpu.py": "3a558a96d4847cc1120f1e88c3ec66872b8bbd3dad6beeed60592b52f240d2b9",
+    "experiments/bandwidth_timeblock_20261011/train.py": "2490d593f8fdbde945367f357250c065c3bcc18e46d63e3e3527b8a4f3ad3973",
+    "experiments/bandwidth_timeblock_20261011/data.py": "9f8973dddd86b28f585d2046a30159ae05fdd84aa143f9a823063d51fc8034b8"
+  }
+}

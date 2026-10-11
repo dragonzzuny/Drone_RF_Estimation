@@ -1,0 +1,32 @@
+{
+  "status": "PLANNED_TRANSITION_TO_USER_REQUESTED_FRESH_50_EPOCH_RUN",
+  "time": 1791715811.928682,
+  "old_pid": 2290687,
+  "old_reported_state": {
+    "status": "TRAINING",
+    "pid": 2290687,
+    "time": 1791715801.859845,
+    "epoch": 7,
+    "updates": 508,
+    "examples": 1872,
+    "seconds": 5144.192197561264,
+    "estimated_training_seconds": 6595.11820200162,
+    "recent_loss": {
+      "waveform": 0.5855869952449666,
+      "consistency": 0.018321082042803027,
+      "count": 0.7284846527036279,
+      "total": 0.6602675739995902
+    }
+  },
+  "recovery_checkpoint": "local/phase_consistent_20261011_v1/RECOVERY.pt",
+  "recovery_sha256": "64c36e1d2b4690bd47454385b53c3fbe6540a677632aecbf6bb135b7f286c667",
+  "recovery_epoch": 7,
+  "recovery_updates": 505,
+  "recovery_next_example": 1760,
+  "completed_audited_epochs": 6,
+  "partial_epoch_not_evaluated": true,
+  "old_best_replaced": false,
+  "old_source_or_protocol_modified": false,
+  "new_checkpoint_initialization": "fresh seed0",
+  "reason": "User requested new same-bandwidth time-block split and fixed 50 epochs; preserve old run for explicit resume."
+}
