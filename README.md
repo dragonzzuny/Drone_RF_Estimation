@@ -14,6 +14,12 @@ B는 자료·분할·혼합 검사와 GPU 사전 검사를 통과했고 **새 �
 [50 epoch 계획](reports/2026-10-11/TIMEBLOCK_TRAINING_PLAN_KO.md).
 [평가 체계와 구체적 분할안](docs/EVALUATION_PROTOCOL_KO.md).
 
+B의 **epoch1 검증·CPU 감사 완료,epoch2 학습 중**입니다.
+평균NMSE(두/세 신호)는0.664340/0.997935, 복소SI-SDR은1.222/−4.987dB입니다.
+새 초기화의 초기 오차는 줄었지만 세 신호 중앙값NMSE는 악화했고 잔차가 큽니다.
+[첫epoch 결과와 해석](reports/2026-10-11/TIMEBLOCK_E001_KO.md) ·
+[epoch별 누적 보고](reports/2026-10-11/TIMEBLOCK_EPOCH_REPORTS_KO.md).
+
 ## 기존 일반화 평가 C에서의 최선
 
 **native e2 복소 STFT U-Net + 8위상 평균 추론**입니다. 같은630개 개발 혼합의

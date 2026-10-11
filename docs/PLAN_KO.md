@@ -5,8 +5,8 @@
 ## 최신 사용자 지시: 새 B 분할에서 50 epoch 전체 수행
 
 새 초기화 전체 U-Net 실행을 시작했다. 2,020개 cache의 무결성·전력·역할 검사,
-50개 학습 일정, PIT 순서 검사 및 GPU 사전 검사를 통과했다. 시작 상태는
-학습 전 epoch0 검증이다. 이후 50epoch/3,750업데이트를 수행한다.
+50개 학습 일정, PIT 순서 검사 및 GPU 사전 검사를 통과했다. epoch1 검증·CPU 감사까지 완료했고 epoch2 학습 중이다.
+전체 50epoch/3,750업데이트를 수행한다. [첫 결과](../reports/2026-10-11/TIMEBLOCK_E001_KO.md).
 성능 정체로 조기 종료하지 않고 학습률만 조절한다.
 [봉인 계획](../reports/2026-10-11/TIMEBLOCK_TRAINING_PLAN_KO.md) ·
 [실제 상태](../reports/2026-10-11/TIMEBLOCK_LIVE_KO.md).
