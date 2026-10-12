@@ -1,0 +1,73 @@
+{
+  "status": "COMPLETE",
+  "checkpoint_epoch": 99,
+  "checkpoint_sha256": "9339aeb132b68f9fb7f9897c065233866ec13d3ba7cea7afd01d5250488751ca",
+  "rows_sha256": "9a1bae3498128eec8c13a4af7e355b910d42d5e7c573241406ea1a0b59eb5025",
+  "by_count": [
+    {
+      "count": 1,
+      "cases": 210,
+      "mean_nmse": 0.03927291397623864,
+      "mean_si_sdr": 27.46892313758471,
+      "weakest_nmse": 0.03927291397623864,
+      "count_accuracy": 0.6
+    },
+    {
+      "count": 2,
+      "cases": 210,
+      "mean_nmse": 0.5392019253954724,
+      "mean_si_sdr": 1.6226288726583529,
+      "weakest_nmse": 0.8816721369577847,
+      "count_accuracy": 0.30952380952380953
+    },
+    {
+      "count": 3,
+      "cases": 210,
+      "mean_nmse": 0.8840380281969666,
+      "mean_si_sdr": -4.858492700574964,
+      "weakest_nmse": 1.1453884835698236,
+      "count_accuracy": 0.6142857142857143
+    }
+  ],
+  "selection_nmse": 0.7116199767962195,
+  "baseline": [
+    {
+      "count": 1,
+      "cases": 210,
+      "mean_nmse": 0.027365086980576128,
+      "median_nmse": 0.009452655014562428,
+      "mean_si_sdr": 21.84324071504541,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.027365086980576128,
+      "construction_count_accuracy": 0.7571428571428571
+    },
+    {
+      "count": 2,
+      "cases": 210,
+      "mean_nmse": 0.44460113563431586,
+      "median_nmse": 0.40004825023034435,
+      "mean_si_sdr": 4.249089139909562,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.7343158631335248,
+      "construction_count_accuracy": 0.2761904761904762
+    },
+    {
+      "count": 3,
+      "cases": 210,
+      "mean_nmse": 0.6889476041665019,
+      "median_nmse": 0.7531907581694455,
+      "mean_si_sdr": -2.735626522965516,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.9486435775016646,
+      "construction_count_accuracy": 0.3238095238095238
+    }
+  ],
+  "optimizer_updates": 0,
+  "seconds": 338.3814923763275,
+  "source_recording_groups_disjoint": true,
+  "nominal_capture_bandwidth_changed": true,
+  "heldout_access": false,
+  "independent_final_test": false,
+  "current_best_changed": false,
+  "protocol_sha256": "e15e99e8abb9a873e813b7ddf5cda9bcc1e4811a312501a26b8d3a52a7a00cdd"
+}

@@ -18,7 +18,7 @@ import torch
 
 from sequence_data import ROOT, OUT as SEQUENCE, Sequences, ROLES, read, sha256, write_json
 from sequence_eval import summarize, predict_eight
-from sequence_objective import assert_replay_safe
+from sequence_objective import assert_replay_safe, PERMUTATIONS
 from models import build, predict
 from study import batch, atomic_torch
 from long_training_core import contiguous_loss
@@ -53,6 +53,9 @@ def step_bundle(net,items,divisor):
     predictions,logits=predict_bundle(net,items)
     loss,values,diagnostic=contiguous_loss(predictions,logits,items)
     (loss/divisor).backward()
+    count=int(items[0]['construction_count'][0])
+    diagnostic=dict(diagnostic,construction_count=count,
+        active_order_disagreement=len({PERMUTATIONS[j][:count] for j in diagnostic['local_indices']})>1)
     return values,diagnostic
 
 
@@ -69,7 +72,8 @@ class Run:
         _,total,added=ARCHITECTURES[architecture]
         # The next choice is made after all registered comparisons, not queued
         # in advance of evidence. This guard does not claim their success.
-        dependencies=(SEQUENCE,ROOT/'local/b99_on_c_20261013_v1',ROOT/'local/sequence_packets_20261013_v1')
+        dependencies=(SEQUENCE,ROOT/'local/b99_on_c_20261013_v1',ROOT/'local/sequence_packets_20261013_v1',
+                      ROOT/'local/full_context_parent_20261013_v1')
         assert all(read(d/'STATE.json')['status']=='COMPLETE_AUDITED' for d in dependencies)
         self.output.mkdir(parents=True,exist_ok=True)
         assert not (self.output/'PROTOCOL.json').exists()
@@ -248,6 +252,8 @@ class Run:
             long_merged={k:v for k,v in long['merged'].items() if k!='rows'},
             mean_training_loss=np.mean(losses,axis=0).tolist(),
             training_local_disagreement_fraction=float(np.mean([v['local_disagreement'] for v in diagnostics])),
+            training_active_order_disagreement_fraction=float(np.mean([v['active_order_disagreement'] for v in diagnostics])),
+            disagreement_definition='Active-order statistic excludes swaps solely between inactive slots; full-permutation statistic retained separately',
             checkpoint_sha256=sha256(cp),short_sha256=sha256(d/f'SHORT_{epoch:03d}.json'),
             long_sha256=sha256(d/f'LONG_{epoch:03d}.json'),initial_epoch=99,
             protocol_sha256=sha256(d/'PROTOCOL.json'),independent_recording_validation=False)

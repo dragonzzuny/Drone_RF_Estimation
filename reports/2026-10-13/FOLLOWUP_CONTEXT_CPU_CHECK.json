@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "synthetic_full_context_positions": 67,
+  "native_c_checks": [
+    {
+      "index": 4,
+      "count": 1,
+      "primary_observation_and_target_exact": true
+    },
+    {
+      "index": 0,
+      "count": 2,
+      "primary_observation_and_target_exact": true
+    },
+    {
+      "index": 3,
+      "count": 3,
+      "primary_observation_and_target_exact": true
+    }
+  ],
+  "model_inference": false,
+  "training": false,
+  "heldout_access": false,
+  "source_sha256": {
+    "test_followup_context.py": "9ca73d25844088c45c5b2927460f0ea8fdce27da583a3f8b5512eb69c0bffdab",
+    "evaluate_context_candidate.py": "6d8e49756a825916051ec8b755173403a871abff64b6264cd4e2c02cc5e295af"
+  }
+}

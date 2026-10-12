@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "method": "count_dictionary",
+      "count": 2,
+      "consistent_source_nmse": 0
+    },
+    {
+      "method": "slot_initialized_clusters",
+      "count": 2,
+      "consistent_source_nmse": 0
+    },
+    {
+      "method": "count_dictionary",
+      "count": 3,
+      "consistent_source_nmse": 0
+    },
+    {
+      "method": "slot_initialized_clusters",
+      "count": 3,
+      "consistent_source_nmse": 0
+    }
+  ],
+  "rf_evaluation": false,
+  "source_sha256": {
+    "test_spectral_routing_v2.py": "473024ee40e506907c1a690370225d146d6f0c2359334e32359aa2ee67d83f49",
+    "spectral_routing_v2.py": "5a54cc8daf5b93a4534132925c7a4b345208252be6ccab0af4896b8d6c4d85a6"
+  }
+}

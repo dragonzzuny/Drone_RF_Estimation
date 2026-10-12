@@ -1,0 +1,290 @@
+{
+  "status": "VERIFIED_SAVED_ROWS",
+  "parent_epoch": 99,
+  "pairs": [
+    {
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "cases": 54,
+      "parent99": {
+        "mean_nmse": 0.20164900614266973,
+        "median_nmse": 0.11499209110023074,
+        "mean_si_sdr": 8.226091114310302,
+        "undefined_si_sources": 0,
+        "weakest_nmse": 0.3482355231847317
+      },
+      "spectral": {
+        "mean_nmse": 0.25449362980059886,
+        "median_nmse": 0.16972222590578093,
+        "mean_si_sdr": 5.875479265952364,
+        "undefined_si_sources": 0,
+        "weakest_nmse": 0.41991299590179615
+      }
+    },
+    {
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "cases": 210,
+      "parent99": {
+        "mean_nmse": 0.38155737378499277,
+        "median_nmse": 0.2829489766812249,
+        "mean_si_sdr": 3.7962866918234153,
+        "undefined_si_sources": 0,
+        "weakest_nmse": 0.7223533809821682
+      },
+      "spectral": {
+        "mean_nmse": 2.5403645990748345,
+        "median_nmse": 0.4567589088332191,
+        "mean_si_sdr": -0.4213510208459083,
+        "undefined_si_sources": 0,
+        "weakest_nmse": 6.56052319561661
+      }
+    },
+    {
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "cases": 54,
+      "parent99": {
+        "mean_nmse": 0.2819270121473868,
+        "median_nmse": 0.11477374482617902,
+        "mean_si_sdr": 7.010401935485735,
+        "undefined_si_sources": 0,
+        "weakest_nmse": 0.5011880063540803
+      },
+      "spectral": {
+        "mean_nmse": 0.5668218654647995,
+        "median_nmse": 0.3757717220047627,
+        "mean_si_sdr": 0.4685285282640084,
+        "undefined_si_sources": 0,
+        "weakest_nmse": 0.9791237199257535
+      }
+    },
+    {
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "cases": 51,
+      "parent99": {
+        "mean_nmse": 0.15191803698611012,
+        "median_nmse": 0.03294440387449554,
+        "mean_si_sdr": 13.984780750604422,
+        "undefined_si_sources": 0,
+        "weakest_nmse": 0.23967145795705594
+      },
+      "spectral": {
+        "mean_nmse": 0.3300061594135511,
+        "median_nmse": 0.14187993422174366,
+        "mean_si_sdr": 9.256633129230462,
+        "undefined_si_sources": 0,
+        "weakest_nmse": 0.5475595881684809
+      }
+    },
+    {
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "cases": 51,
+      "parent99": {
+        "mean_nmse": 0.3959991593500593,
+        "median_nmse": 0.21980172170979873,
+        "mean_si_sdr": 5.800753985682784,
+        "undefined_si_sources": 0,
+        "weakest_nmse": 0.6731589124928158
+      },
+      "spectral": {
+        "mean_nmse": 0.32555039886505194,
+        "median_nmse": 0.07900347380128697,
+        "mean_si_sdr": null,
+        "undefined_si_sources": 22,
+        "weakest_nmse": 0.5791442771145592
+      }
+    }
+  ],
+  "activity": [
+    {
+      "count": 2,
+      "category": "DJI AVATA2",
+      "relative_power_below_point1": false,
+      "sources": 108,
+      "mean_nmse": 0.16191603501398644,
+      "spectral_mean_nmse": 0.2632739918722501,
+      "mean_relative_power": 0.9473852121818612
+    },
+    {
+      "count": 2,
+      "category": "DJI FPV COMBO",
+      "relative_power_below_point1": false,
+      "sources": 93,
+      "mean_nmse": 0.13388194642453033,
+      "spectral_mean_nmse": 0.2177770091912197,
+      "mean_relative_power": 1.2164438055355198
+    },
+    {
+      "count": 2,
+      "category": "DJI FPV COMBO",
+      "relative_power_below_point1": true,
+      "sources": 12,
+      "mean_nmse": 0.5731734710759652,
+      "spectral_mean_nmse": 1.092835860998986,
+      "mean_relative_power": 0.03541350481097829
+    },
+    {
+      "count": 2,
+      "category": "DJI MAVIC3 PRO",
+      "relative_power_below_point1": false,
+      "sources": 69,
+      "mean_nmse": 0.1457779750619381,
+      "spectral_mean_nmse": 0.34355581354828324,
+      "mean_relative_power": 1.5073642649796606
+    },
+    {
+      "count": 2,
+      "category": "DJI MAVIC3 PRO",
+      "relative_power_below_point1": true,
+      "sources": 36,
+      "mean_nmse": 0.5790870837981159,
+      "spectral_mean_nmse": 1.023790758473317,
+      "mean_relative_power": 0.02983397507370979
+    },
+    {
+      "count": 2,
+      "category": "DJI MINI3",
+      "relative_power_below_point1": false,
+      "sources": 18,
+      "mean_nmse": 0.37303472743647786,
+      "spectral_mean_nmse": 0.10707750627656878,
+      "mean_relative_power": 2.1967521281143267
+    },
+    {
+      "count": 2,
+      "category": "DJI MINI3",
+      "relative_power_below_point1": true,
+      "sources": 33,
+      "mean_nmse": 0.6665504767134994,
+      "spectral_mean_nmse": 0.703775397057191,
+      "mean_relative_power": 0.017642428143879788
+    },
+    {
+      "count": 2,
+      "category": "DJI MINI4 PRO",
+      "relative_power_below_point1": false,
+      "sources": 37,
+      "mean_nmse": 0.15497816788211516,
+      "spectral_mean_nmse": 0.04679308023322525,
+      "mean_relative_power": 1.8897351233598418
+    },
+    {
+      "count": 2,
+      "category": "DJI MINI4 PRO",
+      "relative_power_below_point1": true,
+      "sources": 14,
+      "mean_nmse": 0.4247808011904076,
+      "spectral_mean_nmse": 0.4516295356957444,
+      "mean_relative_power": 0.012581815748830575
+    },
+    {
+      "count": 3,
+      "category": "DJI AVATA2",
+      "relative_power_below_point1": false,
+      "sources": 210,
+      "mean_nmse": 0.3002979205907697,
+      "spectral_mean_nmse": 0.6022912097705247,
+      "mean_relative_power": 0.8861975874557584
+    },
+    {
+      "count": 3,
+      "category": "DJI FPV COMBO",
+      "relative_power_below_point1": false,
+      "sources": 179,
+      "mean_nmse": 0.2091451302589482,
+      "spectral_mean_nmse": 0.38979918619432985,
+      "mean_relative_power": 1.20564177158094
+    },
+    {
+      "count": 3,
+      "category": "DJI FPV COMBO",
+      "relative_power_below_point1": true,
+      "sources": 31,
+      "mean_nmse": 0.906358569558721,
+      "spectral_mean_nmse": 35.67739805487864,
+      "mean_relative_power": 0.02158308466028744
+    },
+    {
+      "count": 3,
+      "category": "DJI MAVIC3 PRO",
+      "relative_power_below_point1": false,
+      "sources": 134,
+      "mean_nmse": 0.32772896793441025,
+      "spectral_mean_nmse": 0.5774060434626118,
+      "mean_relative_power": 1.3001292914601204
+    },
+    {
+      "count": 3,
+      "category": "DJI MAVIC3 PRO",
+      "relative_power_below_point1": true,
+      "sources": 76,
+      "mean_nmse": 0.8930106116394837,
+      "spectral_mean_nmse": 2.9052992040963517,
+      "mean_relative_power": 0.03888230543619311
+    }
+  ],
+  "fit_psd_overlap": [
+    {
+      "common_receiver_center_hz": 2460000000,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "overlap_mass": 0.009369709176196188,
+      "cosine": 0.00420173771657957
+    },
+    {
+      "common_receiver_center_hz": 5780000000,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "overlap_mass": 0.14064714070747475,
+      "cosine": 0.24748226323296235
+    },
+    {
+      "common_receiver_center_hz": 5780000000,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "overlap_mass": 0.38826675437610736,
+      "cosine": 0.27419845969701767
+    },
+    {
+      "common_receiver_center_hz": 5780000000,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "overlap_mass": 0.08031617776043447,
+      "cosine": 0.10708192394330483
+    }
+  ],
+  "input_sha256": {
+    "local/timeblock_extend100_20261012_v1/VALIDATION_099.json": "5f6f0174e77eba1692ef070ec4e2237dd883e5fbb6d3eaef4af67668ac9ebba7",
+    "local/b_timeblock_spectral_20261013_v1/RESULT.json": "8cef30a6b6939ef38dac5e9746f1aceb74a78ab554668d8ecd8bcbc86fcad40f",
+    "local/b_timeblock_spectral_20261013_v1/TEMPLATES.json": "e4fd02e7ea244f3c1d453fe77de9542343bf08b0783a4e527f99cfedaf550267"
+  },
+  "new_inference": false,
+  "threshold_source": "Existing descriptive activity ratio0.1, not model threshold tuning",
+  "definitions": {
+    "overlap_mass": "Sum of minimum of two unit-sum FIT average PSDs, not per-window RF overlap",
+    "activity": "Local reference power / full20.8896ms nominal normalized source power; not noise-ground-truth"
+  },
+  "limitation": "One recording group per category; mixed nominal levels; posthoc descriptive, not causal or independent validation"
+}

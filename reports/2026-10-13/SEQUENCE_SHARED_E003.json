@@ -1,0 +1,80 @@
+{
+  "arm": "shared",
+  "epoch": 3,
+  "updates": 288,
+  "train_seconds": 887.0420582294464,
+  "evaluation_seconds": 413.6441752910614,
+  "short": {
+    "rows_sha256": "759b34102a0acddd260c050e9bdc88874c046529f12cde21cc974bfcd9358c95",
+    "by_count": [
+      {
+        "count": 1,
+        "cases": 210,
+        "mean_nmse": 0.0011681518057451786,
+        "mean_si_sdr": 39.052580931000335,
+        "weakest_nmse": 0.0011681518057451786,
+        "count_accuracy": 0.9952380952380953
+      },
+      {
+        "count": 2,
+        "cases": 210,
+        "mean_nmse": 0.30257559120575817,
+        "mean_si_sdr": 7.716839789202021,
+        "weakest_nmse": 0.5098395993430653,
+        "count_accuracy": 0.9714285714285714
+      },
+      {
+        "count": 3,
+        "cases": 210,
+        "mean_nmse": 0.436443709472039,
+        "mean_si_sdr": 2.6365509168094534,
+        "weakest_nmse": 0.7698174988182762,
+        "count_accuracy": 0.9666666666666667
+      }
+    ],
+    "selection_nmse": 0.3695096503388986
+  },
+  "long_merged": {
+    "by_count": [
+      {
+        "count": 1,
+        "cases": 5,
+        "mean_nmse": 0.0005562219173324518,
+        "mean_si_sdr": 40.88490933270727,
+        "weakest_nmse": 0.0005562219173324518,
+        "count_accuracy": 1.0
+      },
+      {
+        "count": 2,
+        "cases": 12,
+        "mean_nmse": 0.13654089245572487,
+        "mean_si_sdr": 12.403244914151552,
+        "weakest_nmse": 0.22248938014007288,
+        "count_accuracy": 1.0
+      },
+      {
+        "count": 3,
+        "cases": 7,
+        "mean_nmse": 0.42046996908820283,
+        "mean_si_sdr": 4.043937959382793,
+        "weakest_nmse": 0.7529591496045246,
+        "count_accuracy": 1.0
+      }
+    ],
+    "selection_nmse": 0.2785054307719639
+  },
+  "mean_training_loss": [
+    0.7698884316927332,
+    0.7698002194370019,
+    0.0008821398215121216
+  ],
+  "training_local_disagreement_fraction": 0.4114583333333333,
+  "training_shared_minus_local_loss": 0.34765100441306157,
+  "checkpoint_sha256": "7009cbf7ca0ffe17d145fec18738e682a777ffe390d3bb3bbcd11b3ce5c248b5",
+  "short_sha256": "baacc6a8f6890ae9ef7e13857539ff8a52f4089ee8e93c961faf0fa4eadac7c5",
+  "long_sha256": "a875977c96c48a79f35a0c74b634926d2e40004380fd6ab2acce1efa218cf4d3",
+  "protocol_sha256": "53a4ce65a1e630df39123dfebcbddb30961c078cbff935caa7f93f38f9c12c63",
+  "initial_epoch": 99,
+  "initial_checkpoint_sha256": "9339aeb132b68f9fb7f9897c065233866ec13d3ba7cea7afd01d5250488751ca",
+  "independent_recording_validation": false
+}

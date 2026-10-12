@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "synthetic_checks": [
+    {
+      "count": 2,
+      "method": "fit_dictionary",
+      "max_nmse": 0
+    },
+    {
+      "count": 2,
+      "method": "observation_clusters",
+      "max_nmse": 0
+    },
+    {
+      "count": 3,
+      "method": "fit_dictionary",
+      "max_nmse": 0
+    },
+    {
+      "count": 3,
+      "method": "observation_clusters",
+      "max_nmse": 0
+    }
+  ],
+  "rf_evaluation": false,
+  "source_sha256": {
+    "test_spectral_routing.py": "89cf14de788a40edd22b181256e6655587aa5f270fa0fbdf53acf2bf424df1ad",
+    "spectral_routing.py": "2cce2dceae6e2fb6ecec1606b360eb303c1d9a8a6e5f4e0965d10be160dfc45b"
+  }
+}

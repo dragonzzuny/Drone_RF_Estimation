@@ -1,0 +1,39 @@
+{
+  "status": "EXPORTED_AND_VISUALLY_REVIEWED",
+  "input_sha256": {
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/full_context_parent_20261013_v1/RESULT.json": "821da0a34daab8c39f4847c09b4885589cc2e334afce198e763ba37ed5289c0c"
+  },
+  "cases": 5,
+  "selection": "Every predeclared equal-power full context",
+  "size_inches": [
+    12,
+    11.5
+  ],
+  "png_dpi": 300,
+  "yscale": "symlog base10 linear threshold0.01; common limits per column; zeros retained",
+  "transformations": "Mean source NMSE per existing nonoverlapping window; activity divided by whole reference power; no smoothing",
+  "uncertainty": "None; same-record dependent development cases",
+  "matplotlib": "3.10.8",
+  "source_sha256": "9961a48d58393486bad2cb92fbf3d574a2267833dd9d6ddd17bd78178560847b",
+  "exports": {
+    "parent_full_context.pdf": "d5d010ccded0b9f06aa986c04ebb084ac3b2a79af1079e8f503598dd70d18f9b",
+    "parent_full_context.svg": "c8cd41bfabbcc391ce003f0012e27d99affba49aabf112cca005b6e20f28eb69",
+    "parent_full_context.png": "0ae5cb97358f36dec633f1f4d6a5cc3c1b21ec329b3e7ef7cfe6892060f6da52",
+    "parent_full_context.csv": "0983cd1067d8adc6600e73bf08d3011caf7ded6a54e432b2eb29ba980049f4d1",
+    "parent_full_context.md": "404a3ab0c13d49e29f4d0db3e362bd1266cb46a18c6bd999e13cef2d66082a00"
+  },
+  "alt_text": "Five-row figure of source reconstruction error and local reference power over20.89ms; whole-record versus local reference-based source matching.",
+  "visual_review": "All5cases visible; no clipped labels; consistent scales; data and caption included",
+  "pdf_pages": 1,
+  "pdf_points": [
+    864,
+    828
+  ],
+  "pdf_fonts": "Embedded CID TrueType DejaVu Sans and Bold",
+  "palette_background_contrast": {
+    "blue": 5.185,
+    "orange": 3.867,
+    "green": 3.421
+  },
+  "accessibility_certification": false
+}
