@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "frames": 500,
+      "maximum_span_frames": 236,
+      "central_span_frames": 236,
+      "max_waveform_support_us": 305.92,
+      "selected_position_autograd_checks": [
+        {
+          "index": 0,
+          "first": 0,
+          "last": 109
+        },
+        {
+          "index": 115,
+          "first": 2,
+          "last": 237
+        },
+        {
+          "index": 125,
+          "first": 18,
+          "last": 237
+        },
+        {
+          "index": 250,
+          "first": 130,
+          "last": 365
+        },
+        {
+          "index": 375,
+          "first": 258,
+          "last": 493
+        },
+        {
+          "index": 499,
+          "first": 386,
+          "last": 499
+        }
+      ]
+    },
+    {
+      "frames": 1498,
+      "maximum_span_frames": 236,
+      "central_span_frames": 220,
+      "max_waveform_support_us": 305.92,
+      "selected_position_autograd_checks": [
+        {
+          "index": 0,
+          "first": 0,
+          "last": 109
+        },
+        {
+          "index": 115,
+          "first": 2,
+          "last": 237
+        },
+        {
+          "index": 374,
+          "first": 258,
+          "last": 493
+        },
+        {
+          "index": 749,
+          "first": 642,
+          "last": 861
+        },
+        {
+          "index": 1123,
+          "first": 994,
+          "last": 1229
+        },
+        {
+          "index": 1497,
+          "first": 1378,
+          "last": 1497
+        }
+      ]
+    }
+  ],
+  "full_model_parameters": 32142859,
+  "backbone_source": "experiments/rfuav_dense_gated_20261008/vendor/drone_rf/model.py",
+  "backbone_sha256": "c97c64d315637c7799e59147ce37dfce910bdb6ff385c2733153720cfdf47105",
+  "excludes": [
+    "GroupNorm moments across frequency/time",
+    "Input RMS normalization",
+    "Long-context branch"
+  ],
+  "disclaimer": "Not the complete model receptive field or evidence of the cause of a particular error; STFT edge reflection ignored in sample-span conversion"
+}

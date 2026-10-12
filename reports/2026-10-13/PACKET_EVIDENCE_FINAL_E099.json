@@ -1,0 +1,176 @@
+{
+  "status": "VERIFIED",
+  "epoch": 99,
+  "stages": {
+    "C8_hann": {
+      "count": 2,
+      "nmse": [
+        0.30989954888174703,
+        0.3998677182344286
+      ],
+      "si_sdr": [
+        3.830173484823143,
+        2.0101297656187436
+      ],
+      "reference_power": [
+        0.25957283268681985,
+        0.208224299270361
+      ],
+      "weakest_index": 1,
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "sum_relative_error": 3.6829025104966556e-14,
+      "predicted_count": 2
+    },
+    "full_2ms_C8": {
+      "count": 2,
+      "nmse": [
+        0.6068570306585741,
+        0.7634478167715105
+      ],
+      "si_sdr": [
+        0.2710286398283742,
+        -4.842535942872383
+      ],
+      "reference_power": [
+        0.25957283268681985,
+        0.208224299270361
+      ],
+      "weakest_index": 1,
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "sum_relative_error": 3.7446468332179444e-14,
+      "predicted_count": 2
+    }
+  },
+  "packet": {
+    "epoch": 99,
+    "rows": [
+      {
+        "label": "reference_FPV",
+        "status": "crc_valid",
+        "device_types": [
+          "DJI FPV"
+        ],
+        "crc16": true,
+        "crc24": true,
+        "projection_coefficient_abs2": 1.0,
+        "projected_FPV_power_ratio_db": 0.0,
+        "channel_power_ratio_to_FPV_db": 0.0,
+        "seconds": 0.7963025569915771
+      },
+      {
+        "label": "reference_Mavic3Pro",
+        "status": "no_dual_zc",
+        "device_types": [],
+        "crc16": false,
+        "crc24": false,
+        "projection_coefficient_abs2": 3.0222488065900862e-05,
+        "projected_FPV_power_ratio_db": -45.19669785238163,
+        "channel_power_ratio_to_FPV_db": -3.494457016462689,
+        "seconds": 0.20195794105529785
+      },
+      {
+        "label": "mixture",
+        "status": "crc_valid",
+        "device_types": [
+          "DJI FPV"
+        ],
+        "crc16": true,
+        "crc24": true,
+        "projection_coefficient_abs2": 1.0073380902366078,
+        "projected_FPV_power_ratio_db": 0.03175256135725202,
+        "channel_power_ratio_to_FPV_db": 1.6273221533426665,
+        "seconds": 0.7821488380432129
+      },
+      {
+        "label": "output_0",
+        "status": "crc_invalid",
+        "device_types": [],
+        "crc16": false,
+        "crc24": false,
+        "projection_coefficient_abs2": 7.656170534232539e-05,
+        "projected_FPV_power_ratio_db": -41.15988401609044,
+        "channel_power_ratio_to_FPV_db": -36.14362746887939,
+        "seconds": 0.7753198146820068
+      },
+      {
+        "label": "output_1",
+        "status": "crc_valid",
+        "device_types": [
+          "DJI FPV"
+        ],
+        "crc16": true,
+        "crc24": true,
+        "projection_coefficient_abs2": 0.5518343540573383,
+        "projected_FPV_power_ratio_db": -2.5819126631947693,
+        "channel_power_ratio_to_FPV_db": -1.6965083009519857,
+        "seconds": 0.7732958793640137
+      },
+      {
+        "label": "output_2",
+        "status": "crc_valid",
+        "device_types": [
+          "DJI FPV"
+        ],
+        "crc16": true,
+        "crc24": true,
+        "projection_coefficient_abs2": 0.051710721676946174,
+        "projected_FPV_power_ratio_db": -12.864194011540881,
+        "channel_power_ratio_to_FPV_db": -4.144401930178635,
+        "seconds": 0.7745168209075928
+      },
+      {
+        "label": "background",
+        "status": "crc_valid",
+        "device_types": [
+          "DJI FPV"
+        ],
+        "crc16": true,
+        "crc24": true,
+        "projection_coefficient_abs2": 0.0006124250322733807,
+        "projected_FPV_power_ratio_db": -32.12947066249385,
+        "channel_power_ratio_to_FPV_db": -29.912691330318214,
+        "seconds": 0.7975196838378906
+      }
+    ]
+  },
+  "artifact_receipt": {
+    "status": "PASS",
+    "input_hashes_unchanged": true,
+    "artifacts": {
+      "ASSEMBLED.npz": "acdd27d0ece65d843d3b9ded55d0d8c6ed06bf6079b5b1cbb7c0214c4bd5f78f",
+      "RESULT.json": "f8ffd19ddcaaef13d49b041c0513f1b94c72b34638a19081b3b42c7338f49113",
+      "PLAN.json": "b6b30161ff053972bba0f839ce8ce7e25c539879d4ad2b8ba732c0d0d379f28f",
+      "INITIALIZATION.json": "05a63bae8f15123a28f534d076108d62df605f68ade41c4fb6b1f4b66da16b07"
+    }
+  },
+  "packet_receipt": {
+    "status": "PASS",
+    "epoch": 99,
+    "inputs": 7,
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "results_sha256": "603527cfea13719e8c4df2a935860d729922341df9cf279b0c5403b95f4c04d0",
+    "plan_sha256": "d8e1f931fc62c7a87281742b0677c0bf3349b2c63d50cdd44cba67ce84612d64",
+    "note": "CRC in mixture and duplicate outputs is not evidence of better detection or exclusive separation"
+  },
+  "evidence_scope": "Same previously exposed FPV/Mavic3Pro2ms development event",
+  "no_reference_in_receiver": true,
+  "no_model_training_in_diagnosis": true,
+  "caveats": [
+    "Mixture already decodes FPV; no detector gain claim",
+    "Duplicate output CRC is not exclusive separation",
+    "Reference-based projection coefficients diagnose leakage; not used for prediction",
+    "Not independent recording validation"
+  ]
+}

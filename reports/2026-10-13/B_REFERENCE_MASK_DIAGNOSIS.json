@@ -1,0 +1,57 @@
+{
+  "summary": [
+    {
+      "method": "oracle_power",
+      "count": 2,
+      "cases": 210,
+      "mean_nmse": 0.0999002736277093,
+      "mean_si_sdr": 16.281822436204866,
+      "undefined_si_sources": 0,
+      "weakest_nmse": 0.18023581713934744
+    },
+    {
+      "method": "oracle_power",
+      "count": 3,
+      "cases": 210,
+      "mean_nmse": 0.19880918130554492,
+      "mean_si_sdr": 8.734125704523258,
+      "undefined_si_sources": 0,
+      "weakest_nmse": 0.3990923427199971
+    },
+    {
+      "method": "oracle_phase_sensitive_simplex",
+      "count": 2,
+      "cases": 210,
+      "mean_nmse": 0.0774251824307676,
+      "mean_si_sdr": 17.73800758408699,
+      "undefined_si_sources": 0,
+      "weakest_nmse": 0.13906414103811945
+    },
+    {
+      "method": "oracle_phase_sensitive_simplex",
+      "count": 3,
+      "cases": 210,
+      "mean_nmse": 0.1542840930021915,
+      "mean_si_sdr": 10.5788232217476,
+      "undefined_si_sources": 0,
+      "weakest_nmse": 0.3057966580536013
+    }
+  ],
+  "reference_informed": true,
+  "deployable": false,
+  "limitation": "No waveform optimum, unrestricted complex estimator bound, or noise identifiability claim",
+  "audit": {
+    "status": "PASS",
+    "result_sha256": "cba7ae4e1089806c7da26e2a7c937d79cb0ee1ba4d86cfec7364bcb651649f8a",
+    "plan_sha256": "a7deeddda5ec6b59bcb747638802b65c7b93d8a6ed6e89cc061925c187bae4a4",
+    "rows": 420,
+    "checks": [
+      "Source hashes unchanged",
+      "Same B reference powers",
+      "STFT roundtrip",
+      "Masks nonnegative and sum to one",
+      "Waveform mixture sum",
+      "Simplex per-bin cost no greater than power mask"
+    ]
+  }
+}

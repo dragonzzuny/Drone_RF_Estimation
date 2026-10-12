@@ -1,0 +1,878 @@
+{
+  "status": "VERIFIED_SAVED_ROWS",
+  "base_epoch": 99,
+  "candidate": "mean96-100",
+  "base_sha256": "5f6f0174e77eba1692ef070ec4e2237dd883e5fbb6d3eaef4af67668ac9ebba7",
+  "candidate_sha256": "1b922bb4be709fc6b4548eb6d4ea5449087c5f83a8dcb1ebf17c9640f7b8fa73",
+  "audit": {
+    "status": "PASS",
+    "result_sha256": "55d85486ebb404b24fd40a466f4864b95422e428996625edf14faee11b234553",
+    "checkpoint_sha256": "f91fbc8f982bc5a02429b4063f9adc8e3a5e175274d3fe974ea6e0376dd6af6a",
+    "short_sha256": "1b922bb4be709fc6b4548eb6d4ea5449087c5f83a8dcb1ebf17c9640f7b8fa73",
+    "long_sha256": "c4e7e31d68c557f1ab667c55cf376850b7fd95690fb1a7406afb47818494eac2",
+    "protocol_sha256": "95bf869a30ebd257450ace211e2400f2a02d7ca6e2c36f6385289a6d5711b42e",
+    "source_epochs_audited": [
+      96,
+      97,
+      98,
+      99,
+      100
+    ],
+    "saved_row_aggregates_verified": true
+  },
+  "comparisons": [
+    {
+      "count": 1,
+      "group": "DJI AVATA2",
+      "sources": 42,
+      "base_nmse": {
+        "n": 42,
+        "mean": 0.00016742202014920617,
+        "median": 0.00016330113351214147,
+        "minimum": 0.00011933181397985097,
+        "maximum": 0.0002824323303434341
+      },
+      "candidate_nmse": {
+        "n": 42,
+        "mean": 0.00010292364002106566,
+        "median": 9.744864108013148e-05,
+        "minimum": 9.103878541812273e-05,
+        "maximum": 0.00017199592092529298
+      },
+      "nmse_change": {
+        "n": 42,
+        "mean": -6.449838012814052e-05,
+        "median": -6.087480477707119e-05,
+        "minimum": -0.0001104364094181411,
+        "maximum": -1.6201540015599352e-05
+      },
+      "si_change": {
+        "n": 42,
+        "mean": 0.6905029215654271,
+        "median": 0.5904832970366272,
+        "minimum": 0.22579271358119257,
+        "maximum": 1.998256502987907
+      },
+      "nmse_improved": 42,
+      "nmse_worsened": 0,
+      "both_improved": 42,
+      "both_worsened": 0
+    },
+    {
+      "count": 1,
+      "group": "DJI FPV COMBO",
+      "sources": 42,
+      "base_nmse": {
+        "n": 42,
+        "mean": 0.00022967552265626206,
+        "median": 0.00018326446509461596,
+        "minimum": 0.0001292077901552865,
+        "maximum": 0.0020501467114966876
+      },
+      "candidate_nmse": {
+        "n": 42,
+        "mean": 0.00015186536755804972,
+        "median": 0.00010945314087045118,
+        "minimum": 8.454190933005554e-05,
+        "maximum": 0.0019434503874502162
+      },
+      "nmse_change": {
+        "n": 42,
+        "mean": -7.781015509821232e-05,
+        "median": -7.440495902392419e-05,
+        "minimum": -0.00016212116920250716,
+        "maximum": -3.702655099967955e-05
+      },
+      "si_change": {
+        "n": 42,
+        "mean": 0.49703167509244955,
+        "median": 0.3930475932133284,
+        "minimum": -0.27903976754945603,
+        "maximum": 2.478280163431542
+      },
+      "nmse_improved": 42,
+      "nmse_worsened": 0,
+      "both_improved": 40,
+      "both_worsened": 0
+    },
+    {
+      "count": 1,
+      "group": "DJI MAVIC3 PRO",
+      "sources": 42,
+      "base_nmse": {
+        "n": 42,
+        "mean": 0.00019977178231143366,
+        "median": 0.00017746876692324075,
+        "minimum": 0.00011636592883147895,
+        "maximum": 0.0004775157200157974
+      },
+      "candidate_nmse": {
+        "n": 42,
+        "mean": 0.00013672036238630497,
+        "median": 0.00013100765837505628,
+        "minimum": 7.23782468979877e-05,
+        "maximum": 0.000313282255969788
+      },
+      "nmse_change": {
+        "n": 42,
+        "mean": -6.305141992512869e-05,
+        "median": -6.114813726956075e-05,
+        "minimum": -0.00016423346404600937,
+        "maximum": 8.112333011188358e-05
+      },
+      "si_change": {
+        "n": 42,
+        "mean": 0.8108668358176739,
+        "median": 0.7711251503284089,
+        "minimum": -0.9007970332954613,
+        "maximum": 2.1619524621873083
+      },
+      "nmse_improved": 41,
+      "nmse_worsened": 1,
+      "both_improved": 41,
+      "both_worsened": 1
+    },
+    {
+      "count": 1,
+      "group": "DJI MINI3",
+      "sources": 42,
+      "base_nmse": {
+        "n": 42,
+        "mean": 0.00035222459666349936,
+        "median": 0.00022515534543863185,
+        "minimum": 0.00010814616244242678,
+        "maximum": 0.0026302416702800257
+      },
+      "candidate_nmse": {
+        "n": 42,
+        "mean": 0.0012822141000639598,
+        "median": 0.00020445028556556944,
+        "minimum": 7.914264783622298e-05,
+        "maximum": 0.04178106954381172
+      },
+      "nmse_change": {
+        "n": 42,
+        "mean": 0.0009299895034004603,
+        "median": -1.8256554838027528e-05,
+        "minimum": -9.899847762555092e-05,
+        "maximum": 0.0391508278735317
+      },
+      "si_change": {
+        "n": 42,
+        "mean": -0.11831187155944525,
+        "median": -0.01335578546198235,
+        "minimum": -12.325090934348435,
+        "maximum": 2.157571809953069
+      },
+      "nmse_improved": 23,
+      "nmse_worsened": 19,
+      "both_improved": 14,
+      "both_worsened": 13
+    },
+    {
+      "count": 1,
+      "group": "DJI MINI4 PRO",
+      "sources": 42,
+      "base_nmse": {
+        "n": 42,
+        "mean": 0.0004086652704926809,
+        "median": 0.00027564219692140533,
+        "minimum": 0.00014033286223434697,
+        "maximum": 0.0020187480564849143
+      },
+      "candidate_nmse": {
+        "n": 42,
+        "mean": 0.0005460838243773806,
+        "median": 0.00042897864650699816,
+        "minimum": 0.00011899106737361632,
+        "maximum": 0.003693129567708383
+      },
+      "nmse_change": {
+        "n": 42,
+        "mean": 0.00013741855388469976,
+        "median": 8.055958965044234e-05,
+        "minimum": -9.3869601263842e-05,
+        "maximum": 0.002292965351627242
+      },
+      "si_change": {
+        "n": 42,
+        "mean": -0.22143199733866833,
+        "median": -0.12043374092210257,
+        "minimum": -5.181541355583235,
+        "maximum": 1.0391291035359984
+      },
+      "nmse_improved": 11,
+      "nmse_worsened": 31,
+      "both_improved": 10,
+      "both_worsened": 22
+    },
+    {
+      "count": 1,
+      "group": "all",
+      "sources": 210,
+      "base_nmse": {
+        "n": 210,
+        "mean": 0.0002715518384546164,
+        "median": 0.00019033256889709375,
+        "minimum": 0.00010814616244242678,
+        "maximum": 0.0026302416702800257
+      },
+      "candidate_nmse": {
+        "n": 210,
+        "mean": 0.0004439614588813521,
+        "median": 0.00011550244374477433,
+        "minimum": 7.23782468979877e-05,
+        "maximum": 0.04178106954381172
+      },
+      "nmse_change": {
+        "n": 210,
+        "mean": 0.00017240962042673573,
+        "median": -5.175409060588969e-05,
+        "minimum": -0.00016423346404600937,
+        "maximum": 0.0391508278735317
+      },
+      "si_change": {
+        "n": 210,
+        "mean": 0.3317315127154874,
+        "median": 0.3740156790012392,
+        "minimum": -12.325090934348435,
+        "maximum": 2.478280163431542
+      },
+      "nmse_improved": 159,
+      "nmse_worsened": 51,
+      "both_improved": 147,
+      "both_worsened": 36
+    },
+    {
+      "count": 1,
+      "group": "weakest",
+      "sources": 210,
+      "base_nmse": {
+        "n": 210,
+        "mean": 0.0002715518384546164,
+        "median": 0.00019033256889709375,
+        "minimum": 0.00010814616244242678,
+        "maximum": 0.0026302416702800257
+      },
+      "candidate_nmse": {
+        "n": 210,
+        "mean": 0.0004439614588813521,
+        "median": 0.00011550244374477433,
+        "minimum": 7.23782468979877e-05,
+        "maximum": 0.04178106954381172
+      },
+      "nmse_change": {
+        "n": 210,
+        "mean": 0.00017240962042673573,
+        "median": -5.175409060588969e-05,
+        "minimum": -0.00016423346404600937,
+        "maximum": 0.0391508278735317
+      },
+      "si_change": {
+        "n": 210,
+        "mean": 0.3317315127154874,
+        "median": 0.3740156790012392,
+        "minimum": -12.325090934348435,
+        "maximum": 2.478280163431542
+      },
+      "nmse_improved": 159,
+      "nmse_worsened": 51,
+      "both_improved": 147,
+      "both_worsened": 36
+    },
+    {
+      "count": 2,
+      "group": "DJI AVATA2",
+      "sources": 108,
+      "base_nmse": {
+        "n": 108,
+        "mean": 0.16191603501398644,
+        "median": 0.08321951819938678,
+        "minimum": 0.0003432234187941372,
+        "maximum": 0.9777900032191985
+      },
+      "candidate_nmse": {
+        "n": 108,
+        "mean": 0.1569109493371262,
+        "median": 0.0812774329449554,
+        "minimum": 0.000309530411332415,
+        "maximum": 0.9651365409023439
+      },
+      "nmse_change": {
+        "n": 108,
+        "mean": -0.005005085676860224,
+        "median": -0.0002928708724892091,
+        "minimum": -0.4977719499306288,
+        "maximum": 0.09113686756721726
+      },
+      "si_change": {
+        "n": 108,
+        "mean": 0.15653151799621395,
+        "median": 0.03533667351210301,
+        "minimum": -1.6924728395489197,
+        "maximum": 9.481432415910042
+      },
+      "nmse_improved": 75,
+      "nmse_worsened": 33,
+      "both_improved": 72,
+      "both_worsened": 22
+    },
+    {
+      "count": 2,
+      "group": "DJI FPV COMBO",
+      "sources": 105,
+      "base_nmse": {
+        "n": 105,
+        "mean": 0.18408669209898004,
+        "median": 0.05584224372342664,
+        "minimum": 0.000957758778836448,
+        "maximum": 0.9990091298708539
+      },
+      "candidate_nmse": {
+        "n": 105,
+        "mean": 0.184350342931208,
+        "median": 0.04806666675128662,
+        "minimum": 0.0009584346230952046,
+        "maximum": 0.9963169819252193
+      },
+      "nmse_change": {
+        "n": 105,
+        "mean": 0.0002636508322279714,
+        "median": -7.811918363496637e-05,
+        "minimum": -0.066678927000936,
+        "maximum": 0.07644810454540496
+      },
+      "si_change": {
+        "n": 105,
+        "mean": 0.1355773417809126,
+        "median": 0.010619448084970173,
+        "minimum": -2.070681849619941,
+        "maximum": 5.805394088357559
+      },
+      "nmse_improved": 66,
+      "nmse_worsened": 39,
+      "both_improved": 56,
+      "both_worsened": 32
+    },
+    {
+      "count": 2,
+      "group": "DJI MAVIC3 PRO",
+      "sources": 105,
+      "base_nmse": {
+        "n": 105,
+        "mean": 0.29434109805719905,
+        "median": 0.13657917174957965,
+        "minimum": 0.0013785106700373738,
+        "maximum": 1.0405694345183252
+      },
+      "candidate_nmse": {
+        "n": 105,
+        "mean": 0.2987206349242841,
+        "median": 0.14772336941083447,
+        "minimum": 0.0013383122818475751,
+        "maximum": 1.311990527216974
+      },
+      "nmse_change": {
+        "n": 105,
+        "mean": 0.004379536867085011,
+        "median": -0.00045016730797712255,
+        "minimum": -0.094338390727089,
+        "maximum": 0.3297118691483889
+      },
+      "si_change": {
+        "n": 105,
+        "mean": 0.2964443431183219,
+        "median": 0.08885375151592528,
+        "minimum": -9.900523140914402,
+        "maximum": 8.654585006646617
+      },
+      "nmse_improved": 68,
+      "nmse_worsened": 37,
+      "both_improved": 64,
+      "both_worsened": 22
+    },
+    {
+      "count": 2,
+      "group": "DJI MINI3",
+      "sources": 51,
+      "base_nmse": {
+        "n": 51,
+        "mean": 0.5629566828510213,
+        "median": 0.5056995874918703,
+        "minimum": 0.00045468637694315013,
+        "maximum": 1.5171639320921677
+      },
+      "candidate_nmse": {
+        "n": 51,
+        "mean": 0.5587864900119758,
+        "median": 0.5356598012934537,
+        "minimum": 0.0003282105945862608,
+        "maximum": 1.3280170245504628
+      },
+      "nmse_change": {
+        "n": 51,
+        "mean": -0.004170192839045482,
+        "median": -0.0016285727523287497,
+        "minimum": -0.4604631193173262,
+        "maximum": 0.6688015571010825
+      },
+      "si_change": {
+        "n": 51,
+        "mean": 0.3859122221201964,
+        "median": 0.0780824624994807,
+        "minimum": -14.915033599815498,
+        "maximum": 21.074422297289622
+      },
+      "nmse_improved": 31,
+      "nmse_worsened": 20,
+      "both_improved": 29,
+      "both_worsened": 20
+    },
+    {
+      "count": 2,
+      "group": "DJI MINI4 PRO",
+      "sources": 51,
+      "base_nmse": {
+        "n": 51,
+        "mean": 0.22904163584909742,
+        "median": 0.11627535686458396,
+        "minimum": 0.0010928210333049995,
+        "maximum": 1.088846444583726
+      },
+      "candidate_nmse": {
+        "n": 51,
+        "mean": 0.22226670110383603,
+        "median": 0.12075630298355808,
+        "minimum": 0.0010591917442189579,
+        "maximum": 0.9789111587083311
+      },
+      "nmse_change": {
+        "n": 51,
+        "mean": -0.0067749347452613655,
+        "median": 0.0009307724612009783,
+        "minimum": -0.28236041603762707,
+        "maximum": 0.2830224508710549
+      },
+      "si_change": {
+        "n": 51,
+        "mean": 0.04682838750058728,
+        "median": -0.11382333182121229,
+        "minimum": -13.77844816613661,
+        "maximum": 9.030877215092707
+      },
+      "nmse_improved": 22,
+      "nmse_worsened": 29,
+      "both_improved": 16,
+      "both_worsened": 28
+    },
+    {
+      "count": 2,
+      "group": "actual_SIR_at_least_minus20",
+      "sources": 386,
+      "base_nmse": {
+        "n": 386,
+        "mean": 0.2067159638990595,
+        "median": 0.08259571086570214,
+        "minimum": 0.0003432234187941372,
+        "maximum": 1.325006165998669
+      },
+      "candidate_nmse": {
+        "n": 386,
+        "mean": 0.20734167233757891,
+        "median": 0.08166148142903502,
+        "minimum": 0.000309530411332415,
+        "maximum": 1.311990527216974
+      },
+      "nmse_change": {
+        "n": 386,
+        "mean": 0.0006257084385194128,
+        "median": -0.00013635288736848524,
+        "minimum": -0.4977719499306288,
+        "maximum": 0.6688015571010825
+      },
+      "si_change": {
+        "n": 386,
+        "mean": 0.02963511543790412,
+        "median": 0.02088476155608099,
+        "minimum": -14.915033599815498,
+        "maximum": 21.074422297289622
+      },
+      "nmse_improved": 235,
+      "nmse_worsened": 151,
+      "both_improved": 211,
+      "both_worsened": 120
+    },
+    {
+      "count": 2,
+      "group": "actual_SIR_below_minus20",
+      "sources": 34,
+      "base_nmse": {
+        "n": 34,
+        "mean": 0.8329824098993656,
+        "median": 0.9670088249105233,
+        "minimum": 0.11627535686458396,
+        "maximum": 1.5171639320921677
+      },
+      "candidate_nmse": {
+        "n": 34,
+        "mean": 0.8079018361128601,
+        "median": 0.9549910871367315,
+        "minimum": 0.11097849357083694,
+        "maximum": 1.3280170245504628
+      },
+      "nmse_change": {
+        "n": 34,
+        "mean": -0.0250805737865054,
+        "median": -0.00813921908194215,
+        "minimum": -0.21339263728102176,
+        "maximum": 0.010869723344542503
+      },
+      "si_change": {
+        "n": 34,
+        "mean": 2.1440675702835206,
+        "median": 1.3784288556175683,
+        "minimum": -1.111204746343926,
+        "maximum": 9.030877215092707
+      },
+      "nmse_improved": 27,
+      "nmse_worsened": 7,
+      "both_improved": 26,
+      "both_worsened": 4
+    },
+    {
+      "count": 2,
+      "group": "all",
+      "sources": 420,
+      "base_nmse": {
+        "n": 420,
+        "mean": 0.25741372381336997,
+        "median": 0.10526767920708865,
+        "minimum": 0.0003432234187941372,
+        "maximum": 1.5171639320921677
+      },
+      "candidate_nmse": {
+        "n": 420,
+        "mean": 0.25595844750033975,
+        "median": 0.10423885196291385,
+        "minimum": 0.000309530411332415,
+        "maximum": 1.3280170245504628
+      },
+      "nmse_change": {
+        "n": 420,
+        "mean": -0.001455276313030215,
+        "median": -0.00018637087305757236,
+        "minimum": -0.4977719499306288,
+        "maximum": 0.6688015571010825
+      },
+      "si_change": {
+        "n": 420,
+        "mean": 0.2008034570206445,
+        "median": 0.027059394113753577,
+        "minimum": -14.915033599815498,
+        "maximum": 21.074422297289622
+      },
+      "nmse_improved": 262,
+      "nmse_worsened": 158,
+      "both_improved": 237,
+      "both_worsened": 124
+    },
+    {
+      "count": 2,
+      "group": "weakest",
+      "sources": 210,
+      "base_nmse": {
+        "n": 210,
+        "mean": 0.44011056899066336,
+        "median": 0.3385209348335951,
+        "minimum": 0.005046227796380894,
+        "maximum": 1.5171639320921677
+      },
+      "candidate_nmse": {
+        "n": 210,
+        "mean": 0.4375280948835156,
+        "median": 0.3397891699673501,
+        "minimum": 0.005792462281741434,
+        "maximum": 1.3280170245504628
+      },
+      "nmse_change": {
+        "n": 210,
+        "mean": -0.0025824741071477776,
+        "median": -0.0007466055681227199,
+        "minimum": -0.4977719499306288,
+        "maximum": 0.6688015571010825
+      },
+      "si_change": {
+        "n": 210,
+        "mean": 0.42483744522753714,
+        "median": 0.03201645082072391,
+        "minimum": -14.915033599815498,
+        "maximum": 21.074422297289622
+      },
+      "nmse_improved": 123,
+      "nmse_worsened": 87,
+      "both_improved": 112,
+      "both_worsened": 62
+    },
+    {
+      "count": 3,
+      "group": "DJI AVATA2",
+      "sources": 210,
+      "base_nmse": {
+        "n": 210,
+        "mean": 0.3002979205907697,
+        "median": 0.23431834133276114,
+        "minimum": 0.0021689982360366153,
+        "maximum": 1.6296284940535901
+      },
+      "candidate_nmse": {
+        "n": 210,
+        "mean": 0.3147329849206928,
+        "median": 0.22461104361183304,
+        "minimum": 0.002122446541276583,
+        "maximum": 1.6013895792365174
+      },
+      "nmse_change": {
+        "n": 210,
+        "mean": 0.014435064329923092,
+        "median": -0.00023833154228648963,
+        "minimum": -0.25837410934043703,
+        "maximum": 0.6074214905576261
+      },
+      "si_change": {
+        "n": 210,
+        "mean": 0.020832492468816025,
+        "median": 0.01848879528187619,
+        "minimum": -8.18404146492441,
+        "maximum": 9.532822156216524
+      },
+      "nmse_improved": 120,
+      "nmse_worsened": 90,
+      "both_improved": 107,
+      "both_worsened": 70
+    },
+    {
+      "count": 3,
+      "group": "DJI FPV COMBO",
+      "sources": 210,
+      "base_nmse": {
+        "n": 210,
+        "mean": 0.3120671141555813,
+        "median": 0.12832516179613915,
+        "minimum": 0.006321204763602709,
+        "maximum": 1.6197421483673178
+      },
+      "candidate_nmse": {
+        "n": 210,
+        "mean": 0.31276980419939554,
+        "median": 0.1303076494640331,
+        "minimum": 0.006274088395539691,
+        "maximum": 1.4143157975980638
+      },
+      "nmse_change": {
+        "n": 210,
+        "mean": 0.0007026900438141911,
+        "median": -0.0002748772458278474,
+        "minimum": -0.3945632519926839,
+        "maximum": 0.579260180873637
+      },
+      "si_change": {
+        "n": 210,
+        "mean": 0.02044914363856377,
+        "median": 0.01060327897448854,
+        "minimum": -20.359640828450747,
+        "maximum": 13.6116279266312
+      },
+      "nmse_improved": 133,
+      "nmse_worsened": 77,
+      "both_improved": 112,
+      "both_worsened": 67
+    },
+    {
+      "count": 3,
+      "group": "DJI MAVIC3 PRO",
+      "sources": 210,
+      "base_nmse": {
+        "n": 210,
+        "mean": 0.5323070866086272,
+        "median": 0.4775109305777705,
+        "minimum": 0.0023145115258613744,
+        "maximum": 1.3592156941828812
+      },
+      "candidate_nmse": {
+        "n": 210,
+        "mean": 0.522969452316938,
+        "median": 0.4860774946010946,
+        "minimum": 0.0022729425769383994,
+        "maximum": 1.2402519927071158
+      },
+      "nmse_change": {
+        "n": 210,
+        "mean": -0.009337634291689226,
+        "median": 0.0002038173131411955,
+        "minimum": -0.37622183791723873,
+        "maximum": 0.553720733916144
+      },
+      "si_change": {
+        "n": 210,
+        "mean": 1.0692136371537908,
+        "median": 0.15486379353168633,
+        "minimum": -6.753672626852456,
+        "maximum": 16.514390958237357
+      },
+      "nmse_improved": 93,
+      "nmse_worsened": 117,
+      "both_improved": 87,
+      "both_worsened": 48
+    },
+    {
+      "count": 3,
+      "group": "actual_SIR_at_least_minus20",
+      "sources": 567,
+      "base_nmse": {
+        "n": 567,
+        "mean": 0.31570872585333404,
+        "median": 0.23004244709121502,
+        "minimum": 0.0021689982360366153,
+        "maximum": 1.6296284940535901
+      },
+      "candidate_nmse": {
+        "n": 567,
+        "mean": 0.31995001614638413,
+        "median": 0.21888744891322848,
+        "minimum": 0.002122446541276583,
+        "maximum": 1.6013895792365174
+      },
+      "nmse_change": {
+        "n": 567,
+        "mean": 0.00424129029305009,
+        "median": -0.00012068357715588895,
+        "minimum": -0.3945632519926839,
+        "maximum": 0.6074214905576261
+      },
+      "si_change": {
+        "n": 567,
+        "mean": 0.24790726363030846,
+        "median": 0.024580522984674502,
+        "minimum": -8.18404146492441,
+        "maximum": 11.52930220675441
+      },
+      "nmse_improved": 303,
+      "nmse_worsened": 264,
+      "both_improved": 267,
+      "both_worsened": 176
+    },
+    {
+      "count": 3,
+      "group": "actual_SIR_below_minus20",
+      "sources": 63,
+      "base_nmse": {
+        "n": 63,
+        "mean": 0.9741952051699215,
+        "median": 0.9975662503781387,
+        "minimum": 0.48207052353443874,
+        "maximum": 1.6197421483673178
+      },
+      "candidate_nmse": {
+        "n": 63,
+        "mean": 0.9553573261392976,
+        "median": 0.9924792544242178,
+        "minimum": 0.49719832231173633,
+        "maximum": 1.4143157975980638
+      },
+      "nmse_change": {
+        "n": 63,
+        "mean": -0.018837879030623957,
+        "median": -0.0054375306950110724,
+        "minimum": -0.20542635076925397,
+        "maximum": 0.12941544756301515
+      },
+      "si_change": {
+        "n": 63,
+        "mean": 1.4704855381977928,
+        "median": 0.9099478026290111,
+        "minimum": -20.359640828450747,
+        "maximum": 16.514390958237357
+      },
+      "nmse_improved": 43,
+      "nmse_worsened": 20,
+      "both_improved": 39,
+      "both_worsened": 9
+    },
+    {
+      "count": 3,
+      "group": "all",
+      "sources": 630,
+      "base_nmse": {
+        "n": 630,
+        "mean": 0.38155737378499277,
+        "median": 0.2829489766812249,
+        "minimum": 0.0021689982360366153,
+        "maximum": 1.6296284940535901
+      },
+      "candidate_nmse": {
+        "n": 630,
+        "mean": 0.38349074714567544,
+        "median": 0.2847446531196569,
+        "minimum": 0.002122446541276583,
+        "maximum": 1.6013895792365174
+      },
+      "nmse_change": {
+        "n": 630,
+        "mean": 0.0019333733606826855,
+        "median": -0.00016404043910248512,
+        "minimum": -0.3945632519926839,
+        "maximum": 0.6074214905576261
+      },
+      "si_change": {
+        "n": 630,
+        "mean": 0.3701650910870569,
+        "median": 0.0325151972742731,
+        "minimum": -20.359640828450747,
+        "maximum": 16.514390958237357
+      },
+      "nmse_improved": 346,
+      "nmse_worsened": 284,
+      "both_improved": 306,
+      "both_worsened": 185
+    },
+    {
+      "count": 3,
+      "group": "weakest",
+      "sources": 210,
+      "base_nmse": {
+        "n": 210,
+        "mean": 0.7223533809821682,
+        "median": 0.7035932444574285,
+        "minimum": 0.09661405374790795,
+        "maximum": 1.6197421483673178
+      },
+      "candidate_nmse": {
+        "n": 210,
+        "mean": 0.7223815583525701,
+        "median": 0.6952950802627589,
+        "minimum": 0.09719985558433064,
+        "maximum": 1.4143157975980638
+      },
+      "nmse_change": {
+        "n": 210,
+        "mean": 2.8177370401906102e-05,
+        "median": 0.001824688215277176,
+        "minimum": -0.3945632519926839,
+        "maximum": 0.4490894844694401
+      },
+      "si_change": {
+        "n": 210,
+        "mean": 0.9678315856025783,
+        "median": 0.21603677887327766,
+        "minimum": -20.359640828450747,
+        "maximum": 16.514390958237357
+      },
+      "nmse_improved": 88,
+      "nmse_worsened": 122,
+      "both_improved": 84,
+      "both_worsened": 53
+    }
+  ],
+  "independent_recording_validation": false,
+  "inferential_statistics": false
+}

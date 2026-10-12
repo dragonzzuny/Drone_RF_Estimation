@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "parameters": 35820299,
+  "added_parameters": 3677440,
+  "parent_output_max_difference": 0.0,
+  "first_projection_gradient_norm": 0.00022733688820153475,
+  "second_adapter_encoder_gradient_norm": 1.9236799653210568e-10,
+  "checkpointed": true,
+  "dilations": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "backbone_widths": [
+    64,
+    128,
+    256,
+    512,
+    1024
+  ],
+  "gpu_preflight": "NOT_RUN",
+  "rf_training_updates": 0,
+  "synthetic_weights_discarded": true,
+  "note": "Only synthetic identity/gradient checks; no candidate training registered or queued"
+}

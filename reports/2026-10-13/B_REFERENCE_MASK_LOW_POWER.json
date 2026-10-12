@@ -1,0 +1,46 @@
+{
+  "reference_informed": true,
+  "deployable": false,
+  "strata": [
+    {
+      "count": 2,
+      "actual_sir_below_minus20": true,
+      "sources": 34,
+      "mean_nmse_unet_power_simplex": [
+        0.8022720330718056,
+        0.3862307489172496,
+        0.27924514880309986
+      ]
+    },
+    {
+      "count": 2,
+      "actual_sir_below_minus20": false,
+      "sources": 386,
+      "mean_nmse_unet_power_simplex": [
+        0.2040409779935076,
+        0.07467945456075499,
+        0.059648294201080275
+      ]
+    },
+    {
+      "count": 3,
+      "actual_sir_below_minus20": true,
+      "sources": 63,
+      "mean_nmse_unet_power_simplex": [
+        0.9618148834227023,
+        0.7120235636239218,
+        0.5264803936386857
+      ]
+    },
+    {
+      "count": 3,
+      "actual_sir_below_minus20": false,
+      "sources": 567,
+      "mean_nmse_unet_power_simplex": [
+        0.3236296270755759,
+        0.14178536104794737,
+        0.1129289484870254
+      ]
+    }
+  ]
+}
