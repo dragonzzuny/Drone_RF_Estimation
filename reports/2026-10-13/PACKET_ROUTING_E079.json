@@ -1,0 +1,409 @@
+{
+  "status": "COMPLETE_VERIFIED",
+  "epoch": 79,
+  "reference_event": "Previously exposed B FPV/Mavic3Pro 2ms development event",
+  "reproduction_max_sample_difference": 0.0,
+  "stage_metrics": {
+    "raw_hann": {
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "nmse": [
+        0.386624467082945,
+        0.5322683948985107
+      ],
+      "si_sdr": [
+        2.0043972806392443,
+        -0.5602935395931408
+      ],
+      "sum_relative_error": 0.6867236067579375
+    },
+    "raw_uniform": {
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "nmse": [
+        0.38436281128240124,
+        0.5221228323641685
+      ],
+      "si_sdr": [
+        2.0465924366077943,
+        -0.38440629024690975
+      ],
+      "sum_relative_error": 0.6879063009203076
+    },
+    "zero_hann": {
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "nmse": [
+        0.32154628259193657,
+        0.4064386467532129
+      ],
+      "si_sdr": [
+        3.626284720837782,
+        1.8563547583188678
+      ],
+      "sum_relative_error": 1.0786415491018223e-14
+    },
+    "zero_uniform": {
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "nmse": [
+        0.31647926009623634,
+        0.3988076473629227
+      ],
+      "si_sdr": [
+        3.691960095141909,
+        1.9850527799739948
+      ],
+      "sum_relative_error": 8.461478579691486e-15
+    },
+    "C4_hann": {
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "nmse": [
+        0.3133621301672817,
+        0.39624125387651
+      ],
+      "si_sdr": [
+        3.752662124891864,
+        2.031054623994699
+      ],
+      "sum_relative_error": 9.297266864560282e-15
+    },
+    "C4_uniform": {
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "nmse": [
+        0.3119518186147682,
+        0.3930390518774111
+      ],
+      "si_sdr": [
+        3.763628877848459,
+        2.0875124826261953
+      ],
+      "sum_relative_error": 7.427540288313243e-15
+    },
+    "C8_hann": {
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "nmse": [
+        0.3119111350972185,
+        0.39441558283260897
+      ],
+      "si_sdr": [
+        3.775659635021288,
+        2.063061009341716
+      ],
+      "sum_relative_error": 9.189397254858103e-15
+    },
+    "C8_uniform": {
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "nmse": [
+        0.3109996132590948,
+        0.39178877559506436
+      ],
+      "si_sdr": [
+        3.779042243609269,
+        2.1105696185105094
+      ],
+      "sum_relative_error": 7.608648146384235e-15
+    }
+  },
+  "waveform_length_samples": 200000,
+  "fs_hz": 100000000,
+  "within_window_FPV_dominant_slot": {
+    "0": {
+      "raw": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "zero": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "C8": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "1": {
+      "raw": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "zero": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "C8": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "2": {
+      "raw": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "zero": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "C8": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "3": {
+      "raw": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "zero": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "C8": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "4": {
+      "raw": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "zero": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "C8": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "5": {
+      "raw": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "zero": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "C8": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "6": {
+      "raw": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "zero": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "C8": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "7": {
+      "raw": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "zero": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "C8": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ]
+    }
+  },
+  "artifact_sha256": {
+    "PLAN.json": "b6e5a6db2d3fe4617906166696a03e0b4d8a22237ef7be86bbb1cb0c173ebd1b",
+    "RESULT.json": "b0d1d3586123384eb7279e199de452d3d104b273878f772d7b4acf69c7d61e6b",
+    "WINDOWS.json": "44986c6ab59bbfacb3b81d66e85a2036dc4602c0e403d7ae0332406d3a7c0606",
+    "VERIFICATION.json": "63202ebf31758195de4f1d7656bdb8633090ead514be30add15bb7f339d15454"
+  },
+  "diagnosis": "Within-window source-role changes exist before equal projection, phase averaging and overlap assembly; causal remedy remains untested",
+  "caveats": [
+    "One adaptively examined development event",
+    "Joint reference LS coefficients are not additive power fractions",
+    "Unprojected common mode is unidentifiable; pre/post metrics are not an isolated causal ablation",
+    "Low-activity blocks require separate interpretation"
+  ]
+}

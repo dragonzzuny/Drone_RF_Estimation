@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "parent_epoch": 50,
+  "updates": 3750,
+  "next_epoch": 51,
+  "total_epochs": 100,
+  "parent_last_sha256": "85a4491d24b935c66675d322a9c771330b4f1247f6c9868b840d978607859cf1",
+  "parent_best_sha256": "a5d0b5d3923c11aa176387166c2f241c26af47e0898a98cd1494f23bfe8d51d8",
+  "parent_epoch_event_sha256": "fd5aee335be7c8364d0b2b202fcc81468011b0e68110f11d442965b77d635a6f",
+  "optimizer_model_scheduler_rng_exact": true,
+  "optimizer_step": 3750,
+  "learning_rate": 5e-05,
+  "best": {
+    "epoch": 49,
+    "metric": 0.3709628229328654
+  },
+  "parent_protocol_sha256": "7e47150ba3dbbdf56cb877948a33c94d82dd86b3b9926ebbc13f6bc297116aa8",
+  "protocol_sha256": "998bff5214e1a4de1b6232c15df61bfef4143aa6ee3694a2c2430a25e20f3a3f"
+}
