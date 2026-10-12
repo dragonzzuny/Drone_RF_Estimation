@@ -1,0 +1,56 @@
+{
+  "status": "STATIC_CODE_VERIFIED",
+  "receiver_fs_hz": 15360000,
+  "receiver_fft_samples": 1024,
+  "formats": [
+    {
+      "name": "CP_LENGTHS",
+      "symbols": 9,
+      "cp_samples": [
+        80,
+        72,
+        72,
+        72,
+        72,
+        72,
+        72,
+        72,
+        80
+      ],
+      "total_samples_at_receiver_rate": 9880,
+      "duration_ms": 0.6432291666666666
+    },
+    {
+      "name": "CP_LENGTHS_legacy",
+      "symbols": 8,
+      "cp_samples": [
+        80,
+        72,
+        72,
+        72,
+        72,
+        72,
+        72,
+        80
+      ],
+      "total_samples_at_receiver_rate": 8784,
+      "duration_ms": 0.571875
+    }
+  ],
+  "model_fs_hz": 100000000,
+  "model_window_samples": 63872,
+  "model_window_ms": 0.63872,
+  "candidate_window_ms": 1.91616,
+  "local_convolution_support_ms": 0.30592,
+  "local_support_excludes": [
+    "GroupNorm global statistics",
+    "input RMS",
+    "auxiliary long context"
+  ],
+  "helper_sha256": "a8ed106ffe705f1ce232da21662db8211229ba3e667fe940ba5321aed16ae447",
+  "receiver_sha256": "393454a750656c4c128c4c06326f6ec3c7e3eb5b54bab0bde2139fd5ad65dab5",
+  "waveform_access": false,
+  "causality_established": false,
+  "specific_event_format_determined": false,
+  "interpretation": "Receiver format lengths motivate a longer-input hypothesis; full-frame context is not proven necessary for separation"
+}

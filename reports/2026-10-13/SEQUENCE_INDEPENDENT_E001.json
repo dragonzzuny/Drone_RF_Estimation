@@ -1,0 +1,80 @@
+{
+  "arm": "independent",
+  "epoch": 1,
+  "updates": 96,
+  "train_seconds": 880.9439661502838,
+  "evaluation_seconds": 413.75139236450195,
+  "short": {
+    "rows_sha256": "759b34102a0acddd260c050e9bdc88874c046529f12cde21cc974bfcd9358c95",
+    "by_count": [
+      {
+        "count": 1,
+        "cases": 210,
+        "mean_nmse": 0.0003403588788573769,
+        "mean_si_sdr": 38.415816295776956,
+        "weakest_nmse": 0.0003403588788573769,
+        "count_accuracy": 0.9952380952380953
+      },
+      {
+        "count": 2,
+        "cases": 210,
+        "mean_nmse": 0.25557308169835247,
+        "mean_si_sdr": 8.845797397395271,
+        "weakest_nmse": 0.43602494483580717,
+        "count_accuracy": 0.9714285714285714
+      },
+      {
+        "count": 3,
+        "cases": 210,
+        "mean_nmse": 0.3751100392501053,
+        "mean_si_sdr": 3.757907856244144,
+        "weakest_nmse": 0.7059636673214387,
+        "count_accuracy": 0.9666666666666667
+      }
+    ],
+    "selection_nmse": 0.3153415604742289
+  },
+  "long_merged": {
+    "by_count": [
+      {
+        "count": 1,
+        "cases": 5,
+        "mean_nmse": 0.0001376760479609768,
+        "mean_si_sdr": 39.85500819643878,
+        "weakest_nmse": 0.0001376760479609768,
+        "count_accuracy": 1.0
+      },
+      {
+        "count": 2,
+        "cases": 12,
+        "mean_nmse": 0.10675974148942968,
+        "mean_si_sdr": 13.02357285610073,
+        "weakest_nmse": 0.17805611061921564,
+        "count_accuracy": 1.0
+      },
+      {
+        "count": 3,
+        "cases": 7,
+        "mean_nmse": 0.3381100102032442,
+        "mean_si_sdr": 4.327509780725343,
+        "weakest_nmse": 0.6037303420892172,
+        "count_accuracy": 1.0
+      }
+    ],
+    "selection_nmse": 0.22243487584633695
+  },
+  "mean_training_loss": [
+    0.3537075102300567,
+    0.35216853439098056,
+    0.0153897589646211
+  ],
+  "training_local_disagreement_fraction": 0.52734375,
+  "training_shared_minus_local_loss": 0.5702726188905748,
+  "checkpoint_sha256": "da699468aaa835cdfc46998199312edaa23d7015b30cf080b7f9df58e3f1e443",
+  "short_sha256": "53e6aa658cb2ebd0e21bea277b814ee286d5358ecab29a918e352e0375c9c60a",
+  "long_sha256": "56106c4c3340d7efdfb67bd3f45944591722428db73189106f22806319c6bbca",
+  "protocol_sha256": "53a4ce65a1e630df39123dfebcbddb30961c078cbff935caa7f93f38f9c12c63",
+  "initial_epoch": 99,
+  "initial_checkpoint_sha256": "9339aeb132b68f9fb7f9897c065233866ec13d3ba7cea7afd01d5250488751ca",
+  "independent_recording_validation": false
+}

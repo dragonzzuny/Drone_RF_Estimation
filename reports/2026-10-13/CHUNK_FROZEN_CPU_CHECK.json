@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "synthetic_steps": 2,
+  "rf_training_updates": 0,
+  "weights_discarded": true,
+  "total_parameters": 35820299,
+  "trainable_parameters": 3677440,
+  "frozen_tensors": 131,
+  "rows": [
+    {
+      "step": 1,
+      "reduce_gradient": 0.0,
+      "expand_gradient": 0.00017984681471716613,
+      "gradient_norm": 0.00019118966883979738
+    },
+    {
+      "step": 2,
+      "reduce_gradient": 2.128386313415831e-06,
+      "expand_gradient": 0.00017979090625885874,
+      "gradient_norm": 0.00019114220049232244
+    }
+  ],
+  "checks": [
+    "Every parent tensor exactly unchanged",
+    "Only adapter optimizer states",
+    "Adapter input gradient nonzero after first step"
+  ],
+  "source_sha256": {
+    "test_chunk_frozen.py": "775c6b9716321b2b2a187408aeebf7e0f5537a4bbbd8257229a77f6d2a365cab",
+    "chunk_temporal_candidate.py": "4254ac2cae0034dcede5e214a6055a145823470d3156c27fbc3daa9b784186ce"
+  }
+}

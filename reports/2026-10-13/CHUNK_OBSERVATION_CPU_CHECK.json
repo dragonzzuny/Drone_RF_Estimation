@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "primary_cases": 630,
+  "long_targets": 120,
+  "boundary_cases": [
+    {
+      "start": 0,
+      "first": 0,
+      "primary": 0
+    },
+    {
+      "start": 63871,
+      "first": 63871,
+      "primary": 0
+    },
+    {
+      "start": 63872,
+      "first": 0,
+      "primary": 1
+    },
+    {
+      "start": 1961216,
+      "first": 1897344,
+      "primary": 1
+    },
+    {
+      "start": 1961217,
+      "first": 1833473,
+      "primary": 2
+    },
+    {
+      "start": 2025088,
+      "first": 1897344,
+      "primary": 2
+    }
+  ],
+  "primary_position_counts": {
+    "0": 19,
+    "1": 585,
+    "2": 26
+  },
+  "assertions": [
+    "All primary input samples exactly retained",
+    "Targets/context features exactly retained",
+    "All neighbouring inputs within original admitted context",
+    "Same native offsets and whole-context gains"
+  ],
+  "source_sha256": {
+    "test_chunk_observations.py": "1a773301073d5b9acdb4ccf0e1af43cc09fce3429084fab2320a2206a114616e",
+    "chunk_evaluation.py": "f8da63c09120d025d2b3798a48bc660271cb6181a4822bc63b2a1ddca95e1560"
+  },
+  "training_or_model_inference": false,
+  "heldout_access": false
+}

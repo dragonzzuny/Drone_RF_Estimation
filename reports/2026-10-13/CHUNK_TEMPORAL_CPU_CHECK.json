@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "parameters": 35820299,
+  "initial_chunk_output_difference": 0.0,
+  "parent_gradient_max_difference": 2.980232238769531e-07,
+  "synthetic_cross_chunk_effect": 4.086241006007185e-06,
+  "backbone_widths": [
+    64,
+    128,
+    256,
+    512,
+    1024
+  ],
+  "synthetic_weights_discarded": true,
+  "rf_training_updates": 0,
+  "gpu_preflight": "NOT_RUN",
+  "note": "Full parameter capacity, small synthetic STFTs for algebra; not a downsized training experiment"
+}
