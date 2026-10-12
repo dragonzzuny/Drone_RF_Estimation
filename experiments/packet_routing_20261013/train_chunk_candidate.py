@@ -25,22 +25,26 @@ from long_training_core import contiguous_loss
 from checkpoint_blocks import enable_checkpointing
 from chunk_temporal_candidate import ChunkTemporalUNet, predict_bundle, predict_primary
 from chunk_evaluation import short_eval, long_eval, Mixtures, add_neighbours
+from dual_context_candidate import DualContextUNet, ADDED_PREFIXES
 
 HERE=Path(__file__).resolve().parent
 PARENT=ROOT/'local/timeblock_extend100_20261012_v1'
 LOCK=ROOT.parent/'uav_analysis/rf_detection/deep_nmf_drone_20260929/drff_v91_candidates/neural_queue.lock'
 STOP=False
+ARCHITECTURES={'chunk_temporal':(ChunkTemporalUNet,35820299,3677440),
+               'dual_context':(DualContextUNet,36554507,4411648)}
 
 
-def load(path, device, scope='all'):
+def load(path, device, architecture, scope):
     saved=torch.load(path,map_location='cpu',weights_only=False,mmap=True)
-    torch.manual_seed(0);net=ChunkTemporalUNet()
+    factory,total,added=ARCHITECTURES[architecture]
+    torch.manual_seed(0);net=factory()
     if any(k.startswith('gates.') for k in saved['model']):net.load_state_dict(saved['model'])
     else:net.initialize_parent(saved['model'])
-    assert sum(p.numel() for p in net.parameters())==35820299
-    if scope not in ('all','gates'):raise ValueError('Explicit all/gates optimization scope required')
-    for name,p in net.named_parameters():p.requires_grad_(scope=='all' or name.startswith('gates.'))
-    assert sum(p.numel() for p in net.parameters() if p.requires_grad)==(35820299 if scope=='all' else 3677440)
+    assert sum(p.numel() for p in net.parameters())==total
+    if scope not in ('all','added'):raise ValueError('Explicit all/added optimization scope required')
+    for name,p in net.named_parameters():p.requires_grad_(scope=='all' or name.startswith(ADDED_PREFIXES))
+    assert sum(p.numel() for p in net.parameters() if p.requires_grad)==(total if scope=='all' else added)
     assert_replay_safe(net);enable_checkpointing(net)
     return net.to(device),saved
 
@@ -58,9 +62,11 @@ class Run:
     def state(self,status,**kw):
         write_json(self.output/'STATE.json',dict(status=status,pid=os.getpid(),time=time.time(),**kw))
 
-    def register(self,plan,scope):
+    def register(self,plan,scope,architecture,learning_rate):
         assert plan.is_file()
-        assert scope in ('all','gates')
+        assert scope in ('all','added') and architecture in ARCHITECTURES
+        assert learning_rate is not None and 0 < learning_rate <= 1e-3
+        _,total,added=ARCHITECTURES[architecture]
         # The next choice is made after all registered comparisons, not queued
         # in advance of evidence. This guard does not claim their success.
         dependencies=(SEQUENCE,ROOT/'local/b99_on_c_20261013_v1',ROOT/'local/sequence_packets_20261013_v1')
@@ -70,7 +76,8 @@ class Run:
         sources=set(read(SEQUENCE/'PROTOCOL.json')['source_sha256'])
         for name in ('train_chunk_candidate.py','chunk_temporal_candidate.py','chunk_evaluation.py',
                      'long_temporal_candidate.py','long_training_core.py','checkpoint_blocks.py',
-                     'test_chunk_temporal_candidate.py','test_chunk_observations.py','test_chunk_frozen.py','test_long_objective.py'):
+                     'test_chunk_temporal_candidate.py','test_chunk_observations.py','test_chunk_frozen.py','test_long_objective.py',
+                     'dual_context_candidate.py','test_dual_context.py','test_selective_decode.py'):
             sources.add(str((HERE/name).relative_to(ROOT)))
         sources.add(str(plan.resolve().relative_to(ROOT)))
         hashes={name:sha256(ROOT/name) for name in sorted(sources)}
@@ -79,14 +86,14 @@ class Run:
         assert parent['best']['epoch']==99
         checkpoint=PARENT/'ACTUAL_099.pt'
         assert sha256(checkpoint)==read(PARENT/'EPOCH_099.json')['checkpoint_sha256']
-        protocol=dict(registered=time.time(),architecture='chunk_temporal',source_sha256=hashes,
+        protocol=dict(registered=time.time(),architecture=architecture,source_sha256=hashes,
             sequence_protocol_sha256=sha256(SEQUENCE/'PROTOCOL.json'),
             data_plan_sha256=sha256(SEQUENCE/'DATA_PLAN.json'),
             initialization=dict(epoch=99,checkpoint=str(checkpoint),checkpoint_sha256=sha256(checkpoint)),
             epochs=3,updates_per_epoch=96,bundles_per_epoch=768,effective_bundles=8,
-            samples_per_bundle=191616,parameters=35820299,optimization_scope=scope,
-            trainable_parameters=35820299 if scope=='all' else 3677440,
-            learning_rate=1e-5,weight_decay=1e-4,gradient_clip=1.,seed=0,
+            samples_per_bundle=191616,parameters=total,optimization_scope=scope,
+            trainable_parameters=total if scope=='all' else added,
+            learning_rate=learning_rate,weight_decay=1e-4,gradient_clip=1.,seed=0,
             objective='Mean of three original window-normalized losses, shared permutation, plus0.1 countCE',
             precision='FP32 TF32 disabled',activation_checkpointing=True,
             evaluation='Original630 short targets with observed neighbours; fixed24 long targets; C8 primary-only alignment',
@@ -112,7 +119,7 @@ class Run:
         path=self.output/'PREFLIGHT.json'
         if path.exists():assert read(path)['status']=='PASS';return
         self.state('GPU_PREFLIGHT')
-        net,saved=load(p['initialization']['checkpoint'],'cuda',p['optimization_scope'])
+        net,saved=load(p['initialization']['checkpoint'],'cuda',p['architecture'],p['optimization_scope'])
         parent=build('unet_mean').to('cuda');parent.load_state_dict(saved['model']);del saved
         net.eval();parent.eval();train=Sequences(ROLES[0],1)
         indices=[next(i for i,r in enumerate(train.rows) if r['count']==k) for k in (1,2,3)]
@@ -135,7 +142,8 @@ class Run:
                 torch.testing.assert_close(count,count0,rtol=0,atol=0)
                 phase_checks.append(dict(count=k,max_difference=float((new-old).abs().max())))
         del parent,ys,expected,new,old,items,dev;gc.collect();torch.cuda.empty_cache()
-        net.train();opt=torch.optim.AdamW([q for q in net.parameters() if q.requires_grad],lr=1e-5,weight_decay=1e-4,foreach=False);rows=[]
+        net.train();opt=torch.optim.AdamW([q for q in net.parameters() if q.requires_grad],
+            lr=p['learning_rate'],weight_decay=1e-4,foreach=False);rows=[]
         for i in indices:
             opt.zero_grad(set_to_none=True);before=net.gates.expand.weight.detach().clone()
             values,diagnostic=step_bundle(net,[batch(v,'cuda') for v in train[i]],1)
@@ -143,14 +151,16 @@ class Run:
             gate_gradient=float(net.gates.expand.weight.grad.norm());assert gate_gradient>0
             if p['optimization_scope']=='all':
                 assert any(q.grad is not None and bool(q.grad.abs().max()>0) for q in net.down.parameters())
-            else:assert all(q.grad is None for name,q in net.named_parameters() if not name.startswith('gates.'))
+            else:assert all(q.grad is None for name,q in net.named_parameters() if not name.startswith(ADDED_PREFIXES))
+            ordered_norm=float(net.ordered_projection.weight.grad.norm()) if hasattr(net,'ordered_projection') else None
             opt.step();assert bool((before-net.gates.expand.weight).abs().max()>0)
             rows.append(dict(count=int(train.rows[i]['count']),gradient_norm=norm,
-                             adapter_projection_gradient=gate_gradient,loss=np.mean(values,axis=0).tolist()))
-        if p['optimization_scope']=='gates':
+                             adapter_projection_gradient=gate_gradient,ordered_projection_gradient=ordered_norm,
+                             loss=np.mean(values,axis=0).tolist()))
+        if p['optimization_scope']=='added':
             original=torch.load(p['initialization']['checkpoint'],map_location='cpu',weights_only=False,mmap=True)['model']
             for name,value in net.state_dict().items():
-                if not name.startswith('gates.'):assert torch.equal(value.cpu(),original[name]),name
+                if not name.startswith(ADDED_PREFIXES):assert torch.equal(value.cpu(),original[name]),name
             del original
         write_json(path,dict(status='PASS',rows=rows,initial_parent_differences=differences,
             primary_c8_checks=phase_checks,weights_discarded=True,updates_reused_in_experiment=0,
@@ -165,21 +175,25 @@ class Run:
 
     def audit(self,epoch):
         d=self.output;event=read(d/f'EPOCH_{epoch:03d}.json');p=read(d/'PROTOCOL.json')
+        self.verify(p)
         for prefix,key in (('ACTUAL','checkpoint_sha256'),('SHORT','short_sha256'),('LONG','long_sha256')):
             assert sha256(d/f'{prefix}_{epoch:03d}.{"pt" if prefix=="ACTUAL" else "json"}')==event[key]
         for value,n in ((read(d/f'SHORT_{epoch:03d}.json'),630),(read(d/f'LONG_{epoch:03d}.json')['merged'],24)):
             assert len(value['rows'])==n and summarize(value['rows'])=={k:value[k] for k in ('by_count','selection_nmse')}
         saved=torch.load(d/'RECOVERY.pt',map_location='cpu',weights_only=False,mmap=True)
+        actual=torch.load(d/f'ACTUAL_{epoch:03d}.pt',map_location='cpu',weights_only=False,mmap=True)
+        assert set(actual['model'])==set(saved['model'])
+        assert all(torch.equal(value,actual['model'][name]) for name,value in saved['model'].items())
         assert saved['updates']==epoch*96 and saved['next_bundle']==768 and saved['epoch_evaluated']
         steps=[int(v['step']) for v in saved['optimizer']['state'].values()]
-        optimized=[name for name in saved['model'] if p['optimization_scope']=='all' or name.startswith('gates.')]
+        optimized=[name for name in saved['model'] if p['optimization_scope']=='all' or name.startswith(ADDED_PREFIXES)]
         assert len(steps)==len(optimized) and min(steps)==max(steps)==epoch*96
         assert all(torch.isfinite(v).all() for v in saved['model'].values())
         frozen=0
-        if p['optimization_scope']=='gates':
+        if p['optimization_scope']=='added':
             original=torch.load(p['initialization']['checkpoint'],map_location='cpu',weights_only=False,mmap=True)['model']
             for name,value in saved['model'].items():
-                if not name.startswith('gates.'):
+                if not name.startswith(ADDED_PREFIXES):
                     assert torch.equal(value,original[name]),name
                     frozen+=1
         write_json(d/f'AUDIT_{epoch:03d}.json',dict(status='PASS',epoch=epoch,
@@ -190,8 +204,10 @@ class Run:
         d=self.output
         if (d/f'AUDIT_{epoch:03d}.json').exists():
             assert read(d/f'AUDIT_{epoch:03d}.json')['status']=='PASS';return True
-        recovery=d/'RECOVERY.pt';net,saved=load(recovery if recovery.exists() else p['initialization']['checkpoint'],'cuda',p['optimization_scope'])
-        opt=torch.optim.AdamW([q for q in net.parameters() if q.requires_grad],lr=1e-5,weight_decay=1e-4,foreach=False)
+        recovery=d/'RECOVERY.pt';net,saved=load(recovery if recovery.exists() else p['initialization']['checkpoint'],
+                                             'cuda',p['architecture'],p['optimization_scope'])
+        opt=torch.optim.AdamW([q for q in net.parameters() if q.requires_grad],
+            lr=p['learning_rate'],weight_decay=1e-4,foreach=False)
         start,updates,losses,diagnostics,offset=0,(epoch-1)*96,[],[],0.
         if 'optimizer' in saved:
             assert saved['protocol_sha256']==sha256(d/'PROTOCOL.json')
@@ -223,9 +239,9 @@ class Run:
         t=time.time();short=short_eval(net,'cuda',progress);long=long_eval(net,'cuda',progress)
         write_json(d/f'SHORT_{epoch:03d}.json',short);write_json(d/f'LONG_{epoch:03d}.json',long)
         cp=d/f'ACTUAL_{epoch:03d}.pt'
-        atomic_torch(cp,dict(model=net.state_dict(),epoch=epoch,updates=updates,architecture='chunk_temporal',
+        atomic_torch(cp,dict(model=net.state_dict(),epoch=epoch,updates=updates,architecture=p['architecture'],
                             protocol_sha256=sha256(d/'PROTOCOL.json')))
-        event=dict(epoch=epoch,architecture='chunk_temporal',updates=updates,parameters=p['parameters'],
+        event=dict(epoch=epoch,architecture=p['architecture'],updates=updates,parameters=p['parameters'],
             train_seconds=seconds,evaluation_seconds=time.time()-t,optimization_scope=p['optimization_scope'],
             trainable_parameters=p['trainable_parameters'],
             short={k:v for k,v in short.items() if k!='rows'},
@@ -237,7 +253,7 @@ class Run:
             protocol_sha256=sha256(d/'PROTOCOL.json'),independent_recording_validation=False)
         write_json(d/f'EPOCH_{epoch:03d}.json',event);self.save(net,opt,epoch,updates,768,losses,diagnostics,seconds,True)
         del net,opt,data;gc.collect();torch.cuda.empty_cache();self.audit(epoch)
-        write_json(ROOT/'reports/2026-10-13'/f'CHUNK_TEMPORAL_E{epoch:03d}.json',event)
+        write_json(ROOT/'reports/2026-10-13'/f'{p["architecture"].upper()}_E{epoch:03d}.json',event)
         print('CHUNK_EPOCH_COMPLETE',epoch,event['short'],flush=True);return True
 
     def run(self):
@@ -261,11 +277,13 @@ def stop(*_):
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('action',choices=('register','run'))
     parser.add_argument('--output',type=Path,required=True);parser.add_argument('--plan',type=Path)
-    parser.add_argument('--scope',choices=('all','gates'))
+    parser.add_argument('--scope',choices=('all','added'))
+    parser.add_argument('--architecture',choices=tuple(ARCHITECTURES))
+    parser.add_argument('--learning-rate',type=float)
     a=parser.parse_args();runner=Run(a.output)
     signal.signal(signal.SIGTERM,stop);signal.signal(signal.SIGINT,stop)
     try:
-        if a.action=='register':runner.register(a.plan,a.scope)
+        if a.action=='register':runner.register(a.plan,a.scope,a.architecture,a.learning_rate)
         else:
             with (a.output/'.run.lock').open('a') as lock:
                 fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB);runner.run()

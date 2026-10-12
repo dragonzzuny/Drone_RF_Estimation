@@ -1,0 +1,80 @@
+{
+  "arm": "shared",
+  "epoch": 2,
+  "updates": 192,
+  "train_seconds": 882.5245788097382,
+  "evaluation_seconds": 413.9618818759918,
+  "short": {
+    "rows_sha256": "759b34102a0acddd260c050e9bdc88874c046529f12cde21cc974bfcd9358c95",
+    "by_count": [
+      {
+        "count": 1,
+        "cases": 210,
+        "mean_nmse": 0.0012316681609654846,
+        "mean_si_sdr": 38.29081518997242,
+        "weakest_nmse": 0.0012316681609654846,
+        "count_accuracy": 1.0
+      },
+      {
+        "count": 2,
+        "cases": 210,
+        "mean_nmse": 0.3027700232873899,
+        "mean_si_sdr": 7.471960452805522,
+        "weakest_nmse": 0.5138968742510983,
+        "count_accuracy": 0.9714285714285714
+      },
+      {
+        "count": 3,
+        "cases": 210,
+        "mean_nmse": 0.4444233023305296,
+        "mean_si_sdr": 2.069111799766687,
+        "weakest_nmse": 0.7858995758157719,
+        "count_accuracy": 0.9761904761904762
+      }
+    ],
+    "selection_nmse": 0.37359666280895976
+  },
+  "long_merged": {
+    "by_count": [
+      {
+        "count": 1,
+        "cases": 5,
+        "mean_nmse": 0.0006685065330069422,
+        "mean_si_sdr": 39.82124538604104,
+        "weakest_nmse": 0.0006685065330069422,
+        "count_accuracy": 1.0
+      },
+      {
+        "count": 2,
+        "cases": 12,
+        "mean_nmse": 0.14562504863769268,
+        "mean_si_sdr": 11.974585323708844,
+        "weakest_nmse": 0.23726731184801084,
+        "count_accuracy": 1.0
+      },
+      {
+        "count": 3,
+        "cases": 7,
+        "mean_nmse": 0.38483232149853724,
+        "mean_si_sdr": 3.652492392468983,
+        "weakest_nmse": 0.6523279649574908,
+        "count_accuracy": 1.0
+      }
+    ],
+    "selection_nmse": 0.265228685068115
+  },
+  "mean_training_loss": [
+    0.8039040981174266,
+    0.803825749062753,
+    0.0007835002886290946
+  ],
+  "training_local_disagreement_fraction": 0.4947916666666667,
+  "training_shared_minus_local_loss": 0.3959439915396767,
+  "checkpoint_sha256": "f74ec9a3801d4b69f8d197999b1cf65a5760c5aeef0976fad0a89117e7aeed66",
+  "short_sha256": "a112a6c38e1e49d7d0cf8ea31c43ab89ddc0c2cadd7def6ad1c33861e59fc154",
+  "long_sha256": "914cc38a625407e3b695de660da47f4666d9f60500629e2a439fb716808046ae",
+  "protocol_sha256": "53a4ce65a1e630df39123dfebcbddb30961c078cbff935caa7f93f38f9c12c63",
+  "initial_epoch": 99,
+  "initial_checkpoint_sha256": "9339aeb132b68f9fb7f9897c065233866ec13d3ba7cea7afd01d5250488751ca",
+  "independent_recording_validation": false
+}

@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "architecture": "ChunkTemporalUNet",
+      "primary_index": 0,
+      "output_max_difference": 0.0
+    },
+    {
+      "architecture": "ChunkTemporalUNet",
+      "primary_index": 1,
+      "output_max_difference": 0.0
+    },
+    {
+      "architecture": "ChunkTemporalUNet",
+      "primary_index": 2,
+      "output_max_difference": 0.0
+    },
+    {
+      "architecture": "DualContextUNet",
+      "primary_index": 0,
+      "output_max_difference": 0.0
+    },
+    {
+      "architecture": "DualContextUNet",
+      "primary_index": 1,
+      "output_max_difference": 0.0
+    },
+    {
+      "architecture": "DualContextUNet",
+      "primary_index": 2,
+      "output_max_difference": 0.0
+    }
+  ],
+  "nonzero_added_modules": true,
+  "synthetic_weights_discarded": true,
+  "rf_training_updates": 0,
+  "scope": "Same encoders/context/connections; only unused neighbouring decoders skipped",
+  "source_sha256": {
+    "test_selective_decode.py": "7550e7e148feaf660b0c45a4710cdecde8847ccce80c4874936ec68e39c4340f",
+    "chunk_temporal_candidate.py": "4160ec5a18503ab9e7420fb56c58fa4dbc525ae4c6f43c87d237c10366c8850c",
+    "dual_context_candidate.py": "230d358f5d2702aca84045916405b4155bbd2d4637981a22c36b459fbcc8ce88"
+  }
+}

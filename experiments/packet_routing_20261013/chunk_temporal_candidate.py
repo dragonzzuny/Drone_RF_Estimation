@@ -31,7 +31,7 @@ class ChunkTemporalUNet(LongTemporalUNet):
         residual=torch.complex(raw[:,0::2],raw[:,1::2])*scale[:,None]
         return residual+(z-residual.sum(1))[:,None]/4
 
-    def forward(self, spectra, context_features, crop_starts):
+    def forward(self, spectra, context_features, crop_starts, primary_index=None):
         if not isinstance(spectra,(list,tuple)) or len(spectra)!=3 or len(crop_starts)!=3:
             raise ValueError('Exactly three ordered STFT windows and crop origins required')
         if context_features.shape[1:]!=(65,255):
@@ -49,6 +49,12 @@ class ChunkTemporalUNet(LongTemporalUNet):
         lengths=[x.shape[-1] for x,_,_ in states]
         mixed=self.gates(torch.cat([x for x,_,_ in states],dim=-1))
         parts=mixed.split(lengths,dim=-1)
+        if primary_index is not None:
+            if self.training or len(context_features)!=1 or primary_index not in (0,1,2):
+                raise ValueError('Single-window evaluation only for selective decoding')
+            _,skips,scale=states[primary_index]
+            return dict(estimates_primary=self.decode(parts[primary_index],skips,scale,spectra[primary_index]),
+                        count_logits=self.count_head(encoded.mean(-1)))
         estimates=[self.decode(x,skips,scale,z) for x,(_,skips,scale),z in zip(parts,states,spectra)]
         return dict(estimates=estimates,count_logits=self.count_head(encoded.mean(-1)))
 
@@ -71,8 +77,8 @@ def predict_primary(net, item):
         raise ValueError('Three fine windows of mixture-only context required')
     delta=item['crop_start']-item['long_start'];indices=delta//width
     assert bool(torch.all(delta%width==0)) and bool(torch.all((indices>=0)&(indices<3)))
-    chunks=[dict(mixture=item['long_mixture'][:,j*width:(j+1)*width],
-                 context_features=item['context_features'],crop_start=item['long_start']+j*width) for j in range(3)]
-    predictions,logits=predict_bundle(net,chunks)
-    all_predictions=torch.stack(predictions,dim=1)
-    return all_predictions[torch.arange(len(indices),device=indices.device),indices],logits
+    if len(indices)!=1:raise ValueError('C8 inference expects one target window at a time')
+    spectra=[analyze(item['long_mixture'][:,j*width:(j+1)*width]) for j in range(3)]
+    out=net(spectra,item['context_features'],[item['long_start']+j*width for j in range(3)],
+            primary_index=int(indices[0]))
+    return synthesize(out['estimates_primary'],width),out['count_logits']
