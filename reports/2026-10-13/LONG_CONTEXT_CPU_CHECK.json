@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "parameters": 32142859,
+  "tensor_count": 131,
+  "max_output_error": 0.0,
+  "max_gradient_error": 0.0,
+  "training_data_used": false,
+  "gpu_preflight": "NOT_RUN",
+  "note": "Small synthetic tensors verify full model algebra, not training or long-window capacity",
+  "time": 1791822312.5492928
+}

@@ -1,0 +1,232 @@
+{
+  "epoch": 93,
+  "status": "VERIFIED",
+  "stages": {
+    "raw_hann": {
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "nmse": [
+        0.20129221324140717,
+        0.275150950617531
+      ],
+      "si_sdr": [
+        6.604589541383648,
+        4.697520973434158
+      ],
+      "sum_relative_error": 0.6965969270430507
+    },
+    "raw_uniform": {
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "nmse": [
+        0.2046229414762357,
+        0.257249543511732
+      ],
+      "si_sdr": [
+        6.575906823474319,
+        5.132244668480829
+      ],
+      "sum_relative_error": 0.6953320082692753
+    },
+    "zero_hann": {
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "nmse": [
+        0.11609641017887053,
+        0.16392241512791325
+      ],
+      "si_sdr": [
+        8.816074685351143,
+        7.07660979124226
+      ],
+      "sum_relative_error": 1.080903366747027e-14
+    },
+    "zero_uniform": {
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "nmse": [
+        0.11168753524702069,
+        0.1548622795990913
+      ],
+      "si_sdr": [
+        9.011868859365356,
+        7.372860487003963
+      ],
+      "sum_relative_error": 8.450320544445757e-15
+    },
+    "C4_hann": {
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "nmse": [
+        0.11391813002058453,
+        0.1610576878186018
+      ],
+      "si_sdr": [
+        8.908905249411005,
+        7.168146433823702
+      ],
+      "sum_relative_error": 9.24628763070907e-15
+    },
+    "C4_uniform": {
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "nmse": [
+        0.11065548090837254,
+        0.15348748850712385
+      ],
+      "si_sdr": [
+        9.057933989802066,
+        7.418999997144019
+      ],
+      "sum_relative_error": 7.391342469670214e-15
+    },
+    "C8_hann": {
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "nmse": [
+        0.11391083557019602,
+        0.1610438986616713
+      ],
+      "si_sdr": [
+        8.909220431928459,
+        7.168581510285295
+      ],
+      "sum_relative_error": 9.239035172132006e-15
+    },
+    "C8_uniform": {
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "nmse": [
+        0.110661627104257,
+        0.1534817122529145
+      ],
+      "si_sdr": [
+        9.057602301917612,
+        7.419155868188647
+      ],
+      "sum_relative_error": 7.599606369551743e-15
+    }
+  },
+  "packet": {
+    "epoch": 93,
+    "rows": [
+      {
+        "label": "reference_FPV",
+        "status": "crc_valid",
+        "device_types": [
+          "DJI FPV"
+        ],
+        "crc16": true,
+        "crc24": true,
+        "projection_coefficient_abs2": 1.0,
+        "projected_FPV_power_ratio_db": 0.0,
+        "channel_power_ratio_to_FPV_db": 0.0,
+        "seconds": 1.0388741493225098
+      },
+      {
+        "label": "reference_Mavic3Pro",
+        "status": "no_dual_zc",
+        "device_types": [],
+        "crc16": false,
+        "crc24": false,
+        "projection_coefficient_abs2": 3.0222488065900862e-05,
+        "projected_FPV_power_ratio_db": -45.19669785238163,
+        "channel_power_ratio_to_FPV_db": -3.494457016462689,
+        "seconds": 0.23320746421813965
+      },
+      {
+        "label": "mixture",
+        "status": "crc_valid",
+        "device_types": [
+          "DJI FPV"
+        ],
+        "crc16": true,
+        "crc24": true,
+        "projection_coefficient_abs2": 1.0073380902366078,
+        "projected_FPV_power_ratio_db": 0.03175256135725202,
+        "channel_power_ratio_to_FPV_db": 1.6273221533426665,
+        "seconds": 0.9392023086547852
+      },
+      {
+        "label": "output_0",
+        "status": "crc_invalid",
+        "device_types": [],
+        "crc16": false,
+        "crc24": false,
+        "projection_coefficient_abs2": 9.853116585815876e-05,
+        "projected_FPV_power_ratio_db": -40.06426378442694,
+        "channel_power_ratio_to_FPV_db": -32.90562528689914,
+        "seconds": 0.9657797813415527
+      },
+      {
+        "label": "output_1",
+        "status": "crc_valid",
+        "device_types": [
+          "DJI FPV"
+        ],
+        "crc16": true,
+        "crc24": true,
+        "projection_coefficient_abs2": 0.08077527806640518,
+        "projected_FPV_power_ratio_db": -10.927215382623764,
+        "channel_power_ratio_to_FPV_db": -4.088756313517557,
+        "seconds": 0.9452128410339355
+      },
+      {
+        "label": "output_2",
+        "status": "crc_valid",
+        "device_types": [
+          "DJI FPV"
+        ],
+        "crc16": true,
+        "crc24": true,
+        "projection_coefficient_abs2": 0.46532259109940083,
+        "projected_FPV_power_ratio_db": -3.3224586224936163,
+        "channel_power_ratio_to_FPV_db": -2.5034202743131466,
+        "seconds": 0.9416294097900391
+      },
+      {
+        "label": "background",
+        "status": "crc_valid",
+        "device_types": [
+          "DJI FPV"
+        ],
+        "crc16": true,
+        "crc24": true,
+        "projection_coefficient_abs2": 0.0007545878987495782,
+        "projected_FPV_power_ratio_db": -31.222901638162096,
+        "channel_power_ratio_to_FPV_db": -28.433359397841382,
+        "seconds": 0.9808855056762695
+      }
+    ]
+  },
+  "notes": [
+    "same previously exposed development event",
+    "global assignment FPV output2 and Mavic3Pro output1",
+    "no extra model training in this diagnostic",
+    "ordinary training after79 improved this event; not a new method effect"
+  ]
+}

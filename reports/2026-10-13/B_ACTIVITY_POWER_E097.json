@@ -1,0 +1,62 @@
+{
+  "result": [
+    {
+      "count": 2,
+      "local_sir_below_minus20": true,
+      "sources": 34,
+      "relative_power_quantiles": [
+        0.00036220733027625147,
+        0.0031602330885976797,
+        0.010779428804992377,
+        0.026146710431899207,
+        0.24834405050636005
+      ],
+      "relative_power_below_point1": 31,
+      "mean_nmse": 0.8022720330718057
+    },
+    {
+      "count": 2,
+      "local_sir_below_minus20": false,
+      "sources": 386,
+      "relative_power_quantiles": [
+        0.0010771068958716028,
+        0.266851168602511,
+        0.6802010365195221,
+        1.3920344270979177,
+        12.657349911167138
+      ],
+      "relative_power_below_point1": 64,
+      "mean_nmse": 0.20404097799350765
+    },
+    {
+      "count": 3,
+      "local_sir_below_minus20": true,
+      "sources": 63,
+      "relative_power_quantiles": [
+        0.0020722223828813858,
+        0.008904717755537946,
+        0.019446718144234862,
+        0.03938914490671691,
+        0.3963336997386971
+      ],
+      "relative_power_below_point1": 57,
+      "mean_nmse": 0.9618148834227022
+    },
+    {
+      "count": 3,
+      "local_sir_below_minus20": false,
+      "sources": 567,
+      "relative_power_quantiles": [
+        0.0026483595405127126,
+        0.4041955161256271,
+        0.709578574375783,
+        1.3477350480955286,
+        19.2558113452233
+      ],
+      "relative_power_below_point1": 50,
+      "mean_nmse": 0.32362962707557613
+    }
+  ],
+  "definition": "local reference power divided by its full20.8896ms normalized nominal power; relative activity proxy, not measured signal/noise ground truth",
+  "thresholds": "posthoc descriptive -20dB SIR and0.1power; not tuned model"
+}

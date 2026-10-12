@@ -1,0 +1,216 @@
+{
+  "status": "VERIFIED",
+  "unet_epoch": 97,
+  "by_composition": [
+    {
+      "count": 1,
+      "categories": [
+        "DJI AVATA2"
+      ],
+      "cases": 42,
+      "spectral_mean_nmse": 0.006321820303256911,
+      "unet_mean_nmse": 0.00011111835132543716,
+      "spectral_median_nmse": 4.230632905447428e-05,
+      "unet_median_nmse": 0.00011277119712948757,
+      "unet_lower_source_nmse": 19,
+      "total_sources": 42,
+      "spectral_undefined_si_sources": 0
+    },
+    {
+      "count": 1,
+      "categories": [
+        "DJI FPV COMBO"
+      ],
+      "cases": 42,
+      "spectral_mean_nmse": 0.08162566492941956,
+      "unet_mean_nmse": 0.00017671252953478314,
+      "spectral_median_nmse": 0.0017171822068120877,
+      "unet_median_nmse": 0.0001279598130227938,
+      "unet_lower_source_nmse": 35,
+      "total_sources": 42,
+      "spectral_undefined_si_sources": 0
+    },
+    {
+      "count": 1,
+      "categories": [
+        "DJI MAVIC3 PRO"
+      ],
+      "cases": 42,
+      "spectral_mean_nmse": 0.15304784168892285,
+      "unet_mean_nmse": 0.00015556242449763253,
+      "spectral_median_nmse": 0.14454891868713826,
+      "unet_median_nmse": 0.00015031671851082658,
+      "unet_lower_source_nmse": 37,
+      "total_sources": 42,
+      "spectral_undefined_si_sources": 0
+    },
+    {
+      "count": 1,
+      "categories": [
+        "DJI MINI3"
+      ],
+      "cases": 42,
+      "spectral_mean_nmse": 0.0022828086666953425,
+      "unet_mean_nmse": 0.0020009828831674434,
+      "spectral_median_nmse": 4.695500233637882e-11,
+      "unet_median_nmse": 0.0002289640225529072,
+      "unet_lower_source_nmse": 3,
+      "total_sources": 42,
+      "spectral_undefined_si_sources": 0
+    },
+    {
+      "count": 1,
+      "categories": [
+        "DJI MINI4 PRO"
+      ],
+      "cases": 42,
+      "spectral_mean_nmse": 0.002720029238226876,
+      "unet_mean_nmse": 0.0008245190693384562,
+      "spectral_median_nmse": 5.059684571681606e-12,
+      "unet_median_nmse": 0.0005088402426271191,
+      "unet_lower_source_nmse": 6,
+      "total_sources": 42,
+      "spectral_undefined_si_sources": 0
+    },
+    {
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "cases": 54,
+      "spectral_mean_nmse": 0.25449362980059886,
+      "unet_mean_nmse": 0.19579214024623623,
+      "spectral_median_nmse": 0.16972222590578093,
+      "unet_median_nmse": 0.11555037201501861,
+      "unet_lower_source_nmse": 92,
+      "total_sources": 108,
+      "spectral_undefined_si_sources": 0
+    },
+    {
+      "count": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "cases": 54,
+      "spectral_mean_nmse": 0.5668218654647994,
+      "unet_mean_nmse": 0.2871543266922513,
+      "spectral_median_nmse": 0.3757717220047627,
+      "unet_median_nmse": 0.11224539199643976,
+      "unet_lower_source_nmse": 105,
+      "total_sources": 108,
+      "spectral_undefined_si_sources": 0
+    },
+    {
+      "count": 2,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "cases": 51,
+      "spectral_mean_nmse": 0.3300061594135511,
+      "unet_mean_nmse": 0.1543801930509534,
+      "spectral_median_nmse": 0.14187993422174366,
+      "unet_median_nmse": 0.035329597239803716,
+      "unet_lower_source_nmse": 89,
+      "total_sources": 102,
+      "spectral_undefined_si_sources": 0
+    },
+    {
+      "count": 2,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "cases": 51,
+      "spectral_mean_nmse": 0.325550398865052,
+      "unet_mean_nmse": 0.37384380891550445,
+      "spectral_median_nmse": 0.07900347380128697,
+      "unet_median_nmse": 0.2082063121447948,
+      "unet_lower_source_nmse": 40,
+      "total_sources": 102,
+      "spectral_undefined_si_sources": 22
+    },
+    {
+      "count": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "cases": 210,
+      "spectral_mean_nmse": 2.5403645990748345,
+      "unet_mean_nmse": 0.38744815271028876,
+      "spectral_median_nmse": 0.4567589088332191,
+      "unet_median_nmse": 0.2631028187174275,
+      "unet_lower_source_nmse": 531,
+      "total_sources": 630,
+      "spectral_undefined_si_sources": 0
+    }
+  ],
+  "spectral_summary": [
+    {
+      "count": 1,
+      "cases": 210,
+      "mean_nmse": 0.0491996329653043,
+      "mean_si_sdr": 64.80053422779223,
+      "weakest_nmse": 0.0491996329653043,
+      "count_accuracy": 0.6428571428571429
+    },
+    {
+      "count": 2,
+      "cases": 210,
+      "mean_nmse": 0.3704020057930489,
+      "mean_si_sdr": null,
+      "weakest_nmse": 0.6333803799243939,
+      "count_accuracy": 0.7142857142857143
+    },
+    {
+      "count": 3,
+      "cases": 210,
+      "mean_nmse": 2.5403645990748345,
+      "mean_si_sdr": -0.42135102084590836,
+      "weakest_nmse": 6.56052319561661,
+      "count_accuracy": 0.7904761904761904
+    }
+  ],
+  "unet_summary": [
+    {
+      "count": 1,
+      "cases": 210,
+      "mean_nmse": 0.0006537790515727506,
+      "mean_si_sdr": 37.8285052784425,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.0006537790515727506,
+      "count_accuracy": 0.9952380952380953
+    },
+    {
+      "count": 2,
+      "cases": 210,
+      "mean_nmse": 0.2524692062617508,
+      "mean_si_sdr": 8.928192556835961,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.4313664066282306,
+      "count_accuracy": 0.9714285714285714
+    },
+    {
+      "count": 3,
+      "cases": 210,
+      "mean_nmse": 0.38744815271028876,
+      "mean_si_sdr": 4.12388493809749,
+      "nonfinite_si_sdr": 0,
+      "weakest_nmse": 0.7263986061742731,
+      "count_accuracy": 0.9571428571428572
+    }
+  ],
+  "input_hashes": {
+    "local/b_timeblock_spectral_20261013_v1/RESULT.json": "8cef30a6b6939ef38dac5e9746f1aceb74a78ab554668d8ecd8bcbc86fcad40f",
+    "local/b_timeblock_spectral_20261013_v1/AUDIT.json": "a47110c0fc3b9b477fee434881c5105691e240fb4cbf8c9d6c3f11dac5191847",
+    "local/timeblock_extend100_20261012_v1/VALIDATION_097.json": "b067020b612c0108137be7a73f2dbb73bd2a7ba44d2f3fdf984be513a583b8d1",
+    "local/timeblock_extend100_20261012_v1/AUDIT_097.json": "65be54d2476121cf59f63966953579ba8018a2a79a9b0e69ab983418e6c1b4ca"
+  },
+  "split": "B: same recordings, disjoint time blocks; not independent recording generalization",
+  "dictionary": "Known categories; templates fitted once using only 1296 B fit contexts",
+  "statistics": "Descriptive paired cases; overlapping reused recordings are not independent samples"
+}
