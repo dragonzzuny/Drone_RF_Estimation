@@ -1,0 +1,84 @@
+{
+  "epoch": 2,
+  "architecture": "dual_context",
+  "updates": 192,
+  "parameters": 36554507,
+  "train_seconds": 463.7912120819092,
+  "evaluation_seconds": 747.1048514842987,
+  "optimization_scope": "added",
+  "trainable_parameters": 4411648,
+  "short": {
+    "rows_sha256": "759b34102a0acddd260c050e9bdc88874c046529f12cde21cc974bfcd9358c95",
+    "by_count": [
+      {
+        "count": 1,
+        "cases": 210,
+        "mean_nmse": 0.00022094839895609445,
+        "mean_si_sdr": 38.250315111056096,
+        "weakest_nmse": 0.00022094839895609445,
+        "count_accuracy": 1.0
+      },
+      {
+        "count": 2,
+        "cases": 210,
+        "mean_nmse": 0.4120566888749031,
+        "mean_si_sdr": 5.020046754644541,
+        "weakest_nmse": 0.6811925105381245,
+        "count_accuracy": 0.9714285714285714
+      },
+      {
+        "count": 3,
+        "cases": 210,
+        "mean_nmse": 0.7451849300717225,
+        "mean_si_sdr": -2.031073532456874,
+        "weakest_nmse": 0.9056507471656929,
+        "count_accuracy": 0.9619047619047619
+      }
+    ],
+    "selection_nmse": 0.5786208094733127,
+    "context": "3 adjacent observed windows; primary targets unchanged; mixture-only neighbours"
+  },
+  "long_merged": {
+    "by_count": [
+      {
+        "count": 1,
+        "cases": 5,
+        "mean_nmse": 0.00011724072101200052,
+        "mean_si_sdr": 40.0582421625375,
+        "weakest_nmse": 0.00011724072101200052,
+        "count_accuracy": 1.0
+      },
+      {
+        "count": 2,
+        "cases": 12,
+        "mean_nmse": 0.3742013135692777,
+        "mean_si_sdr": 6.056102297270439,
+        "weakest_nmse": 0.611597336138728,
+        "count_accuracy": 1.0
+      },
+      {
+        "count": 3,
+        "cases": 7,
+        "mean_nmse": 0.535029879791585,
+        "mean_si_sdr": 0.645592530296132,
+        "weakest_nmse": 0.8756144576482222,
+        "count_accuracy": 1.0
+      }
+    ],
+    "selection_nmse": 0.4546155966804314
+  },
+  "mean_training_loss": [
+    0.8987855541138161,
+    0.8987142701868973,
+    0.0007128478616683273
+  ],
+  "training_local_disagreement_fraction": 0.5377604166666666,
+  "training_active_order_disagreement_fraction": 0.4947916666666667,
+  "disagreement_definition": "Active-order statistic excludes swaps solely between inactive slots; full-permutation statistic retained separately",
+  "checkpoint_sha256": "00b2646a0e3b82e178a0de27fa819fcd7bcdabcc73b79267d524e877aa6307e2",
+  "short_sha256": "cd17671cb297497bf8e3c6df2924862649ff7ac55c8b908038b00b944e1954ca",
+  "long_sha256": "ee93298fe0dccabc4cab9129cfac29091724f5f4bd41a4734897dff4248ca6e8",
+  "initial_epoch": 99,
+  "protocol_sha256": "ec715d7e89001fb2468991884e0917b2c6cdb62848b13b3c3aff497956adbbb5",
+  "independent_recording_validation": false
+}

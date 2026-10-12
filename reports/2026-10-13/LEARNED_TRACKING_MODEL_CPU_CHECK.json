@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "parameters": 875521,
+  "within_block_permutation_equivariance": true,
+  "source_label_renaming_invariance": true,
+  "finite_gradient_all_parameters": true,
+  "synthetic_update_discarded": true,
+  "rf_training_updates": 0,
+  "source_sha256": "516faac531ad05b55831460417e2bc003c4cf2492f152f15910ea6fcfc965b74",
+  "test_sha256": "e5bf2e9b99c955418ea58d73a8286f523d54850e2d08ca15f087c5cdbf666778"
+}

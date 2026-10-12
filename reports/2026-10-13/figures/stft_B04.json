@@ -1,0 +1,150 @@
+{
+  "status": "EXPORTED_AND_VISUALLY_REVIEWED",
+  "case": 4,
+  "title": "FPV가10dB 약한 조건의 악화 사례",
+  "selection": "B7 fixed equal-power triple; B4 disclosed adverse weak-FPV case; both plotted",
+  "data_scope": "Same-record B development, not independent confirmation",
+  "source_sha256": "287b7ffb990ff1f581e915eeee6ddaadf937b378d96905e9a3da721a8a02edc4",
+  "input_sha256": {
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/spectral_routing_24_20261013_v1/RESULT.json": "882f1a7d63a7070badfa948a2d47e6399ecdbebb8217ac682fc890f2ce9a7699",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/constrained_routing_20261013_v1/RESULT.json": "cbd361e05eb3f8a5071f2a01fe92f077978406b2f432289d35bd900396a66cc6",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/spectral_routing_24_20261013_v1/OUTPUT_004.npy": "7561631ee0f7540711949b594c5b1b0a057a1574386403292b387724f1f908bc",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/constrained_routing_20261013_v1/B24/ORDERS_004.json": "b38d87aad8f2eb8f0e8ecd195d27731666bd565c1babaa5ac2557feeae451bbe"
+  },
+  "full_samples": 2088960,
+  "fs_hz": 100000000,
+  "n_fft": 1024,
+  "hop": 1024,
+  "window": "sqrt periodic Hann",
+  "display_average_linear_power_bins": [
+    2,
+    2
+  ],
+  "display_pixel_hz": 195312.5,
+  "display_pixel_ms": 0.02048,
+  "whole_mixture_power": 1.0010829778287162,
+  "color_range_db": [
+    -75.0,
+    5.0
+  ],
+  "clipped_fraction": {
+    "mixture": {
+      "below": 0.42819393382352944,
+      "above": 0.0
+    },
+    "ref_0": {
+      "below": 0.4310891544117647,
+      "above": 0.0
+    },
+    "parent_0": {
+      "below": 0.43486136642156864,
+      "above": 0.0
+    },
+    "routed_0": {
+      "below": 0.5471239276960784,
+      "above": 0.0
+    },
+    "ref_1": {
+      "below": 0.45003063725490194,
+      "above": 0.0
+    },
+    "parent_1": {
+      "below": 0.5969401041666667,
+      "above": 0.0
+    },
+    "routed_1": {
+      "below": 0.4928136488970588,
+      "above": 0.0
+    },
+    "ref_2": {
+      "below": 0.4322686887254902,
+      "above": 0.0
+    },
+    "parent_2": {
+      "below": 0.5874885110294118,
+      "above": 0.0
+    },
+    "routed_2": {
+      "below": 0.5687997855392157,
+      "above": 0.0
+    },
+    "parent_background": {
+      "below": 0.6583984375,
+      "above": 0.0
+    },
+    "routed_background": {
+      "below": 0.6583984375,
+      "above": 0.0
+    }
+  },
+  "per_panel_normalization": false,
+  "reference_gain_phase_fitting": false,
+  "global_reference_label_mapping_only": true,
+  "parent_metrics": {
+    "count": 3,
+    "nmse": [
+      0.35544542505199395,
+      2.3941068306271043,
+      0.23216077849879413
+    ],
+    "si_sdr": [
+      2.738166400813515,
+      -13.472590474758256,
+      5.200453197947429
+    ],
+    "reference_power": [
+      0.4761904761542881,
+      0.0476190476210262,
+      0.47619047613780524
+    ],
+    "weakest_index": 1,
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "sum_relative_error": 3.3872086039850377e-14,
+    "predicted_count": 3
+  },
+  "routed_metrics": {
+    "count": 3,
+    "nmse": [
+      0.46225528592611453,
+      3.2840496328062168,
+      0.20649322274930634
+    ],
+    "si_sdr": [
+      0.6569637413291549,
+      -15.847729362250963,
+      6.08617765785731
+    ],
+    "reference_power": [
+      0.4761904761542881,
+      0.0476190476210262,
+      0.47619047613780524
+    ],
+    "weakest_index": 1,
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "sum_relative_error": 3.3971977147007344e-14,
+    "predicted_count": 3
+  },
+  "background_power_relative": 0.0035604974911474627,
+  "size_inches": [
+    12,
+    11
+  ],
+  "png_dpi": 300,
+  "matplotlib_version": "3.10.8",
+  "alt_text": "FPV가10dB 약한 조건의 악화 사례. 혼합과 세 정답, 부모와 출력 재배정 후 STFT를 동일 색 범위로 비교한다. 배경 출력도 포함한다.",
+  "exports": {
+    "stft_B04.pdf": "1d277b9db23b0719469502bf729ba3cd66439559bd39e4fde0897e0f47d79572",
+    "stft_B04.svg": "4fb7ee38b2dda75f8e2c99515c39ca400aa355f61be985f6e741aa6844e9a3d4",
+    "stft_B04.png": "59f5a5375300fbf86b9d7da2eebe1f6f2369db34a36094b78341cdcdbb93df6f",
+    "stft_B04.md": "cd474998cc3b1b17f831bc07731b555eed921455ca9a0357645910f98ff281e0"
+  },
+  "visual_review": "Both full-size figures inspected; consistent method/source columns, background retained, no clipped labels; common -75 to5dB range across both cases. Embedded TrueType PDF fonts checked."
+}

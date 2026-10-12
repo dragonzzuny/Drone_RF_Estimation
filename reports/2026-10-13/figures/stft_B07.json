@@ -1,0 +1,150 @@
+{
+  "status": "EXPORTED_AND_VISUALLY_REVIEWED",
+  "case": 7,
+  "title": "동일 전력 세 성분의 개선 사례",
+  "selection": "B7 fixed equal-power triple; B4 disclosed adverse weak-FPV case; both plotted",
+  "data_scope": "Same-record B development, not independent confirmation",
+  "source_sha256": "287b7ffb990ff1f581e915eeee6ddaadf937b378d96905e9a3da721a8a02edc4",
+  "input_sha256": {
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/spectral_routing_24_20261013_v1/RESULT.json": "882f1a7d63a7070badfa948a2d47e6399ecdbebb8217ac682fc890f2ce9a7699",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/constrained_routing_20261013_v1/RESULT.json": "cbd361e05eb3f8a5071f2a01fe92f077978406b2f432289d35bd900396a66cc6",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/full_context_parent_20261013_v1/OUTPUT_007.npy": "2ba672e8625efa14c9fd2fcdd68bd9f494a877d0836dc0852658ee2568ef3a6b",
+    "/home/pyj/문서/GitHub/Drone_RF_Estimation/local/constrained_routing_20261013_v1/B24/ORDERS_007.json": "f1dc49afc8a7f8cc95a7b9f25706cc651e10c9089d824b2fbfcac6593daa89c6"
+  },
+  "full_samples": 2088960,
+  "fs_hz": 100000000,
+  "n_fft": 1024,
+  "hop": 1024,
+  "window": "sqrt periodic Hann",
+  "display_average_linear_power_bins": [
+    2,
+    2
+  ],
+  "display_pixel_hz": 195312.5,
+  "display_pixel_ms": 0.02048,
+  "whole_mixture_power": 0.9992770014627947,
+  "color_range_db": [
+    -75.0,
+    5.0
+  ],
+  "clipped_fraction": {
+    "mixture": {
+      "below": 0.4292356004901961,
+      "above": 0.0
+    },
+    "ref_0": {
+      "below": 0.4317172181372549,
+      "above": 0.0
+    },
+    "parent_0": {
+      "below": 0.4632467830882353,
+      "above": 0.0
+    },
+    "routed_0": {
+      "below": 0.4322361366421569,
+      "above": 0.0
+    },
+    "ref_1": {
+      "below": 0.43839039522058826,
+      "above": 0.0
+    },
+    "parent_1": {
+      "below": 0.5027841605392157,
+      "above": 0.0
+    },
+    "routed_1": {
+      "below": 0.49048138786764706,
+      "above": 0.0
+    },
+    "ref_2": {
+      "below": 0.4331744025735294,
+      "above": 0.0
+    },
+    "parent_2": {
+      "below": 0.44002757352941174,
+      "above": 0.0
+    },
+    "routed_2": {
+      "below": 0.4790651807598039,
+      "above": 0.0
+    },
+    "parent_background": {
+      "below": 0.5131012561274509,
+      "above": 0.0
+    },
+    "routed_background": {
+      "below": 0.5131012561274509,
+      "above": 0.0
+    }
+  },
+  "per_panel_normalization": false,
+  "reference_gain_phase_fitting": false,
+  "global_reference_label_mapping_only": true,
+  "parent_metrics": {
+    "count": 3,
+    "nmse": [
+      0.9797857480135964,
+      0.7091981609035779,
+      0.9887713797572053
+    ],
+    "si_sdr": [
+      -7.721741849259321,
+      -3.755138413747167,
+      -1.7283233587186344
+    ],
+    "reference_power": [
+      0.3333333333138697,
+      0.3333333333261539,
+      0.3333333333928404
+    ],
+    "weakest_index": 0,
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "sum_relative_error": 3.2674219659807286e-14,
+    "predicted_count": 3
+  },
+  "routed_metrics": {
+    "count": 3,
+    "nmse": [
+      0.27872855918014144,
+      0.13961044496315245,
+      0.15462910347945918
+    ],
+    "si_sdr": [
+      4.130697183293784,
+      7.980692933267452,
+      7.386588796237323
+    ],
+    "reference_power": [
+      0.3333333333138697,
+      0.3333333333261539,
+      0.3333333333928404
+    ],
+    "weakest_index": 0,
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "sum_relative_error": 3.282054523216524e-14,
+    "predicted_count": 3
+  },
+  "background_power_relative": 0.009211916511607899,
+  "size_inches": [
+    12,
+    11
+  ],
+  "png_dpi": 300,
+  "matplotlib_version": "3.10.8",
+  "alt_text": "동일 전력 세 성분의 개선 사례. 혼합과 세 정답, 부모와 출력 재배정 후 STFT를 동일 색 범위로 비교한다. 배경 출력도 포함한다.",
+  "exports": {
+    "stft_B07.pdf": "97319ef6b7886d6dffc4826ba22f10c572a72586228c643181082c7c98ae1c28",
+    "stft_B07.svg": "5c09eb395bbaa9641ea507542f78b5c1c0ed435b3b1469df48a21ebc48a83012",
+    "stft_B07.png": "451e4377c05c34a866f541f8575fd89e9d0aaa1d790c0fa92bebe18fec5820fa",
+    "stft_B07.md": "6ef67f8a646cc776d649c653b0d824686f7b17bb96bc4c85bb7a34ba04d3e611"
+  },
+  "visual_review": "Both full-size figures inspected; consistent method/source columns, background retained, no clipped labels; common -75 to5dB range across both cases. Embedded TrueType PDF fonts checked."
+}
