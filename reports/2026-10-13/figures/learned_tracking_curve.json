@@ -1,0 +1,11 @@
+{
+  "source_sha256": "8d6ca64f83e725c508c9c1b20a10467886c38d9da59f51858527b92e2d207348",
+  "input_sha256": "1929510794f77d3287088cdf83e9875818316a859285f86b893efdc16141569e",
+  "exports": {
+    "pdf": "adeea5d8d9ac65ff2d32cb2b0cb21000388d738ce049c65ef0ca16ed353da96a",
+    "svg": "24b3cb28b0362048d3ea995d5952079c35360562f8381d8f3ef79d97864f4454",
+    "png": "da7a3999d083d44c0c2a0947252a87c48af0a7dbb21fcab3d3e0d3105a890d9a"
+  },
+  "scope": "All50 epochs, B24 only; full waveform teacher frozen; final50 fixed",
+  "visual_review": "PASS: inspected rendered PNG; both panels, labels, full50 curve and zero-based y axes readable"
+}

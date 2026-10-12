@@ -6,16 +6,15 @@
 - Report **every completed actual epoch in chat**: two/three-source NMSE, complex SI-SDR, weakest NMSE, changes from preceding epoch, selected model and next actual state. For short tracking epochs, a table containing every completed epoch is acceptable. Files/desktop notifications alone do not satisfy this. Verify STATE, process and AUDIT before claiming training is active; distinguish prepared/registered/waiting/running/evaluated/adopted. Detached workers cannot send chat messages themselves.
 - Performance takes priority over real-time speed. Preserve full waveform model capacity. Initial comparisons use seed0; reuse completed controls rather than retrain them repeatedly.
 
-## Live state:2026-10-13 06:20KST
+## Live state:2026-10-13 07:47KST
 
-- Parent B100 COMPLETE_AUDITED,7500updates. Original B630 macro-NMSE selects99: NMSE2/3=.2574137238/.3815573738, complexSI8.7230138/3.7962867, weakest.4401105690/.7223533810. `local/timeblock_extend100_20261012_v1`.
-- Matched shared/independent-PIT studies each completed3epochs/288updates from99. Shared failed all8adoption checks. Independent3 modestly improves means but worsens triple tails. No global best replacement. `local/sequence_assignment_20261013_v1`.
-- DualContextUNet completed3epochs/288updates,full36,554,507params,4,411,648added trainable,131parent tensors frozen. Final3 NMSE2/3=.3621748415/.5581097557, complexSI5.616089/1.286300, weakest.610741000/.821806219. All auditsPASS; worse than parent, not adopted or extended. `local/dual_context_20261013_v1`. Protocol ec715d7e89001fb2468991884e0917b2c6cdb62848b13b3c3aff497956adbbb5.
-- Its registered fixed final3 full5context/known-packet/C630 evaluation is RUNNING, unit `rf-dual-context-followup-v1` PID602366 (verify), `local/dual_context_followup_20261013_v1`. Sources/plans PINNED.
-- NEW registered supervised output tracker: frozen full U-Net99/C8 waveform teacher plus875,521param Transformer embedding on observed PSD/relative power. FIT48contexts,50epochs,12updates/epoch,600total,AdamW2.5e-4,seed0. B24everyepoch,C24final50only. Permutes existing waveform blocks; does not generate new waveforms or identify devices.
-- Teacher unit `rf-tracking-teacher-v1` PID637156 is WAITING_DUAL_FOLLOWUP, `local/tracking_teacher_20261013_v1`. Tracker unit `rf-learned-tracking-v1` PID637220 is WAITING_FIT_TEACHER, `local/learned_tracking_20261013_v1`. Verify actual states; do not say RF tracking training started yet.
-- Final CPU replay unit `rf-tracking-direct-audit-v1` PID637221 waits for50, `local/tracking_direct_audit_20261013_v1`. Recomputes observed features, embedding, orders and direct I/Q scores forB/C48. No references in forward/routing. Teacher/trainer/audit sources and two plans are PINNED; do not edit.
-- GPU jobs serialize with existing `neural_queue.lock`. CPU diagnostics use2cores,low priority,bounded memory. New large runs reside on external Elements via local symlinks. Preserve source snapshots and data manifests.
+- Parent B100 COMPLETE_AUDITED,7500updates. Original B630 selects99: NMSE2/3=.2574137238/.3815573738,complexSI8.7230138/3.7962867,weakest.4401105690/.7223533810. `local/timeblock_extend100_20261012_v1`.
+- Shared/independent PIT each completed3epochs/288updates. Shared failed all8adoption checks. Independent3 modestly improves means but worsens triple tails. No global replacement.
+- DualContext completed3epochs/288updates and full5/packet/C630 followup; auditsPASS. B630 worse than parent; C has NMSE/SI tradeoffs. Not adopted/extended. See `DUAL_CONTEXT_FOLLOWUP_KO.md`.
+- Learned tracking COMPLETE_AUDITED50epochs/600updates,875521params,full U-Net99 frozen. FIT48teacher preparation, B24 everyepoch, C24 final50, independent CPU direct I/Q replay and FIT diagnostic ALL complete/PASS. All50epochs reported in chat on latest turn.
+- Learned50 B24 NMSE2/3=.143027/.242095,complexSI10.417020/7.130407,weak.228390/.439353. C24=.517603/.710601,complexSI−.952400/−1.811997,weak.754059/1.319718. B triple6improve/1same vs PSD; C single mean slightly worse. No global CURRENT_BEST replacement. CheckpointSHA dce030e9031ec2081c3110ffabd759a225046e307b282729c498a06be987cab8.
+- NEW `rf-incumbent-tracking-v1` PID684243 evaluates existing C630 native e2 waveform model on fixed full C24 with parent/PSD/unchanged learned50 tracking. GPU RUNNING, verify STATE. Original short1/2/3preflightPASS. `local/incumbent_tracking_c24_20261013_v1`. No training, no Autel, no intermediatecheckpoint selection. Code/plan PINNED once registered.
+- GPU jobs serialize on existing neural_queue.lock. CPU diagnostics use bounded threads/memory. Large outputs on external Elements symlinks. Preserve snapshots/manifests.
 
 ## Evidence and selection boundaries
 

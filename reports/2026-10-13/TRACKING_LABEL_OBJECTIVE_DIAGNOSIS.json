@@ -1,0 +1,464 @@
+{
+  "status": "PASS",
+  "scope": "FIT diagnostic, no new model result",
+  "cases": [
+    {
+      "index": 0,
+      "count": 2,
+      "active_tokens": 66,
+      "changed_tokens": 4,
+      "changed_reference_energy_weight": 0.0010783581565192435,
+      "local_label_whole_nmse": 0.08737252949253642,
+      "min_whole_nmse": 0.08715646433263084
+    },
+    {
+      "index": 1,
+      "count": 1,
+      "active_tokens": 33,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.0001781071381395618,
+      "min_whole_nmse": 0.0001781071381395618
+    },
+    {
+      "index": 2,
+      "count": 2,
+      "active_tokens": 66,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.02342910461973089,
+      "min_whole_nmse": 0.02342910461973089
+    },
+    {
+      "index": 3,
+      "count": 2,
+      "active_tokens": 66,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.07158635859325425,
+      "min_whole_nmse": 0.07158635859325425
+    },
+    {
+      "index": 4,
+      "count": 2,
+      "active_tokens": 66,
+      "changed_tokens": 1,
+      "changed_reference_energy_weight": 0.0009989007376134396,
+      "local_label_whole_nmse": 0.0499415334054028,
+      "min_whole_nmse": 0.04954014286950644
+    },
+    {
+      "index": 5,
+      "count": 3,
+      "active_tokens": 99,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.14137949903220207,
+      "min_whole_nmse": 0.14137949903220207
+    },
+    {
+      "index": 6,
+      "count": 3,
+      "active_tokens": 99,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.17571913330810218,
+      "min_whole_nmse": 0.17571913330810218
+    },
+    {
+      "index": 7,
+      "count": 2,
+      "active_tokens": 66,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.07293286245309646,
+      "min_whole_nmse": 0.07293286245309646
+    },
+    {
+      "index": 8,
+      "count": 2,
+      "active_tokens": 66,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.007583315989008636,
+      "min_whole_nmse": 0.007583315989008636
+    },
+    {
+      "index": 9,
+      "count": 1,
+      "active_tokens": 33,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.00017287569277914594,
+      "min_whole_nmse": 0.00017287569277914594
+    },
+    {
+      "index": 10,
+      "count": 3,
+      "active_tokens": 99,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.18192857174274984,
+      "min_whole_nmse": 0.18192857174274984
+    },
+    {
+      "index": 11,
+      "count": 1,
+      "active_tokens": 33,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.0001354172688842026,
+      "min_whole_nmse": 0.0001354172688842026
+    },
+    {
+      "index": 12,
+      "count": 1,
+      "active_tokens": 33,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.00015385364754258693,
+      "min_whole_nmse": 0.00015385364754258693
+    },
+    {
+      "index": 13,
+      "count": 3,
+      "active_tokens": 99,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.2431150112659462,
+      "min_whole_nmse": 0.2431150112659462
+    },
+    {
+      "index": 14,
+      "count": 2,
+      "active_tokens": 66,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.008761198255880917,
+      "min_whole_nmse": 0.008761198255880917
+    },
+    {
+      "index": 15,
+      "count": 3,
+      "active_tokens": 99,
+      "changed_tokens": 4,
+      "changed_reference_energy_weight": 0.0081092503896798,
+      "local_label_whole_nmse": 0.1567431111772925,
+      "min_whole_nmse": 0.1566835255898361
+    },
+    {
+      "index": 16,
+      "count": 3,
+      "active_tokens": 99,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.17769354014739142,
+      "min_whole_nmse": 0.17769354014739142
+    },
+    {
+      "index": 17,
+      "count": 3,
+      "active_tokens": 99,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.19080400525374022,
+      "min_whole_nmse": 0.19080400525374022
+    },
+    {
+      "index": 18,
+      "count": 3,
+      "active_tokens": 99,
+      "changed_tokens": 4,
+      "changed_reference_energy_weight": 0.0005844566949235741,
+      "local_label_whole_nmse": 0.06656090244897585,
+      "min_whole_nmse": 0.06613579137498854
+    },
+    {
+      "index": 19,
+      "count": 1,
+      "active_tokens": 33,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.00013728284159567522,
+      "min_whole_nmse": 0.00013728284159567522
+    },
+    {
+      "index": 21,
+      "count": 3,
+      "active_tokens": 99,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.1617310431561935,
+      "min_whole_nmse": 0.1617310431561935
+    },
+    {
+      "index": 22,
+      "count": 2,
+      "active_tokens": 66,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.005524165702220362,
+      "min_whole_nmse": 0.005524165702220362
+    },
+    {
+      "index": 23,
+      "count": 3,
+      "active_tokens": 99,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.19712640179147595,
+      "min_whole_nmse": 0.19712640179147595
+    },
+    {
+      "index": 24,
+      "count": 2,
+      "active_tokens": 66,
+      "changed_tokens": 1,
+      "changed_reference_energy_weight": 5.166138362255879e-05,
+      "local_label_whole_nmse": 0.019697275567208086,
+      "min_whole_nmse": 0.01969621486193818
+    },
+    {
+      "index": 25,
+      "count": 3,
+      "active_tokens": 99,
+      "changed_tokens": 2,
+      "changed_reference_energy_weight": 0.023082010098733008,
+      "local_label_whole_nmse": 0.14338058729215852,
+      "min_whole_nmse": 0.13937834199963597
+    },
+    {
+      "index": 26,
+      "count": 1,
+      "active_tokens": 33,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.00016333693775989468,
+      "min_whole_nmse": 0.00016333693775989468
+    },
+    {
+      "index": 30,
+      "count": 3,
+      "active_tokens": 99,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.10885876476492531,
+      "min_whole_nmse": 0.10885876476492531
+    },
+    {
+      "index": 31,
+      "count": 2,
+      "active_tokens": 66,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.061223660873001955,
+      "min_whole_nmse": 0.061223660873001955
+    },
+    {
+      "index": 33,
+      "count": 1,
+      "active_tokens": 33,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.00024316859473446704,
+      "min_whole_nmse": 0.00024316859473446704
+    },
+    {
+      "index": 34,
+      "count": 1,
+      "active_tokens": 33,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.00015217282564386294,
+      "min_whole_nmse": 0.00015217282564386294
+    },
+    {
+      "index": 38,
+      "count": 3,
+      "active_tokens": 99,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.12403013236367054,
+      "min_whole_nmse": 0.12403013236367054
+    },
+    {
+      "index": 39,
+      "count": 1,
+      "active_tokens": 33,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.00017059664538505903,
+      "min_whole_nmse": 0.00017059664538505903
+    },
+    {
+      "index": 40,
+      "count": 2,
+      "active_tokens": 66,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.017006168235470413,
+      "min_whole_nmse": 0.017006168235470413
+    },
+    {
+      "index": 41,
+      "count": 3,
+      "active_tokens": 99,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.28082095749437114,
+      "min_whole_nmse": 0.28082095749437114
+    },
+    {
+      "index": 44,
+      "count": 2,
+      "active_tokens": 66,
+      "changed_tokens": 1,
+      "changed_reference_energy_weight": 0.00010521199874347076,
+      "local_label_whole_nmse": 0.030219255810161508,
+      "min_whole_nmse": 0.030218677400410374
+    },
+    {
+      "index": 46,
+      "count": 2,
+      "active_tokens": 66,
+      "changed_tokens": 1,
+      "changed_reference_energy_weight": 0.005673977080732584,
+      "local_label_whole_nmse": 0.15397128154329345,
+      "min_whole_nmse": 0.15385294444433184
+    },
+    {
+      "index": 49,
+      "count": 2,
+      "active_tokens": 66,
+      "changed_tokens": 1,
+      "changed_reference_energy_weight": 2.7525160476216115e-05,
+      "local_label_whole_nmse": 0.04468972006526339,
+      "min_whole_nmse": 0.044689534787162186
+    },
+    {
+      "index": 52,
+      "count": 2,
+      "active_tokens": 66,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.0654605838619411,
+      "min_whole_nmse": 0.0654605838619411
+    },
+    {
+      "index": 54,
+      "count": 2,
+      "active_tokens": 66,
+      "changed_tokens": 1,
+      "changed_reference_energy_weight": 5.450544995255768e-05,
+      "local_label_whole_nmse": 0.1080305537050286,
+      "min_whole_nmse": 0.10802813045042374
+    },
+    {
+      "index": 55,
+      "count": 2,
+      "active_tokens": 66,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.2056917010783295,
+      "min_whole_nmse": 0.2056917010783295
+    },
+    {
+      "index": 57,
+      "count": 2,
+      "active_tokens": 66,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.22912094144355524,
+      "min_whole_nmse": 0.22912094144355524
+    },
+    {
+      "index": 59,
+      "count": 2,
+      "active_tokens": 66,
+      "changed_tokens": 1,
+      "changed_reference_energy_weight": 0.06588872522115707,
+      "local_label_whole_nmse": 0.15478443692618238,
+      "min_whole_nmse": 0.1524063590803164
+    },
+    {
+      "index": 74,
+      "count": 2,
+      "active_tokens": 66,
+      "changed_tokens": 2,
+      "changed_reference_energy_weight": 5.3511994337895885e-06,
+      "local_label_whole_nmse": 0.02802872059974222,
+      "min_whole_nmse": 0.02802852244748072
+    },
+    {
+      "index": 75,
+      "count": 1,
+      "active_tokens": 33,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.00016095848361539204,
+      "min_whole_nmse": 0.00016095848361539204
+    },
+    {
+      "index": 86,
+      "count": 2,
+      "active_tokens": 66,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.1356611538028927,
+      "min_whole_nmse": 0.1356611538028927
+    },
+    {
+      "index": 113,
+      "count": 2,
+      "active_tokens": 66,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.022756187292688346,
+      "min_whole_nmse": 0.022756187292688346
+    },
+    {
+      "index": 117,
+      "count": 2,
+      "active_tokens": 66,
+      "changed_tokens": 0,
+      "changed_reference_energy_weight": 0,
+      "local_label_whole_nmse": 0.10518306389096028,
+      "min_whole_nmse": 0.10518306389096028
+    },
+    {
+      "index": 144,
+      "count": 2,
+      "active_tokens": 66,
+      "changed_tokens": 1,
+      "changed_reference_energy_weight": 9.502925240667537e-05,
+      "local_label_whole_nmse": 0.028374370629545394,
+      "min_whole_nmse": 0.028368204489368904
+    }
+  ],
+  "by_count": {
+    "1": {
+      "cases": 10,
+      "mean_local_nmse": 0.00016677700760798483,
+      "mean_min_nmse": 0.00016677700760798483,
+      "mean_changed_weight": 0.0,
+      "changed_tokens": 0,
+      "tokens": 330
+    },
+    "2": {
+      "cases": 24,
+      "mean_local_nmse": 0.07237625599318313,
+      "mean_min_nmse": 0.07224606921898337,
+      "mean_changed_weight": 0.0030824685683607336,
+      "changed_tokens": 14,
+      "tokens": 1584
+    },
+    "3": {
+      "cases": 14,
+      "mean_local_nmse": 0.16784940437422824,
+      "mean_min_nmse": 0.1675289085203735,
+      "mean_changed_weight": 0.002269694084524027,
+      "changed_tokens": 10,
+      "tokens": 1386
+    }
+  }
+}
