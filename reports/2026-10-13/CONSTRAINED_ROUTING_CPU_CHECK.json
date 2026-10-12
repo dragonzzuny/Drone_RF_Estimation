@@ -1,0 +1,244 @@
+{
+  "status": "PASS",
+  "random_objective_cases": [
+    {
+      "count": 1,
+      "trial": 0,
+      "steps": 1,
+      "gain": 0.017269653791186057
+    },
+    {
+      "count": 1,
+      "trial": 1,
+      "steps": 1,
+      "gain": 0.01527243133655476
+    },
+    {
+      "count": 1,
+      "trial": 2,
+      "steps": 1,
+      "gain": 0.012733799990365835
+    },
+    {
+      "count": 1,
+      "trial": 3,
+      "steps": 1,
+      "gain": 0.010828967471485207
+    },
+    {
+      "count": 1,
+      "trial": 4,
+      "steps": 1,
+      "gain": 0.011282377097454166
+    },
+    {
+      "count": 1,
+      "trial": 5,
+      "steps": 1,
+      "gain": 0.008374408861127725
+    },
+    {
+      "count": 1,
+      "trial": 6,
+      "steps": 1,
+      "gain": 0.004269388094440774
+    },
+    {
+      "count": 1,
+      "trial": 7,
+      "steps": 1,
+      "gain": 0.015429334842356424
+    },
+    {
+      "count": 1,
+      "trial": 8,
+      "steps": 1,
+      "gain": 0.006390059950658222
+    },
+    {
+      "count": 1,
+      "trial": 9,
+      "steps": 1,
+      "gain": 0.022126810396073893
+    },
+    {
+      "count": 1,
+      "trial": 10,
+      "steps": 1,
+      "gain": 0.012840039910021916
+    },
+    {
+      "count": 1,
+      "trial": 11,
+      "steps": 1,
+      "gain": 0.017288408404516176
+    },
+    {
+      "count": 2,
+      "trial": 0,
+      "steps": 2,
+      "gain": 0.0033029056124889156
+    },
+    {
+      "count": 2,
+      "trial": 1,
+      "steps": 2,
+      "gain": 0.004660762218469561
+    },
+    {
+      "count": 2,
+      "trial": 2,
+      "steps": 2,
+      "gain": 0.001021148119304649
+    },
+    {
+      "count": 2,
+      "trial": 3,
+      "steps": 2,
+      "gain": 0.00587448974608995
+    },
+    {
+      "count": 2,
+      "trial": 4,
+      "steps": 3,
+      "gain": 0.010199306955193665
+    },
+    {
+      "count": 2,
+      "trial": 5,
+      "steps": 2,
+      "gain": 0.005232524246151837
+    },
+    {
+      "count": 2,
+      "trial": 6,
+      "steps": 2,
+      "gain": 0.008063674772515128
+    },
+    {
+      "count": 2,
+      "trial": 7,
+      "steps": 1,
+      "gain": 0.000268812281031483
+    },
+    {
+      "count": 2,
+      "trial": 8,
+      "steps": 4,
+      "gain": 0.009871645562827824
+    },
+    {
+      "count": 2,
+      "trial": 9,
+      "steps": 1,
+      "gain": 0.003687537423547993
+    },
+    {
+      "count": 2,
+      "trial": 10,
+      "steps": 2,
+      "gain": 0.0010542195306548763
+    },
+    {
+      "count": 2,
+      "trial": 11,
+      "steps": 2,
+      "gain": 0.0018990947989195872
+    },
+    {
+      "count": 3,
+      "trial": 0,
+      "steps": 4,
+      "gain": 0.002262888545705999
+    },
+    {
+      "count": 3,
+      "trial": 1,
+      "steps": 2,
+      "gain": 0.0003898680358261908
+    },
+    {
+      "count": 3,
+      "trial": 2,
+      "steps": 4,
+      "gain": 0.0009928820069320388
+    },
+    {
+      "count": 3,
+      "trial": 3,
+      "steps": 2,
+      "gain": 0.0005708197681056904
+    },
+    {
+      "count": 3,
+      "trial": 4,
+      "steps": 2,
+      "gain": 0.0004055666777333933
+    },
+    {
+      "count": 3,
+      "trial": 5,
+      "steps": 3,
+      "gain": 0.0004958294561667742
+    },
+    {
+      "count": 3,
+      "trial": 6,
+      "steps": 3,
+      "gain": 0.00031035921561473057
+    },
+    {
+      "count": 3,
+      "trial": 7,
+      "steps": 4,
+      "gain": 0.0010506115025449292
+    },
+    {
+      "count": 3,
+      "trial": 8,
+      "steps": 3,
+      "gain": 0.0009140524089243929
+    },
+    {
+      "count": 3,
+      "trial": 9,
+      "steps": 5,
+      "gain": 0.0013291951005309777
+    },
+    {
+      "count": 3,
+      "trial": 10,
+      "steps": 2,
+      "gain": 0.0007611364300721402
+    },
+    {
+      "count": 3,
+      "trial": 11,
+      "steps": 4,
+      "gain": 0.002817981452260976
+    }
+  ],
+  "unequal_power_waveforms": [
+    {
+      "count": 1,
+      "all_complex_samples_permuted_only": true,
+      "monotone_objective": true
+    },
+    {
+      "count": 2,
+      "all_complex_samples_permuted_only": true,
+      "monotone_objective": true
+    },
+    {
+      "count": 3,
+      "all_complex_samples_permuted_only": true,
+      "monotone_objective": true
+    }
+  ],
+  "source_sha256": {
+    "test_spectral_routing_constrained.py": "249af2534b1584f2b8f15739ce0f07c71d872d3f242dd2bff71be4c964ddffcb",
+    "spectral_routing_constrained.py": "b86a555c4a75abd61799ceca3fbb8406c78d51ad0306bc6317c95f63e187dc2b"
+  },
+  "rf_data_used": false,
+  "performance_claim": false
+}

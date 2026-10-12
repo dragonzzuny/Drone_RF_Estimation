@@ -1,0 +1,30 @@
+{
+  "source_sha256": "882f1a7d63a7070badfa948a2d47e6399ecdbebb8217ac682fc890f2ce9a7699",
+  "groups": [
+    {
+      "count": 1,
+      "source_nmse_median_before": 0.00016508077848129908,
+      "source_nmse_median_after": 0.00016508077848129908,
+      "case_mean_improved": 0,
+      "case_mean_worsened": 0,
+      "case_mean_unchanged": 5
+    },
+    {
+      "count": 2,
+      "source_nmse_median_before": 0.29819466450793697,
+      "source_nmse_median_after": 0.08993173728959797,
+      "case_mean_improved": 5,
+      "case_mean_worsened": 4,
+      "case_mean_unchanged": 3
+    },
+    {
+      "count": 3,
+      "source_nmse_median_before": 0.6627811219714027,
+      "source_nmse_median_after": 0.2415510837488049,
+      "case_mean_improved": 5,
+      "case_mean_worsened": 2,
+      "case_mean_unchanged": 0
+    }
+  ],
+  "dependent_development_cases": true
+}

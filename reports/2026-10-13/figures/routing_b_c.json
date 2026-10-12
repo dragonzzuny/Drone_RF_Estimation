@@ -1,0 +1,29 @@
+{
+  "status": "EXPORTED_AND_VISUALLY_REVIEWED",
+  "input_sha256": "cbd361e05eb3f8a5071f2a01fe92f077978406b2f432289d35bd900396a66cc6",
+  "source_sha256": "d91da6889cf169b924caaee7fcc50741e7f720afd856bbd008d54f0c897a4f3d",
+  "size_inches": [
+    12,
+    7
+  ],
+  "png_dpi": 300,
+  "matplotlib_version": "3.10.8",
+  "transformation": "Arithmetic mean per fixed count; all19multisource cases per group; no smoothing",
+  "uncertainty": "None; dependent development conditions",
+  "single_source_data_in_csv": true,
+  "scales": [
+    "log10",
+    "linear dB",
+    "log10"
+  ],
+  "axes_shared_by_column": true,
+  "alt_text": "Six-panel plot showing mean and every-case waveform reconstruction metrics before and after two reference-free routing methods. B improves more than C; weak three-source C reconstruction remains worse than the parent.",
+  "exports": {
+    "routing_b_c.pdf": "d441dc329a26a33901b983b84968e9fc639f6c3ef9c158b95e354499b554a778",
+    "routing_b_c.svg": "947c52becee7cd04a0dc7795a86f19f5d2eb1293407e973ac64a38d166fe18bc",
+    "routing_b_c.png": "a661c86ec0d9debdf6895a99da636e24ebcea9e46bd73740c969d02c82934c98",
+    "routing_b_c.csv": "905b7eb5600acfde9a097ba2b1b75f698d06a635b8e9b475480b7b1e4c1504bc",
+    "routing_b_c.md": "41f19e54ad869cea6f787b458c2949836bbe962bc14f1520c81b64084311c781"
+  },
+  "visual_review": "PNG inspected: no clipped labels, common column limits, all multi-source cases, legible mean-vs-case distinction. PDF fonts embedded TrueType. Provisional, no journal compliance claim."
+}

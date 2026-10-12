@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "count": 1,
+      "known_routing_nmse": 1.884411997738494e-15,
+      "oracle_nmse": 1.884411997738494e-15
+    },
+    {
+      "count": 2,
+      "known_routing_nmse": 1.4098989477106169e-15,
+      "oracle_nmse": 1.3476177970904855e-15
+    },
+    {
+      "count": 3,
+      "known_routing_nmse": 1.304362114954263e-15,
+      "oracle_nmse": 1.187692206719467e-15
+    }
+  ],
+  "source_sha256": "c6bd4fd3ef2b56e2f3e9e2aa56be9eede2c416cbf514bd9baa06d058799c24b8",
+  "synthetic": true,
+  "rf_inference": false
+}

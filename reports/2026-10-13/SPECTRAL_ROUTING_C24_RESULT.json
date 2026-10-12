@@ -1,0 +1,3585 @@
+{
+  "status": "VERIFIED",
+  "cases": [
+    {
+      "index": 0,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "nominal_levels_db": [
+        10.0,
+        0.0
+      ],
+      "parent_output_sha256": "348739df2bd621bc408a64cd72d02c5dcf26646f8e16e73075690c743ea9dd1d",
+      "parent": {
+        "count": 2,
+        "nmse": [
+          0.10469905530689053,
+          1.0029893927207185
+        ],
+        "si_sdr": [
+          9.638224791458113,
+          -21.994823116359427
+        ],
+        "reference_power": [
+          0.9090909091197338,
+          0.09090909090013836
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          1,
+          0
+        ],
+        "sum_relative_error": 3.576180386487417e-14,
+        "predicted_count": 1
+      },
+      "methods": {
+        "fit_dictionary": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.06891146559499552,
+              0.6820732923052176
+            ],
+            "si_sdr": [
+              11.330237591247514,
+              -1.1987011655205921
+            ],
+            "reference_power": [
+              0.9090909091197338,
+              0.09090909090013836
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.6389795362159316e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "46d2736d50ce7fdf13299ffd9790e52313b746fab3b8bec2f74fbe3e7c05a80a"
+        },
+        "observation_clusters": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.10469905530689053,
+              1.0029893927207185
+            ],
+            "si_sdr": [
+              9.638224791458113,
+              -21.994823116359427
+            ],
+            "reference_power": [
+              0.9090909091197338,
+              0.09090909090013836
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              0,
+              2,
+              1
+            ],
+            "sum_relative_error": 3.639080129093735e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "fd425de0ed5b5f60a49fd7fe99c11a04cbea2f2ba2229bab8771da1450039ba2"
+        },
+        "count_dictionary": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.10469905530689053,
+              1.0029893927207185
+            ],
+            "si_sdr": [
+              9.638224791458113,
+              -21.994823116359427
+            ],
+            "reference_power": [
+              0.9090909091197338,
+              0.09090909090013836
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              0,
+              2,
+              1
+            ],
+            "sum_relative_error": 3.639080129093735e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "7a3dbea6e244868e511fe148f99bf3e1858d741b0cc7b51a7202b0a3fb641d50"
+        },
+        "slot_initialized_clusters": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.10469905530689053,
+              1.0029893927207185
+            ],
+            "si_sdr": [
+              9.638224791458113,
+              -21.994823116359427
+            ],
+            "reference_power": [
+              0.9090909091197338,
+              0.09090909090013836
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              0,
+              2,
+              1
+            ],
+            "sum_relative_error": 3.639080129093735e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "8e90f605c8ad91b015b83bce13859606bcc3ea45a7219bc8ff1459282e0a2a3c"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nominal_levels_db": [
+        -10.0,
+        0.0
+      ],
+      "parent_output_sha256": "ff412c09372efda1a4f3340c5c9ba7a4f6463cc6fed9a0999ad4795c986cfe98",
+      "parent": {
+        "count": 2,
+        "nmse": [
+          1.5818979165138871,
+          0.5399678539730853
+        ],
+        "si_sdr": [
+          -8.76228551879265,
+          -0.6931286370191596
+        ],
+        "reference_power": [
+          0.09090909090556146,
+          0.9090909091319196
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 4.1649064310275077e-14,
+        "predicted_count": 2
+      },
+      "methods": {
+        "fit_dictionary": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.735956050076226,
+              0.14085289835262016
+            ],
+            "si_sdr": [
+              -4.341743745197359,
+              7.864618323068724
+            ],
+            "reference_power": [
+              0.09090909090556146,
+              0.9090909091319196
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              0,
+              2,
+              1
+            ],
+            "sum_relative_error": 4.121813745463413e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "8088c38c0ad906dcd3dc6a121ff1e2b456ef31a788a860ce6aed1dc22ba6747d"
+        },
+        "observation_clusters": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.8432581959583829,
+              0.3453368136688079
+            ],
+            "si_sdr": [
+              -6.08244570856609,
+              2.7798664625769423
+            ],
+            "reference_power": [
+              0.09090909090556146,
+              0.9090909091319196
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              2,
+              0,
+              1
+            ],
+            "sum_relative_error": 4.171152459747152e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "415dcc9464620898ea036eab369e42dced45f12636b50998e01100370820dc2e"
+        },
+        "count_dictionary": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.8419013381523132,
+              0.13801565469023352
+            ],
+            "si_sdr": [
+              -6.073237017255483,
+              7.9663471368118195
+            ],
+            "reference_power": [
+              0.09090909090556146,
+              0.9090909091319196
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              2,
+              0,
+              1
+            ],
+            "sum_relative_error": 4.1711273760484434e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "fa54a0f9259438073787d75f565b29c9e91a1a39c676ca84e532574ea4385cfc"
+        },
+        "slot_initialized_clusters": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.8432581959583829,
+              0.3453368136688079
+            ],
+            "si_sdr": [
+              -6.08244570856609,
+              2.7798664625769423
+            ],
+            "reference_power": [
+              0.09090909090556146,
+              0.9090909091319196
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              2,
+              0,
+              1
+            ],
+            "sum_relative_error": 4.171152459747152e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "4cd5e20fb9e99696144287ed7b79b7004b30e4dc7669ced1d5d0c85e585b9431"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "nominal_levels_db": [
+        10.0,
+        0.0
+      ],
+      "parent_output_sha256": "8eaf668c5ffdb187ad49db1a26766c084c627e4df8a8a20324f1aec9c7911a96",
+      "parent": {
+        "count": 2,
+        "nmse": [
+          0.38012107491525604,
+          0.953929873344445
+        ],
+        "si_sdr": [
+          2.161866969203545,
+          -12.360523178898976
+        ],
+        "reference_power": [
+          0.9090909090150199,
+          0.09090909090877233
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          1,
+          0,
+          2
+        ],
+        "sum_relative_error": 3.816659225704911e-14,
+        "predicted_count": 2
+      },
+      "methods": {
+        "fit_dictionary": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.42452908883239,
+              1.4848903931361384
+            ],
+            "si_sdr": [
+              1.370218033162285,
+              -15.035892417204085
+            ],
+            "reference_power": [
+              0.9090909090150199,
+              0.09090909090877233
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.820403030392423e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "82d24b8e23271073c08516b845e0da3028f263c34122914d362e920d4d72f64a"
+        },
+        "observation_clusters": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.38012107491525604,
+              0.953929873344445
+            ],
+            "si_sdr": [
+              2.161866969203545,
+              -12.360523178898976
+            ],
+            "reference_power": [
+              0.9090909090150199,
+              0.09090909090877233
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              0,
+              2,
+              1
+            ],
+            "sum_relative_error": 3.83913902094416e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "71825aafa1f24b2b88ea536d2ac2406bc22835a09d4fba7e61eb19d191cedfcc"
+        },
+        "count_dictionary": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.38012107491525604,
+              0.953929873344445
+            ],
+            "si_sdr": [
+              2.161866969203545,
+              -12.360523178898976
+            ],
+            "reference_power": [
+              0.9090909090150199,
+              0.09090909090877233
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              0,
+              2,
+              1
+            ],
+            "sum_relative_error": 3.83913902094416e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "4917e779a8acec8015934394f12e65f1c75e42c07e389fb42b7315a64b971dcb"
+        },
+        "slot_initialized_clusters": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.38012107491525604,
+              0.953929873344445
+            ],
+            "si_sdr": [
+              2.161866969203545,
+              -12.360523178898976
+            ],
+            "reference_power": [
+              0.9090909090150199,
+              0.09090909090877233
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              0,
+              2,
+              1
+            ],
+            "sum_relative_error": 3.83913902094416e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "1d443d527d29d95ce3750df95b31149c7d3e9a52ce5f54be8d6cdb6bca32de83"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nominal_levels_db": [
+        0.0,
+        10.0,
+        0.0
+      ],
+      "parent_output_sha256": "508dd155da6ec5eb65765d80ae3b65a8513124fa61da4be414c7daca3429c84c",
+      "parent": {
+        "count": 3,
+        "nmse": [
+          2.8488759937443375,
+          0.2690074224886457,
+          0.769930495617217
+        ],
+        "si_sdr": [
+          -15.493028073630473,
+          4.342057784685531,
+          -4.710716881203582
+        ],
+        "reference_power": [
+          0.08333333333324344,
+          0.8333333333610154,
+          0.08333333333714064
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          0,
+          2,
+          1
+        ],
+        "sum_relative_error": 3.769668273263371e-14,
+        "predicted_count": 3
+      },
+      "methods": {
+        "fit_dictionary": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              1.3037299419258916,
+              0.13188372835790052,
+              0.32347945242237286
+            ],
+            "si_sdr": [
+              -11.09984821817979,
+              8.184555591077602,
+              3.230483512906022
+            ],
+            "reference_power": [
+              0.08333333333324344,
+              0.8333333333610154,
+              0.08333333333714064
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.8088670786021907e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "d284f5f5fe7cfd6ea0934e03e59c1319900e8b687db705a52ff33c8d568c1dea"
+        },
+        "observation_clusters": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              1.5820594845697882,
+              0.13749174567174718,
+              0.5421284256181095
+            ],
+            "si_sdr": [
+              -14.573632757125633,
+              7.976590421406709,
+              -0.5908654605542345
+            ],
+            "reference_power": [
+              0.08333333333324344,
+              0.8333333333610154,
+              0.08333333333714064
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              2,
+              0,
+              1
+            ],
+            "sum_relative_error": 3.802395177007898e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "7b91cc82e85a1457fa6a178ecfe9163569ec906bff00de73baebe94a7cf7db6b"
+        },
+        "count_dictionary": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              1.3037299419258916,
+              0.13188372835790052,
+              0.32347945242237286
+            ],
+            "si_sdr": [
+              -11.09984821817979,
+              8.184555591077602,
+              3.230483512906022
+            ],
+            "reference_power": [
+              0.08333333333324344,
+              0.8333333333610154,
+              0.08333333333714064
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              1,
+              0,
+              2
+            ],
+            "sum_relative_error": 3.8088670786021907e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "1726aec37e6eac28a0d04c14fbc881c002ea6a03df0ca022b84324afea1888be"
+        },
+        "slot_initialized_clusters": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              1.5770529244507776,
+              0.13749174567174718,
+              0.5547614916252608
+            ],
+            "si_sdr": [
+              -14.714748163747464,
+              7.976590421406709,
+              -0.8750336302025579
+            ],
+            "reference_power": [
+              0.08333333333324344,
+              0.8333333333610154,
+              0.08333333333714064
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              2,
+              0,
+              1
+            ],
+            "sum_relative_error": 3.8025536696212984e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "2b103e4a2e6cd2348359ec8745600acdc52e78716a9b6f988e3410edbeeffce9"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "categories": [
+        "DJI FPV COMBO"
+      ],
+      "nominal_levels_db": [
+        0.0
+      ],
+      "parent_output_sha256": "7f0754f8dba2a378c825482066571c6899241b2858f713e31fdd6bb881908c2a",
+      "parent": {
+        "count": 1,
+        "nmse": [
+          0.3795237689728772
+        ],
+        "si_sdr": [
+          2.1914947497687516
+        ],
+        "reference_power": [
+          0.9999999999847421
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          1,
+          0,
+          2
+        ],
+        "sum_relative_error": 3.7601855678058896e-14,
+        "predicted_count": 2
+      },
+      "methods": {
+        "fit_dictionary": {
+          "metrics": {
+            "count": 1,
+            "nmse": [
+              0.05413087990503735
+            ],
+            "si_sdr": [
+              12.582559117416547
+            ],
+            "reference_power": [
+              0.9999999999847421
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              1,
+              0,
+              2
+            ],
+            "sum_relative_error": 3.7889237847046164e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "67e545eea93416857ab1432a633ac9b2163ace0976127c4f2f8f6ac4d9c5cadf"
+        },
+        "observation_clusters": {
+          "metrics": {
+            "count": 1,
+            "nmse": [
+              0.051816082445862714
+            ],
+            "si_sdr": [
+              12.789397980766443
+            ],
+            "reference_power": [
+              0.9999999999847421
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.788925957811334e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "6d96c75fa7825ba64d8794a633716bd22905ff7d061b6f3b78e55f8d895c1f57"
+        },
+        "count_dictionary": {
+          "metrics": {
+            "count": 1,
+            "nmse": [
+              0.054109167182676964
+            ],
+            "si_sdr": [
+              12.584549257233382
+            ],
+            "reference_power": [
+              0.9999999999847421
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.788925957811334e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "02e29c8ceb20597af66a77fb71207016ea4984827d0fe73a85fcf63a3c2d7c43"
+        },
+        "slot_initialized_clusters": {
+          "metrics": {
+            "count": 1,
+            "nmse": [
+              0.051816082445862714
+            ],
+            "si_sdr": [
+              12.789397980766443
+            ],
+            "reference_power": [
+              0.9999999999847421
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.788925957811334e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "785179571b8eb1d5476d7879fa8b0550a752c4c4937692e7415cc18eef77412e"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "categories": [
+        "DJI AVATA2"
+      ],
+      "nominal_levels_db": [
+        0.0
+      ],
+      "parent_output_sha256": "fec2d25db31c11c2486ef5342e405ce2ecc32cd4c6e4738b850e390c40b2992d",
+      "parent": {
+        "count": 1,
+        "nmse": [
+          0.4313642846233927
+        ],
+        "si_sdr": [
+          1.4724712700700646
+        ],
+        "reference_power": [
+          0.9999999999407605
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          1,
+          0,
+          2
+        ],
+        "sum_relative_error": 3.843909298010881e-14,
+        "predicted_count": 2
+      },
+      "methods": {
+        "fit_dictionary": {
+          "metrics": {
+            "count": 1,
+            "nmse": [
+              0.4528357291727655
+            ],
+            "si_sdr": [
+              1.0977236447748169
+            ],
+            "reference_power": [
+              0.9999999999407605
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              2,
+              1,
+              0
+            ],
+            "sum_relative_error": 3.844637357545882e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "0537a2136b380130093788579a84255f50863e4a43ac55f574115701337d0797"
+        },
+        "observation_clusters": {
+          "metrics": {
+            "count": 1,
+            "nmse": [
+              0.4271397957152263
+            ],
+            "si_sdr": [
+              1.6180799061217621
+            ],
+            "reference_power": [
+              0.9999999999407605
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              1,
+              0,
+              2
+            ],
+            "sum_relative_error": 3.874442533317145e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "7d79362811485be56632a33e33feab02f4923a397a4a3d0138472c68a0980d63"
+        },
+        "count_dictionary": {
+          "metrics": {
+            "count": 1,
+            "nmse": [
+              0.4267488414141629
+            ],
+            "si_sdr": [
+              1.6246533739294977
+            ],
+            "reference_power": [
+              0.9999999999407605
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              1,
+              2,
+              0
+            ],
+            "sum_relative_error": 3.874442533317145e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "cb37458327c6f6f9fe21e75ffff088f9012c458dffb2f1071a714a3bc146f584"
+        },
+        "slot_initialized_clusters": {
+          "metrics": {
+            "count": 1,
+            "nmse": [
+              0.4271397957152263
+            ],
+            "si_sdr": [
+              1.6180799061217621
+            ],
+            "reference_power": [
+              0.9999999999407605
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              1,
+              0,
+              2
+            ],
+            "sum_relative_error": 3.874442533317145e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "076db125e7af525d2a7ce6eeee0d210eb4f0fe7eb1b7474c7a35a821312696b1"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "categories": [
+        "DJI MINI4 PRO"
+      ],
+      "nominal_levels_db": [
+        0.0
+      ],
+      "parent_output_sha256": "4d06a273c1fae4d986422e5d596e89da788ed245da41aee2ff9c68c1b7e10d80",
+      "parent": {
+        "count": 1,
+        "nmse": [
+          8.712395356721675e-05
+        ],
+        "si_sdr": [
+          40.75196457546496
+        ],
+        "reference_power": [
+          0.9999999998526193
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 4.083899776424244e-14,
+        "predicted_count": 1
+      },
+      "methods": {
+        "fit_dictionary": {
+          "metrics": {
+            "count": 1,
+            "nmse": [
+              0.0001322848354599232
+            ],
+            "si_sdr": [
+              38.88505616675732
+            ],
+            "reference_power": [
+              0.9999999998526193
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              1,
+              0,
+              2
+            ],
+            "sum_relative_error": 4.15082982310591e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "e3d0f19821adaffe836e69a5c9c561cec2b0b35922066b46e196365d29f8fd0b"
+        },
+        "observation_clusters": {
+          "metrics": {
+            "count": 1,
+            "nmse": [
+              8.712395356721675e-05
+            ],
+            "si_sdr": [
+              40.75196457546496
+            ],
+            "reference_power": [
+              0.9999999998526193
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 4.1509008263287874e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "cc33fe46c9f1a7c68c3a8c7d6aaa7b67934bd2e8cdae1ef1eb496fc8b8e6d807"
+        },
+        "count_dictionary": {
+          "metrics": {
+            "count": 1,
+            "nmse": [
+              8.712395356721675e-05
+            ],
+            "si_sdr": [
+              40.75196457546496
+            ],
+            "reference_power": [
+              0.9999999998526193
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 4.1509008263287874e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "5883864e733886d99077a89a3680bd5a3e45f7c1778d220f582c0b19c5320770"
+        },
+        "slot_initialized_clusters": {
+          "metrics": {
+            "count": 1,
+            "nmse": [
+              8.712395356721675e-05
+            ],
+            "si_sdr": [
+              40.75196457546496
+            ],
+            "reference_power": [
+              0.9999999998526193
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 4.1509008263287874e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "bf82d34c0db117f34b0d966aef13ae0fd0b7d4bab11a6ea67c267b136797fbfe"
+        }
+      }
+    },
+    {
+      "index": 7,
+      "categories": [
+        "DJI MINI3"
+      ],
+      "nominal_levels_db": [
+        0.0
+      ],
+      "parent_output_sha256": "378a0f89f84378b2b6dd9e265fa457de5ef56e18e0cae9e17c4099893db3b05b",
+      "parent": {
+        "count": 1,
+        "nmse": [
+          0.0021424488349994467
+        ],
+        "si_sdr": [
+          27.04721512955753
+        ],
+        "reference_power": [
+          1.0000000000143434
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 3.6210026170693646e-14,
+        "predicted_count": 1
+      },
+      "methods": {
+        "fit_dictionary": {
+          "metrics": {
+            "count": 1,
+            "nmse": [
+              0.08408983013109117
+            ],
+            "si_sdr": [
+              10.382123093504415
+            ],
+            "reference_power": [
+              1.0000000000143434
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.683497897799828e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "69f1c11db71593ba8b539c64d960c937427dbd7fef99f20e4cdf7a2f8c008f80"
+        },
+        "observation_clusters": {
+          "metrics": {
+            "count": 1,
+            "nmse": [
+              0.0021424488349994467
+            ],
+            "si_sdr": [
+              27.04721512955753
+            ],
+            "reference_power": [
+              1.0000000000143434
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.6833800629861645e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "946a2609d06d913aa05553d3db12d3d05d53b48b97de828ff7d9f20c5e3a9861"
+        },
+        "count_dictionary": {
+          "metrics": {
+            "count": 1,
+            "nmse": [
+              0.0021424488349994467
+            ],
+            "si_sdr": [
+              27.04721512955753
+            ],
+            "reference_power": [
+              1.0000000000143434
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.6833800629861645e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "72d5f41657a6cbec6a5535869ee2ff4c8aabf2e2d6c622aed5e770b3048fbfcf"
+        },
+        "slot_initialized_clusters": {
+          "metrics": {
+            "count": 1,
+            "nmse": [
+              0.0021424488349994467
+            ],
+            "si_sdr": [
+              27.04721512955753
+            ],
+            "reference_power": [
+              1.0000000000143434
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.6833800629861645e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "812cd567520f8c74a85642c88731cd4b16d293b25e57af8839b3663c24812009"
+        }
+      }
+    },
+    {
+      "index": 10,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "nominal_levels_db": [
+        0.0,
+        0.0
+      ],
+      "parent_output_sha256": "2a92371cee55baf33d6df31c5de2fa84936d31ea937796638c6ca61eef76f67d",
+      "parent": {
+        "count": 2,
+        "nmse": [
+          0.2720264898298999,
+          0.20594753816353345
+        ],
+        "si_sdr": [
+          4.814389640067418,
+          6.48804364730922
+        ],
+        "reference_power": [
+          0.49999999999913186,
+          0.499999999995942
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          1,
+          0
+        ],
+        "sum_relative_error": 3.970527556950276e-14,
+        "predicted_count": 2
+      },
+      "methods": {
+        "fit_dictionary": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.6620257428256305,
+              0.5641402634618664
+            ],
+            "si_sdr": [
+              -0.7826144915200963,
+              -1.0449756778677668
+            ],
+            "reference_power": [
+              0.49999999999913186,
+              0.499999999995942
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              0,
+              2,
+              1
+            ],
+            "sum_relative_error": 3.969461115686515e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "8fdd9038f2bdff81809c28e5e3bb64ae88b0f98b570da7f059ed2cbbc150fba6"
+        },
+        "observation_clusters": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.628394993967473,
+              0.6046875267779799
+            ],
+            "si_sdr": [
+              -0.2113285085652319,
+              -1.6350806902347002
+            ],
+            "reference_power": [
+              0.49999999999913186,
+              0.499999999995942
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.990587907380382e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "35cb7de4c31a0ae2b17ce3d09ba1032e7d5084414d92e0b4113847656c58c954"
+        },
+        "count_dictionary": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.6320857008246907,
+              0.6108505658368286
+            ],
+            "si_sdr": [
+              -0.3434615471731701,
+              -1.6742096070732488
+            ],
+            "reference_power": [
+              0.49999999999913186,
+              0.499999999995942
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              1,
+              0,
+              2
+            ],
+            "sum_relative_error": 3.990587907380382e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "90ea2e688c08871644ba6e89ced846cf18489f2766bd4e33e696a099b5573f82"
+        },
+        "slot_initialized_clusters": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.13711853267493254,
+              0.10855846027947709
+            ],
+            "si_sdr": [
+              8.791004753670215,
+              9.282926638611631
+            ],
+            "reference_power": [
+              0.49999999999913186,
+              0.499999999995942
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              1,
+              0,
+              2
+            ],
+            "sum_relative_error": 3.990587907380382e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "b4fdac18f700597fbf846467461f6b1b406b582051e218c11f809fb509f44a9f"
+        }
+      }
+    },
+    {
+      "index": 11,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nominal_levels_db": [
+        10.0,
+        0.0,
+        0.0
+      ],
+      "parent_output_sha256": "8229e8411251e27cc5146a9f93b2e2b1682b8ef797c00122c874e27a2092c804",
+      "parent": {
+        "count": 3,
+        "nmse": [
+          0.16263752628197492,
+          0.9979314473110085,
+          0.8793928780048883
+        ],
+        "si_sdr": [
+          7.157602652333076,
+          -15.824779271852643,
+          -3.889186827927234
+        ],
+        "reference_power": [
+          0.833333333333372,
+          0.08333333333427788,
+          0.08333333333560794
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          1,
+          0
+        ],
+        "sum_relative_error": 3.7459110431108056e-14,
+        "predicted_count": 3
+      },
+      "methods": {
+        "fit_dictionary": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              0.19867836361129013,
+              1.3530238179235679,
+              0.841584320744666
+            ],
+            "si_sdr": [
+              6.086284896968377,
+              -13.755425627712665,
+              -4.916820775851606
+            ],
+            "reference_power": [
+              0.833333333333372,
+              0.08333333333427788,
+              0.08333333333560794
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.787735432987616e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "f8d15329523c754afbaff0cf3f0808265eec8474bb7ec3098f835a2437bd8d46"
+        },
+        "observation_clusters": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              0.19043379605762464,
+              1.2922935427232614,
+              0.6692290182491382
+            ],
+            "si_sdr": [
+              6.324569988676706,
+              -13.046480244896246,
+              -2.2897611309809087
+            ],
+            "reference_power": [
+              0.833333333333372,
+              0.08333333333427788,
+              0.08333333333560794
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              2,
+              0,
+              1
+            ],
+            "sum_relative_error": 3.7477676117000445e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "c10002764672963591ee110db2975f1c730e18fb2b0889702815d5c3a211c40b"
+        },
+        "count_dictionary": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              0.19867836361129013,
+              1.3530238179235679,
+              0.841584320744666
+            ],
+            "si_sdr": [
+              6.086284896968377,
+              -13.755425627712665,
+              -4.916820775851606
+            ],
+            "reference_power": [
+              0.833333333333372,
+              0.08333333333427788,
+              0.08333333333560794
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              0,
+              2,
+              1
+            ],
+            "sum_relative_error": 3.786086754461161e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "f945ce93ad0b20fa8ad0700ff19f5e041bdb61d307fe02d46c31cd807e9368db"
+        },
+        "slot_initialized_clusters": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              0.16263752628197492,
+              1.2271848635914777,
+              0.560780990259447
+            ],
+            "si_sdr": [
+              7.157602652333076,
+              -16.552520972269626,
+              -0.9049059276021911
+            ],
+            "reference_power": [
+              0.833333333333372,
+              0.08333333333427788,
+              0.08333333333560794
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              0,
+              2,
+              1
+            ],
+            "sum_relative_error": 3.7888165135756297e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "987d1e59d97852b3f4511fbe1684ed89137920c294b48748d7378df8095a620b"
+        }
+      }
+    },
+    {
+      "index": 15,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "nominal_levels_db": [
+        -10.0,
+        0.0
+      ],
+      "parent_output_sha256": "82c46b640d6fa84aaa9eb4fae71caf7d8d32d23534b7ebd4e20953e1c0266ce7",
+      "parent": {
+        "count": 2,
+        "nmse": [
+          1.0082911717394258,
+          0.10211553986782525
+        ],
+        "si_sdr": [
+          -25.319084201737496,
+          9.87843379062872
+        ],
+        "reference_power": [
+          0.09090909091750612,
+          0.9090909091228243
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          0,
+          2,
+          1
+        ],
+        "sum_relative_error": 3.96714196962122e-14,
+        "predicted_count": 1
+      },
+      "methods": {
+        "fit_dictionary": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              1.7729603160709273,
+              0.5410208799153015
+            ],
+            "si_sdr": [
+              -14.579953655434307,
+              -0.703817953993273
+            ],
+            "reference_power": [
+              0.09090909091750612,
+              0.9090909091228243
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 4.002714083394304e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "a1117c397847ef963c5202b326507ec22629c3ee6f55cb781eb348386cf4343b"
+        },
+        "observation_clusters": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              1.0082911717394258,
+              0.10211553986782525
+            ],
+            "si_sdr": [
+              -25.319084201737496,
+              9.87843379062872
+            ],
+            "reference_power": [
+              0.09090909091750612,
+              0.9090909091228243
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              1,
+              0,
+              2
+            ],
+            "sum_relative_error": 4.031180245098031e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "891efec7365821498a54f7174117b007550c17cf847df01f8904d9c2daeb0409"
+        },
+        "count_dictionary": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              1.0082911717394258,
+              0.10211553986782525
+            ],
+            "si_sdr": [
+              -25.319084201737496,
+              9.87843379062872
+            ],
+            "reference_power": [
+              0.09090909091750612,
+              0.9090909091228243
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              1,
+              0,
+              2
+            ],
+            "sum_relative_error": 4.031180245098031e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "59d927a5821b88e273081d5321daf27cc7b12fa5bae4ff985d061e69da99016d"
+        },
+        "slot_initialized_clusters": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              1.0082911717394258,
+              0.10211553986782525
+            ],
+            "si_sdr": [
+              -25.319084201737496,
+              9.87843379062872
+            ],
+            "reference_power": [
+              0.09090909091750612,
+              0.9090909091228243
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              1,
+              0,
+              2
+            ],
+            "sum_relative_error": 4.031180245098031e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "2664468b5f1c71404af68ecfa4013b40de3291c2917a3453e39e1bf60274c523"
+        }
+      }
+    },
+    {
+      "index": 17,
+      "categories": [
+        "DJI MAVIC3 PRO"
+      ],
+      "nominal_levels_db": [
+        0.0
+      ],
+      "parent_output_sha256": "abd1be380a098ad349e3e503af6bc0d42e0fee6db954cbede769ca7e2abd5404",
+      "parent": {
+        "count": 1,
+        "nmse": [
+          0.002998944336763601
+        ],
+        "si_sdr": [
+          25.498623415050634
+        ],
+        "reference_power": [
+          0.9999999999705768
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 3.799518862047411e-14,
+        "predicted_count": 1
+      },
+      "methods": {
+        "fit_dictionary": {
+          "metrics": {
+            "count": 1,
+            "nmse": [
+              0.22437744194098952
+            ],
+            "si_sdr": [
+              5.392587339392624
+            ],
+            "reference_power": [
+              0.9999999999705768
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              2,
+              0,
+              1
+            ],
+            "sum_relative_error": 3.811981815353068e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "11a9fda954da7e5dd9648c2078fa5b5f8dcac7ba907c8f8a96867da4fa2204f8"
+        },
+        "observation_clusters": {
+          "metrics": {
+            "count": 1,
+            "nmse": [
+              0.002998944336763601
+            ],
+            "si_sdr": [
+              25.498623415050634
+            ],
+            "reference_power": [
+              0.9999999999705768
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.861558789148276e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "a22abe78f2638888960c518b9fac1acf10daf46c056ab696debe11e6bbac431c"
+        },
+        "count_dictionary": {
+          "metrics": {
+            "count": 1,
+            "nmse": [
+              0.002998944336763601
+            ],
+            "si_sdr": [
+              25.498623415050634
+            ],
+            "reference_power": [
+              0.9999999999705768
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.861558789148276e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "84cef414318da34224e5480fc1dd280a8df1104c4fba470e834a13dc768b2d37"
+        },
+        "slot_initialized_clusters": {
+          "metrics": {
+            "count": 1,
+            "nmse": [
+              0.002998944336763601
+            ],
+            "si_sdr": [
+              25.498623415050634
+            ],
+            "reference_power": [
+              0.9999999999705768
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.861558789148276e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "59603646e214224fed0d640d457c71730ec4c871c1cf60eb28cdd0b3f33b9ecd"
+        }
+      }
+    },
+    {
+      "index": 18,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nominal_levels_db": [
+        0.0,
+        0.0,
+        -10.0
+      ],
+      "parent_output_sha256": "1dfe1f01b239ea972b0f26d28001ad0337b7a17d7761a45274a7ca0d6a275c83",
+      "parent": {
+        "count": 3,
+        "nmse": [
+          0.6700390489947171,
+          0.6830152894664808,
+          1.8206767076172112
+        ],
+        "si_sdr": [
+          -1.6633598879907208,
+          -3.333235714901806,
+          -4.57692049612974
+        ],
+        "reference_power": [
+          0.4761904762159297,
+          0.47619047618054583,
+          0.04761904762261119
+        ],
+        "weakest_index": 2,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 3.7077988419407235e-14,
+        "predicted_count": 3
+      },
+      "methods": {
+        "fit_dictionary": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              0.7953535218424731,
+              0.6890601572856598,
+              1.924490181969959
+            ],
+            "si_sdr": [
+              -3.2572315781499324,
+              -3.215748813844157,
+              -30.571730544490933
+            ],
+            "reference_power": [
+              0.4761904762159297,
+              0.47619047618054583,
+              0.04761904762261119
+            ],
+            "weakest_index": 2,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.73518198523675e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "d16827d326201edd3e2517d8a0b71668c1bc25efe6edef47f634c8e7fcf56e51"
+        },
+        "observation_clusters": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              0.6700390489947171,
+              0.6817134813893513,
+              0.5893719558647129
+            ],
+            "si_sdr": [
+              -1.6633598879907208,
+              -3.1533449833833305,
+              0.5315771453706217
+            ],
+            "reference_power": [
+              0.4761904762159297,
+              0.47619047618054583,
+              0.04761904762261119
+            ],
+            "weakest_index": 2,
+            "assignment": [
+              1,
+              2,
+              0
+            ],
+            "sum_relative_error": 3.720540422226563e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "1a2580249fb7527b6f6518b114ad442aec759b28ed97de61ce3ff655a0618dac"
+        },
+        "count_dictionary": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              0.7953535218424731,
+              0.6890601572856598,
+              1.924490181969959
+            ],
+            "si_sdr": [
+              -3.2572315781499324,
+              -3.215748813844157,
+              -30.571730544490933
+            ],
+            "reference_power": [
+              0.4761904762159297,
+              0.47619047618054583,
+              0.04761904762261119
+            ],
+            "weakest_index": 2,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.73518198523675e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "7bb20221ff3d3cbf7a2a03511419366ec3bbb87706f95cbe83cdf2eb29993104"
+        },
+        "slot_initialized_clusters": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              0.6700390489947171,
+              0.6274755644807596,
+              1.2302200093146256
+            ],
+            "si_sdr": [
+              -1.6633598879907208,
+              -2.2642644976824124,
+              -2.8087723570884555
+            ],
+            "reference_power": [
+              0.4761904762159297,
+              0.47619047618054583,
+              0.04761904762261119
+            ],
+            "weakest_index": 2,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.732097930746617e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "4fb4951fcd1e3649738e9629dff89abcef213b0222f797879d0aed6989c4643b"
+        }
+      }
+    },
+    {
+      "index": 21,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "nominal_levels_db": [
+        -10.0,
+        0.0
+      ],
+      "parent_output_sha256": "4f686ac6ff1d2bac7c1a0001cf9fc6d45b7836112c771f713110d4756bae4387",
+      "parent": {
+        "count": 2,
+        "nmse": [
+          0.9624267741622379,
+          0.2972755788403231
+        ],
+        "si_sdr": [
+          -13.904039357732021,
+          3.77446268468353
+        ],
+        "reference_power": [
+          0.09090909090591123,
+          0.9090909091319632
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          0,
+          2,
+          1
+        ],
+        "sum_relative_error": 3.833676852120498e-14,
+        "predicted_count": 3
+      },
+      "methods": {
+        "fit_dictionary": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.6955273865663913,
+              0.06413560697107984
+            ],
+            "si_sdr": [
+              -3.5085647065597074,
+              11.72783036157986
+            ],
+            "reference_power": [
+              0.09090909090591123,
+              0.9090909091319632
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              2,
+              1,
+              0
+            ],
+            "sum_relative_error": 3.878704885686628e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "500baeba4c1178e53dbcbb0e29373410f3e644fc756bbd23a7d59307a4194cfc"
+        },
+        "observation_clusters": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.7133773240901592,
+              0.07071281334179141
+            ],
+            "si_sdr": [
+              -3.9594948680327984,
+              11.312982055101571
+            ],
+            "reference_power": [
+              0.09090909090591123,
+              0.9090909091319632
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              1,
+              0,
+              2
+            ],
+            "sum_relative_error": 3.8799159975385466e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "a4cebf2d5375d14678d6c2907962eece982e88e5ec0301d8fcde88489ec97751"
+        },
+        "count_dictionary": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.6955273865663913,
+              0.06413560697107984
+            ],
+            "si_sdr": [
+              -3.5085647065597074,
+              11.72783036157986
+            ],
+            "reference_power": [
+              0.09090909090591123,
+              0.9090909091319632
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              2,
+              1,
+              0
+            ],
+            "sum_relative_error": 3.878704885686628e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "36d9707446ff250bfcae6195517cca92fe4ef7df641f8ca04ab8009e1d704d04"
+        },
+        "slot_initialized_clusters": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.7274837648938615,
+              0.06275538419181978
+            ],
+            "si_sdr": [
+              -4.262922564682523,
+              11.820956915695731
+            ],
+            "reference_power": [
+              0.09090909090591123,
+              0.9090909091319632
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              2,
+              0,
+              1
+            ],
+            "sum_relative_error": 3.8784542974303395e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "893cabb0d0503cd4d572f597efeb7f58b13ea0c5da608ab40838ce276e89e55a"
+        }
+      }
+    },
+    {
+      "index": 25,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "nominal_levels_db": [
+        0.0,
+        0.0
+      ],
+      "parent_output_sha256": "05f6af61e399fd315579a76209d95877f5a693b102c6c2b0ae1f76b4d1f7468b",
+      "parent": {
+        "count": 2,
+        "nmse": [
+          0.9827878758290776,
+          0.9718878743884284
+        ],
+        "si_sdr": [
+          -11.270586586102683,
+          0.13960885327940642
+        ],
+        "reference_power": [
+          0.5000000000387907,
+          0.4999999999985714
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          0,
+          2,
+          1
+        ],
+        "sum_relative_error": 3.8024268760543115e-14,
+        "predicted_count": 1
+      },
+      "methods": {
+        "fit_dictionary": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.16436889925697007,
+              0.16263779826146943
+            ],
+            "si_sdr": [
+              7.090317718641109,
+              7.582793069775305
+            ],
+            "reference_power": [
+              0.5000000000387907,
+              0.4999999999985714
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.865352596748491e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "01b25f06ed8dba53aac18bb71128466e4afbcea62ecd0327e7c40eb3845f06a8"
+        },
+        "observation_clusters": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.9827878758290776,
+              0.9718878743884284
+            ],
+            "si_sdr": [
+              -11.270586586102683,
+              0.13960885327940642
+            ],
+            "reference_power": [
+              0.5000000000387907,
+              0.4999999999985714
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              1,
+              0,
+              2
+            ],
+            "sum_relative_error": 3.865207398602489e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "4dbfcb6bd30648a4720aef2319f0c91bbc98ff42cceff3ba81ed10530d5f65ed"
+        },
+        "count_dictionary": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.9827878758290776,
+              0.9718878743884284
+            ],
+            "si_sdr": [
+              -11.270586586102683,
+              0.13960885327940642
+            ],
+            "reference_power": [
+              0.5000000000387907,
+              0.4999999999985714
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              1,
+              0,
+              2
+            ],
+            "sum_relative_error": 3.865207398602489e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "7a5f83887d057c1221b75a028a385320dec00de78ee059483fc56328ff5e34ba"
+        },
+        "slot_initialized_clusters": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.9827878758290776,
+              0.9718878743884284
+            ],
+            "si_sdr": [
+              -11.270586586102683,
+              0.13960885327940642
+            ],
+            "reference_power": [
+              0.5000000000387907,
+              0.4999999999985714
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              1,
+              0,
+              2
+            ],
+            "sum_relative_error": 3.865207398602489e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "15bedab6c49b4138eed3e47740c5cc1df6fbc8b67f5885ff816b228e7196d5bf"
+        }
+      }
+    },
+    {
+      "index": 26,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nominal_levels_db": [
+        0.0,
+        0.0,
+        10.0
+      ],
+      "parent_output_sha256": "62c5c6cb08712272e135c5f344502c73e887d900c8824b88a9ea3cc2c68c70b1",
+      "parent": {
+        "count": 3,
+        "nmse": [
+          4.810856926229147,
+          1.0422727829543659,
+          0.5042387417612275
+        ],
+        "si_sdr": [
+          -14.998089911956251,
+          -8.178660423826903,
+          -0.07077563764241919
+        ],
+        "reference_power": [
+          0.0833333333307432,
+          0.08333333332867611,
+          0.8333333332854299
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 3.946298642564315e-14,
+        "predicted_count": 2
+      },
+      "methods": {
+        "fit_dictionary": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              0.971628734694544,
+              0.8048234771734374,
+              0.06344652750777935
+            ],
+            "si_sdr": [
+              -5.163257182353071,
+              -5.591418049863464,
+              11.710138747052504
+            ],
+            "reference_power": [
+              0.0833333333307432,
+              0.08333333332867611,
+              0.8333333332854299
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.921715495676535e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "88d91cf6ac83f2611966fadee65934b6dca47dc913f0d05785bdc87a2fef7978"
+        },
+        "observation_clusters": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              0.8834870920576521,
+              3.3378003770476252,
+              0.3175649785111249
+            ],
+            "si_sdr": [
+              -8.143467753745036,
+              -9.857047809743523,
+              3.3224947492795325
+            ],
+            "reference_power": [
+              0.0833333333307432,
+              0.08333333332867611,
+              0.8333333332854299
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              2,
+              1,
+              0
+            ],
+            "sum_relative_error": 3.9707211707910075e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "295486bebafe6b7dd9820bdc69bcc3b4d8b9323162305cc2bab4f4477e05450c"
+        },
+        "count_dictionary": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              0.8834870920576521,
+              0.9240714326004423,
+              0.06775561401418452
+            ],
+            "si_sdr": [
+              -8.143467753745036,
+              -3.267189266673161,
+              11.392987024418543
+            ],
+            "reference_power": [
+              0.0833333333307432,
+              0.08333333332867611,
+              0.8333333332854299
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              2,
+              1,
+              0
+            ],
+            "sum_relative_error": 3.9707211707910075e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "0fa9316ef7226d5379d345a5b942cb001e4c88ca789d8147f37d147cf028e00c"
+        },
+        "slot_initialized_clusters": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              0.8834870920576521,
+              3.3378003770476252,
+              0.3175649785111249
+            ],
+            "si_sdr": [
+              -8.143467753745036,
+              -9.857047809743523,
+              3.3224947492795325
+            ],
+            "reference_power": [
+              0.0833333333307432,
+              0.08333333332867611,
+              0.8333333332854299
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              2,
+              1,
+              0
+            ],
+            "sum_relative_error": 3.9707211707910075e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "085166fbe7911f9416b143f3d326bb1fe7e796e7654e547abcb674c88a425014"
+        }
+      }
+    },
+    {
+      "index": 27,
+      "categories": [
+        "DJI MINI3",
+        "DJI MINI4 PRO"
+      ],
+      "nominal_levels_db": [
+        -10.0,
+        0.0
+      ],
+      "parent_output_sha256": "ca5ec0bc6ed540b089cec3dc5ca7da7d2bf3397087dfc90021b11b7250eecfb1",
+      "parent": {
+        "count": 2,
+        "nmse": [
+          0.9915376316203046,
+          0.09829338621626107
+        ],
+        "si_sdr": [
+          -15.727456335724943,
+          10.079770519419228
+        ],
+        "reference_power": [
+          0.09090909089967482,
+          0.9090909090398269
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 4.0467864069817083e-14,
+        "predicted_count": 1
+      },
+      "methods": {
+        "fit_dictionary": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.2749208188163987,
+              0.027456860472924692
+            ],
+            "si_sdr": [
+              4.241248963169416,
+              15.585110246886822
+            ],
+            "reference_power": [
+              0.09090909089967482,
+              0.9090909090398269
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 4.1128233311002215e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "b6e609b6550ca844878056194e59b396ae104ed41227e84ccb76221ec4067184"
+        },
+        "observation_clusters": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.9915376316203046,
+              0.09829338621626107
+            ],
+            "si_sdr": [
+              -15.727456335724943,
+              10.079770519419228
+            ],
+            "reference_power": [
+              0.09090909089967482,
+              0.9090909090398269
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              2,
+              0,
+              1
+            ],
+            "sum_relative_error": 4.113021447539568e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "d90335a0cc7a64328a29b505812f344469a8ba2c7c212111322a14d22fd49ab0"
+        },
+        "count_dictionary": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.9915376316203046,
+              0.09829338621626107
+            ],
+            "si_sdr": [
+              -15.727456335724943,
+              10.079770519419228
+            ],
+            "reference_power": [
+              0.09090909089967482,
+              0.9090909090398269
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              2,
+              0,
+              1
+            ],
+            "sum_relative_error": 4.113021447539568e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "902be5f0f4fd63d113d10c27f89fcbb59ab7f702b8a6621b2b46fcd9cf36df3b"
+        },
+        "slot_initialized_clusters": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.9915376316203046,
+              0.09829338621626107
+            ],
+            "si_sdr": [
+              -15.727456335724943,
+              10.079770519419228
+            ],
+            "reference_power": [
+              0.09090909089967482,
+              0.9090909090398269
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              2,
+              0,
+              1
+            ],
+            "sum_relative_error": 4.113021447539568e-14,
+            "predicted_count": 1
+          },
+          "orders_sha256": "f644696b351f459eba4ea8347bbb53f2a5b662000b6c9ab0835070f0dae1e5e6"
+        }
+      }
+    },
+    {
+      "index": 31,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nominal_levels_db": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "parent_output_sha256": "5d889fb750bac892e8f21cec889cd4d73eddadb6db62da924bb86684d4912170",
+      "parent": {
+        "count": 3,
+        "nmse": [
+          0.23809808489975734,
+          1.5032957167757617,
+          0.15761167520349748
+        ],
+        "si_sdr": [
+          5.299714889510114,
+          -18.767373819420282,
+          7.294746392106912
+        ],
+        "reference_power": [
+          0.4761904761910099,
+          0.04761904761831205,
+          0.476190476367342
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 3.242039928396113e-14,
+        "predicted_count": 2
+      },
+      "methods": {
+        "fit_dictionary": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              0.8720023730523788,
+              1.2259367398829806,
+              0.6730070093115438
+            ],
+            "si_sdr": [
+              -7.867158739124261,
+              -14.540630018735818,
+              0.04595422000520704
+            ],
+            "reference_power": [
+              0.4761904761910099,
+              0.04761904761831205,
+              0.476190476367342
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              2,
+              1,
+              0
+            ],
+            "sum_relative_error": 3.2553270057012785e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "87686a624d9904dad8baf1b8b059d5aa0c91ea436cc1fdafb35cdbf97bb331c1"
+        },
+        "observation_clusters": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              0.3281657134904246,
+              1.4576106358467262,
+              0.25325265302412303
+            ],
+            "si_sdr": [
+              3.1119281431580417,
+              -19.816155281953858,
+              4.7508676445159175
+            ],
+            "reference_power": [
+              0.4761904761910099,
+              0.04761904761831205,
+              0.476190476367342
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              1,
+              2,
+              0
+            ],
+            "sum_relative_error": 3.262949252268125e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "ccdce7ad55d42e32e809116a06e4f56582ff927dbfd6dc5ed757a1d8247f07d3"
+        },
+        "count_dictionary": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              0.8486544929799339,
+              0.9173890046451646,
+              0.693040590019991
+            ],
+            "si_sdr": [
+              -7.17780462329546,
+              -10.043880668929434,
+              -0.08129259389434441
+            ],
+            "reference_power": [
+              0.4761904761910099,
+              0.04761904761831205,
+              0.476190476367342
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              1,
+              2,
+              0
+            ],
+            "sum_relative_error": 3.26430897805356e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "c7fa25e22363479eece98cbeb23a1b6a748b3287adbb7de4309f7482fb7af162"
+        },
+        "slot_initialized_clusters": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              0.3281657134904246,
+              1.4576106358467262,
+              0.25325265302412303
+            ],
+            "si_sdr": [
+              3.1119281431580417,
+              -19.816155281953858,
+              4.7508676445159175
+            ],
+            "reference_power": [
+              0.4761904761910099,
+              0.04761904761831205,
+              0.476190476367342
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              1,
+              2,
+              0
+            ],
+            "sum_relative_error": 3.262949252268125e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "e3e9019e7ff15368400115fcf5a017d32044746ee228383f3681ba37e102035a"
+        }
+      }
+    },
+    {
+      "index": 33,
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "nominal_levels_db": [
+        10.0,
+        0.0
+      ],
+      "parent_output_sha256": "e5dee20795154842a4c5355dec6bea24469ea9e4eedff6e0a2ed664bd290510c",
+      "parent": {
+        "count": 2,
+        "nmse": [
+          0.43403135872698684,
+          0.9190205585941155
+        ],
+        "si_sdr": [
+          1.3911316076922566,
+          -4.749755399708259
+        ],
+        "reference_power": [
+          0.9090909090914536,
+          0.09090909090617859
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          0,
+          1
+        ],
+        "sum_relative_error": 3.763525148145527e-14,
+        "predicted_count": 2
+      },
+      "methods": {
+        "fit_dictionary": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.17099144433327435,
+              1.1206137724778202
+            ],
+            "si_sdr": [
+              7.232532200283762,
+              -5.785654525758979
+            ],
+            "reference_power": [
+              0.9090909090914536,
+              0.09090909090617859
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              0,
+              2,
+              1
+            ],
+            "sum_relative_error": 3.781299229511915e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "8d9c869adf280c7c8a56d4f673ccb2e7972943e063464d44bc5411009402ddd5"
+        },
+        "observation_clusters": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.11224911496759381,
+              0.9334173735393648
+            ],
+            "si_sdr": [
+              9.591718382263586,
+              -2.2963638291099424
+            ],
+            "reference_power": [
+              0.9090909090914536,
+              0.09090909090617859
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              1,
+              0,
+              2
+            ],
+            "sum_relative_error": 3.789600764513863e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "a220de62ab6b0efcd62c34315e5fa73d1ba54111a712f1c7857beb89707c14e9"
+        },
+        "count_dictionary": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.11224911496759381,
+              1.028878339987242
+            ],
+            "si_sdr": [
+              9.591718382263586,
+              -3.6672343990918783
+            ],
+            "reference_power": [
+              0.9090909090914536,
+              0.09090909090617859
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.7887730184745767e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "d8d49b3b1f8b1222c0ddcf3d9c4f87adea556cca802a96046c9be883fc9fd0af"
+        },
+        "slot_initialized_clusters": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.11224911496759381,
+              0.9334173735393648
+            ],
+            "si_sdr": [
+              9.591718382263586,
+              -2.2963638291099424
+            ],
+            "reference_power": [
+              0.9090909090914536,
+              0.09090909090617859
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.789600764513863e-14,
+            "predicted_count": 2
+          },
+          "orders_sha256": "d90bad29d721e0b3beda0332e5fd47beaa784b8ae05ee9a1c4eae853f65629f8"
+        }
+      }
+    },
+    {
+      "index": 37,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nominal_levels_db": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parent_output_sha256": "bbf6a1dfc3f9ec221063ecb439507cdde7362940d015c54655039e8b2ec5f76c",
+      "parent": {
+        "count": 3,
+        "nmse": [
+          0.5638235012828304,
+          0.6096164213677884,
+          0.1909890387541056
+        ],
+        "si_sdr": [
+          0.704222026886175,
+          -1.619361331170785,
+          6.318632796540563
+        ],
+        "reference_power": [
+          0.33333333332554477,
+          0.3333333333042354,
+          0.33333333337123466
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          1,
+          0
+        ],
+        "sum_relative_error": 3.962181979630602e-14,
+        "predicted_count": 3
+      },
+      "methods": {
+        "fit_dictionary": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              1.087681897820488,
+              0.9443900722583674,
+              0.9470335340031925
+            ],
+            "si_sdr": [
+              -3.104133897190915,
+              -12.292776506982294,
+              -5.8255492481983495
+            ],
+            "reference_power": [
+              0.33333333332554477,
+              0.3333333333042354,
+              0.33333333337123466
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              0,
+              2,
+              1
+            ],
+            "sum_relative_error": 3.988137777815027e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "0da420d2c3d5ad1bc65e395dfc11c8622b94ae30537dd671dc40bc813abb0ca4"
+        },
+        "observation_clusters": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              0.5638235012828304,
+              0.9196141871805982,
+              0.5205298344769251
+            ],
+            "si_sdr": [
+              0.704222026886175,
+              -5.829207984889609,
+              -0.35637469575859615
+            ],
+            "reference_power": [
+              0.33333333332554477,
+              0.3333333333042354,
+              0.33333333337123466
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              2,
+              1,
+              0
+            ],
+            "sum_relative_error": 3.962181979630602e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "6d0f28341a1707f7b97460c5ff42789fad35c340abaa839d99da20a6cbb7d23f"
+        },
+        "count_dictionary": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              1.087681897820488,
+              0.9443900722583674,
+              0.9470335340031925
+            ],
+            "si_sdr": [
+              -3.104133897190915,
+              -12.292776506982294,
+              -5.8255492481983495
+            ],
+            "reference_power": [
+              0.33333333332554477,
+              0.3333333333042354,
+              0.33333333337123466
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              0,
+              2,
+              1
+            ],
+            "sum_relative_error": 3.988137777815027e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "c92cf2a31670526207eef024c4370646cc17a367bde41221a329fbb2e43ca81c"
+        },
+        "slot_initialized_clusters": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              0.5638235012828304,
+              0.5535322225870682,
+              0.1477053002115916
+            ],
+            "si_sdr": [
+              0.704222026886175,
+              -0.6021475614442537,
+              7.612304469869622
+            ],
+            "reference_power": [
+              0.33333333332554477,
+              0.3333333333042354,
+              0.33333333337123466
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              0,
+              2,
+              1
+            ],
+            "sum_relative_error": 3.980576893933756e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "6b25fb86529093c856bdbfeb1ee87eae82f9754364b1dbd1da5e1053d617a5e6"
+        }
+      }
+    },
+    {
+      "index": 54,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nominal_levels_db": [
+        -10.0,
+        0.0,
+        0.0
+      ],
+      "parent_output_sha256": "93f9ef16df8d0a2a559cdc8f58d692ffee36597705e7a6e3755d534090e4443b",
+      "parent": {
+        "count": 3,
+        "nmse": [
+          2.4054586738338863,
+          0.2938068876972689,
+          0.25619473505013884
+        ],
+        "si_sdr": [
+          -18.113741816039088,
+          3.863955707624063,
+          4.630339198189141
+        ],
+        "reference_power": [
+          0.047619047617460636,
+          0.4761904762103523,
+          0.4761904762067019
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          1,
+          0
+        ],
+        "sum_relative_error": 3.8642160135739374e-14,
+        "predicted_count": 3
+      },
+      "methods": {
+        "fit_dictionary": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              1.4910835780722258,
+              0.283198645473215,
+              0.11260089421247196
+            ],
+            "si_sdr": [
+              -12.19765393662906,
+              4.142628541455125,
+              8.979795895128559
+            ],
+            "reference_power": [
+              0.047619047617460636,
+              0.4761904762103523,
+              0.4761904762067019
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.8472164296980326e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "77512a4f02d9dd192d4044c781b628c335be3851de7a2bbac05782a87d8308cc"
+        },
+        "observation_clusters": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              4.206558499823569,
+              0.295318030837999,
+              0.3528007884186215
+            ],
+            "si_sdr": [
+              -21.868301772200095,
+              3.8333610987449824,
+              2.669733899416851
+            ],
+            "reference_power": [
+              0.047619047617460636,
+              0.4761904762103523,
+              0.4761904762067019
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              1,
+              2,
+              0
+            ],
+            "sum_relative_error": 3.8497306308546307e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "b8fbc8e50c7c9e9410cf2f320f1219806f0b60a90216be17c897e7be64fa1524"
+        },
+        "count_dictionary": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              1.4910835780722258,
+              0.283198645473215,
+              0.11260089421247196
+            ],
+            "si_sdr": [
+              -12.19765393662906,
+              4.142628541455125,
+              8.979795895128559
+            ],
+            "reference_power": [
+              0.047619047617460636,
+              0.4761904762103523,
+              0.4761904762067019
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              2,
+              1,
+              0
+            ],
+            "sum_relative_error": 3.865218957429919e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "f6e6a0f85b601c91098aaa2006d77048a58e5a22950401ad1da64655674013e7"
+        },
+        "slot_initialized_clusters": {
+          "metrics": {
+            "count": 3,
+            "nmse": [
+              3.35086131702031,
+              0.29384497023556316,
+              0.43278019035548276
+            ],
+            "si_sdr": [
+              -21.80241463160376,
+              3.908575977614288,
+              1.2795581270080723
+            ],
+            "reference_power": [
+              0.047619047617460636,
+              0.4761904762103523,
+              0.4761904762067019
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              2,
+              1,
+              0
+            ],
+            "sum_relative_error": 3.865131557127439e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "dcb42afb1ec71f4f325e696414ae5eecc49268c47cdcea2742560917d92113dc"
+        }
+      }
+    },
+    {
+      "index": 77,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nominal_levels_db": [
+        0.0,
+        0.0
+      ],
+      "parent_output_sha256": "cd10c35055c632e501f46ec0d796f400bae921b78df14250e43e8f1a971a2387",
+      "parent": {
+        "count": 2,
+        "nmse": [
+          0.8034577671820354,
+          0.7692604303238045
+        ],
+        "si_sdr": [
+          -4.453566743237225,
+          -2.783364231258965
+        ],
+        "reference_power": [
+          0.5000000000348312,
+          0.5000000000063216
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          1,
+          0
+        ],
+        "sum_relative_error": 3.844182004663629e-14,
+        "predicted_count": 3
+      },
+      "methods": {
+        "fit_dictionary": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.28614688479053657,
+              0.35880135812934705
+            ],
+            "si_sdr": [
+              3.980756873406594,
+              2.635337269772404
+            ],
+            "reference_power": [
+              0.5000000000348312,
+              0.5000000000063216
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              1,
+              2,
+              0
+            ],
+            "sum_relative_error": 3.84926015948775e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "1f81788f5cf083b06fc661e260620a18bede36caed642cec600315c2e49569f8"
+        },
+        "observation_clusters": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.2895146301671328,
+              0.41067903750105483
+            ],
+            "si_sdr": [
+              3.914926571911152,
+              1.5685996158579585
+            ],
+            "reference_power": [
+              0.5000000000348312,
+              0.5000000000063216
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              2,
+              1,
+              0
+            ],
+            "sum_relative_error": 3.839807593394176e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "99330bfb89bbdda7a15ed975f68246ec5efbbe2d0249da1df9ca42f9a969a946"
+        },
+        "count_dictionary": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.28614688479053657,
+              0.35880135812934705
+            ],
+            "si_sdr": [
+              3.980756873406594,
+              2.635337269772404
+            ],
+            "reference_power": [
+              0.5000000000348312,
+              0.5000000000063216
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              2,
+              1,
+              0
+            ],
+            "sum_relative_error": 3.840497530388365e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "f7ff0b4092b020e0945506b0e7b4875e0e592e8633248fec60cca0c2453c8ac2"
+        },
+        "slot_initialized_clusters": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.3837295535271674,
+              0.34717819599958216
+            ],
+            "si_sdr": [
+              2.3596186933524077,
+              2.8564304654564627
+            ],
+            "reference_power": [
+              0.5000000000348312,
+              0.5000000000063216
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.8674269355200705e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "09276de95bfaed8a6089972a80d5b0cc47900ea3e368a8e85214612990aef9b3"
+        }
+      }
+    },
+    {
+      "index": 85,
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "nominal_levels_db": [
+        10.0,
+        0.0
+      ],
+      "parent_output_sha256": "03be2fc205c7c3d687d52e4b2f658f5a7f93e041ad0f70df316e548cc61eebd6",
+      "parent": {
+        "count": 2,
+        "nmse": [
+          0.20993314655493353,
+          1.1020601980261175
+        ],
+        "si_sdr": [
+          5.78235427575568,
+          -13.390296338939201
+        ],
+        "reference_power": [
+          0.9090909091483779,
+          0.09090909089873157
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          1,
+          0,
+          2
+        ],
+        "sum_relative_error": 3.949441813222511e-14,
+        "predicted_count": 3
+      },
+      "methods": {
+        "fit_dictionary": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.12118498256554072,
+              0.9226101676499235
+            ],
+            "si_sdr": [
+              8.635076220412838,
+              -10.737662431528234
+            ],
+            "reference_power": [
+              0.9090909091483779,
+              0.09090909089873157
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              1,
+              2,
+              0
+            ],
+            "sum_relative_error": 3.955540302098894e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "f85bd350c14dc8d7953a049d07bc5090d081c7ed79169dc834f12bc43ca0f81e"
+        },
+        "observation_clusters": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.0880366991880147,
+              0.49413422098639015
+            ],
+            "si_sdr": [
+              10.17811001148571,
+              0.294843500818751
+            ],
+            "reference_power": [
+              0.9090909091483779,
+              0.09090909089873157
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              1,
+              0,
+              2
+            ],
+            "sum_relative_error": 3.94868995396428e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "16750543a9734f3b78259fa1ada6198c1eae111947a4d1dad652c81de9257c16"
+        },
+        "count_dictionary": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.12118498256554072,
+              0.9226101676499235
+            ],
+            "si_sdr": [
+              8.635076220412838,
+              -10.737662431528234
+            ],
+            "reference_power": [
+              0.9090909091483779,
+              0.09090909089873157
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              0,
+              2,
+              1
+            ],
+            "sum_relative_error": 3.955540302098894e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "7b34098df21bb5bee0daf4208dd70a132f2969595b0d9310214342f201ae8db5"
+        },
+        "slot_initialized_clusters": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.12118498256554072,
+              1.0095926595311773
+            ],
+            "si_sdr": [
+              8.635076220412838,
+              -13.314830103136678
+            ],
+            "reference_power": [
+              0.9090909091483779,
+              0.09090909089873157
+            ],
+            "weakest_index": 1,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.950206300068536e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "1f4f741d55573a225cdcfc5f2dfc5bf2ed25b32df0d6604a5b1b2ee1a96e5c25"
+        }
+      }
+    },
+    {
+      "index": 109,
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO"
+      ],
+      "nominal_levels_db": [
+        0.0,
+        0.0
+      ],
+      "parent_output_sha256": "fc02791b0c04fa3764c78d374d4773fd7593e845193b01f9abd85c934d6fa933",
+      "parent": {
+        "count": 2,
+        "nmse": [
+          0.7211330428101184,
+          0.7337375948330226
+        ],
+        "si_sdr": [
+          -2.1003879970549235,
+          -3.357994911835844
+        ],
+        "reference_power": [
+          0.49999999996269767,
+          0.5000000000065886
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 3.728798903883812e-14,
+        "predicted_count": 3
+      },
+      "methods": {
+        "fit_dictionary": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.5606169104471785,
+              0.5756091066488513
+            ],
+            "si_sdr": [
+              0.6979469411208346,
+              -1.2987334584760486
+            ],
+            "reference_power": [
+              0.49999999996269767,
+              0.5000000000065886
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.759903658017198e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "d5004935b2597cc2dc369dab5ac73f66c8820a53017b90ce671b5a554765d635"
+        },
+        "observation_clusters": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.762806919066257,
+              0.5576432727539139
+            ],
+            "si_sdr": [
+              -2.2743180481663003,
+              -0.3722067816947205
+            ],
+            "reference_power": [
+              0.49999999996269767,
+              0.5000000000065886
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              0,
+              2,
+              1
+            ],
+            "sum_relative_error": 3.7423025117369065e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "6c2aa62ea98799154a8661ae332c353b09576b6ca16663f975d8d79d56b77529"
+        },
+        "count_dictionary": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.5606169104471785,
+              0.5756091066488513
+            ],
+            "si_sdr": [
+              0.6979469411208346,
+              -1.2987334584760486
+            ],
+            "reference_power": [
+              0.49999999996269767,
+              0.5000000000065886
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.759903658017198e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "72431a0221584862bf560549b5638f2a727a6e7833007c079342f491bf06e886"
+        },
+        "slot_initialized_clusters": {
+          "metrics": {
+            "count": 2,
+            "nmse": [
+              0.5148103819388191,
+              0.5322910287789621
+            ],
+            "si_sdr": [
+              1.5895540604403333,
+              -0.09553287232026386
+            ],
+            "reference_power": [
+              0.49999999996269767,
+              0.5000000000065886
+            ],
+            "weakest_index": 0,
+            "assignment": [
+              0,
+              1,
+              2
+            ],
+            "sum_relative_error": 3.759903658017198e-14,
+            "predicted_count": 3
+          },
+          "orders_sha256": "53ab4c9c310917e607b78c335fd14cd509287be7be76337c2e9f41de4501d139"
+        }
+      }
+    }
+  ],
+  "summaries": {
+    "parent": {
+      "by_count": [
+        {
+          "count": 1,
+          "cases": 5,
+          "mean_nmse": 0.16322331414432006,
+          "mean_si_sdr": 19.392353827982387,
+          "weakest_nmse": 0.16322331414432006,
+          "count_accuracy": 0.6
+        },
+        {
+          "count": 2,
+          "cases": 12,
+          "mean_nmse": 0.6728678801867806,
+          "mean_si_sdr": -3.613291907287694,
+          "weakest_nmse": 0.9325318668672614,
+          "count_accuracy": 0.3333333333333333
+        },
+        {
+          "count": 3,
+          "cases": 7,
+          "mean_nmse": 1.032274761682679,
+          "mean_si_sdr": -3.410855173610303,
+          "weakest_nmse": 1.6040182490863368,
+          "count_accuracy": 0.7142857142857143
+        }
+      ],
+      "selection_nmse": 0.8525713209347299
+    },
+    "fit_dictionary": {
+      "by_count": [
+        {
+          "count": 1,
+          "cases": 5,
+          "mean_nmse": 0.1631132331970687,
+          "mean_si_sdr": 13.668009872369145,
+          "weakest_nmse": 0.1631132331970687,
+          "count_accuracy": 0.6
+        },
+        {
+          "count": 2,
+          "cases": 12,
+          "mean_nmse": 0.5242909328316259,
+          "mean_si_sdr": 1.2898212326444591,
+          "weakest_nmse": 0.7779790439499087,
+          "count_accuracy": 0.3333333333333333
+        },
+        {
+          "count": 3,
+          "cases": 7,
+          "mean_nmse": 0.8113389033117338,
+          "mean_si_sdr": -4.334263892033947,
+          "weakest_nmse": 1.2924968298866328,
+          "count_accuracy": 0.7142857142857143
+        }
+      ],
+      "selection_nmse": 0.6678149180716798
+    },
+    "observation_clusters": {
+      "by_count": [
+        {
+          "count": 1,
+          "cases": 5,
+          "mean_nmse": 0.09683687905728386,
+          "mean_si_sdr": 21.541056201392266,
+          "weakest_nmse": 0.09683687905728386,
+          "count_accuracy": 0.6
+        },
+        {
+          "count": 2,
+          "cases": 12,
+          "mean_nmse": 0.5604542421634562,
+          "mean_si_sdr": -1.3318650137161925,
+          "weakest_nmse": 0.8075830451444094,
+          "count_accuracy": 0.3333333333333333
+        },
+        {
+          "count": 3,
+          "cases": 7,
+          "mean_nmse": 0.9424422281493654,
+          "mean_si_sdr": -3.23631688789363,
+          "weakest_nmse": 1.9121869547223258,
+          "count_accuracy": 0.7142857142857143
+        }
+      ],
+      "selection_nmse": 0.7514482351564108
+    },
+    "count_dictionary": {
+      "by_count": [
+        {
+          "count": 1,
+          "cases": 5,
+          "mean_nmse": 0.09721730514443402,
+          "mean_si_sdr": 21.5014011502472,
+          "weakest_nmse": 0.09721730514443402,
+          "count_accuracy": 0.6
+        },
+        {
+          "count": 2,
+          "cases": 12,
+          "mean_nmse": 0.5643860830906826,
+          "mean_si_sdr": -1.5351107698593476,
+          "weakest_nmse": 0.8289851675485455,
+          "count_accuracy": 0.3333333333333333
+        },
+        {
+          "count": 3,
+          "cases": 7,
+          "mean_nmse": 0.7981747778210054,
+          "mean_si_sdr": -4.139705647229185,
+          "weakest_nmse": 1.265454004199374,
+          "count_accuracy": 0.7142857142857143
+        }
+      ],
+      "selection_nmse": 0.681280430455844
+    },
+    "slot_initialized_clusters": {
+      "by_count": [
+        {
+          "count": 1,
+          "cases": 5,
+          "mean_nmse": 0.09683687905728386,
+          "mean_si_sdr": 21.541056201392266,
+          "weakest_nmse": 0.09683687905728386,
+          "count_accuracy": 0.6
+        },
+        {
+          "count": 2,
+          "cases": 12,
+          "mean_nmse": 0.5323173882693384,
+          "mean_si_sdr": -0.9633129575070773,
+          "weakest_nmse": 0.7844112479961657,
+          "count_accuracy": 0.3333333333333333
+        },
+        {
+          "count": 3,
+          "cases": 7,
+          "mean_nmse": 0.8889558626829196,
+          "mean_si_sdr": -2.865747345857258,
+          "weakest_nmse": 1.819180335694087,
+          "count_accuracy": 0.7142857142857143
+        }
+      ],
+      "selection_nmse": 0.7106366254761289
+    }
+  },
+  "primary_checks": {
+    "count2_nmse_lower": true,
+    "count2_si_higher": true,
+    "count2_weak_nmse_lower": true,
+    "count3_nmse_lower": true,
+    "count3_si_higher": true,
+    "count3_weak_nmse_lower": false,
+    "single_nmse_not_worse": true
+  },
+  "plan_sha256": "bbb431b30e87b799722873d20fd5516d067baa355844f8cdd24da9dbfa5d6ce4",
+  "optimizer_updates": 0,
+  "references_in_routing": false,
+  "heldout_access": false,
+  "current_best_changed": false,
+  "scope": "All24 predefined C category/count/power strata, separate recordings and changed bandwidth; no tuning"
+}
