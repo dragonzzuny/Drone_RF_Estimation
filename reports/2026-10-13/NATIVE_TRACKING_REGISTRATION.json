@@ -1,0 +1,39 @@
+{
+  "time": 1791846906.1128159,
+  "registered": true,
+  "teacher": "local/native_tracking_teacher_20261013_v2",
+  "tracker": "local/native_tracking_20261013_v1",
+  "audit": "local/native_tracking_direct_audit_20261013_v1",
+  "epochs": 50,
+  "updates": 600,
+  "inputs": {
+    "local/native_tracking_teacher_20261013_v2/PLAN.json": "d196c14384515c50c908f8124886e9d6e2a3cb319d6dd5e77c54305eb6485fbb",
+    "local/native_tracking_20261013_v1/PROTOCOL.json": "f02f2b1277ef48e35f5cdcb868de3e78239342d0a2013d9c56ba6798d1688d13",
+    "local/native_tracking_cache_20261013_v1/AUDIT.json": "1af9f42f255347121ca626fcbcf1a82b0e703f1d26064f5dd25ba485650b2f43"
+  },
+  "process_states": {
+    "native_tracking_teacher_20261013_v2": {
+      "status": "FIT_TEACHER_INFERENCE",
+      "pid": 707320,
+      "time": 1791846905.697295,
+      "case": 5,
+      "total_cases": 48,
+      "windows": 13,
+      "total_windows": 65
+    },
+    "native_tracking_20261013_v1": {
+      "status": "WAITING_FIT_TEACHER",
+      "pid": 710033,
+      "time": 1791846894.9495373,
+      "previous": "FIT_TEACHER_INFERENCE",
+      "case": 4
+    },
+    "native_tracking_direct_audit_20261013_v1": {
+      "status": "WAITING_TRAINING",
+      "time": 1791846900.0045137,
+      "pid": 710036,
+      "previous": "WAITING_FIT_TEACHER",
+      "epoch": null
+    }
+  }
+}

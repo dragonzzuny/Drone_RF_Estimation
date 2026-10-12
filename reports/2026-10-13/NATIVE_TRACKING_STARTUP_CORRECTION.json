@@ -1,0 +1,13 @@
+{
+  "time": 1791846721.053242,
+  "failed_run": "local/native_tracking_teacher_20261013_v1",
+  "reason": "Checkpoint stores selected epoch as best.epoch, not epoch; startup assertion KeyError",
+  "teacher_cases_generated": 0,
+  "optimizer_updates": 0,
+  "checkpoint_unchanged": true,
+  "corrected_run": "local/native_tracking_teacher_20261013_v2",
+  "checkpoint_selected_epoch": 2,
+  "failed_source_archived": "/media/pyj/Elements/Drone_RF_Estimation_runs/native_tracking_teacher_20261013_v1/source_snapshot/experiments/packet_routing_20261013/prepare_native_tracking_teacher.py",
+  "failed_source_sha256": "30caf1898c5a7f3e291959a0f41b5c8fc2e05961dc13087c68df37c8c2b01478",
+  "failed_root_source_removed": true
+}

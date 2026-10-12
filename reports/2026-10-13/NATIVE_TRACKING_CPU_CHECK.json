@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "native_teacher_checkpoint_verified": true,
+  "fit_labels_loadable": true,
+  "development_rejected_for_training": true,
+  "fit_rejected_as_development": true,
+  "fit_scores_explicitly_training_diagnostic": true,
+  "C24_caches_verified": true,
+  "source_sha256": {
+    "experiments/packet_routing_20261013/train_native_tracking.py": "741cab8ada8f164d8be01818094b98c27bba6f5cda25c507aa1866ce3a7d1f15",
+    "experiments/packet_routing_20261013/audit_native_tracking.py": "800186a92e978299fa0c38c170ff333a45a9ec249cb7ef6ae731f33e83caf0d7",
+    "experiments/packet_routing_20261013/cache_native_tracking.py": "96191c82342c72f72ae5af6798f991f60278a5bd92ef79a33dfc56a04bf63098",
+    "experiments/packet_routing_20261013/prepare_native_tracking_teacher_v2.py": "7fb2fa5b80a465b756003e8af4502232ff01972f8b246bcb0c3660dc276727d7"
+  }
+}
