@@ -1,0 +1,20 @@
+{
+  "registered_at": 1791839901.4910483,
+  "status_at_registration": "WAITING_DUAL_FOLLOWUP_AND_FIT_TEACHER",
+  "hashes": {
+    "teacher_plan": "d3bc3330a87b3e3ceda2e61bd8201e1f2fbfec2d12de207759a04c227b6e828f",
+    "training_protocol": "27727fde93d4a4b7db04d5fb2ac2abda134e469998281f8744e1847a052f6201"
+  },
+  "parent_epoch": 99,
+  "parameters": 875521,
+  "epochs": 50,
+  "updates_per_epoch": 12,
+  "total_updates": 600,
+  "feature_training_cases": 48,
+  "B24_each_epoch": true,
+  "C24_final50_only": true,
+  "waveform_teacher_frozen": true,
+  "source_plans_pinned": true,
+  "independent_final_cpu_audit_queued": true,
+  "premise": "DualContext3 final failed parent joint improvement; existing PSD routing left a large reference-assisted reassignment gap"
+}
