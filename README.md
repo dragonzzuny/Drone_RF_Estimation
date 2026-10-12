@@ -8,17 +8,20 @@ RFUAV의 같은 RF 대역 혼합 I/Q에서 최대3개 원기록의 기여 파형
 기본 평가는 동일 대역폭의 별도 원녹음(A), 보조 진단은 동일10MHz 녹음의 시간 분리(B),
 기존DEV630은 미학습 대역폭·별도 원녹음 일반화(C)로 구분합니다.
 현재 자료는 기체×대역폭마다 원녹음 한 묶음이라 A에는 추가 원녹음이 필요합니다.
-B는 자료·분할·혼합 검사와 GPU 사전 검사를 통과했고 **새 초기화 전체 U-Net의
-50 epoch 실행을 시작했습니다**. 학습 전 epoch0부터 매 epoch8위상 검증을 수행합니다.
-[실제 실행 상태](reports/2026-10-11/TIMEBLOCK_LIVE_KO.md) ·
-[50 epoch 계획](reports/2026-10-11/TIMEBLOCK_TRAINING_PLAN_KO.md).
+B는 자료·분할·혼합 검사와 GPU 사전 검사를 통과한 전체 U-Net 학습이다.
+**2026-10-12 사용자 지시로 총100epoch까지 연장한다.** 기존 실행이50epoch 검증·
+감사를 마치면 LAST50의 모델·옵티마이저·스케줄러·난수 상태에서51epoch를 자동 시작한다.
+연장 worker의 자동 대기를 시작했고 준비·복구 CPU 검사를 통과했다.
+매epoch8위상으로 고정DEV630을 평가하고,1–100epoch의 최선 체크포인트를 보존한다.
+[연장 계획](reports/2026-10-12/TIMEBLOCK100_PLAN_KO.md) ·
+[실제 상태](reports/2026-10-12/TIMEBLOCK100_LIVE_KO.md) ·
+[epoch별 보고](reports/2026-10-12/TIMEBLOCK100_EPOCH_REPORTS_KO.md).
 [평가 체계와 구체적 분할안](docs/EVALUATION_PROTOCOL_KO.md).
 
-B의 **epoch1 검증·CPU 감사 완료,epoch2 학습 중**입니다.
-평균NMSE(두/세 신호)는0.664340/0.997935, 복소SI-SDR은1.222/−4.987dB입니다.
-새 초기화의 초기 오차는 줄었지만 세 신호 중앙값NMSE는 악화했고 잔차가 큽니다.
-[첫epoch 결과와 해석](reports/2026-10-11/TIMEBLOCK_E001_KO.md) ·
-[epoch별 누적 보고](reports/2026-10-11/TIMEBLOCK_EPOCH_REPORTS_KO.md).
+09:29 시점 B는45epoch 감사 완료·46epoch 학습 중이며,macroNMSE 선택은39epoch다.
+선택 모델의 두/세 신호NMSE는0.290703/0.479999,복소SI-SDR은7.711/1.903dB다.
+35epoch보다 세 신호 평균오차는 줄었지만 두 신호와 최약 성분은 악화했다.
+동일 녹음의 시간 분리 진단이므로 아래 독립 녹음 C와 직접 우열을 단정하지 않는다.
 
 ## 기존 일반화 평가 C에서의 최선
 

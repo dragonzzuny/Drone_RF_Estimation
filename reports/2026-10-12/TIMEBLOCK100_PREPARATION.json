@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "all_extension_schedules_checked": 50,
+  "first_epoch": 51,
+  "total_epochs": 100,
+  "examples_per_epoch": 2400,
+  "model_parameters": 32142859,
+  "parent_model_optimizer_scheduler_cpu_roundtrip_exact": true,
+  "preflight_parent_epoch": 44,
+  "preflight_optimizer_updates": 3300,
+  "actual_epoch50_handoff_pending": true,
+  "unchanged_data_loader_except_run_path": true,
+  "fixed_dev_schedule_sha256": "759b34102a0acddd260c050e9bdc88874c046529f12cde21cc974bfcd9358c95",
+  "fixed_dev_feature_bytes_identical": true,
+  "long_short_equivalence": "PASS",
+  "parent_source_integrity": "PASS",
+  "heldout_read": false,
+  "independent_recording_validation": false,
+  "preparation_sha256": "7a177f27a55801ec7fdca21641d83060261bd89a5cfc1499270a0d53d510f3c2",
+  "source_sha256": {
+    "experiments/timeblock_extend100_20261012/train.py": "40dfb5ff6c8bbe9e819b486fa3a65478c5e2c9f06744170aca763d2d5aac420b",
+    "experiments/timeblock_extend100_20261012/handoff.py": "fae55001aad86ac8fb67fb098b9cb626a1683d868f2c6ef7c808b44604544c5d",
+    "experiments/timeblock_extend100_20261012/test_resume.py": "16300075a55b751904d8736c7394590331e9c4737683f3de71cd108c1784c9d5",
+    "experiments/timeblock_extend100_20261012/audit.py": "6085437165042a0c31e7ce3b838f2ccb3c3b6d7ad88492dd440afdd4266810dc",
+    "experiments/timeblock_extend100_20261012/data.py": "5e09219ab0c04a6ab5618af21ff909bbed5c1097788ade809e6f4e1646963aab",
+    "experiments/timeblock_extend100_20261012/prepare.py": "f523400f4938126b00d341892afea537319ebeb220dbb2844ac69b0023c5b8fa",
+    "experiments/timeblock_extend100_20261012/watch.py": "9228df5ed5917dcc798a9874cb4ee79887a91690d181977803aa1f07708eef9d"
+  }
+}

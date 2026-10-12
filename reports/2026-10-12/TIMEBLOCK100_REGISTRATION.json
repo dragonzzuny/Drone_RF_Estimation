@@ -1,0 +1,12 @@
+{
+  "status": "REGISTERED_CONTINUATION_TO_TOTAL100",
+  "epochs": 100,
+  "first_extension_epoch": 51,
+  "total_updates": 7500,
+  "protocol_sha256": "998bff5214e1a4de1b6232c15df61bfef4143aa6ee3694a2c2430a25e20f3a3f",
+  "parent_protocol_sha256": "7e47150ba3dbbdf56cb877948a33c94d82dd86b3b9926ebbc13f6bc297116aa8",
+  "fixed_dev_schedule_sha256": "759b34102a0acddd260c050e9bdc88874c046529f12cde21cc974bfcd9358c95",
+  "preserved_model_loss_split": true,
+  "performance_early_stopping": false,
+  "independent_recording_validation": false
+}

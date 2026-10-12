@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "unchanged_original_functions": [
+    "objective",
+    "aggregate",
+    "evaluate",
+    "save_checkpoint",
+    "feature_worker",
+    "verify",
+    "stop_request"
+  ],
+  "optimizer_scheduler_rng_next_update_test": "PASS: reduced learning rate and dropout; exact model and optimizer equality",
+  "data_loader_change": "output directory only",
+  "check": "source review and CPU continuation test; epoch50 GPU handoff remains pending",
+  "unit_tests_passed": 3,
+  "epoch50_completion_guard": "PASS",
+  "dead_parent_cannot_trigger_training": "PASS",
+  "source_sha256": {
+    "experiments/timeblock_extend100_20261012/train.py": "40dfb5ff6c8bbe9e819b486fa3a65478c5e2c9f06744170aca763d2d5aac420b",
+    "experiments/timeblock_extend100_20261012/handoff.py": "fae55001aad86ac8fb67fb098b9cb626a1683d868f2c6ef7c808b44604544c5d",
+    "experiments/timeblock_extend100_20261012/test_resume.py": "16300075a55b751904d8736c7394590331e9c4737683f3de71cd108c1784c9d5",
+    "experiments/timeblock_extend100_20261012/audit.py": "6085437165042a0c31e7ce3b838f2ccb3c3b6d7ad88492dd440afdd4266810dc",
+    "experiments/timeblock_extend100_20261012/data.py": "5e09219ab0c04a6ab5618af21ff909bbed5c1097788ade809e6f4e1646963aab",
+    "experiments/timeblock_extend100_20261012/prepare.py": "f523400f4938126b00d341892afea537319ebeb220dbb2844ac69b0023c5b8fa",
+    "experiments/timeblock_extend100_20261012/watch.py": "9228df5ed5917dcc798a9874cb4ee79887a91690d181977803aa1f07708eef9d"
+  },
+  "free_bytes_at_check": 10686988288,
+  "disk_budget": {
+    "free_bytes": 10642841600,
+    "conservative_required_bytes": 10180177953,
+    "reserve_bytes": 1500000000,
+    "status": "PASS"
+  }
+}
