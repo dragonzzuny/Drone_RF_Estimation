@@ -1,0 +1,17 @@
+{
+  "time": "2026-10-13T08:05:53.465002+09:00",
+  "entries": [
+    {
+      "removed_redundant_root": "experiments/packet_routing_20261013/train_positionless_tracking.py",
+      "preserved_exact_snapshot": "/media/pyj/Elements/Drone_RF_Estimation_runs/positionless_tracking_20261013_v1/source_snapshot/experiments/packet_routing_20261013/train_positionless_tracking.py",
+      "sha256": "5994c6063419003fc7fb43080219df31a019916be92226b80ddac8b9bb61928e",
+      "reason": "Cancelled before GPU acquisition,0updates; fixed v2 executed instead"
+    },
+    {
+      "removed_redundant_root": "experiments/packet_routing_20261013/audit_positionless_tracking.py",
+      "preserved_exact_snapshot": "/media/pyj/Elements/Drone_RF_Estimation_runs/positionless_tracking_20261013_v1/source_snapshot/experiments/packet_routing_20261013/audit_positionless_tracking.py",
+      "sha256": "424f2dd1ceb0fb1e1c943abe36e8712d8a46959c0abf74501cd5be0a9b04a7b0",
+      "reason": "Cancelled before GPU acquisition,0updates; fixed v2 executed instead"
+    }
+  ]
+}

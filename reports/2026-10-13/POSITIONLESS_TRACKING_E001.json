@@ -1,0 +1,36 @@
+{
+  "epoch": 1,
+  "updates": 12,
+  "training_loss": 0.24274133890867233,
+  "training_seconds": 0.33092522621154785,
+  "evaluation_seconds": 0.2089216709136963,
+  "by_count": {
+    "1": {
+      "cases": 5,
+      "mean_nmse": 0.005317474351443878,
+      "mean_si_sdr": 34.54092574359489,
+      "weakest_nmse": 0.005317474351443878,
+      "original_count_accuracy": 1.0
+    },
+    "2": {
+      "cases": 12,
+      "mean_nmse": 0.489348231670135,
+      "mean_si_sdr": 2.63203379121455,
+      "weakest_nmse": 0.6713243910802152,
+      "original_count_accuracy": 1.0
+    },
+    "3": {
+      "cases": 7,
+      "mean_nmse": 1.0197003255882486,
+      "mean_si_sdr": -2.5804031573492794,
+      "weakest_nmse": 1.6234390290418728,
+      "original_count_accuracy": 1.0
+    }
+  },
+  "selection_nmse": 0.7545242786291918,
+  "checkpoint_sha256": "4c5900a4aaa286dc66a247375295f2a62c6cd6aabdb549a7afa52d9ffee552af",
+  "B_result_sha256": "38a599168b9c7d4b962a083e7c4055f5ae7eebf989cf1885c6c41ea471d54ef3",
+  "protocol_sha256": "f20aa5584b2ff008a0b541c6ad3de8d83931ee0e48d39283a2d0a201ea65f4d4",
+  "fixed_final_epoch": 50,
+  "C_evaluated": false
+}

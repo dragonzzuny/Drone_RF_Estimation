@@ -49,5 +49,6 @@ C24=.517603/.710601,복소SI=−.952/−1.812dB다. B24에서는 기존 PSD 추�
 소폭 악화하고 자료·길이가 위 C630과 달라 전체 최선을 대체하지 않는다.
 [추적 전체 결과·한계](../reports/2026-10-13/LEARNED_TRACKING_RESULT_KO.md).
 
-기존 native e2 파형에도 같은 추적기를 적용하는 C24 평가가07:47 기준 GPU 실행 중이다.
-[사전 계획](../reports/2026-10-13/INCUMBENT_TRACKING_PLAN_KO.md). 결과는 완료 후 별도 보고한다.
+기존 native e2의 C24 전체 구간 평가를 완료했다. 고정 PSD 추적이 두/세 NMSE=.426044/.674980, 복소SI=3.448/−1.521dB로 학습 추적기 이식보다 평균 지표가 좋았다. 단일·악화 조건과 짧은 C630을 구분한다. [전체 결과](../reports/2026-10-13/INCUMBENT_TRACKING_RESULT_KO.md).
+
+같은 예산의 위치 없는 추적기50도 완료·검산했다. B 세 성분은 위치 사용이 좋으나 C에는 지표별 절충이 남는다. [대조 결과](../reports/2026-10-13/POSITIONLESS_TRACKING_RESULT_KO.md).

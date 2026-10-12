@@ -1,0 +1,13 @@
+{
+  "status": "REGISTERED",
+  "protocol_sha256": "f20aa5584b2ff008a0b541c6ad3de8d83931ee0e48d39283a2d0a201ea65f4d4",
+  "epochs": 50,
+  "updates": 600,
+  "training_cases": 48,
+  "changed_factor": "time_gain fixed0 from initialization",
+  "original_protocol_sha256": "27727fde93d4a4b7db04d5fb2ac2abda134e469998281f8744e1847a052f6201",
+  "trainable_parameters": 875520,
+  "waveform_model_frozen": true,
+  "superseded_v1_updates": 0,
+  "superseded_v1_reason": "Public destination collision found during queued source review; stopped before lock acquisition; original result hash preserved"
+}

@@ -6,15 +6,16 @@
 - Report **every completed actual epoch in chat**: two/three-source NMSE, complex SI-SDR, weakest NMSE, changes from preceding epoch, selected model and next actual state. For short tracking epochs, a table containing every completed epoch is acceptable. Files/desktop notifications alone do not satisfy this. Verify STATE, process and AUDIT before claiming training is active; distinguish prepared/registered/waiting/running/evaluated/adopted. Detached workers cannot send chat messages themselves.
 - Performance takes priority over real-time speed. Preserve full waveform model capacity. Initial comparisons use seed0; reuse completed controls rather than retrain them repeatedly.
 
-## Live state:2026-10-13 07:47KST
+## Live state:2026-10-13 08:05KST
 
-- Parent B100 COMPLETE_AUDITED,7500updates. Original B630 selects99: NMSE2/3=.2574137238/.3815573738,complexSI8.7230138/3.7962867,weakest.4401105690/.7223533810. `local/timeblock_extend100_20261012_v1`.
-- Shared/independent PIT each completed3epochs/288updates. Shared failed all8adoption checks. Independent3 modestly improves means but worsens triple tails. No global replacement.
-- DualContext completed3epochs/288updates and full5/packet/C630 followup; auditsPASS. B630 worse than parent; C has NMSE/SI tradeoffs. Not adopted/extended. See `DUAL_CONTEXT_FOLLOWUP_KO.md`.
-- Learned tracking COMPLETE_AUDITED50epochs/600updates,875521params,full U-Net99 frozen. FIT48teacher preparation, B24 everyepoch, C24 final50, independent CPU direct I/Q replay and FIT diagnostic ALL complete/PASS. All50epochs reported in chat on latest turn.
-- Learned50 B24 NMSE2/3=.143027/.242095,complexSI10.417020/7.130407,weak.228390/.439353. C24=.517603/.710601,complexSI−.952400/−1.811997,weak.754059/1.319718. B triple6improve/1same vs PSD; C single mean slightly worse. No global CURRENT_BEST replacement. CheckpointSHA dce030e9031ec2081c3110ffabd759a225046e307b282729c498a06be987cab8.
-- NEW `rf-incumbent-tracking-v1` PID684243 evaluates existing C630 native e2 waveform model on fixed full C24 with parent/PSD/unchanged learned50 tracking. GPU RUNNING, verify STATE. Original short1/2/3preflightPASS. `local/incumbent_tracking_c24_20261013_v1`. No training, no Autel, no intermediatecheckpoint selection. Code/plan PINNED once registered.
-- GPU jobs serialize on existing neural_queue.lock. CPU diagnostics use bounded threads/memory. Large outputs on external Elements symlinks. Preserve snapshots/manifests.
+- Overnight work and latest steering completed this experiment batch. All scheduled GPU/CPU jobs COMPLETE_AUDITED. No training is running or queued. Publication/generalization goal is NOT marked achieved. Read `reports/2026-10-13/MORNING_REPORT_KO.md`.
+- Parent B100 completed7500updates; B630 selects99. Shared/independent PIT3each and DualContext3 plus full5/packet/C630 followups finished. DualContext not adopted.
+- Learned tracker50/600updates,875521params,full U-Net99 frozen: B24 NMSE2/3=.143027/.242095,SI10.417/7.130,weak.228390/.439353. C24=.517603/.710601,SI−.952/−1.812,weak.754059/1.319718. FIT48 teacher and independent B/C48 CPU I/Q auditsPASS. All50epochs reported in chat.
+- Matched positionless tracker50/600 completed,875520trainable parameters,time_gain fixed0. B=.148457/.472485,SI9.865/5.001,weak.213375/1.098440; C=.488258/.815615,SI.263/−2.207,weak.724358/1.218208. Independent CPU48PASS. All50epochs reported in chat. `local/positionless_tracking_20261013_v2`; cancelled v1 performed0updates, exact sources archived before cleanup. All executed sources/plans remain pinned.
+- Existing native e2+C8 full C24 evaluation complete. Parent NMSE2/3=.655874/.761105; fixed PSD=.426044/.674980,SI3.448/−1.521,weak.595265/.955783; transferred B99-learned50=.458999/.753204,SI2.926/−2.825,weak.635950/1.041373. Fixed PSD is preferable for this parent on multicomponent means, with adverse cases retained. `local/incumbent_tracking_c24_20261013_v1`,24auditsPASS.
+- B/C long evaluations do not replace short C630 CURRENT_BEST. Position has conditional tradeoffs; never claim universal temporal benefit. Oracle-count and label-objective diagnostics do not solve all errors.
+- Next proposed study NOT IMPLEMENTED/REGISTERED/RUNNING: train a native e2-specific tracker from FIT48 outputs, matched600update budget and existing PSD comparator. Check native parent training provenance before treating any B curve as heldout; C24 remains exposed development. No Autel access.
+- GPU jobs use existing neural_queue.lock; large artifacts on external Elements. Keep final checkpoints/feature caches/source snapshots. Preserve user changes and unrelated stopped queues.
 
 ## Evidence and selection boundaries
 
