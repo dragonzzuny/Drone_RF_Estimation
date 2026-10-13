@@ -1,0 +1,749 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "index": 12,
+      "label": "improved_pair",
+      "categories": [
+        "DJI AVATA2",
+        "DJI MAVIC3 PRO"
+      ],
+      "levels": [
+        -10.0,
+        0.0
+      ],
+      "metrics": {
+        "count": 2,
+        "nmse": [
+          0.10714169653611158,
+          0.010964289167189592
+        ],
+        "si_sdr": [
+          9.217209708010593,
+          19.55407722902685
+        ],
+        "reference_power": [
+          0.09090909090732704,
+          0.9090909090692033
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          1,
+          0,
+          2
+        ],
+        "sum_relative_error": 3.8398300407584136e-14,
+        "predicted_count": 2
+      },
+      "baseline": {
+        "count": 2,
+        "nmse": [
+          0.10714169653611162,
+          0.01096428916718959
+        ],
+        "si_sdr": [
+          9.217209708010632,
+          19.5540772290265
+        ],
+        "reference_power": [
+          0.09090909090732702,
+          0.9090909090692035
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          2,
+          1,
+          0
+        ],
+        "sum_relative_error": 3.83289521590147e-14,
+        "predicted_count": 2
+      },
+      "zooms": [
+        {
+          "source": 0,
+          "start_sample": 1044224,
+          "end_sample": 1044736,
+          "start_ms": 10.44224
+        },
+        {
+          "source": 1,
+          "start_sample": 1830656,
+          "end_sample": 1831168,
+          "start_ms": 18.30656
+        }
+      ],
+      "plot_scaling": "Same reference RMS for reference, estimate and residual; scoring stays unscaled",
+      "source_sha256": "033f896db000ab0a6d8f9d0d6e4f6260ba3761a5c42827d2a5df452aaf3c62b9",
+      "orders": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "selection": "Illustrative improvement/equal-power/adverse case; not representative random sampling"
+    },
+    {
+      "index": 7,
+      "label": "equal_power_triple",
+      "categories": [
+        "DJI AVATA2",
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "levels": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "metrics": {
+        "count": 3,
+        "nmse": [
+          0.22727042489481708,
+          0.1374081499483569,
+          0.10232092016161022
+        ],
+        "si_sdr": [
+          5.375122876341367,
+          8.05092240079819,
+          9.446403563372721
+        ],
+        "reference_power": [
+          0.3333333333138696,
+          0.3333333333261539,
+          0.3333333333928404
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 3.2821904190986637e-14,
+        "predicted_count": 3
+      },
+      "baseline": {
+        "count": 3,
+        "nmse": [
+          0.9797857480135966,
+          0.709198160903578,
+          0.9887713797572055
+        ],
+        "si_sdr": [
+          -7.721741849259325,
+          -3.7551384137471637,
+          -1.7283233587186482
+        ],
+        "reference_power": [
+          0.3333333333138697,
+          0.3333333333261539,
+          0.3333333333928404
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          1,
+          0,
+          2
+        ],
+        "sum_relative_error": 3.267421965980728e-14,
+        "predicted_count": 3
+      },
+      "zooms": [
+        {
+          "source": 0,
+          "start_sample": 1863424,
+          "end_sample": 1863936,
+          "start_ms": 18.63424
+        },
+        {
+          "source": 1,
+          "start_sample": 1486592,
+          "end_sample": 1487104,
+          "start_ms": 14.86592
+        },
+        {
+          "source": 2,
+          "start_sample": 478976,
+          "end_sample": 479488,
+          "start_ms": 4.78976
+        }
+      ],
+      "plot_scaling": "Same reference RMS for reference, estimate and residual; scoring stays unscaled",
+      "source_sha256": "2ba672e8625efa14c9fd2fcdd68bd9f494a877d0836dc0852658ee2568ef3a6b",
+      "orders": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "selection": "Illustrative improvement/equal-power/adverse case; not representative random sampling"
+    },
+    {
+      "index": 2,
+      "label": "adverse_pair",
+      "categories": [
+        "DJI FPV COMBO",
+        "DJI MAVIC3 PRO"
+      ],
+      "levels": [
+        10.0,
+        0.0
+      ],
+      "metrics": {
+        "count": 2,
+        "nmse": [
+          0.08333336302568896,
+          0.8406796824343453
+        ],
+        "si_sdr": [
+          10.63513412558663,
+          -6.359269567862597
+        ],
+        "reference_power": [
+          0.9090909090797311,
+          0.09090909092203014
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          0,
+          1,
+          2
+        ],
+        "sum_relative_error": 3.408913608234321e-14,
+        "predicted_count": 2
+      },
+      "baseline": {
+        "count": 2,
+        "nmse": [
+          0.4294566457678044,
+          0.9856795747489683
+        ],
+        "si_sdr": [
+          1.3631186171291467,
+          -11.851874863175777
+        ],
+        "reference_power": [
+          0.9090909090797311,
+          0.09090909092203019
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          1,
+          0,
+          2
+        ],
+        "sum_relative_error": 3.386797506234076e-14,
+        "predicted_count": 2
+      },
+      "zooms": [
+        {
+          "source": 0,
+          "start_sample": 126720,
+          "end_sample": 127232,
+          "start_ms": 1.2672
+        },
+        {
+          "source": 1,
+          "start_sample": 511744,
+          "end_sample": 512256,
+          "start_ms": 5.11744
+        }
+      ],
+      "plot_scaling": "Same reference RMS for reference, estimate and residual; scoring stays unscaled",
+      "source_sha256": "8f95e61a64ad28aba6a4f569a36c86e0cae3811cf96cb2abdf9b286326e31af0",
+      "orders": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "selection": "Illustrative improvement/equal-power/adverse case; not representative random sampling"
+    }
+  ],
+  "training_updates": 0,
+  "model_forwards": 0,
+  "reference_gain_phase_fitting": false,
+  "scope": "saved B24 development results only"
+}

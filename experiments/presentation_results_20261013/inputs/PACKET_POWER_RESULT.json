@@ -1,0 +1,371 @@
+{
+  "status": "COMPLETE_AUDITED",
+  "epoch": 99,
+  "conditions": [
+    {
+      "level_FPV_over_Mavic_db": 0,
+      "waveform": {
+        "count": 2,
+        "nmse": [
+          0.30989949416361273,
+          0.3998676578610417
+        ],
+        "si_sdr": [
+          3.8301739454922545,
+          2.0101304102225983
+        ],
+        "reference_power": [
+          0.2595728326868198,
+          0.208224299270361
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          1,
+          0
+        ],
+        "sum_relative_error": 9.230295048464792e-15,
+        "predicted_count": 2
+      },
+      "receiver": [
+        {
+          "label": "reference_FPV",
+          "status": "crc_valid",
+          "crc16": true,
+          "crc24": true,
+          "device_types": [
+            "DJI FPV"
+          ]
+        },
+        {
+          "label": "reference_Mavic3Pro",
+          "status": "no_dual_zc",
+          "crc16": false,
+          "crc24": false,
+          "device_types": []
+        },
+        {
+          "label": "mixture",
+          "status": "crc_valid",
+          "crc16": true,
+          "crc24": true,
+          "device_types": [
+            "DJI FPV"
+          ]
+        },
+        {
+          "label": "output_0",
+          "status": "crc_invalid",
+          "crc16": false,
+          "crc24": false,
+          "device_types": []
+        },
+        {
+          "label": "output_1",
+          "status": "crc_valid",
+          "crc16": true,
+          "crc24": true,
+          "device_types": [
+            "DJI FPV"
+          ]
+        },
+        {
+          "label": "output_2",
+          "status": "crc_valid",
+          "crc16": true,
+          "crc24": true,
+          "device_types": [
+            "DJI FPV"
+          ]
+        },
+        {
+          "label": "background",
+          "status": "crc_valid",
+          "crc16": true,
+          "crc24": true,
+          "device_types": [
+            "DJI FPV"
+          ]
+        }
+      ],
+      "cpu_gpu_zero_relative_squared_error": 1.5963907984157394e-14,
+      "artifact_sha256": "baeb6b62bfbad0bbd7fe3b06385f0282d26738976d9f18d21a07933def5e8e65",
+      "seconds": 501.08824825286865
+    },
+    {
+      "level_FPV_over_Mavic_db": -10,
+      "waveform": {
+        "count": 2,
+        "nmse": [
+          0.28762474809380306,
+          0.05672326962765701
+        ],
+        "si_sdr": [
+          3.9479759561396346,
+          12.21941146741683
+        ],
+        "reference_power": [
+          0.047195060476549436,
+          0.37858963513882316
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 9.25402153287841e-15,
+        "predicted_count": 2
+      },
+      "receiver": [
+        {
+          "label": "reference_FPV",
+          "status": "crc_valid",
+          "crc16": true,
+          "crc24": true,
+          "device_types": [
+            "DJI FPV"
+          ]
+        },
+        {
+          "label": "reference_Mavic3Pro",
+          "status": "no_dual_zc",
+          "crc16": false,
+          "crc24": false,
+          "device_types": []
+        },
+        {
+          "label": "mixture",
+          "status": "crc_valid",
+          "crc16": true,
+          "crc24": true,
+          "device_types": [
+            "DJI FPV"
+          ]
+        },
+        {
+          "label": "output_0",
+          "status": "crc_valid",
+          "crc16": true,
+          "crc24": true,
+          "device_types": [
+            "DJI FPV"
+          ]
+        },
+        {
+          "label": "output_1",
+          "status": "crc_valid",
+          "crc16": true,
+          "crc24": true,
+          "device_types": [
+            "DJI FPV"
+          ]
+        },
+        {
+          "label": "output_2",
+          "status": "crc_valid",
+          "crc16": true,
+          "crc24": true,
+          "device_types": [
+            "DJI FPV"
+          ]
+        },
+        {
+          "label": "background",
+          "status": "crc_valid",
+          "crc16": true,
+          "crc24": true,
+          "device_types": [
+            "DJI FPV"
+          ]
+        }
+      ],
+      "cpu_gpu_zero_relative_squared_error": null,
+      "artifact_sha256": "c0fb9c53850be619a162d51bf1b1de02f7adf73a1dc00ad65b91cf761e99e0bd",
+      "seconds": 421.44439578056335
+    },
+    {
+      "level_FPV_over_Mavic_db": 10,
+      "waveform": {
+        "count": 2,
+        "nmse": [
+          0.008906518988911925,
+          0.1139222501338647
+        ],
+        "si_sdr": [
+          20.50562102008646,
+          9.018120409317934
+        ],
+        "reference_power": [
+          0.47195060478710654,
+          0.037858963505749764
+        ],
+        "weakest_index": 1,
+        "assignment": [
+          2,
+          1,
+          0
+        ],
+        "sum_relative_error": 9.0774152336079e-15,
+        "predicted_count": 2
+      },
+      "receiver": [
+        {
+          "label": "reference_FPV",
+          "status": "crc_valid",
+          "crc16": true,
+          "crc24": true,
+          "device_types": [
+            "DJI FPV"
+          ]
+        },
+        {
+          "label": "reference_Mavic3Pro",
+          "status": "no_dual_zc",
+          "crc16": false,
+          "crc24": false,
+          "device_types": []
+        },
+        {
+          "label": "mixture",
+          "status": "crc_valid",
+          "crc16": true,
+          "crc24": true,
+          "device_types": [
+            "DJI FPV"
+          ]
+        },
+        {
+          "label": "output_0",
+          "status": "crc_invalid",
+          "crc16": false,
+          "crc24": false,
+          "device_types": []
+        },
+        {
+          "label": "output_1",
+          "status": "crc_invalid",
+          "crc16": false,
+          "crc24": false,
+          "device_types": []
+        },
+        {
+          "label": "output_2",
+          "status": "crc_valid",
+          "crc16": true,
+          "crc24": true,
+          "device_types": [
+            "DJI FPV"
+          ]
+        },
+        {
+          "label": "background",
+          "status": "crc_invalid",
+          "crc16": false,
+          "crc24": false,
+          "device_types": []
+        }
+      ],
+      "cpu_gpu_zero_relative_squared_error": null,
+      "artifact_sha256": "19f4b3673b66b6faa8b944863096ab9f001d6a0d254328aca1cb267a3537e5e8",
+      "seconds": 423.8848943710327
+    },
+    {
+      "level_FPV_over_Mavic_db": -20,
+      "waveform": {
+        "count": 2,
+        "nmse": [
+          0.960300693713745,
+          0.011625650654327113
+        ],
+        "si_sdr": [
+          -10.440031004912582,
+          19.396572695631605
+        ],
+        "reference_power": [
+          0.005140056089973741,
+          0.41232534512063723
+        ],
+        "weakest_index": 0,
+        "assignment": [
+          1,
+          2,
+          0
+        ],
+        "sum_relative_error": 9.328927977608701e-15,
+        "predicted_count": 1
+      },
+      "receiver": [
+        {
+          "label": "reference_FPV",
+          "status": "crc_valid",
+          "crc16": true,
+          "crc24": true,
+          "device_types": [
+            "DJI FPV"
+          ]
+        },
+        {
+          "label": "reference_Mavic3Pro",
+          "status": "no_dual_zc",
+          "crc16": false,
+          "crc24": false,
+          "device_types": []
+        },
+        {
+          "label": "mixture",
+          "status": "no_dual_zc",
+          "crc16": false,
+          "crc24": false,
+          "device_types": []
+        },
+        {
+          "label": "output_0",
+          "status": "no_dual_zc",
+          "crc16": false,
+          "crc24": false,
+          "device_types": []
+        },
+        {
+          "label": "output_1",
+          "status": "no_dual_zc",
+          "crc16": false,
+          "crc24": false,
+          "device_types": []
+        },
+        {
+          "label": "output_2",
+          "status": "no_dual_zc",
+          "crc16": false,
+          "crc24": false,
+          "device_types": []
+        },
+        {
+          "label": "background",
+          "status": "no_dual_zc",
+          "crc16": false,
+          "crc24": false,
+          "device_types": []
+        }
+      ],
+      "cpu_gpu_zero_relative_squared_error": null,
+      "artifact_sha256": "f11ba0e55d2f044d1857810b8003d46cf21a70e35d3d900377e9b4eb5c73f734",
+      "seconds": 419.27256870269775
+    }
+  ],
+  "audit": {
+    "status": "PASS",
+    "conditions": 4,
+    "result_sha256": "890e6e35a527f43198feae50b5999c405c2a02b4a64051f5aaeeb58f93f1b023",
+    "plan_sha256": "9078f9b4581485bceac369162293bb74789243e0fc4e1b8900efde56fa4aeb57",
+    "inputs_unchanged": true,
+    "source_hashes_unchanged": true
+  },
+  "conditions_selected_before_evaluation": true,
+  "reference_in_receiver": false,
+  "optimizer_updates": 0,
+  "outside_nominal_training_ratio_db": [
+    -20
+  ],
+  "evidence_scope": "One known FPV/Mavic3Pro2ms event at four whole-context power ratios; not a device identification rate"
+}

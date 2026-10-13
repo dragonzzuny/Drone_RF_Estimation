@@ -1,0 +1,2 @@
+# Preserve the audited CSV snapshot byte for byte, including its CRLF line endings.
+inputs/*.csv -text whitespace=cr-at-eol
