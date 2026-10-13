@@ -1,0 +1,37 @@
+{
+  "epoch": 42,
+  "updates": 504,
+  "training_loss": 0.01905079189843188,
+  "training_seconds": 0.2797813415527344,
+  "evaluation_scope": "FIT48 training diagnostic, not validation",
+  "evaluation_seconds": 0.3428175449371338,
+  "by_count": {
+    "1": {
+      "cases": 10,
+      "mean_nmse": 0.09093798398472384,
+      "mean_si_sdr": 22.10728279872141,
+      "weakest_nmse": 0.09093798398472384,
+      "original_count_accuracy": 0.8
+    },
+    "2": {
+      "cases": 24,
+      "mean_nmse": 0.2962627547338035,
+      "mean_si_sdr": 5.8505577841751775,
+      "weakest_nmse": 0.3988769779149945,
+      "original_count_accuracy": 0.25
+    },
+    "3": {
+      "cases": 14,
+      "mean_nmse": 0.5215998321753375,
+      "mean_si_sdr": 2.02427014553194,
+      "weakest_nmse": 0.7229103017661268,
+      "original_count_accuracy": 1.0
+    }
+  },
+  "selection_nmse": 0.40893129345457047,
+  "checkpoint_sha256": "e742ab0070da6cd9b15be1410a43bec760cb740c0813937a737f6e0c5232b5ab",
+  "FIT_result_sha256": "2bfb54177e62abbb28aaf67a2910add12b1f8065fcf0a915d38609c8ff684b3a",
+  "protocol_sha256": "f02f2b1277ef48e35f5cdcb868de3e78239342d0a2013d9c56ba6798d1688d13",
+  "fixed_final_epoch": 50,
+  "C_evaluated": false
+}

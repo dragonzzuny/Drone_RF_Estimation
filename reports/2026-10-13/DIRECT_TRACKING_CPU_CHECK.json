@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "parameters": 875905,
+  "common_encoder_initialization_exact": true,
+  "hard_choice_cost_matches_direct_iq": [
+    {
+      "count": 1,
+      "expected_hard_choice_loss": 0.5998572111129761,
+      "direct_iq_loss": 0.5998572100281642
+    },
+    {
+      "count": 2,
+      "expected_hard_choice_loss": 0.3707953691482544,
+      "direct_iq_loss": 0.37079535414066006
+    },
+    {
+      "count": 3,
+      "expected_hard_choice_loss": 0.5948881506919861,
+      "direct_iq_loss": 0.5948881403306518
+    }
+  ],
+  "input_slot_permutation_equivariant": true,
+  "global_reference_order_invariant": true,
+  "finite_nonzero_head_gradient": true,
+  "source_sha256": "34aba2d6cc0f3ad951e67e94ace3078b945b31196c7b09cf4d1d508e10afcb42",
+  "check_source_sha256": "c561d608de15e6821c586268e1f2a3675148ebe419cbdd316e24b47fd64fafb5"
+}

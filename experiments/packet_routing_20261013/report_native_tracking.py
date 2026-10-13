@@ -80,7 +80,59 @@ def main():
         prev = d['by_count']
         epochs.append(d)
     (REPORT/'NATIVE_TRACKING_EPOCH_REPORTS_KO.md').write_text('\n'.join(lines)+'\n')
+    make_figures(result, groups, epochs, comparisons)
     print(json.dumps(dict(joint_multisource_improvement=joint, verdict=verdict), indent=2))
+
+
+def make_figures(result, groups, epochs, comparisons):
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
+    plt.rcParams.update({'pdf.fonttype':42, 'ps.fonttype':42, 'font.size':10, 'svg.fonttype':'none'})
+    exports = []
+    methods = [('parent','Native e2 + C8','#999999'), ('psd','Fixed PSD tracking','#333333'),
+               ('learned50','B99-trained tracker transfer','#E69F00'), ('new','Native-trained tracker (50)','#0072B2')]
+    fig, axes = plt.subplots(1,3,figsize=(11.5,4.8),layout='constrained')
+    for ax, metric, label in zip(axes, ('mean_nmse','mean_si_sdr','weakest_nmse'),
+            ('Mean I/Q NMSE (lower is better)', 'Complex SI-SDR, dB (higher is better)', 'Weakest-source NMSE (lower is better)')):
+        for j,(key,name,color) in enumerate(methods):
+            values = [(result['C']['by_count'][str(k)] if key=='new' else groups[key][str(k)])[metric] for k in (1,2,3)]
+            ax.bar(np.arange(3)+(j-1.5)*.19,values,width=.18,label=name,color=color)
+        ax.set_xticks(range(3),['1 source\n(n=5)','2 sources\n(n=12)','3 sources\n(n=7)'])
+        ax.set_ylabel(label)
+        if metric!='mean_si_sdr':ax.set_ylim(bottom=0)
+        ax.axhline(0,color='0.6',lw=.6)
+        ax.grid(axis='y',alpha=.15)
+    handles, labels = axes[0].get_legend_handles_labels()
+    fig.legend(handles,labels,loc='outside lower center',ncol=2,fontsize=8.5)
+    fig.suptitle('Same native e2 waveforms: C24 development, full 20.8896 ms\nFixed final tracker epoch 50; repeated development data',fontsize=11)
+    save_figure(fig, 'native_tracking_comparison', exports)
+    fig,axes=plt.subplots(1,2,figsize=(10.5,4),layout='constrained')
+    for k,color in ((2,'#0072B2'),(3,'#D55E00')):
+        axes[0].plot(range(1,51),[d['by_count'][str(k)]['mean_nmse'] for d in epochs],label=f'{k} sources',color=color)
+    axes[0].set(xlabel='Tracker epoch (12 updates each)',ylabel='Mean I/Q NMSE',title='FIT48 training diagnostic (not validation)',ylim=(0,None))
+    axes[0].legend(fontsize=8);axes[0].grid(alpha=.15)
+    colors={1:'#999999',2:'#0072B2',3:'#D55E00'}
+    for k in (1,2,3):
+        positions=[j for j,r in enumerate(comparisons) if r['count']==k]
+        axes[1].scatter(positions,[comparisons[j]['change_vs_psd'] for j in positions],c=colors[k],label=f'{k} source(s)',s=22)
+    axes[1].axhline(0,color='black',lw=.8)
+    axes[1].set(xlabel='C24 case order (all cases retained)',ylabel='NMSE change vs fixed PSD\nNegative: improved; positive: worsened',title='Final50: paired case changes')
+    axes[1].legend(fontsize=8);axes[1].grid(alpha=.15)
+    save_figure(fig, 'native_tracking_fit_and_cases', exports)
+    write(REPORT/'figures/native_tracking_exports.json',dict(source_sha256=sha(Path(__file__)),
+        result_sha256=sha(RUN/'RESULT.json'),baseline_sha256=sha(BASE/'RESULT.json'),
+        direct_audit_sha256=sha(AUDIT/'RESULT.json'),exports=exports,visual_review='PENDING',
+        scope='All50 FIT training epochs; all24 exposed C development cases; no independent-test claim'))
+
+
+def save_figure(fig, stem, exports):
+    import matplotlib.pyplot as plt
+    folder=REPORT/'figures';folder.mkdir(exist_ok=True)
+    for suffix in ('pdf','svg','png'):
+        path=folder/f'{stem}.{suffix}';fig.savefig(path,dpi=180)
+        exports.append(dict(path=str(path.relative_to(ROOT)),sha256=sha(path)))
+    plt.close(fig)
 
 
 if __name__ == '__main__':

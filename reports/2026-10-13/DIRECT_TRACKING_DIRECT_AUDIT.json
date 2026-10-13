@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "epoch": 50,
+  "cases": 24,
+  "groups": {
+    "C24": {
+      "1": {
+        "cases": 5,
+        "mean_nmse": 0.03428387408525829,
+        "mean_si_sdr": 16.22592172866651,
+        "weakest_nmse": 0.03428387408525829,
+        "original_count_accuracy": 0.8
+      },
+      "2": {
+        "cases": 12,
+        "mean_nmse": 0.5668503568947919,
+        "mean_si_sdr": -1.2430215472829051,
+        "weakest_nmse": 0.7809085701374849,
+        "original_count_accuracy": 0.3333333333333333
+      },
+      "3": {
+        "cases": 7,
+        "mean_nmse": 0.7386423220586162,
+        "mean_si_sdr": -5.238057003901709,
+        "weakest_nmse": 0.9895191900091237,
+        "original_count_accuracy": 0.5714285714285714
+      }
+    }
+  },
+  "plan_sha256": "e9d60f06befbe731eb6eda6a364d2386738eec8af11f8bcda43038c6465397a0",
+  "direct_iq_metrics_reproduced": true,
+  "observed_features_reproduced_exactly": true,
+  "cpu_gpu_orders_reproduced_exactly": true,
+  "background_unchanged": true,
+  "references_not_used_in_forward_or_routing": true,
+  "training_updates": 0,
+  "parent_frozen_checkpoint_sha256": "19888f8823fbb6ade6333d40bd849dec3202e522ded016e7265eaced6b52aa49"
+}

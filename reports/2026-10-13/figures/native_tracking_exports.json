@@ -1,0 +1,35 @@
+{
+  "source_sha256": "18aa44d1127440720105f37749269a02555849c7dd2914c05ca57e79a9c88322",
+  "result_sha256": "56a4425342db03db310f1b17c52d451e9f2cec450279b4d439e0fb4b1d1382cc",
+  "baseline_sha256": "bdf3516508fb6a646949becfbde0da9510eaa4b44de09d28749ef20c86167e47",
+  "direct_audit_sha256": "ab0a26bde79be2ca1b3806f45472770aca341262b22cc1775e2ab4840b4c328a",
+  "exports": [
+    {
+      "path": "reports/2026-10-13/figures/native_tracking_comparison.pdf",
+      "sha256": "f49fc0e3df12f3662c2ff7b4a150ab76ae6a734ed0915440b0a9b610a4b067a7"
+    },
+    {
+      "path": "reports/2026-10-13/figures/native_tracking_comparison.svg",
+      "sha256": "42c3e0a7cfcef78b88c8c7c9d3f4dc2854bf4da7dc45f34c2d72553dc707cc85"
+    },
+    {
+      "path": "reports/2026-10-13/figures/native_tracking_comparison.png",
+      "sha256": "9c5bbd58d9cc5ed1abb16a393ee610f7a1dada20d1722d9cbc32d8c4e31f153b"
+    },
+    {
+      "path": "reports/2026-10-13/figures/native_tracking_fit_and_cases.pdf",
+      "sha256": "dae977ac90210f62b0021fad503c87117e0c61bec131b4a757cacf41aedcbe5e"
+    },
+    {
+      "path": "reports/2026-10-13/figures/native_tracking_fit_and_cases.svg",
+      "sha256": "2e3fab28afefd131aba08171636c294b046d295a5ad47e1991d46a0187191f7e"
+    },
+    {
+      "path": "reports/2026-10-13/figures/native_tracking_fit_and_cases.png",
+      "sha256": "5a97a98f2358cc2be01a16402c823c7f605871bba5f09ee2de91104cb0e41822"
+    }
+  ],
+  "visual_review": "PASS",
+  "scope": "All50 FIT training epochs; all24 exposed C development cases; no independent-test claim",
+  "visual_review_notes": "Inspected comparison and FIT/case previews; legend moved outside data axes; all bars and signed case changes visible; zero baseline on NMSE axes; FIT explicitly labelled training, C explicitly development."
+}
