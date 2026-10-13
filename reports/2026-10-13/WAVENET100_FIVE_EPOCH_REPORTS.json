@@ -46,6 +46,52 @@
       },
       "wavenet_selected_epoch": 5,
       "unet_selected_epoch": 5
+    },
+    {
+      "epoch": 10,
+      "updates": 750,
+      "wavenet": {
+        "1": {
+          "mean_nmse": 0.010848550070634178,
+          "mean_si_sdr": 27.74346866275067,
+          "weakest_nmse": 0.010848550070634178,
+          "count_accuracy": 0.9904761904761905
+        },
+        "2": {
+          "mean_nmse": 0.6397699331754148,
+          "mean_si_sdr": 1.3501832276314725,
+          "weakest_nmse": 1.0925834995295218,
+          "count_accuracy": 0.9571428571428572
+        },
+        "3": {
+          "mean_nmse": 0.759512859007715,
+          "mean_si_sdr": -4.351797642097487,
+          "weakest_nmse": 1.031844686178642,
+          "count_accuracy": 0.9809523809523809
+        }
+      },
+      "unet": {
+        "1": {
+          "mean_nmse": 0.01227835143930432,
+          "mean_si_sdr": 24.103300816330243,
+          "weakest_nmse": 0.01227835143930432,
+          "count_accuracy": 1.0
+        },
+        "2": {
+          "mean_nmse": 0.4396107136696511,
+          "mean_si_sdr": 5.610278391284088,
+          "weakest_nmse": 0.7358149670301873,
+          "count_accuracy": 0.9523809523809523
+        },
+        "3": {
+          "mean_nmse": 0.6351857481675031,
+          "mean_si_sdr": -0.42446500801198755,
+          "weakest_nmse": 0.9401943893364568,
+          "count_accuracy": 0.9619047619047619
+        }
+      },
+      "wavenet_selected_epoch": 10,
+      "unet_selected_epoch": 10
     }
   ],
   "chat_delivery_performed": false,
