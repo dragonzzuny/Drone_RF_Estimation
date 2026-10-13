@@ -1,0 +1,11 @@
+{
+  "status": "PRE_REGISTRATION_CORRECTION",
+  "time": 1791851855.3549645,
+  "actual_training_updates": 0,
+  "reason": "Cross-device hard link unsupported; byte-identical copy with SHA verification",
+  "preserved_original_sources": {
+    "experiments/wavenet_timeblock100_20261013/prepare.py": "487704a9f02f1a8a1cab651e8cbd0be0f34e86c35c23fbdbd809f40a951c0db7",
+    "experiments/wavenet_timeblock100_20261013/launch.py": "157f9a720e7dde8bb19829fb0484f251b6fb2fb4e1772cca3c4957682b075207"
+  },
+  "old_failure_sha256": "b88dd4b097786b3a37416815d6725aa3d48d62678cd90bb13024ae22df0ac501"
+}

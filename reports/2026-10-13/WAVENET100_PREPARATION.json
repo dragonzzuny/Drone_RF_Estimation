@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "matched_U_net_epochs": 100,
+  "matched_examples_per_epoch": 2400,
+  "total_optimizer_updates_planned": 7500,
+  "loader_changed_only_output_path": true,
+  "development_feature_bytes_identical": true,
+  "fixed_dev_schedule_sha256": "759b34102a0acddd260c050e9bdc88874c046529f12cde21cc974bfcd9358c95",
+  "long_short_synthesis_equivalence": true,
+  "heldout_access": false,
+  "old_waveform_weights_loaded": false,
+  "independent_recording_validation": false,
+  "preparation_sha256": "9c45f4a012e6ef36923d6720fefbe41f9508ae2553c6cfa0d4d8cbeeec59bd3e"
+}

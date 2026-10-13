@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "rows": 39,
+  "unique_development_cases_per_group": 24,
+  "independent_final_test": false,
+  "raw_iq_read": false,
+  "new_training_updates": 0,
+  "relative_nmse_reduction_B_vs_psd_percent": {
+    "2": 37.6157226973443,
+    "3": 50.55066525616685
+  },
+  "input_sha256": {
+    "LEARNED_TRACKING_RESULT.json": "1929510794f77d3287088cdf83e9875818316a859285f86b893efdc16141569e",
+    "POSITIONLESS_TRACKING_RESULT.json": "e2840e42e82ad1b25e5fb58eae2741c95ff036ebf945c5af81e839c7024dc8c1",
+    "INCUMBENT_TRACKING_RESULT.json": "bdf3516508fb6a646949becfbde0da9510eaa4b44de09d28749ef20c86167e47",
+    "NATIVE_TRACKING_RESULT.json": "56a4425342db03db310f1b17c52d451e9f2cec450279b4d439e0fb4b1d1382cc",
+    "DIRECT_TRACKING_RESULT.json": "b386b0ea05c18e345629ab0cf687118a5dcdc6887f5b11a8b239ccd1655f14e6",
+    "LEARNED_TRACKING_CASE_COMPARISON.json": "7367fc8aaa896e7ff2e38f0118a76c52d46d33da86e4100c58f5358e0283304e",
+    "LEARNED_TRACKING_DIRECT_AUDIT.json": "c760c32371034f697b285bc05a05757ffa87e2a2b514cd2abf6a1cba7d864f89",
+    "POSITIONLESS_TRACKING_DIRECT_AUDIT.json": "73330b988835a8854e31f189da67cbdd69fa46b0d0da2c25d1ce192995b2bc06",
+    "NATIVE_TRACKING_DIRECT_AUDIT.json": "ab0a26bde79be2ca1b3806f45472770aca341262b22cc1775e2ab4840b4c328a",
+    "DIRECT_TRACKING_DIRECT_AUDIT.json": "b14666e652aa0e57bd167512364ecfbe7f1873d62610d3683be5b5838b8ec845"
+  },
+  "source_sha256": "3dd26df117cf4e92cddb0bed09dda11ce881baa3e3ece02ed24b3f43890ec958",
+  "human_manuscript_verification": "PENDING"
+}

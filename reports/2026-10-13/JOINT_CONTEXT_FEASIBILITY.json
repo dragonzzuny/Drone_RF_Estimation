@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "device": "cuda",
+  "source_sha256": "f35fc328343a577db90687dfc2e70e1898d512bc9730f00b6b75f480ea02cf21",
+  "parent_sha256": "9339aeb132b68f9fb7f9897c065233866ec13d3ba7cea7afd01d5250488751ca",
+  "epochs_completed": 0,
+  "scientific_training_updates": 0,
+  "discarded_preflight_updates": 1,
+  "heldout_access": false,
+  "elapsed_seconds": 6.499054924002849,
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "trainable_parameters": 36554507,
+  "sequence_index": 5,
+  "input_samples": 191616,
+  "input_ms": 1.91616,
+  "initial_parent_max_difference": 0.0,
+  "gradient_norms": {
+    "encoder": 0.2826484739780426,
+    "decoder": 2.6767208576202393,
+    "output": 6.7987060546875,
+    "cross_window": 0.05961044505238533,
+    "ordered_power": 0.023004358634352684
+  },
+  "max_parameter_changes": {
+    "encoder": 1.0000541806221008e-05,
+    "decoder": 1.0000541806221008e-05,
+    "output": 1.0000541806221008e-05,
+    "cross_window": 9.99931125988951e-06,
+    "ordered_power": 9.998866516980343e-06
+  },
+  "total_gradient_norm": 8.19175910949707,
+  "preflight_loss_values": [
+    [
+      2.456186056137085,
+      2.4561800956726074,
+      6.01988795096986e-05
+    ],
+    [
+      0.721339762210846,
+      0.7213337421417236,
+      6.01988795096986e-05
+    ],
+    [
+      0.9888404011726379,
+      0.9888343811035156,
+      6.01988795096986e-05
+    ]
+  ],
+  "max_gpu_allocated_bytes": 2484976640,
+  "max_gpu_reserved_bytes": 2873098240,
+  "weights_saved": false,
+  "weights_discarded": true,
+  "interpretation": "Feasibility only; no improvement or convergence claim"
+}

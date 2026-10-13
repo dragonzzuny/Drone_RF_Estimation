@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "time": "2026-10-13T09:47:28.281908+09:00",
+  "protocol_sha256": "641019f0fa584d826217ddc033d46b856722b1afd53da171c84efa2cc025cb89",
+  "source_pin_count": 29,
+  "original_unet_ast_identical": [
+    "objective",
+    "aggregate",
+    "evaluate",
+    "save_checkpoint"
+  ],
+  "preparation": {
+    "status": "PASS",
+    "matched_U_net_epochs": 100,
+    "matched_examples_per_epoch": 2400,
+    "total_optimizer_updates_planned": 7500,
+    "loader_changed_only_output_path": true,
+    "development_feature_bytes_identical": true,
+    "fixed_dev_schedule_sha256": "759b34102a0acddd260c050e9bdc88874c046529f12cde21cc974bfcd9358c95",
+    "long_short_synthesis_equivalence": true,
+    "heldout_access": false,
+    "old_waveform_weights_loaded": false,
+    "independent_recording_validation": false,
+    "preparation_sha256": "9c45f4a012e6ef36923d6720fefbe41f9508ae2553c6cfa0d4d8cbeeec59bd3e"
+  },
+  "gpu_preflight": {
+    "status": "PASS",
+    "indices": [
+      8,
+      0,
+      1,
+      2
+    ],
+    "losses": [
+      0.38765209913253784,
+      1.6191900968551636,
+      38.984195709228516,
+      2.171726942062378
+    ],
+    "gradient_norm": 35.3580207824707,
+    "microbatch_relative_gradient_error": 5.913579579431609e-07,
+    "single_vs_batch4_forward": "PASS",
+    "discarded_updates": 1,
+    "parameters": 4601867,
+    "max_gpu_allocated_bytes": 4402127360,
+    "protocol_sha256": "641019f0fa584d826217ddc033d46b856722b1afd53da171c84efa2cc025cb89"
+  },
+  "report_schema_validation": {
+    "historical_u_net_milestones": 20,
+    "new_waveform_training_results": false,
+    "temporary_outputs_discarded": true
+  },
+  "actual_training_started": false,
+  "state_at_check": {
+    "status": "VALIDATING",
+    "pid": 780778,
+    "time": 1791852417.5670726,
+    "epoch": 0,
+    "updates": 0,
+    "case": 51
+  }
+}
