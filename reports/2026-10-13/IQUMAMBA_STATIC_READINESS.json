@@ -1,0 +1,87 @@
+{
+  "status": "STATIC_READINESS_ONLY",
+  "time": "2026-10-13T09:51:07.213664+09:00",
+  "model": "IQUMamba1D",
+  "upstream": "https://github.com/wzdsqaa/IQUMamba1D",
+  "paper": "https://doi.org/10.1007/s44443-025-00440-5",
+  "source_sha256": {
+    "models/IQUMamba1D.py": "cb686410c7f85e85cef5dd6d5a19d55db2e47dea8044e66127b016e0342e8907",
+    "config/model_config_IQ_stage4_32768.yaml": "d6d609a06e6f84ae4ec47f18c2302ff1325b222b975abd6bcf7e570d523a2d01",
+    "requirements.txt": "844381ba09270fcd026c5dc0e954b010d0ac308b78acfc5c666a8165741d500f",
+    "LICENSE": "94cd46cf28d66cbe87be44938276e840f185fdaeb27763b2037c125cb500e09b"
+  },
+  "current_environment": {
+    "mamba_ssm": {
+      "installed": false,
+      "version": null
+    },
+    "causal_conv1d": {
+      "installed": false,
+      "version": null
+    },
+    "dynamic_network_architectures": {
+      "installed": false,
+      "version": null
+    },
+    "torch": {
+      "installed": true,
+      "version": "2.8.0"
+    },
+    "einops": {
+      "installed": true,
+      "version": "0.8.2"
+    }
+  },
+  "proposed_native_length": 63872,
+  "geometry_for_original_stage4_strides": [
+    {
+      "stage_zero_based": 0,
+      "length": 63872,
+      "channels": 32,
+      "mamba_present": false,
+      "channel_token": false
+    },
+    {
+      "stage_zero_based": 1,
+      "length": 31936,
+      "channels": 64,
+      "mamba_present": true,
+      "channel_token": false
+    },
+    {
+      "stage_zero_based": 2,
+      "length": 7984,
+      "channels": 128,
+      "mamba_present": false,
+      "channel_token": false
+    },
+    {
+      "stage_zero_based": 3,
+      "length": 998,
+      "channels": 256,
+      "mamba_present": true,
+      "channel_token": false
+    }
+  ],
+  "upstream_default_real_output_channels": 4,
+  "required_project_real_output_channels": 8,
+  "required_adaptation": [
+    "3 unordered complex sources plus background",
+    "same prediction-only mean-power context/count path",
+    "same waveform PIT and mixture consistency",
+    "same fixed B100 schedules, C8, selection and reporting",
+    "full-input CUDA forward/backward and memory verification"
+  ],
+  "new_dependencies_installed": false,
+  "model_imported": false,
+  "gpu_preflight_run": false,
+  "training_started": false,
+  "other_run_changed": false,
+  "notes": [
+    "Geometry derived from local official source/config; not executable verification.",
+    "Prepare compatible isolated dependencies before any GPU preflight.",
+    "Current torch2.8 differs from upstream requirements torch2.5.1+cu124.",
+    "Preserve upstream source and document adapter; do not call real Conv1d channels exact complex phase equivariance.",
+    "This file neither registers nor schedules a new training run."
+  ]
+}

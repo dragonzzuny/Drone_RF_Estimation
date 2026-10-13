@@ -1,0 +1,53 @@
+{
+  "status": "ACTUAL_TRAINING_CONFIRMED",
+  "time": "2026-10-13T10:05:42.335888+09:00",
+  "state_at_observation": {
+    "status": "TRAINING",
+    "pid": 780778,
+    "time": 1791853534.164244,
+    "epoch": 1,
+    "updates": 7,
+    "examples": 224,
+    "seconds": 156.3401448726654,
+    "estimated_training_seconds": 1675.0729807785578,
+    "recent_loss": [
+      4.366813987493515,
+      4.274841755628586,
+      0.919722281396389
+    ],
+    "learning_rate": 0.0001
+  },
+  "recovery_epoch": 1,
+  "recovery_updates": 5,
+  "optimizer_steps": [
+    5
+  ],
+  "parameter_tensors_changed_from_fresh_initialization": 183,
+  "all_parameters_and_optimizer_tensors_finite": true,
+  "protocol_sha256": "641019f0fa584d826217ddc033d46b856722b1afd53da171c84efa2cc025cb89",
+  "initial_sha256": "379d4647353a5c44281e005ec24c74fa3beb6769497618529f4cf9fc2608a062",
+  "recovery_sha256_at_observation": "188659b69c3f412a1898f381186b896e8c68f8dec7c62743979f40ff31d78559",
+  "full_initial_evaluation_cases": 630,
+  "gpu_pid_verified": 780778,
+  "desktop_notification_receipts": {
+    "training_start": {
+      "time": 1791853402.1615596,
+      "returncode": 0,
+      "delivery": "desktop_command_completed",
+      "chat_message_sent": false
+    }
+  },
+  "training_start_announced_in_chat": true,
+  "next_cpu_preparation": {
+    "stage": "FEATURES",
+    "role": "fit_block",
+    "epoch": 2,
+    "examples": 801,
+    "total": 2400,
+    "seconds": 152.90617060661316,
+    "pid": 806497
+  },
+  "completed_epochs": 0,
+  "completed_five_epoch_milestones": 0,
+  "automatic_chat_delivery_available": false
+}
