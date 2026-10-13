@@ -1,6 +1,53 @@
 {
   "status": "MONITORING",
-  "completed_five_epoch_reports": [],
+  "completed_five_epoch_reports": [
+    {
+      "epoch": 5,
+      "updates": 375,
+      "wavenet": {
+        "1": {
+          "mean_nmse": 0.079636461815386,
+          "mean_si_sdr": 26.449329898418355,
+          "weakest_nmse": 0.079636461815386,
+          "count_accuracy": 1.0
+        },
+        "2": {
+          "mean_nmse": 0.8248501968933917,
+          "mean_si_sdr": 0.6142473034963727,
+          "weakest_nmse": 1.4437932484891067,
+          "count_accuracy": 0.8857142857142857
+        },
+        "3": {
+          "mean_nmse": 0.7666602128890652,
+          "mean_si_sdr": -5.243166736004755,
+          "weakest_nmse": 1.0658038832835102,
+          "count_accuracy": 1.0
+        }
+      },
+      "unet": {
+        "1": {
+          "mean_nmse": 0.013449764325036764,
+          "mean_si_sdr": 25.489593803128344,
+          "weakest_nmse": 0.013449764325036764,
+          "count_accuracy": 1.0
+        },
+        "2": {
+          "mean_nmse": 0.5457478493656193,
+          "mean_si_sdr": 4.419092440396703,
+          "weakest_nmse": 0.9242050818650245,
+          "count_accuracy": 0.8761904761904762
+        },
+        "3": {
+          "mean_nmse": 0.726617533644005,
+          "mean_si_sdr": -2.1413332242183394,
+          "weakest_nmse": 1.0404088072587219,
+          "count_accuracy": 0.819047619047619
+        }
+      },
+      "wavenet_selected_epoch": 5,
+      "unet_selected_epoch": 5
+    }
+  ],
   "chat_delivery_performed": false,
   "scope": "Exact epochs, same B630; not independent recordings"
 }
